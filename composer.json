@@ -1,0 +1,21 @@
+{
+    "name": "cwm/broadworks-connector",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chase Miller",
+            "email": "chase@miller.sh"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CWM\\BroadWorksConnector\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-soap": "*",
+        "ext-xml": "*"
+    }
+}

@@ -11,7 +11,7 @@ class XmlUtils
      */
     public static function toArray(SimpleXMLElement $xml) {
         $result = json_decode(json_encode((array) $xml), 1);
-        $result = self::collapseAttributes($result);
+        $result = self::mergeAttributes($result);
 
         return $result;
     }
@@ -20,18 +20,13 @@ class XmlUtils
      * @param $arr
      * @return array
      */
-    private static function collapseAttributes($arr) {
+    private static function mergeAttributes($arr) {
         foreach ($arr as $key => $value) {
             if ($key === '@attributes') {
-                $collapsed = self::collapseAttributes($value);
-
-                foreach ($collapsed as $cKey => $cValue) {
-                    $arr[$cKey] = $cValue;
-                }
-
+                $arr = array_merge(self::mergeAttributes($value), $arr);
                 unset($arr[$key]);
             } else if (is_array($value)) {
-                $arr[$key] = self::collapseAttributes($value);
+                $arr[$key] = self::mergeAttributes($value);
             }
         }
 

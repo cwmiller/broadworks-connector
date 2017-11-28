@@ -127,9 +127,12 @@ EOL;
         $xml->addChild('sessionId', $this->sessionId, '');
         $commandXml = $xml->addChild('command', '', '');
         $commandXml->addAttribute('xmlns:xsi:type', $command);
+
         foreach ($args as $k => $v) {
             if (is_bool($v)) {
                 $v = $v === true ? 'true' : 'false';
+            } else {
+                $v = (string)$v;
             }
 
             $commandXml->addChild($k, $v);

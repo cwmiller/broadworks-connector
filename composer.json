@@ -1,5 +1,6 @@
 {
     "name": "cwm/broadworks-connector",
+    "description": "Simple library for connecting to BroadWorks APIs",
     "type": "library",
     "license": "MIT",
     "authors": [

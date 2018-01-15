@@ -18,5 +18,8 @@
         "php": ">=5.4.0",
         "ext-soap": "*",
         "ext-xml": "*"
+    },
+    "require-dev": {
+        "cwm/broadworks-xsd-converter": "dev-master"
     }
 }

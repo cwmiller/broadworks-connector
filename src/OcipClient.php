@@ -2,8 +2,19 @@
 
 namespace CWM\BroadWorksConnector;
 
-use CWM\BroadWorksConnector\Ocip\OcipResponseException;
-use SimpleXMLElement;
+use CWM\BroadWorksConnector\Ocip\Models\AuthenticationRequest;
+use CWM\BroadWorksConnector\Ocip\Models\AuthenticationResponse;
+use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
+use CWM\BroadWorksConnector\Ocip\Models\C\OCICommand;
+use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
+use CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse;
+use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
+use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
+use CWM\BroadWorksConnector\Ocip\OcipBadResponseException;
+use CWM\BroadWorksConnector\Ocip\OcipLoginException;
+use DOMDocument;
+use DOMElement;
+use ReflectionClass;
 use SoapClient;
 
 /**
@@ -28,9 +39,6 @@ class OcipClient
     /** @var bool */
     private $loggedIn = false;
 
-    /** @var array|null */
-    private $userDetails = null;
-
     /**
      * @param string $wsdlUrl
      * @param string $username
@@ -45,19 +53,31 @@ class OcipClient
     }
 
     /**
-     * @param string $command
-     * @param array $args
-     * @param string|null $echo A string can be passed to the API that will be returned in the response. Why you would want this, I do not know.
-     * @return array
-     * @throws \CWM\BroadWorksConnector\OCIP\OcipResponseException
+     * @param OCICommand $command
+     * @return OCIResponse
+     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
      */
-    public function call($command, array $args = [], $echo = null)
+    public function call(OCICommand $command)
     {
         if (!$this->loggedIn) {
             $this->login();
         }
 
-        return $this->executeCommand($command, $args, $echo);
+        return $this->executeCommands([$command])[0];
+    }
+
+    /**
+     * @param OCICommand[] $commands
+     * @return OCIResponse[]
+     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
+     */
+    public function callAll(array $commands)
+    {
+        if (!$this->loggedIn) {
+            $this->login();
+        }
+
+        return $this->executeCommands($commands);
     }
 
     /**
@@ -68,113 +88,106 @@ class OcipClient
         return $this->loggedIn;
     }
 
-    /**
-     * @return array|null
-     */
-    public function getUserDetails()
-    {
-        return $this->userDetails;
-    }
-
     public function login()
     {
         if (!$this->loggedIn) {
-            $response = $this->executeCommand('AuthenticationRequest', [
-                'userId' => $this->username
-            ]);
+            $authRequest = (new AuthenticationRequest())
+                ->setUserId($this->username);
 
-            if (!isset($response['nonce'])) {
-                throw new OcipResponseException('AuthenticationRequest did not return a nonce.');
+            /** @var AuthenticationResponse|ErrorResponse $authResponse */
+            $authResponse = $this->executeCommands([$authRequest])[0];
+
+            if ($authResponse instanceof ErrorResponse) {
+                throw new OcipLoginException($authResponse->getSummary());
             }
 
-            $response = $this->executeCommand('LoginRequest14sp4', [
-                'userId' => $this->username,
-                'signedPassword' => md5($response['nonce'] . ':' . sha1($this->password))
-            ]);
+            $loginRequest = (new LoginRequest14sp4())
+                ->setUserId($this->username)
+                ->setSignedPassword(md5($authResponse->getNonce() . ':' . sha1($this->password)));
 
-            // It's pretty safe to assume we're logged in at this point, since any authentication failures
-            // would have resulted in an exception.
+            /** @var LoginResponse14sp4|ErrorResponse $authResponse */
+            $loginResponse = $this->executeCommands([$loginRequest])[0];
 
-            $this->userDetails = $response;
-            unset($this->userDetails['echo']);
+            if ($loginResponse instanceof ErrorResponse) {
+                throw new OcipLoginException($loginResponse->getSummary());
+            }
 
             $this->loggedIn = true;
         }
     }
 
     /**
-     * @param string $command
-     * @param array $args
-     * @param string|null $echo
-     * @return array
-     * @throws \CWM\BroadWorksConnector\OCIP\OcipResponseException
+     * @param OCICommand[] $commands
+     * @return OCIResponse[]
+     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
      */
-    private function executeCommand($command, array $args = [], $echo = null)
+    private function executeCommands(array $commands)
     {
-        $xml = $this->buildCommandXml($command, $args, $echo);
+        $xml = $this->buildCommandXml($commands);
 
-        $response = $this->soap->processOCIMessage(['in0' => $xml->asXML()]);
+        $response = $this->soap->processOCIMessage(['in0' => $xml->saveXML()]);
 
         if (!isset($response->processOCIMessageReturn)) {
-            throw new OcipResponseException('No processOCIMessageReturn in response.');
+            throw new OcipBadResponseException('No processOCIMessageReturn in response.');
         }
 
-        $xmlResponse = @new SimpleXMLElement($response->processOCIMessageReturn);
-        $arrResponse = XmlUtils::toArray($xmlResponse);
+        $document = new DOMDocument();
+        @$document->loadXML($response->processOCIMessageReturn);
 
-        if (!isset($arrResponse['command'])) {
-            throw new OcipResponseException('No command in response.');
+        $broadsoftDocumentElement = $document->firstChild;
+
+        if (!$broadsoftDocumentElement instanceof DOMElement || $broadsoftDocumentElement->localName !== 'BroadsoftDocument') {
+            throw new OcipBadResponseException('Response doesn\'t begin with a BroadsoftDocument element.');
         }
 
-        $command = $arrResponse['command'];
+        /** @var OCIMessage $broadsoftDocument */
+        $broadsoftDocument = XmlUtils::fromXml($broadsoftDocumentElement, OCIMessage::class, '\\CWM\\BroadWorksConnector\\Ocip\\Models\\');
 
-        if (isset($command['type']) && $command['type'] === 'Error') {
-            $summary = isset($command['summary']) ? $command['summary'] : 'Unknown error';
-            $code = null;
-
-            if (preg_match('/^\[Error (\d+)\]/', $summary, $matches)) {
-                $code = (int)$matches[1];
-                $summary = trim(preg_replace('/^\[Error (\d+)\]/', '', $summary));
-            }
-
-            throw new OcipResponseException($summary, $code, isset($command['detail']) ? $command['detail'] : null);
+        if ($broadsoftDocument === null) {
+            throw new OcipBadResponseException('Unable to serialize response object.');
         }
 
-        return $command;
+        $commandResults = $broadsoftDocument->getCommand();
+
+        if (count($commandResults) === 0) {
+            throw new OcipBadResponseException('Response doesn\'t contain any commands.');
+        }
+
+        return $commandResults;
     }
 
     /**
-     * @param string $command
-     * @param array $args
-     * @param string|null $echo
-     * @return SimpleXMLElement
+     * @param OCICommand[] $commands
+     * @return DOMDocument
      */
-    private function buildCommandXml($command, array $args = [], $echo = null)
+    private function buildCommandXml(array $commands)
     {
-        $template = <<<EOL
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<BroadsoftDocument protocol="OCI" xmlns="C" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></BroadsoftDocument>
-EOL;
+        $document = new DOMDocument();
 
-        $xml = @new SimpleXMLElement($template);
-        $xml->addChild('sessionId', $this->sessionId, '');
+        $broadsoftDocument = $document->createElement('BroadsoftDocument');
+        $broadsoftDocument->setAttribute('protocol', 'OCI');
+        $broadsoftDocument->setAttribute('xmlns', 'C');
+        $broadsoftDocument->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
 
-        $commandXml = $xml->addChild('command', '', '');
-        $commandXml->addAttribute('xmlns:xsi:type', $command);
-        if ($echo !== null) {
-            $commandXml->addAttribute('echo', $echo, '');
+        $sessionIdElement = $document->createElement('sessionId', $this->sessionId);
+        $sessionIdElement->setAttribute('xmlns', '');
+
+        $broadsoftDocument->appendChild($sessionIdElement);
+
+        $document->appendChild($broadsoftDocument);
+
+        foreach ($commands as $command) {
+            $refClass = new ReflectionClass($command);
+
+            $commandElement = $document->createElement('command');
+            $commandElement->setAttribute('xmlns', '');
+            $commandElement->setAttribute('xsi:type', $refClass->getShortName());
+
+            $broadsoftDocument->appendChild($commandElement);
+
+            XmlUtils::toXml($command, $commandElement, $document);
         }
 
-        foreach ($args as $k => $v) {
-            if (is_bool($v)) {
-                $v = $v === true ? 'true' : 'false';
-            } else {
-                $v = (string)$v;
-            }
-
-            $commandXml->addChild($k, $v);
-        }
-
-        return $xml;
+        return $document;
     }
 }

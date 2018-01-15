@@ -1,0 +1,467 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * GroupRoutePointGetInstanceResponse
+ *
+ * Response to GroupRoutePointGetInstanceRequest.
+ *         
+ *         Replaced by: GroupRoutePointGetInstanceResponse19sp1
+ */
+class GroupRoutePointGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
+{
+
+    /**
+     * @ElementName serviceInstanceProfile
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
+     */
+    private $serviceInstanceProfile = null;
+
+    /**
+     * @ElementName networkClassOfService
+     * @var string|null
+     */
+    private $networkClassOfService = null;
+
+    /**
+     * @ElementName externalPreferredAudioCodec
+     * @var string|null
+     */
+    private $externalPreferredAudioCodec = null;
+
+    /**
+     * @ElementName internalPreferredAudioCodec
+     * @var string|null
+     */
+    private $internalPreferredAudioCodec = null;
+
+    /**
+     * @ElementName queueLength
+     * @var int|null
+     */
+    private $queueLength = null;
+
+    /**
+     * @ElementName noAnswerTimeoutRings
+     * @var int|null
+     */
+    private $noAnswerTimeoutRings = null;
+
+    /**
+     * @ElementName enableVideo
+     * @var bool|null
+     */
+    private $enableVideo = null;
+
+    /**
+     * @ElementName playRingingWhenOfferingCall
+     * @var bool|null
+     */
+    private $playRingingWhenOfferingCall = null;
+
+    /**
+     * @ElementName overrideAgentWrapUpTime
+     * @var bool|null
+     */
+    private $overrideAgentWrapUpTime = null;
+
+    /**
+     * @ElementName wrapUpSeconds
+     * @var int|null
+     */
+    private $wrapUpSeconds = null;
+
+    /**
+     * @ElementName enableAutomaticStateChangeForAgents
+     * @var bool|null
+     */
+    private $enableAutomaticStateChangeForAgents = null;
+
+    /**
+     * @ElementName agentStateAfterCall
+     * @var string|null
+     */
+    private $agentStateAfterCall = null;
+
+    /**
+     * @ElementName agentUnavailableCode
+     * @var string|null
+     */
+    private $agentUnavailableCode = null;
+
+    /**
+     * @ElementName forceDeliveryOfCalls
+     * @var bool|null
+     */
+    private $forceDeliveryOfCalls = null;
+
+    /**
+     * @ElementName forceDeliveryWaitTimeSeconds
+     * @var int|null
+     */
+    private $forceDeliveryWaitTimeSeconds = null;
+
+    /**
+     * Getter for serviceInstanceProfile
+     *
+     * @ElementName serviceInstanceProfile
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
+     */
+    public function getServiceInstanceProfile()
+    {
+        return $this->serviceInstanceProfile;
+    }
+
+    /**
+     * Setter for serviceInstanceProfile
+     *
+     * @ElementName serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null $serviceInstanceProfile
+     * @return $this
+     */
+    public function setServiceInstanceProfile($serviceInstanceProfile)
+    {
+        $this->serviceInstanceProfile = $serviceInstanceProfile;
+        return $this;
+    }
+
+    /**
+     * Getter for networkClassOfService
+     *
+     * @ElementName networkClassOfService
+     * @return string|null
+     */
+    public function getNetworkClassOfService()
+    {
+        return $this->networkClassOfService;
+    }
+
+    /**
+     * Setter for networkClassOfService
+     *
+     * @ElementName networkClassOfService
+     * @param string|null $networkClassOfService
+     * @return $this
+     */
+    public function setNetworkClassOfService($networkClassOfService)
+    {
+        $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * Getter for externalPreferredAudioCodec
+     *
+     * @ElementName externalPreferredAudioCodec
+     * @return string|null
+     */
+    public function getExternalPreferredAudioCodec()
+    {
+        return $this->externalPreferredAudioCodec;
+    }
+
+    /**
+     * Setter for externalPreferredAudioCodec
+     *
+     * @ElementName externalPreferredAudioCodec
+     * @param string|null $externalPreferredAudioCodec
+     * @return $this
+     */
+    public function setExternalPreferredAudioCodec($externalPreferredAudioCodec)
+    {
+        $this->externalPreferredAudioCodec = $externalPreferredAudioCodec;
+        return $this;
+    }
+
+    /**
+     * Getter for internalPreferredAudioCodec
+     *
+     * @ElementName internalPreferredAudioCodec
+     * @return string|null
+     */
+    public function getInternalPreferredAudioCodec()
+    {
+        return $this->internalPreferredAudioCodec;
+    }
+
+    /**
+     * Setter for internalPreferredAudioCodec
+     *
+     * @ElementName internalPreferredAudioCodec
+     * @param string|null $internalPreferredAudioCodec
+     * @return $this
+     */
+    public function setInternalPreferredAudioCodec($internalPreferredAudioCodec)
+    {
+        $this->internalPreferredAudioCodec = $internalPreferredAudioCodec;
+        return $this;
+    }
+
+    /**
+     * Getter for queueLength
+     *
+     * @ElementName queueLength
+     * @return int|null
+     */
+    public function getQueueLength()
+    {
+        return $this->queueLength;
+    }
+
+    /**
+     * Setter for queueLength
+     *
+     * @ElementName queueLength
+     * @param int|null $queueLength
+     * @return $this
+     */
+    public function setQueueLength($queueLength)
+    {
+        $this->queueLength = $queueLength;
+        return $this;
+    }
+
+    /**
+     * Getter for noAnswerTimeoutRings
+     *
+     * @ElementName noAnswerTimeoutRings
+     * @return int|null
+     */
+    public function getNoAnswerTimeoutRings()
+    {
+        return $this->noAnswerTimeoutRings;
+    }
+
+    /**
+     * Setter for noAnswerTimeoutRings
+     *
+     * @ElementName noAnswerTimeoutRings
+     * @param int|null $noAnswerTimeoutRings
+     * @return $this
+     */
+    public function setNoAnswerTimeoutRings($noAnswerTimeoutRings)
+    {
+        $this->noAnswerTimeoutRings = $noAnswerTimeoutRings;
+        return $this;
+    }
+
+    /**
+     * Getter for enableVideo
+     *
+     * @ElementName enableVideo
+     * @return bool|null
+     */
+    public function getEnableVideo()
+    {
+        return $this->enableVideo;
+    }
+
+    /**
+     * Setter for enableVideo
+     *
+     * @ElementName enableVideo
+     * @param bool|null $enableVideo
+     * @return $this
+     */
+    public function setEnableVideo($enableVideo)
+    {
+        $this->enableVideo = $enableVideo;
+        return $this;
+    }
+
+    /**
+     * Getter for playRingingWhenOfferingCall
+     *
+     * @ElementName playRingingWhenOfferingCall
+     * @return bool|null
+     */
+    public function getPlayRingingWhenOfferingCall()
+    {
+        return $this->playRingingWhenOfferingCall;
+    }
+
+    /**
+     * Setter for playRingingWhenOfferingCall
+     *
+     * @ElementName playRingingWhenOfferingCall
+     * @param bool|null $playRingingWhenOfferingCall
+     * @return $this
+     */
+    public function setPlayRingingWhenOfferingCall($playRingingWhenOfferingCall)
+    {
+        $this->playRingingWhenOfferingCall = $playRingingWhenOfferingCall;
+        return $this;
+    }
+
+    /**
+     * Getter for overrideAgentWrapUpTime
+     *
+     * @ElementName overrideAgentWrapUpTime
+     * @return bool|null
+     */
+    public function getOverrideAgentWrapUpTime()
+    {
+        return $this->overrideAgentWrapUpTime;
+    }
+
+    /**
+     * Setter for overrideAgentWrapUpTime
+     *
+     * @ElementName overrideAgentWrapUpTime
+     * @param bool|null $overrideAgentWrapUpTime
+     * @return $this
+     */
+    public function setOverrideAgentWrapUpTime($overrideAgentWrapUpTime)
+    {
+        $this->overrideAgentWrapUpTime = $overrideAgentWrapUpTime;
+        return $this;
+    }
+
+    /**
+     * Getter for wrapUpSeconds
+     *
+     * @ElementName wrapUpSeconds
+     * @return int|null
+     */
+    public function getWrapUpSeconds()
+    {
+        return $this->wrapUpSeconds;
+    }
+
+    /**
+     * Setter for wrapUpSeconds
+     *
+     * @ElementName wrapUpSeconds
+     * @param int|null $wrapUpSeconds
+     * @return $this
+     */
+    public function setWrapUpSeconds($wrapUpSeconds)
+    {
+        $this->wrapUpSeconds = $wrapUpSeconds;
+        return $this;
+    }
+
+    /**
+     * Getter for enableAutomaticStateChangeForAgents
+     *
+     * @ElementName enableAutomaticStateChangeForAgents
+     * @return bool|null
+     */
+    public function getEnableAutomaticStateChangeForAgents()
+    {
+        return $this->enableAutomaticStateChangeForAgents;
+    }
+
+    /**
+     * Setter for enableAutomaticStateChangeForAgents
+     *
+     * @ElementName enableAutomaticStateChangeForAgents
+     * @param bool|null $enableAutomaticStateChangeForAgents
+     * @return $this
+     */
+    public function setEnableAutomaticStateChangeForAgents($enableAutomaticStateChangeForAgents)
+    {
+        $this->enableAutomaticStateChangeForAgents = $enableAutomaticStateChangeForAgents;
+        return $this;
+    }
+
+    /**
+     * Getter for agentStateAfterCall
+     *
+     * @ElementName agentStateAfterCall
+     * @return string|null
+     */
+    public function getAgentStateAfterCall()
+    {
+        return $this->agentStateAfterCall;
+    }
+
+    /**
+     * Setter for agentStateAfterCall
+     *
+     * @ElementName agentStateAfterCall
+     * @param string|null $agentStateAfterCall
+     * @return $this
+     */
+    public function setAgentStateAfterCall($agentStateAfterCall)
+    {
+        $this->agentStateAfterCall = $agentStateAfterCall;
+        return $this;
+    }
+
+    /**
+     * Getter for agentUnavailableCode
+     *
+     * @ElementName agentUnavailableCode
+     * @return string|null
+     */
+    public function getAgentUnavailableCode()
+    {
+        return $this->agentUnavailableCode;
+    }
+
+    /**
+     * Setter for agentUnavailableCode
+     *
+     * @ElementName agentUnavailableCode
+     * @param string|null $agentUnavailableCode
+     * @return $this
+     */
+    public function setAgentUnavailableCode($agentUnavailableCode)
+    {
+        $this->agentUnavailableCode = $agentUnavailableCode;
+        return $this;
+    }
+
+    /**
+     * Getter for forceDeliveryOfCalls
+     *
+     * @ElementName forceDeliveryOfCalls
+     * @return bool|null
+     */
+    public function getForceDeliveryOfCalls()
+    {
+        return $this->forceDeliveryOfCalls;
+    }
+
+    /**
+     * Setter for forceDeliveryOfCalls
+     *
+     * @ElementName forceDeliveryOfCalls
+     * @param bool|null $forceDeliveryOfCalls
+     * @return $this
+     */
+    public function setForceDeliveryOfCalls($forceDeliveryOfCalls)
+    {
+        $this->forceDeliveryOfCalls = $forceDeliveryOfCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for forceDeliveryWaitTimeSeconds
+     *
+     * @ElementName forceDeliveryWaitTimeSeconds
+     * @return int|null
+     */
+    public function getForceDeliveryWaitTimeSeconds()
+    {
+        return $this->forceDeliveryWaitTimeSeconds;
+    }
+
+    /**
+     * Setter for forceDeliveryWaitTimeSeconds
+     *
+     * @ElementName forceDeliveryWaitTimeSeconds
+     * @param int|null $forceDeliveryWaitTimeSeconds
+     * @return $this
+     */
+    public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
+    {
+        $this->forceDeliveryWaitTimeSeconds = $forceDeliveryWaitTimeSeconds;
+        return $this;
+    }
+
+
+}
+

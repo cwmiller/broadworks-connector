@@ -1,0 +1,660 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * UserBroadWorksMobilityMobileIdentityGetResponse
+ *
+ * Response to a UserBroadWorksMobilityMobileIdentityGetRequest.
+ */
+class UserBroadWorksMobilityMobileIdentityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
+{
+
+    /**
+     * @ElementName description
+     * @var string|null
+     */
+    private $description = null;
+
+    /**
+     * @ElementName isPrimary
+     * @var bool|null
+     */
+    private $isPrimary = null;
+
+    /**
+     * @ElementName enableAlerting
+     * @var bool|null
+     */
+    private $enableAlerting = null;
+
+    /**
+     * @ElementName alertAgentCalls
+     * @var bool|null
+     */
+    private $alertAgentCalls = null;
+
+    /**
+     * @ElementName alertClickToDialCalls
+     * @var bool|null
+     */
+    private $alertClickToDialCalls = null;
+
+    /**
+     * @ElementName alertGroupPagingCalls
+     * @var bool|null
+     */
+    private $alertGroupPagingCalls = null;
+
+    /**
+     * @ElementName useMobilityCallingLineID
+     * @var bool|null
+     */
+    private $useMobilityCallingLineID = null;
+
+    /**
+     * @ElementName enableDiversionInhibitor
+     * @var bool|null
+     */
+    private $enableDiversionInhibitor = null;
+
+    /**
+     * @ElementName requireAnswerConfirmation
+     * @var bool|null
+     */
+    private $requireAnswerConfirmation = null;
+
+    /**
+     * @ElementName broadworksCallControl
+     * @var bool|null
+     */
+    private $broadworksCallControl = null;
+
+    /**
+     * @ElementName useSettingLevel
+     * @var string|null
+     */
+    private $useSettingLevel = null;
+
+    /**
+     * @ElementName denyCallOriginations
+     * @var bool|null
+     */
+    private $denyCallOriginations = null;
+
+    /**
+     * @ElementName denyCallTerminations
+     * @var bool|null
+     */
+    private $denyCallTerminations = null;
+
+    /**
+     * @ElementName devicesToRing
+     * @var string|null
+     */
+    private $devicesToRing = null;
+
+    /**
+     * @ElementName includeSharedCallAppearance
+     * @var bool|null
+     */
+    private $includeSharedCallAppearance = null;
+
+    /**
+     * @ElementName includeBroadworksAnywhere
+     * @var bool|null
+     */
+    private $includeBroadworksAnywhere = null;
+
+    /**
+     * @ElementName includeExecutiveAssistant
+     * @var bool|null
+     */
+    private $includeExecutiveAssistant = null;
+
+    /**
+     * @ElementName mobileNumberAlerted
+     * @var string[]
+     */
+    private $mobileNumberAlerted = array(
+        
+    );
+
+    /**
+     * @ElementName enableCallAnchoring
+     * @var bool|null
+     */
+    private $enableCallAnchoring = null;
+
+    /**
+     * @ElementName timeSchedule
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     */
+    private $timeSchedule = null;
+
+    /**
+     * @ElementName holidaySchedule
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     */
+    private $holidaySchedule = null;
+
+    /**
+     * Getter for description
+     *
+     * @ElementName description
+     * @return string|null
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * Setter for description
+     *
+     * @ElementName description
+     * @param string|null $description
+     * @return $this
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * Getter for isPrimary
+     *
+     * @ElementName isPrimary
+     * @return bool|null
+     */
+    public function getIsPrimary()
+    {
+        return $this->isPrimary;
+    }
+
+    /**
+     * Setter for isPrimary
+     *
+     * @ElementName isPrimary
+     * @param bool|null $isPrimary
+     * @return $this
+     */
+    public function setIsPrimary($isPrimary)
+    {
+        $this->isPrimary = $isPrimary;
+        return $this;
+    }
+
+    /**
+     * Getter for enableAlerting
+     *
+     * @ElementName enableAlerting
+     * @return bool|null
+     */
+    public function getEnableAlerting()
+    {
+        return $this->enableAlerting;
+    }
+
+    /**
+     * Setter for enableAlerting
+     *
+     * @ElementName enableAlerting
+     * @param bool|null $enableAlerting
+     * @return $this
+     */
+    public function setEnableAlerting($enableAlerting)
+    {
+        $this->enableAlerting = $enableAlerting;
+        return $this;
+    }
+
+    /**
+     * Getter for alertAgentCalls
+     *
+     * @ElementName alertAgentCalls
+     * @return bool|null
+     */
+    public function getAlertAgentCalls()
+    {
+        return $this->alertAgentCalls;
+    }
+
+    /**
+     * Setter for alertAgentCalls
+     *
+     * @ElementName alertAgentCalls
+     * @param bool|null $alertAgentCalls
+     * @return $this
+     */
+    public function setAlertAgentCalls($alertAgentCalls)
+    {
+        $this->alertAgentCalls = $alertAgentCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for alertClickToDialCalls
+     *
+     * @ElementName alertClickToDialCalls
+     * @return bool|null
+     */
+    public function getAlertClickToDialCalls()
+    {
+        return $this->alertClickToDialCalls;
+    }
+
+    /**
+     * Setter for alertClickToDialCalls
+     *
+     * @ElementName alertClickToDialCalls
+     * @param bool|null $alertClickToDialCalls
+     * @return $this
+     */
+    public function setAlertClickToDialCalls($alertClickToDialCalls)
+    {
+        $this->alertClickToDialCalls = $alertClickToDialCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for alertGroupPagingCalls
+     *
+     * @ElementName alertGroupPagingCalls
+     * @return bool|null
+     */
+    public function getAlertGroupPagingCalls()
+    {
+        return $this->alertGroupPagingCalls;
+    }
+
+    /**
+     * Setter for alertGroupPagingCalls
+     *
+     * @ElementName alertGroupPagingCalls
+     * @param bool|null $alertGroupPagingCalls
+     * @return $this
+     */
+    public function setAlertGroupPagingCalls($alertGroupPagingCalls)
+    {
+        $this->alertGroupPagingCalls = $alertGroupPagingCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for useMobilityCallingLineID
+     *
+     * @ElementName useMobilityCallingLineID
+     * @return bool|null
+     */
+    public function getUseMobilityCallingLineID()
+    {
+        return $this->useMobilityCallingLineID;
+    }
+
+    /**
+     * Setter for useMobilityCallingLineID
+     *
+     * @ElementName useMobilityCallingLineID
+     * @param bool|null $useMobilityCallingLineID
+     * @return $this
+     */
+    public function setUseMobilityCallingLineID($useMobilityCallingLineID)
+    {
+        $this->useMobilityCallingLineID = $useMobilityCallingLineID;
+        return $this;
+    }
+
+    /**
+     * Getter for enableDiversionInhibitor
+     *
+     * @ElementName enableDiversionInhibitor
+     * @return bool|null
+     */
+    public function getEnableDiversionInhibitor()
+    {
+        return $this->enableDiversionInhibitor;
+    }
+
+    /**
+     * Setter for enableDiversionInhibitor
+     *
+     * @ElementName enableDiversionInhibitor
+     * @param bool|null $enableDiversionInhibitor
+     * @return $this
+     */
+    public function setEnableDiversionInhibitor($enableDiversionInhibitor)
+    {
+        $this->enableDiversionInhibitor = $enableDiversionInhibitor;
+        return $this;
+    }
+
+    /**
+     * Getter for requireAnswerConfirmation
+     *
+     * @ElementName requireAnswerConfirmation
+     * @return bool|null
+     */
+    public function getRequireAnswerConfirmation()
+    {
+        return $this->requireAnswerConfirmation;
+    }
+
+    /**
+     * Setter for requireAnswerConfirmation
+     *
+     * @ElementName requireAnswerConfirmation
+     * @param bool|null $requireAnswerConfirmation
+     * @return $this
+     */
+    public function setRequireAnswerConfirmation($requireAnswerConfirmation)
+    {
+        $this->requireAnswerConfirmation = $requireAnswerConfirmation;
+        return $this;
+    }
+
+    /**
+     * Getter for broadworksCallControl
+     *
+     * @ElementName broadworksCallControl
+     * @return bool|null
+     */
+    public function getBroadworksCallControl()
+    {
+        return $this->broadworksCallControl;
+    }
+
+    /**
+     * Setter for broadworksCallControl
+     *
+     * @ElementName broadworksCallControl
+     * @param bool|null $broadworksCallControl
+     * @return $this
+     */
+    public function setBroadworksCallControl($broadworksCallControl)
+    {
+        $this->broadworksCallControl = $broadworksCallControl;
+        return $this;
+    }
+
+    /**
+     * Getter for useSettingLevel
+     *
+     * @ElementName useSettingLevel
+     * @return string|null
+     */
+    public function getUseSettingLevel()
+    {
+        return $this->useSettingLevel;
+    }
+
+    /**
+     * Setter for useSettingLevel
+     *
+     * @ElementName useSettingLevel
+     * @param string|null $useSettingLevel
+     * @return $this
+     */
+    public function setUseSettingLevel($useSettingLevel)
+    {
+        $this->useSettingLevel = $useSettingLevel;
+        return $this;
+    }
+
+    /**
+     * Getter for denyCallOriginations
+     *
+     * @ElementName denyCallOriginations
+     * @return bool|null
+     */
+    public function getDenyCallOriginations()
+    {
+        return $this->denyCallOriginations;
+    }
+
+    /**
+     * Setter for denyCallOriginations
+     *
+     * @ElementName denyCallOriginations
+     * @param bool|null $denyCallOriginations
+     * @return $this
+     */
+    public function setDenyCallOriginations($denyCallOriginations)
+    {
+        $this->denyCallOriginations = $denyCallOriginations;
+        return $this;
+    }
+
+    /**
+     * Getter for denyCallTerminations
+     *
+     * @ElementName denyCallTerminations
+     * @return bool|null
+     */
+    public function getDenyCallTerminations()
+    {
+        return $this->denyCallTerminations;
+    }
+
+    /**
+     * Setter for denyCallTerminations
+     *
+     * @ElementName denyCallTerminations
+     * @param bool|null $denyCallTerminations
+     * @return $this
+     */
+    public function setDenyCallTerminations($denyCallTerminations)
+    {
+        $this->denyCallTerminations = $denyCallTerminations;
+        return $this;
+    }
+
+    /**
+     * Getter for devicesToRing
+     *
+     * @ElementName devicesToRing
+     * @return string|null
+     */
+    public function getDevicesToRing()
+    {
+        return $this->devicesToRing;
+    }
+
+    /**
+     * Setter for devicesToRing
+     *
+     * @ElementName devicesToRing
+     * @param string|null $devicesToRing
+     * @return $this
+     */
+    public function setDevicesToRing($devicesToRing)
+    {
+        $this->devicesToRing = $devicesToRing;
+        return $this;
+    }
+
+    /**
+     * Getter for includeSharedCallAppearance
+     *
+     * @ElementName includeSharedCallAppearance
+     * @return bool|null
+     */
+    public function getIncludeSharedCallAppearance()
+    {
+        return $this->includeSharedCallAppearance;
+    }
+
+    /**
+     * Setter for includeSharedCallAppearance
+     *
+     * @ElementName includeSharedCallAppearance
+     * @param bool|null $includeSharedCallAppearance
+     * @return $this
+     */
+    public function setIncludeSharedCallAppearance($includeSharedCallAppearance)
+    {
+        $this->includeSharedCallAppearance = $includeSharedCallAppearance;
+        return $this;
+    }
+
+    /**
+     * Getter for includeBroadworksAnywhere
+     *
+     * @ElementName includeBroadworksAnywhere
+     * @return bool|null
+     */
+    public function getIncludeBroadworksAnywhere()
+    {
+        return $this->includeBroadworksAnywhere;
+    }
+
+    /**
+     * Setter for includeBroadworksAnywhere
+     *
+     * @ElementName includeBroadworksAnywhere
+     * @param bool|null $includeBroadworksAnywhere
+     * @return $this
+     */
+    public function setIncludeBroadworksAnywhere($includeBroadworksAnywhere)
+    {
+        $this->includeBroadworksAnywhere = $includeBroadworksAnywhere;
+        return $this;
+    }
+
+    /**
+     * Getter for includeExecutiveAssistant
+     *
+     * @ElementName includeExecutiveAssistant
+     * @return bool|null
+     */
+    public function getIncludeExecutiveAssistant()
+    {
+        return $this->includeExecutiveAssistant;
+    }
+
+    /**
+     * Setter for includeExecutiveAssistant
+     *
+     * @ElementName includeExecutiveAssistant
+     * @param bool|null $includeExecutiveAssistant
+     * @return $this
+     */
+    public function setIncludeExecutiveAssistant($includeExecutiveAssistant)
+    {
+        $this->includeExecutiveAssistant = $includeExecutiveAssistant;
+        return $this;
+    }
+
+    /**
+     * Getter for mobileNumberAlerted
+     *
+     * @ElementName mobileNumberAlerted
+     * @return string[]
+     */
+    public function getMobileNumberAlerted()
+    {
+        return $this->mobileNumberAlerted;
+    }
+
+    /**
+     * Setter for mobileNumberAlerted
+     *
+     * @ElementName mobileNumberAlerted
+     * @param string[] $mobileNumberAlerted
+     * @return $this
+     */
+    public function setMobileNumberAlerted($mobileNumberAlerted)
+    {
+        $this->mobileNumberAlerted = $mobileNumberAlerted;
+        return $this;
+    }
+
+    /**
+     * Adder for mobileNumberAlerted
+     *
+     * @ElementName mobileNumberAlerted
+     * @param string $mobileNumberAlerted
+     * @return $this
+     */
+    public function addMobileNumberAlerted($mobileNumberAlerted)
+    {
+        $this->mobileNumberAlerted []= $mobileNumberAlerted;
+        return $this;
+    }
+
+    /**
+     * Getter for enableCallAnchoring
+     *
+     * @ElementName enableCallAnchoring
+     * @return bool|null
+     */
+    public function getEnableCallAnchoring()
+    {
+        return $this->enableCallAnchoring;
+    }
+
+    /**
+     * Setter for enableCallAnchoring
+     *
+     * @ElementName enableCallAnchoring
+     * @param bool|null $enableCallAnchoring
+     * @return $this
+     */
+    public function setEnableCallAnchoring($enableCallAnchoring)
+    {
+        $this->enableCallAnchoring = $enableCallAnchoring;
+        return $this;
+    }
+
+    /**
+     * Getter for timeSchedule
+     *
+     * @ElementName timeSchedule
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     */
+    public function getTimeSchedule()
+    {
+        return $this->timeSchedule;
+    }
+
+    /**
+     * Setter for timeSchedule
+     *
+     * @ElementName timeSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $timeSchedule
+     * @return $this
+     */
+    public function setTimeSchedule($timeSchedule)
+    {
+        $this->timeSchedule = $timeSchedule;
+        return $this;
+    }
+
+    /**
+     * Getter for holidaySchedule
+     *
+     * @ElementName holidaySchedule
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     */
+    public function getHolidaySchedule()
+    {
+        return $this->holidaySchedule;
+    }
+
+    /**
+     * Setter for holidaySchedule
+     *
+     * @ElementName holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $holidaySchedule
+     * @return $this
+     */
+    public function setHolidaySchedule($holidaySchedule)
+    {
+        $this->holidaySchedule = $holidaySchedule;
+        return $this;
+    }
+
+
+}
+

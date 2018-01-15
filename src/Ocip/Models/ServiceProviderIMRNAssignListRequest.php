@@ -1,0 +1,138 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * ServiceProviderIMRNAssignListRequest
+ *
+ * Assign a list of service provider DNs to the IMRN pool. It is possible to assign
+ * either: a single DN,
+ *         or a list of DNs, or a range of DNs, or any combination thereof.
+ *         The response is either SuccessResponse or ErrorResponse.
+ */
+class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
+{
+
+    /**
+     * @ElementName serviceProviderId
+     * @var string|null
+     */
+    private $serviceProviderId = null;
+
+    /**
+     * @ElementName imrn
+     * @var string[]
+     */
+    private $imrn = array(
+        
+    );
+
+    /**
+     * @ElementName imrnRange
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
+     */
+    private $imrnRange = array(
+        
+    );
+
+    /**
+     * Getter for serviceProviderId
+     *
+     * @ElementName serviceProviderId
+     * @return string|null
+     */
+    public function getServiceProviderId()
+    {
+        return $this->serviceProviderId;
+    }
+
+    /**
+     * Setter for serviceProviderId
+     *
+     * @ElementName serviceProviderId
+     * @param string|null $serviceProviderId
+     * @return $this
+     */
+    public function setServiceProviderId($serviceProviderId)
+    {
+        $this->serviceProviderId = $serviceProviderId;
+        return $this;
+    }
+
+    /**
+     * Getter for imrn
+     *
+     * @ElementName imrn
+     * @return string[]
+     */
+    public function getImrn()
+    {
+        return $this->imrn;
+    }
+
+    /**
+     * Setter for imrn
+     *
+     * @ElementName imrn
+     * @param string[] $imrn
+     * @return $this
+     */
+    public function setImrn($imrn)
+    {
+        $this->imrn = $imrn;
+        return $this;
+    }
+
+    /**
+     * Adder for imrn
+     *
+     * @ElementName imrn
+     * @param string $imrn
+     * @return $this
+     */
+    public function addImrn($imrn)
+    {
+        $this->imrn []= $imrn;
+        return $this;
+    }
+
+    /**
+     * Getter for imrnRange
+     *
+     * @ElementName imrnRange
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
+     */
+    public function getImrnRange()
+    {
+        return $this->imrnRange;
+    }
+
+    /**
+     * Setter for imrnRange
+     *
+     * @ElementName imrnRange
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $imrnRange
+     * @return $this
+     */
+    public function setImrnRange($imrnRange)
+    {
+        $this->imrnRange = $imrnRange;
+        return $this;
+    }
+
+    /**
+     * Adder for imrnRange
+     *
+     * @ElementName imrnRange
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange $imrnRange
+     * @return $this
+     */
+    public function addImrnRange($imrnRange)
+    {
+        $this->imrnRange []= $imrnRange;
+        return $this;
+    }
+
+
+}
+

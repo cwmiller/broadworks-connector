@@ -1,0 +1,17 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Models;
+
+/**
+ * SystemMusicOnHoldGetRequest
+ *
+ * Request the system level data associated with Music On Hold.
+ *         The response is either a SystemMusicOnHoldGetResponse or an
+ *         ErrorResponse.
+ */
+class SystemMusicOnHoldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
+{
+
+
+}
+

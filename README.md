@@ -15,16 +15,19 @@ $request1 = (new UserGetListInGroupRequest())
     ->setServiceProviderId('test-service-provider')
     ->setGroupId('test-group');
     
-// Response will be the correspodning request object, or ErrorResponse if there was an error with your input.
+// Response will either be the object corresponding to your request or ErrorResponse if there was an error with your input.
 $response = $ocip->call($request1);
 
-if (!($response instanceof ErrorResponse) {
+if ($response instanceof UserGetListInGroupResponse) {
     foreach ($response->getUserTable()->getRow() as $row) {
         echo $row->getCol()[0] . PHP_EOL;
     }
-} 
+} else if ($response instanceof ErrorResponse) {
+    echo $response->getSummary() . PHP_EOL;
+    exit();
+}
 
-// Multiple requests can be executed in one call too
+// Multiple requests can be executed in a single call to the API too.
 $request2 = (new UserGetListInGroupRequest())
     ->setServiceProviderId('test-service-provider')
     ->setGroupId('another-test-group');
@@ -32,7 +35,7 @@ $request2 = (new UserGetListInGroupRequest())
 $responses = $ocip->callAll([$request1, $request2]);
 
 foreach ($responses as $response) {
-    if (!($response instanceof ErrorResponse) {
+    if ($response instanceof UserGetListInGroupResponse) {
         foreach ($response->getUserTable()->getRow() as $row) {
             echo $row->getCol()[0] . PHP_EOL;
         }

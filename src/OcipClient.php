@@ -141,7 +141,8 @@ class OcipClient
         }
 
         /** @var OCIMessage $broadsoftDocument */
-        $broadsoftDocument = XmlUtils::fromXml($broadsoftDocumentElement, OCIMessage::class, '\\CWM\\BroadWorksConnector\\Ocip\\Models\\');
+        $broadsoftDocument = XmlUtils::fromXml($broadsoftDocumentElement,
+            '\\CWM\\BroadWorksConnector\\Ocip\\Models\\C\\OCIMessage', '\\CWM\\BroadWorksConnector\\Ocip\\Models\\');
 
         if ($broadsoftDocument === null) {
             throw new OcipBadResponseException('Unable to serialize response object.');

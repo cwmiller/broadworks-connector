@@ -1,6 +1,6 @@
 {
     "name": "cwm/broadworks-connector",
-    "description": "Simple library for connecting to BroadWorks APIs",
+    "description": "Library for connecting to BroadWorks APIs",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,8 @@
     "require": {
         "php": ">=5.4.0",
         "ext-soap": "*",
-        "ext-xml": "*"
+        "ext-xml": "*",
+        "ext-dom": "*"
     },
     "require-dev": {
         "cwm/broadworks-xsd-converter": "dev-master"

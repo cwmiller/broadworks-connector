@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * both nodes in the redundant Application Server cluster in order for the changes
  * to take effect on each node without requiring a restart.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *       
+ *         Replaced by: SystemShInterfaceParametersModifyRequest17
  */
 class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

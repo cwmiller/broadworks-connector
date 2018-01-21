@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingRestrictionsNetAddressGetListRequest
  *
  * Gets a list of IP Addresses and/or Ranges assigned to a zone
- * 	Response is SystemZoneCallingRestrictionsNetAddressGetListResponse.
+ *   Response is SystemZoneCallingRestrictionsNetAddressGetListResponse.
  *         Replaced by: SystemZoneNetAddressGetListRequest
  */
 class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

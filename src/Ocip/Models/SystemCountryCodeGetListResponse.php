@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Maximum Call Waiting Tones", "Time Between Call Waiting Tones
  * Milliseconds"
  *         and "Disable National Prefix for OffNet Calls".
+ *         
+ *         The following columns are only returned in AS data mode:       
+ *           "Disable National Prefix for OffNet Calls"
  */
 class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

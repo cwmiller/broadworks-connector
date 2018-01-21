@@ -6,6 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringCriteriaModifyRequest
  *
  * Modify an existing Communication Barring Criteria.
+ *         The following elements are only used in AS data mode:
+ *           matchNumberPortabilityStatus  
+ * 	    The following elements are only used in XS data mode and ignored in AS data
+ * mode:
+ * 	      matchOtherGETS
+ *           matchNotGETS
+ *           matchGETSAN
+ *           matchGETSNT
+ *           matchGETSFC
+ *           matchGETSFCAN
+ *           matchGETSFCNT
+ *
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
@@ -184,6 +196,48 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @var bool|null
      */
     private $matchInternalCalls = null;
+
+    /**
+     * @ElementName matchOtherGETSGets
+     * @var bool|null
+     */
+    private $matchOtherGETSGets = null;
+
+    /**
+     * @ElementName matchNotGETSGets
+     * @var bool|null
+     */
+    private $matchNotGETSGets = null;
+
+    /**
+     * @ElementName matchGETSANGets
+     * @var bool|null
+     */
+    private $matchGETSANGets = null;
+
+    /**
+     * @ElementName matchGETSNTGets
+     * @var bool|null
+     */
+    private $matchGETSNTGets = null;
+
+    /**
+     * @ElementName matchGETSFCGets
+     * @var bool|null
+     */
+    private $matchGETSFCGets = null;
+
+    /**
+     * @ElementName matchGETSFCANGets
+     * @var bool|null
+     */
+    private $matchGETSFCANGets = null;
+
+    /**
+     * @ElementName matchGETSFCNTGets
+     * @var bool|null
+     */
+    private $matchGETSFCNTGets = null;
 
     /**
      * @ElementName matchLocation
@@ -908,6 +962,174 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     public function setMatchInternalCalls($matchInternalCalls)
     {
         $this->matchInternalCalls = $matchInternalCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for matchOtherGETSGets
+     *
+     * @ElementName matchOtherGETSGets
+     * @return bool|null
+     */
+    public function getMatchOtherGETSGets()
+    {
+        return $this->matchOtherGETSGets;
+    }
+
+    /**
+     * Setter for matchOtherGETSGets
+     *
+     * @ElementName matchOtherGETSGets
+     * @param bool|null $matchOtherGETSGets
+     * @return $this
+     */
+    public function setMatchOtherGETSGets($matchOtherGETSGets)
+    {
+        $this->matchOtherGETSGets = $matchOtherGETSGets;
+        return $this;
+    }
+
+    /**
+     * Getter for matchNotGETSGets
+     *
+     * @ElementName matchNotGETSGets
+     * @return bool|null
+     */
+    public function getMatchNotGETSGets()
+    {
+        return $this->matchNotGETSGets;
+    }
+
+    /**
+     * Setter for matchNotGETSGets
+     *
+     * @ElementName matchNotGETSGets
+     * @param bool|null $matchNotGETSGets
+     * @return $this
+     */
+    public function setMatchNotGETSGets($matchNotGETSGets)
+    {
+        $this->matchNotGETSGets = $matchNotGETSGets;
+        return $this;
+    }
+
+    /**
+     * Getter for matchGETSANGets
+     *
+     * @ElementName matchGETSANGets
+     * @return bool|null
+     */
+    public function getMatchGETSANGets()
+    {
+        return $this->matchGETSANGets;
+    }
+
+    /**
+     * Setter for matchGETSANGets
+     *
+     * @ElementName matchGETSANGets
+     * @param bool|null $matchGETSANGets
+     * @return $this
+     */
+    public function setMatchGETSANGets($matchGETSANGets)
+    {
+        $this->matchGETSANGets = $matchGETSANGets;
+        return $this;
+    }
+
+    /**
+     * Getter for matchGETSNTGets
+     *
+     * @ElementName matchGETSNTGets
+     * @return bool|null
+     */
+    public function getMatchGETSNTGets()
+    {
+        return $this->matchGETSNTGets;
+    }
+
+    /**
+     * Setter for matchGETSNTGets
+     *
+     * @ElementName matchGETSNTGets
+     * @param bool|null $matchGETSNTGets
+     * @return $this
+     */
+    public function setMatchGETSNTGets($matchGETSNTGets)
+    {
+        $this->matchGETSNTGets = $matchGETSNTGets;
+        return $this;
+    }
+
+    /**
+     * Getter for matchGETSFCGets
+     *
+     * @ElementName matchGETSFCGets
+     * @return bool|null
+     */
+    public function getMatchGETSFCGets()
+    {
+        return $this->matchGETSFCGets;
+    }
+
+    /**
+     * Setter for matchGETSFCGets
+     *
+     * @ElementName matchGETSFCGets
+     * @param bool|null $matchGETSFCGets
+     * @return $this
+     */
+    public function setMatchGETSFCGets($matchGETSFCGets)
+    {
+        $this->matchGETSFCGets = $matchGETSFCGets;
+        return $this;
+    }
+
+    /**
+     * Getter for matchGETSFCANGets
+     *
+     * @ElementName matchGETSFCANGets
+     * @return bool|null
+     */
+    public function getMatchGETSFCANGets()
+    {
+        return $this->matchGETSFCANGets;
+    }
+
+    /**
+     * Setter for matchGETSFCANGets
+     *
+     * @ElementName matchGETSFCANGets
+     * @param bool|null $matchGETSFCANGets
+     * @return $this
+     */
+    public function setMatchGETSFCANGets($matchGETSFCANGets)
+    {
+        $this->matchGETSFCANGets = $matchGETSFCANGets;
+        return $this;
+    }
+
+    /**
+     * Getter for matchGETSFCNTGets
+     *
+     * @ElementName matchGETSFCNTGets
+     * @return bool|null
+     */
+    public function getMatchGETSFCNTGets()
+    {
+        return $this->matchGETSFCNTGets;
+    }
+
+    /**
+     * Setter for matchGETSFCNTGets
+     *
+     * @ElementName matchGETSFCNTGets
+     * @param bool|null $matchGETSFCNTGets
+     * @return $this
+     */
+    public function setMatchGETSFCNTGets($matchGETSFCNTGets)
+    {
+        $this->matchGETSFCNTGets = $matchGETSFCNTGets;
         return $this;
     }
 

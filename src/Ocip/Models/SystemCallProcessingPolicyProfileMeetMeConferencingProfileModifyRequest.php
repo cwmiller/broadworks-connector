@@ -219,6 +219,24 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     private $enableDialableCallerID = null;
 
     /**
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @var bool|null
+     */
+    private $includeRedirectionsInMaximumNumberOfConcurrentCalls = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = null;
+
+    /**
      * Getter for callProcessingPolicyProfileName
      *
      * @ElementName callProcessingPolicyProfileName
@@ -1055,6 +1073,78 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     public function setEnableDialableCallerID($enableDialableCallerID)
     {
         $this->enableDialableCallerID = $enableDialableCallerID;
+        return $this;
+    }
+
+    /**
+     * Getter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return bool|null
+     */
+    public function getIncludeRedirectionsInMaximumNumberOfConcurrentCalls()
+    {
+        return $this->includeRedirectionsInMaximumNumberOfConcurrentCalls;
+    }
+
+    /**
+     * Setter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @param bool|null $includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return $this
+     */
+    public function setIncludeRedirectionsInMaximumNumberOfConcurrentCalls($includeRedirectionsInMaximumNumberOfConcurrentCalls)
+    {
+        $this->includeRedirectionsInMaximumNumberOfConcurrentCalls = $includeRedirectionsInMaximumNumberOfConcurrentCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
         return $this;
     }
 

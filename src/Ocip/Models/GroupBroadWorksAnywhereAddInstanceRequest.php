@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a BroadWorks Anywhere instance to a group.
  *         The domain is required in the serviceUserId.
+ *         The following elements are only used in AS data mode:
+ *           networkClassOfService        
  *         The response is either SuccessResponse or ErrorResponse.
  */
 class GroupBroadWorksAnywhereAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

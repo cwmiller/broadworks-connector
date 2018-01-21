@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserAlternateNumbersGetResponse17 or an
  * ErrorResponse.
  *         
- *         Replaced by: UserAlternateNumbersGetRequest21
+ *         Replaced by: UserAlternateNumbersGetRequest21 in AS data mode
  */
 class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

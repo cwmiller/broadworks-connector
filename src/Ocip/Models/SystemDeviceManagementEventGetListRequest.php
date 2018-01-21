@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         event queues are returned.
  *         The response is either a SystemDeviceManagementEventGetListResponse or
  * an ErrorResponse.
+ *         Deprecated by SystemDeviceManagementEventGetListRequest22 in AS data
+ * mode.
  */
 class SystemDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

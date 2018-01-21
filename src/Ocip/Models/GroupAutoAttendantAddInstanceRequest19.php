@@ -9,13 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The domain is required in the serviceUserId.
  *         Only Group and Enterprise level schedules are accepted.
  *         The response is either SuccessResponse or ErrorResponse.
- *
  *         The following elements are only used in AS data mode:
- *           type, use AutoAttendantType.BASIC in HSS mode.
- *           holidayMenu.
- *         The following elements are only valid for Standard Auto
- *         Attendants:
+ *           type, use value "Basic" in XS data mode
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
  *           holidayMenu
+ *         The following elements are only valid for Standard Auto Attendants:
+ *           holidayMenu
+ *           
+ *         Replaced by: GroupAutoAttendantAddInstanceRequest20 in AS data mode
  */
 class GroupAutoAttendantAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

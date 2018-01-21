@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupFindMeFollowMeGetInstanceRequest.
  *         Contains the service profile information.
- *
  *         Replaced by: GroupFindMeFollowMeGetInstanceResponse19sp1
  */
 class GroupFindMeFollowMeGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

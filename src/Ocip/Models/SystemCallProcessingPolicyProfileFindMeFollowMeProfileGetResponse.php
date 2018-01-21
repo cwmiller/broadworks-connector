@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse
  *
  * Response to SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest.
+ *         
+ *         Replaced by:
+ * SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse22
  */
 class SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

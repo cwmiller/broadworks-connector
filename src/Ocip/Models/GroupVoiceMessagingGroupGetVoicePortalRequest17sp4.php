@@ -9,7 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 or ErrorResponse.
  *         
- *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalRequest19sp1
+ *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalRequest19sp1 in AS
+ * data mode
  */
 class GroupVoiceMessagingGroupGetVoicePortalRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

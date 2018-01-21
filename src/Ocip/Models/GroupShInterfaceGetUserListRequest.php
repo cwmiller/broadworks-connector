@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Returns a list of all Public User Identities and associated data in a group.
  *         The response is either a GroupShInterfaceGetUserListResponse or an
  * ErrorResponse.
+ *         
+ *         Replaced by: GroupShInterfaceGetUserListRequest21sp1 in AS data mode.
  */
 class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,8 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's announcement settings.
  *         The response is either a GroupCallCenterGetAnnouncementResponse17sp4 or
  * an ErrorResponse.
- * 		
- * 		Replaced by: GroupCallCenterGetAnnouncementRequest19.
+ *     
+ *     Replaced by: GroupCallCenterGetAnnouncementRequest19.
  */
 class GroupCallCenterGetAnnouncementRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

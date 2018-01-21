@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system level data associated with Hunt Group.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *
- *         Replaced by SystemHuntGroupModifyRequest21
+ *         Replaced by: SystemHuntGroupModifyRequest21 in AS data mode
  */
 class SystemHuntGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

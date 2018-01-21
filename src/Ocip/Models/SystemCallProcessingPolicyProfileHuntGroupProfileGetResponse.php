@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse
  *
  * Response to SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest.
+ *         
+ *         Replaced by:
+ * SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22
  */
 class SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

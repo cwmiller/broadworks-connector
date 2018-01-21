@@ -11,14 +11,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name", "Hiragana First Name", "Weight", "Phone Number", 
  *         "Extension", "Department", "Email Address".
  *         The following elements are only used in AS data mode:
- *            useSystemHuntGroupCLIDSetting
- *          includeHuntGroupNameInCLID
+ *           useSystemHuntGroupCLIDSetting, value "true" is returned in XS data
+ * mode
+ *           includeHuntGroupNameInCLID, value "true" is returned in XS data mode
  *          
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *            allowMembersToControlGroupBusy
  *            enableGroupBusy           
  *            
- *         Replaced by: GroupHuntGroupGetInstanceResponse19sp1
+ *         Replaced by: GroupHuntGroupGetInstanceResponse19sp1 in AS data mode
  */
 class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

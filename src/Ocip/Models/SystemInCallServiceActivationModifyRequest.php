@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modifies the system's DTMF based in-call service activation trigger 
  * attributes.The response is either a SuccessResponse or an ErrorResponse.
- *
  *           Replaced by: SystemInCallServiceActivationModifyRequest17
  */
 class SystemInCallServiceActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

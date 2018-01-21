@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveModifyCriteriaRequest
  *
  * Modify a criteria for the user's call forwarding selective service.
+ *         The following elements are only used in AS data mode:
+ *           callToNumber
+ *           
  *         For the callToNumbers in the callToNumberList, the extension element is
  * not used and the number element is only used when the type is BroadWorks
  * Mobility.

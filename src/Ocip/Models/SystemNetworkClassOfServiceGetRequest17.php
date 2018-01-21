@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemNetworkClassOfServiceGetResponse17
  *         or an ErrorResponse.
  *         
- *         Replaced by SystemNetworkClassOfServiceGetRequest19sp1
+ *         Replaced by: SystemNetworkClassOfServiceGetRequest19sp1 in AS data mode
  */
 class SystemNetworkClassOfServiceGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

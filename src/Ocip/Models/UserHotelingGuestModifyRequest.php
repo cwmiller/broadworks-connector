@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * not nil value while Hoteling Guest feature is not active.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         Replaced by UserHotelingGuestModifyRequest21
+ *         Replaced by UserHotelingGuestModifyRequest21 in AS data mode
  */
 class UserHotelingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMPPGetResponse14sp5
  *
  * Response to SystemSMPPGetRequest14sp5.
- *
- *         Replaced by: SystemSMPPGetResponse21
+ *         
+ *         Replaced by: SystemSMPPGetResponse21 in AS data mode
  */
 class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,8 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's call forwarding selective service.
  *         The response is either a
  * UserCallForwardingSelectiveGetCriteriaResponse16 or an ErrorResponse.
- *
- *         Replaced by: UserCallForwardingSelectiveGetCriteriaRequest21
+ *         Replaced by: UserCallForwardingSelectiveGetCriteriaRequest21 in AS data
+ * mode
  */
 class UserCallForwardingSelectiveGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

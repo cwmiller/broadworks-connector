@@ -7,11 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserGetListInSystemRequest.
  *         Contains a table with column headings : "User Id", "Group Id", "Service
- * Provider Id"
- *         "Last Name", "First Name", "Department", "Phone Number", "Phone Number
- * Activated", "Email Address",  "Hiragana Last Name", "Hiragana First Name", "In
- * Trunk Group", "Extension"
+ * Provider Id", "Last Name", "First Name",
+ *         "Department", "Phone Number", "Phone Number Activated", "Email Address",
+ *  "Hiragana Last Name", "Hiragana First Name", "In Trunk Group", "Extension",
+ * "Reseller Id" 
  *         in a row for each user.
+ *
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class UserGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

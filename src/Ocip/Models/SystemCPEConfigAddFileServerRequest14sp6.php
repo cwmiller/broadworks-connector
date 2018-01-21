@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigAddFileServerRequest14sp6
  *
  * Add a device CPE config file server.
+ *         The following elements are only used in AS data mode:
+ *           extendedCaptureFileRepositoryName
+ *           
  *         The response is either SuccessResponse or ErrorResponse.
  */
 class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

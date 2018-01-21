@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringProfileGetRequest19sp1V2.
  *         The response contains the Communication Barring Profile information.
  *         The incoming rules are returned in ascending priority order.
- *   The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode:
  *            callMeNowDefaultAction
  *            callMeNowDefaultCallTimeout
  *            callMeNowRule

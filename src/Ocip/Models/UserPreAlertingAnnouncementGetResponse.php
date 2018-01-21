@@ -6,9 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPreAlertingAnnouncementGetResponse
  *
  * Response to a UserPreAlertingAnnouncementGetRequest.
- *          The criteria table's column headings are: "Is Active", "Criteria Name",
- *
+ *         The criteria table's column headings are: "Is Active", "Criteria Name", 
  *         "Blacklisted", and "Calls From".
+ *         
+ *         Replaced by: UserPreAlertingAnnouncementGetResponse20 in AS data mode
  */
 class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

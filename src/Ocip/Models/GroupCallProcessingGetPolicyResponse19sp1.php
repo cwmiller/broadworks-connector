@@ -5,14 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallProcessingGetPolicyResponse19sp1
  *
- * Response to GroupCallProcessingGetPolicyRequest.
- *         The following elements are only used in AS data mode:
+ * Response to GroupCallProcessingGetPolicyRequest19sp1.
+ *         The following elements are only used in AS data mode :
  *           useGroupDCLIDSetting
  *           enableDialableCallerID
  *           allowConfigurableCLIDForRedirectingIdentity
  *           allowDepartmentCLIDNameOverride
- *           enterpriseCallsCLIDPolicy
- *           groupCallsCLIDPolicy
+ *           enterpriseCallsCLIDPolicy, value "Use Location Code plus Extension" is
+ * returned in XS data mode.
+ *           groupCallsCLIDPolicy, value "Use Extension" is returned in XS data
+ * mode.
+ *         
+ *         Replaced by: GroupCallProcessingGetPolicyResponse21sp1
  */
 class GroupCallProcessingGetPolicyResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

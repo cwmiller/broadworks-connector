@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the attributes of a country code.
  *         If becomeDefaultCountryCode is true, the country code
  *         in this request becomes the default country code for the system.
+ *         The following elements are only used in AS data mode:
+ *           disableNationalPrefixForOffNetCalls
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

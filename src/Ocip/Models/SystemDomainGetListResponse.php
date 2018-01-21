@@ -6,6 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDomainGetListResponse
  *
  * Contains a simple list of all system-level domain names.
+ *         
+ *         The following elements are only used in AS and XS data mode and not
+ * returned in Amplify data mode:
+ *           systemDefaultDomain
+ *           
+ *         Replaced by SystemDomainGetListResponse22 in AS data mode.
  */
 class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

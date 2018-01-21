@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * MusicOnHoldSourceModify20
  *
  * Contains the music on hold source configuration.
- *
  *         Replaced by: MusicOnHoldSourceModify21
  */
 class MusicOnHoldSourceModify20

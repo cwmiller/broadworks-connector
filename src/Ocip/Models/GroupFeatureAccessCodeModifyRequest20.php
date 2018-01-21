@@ -10,7 +10,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Note: choice element is only valid when useFeatureAccessCodeLevel is set
  *         to "Group", otherwise an ErrorResponse will be returned.
- *
  *         In release 20 the "Call Recording" FAC name is changed to
  *         "Call Recording - Start".
  *         Replaced by: GroupFeatureAccessCodeModifyRequest21

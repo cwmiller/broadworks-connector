@@ -8,7 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserGetRequest18.
  *         It is possible that the TrunkAddressingRead element is present with
  * nothing populated in it which means the user is a trunk user.
- *         The following data elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           contact[2]-contact[5]
  *         
  *         The country code (countryCode) included is the user's phone number

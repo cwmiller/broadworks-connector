@@ -12,7 +12,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Number", "Extension", "Mobile", "Email Address", "Department", 
  *         "Hiragana Name", "Group Id", "Yahoo Id", "User Id", "IMP Id", "First
  * Name", "Last Name",
- *         "My Room Room Id", "My Room Bridge Id".
+ *         "My Room Room Id", "My Room Bridge Id", "Service Name".
+ *         The Service Name represents the localized service name for service
+ * instances. The localized values are taken from the BroadworksLabel.properties
+ * file.
+ *         Service Name is currently supporting:
+ *         AutoAttendant, AutoAttendantStandard, AutoAttendantVideo, CallCenter,
+ * CallCenterStandard, CallCenterPremium
+ *         HuntGroup, InstantGroupCall, VoiceMessagingGroup, RoutePoint,
+ * BroadWorksAnywhere, GroupPaging, FindmeFollowme,
+ *         VoiceXML, FlexibleSeatingGuest, CollaborateAudio, MeetMeConferencing.
+ *         For a Regular User or a Virtual On Network Enterprise Extensions, the
+ * Service Name is empty.
+ *         
+ *         The following columns are only returned in AS data mode:       
+ *           "My Room Room Id", "My Room Bridge Id", "Service Name"
  */
 class UserPhoneDirectoryGetSearchedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

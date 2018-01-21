@@ -11,8 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       set to false, all call logs without redirected call are returned.
  *       The redirected call can be defined by including a subset of Service
  * Invocation Disposition here. 
- *       If none included, any call has a ServiceInvocationDisposition  value
- * defined in ServiceInvocationDisposition
+ *       If none included, any call has a ServiceInvocationDisposition value
+ * defined in ServiceInvocationDisposition21
  *       is considered as a redirected call.
  */
 class EnhancedCallLogsRedirectedCallSelection21

@@ -8,18 +8,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEnhancedCallLogsGetRequest17sp4.
  *         The following elements are only used in AS data mode:
  *           isSendEnabled
- *           server1NetAddress
  *           server1SendPort
  *           server1RetrievePort
- *           server2NetAddress
  *           server2SendPort
  *           server2RetrievePort
- *           sharedSecret
  *           retransmissionDelayMilliSeconds
  *           maxTransmissions
  *           soapTimeoutSeconds
  *           useDBS
- *           Replaced by:SystemEnhancedCallLogsGetResponse20sp1
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:  
+ *           server1NetAddress
+ *           server2NetAddress
+ *           sharedSecret
+ *           Replaced by:SystemEnhancedCallLogsGetResponse20sp1 in AS data mode
  */
 class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

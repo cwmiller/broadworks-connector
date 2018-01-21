@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the Group's policy settings.
  *         The response is either GroupPolicyGetResponse17 or ErrorResponse.
+ *         
+ *         Replaced by: GroupPolicyGetRequest20 in AS data mode
  */
 class GroupPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

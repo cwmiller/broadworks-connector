@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderAccessDeviceFileGetResponse20
  *
- * Response to ServiceProviderAccessDeviceFileGetRequest20.
+ * Response to ServiceProviderAccessDeviceFileGetRequest21.
  */
 class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -51,6 +51,12 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
      * @var string|null
      */
     private $extendedCaptureURL = null;
+
+    /**
+     * @ElementName allowUploadFromDevice
+     * @var bool|null
+     */
+    private $allowUploadFromDevice = null;
 
     /**
      * Getter for fileSource
@@ -217,6 +223,30 @@ class ServiceProviderAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnec
     public function setExtendedCaptureURL($extendedCaptureURL)
     {
         $this->extendedCaptureURL = $extendedCaptureURL;
+        return $this;
+    }
+
+    /**
+     * Getter for allowUploadFromDevice
+     *
+     * @ElementName allowUploadFromDevice
+     * @return bool|null
+     */
+    public function getAllowUploadFromDevice()
+    {
+        return $this->allowUploadFromDevice;
+    }
+
+    /**
+     * Setter for allowUploadFromDevice
+     *
+     * @ElementName allowUploadFromDevice
+     * @param bool|null $allowUploadFromDevice
+     * @return $this
+     */
+    public function setAllowUploadFromDevice($allowUploadFromDevice)
+    {
+        $this->allowUploadFromDevice = $allowUploadFromDevice;
         return $this;
     }
 

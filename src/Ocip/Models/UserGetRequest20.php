@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the user information.  The response is either
  *         UserGetResponse20 or ErrorResponse.
- *
  *         Replaced by: UserGetRequest21
  */
 class UserGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

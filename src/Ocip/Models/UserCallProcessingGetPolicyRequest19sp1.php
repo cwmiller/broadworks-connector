@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Call Processing Policy.
  *         The response is either a UserCallProcessingGetPolicyResponse19sp1 or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: UserCallProcessingGetPolicyRequest21sp1
  */
 class UserCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

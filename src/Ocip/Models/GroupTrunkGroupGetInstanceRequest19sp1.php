@@ -13,8 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone
  * Number", "Extension", 
  *         "Department", "Email Address".
- * 		
- * 		Replaced by GroupTrunkGroupGetInstanceRequest19sp1V2.
+ *     
+ *     Replaced by GroupTrunkGroupGetInstanceRequest19sp1V2.
  */
 class GroupTrunkGroupGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

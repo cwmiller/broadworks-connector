@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallProcessingGetPolicyResponse17sp3
  *
  * Response to UserCallProcessingGetPolicyRequest17sp3.
- * 	      The useUserCLIDSetting attribute controls the CLID settings 
- * 	      (clidPolicy, emergencyClidPolicy,
+ *         The useUserCLIDSetting attribute controls the CLID settings 
+ *         (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName)
- * 	      
+ *         
  *           The useUserMediaSetting attribute controls the Media settings 
  *           (medisPolicySelection, supportedMediaSetName)
  *           
@@ -25,11 +25,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        
  *           The useUserDCLIDSetting controls the Dialable Caller ID settings
  * (enableDialableCallerID)
- *
  *           The following elements are only used in AS data mode:
  *            useUserDCLIDSetting
  *            enableDialableCallerID
- *
  *            Replaced by: UserCallProcessingGetPolicyResponse17Sp4
  */
 class UserCallProcessingGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

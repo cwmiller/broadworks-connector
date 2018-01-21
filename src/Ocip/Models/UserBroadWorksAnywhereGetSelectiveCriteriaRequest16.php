@@ -8,8 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's BroadWorks Anywhere phone number.
  *         The response is either a
  * UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 or an ErrorResponse.
- *
- *         Replaced by: UserBroadWorksAnywhereGetSelectiveCriteriaRequest21
+ *         Replaced by: UserBroadWorksAnywhereGetSelectiveCriteriaRequest21 in AS
+ * data mode
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

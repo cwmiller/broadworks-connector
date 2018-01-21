@@ -6,9 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksMobilityMobileIdentityDeleteRequest
  *
  * Delete a mobile identity from the user's list of mobile identities.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse. If another
+ * Mobile Identity is set to ring mobile only and only has this mobile identity 
+ *         in the alerting list, the identity is deleted and ErrorResponse is
+ * returned. The ErrorResponse is info type and  contains the affected mobile
+ * numbers 
+ *         in the summary. 
  *         When a delete request is attempted on the primary mobile identity, the
- * delete will fail unless it is the last mobile identity in the user’s list.
+ * delete will fail unless it is the last mobile identity in the user's list.
  */
 class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

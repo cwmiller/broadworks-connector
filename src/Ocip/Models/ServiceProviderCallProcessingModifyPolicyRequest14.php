@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCallProcessingModifyPolicyRequest14
  *
- * Modify the service provider level data associated with Call Procesing
+ * Modify the service provider level data associated with Call Processing
  *        Policy. The response is either a SuccessResponse or an ErrorResponse.
  */
 class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

@@ -107,6 +107,12 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     private $supportConnectedIdentityPolicy = null;
 
     /**
+     * @ElementName useUnmappedSessionsForTrunkUsers
+     * @var bool|null
+     */
+    private $useUnmappedSessionsForTrunkUsers = null;
+
+    /**
      * Getter for enforceCLIDServiceAssignmentForPilotUser
      *
      * @ElementName enforceCLIDServiceAssignmentForPilotUser
@@ -463,6 +469,30 @@ class SystemTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     public function setSupportConnectedIdentityPolicy($supportConnectedIdentityPolicy)
     {
         $this->supportConnectedIdentityPolicy = $supportConnectedIdentityPolicy;
+        return $this;
+    }
+
+    /**
+     * Getter for useUnmappedSessionsForTrunkUsers
+     *
+     * @ElementName useUnmappedSessionsForTrunkUsers
+     * @return bool|null
+     */
+    public function getUseUnmappedSessionsForTrunkUsers()
+    {
+        return $this->useUnmappedSessionsForTrunkUsers;
+    }
+
+    /**
+     * Setter for useUnmappedSessionsForTrunkUsers
+     *
+     * @ElementName useUnmappedSessionsForTrunkUsers
+     * @param bool|null $useUnmappedSessionsForTrunkUsers
+     * @return $this
+     */
+    public function setUseUnmappedSessionsForTrunkUsers($useUnmappedSessionsForTrunkUsers)
+    {
+        $this->useUnmappedSessionsForTrunkUsers = $useUnmappedSessionsForTrunkUsers;
         return $this;
     }
 

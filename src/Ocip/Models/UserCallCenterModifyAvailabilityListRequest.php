@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list specifing the desired login status of one or more call
  * centers.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         Replaced By: UserCallCenterModifyRequest
+ *         Replaced By: UserCallCenterModifyRequest17sp4
  */
 class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

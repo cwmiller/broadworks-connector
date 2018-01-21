@@ -22,11 +22,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
  * useMaxConcurrentFindMeFollowMeInvocations,
  * maxConcurrentFindMeFollowMeInvocations)
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode :
  *          useUserDCLIDSetting
  *          enableDialableCallerID
  *          allowConfigurableCLIDForRedirectingIdentity
  *          allowDepartmentCLIDNameOverride
+ *         
+ *         Replaced by: UserCallProcessingGetPolicyResponse21sp1
  */
 class UserCallProcessingGetPolicyResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

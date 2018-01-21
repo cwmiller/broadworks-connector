@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of CPE Config system parameters.
  *         The response is either SystemCPEConfigParametersGetResponse14sp6 or
  * ErrorResponse.
+ *         
+ *         Replaced by: SystemCPEConfigParametersGetRequest20
  */
 class SystemCPEConfigParametersGetRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

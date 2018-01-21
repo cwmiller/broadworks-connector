@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of feature access codes for a service provider or enterprise.
  *         The response is either a ServiceProviderFeatureAccessCodeGetListResponse
  * or an ErrorResponse.
+ *         
+ *         Replaced By : ServiceProviderFeatureAccessCodeGetListRequest20 in AS
+ * data mode
  */
 class ServiceProviderFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

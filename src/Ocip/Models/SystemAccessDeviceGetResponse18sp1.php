@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAccessDeviceGetRequest18sp1
  *
- *
  *         The following elements are only used in AS data mode:
  *            version
  */

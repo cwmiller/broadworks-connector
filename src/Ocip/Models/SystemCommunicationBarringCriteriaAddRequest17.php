@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringCriteriaAddRequest17
  *
  * Add a new Communication Barring Criteria.
+ *         The following elements are only used in AS data mode:
+ *           matchNumberPortabilityStatus  
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemCommunicationBarringCriteriaAddRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

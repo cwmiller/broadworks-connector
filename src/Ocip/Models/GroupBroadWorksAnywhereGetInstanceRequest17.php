@@ -9,7 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupBroadWorksAnywhereGetInstanceResponse17 or
  * ErrorResponse.
  *         
- *         Replaced by: GroupBroadWorksAnywhereGetInstanceRequest19sp1
+ *         Replaced by: GroupBroadWorksAnywhereGetInstanceRequest19sp1 in AS data
+ * mode
  */
 class GroupBroadWorksAnywhereGetInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

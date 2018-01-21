@@ -48,6 +48,18 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     private $imrnTimeoutMilliseconds = null;
 
     /**
+     * @ElementName enableInternalCLIDDelivery
+     * @var bool|null
+     */
+    private $enableInternalCLIDDelivery = null;
+
+    /**
+     * @ElementName includeRedirectForMobilityTermination
+     * @var bool|null
+     */
+    private $includeRedirectForMobilityTermination = null;
+
+    /**
      * Getter for enableLocationServices
      *
      * @ElementName enableLocationServices
@@ -188,6 +200,54 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     public function setImrnTimeoutMilliseconds($imrnTimeoutMilliseconds)
     {
         $this->imrnTimeoutMilliseconds = $imrnTimeoutMilliseconds;
+        return $this;
+    }
+
+    /**
+     * Getter for enableInternalCLIDDelivery
+     *
+     * @ElementName enableInternalCLIDDelivery
+     * @return bool|null
+     */
+    public function getEnableInternalCLIDDelivery()
+    {
+        return $this->enableInternalCLIDDelivery;
+    }
+
+    /**
+     * Setter for enableInternalCLIDDelivery
+     *
+     * @ElementName enableInternalCLIDDelivery
+     * @param bool|null $enableInternalCLIDDelivery
+     * @return $this
+     */
+    public function setEnableInternalCLIDDelivery($enableInternalCLIDDelivery)
+    {
+        $this->enableInternalCLIDDelivery = $enableInternalCLIDDelivery;
+        return $this;
+    }
+
+    /**
+     * Getter for includeRedirectForMobilityTermination
+     *
+     * @ElementName includeRedirectForMobilityTermination
+     * @return bool|null
+     */
+    public function getIncludeRedirectForMobilityTermination()
+    {
+        return $this->includeRedirectForMobilityTermination;
+    }
+
+    /**
+     * Setter for includeRedirectForMobilityTermination
+     *
+     * @ElementName includeRedirectForMobilityTermination
+     * @param bool|null $includeRedirectForMobilityTermination
+     * @return $this
+     */
+    public function setIncludeRedirectForMobilityTermination($includeRedirectForMobilityTermination)
+    {
+        $this->includeRedirectForMobilityTermination = $includeRedirectForMobilityTermination;
         return $this;
     }
 

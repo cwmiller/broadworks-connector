@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactRead
  *
  * Trunk group endpoint that can have multiple contacts.
- *
  *         Replaced by: TrunkAddressingMultipleContactRead21
  */
 class TrunkAddressingMultipleContactRead

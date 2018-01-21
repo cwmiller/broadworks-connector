@@ -6,6 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAlternateNumbersModifyRequest
  *
  * Modify the user level data associated with Alternate Numbers.
+ *         The following element in AlternateNumberEntry21 datatype is only used in
+ * AS mode:
+ *           description
+ *
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class UserAlternateNumbersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

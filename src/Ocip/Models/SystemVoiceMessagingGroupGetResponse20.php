@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemVoiceMessagingGroupGetResponse20
  *
  * Response to SystemVoiceMessagingGroupGetRequest20.
- *
  *         The following elements are only used in AS data mode:
  *            realDeleteForImap
  *            useDnInMailBody
@@ -15,7 +14,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            maxMailboxLengthMinutes
  *            doesMessageAge
  *            holdPeriodDays
- *            mailServerNetAddress
  *            mailServerProtocol
  *            defaultDeliveryFromAddress
  *            defaultNotificationFromAddress
@@ -25,11 +23,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            enterpriseVoicePortalLicensed
  *            networkWideMessaging
  *            useExternalRouting
- *            defaultExternalRoutingAddress
  *            vmOnlySystem
  *            clientInitiatedMailServerSessionTimeoutMinutes
- *
- *            Replaced by: SystemVoiceMessagingGroupGetResponse21
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode
+ *            mailServerNetAddress
+ *            defaultExternalRoutingAddress
+ *            
+ *         Replaced by: SystemVoiceMessagingGroupGetResponse21
  */
 class SystemVoiceMessagingGroupGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

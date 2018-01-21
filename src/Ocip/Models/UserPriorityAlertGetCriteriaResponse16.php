@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPriorityAlertGetCriteriaResponse16
  *
  * Response to the UserPriorityAlertGetCriteriaRequest16.
- *
- *         Replaced by: UserPriorityAlertGetCriteriaResponse21
+ *         Replaced by: UserPriorityAlertGetCriteriaResponse21 in AS data mode
  */
 class UserPriorityAlertGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

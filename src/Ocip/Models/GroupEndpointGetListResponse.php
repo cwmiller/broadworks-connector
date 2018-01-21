@@ -10,8 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Line/Port", "Last Name", "First Name",  "User Id", "User Type",
  * "Phone Number", "Extension", "Device Type", "Device Name", "Net Address", "MAC
  * Address", "Department", "Email Address".
- *           Possible values for User Type are �User�, �CCBasic�,
- * �CCStandard�, �CCPremium�, �RP�, �MOH�, �MOHVideo�.
+ *           Possible values for User Type are "User", "CCBasic", "CCStandard",
+ * "CCPremium", "RP", "MOH", "MOHVideo".
  */
 class GroupEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

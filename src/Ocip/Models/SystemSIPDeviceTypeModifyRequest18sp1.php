@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a sip device type.
  *         The response is either SuccessResponse or ErrorResponse.
- *
  *         The following elements are not changeable:
  *           numberOfPorts
  *           SignalingAddressType
@@ -16,19 +15,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isMobilityManagerDevice
  *           deviceTypeConfigurationOption
  *           staticLineOrdering
- *
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           enable3G4GContinuity
- *
+ *           allowTerminationBasedOnICSI
  *         The following elements are only used in AS data mode:
  *           holdAnnouncementMethod
  *           supportRFC3398
  *           supportClientSessionInfo
  *           supportCallInfoConferenceSubscriptionURI
  *           supportRemotePartyInfo
- *
  *         The following element values are only applicable in AS data mode:
- *           holdNormalization=useRfc3264Hold will raise an error in HSS data mode
+ *           holdNormalization=useRfc3264Hold will raise an error in XS data mode
  */
 class SystemSIPDeviceTypeModifyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -260,6 +257,12 @@ class SystemSIPDeviceTypeModifyRequest18sp1 extends \CWM\BroadWorksConnector\Oci
      * @var bool|null
      */
     private $bypassMediaTreatment = null;
+
+    /**
+     * @ElementName allowTerminationBasedOnICSI
+     * @var bool|null
+     */
+    private $allowTerminationBasedOnICSI = null;
 
     /**
      * Getter for deviceType
@@ -1170,6 +1173,30 @@ class SystemSIPDeviceTypeModifyRequest18sp1 extends \CWM\BroadWorksConnector\Oci
     public function setBypassMediaTreatment($bypassMediaTreatment)
     {
         $this->bypassMediaTreatment = $bypassMediaTreatment;
+        return $this;
+    }
+
+    /**
+     * Getter for allowTerminationBasedOnICSI
+     *
+     * @ElementName allowTerminationBasedOnICSI
+     * @return bool|null
+     */
+    public function getAllowTerminationBasedOnICSI()
+    {
+        return $this->allowTerminationBasedOnICSI;
+    }
+
+    /**
+     * Setter for allowTerminationBasedOnICSI
+     *
+     * @ElementName allowTerminationBasedOnICSI
+     * @param bool|null $allowTerminationBasedOnICSI
+     * @return $this
+     */
+    public function setAllowTerminationBasedOnICSI($allowTerminationBasedOnICSI)
+    {
+        $this->allowTerminationBasedOnICSI = $allowTerminationBasedOnICSI;
         return $this;
     }
 

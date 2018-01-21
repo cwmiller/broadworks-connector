@@ -7,6 +7,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following elements are only used in Amplify data mode and ignored in
+ * AS and XS data mode:
+ *         servicePolicy,
+ *         callProcessingSliceId, 
+ *         provisioningSliceId, 
+ *         subscriberPartition,
+ *         preferredDataCenter.
+ *         When the callProcessingSliceId or provisioningSliceId is not specified
+ * in the AmplifyDataMode, 
+ *         the default slice Id is assigned to the Group.
+ *         Only Provisioning admin and above can change the callProcessingSliceId, 
+ *
+ *         provisioningSliceId, subscriberPartition, preferredDataCenter.
+ *        
+ *         The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *         defaultUserCallingLineIdPhoneNumber.
  */
 class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -70,6 +87,42 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
+
+    /**
+     * @ElementName servicePolicy
+     * @var string|null
+     */
+    private $servicePolicy = null;
+
+    /**
+     * @ElementName callProcessingSliceId
+     * @var string|null
+     */
+    private $callProcessingSliceId = null;
+
+    /**
+     * @ElementName provisioningSliceId
+     * @var string|null
+     */
+    private $provisioningSliceId = null;
+
+    /**
+     * @ElementName subscriberPartition
+     * @var string|null
+     */
+    private $subscriberPartition = null;
+
+    /**
+     * @ElementName preferredDataCenter
+     * @var string|null
+     */
+    private $preferredDataCenter = null;
+
+    /**
+     * @ElementName defaultUserCallingLineIdPhoneNumber
+     * @var string|null
+     */
+    private $defaultUserCallingLineIdPhoneNumber = null;
 
     /**
      * Getter for serviceProviderId
@@ -308,6 +361,150 @@ class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     public function setAddress($address)
     {
         $this->address = $address;
+        return $this;
+    }
+
+    /**
+     * Getter for servicePolicy
+     *
+     * @ElementName servicePolicy
+     * @return string|null
+     */
+    public function getServicePolicy()
+    {
+        return $this->servicePolicy;
+    }
+
+    /**
+     * Setter for servicePolicy
+     *
+     * @ElementName servicePolicy
+     * @param string|null $servicePolicy
+     * @return $this
+     */
+    public function setServicePolicy($servicePolicy)
+    {
+        $this->servicePolicy = $servicePolicy;
+        return $this;
+    }
+
+    /**
+     * Getter for callProcessingSliceId
+     *
+     * @ElementName callProcessingSliceId
+     * @return string|null
+     */
+    public function getCallProcessingSliceId()
+    {
+        return $this->callProcessingSliceId;
+    }
+
+    /**
+     * Setter for callProcessingSliceId
+     *
+     * @ElementName callProcessingSliceId
+     * @param string|null $callProcessingSliceId
+     * @return $this
+     */
+    public function setCallProcessingSliceId($callProcessingSliceId)
+    {
+        $this->callProcessingSliceId = $callProcessingSliceId;
+        return $this;
+    }
+
+    /**
+     * Getter for provisioningSliceId
+     *
+     * @ElementName provisioningSliceId
+     * @return string|null
+     */
+    public function getProvisioningSliceId()
+    {
+        return $this->provisioningSliceId;
+    }
+
+    /**
+     * Setter for provisioningSliceId
+     *
+     * @ElementName provisioningSliceId
+     * @param string|null $provisioningSliceId
+     * @return $this
+     */
+    public function setProvisioningSliceId($provisioningSliceId)
+    {
+        $this->provisioningSliceId = $provisioningSliceId;
+        return $this;
+    }
+
+    /**
+     * Getter for subscriberPartition
+     *
+     * @ElementName subscriberPartition
+     * @return string|null
+     */
+    public function getSubscriberPartition()
+    {
+        return $this->subscriberPartition;
+    }
+
+    /**
+     * Setter for subscriberPartition
+     *
+     * @ElementName subscriberPartition
+     * @param string|null $subscriberPartition
+     * @return $this
+     */
+    public function setSubscriberPartition($subscriberPartition)
+    {
+        $this->subscriberPartition = $subscriberPartition;
+        return $this;
+    }
+
+    /**
+     * Getter for preferredDataCenter
+     *
+     * @ElementName preferredDataCenter
+     * @return string|null
+     */
+    public function getPreferredDataCenter()
+    {
+        return $this->preferredDataCenter;
+    }
+
+    /**
+     * Setter for preferredDataCenter
+     *
+     * @ElementName preferredDataCenter
+     * @param string|null $preferredDataCenter
+     * @return $this
+     */
+    public function setPreferredDataCenter($preferredDataCenter)
+    {
+        $this->preferredDataCenter = $preferredDataCenter;
+        return $this;
+    }
+
+    /**
+     * Getter for defaultUserCallingLineIdPhoneNumber
+     *
+     * @ElementName defaultUserCallingLineIdPhoneNumber
+     * @return string|null
+     */
+    public function getDefaultUserCallingLineIdPhoneNumber()
+    {
+        return $this->defaultUserCallingLineIdPhoneNumber;
+    }
+
+    /**
+     * Setter for defaultUserCallingLineIdPhoneNumber
+     *
+     * @ElementName defaultUserCallingLineIdPhoneNumber
+     * @param string|null $defaultUserCallingLineIdPhoneNumber
+     * @return $this
+     */
+    public function setDefaultUserCallingLineIdPhoneNumber($defaultUserCallingLineIdPhoneNumber)
+    {
+        $this->defaultUserCallingLineIdPhoneNumber = $defaultUserCallingLineIdPhoneNumber;
         return $this;
     }
 

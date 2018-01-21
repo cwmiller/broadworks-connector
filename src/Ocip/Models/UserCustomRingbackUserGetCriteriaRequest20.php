@@ -8,7 +8,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's custom ringback service.
  *         The response is either a UserCustomRingbackUserGetCriteriaResponse20 or
  * an ErrorResponse.
- *
  *         Replaced by: UserCustomRingbackUserGetCriteriaRequest21
  */
 class UserCustomRingbackUserGetCriteriaRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

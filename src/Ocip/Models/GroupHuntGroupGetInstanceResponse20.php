@@ -9,10 +9,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a table of assigned users.
  *         The table has column headings: "User Id", "Last Name", "First Name",
  *         "Hiragana Last Name", "Hiragana First Name", "Weight", "Phone Number", 
- *         "Extension", "Department", "Email Address".
+ *         "Extension", "Department", "Email Address", "Is Phone Number Activated",
+ *
+ *         "Country Code","National Prefix", "Department Name" ,"Department Type", 
+ *         "Parent Department", "Parent Department Type","Group Id","Group Name".
  *         The following elements are only used in AS data mode:
  *            useSystemHuntGroupCLIDSetting
- * 	       includeHuntGroupNameInCLID
+ *            includeHuntGroupNameInCLID
+ *            Is Phone Number Activated
+ *            Country Code
+ *            National Prefix
+ *            Department Name
+ *            Department Type
+ *            Parent Department
+ *            Parent Department Type
+ *            Group Id
+ *            Group Name
  */
 class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

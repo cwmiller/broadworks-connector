@@ -12,8 +12,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The request will fail if officeZoneName or primaryZoneName is present
  * but the Location-Based Calling Restrictions service is not assigned to the user.
  *         The response is either SuccessResponse or ErrorResponse.
- *         The following data elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
  *           contact[2]-contact[5]
+ *           nameDialingName
+ *           alternateUserIdList
  *         The impId and impPassword are accepted when the Third-Party IMP service
  * is assigned to the user; 
  *         when Integrated IMP service is assigned to the user and active, only the
@@ -202,6 +205,12 @@ class UserModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @var string|null
      */
     private $impPassword = null;
+
+    /**
+     * @ElementName alternateUserIdList
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementAlternateUserIdEntryList|null
+     */
+    private $alternateUserIdList = null;
 
     /**
      * Getter for userId
@@ -920,6 +929,30 @@ class UserModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     public function setImpPassword($impPassword)
     {
         $this->impPassword = $impPassword;
+        return $this;
+    }
+
+    /**
+     * Getter for alternateUserIdList
+     *
+     * @ElementName alternateUserIdList
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementAlternateUserIdEntryList|null
+     */
+    public function getAlternateUserIdList()
+    {
+        return $this->alternateUserIdList;
+    }
+
+    /**
+     * Setter for alternateUserIdList
+     *
+     * @ElementName alternateUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementAlternateUserIdEntryList|null $alternateUserIdList
+     * @return $this
+     */
+    public function setAlternateUserIdList($alternateUserIdList)
+    {
+        $this->alternateUserIdList = $alternateUserIdList;
         return $this;
     }
 

@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserModifyRequest20
  *
  * Modify data for Music On Hold User.
- *         The response is either a SuccessResponse or an
- *         ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

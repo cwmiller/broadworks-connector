@@ -18,9 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * includeExecutiveAssistance, mobileNumberAlerted, enableCallAnchoring,
  * timeSchedule and holidaySchedule  parameters require an authorization level of
  * User for modification when the BroadWorks Mobility service is on. 
- *         The isPrimary, useSettingLevel, denyCallOrigination, and
- * denyCallTerminiations parameters require an authorization level of Group for
- * modification.
+ *         The isPrimary, useSettingLevel, denyCallOrigination,
+ * denyCallTerminiations, accessDeviceEndpoint, outboundAlternateNumber,
+ * enableDirectRouting and markCDRAsEnterpriseGroupCalls parameters require an
+ * authorization level of Group for modification.
  */
 class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -162,6 +163,30 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
      */
     private $holidaySchedule = null;
+
+    /**
+     * @ElementName accessDeviceEndpoint
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     */
+    private $accessDeviceEndpoint = null;
+
+    /**
+     * @ElementName outboundAlternateNumber
+     * @var string|null
+     */
+    private $outboundAlternateNumber = null;
+
+    /**
+     * @ElementName enableDirectRouting
+     * @var bool|null
+     */
+    private $enableDirectRouting = null;
+
+    /**
+     * @ElementName markCDRAsEnterpriseGroupCalls
+     * @var bool|null
+     */
+    private $markCDRAsEnterpriseGroupCalls = null;
 
     /**
      * Getter for userId
@@ -712,6 +737,102 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
     public function setHolidaySchedule($holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
+        return $this;
+    }
+
+    /**
+     * Getter for accessDeviceEndpoint
+     *
+     * @ElementName accessDeviceEndpoint
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     */
+    public function getAccessDeviceEndpoint()
+    {
+        return $this->accessDeviceEndpoint;
+    }
+
+    /**
+     * Setter for accessDeviceEndpoint
+     *
+     * @ElementName accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
+     * @return $this
+     */
+    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    {
+        $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        return $this;
+    }
+
+    /**
+     * Getter for outboundAlternateNumber
+     *
+     * @ElementName outboundAlternateNumber
+     * @return string|null
+     */
+    public function getOutboundAlternateNumber()
+    {
+        return $this->outboundAlternateNumber;
+    }
+
+    /**
+     * Setter for outboundAlternateNumber
+     *
+     * @ElementName outboundAlternateNumber
+     * @param string|null $outboundAlternateNumber
+     * @return $this
+     */
+    public function setOutboundAlternateNumber($outboundAlternateNumber)
+    {
+        $this->outboundAlternateNumber = $outboundAlternateNumber;
+        return $this;
+    }
+
+    /**
+     * Getter for enableDirectRouting
+     *
+     * @ElementName enableDirectRouting
+     * @return bool|null
+     */
+    public function getEnableDirectRouting()
+    {
+        return $this->enableDirectRouting;
+    }
+
+    /**
+     * Setter for enableDirectRouting
+     *
+     * @ElementName enableDirectRouting
+     * @param bool|null $enableDirectRouting
+     * @return $this
+     */
+    public function setEnableDirectRouting($enableDirectRouting)
+    {
+        $this->enableDirectRouting = $enableDirectRouting;
+        return $this;
+    }
+
+    /**
+     * Getter for markCDRAsEnterpriseGroupCalls
+     *
+     * @ElementName markCDRAsEnterpriseGroupCalls
+     * @return bool|null
+     */
+    public function getMarkCDRAsEnterpriseGroupCalls()
+    {
+        return $this->markCDRAsEnterpriseGroupCalls;
+    }
+
+    /**
+     * Setter for markCDRAsEnterpriseGroupCalls
+     *
+     * @ElementName markCDRAsEnterpriseGroupCalls
+     * @param bool|null $markCDRAsEnterpriseGroupCalls
+     * @return $this
+     */
+    public function setMarkCDRAsEnterpriseGroupCalls($markCDRAsEnterpriseGroupCalls)
+    {
+        $this->markCDRAsEnterpriseGroupCalls = $markCDRAsEnterpriseGroupCalls;
         return $this;
     }
 

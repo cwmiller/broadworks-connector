@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * MusicOnHoldSourceRead21
  *
  * Contains the music on hold source configuration.
- *         The following elements are only used in HSS data mode and not returned
- * in AS data mode:
+ *         The following elements are only used in XS data mode and not returned in
+ * AS data mode:
  *           labeledCustomSourceMediaFiles
  *         The following elements are only used in AS data mode and not returned in
- * HSS data mode:
+ * XS data mode:
  *           announcementMediaFiles
  */
 class MusicOnHoldSourceRead21

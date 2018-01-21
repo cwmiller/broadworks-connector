@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemPortalPasscodeRulesGetRequest.
  *         Contains the system passcode rules setting.
+ *         
+ *         Replaced by: SystemPortalPasscodeRulesGetResponse19
  */
 class SystemPortalPasscodeRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

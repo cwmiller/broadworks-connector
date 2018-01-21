@@ -5,8 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSIPDeviceTypeGetListRequest
  *
- * Request to get the list of sip device types in the system.
- *         See Also: SystemDeviceTypeGetAvailableListRequest14sp3.
+ * Request to get the list of sip device types in the system.  
+ *         If includeSystemLevel is specified, all system level device types and
+ * the reseller device types matching search criteria 
+ *         are returned even when searchCriteriaResellerId is specified.        
+ *         If reseller administrator sends the request, searchCriteriaResellerId is
+ * ignored. All system level device 
+ *         types and the device types in the administrator's reseller meeting the
+ * search criteria are returned.
+ *         See Also: SystemDeviceTypeGetAvailableListRequest22 in AS data mode,
+ * SystemDeviceTypeGetAvailableListRequest19 in XS data mode.
  *         The response is either SystemSIPDeviceTypeGetListResponse or
  * ErrorResponse.
  */
@@ -32,6 +40,20 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
      */
     private $searchCriteriaExactSignalingAddressType = null;
+
+    /**
+     * @ElementName searchCriteriaResellerId
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
+     */
+    private $searchCriteriaResellerId = array(
+        
+    );
+
+    /**
+     * @ElementName includeSystemLevel
+     * @var bool|null
+     */
+    private $includeSystemLevel = null;
 
     /**
      * Getter for responseSizeLimit
@@ -115,6 +137,67 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     public function setSearchCriteriaExactSignalingAddressType($searchCriteriaExactSignalingAddressType)
     {
         $this->searchCriteriaExactSignalingAddressType = $searchCriteriaExactSignalingAddressType;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaResellerId
+     *
+     * @ElementName searchCriteriaResellerId
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
+     */
+    public function getSearchCriteriaResellerId()
+    {
+        return $this->searchCriteriaResellerId;
+    }
+
+    /**
+     * Setter for searchCriteriaResellerId
+     *
+     * @ElementName searchCriteriaResellerId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
+     * @return $this
+     */
+    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    {
+        $this->searchCriteriaResellerId = $searchCriteriaResellerId;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaResellerId
+     *
+     * @ElementName searchCriteriaResellerId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId $searchCriteriaResellerId
+     * @return $this
+     */
+    public function addSearchCriteriaResellerId($searchCriteriaResellerId)
+    {
+        $this->searchCriteriaResellerId []= $searchCriteriaResellerId;
+        return $this;
+    }
+
+    /**
+     * Getter for includeSystemLevel
+     *
+     * @ElementName includeSystemLevel
+     * @return bool|null
+     */
+    public function getIncludeSystemLevel()
+    {
+        return $this->includeSystemLevel;
+    }
+
+    /**
+     * Setter for includeSystemLevel
+     *
+     * @ElementName includeSystemLevel
+     * @param bool|null $includeSystemLevel
+     * @return $this
+     */
+    public function setIncludeSystemLevel($includeSystemLevel)
+    {
+        $this->includeSystemLevel = $includeSystemLevel;
         return $this;
     }
 

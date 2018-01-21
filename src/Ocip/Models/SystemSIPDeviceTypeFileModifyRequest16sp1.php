@@ -8,8 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a sip device type file.
  *           The response is either SuccessResponse or ErrorResponse.
  *
- *           The following elements are only used in AS data mode:
- *             defaultExtendedFileCaptureMode
+ *           The following logic applies to these elements:
+ *             macInCert
+ *             macInNonRequestURI
+ *             The two elements are mutually exclusive.
+ *             When both are set to true, the command fails.
+ *             When macInCert is set to true, macInNonRequestURI will be reset to
+ * false.
+ *             When macInNonRequestURI is set to true, macInCert will be reset to
+ * false.
  */
 class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -67,6 +74,12 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
      * @var bool|null
      */
     private $macInNonRequestURI = null;
+
+    /**
+     * @ElementName macInCert
+     * @var bool|null
+     */
+    private $macInCert = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -323,6 +336,30 @@ class SystemSIPDeviceTypeFileModifyRequest16sp1 extends \CWM\BroadWorksConnector
     public function setMacInNonRequestURI($macInNonRequestURI)
     {
         $this->macInNonRequestURI = $macInNonRequestURI;
+        return $this;
+    }
+
+    /**
+     * Getter for macInCert
+     *
+     * @ElementName macInCert
+     * @return bool|null
+     */
+    public function getMacInCert()
+    {
+        return $this->macInCert;
+    }
+
+    /**
+     * Setter for macInCert
+     *
+     * @ElementName macInCert
+     * @param bool|null $macInCert
+     * @return $this
+     */
+    public function setMacInCert($macInCert)
+    {
+        $this->macInCert = $macInCert;
         return $this;
     }
 

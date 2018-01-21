@@ -8,14 +8,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemPolicyGetDefaultRequest20.
  *         Contains the default policy settings for the system.
  *         The following elements are only used in AS data mode:
- *         		GroupAdminDialableCallerIDAccess
- *         		ServiceProviderAdminDialableCallerIDAccess
+ *             GroupAdminDialableCallerIDAccess
+ *             ServiceProviderAdminDialableCallerIDAccess
  *                 GroupAdminCommunicationBarringUserProfileAccess (This element is
  * only used for groups in an Enterprise)
  *             GroupAdminVerifyTranslationAndRoutingAccess
  *             ServiceProviderAdminVerifyTranslationAndRoutingAccess
- *         The following elements are only used in HSS data mode:
- * 	      		serviceProviderAdminCommunicationBarringAccess
+ *         The following elements are only used in XS data mode:
+ *             serviceProviderAdminCommunicationBarringAccess
+ *           
+ *         Replaced by: SystemPolicyGetDefaultResponse22 in AS mode
  */
 class SystemPolicyGetDefaultResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupGetListInSystemRequest.
  *         Contains a table with column headings: "Group Id", "Group Name", "User
- * Limit", "Organization Id", "Organization Type"
+ * Limit", "Organization Id", "Organization Type", "Reseller Id" 
  *         and a row for each group.
  *         The "Organization Id" column is populated with either a service provider
  * Id or an enterprise Id.
@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * strings defined in the
  *         OrganizationType OCI data type.  Please see OCISchemaDataTypes.xsd for
  * details on OrganizationType.
+ *         
+ *         The following columns are only returned in AS data mode:       
+ *           Reseller Id
  */
 class GroupGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

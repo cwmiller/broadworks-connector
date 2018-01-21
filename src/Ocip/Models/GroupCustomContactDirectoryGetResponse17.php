@@ -11,7 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", "Hiragana Last Name", 
  *         "Hiragana First Name", "Virtual On-Net Phone Number", "Group Id", 
  *         "Is Virtual On-Net User", "Department", "Phone Number", "Extension",
- *         "Mobile", "Email Address", "Yahoo Id", "Title", "IMP Id".
+ *         "Mobile", "Email Address", "Yahoo Id", "Title", "IMP Id", "Receptionist
+ * Note".
  *         If the entry represents a Virtual On-Net user then "User Id" is blank,  
  *         the "Virtual On-Net Phone Number" contains the phone Number of the 
  *         Virtual On-Net user, the "Group Id" contains the Virtual On-Net user's 
@@ -19,7 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If the entry represents a BroadWorks user then the "User Id" contains 
  *         his BroadWorks userId, the "Virtual On-Net Phone Number" and 
  *         "Group Id" fields are field is blank and the "Is Virtual On-Net User" 
- *         contains false.
+ *         contains false.  The Receptionist Note column is only populated in AS 
+ *         Mode, if the user sending the request is the owner of the Receptionist 
+ *         Note and a Note exists.
  */
 class GroupCustomContactDirectoryGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

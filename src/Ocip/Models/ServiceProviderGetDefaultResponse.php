@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderGetDefaultRequest. All values are default values
  * for
  *         a service provider or enterprise's profile.
+ *         
+ *         The following elements are only used in AS and XS data mode and not
+ * returned in Amplify data mode.
+ *           defaultDomain
  */
 class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

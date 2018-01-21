@@ -7,8 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemPolicyGetDefaultRequest17sp1.
  *         Contains the default policy settings for the system.
- *         The following elements are only used in HSS data mode:
- * 	   serviceProviderAdminCommunicationBarringAccess
+ *         The following elements are only used in XS data mode:
+ *      serviceProviderAdminCommunicationBarringAccess
  */
 class SystemPolicyGetDefaultResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

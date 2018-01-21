@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AccessDeviceMultipleContactEndpointRead
  *
  * Access device end point that can have multiple contacts.
- * 		
- * 		Replaced by AccessDeviceMultipleContactEndpointRead19.
+ *     
+ *     Replaced by AccessDeviceMultipleContactEndpointRead19.
  */
 class AccessDeviceMultipleContactEndpointRead
 {

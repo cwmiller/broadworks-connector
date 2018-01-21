@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPriorityAlertModifyCriteriaRequest
  *
  * Modify a criteria for the user's priority alert service.
+ *         The following elements are only used in AS data mode:
+ *           callToNumberList
+ *           
  *         For the callToNumbers in the callToNumberList, the extension element is
  * not used and the number element is only used when the type is BroadWorks
  * Mobility.

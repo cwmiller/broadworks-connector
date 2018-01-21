@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Usage", "Licensed", "Allowed", "User Assignable", "Group Service Assignable".
  *         The group service table has the following column headings:
  *           "Service Name", "Authorized", "Assigned", "Limited", "Quantity",
- * "Usage", "Licensed", "Allowed".
+ * "Usage", "Licensed", "Allowed", "Instance Count".
  *         The service pack table's column headings are:
  *           "Service Pack Name", "Authorized", "Assigned", "Limited", "Allocated",
  * "Allowed", "Usage", "Description".

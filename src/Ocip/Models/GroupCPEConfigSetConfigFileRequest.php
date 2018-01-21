@@ -7,6 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to set a new group default configuration file for a device type.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         When the element configFile is set to nil, the configuration file
+ * defined
+ *         at the parent level is used (in AS mode only).
  */
 class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

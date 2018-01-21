@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse or
  * ErrorResponse.
+ *         The Receptionist Note column is only populated, if the user sending the
+ * request is the owner of the 
+ *         Receptionist Note and a Note exists.
  */
 class UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -83,6 +86,14 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest extends \C
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaReceptionistNote
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
+     */
+    private $searchCriteriaReceptionistNote = array(
         
     );
 
@@ -401,6 +412,43 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest extends \C
     public function addSearchCriteriaImpId($searchCriteriaImpId)
     {
         $this->searchCriteriaImpId []= $searchCriteriaImpId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
+     */
+    public function getSearchCriteriaReceptionistNote()
+    {
+        return $this->searchCriteriaReceptionistNote;
+    }
+
+    /**
+     * Setter for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[] $searchCriteriaReceptionistNote
+     * @return $this
+     */
+    public function setSearchCriteriaReceptionistNote($searchCriteriaReceptionistNote)
+    {
+        $this->searchCriteriaReceptionistNote = $searchCriteriaReceptionistNote;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote $searchCriteriaReceptionistNote
+     * @return $this
+     */
+    public function addSearchCriteriaReceptionistNote($searchCriteriaReceptionistNote)
+    {
+        $this->searchCriteriaReceptionistNote []= $searchCriteriaReceptionistNote;
         return $this;
     }
 

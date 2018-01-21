@@ -6,6 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMPPGetResponse21
  *
  * Response to SystemSMPPGetRequest21.
+ *         
+ *         The following elements are only used in AS data mode:
+ *           primarySMPPServerNetAddress, value "" is returned in Amplify data mode
+ *           primarySMPPPort, value "2775" is returned in Amplify data mode
+ *           secondarySMPPServerNetAddress, value "" is returned in Amplify mode
+ *           secondarySMPPPort, value "2775" is returned in Amplify data mode
+ *           systemId, value "" is returned in Amplify data mode
+ *           password, value "" is returned in Amplify mode
+ *           version, value "" is returned in Amplify data mode
+ *           systemType, value "VMS" is returned in Amplify mode
+ *           useGsmMwiUcs2Encoding, value "true" is returned in Amplify mode
  */
 class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

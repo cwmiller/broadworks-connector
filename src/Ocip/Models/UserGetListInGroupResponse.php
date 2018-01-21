@@ -9,8 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings : "User Id",
  *         "Last Name", "First Name", "Department", "Phone Number", "Phone Number
  * Activated", "Email Address",  "Hiragana Last Name", "Hiragana First Name", "In
- * Trunk Group", "Extension"
+ * Trunk Group", "Extension", "Country Code", "National Prefix"
  *         in a row for each user.
+ *         
+ *         The following columns are only returned in AS data mode:   
+ *           "Country Code", "National Prefix
  */
 class UserGetListInGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

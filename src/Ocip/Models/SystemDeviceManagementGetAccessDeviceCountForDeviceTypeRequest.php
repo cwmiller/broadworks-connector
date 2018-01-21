@@ -9,10 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         device types if deviceType is not specified.
  *         If countOnlyResetSupportedDevice is true, count only access devices if
  * the device type supports reset.
- *         Devices are counted only if their device type supports Device
- * Management.
+ *         By default unmanaged device types are not allowed and devices are
+ * counted only if their device type supports Device Management.
  *         An error is returned if deviceType is specified but does not support
  * device management.
+ *         When allowUnmanagedDeviceType is true, unmanaged device type will be
+ * counted and a successful response is returned.
  *         The response is either
  * SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse or
  * ErrorResponse.
@@ -31,6 +33,12 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
+
+    /**
+     * @ElementName allowUnmanagedDeviceType
+     * @var bool|null
+     */
+    private $allowUnmanagedDeviceType = null;
 
     /**
      * Getter for deviceType
@@ -77,6 +85,30 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
     public function setCountOnlyResetSupportedDevice($countOnlyResetSupportedDevice)
     {
         $this->countOnlyResetSupportedDevice = $countOnlyResetSupportedDevice;
+        return $this;
+    }
+
+    /**
+     * Getter for allowUnmanagedDeviceType
+     *
+     * @ElementName allowUnmanagedDeviceType
+     * @return bool|null
+     */
+    public function getAllowUnmanagedDeviceType()
+    {
+        return $this->allowUnmanagedDeviceType;
+    }
+
+    /**
+     * Setter for allowUnmanagedDeviceType
+     *
+     * @ElementName allowUnmanagedDeviceType
+     * @param bool|null $allowUnmanagedDeviceType
+     * @return $this
+     */
+    public function setAllowUnmanagedDeviceType($allowUnmanagedDeviceType)
+    {
+        $this->allowUnmanagedDeviceType = $allowUnmanagedDeviceType;
         return $this;
     }
 

@@ -9,7 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         level.
  *         The response is either SystemFeatureAccessCodeGetListResponse20 or
  *         ErrorResponse.
- *
  *         In release 20 the "Call Recording" FAC name is changed to
  *         "Call Recording - Start".
  *         Replaced by: SystemFeatureAccessCodeGetListRequest21

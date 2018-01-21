@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a user's Security Classifications configuration.
  *         The response is either UserSecurityClassificationGetResponse or
  * ErrorResponse.
+ *         
+ *         Replaced By: UserSecurityClassificationGetRequest22.
  */
 class UserSecurityClassificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

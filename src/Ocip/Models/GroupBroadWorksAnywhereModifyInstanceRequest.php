@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksAnywhereModifyInstanceRequest
  *
  * Request to modify a BroadWorks Anywhere instance.
+ *         The following elements are only used in AS data mode:
+ *           networkClassOfService            
  *         The response is either SuccessResponse or ErrorResponse.
  */
 class GroupBroadWorksAnywhereModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

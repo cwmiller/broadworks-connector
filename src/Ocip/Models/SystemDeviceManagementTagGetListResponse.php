@@ -8,7 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceManagementTagGetListRequest.
  *         Contains a table of custom configuration tags managed by the Device
  * Management System.
- *         The column headings are: "Tag Name", "Tag Value".
+ *         In AS data mode, the column headings are: "Tag Name", "Tag Value", "Is
+ * Overridable".
+ *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is
+ * Overridable", "Is Encrypted".
  */
 class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

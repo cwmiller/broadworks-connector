@@ -7,9 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemIntegratedIMPGetRequest19.
  *         The response contains the system Integrated IMP service attributes.
- *
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           boshURL
+ *           
+ *         Replaced by: SystemIntegratedIMPGetResponse21 in AS data mode
  */
 class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

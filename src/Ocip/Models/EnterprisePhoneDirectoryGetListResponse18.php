@@ -14,7 +14,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * are also included:
  *         "First Name", "Last Name", "Pager", "Title", "Time Zone", 
  *         "Location", "Address Line 1", "Address Line 2",
- *         "City", "State", "Zip", "Country".
+ *         "City", "State", "Zip", "Country", "Service Name".
+ *         The Service Name represents the localized service name for service
+ * instances. The localized values are taken from the BroadworksLabel.properties
+ * file.
+ *         Service Name is currently supporting:
+ *         AutoAttendant, AutoAttendantStandard, AutoAttendantVideo, CallCenter,
+ * CallCenterStandard, CallCenterPremium
+ *         HuntGroup, InstantGroupCall, VoiceMessagingGroup, RoutePoint,
+ * BroadWorksAnywhere, GroupPaging, FindmeFollowme, 
+ *         VoiceXML, FlexibleSeatingGuest, CollaborateAudio, MeetMeConferencing.
+ *         For a Regular User or a Virtual On Network Enterprise Extensions, the
+ * Service Name is empty.
+ *         
+ *         The following columns are returned in AS data mode only:
+ *           "Service Name"
  */
 class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

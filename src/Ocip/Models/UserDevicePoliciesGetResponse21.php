@@ -6,7 +6,29 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserDevicePoliciesGetResponse21
  *
  * Response to UserDevicePoliciesGetRequest21. enableDeviceFeatureSynchronization
- * is ignored by the application server in Multiple User Shared mode.
+ * and 
+ *           enableCallDecline are ignored by the application server in Multiple
+ * User Shared mode.
+ *         The following element is only used in AS data mode:
+ *           lineMode, value “Single User Private and Shared” is returned in XS
+ * data mode
+ *         The following elements are only used in AS data mode:
+ *           enableDeviceFeatureSynchronization, value “false” is returned in
+ * XS data mode
+ *           enableDnd, value “false” is returned in XS data mode
+ *           enableCallForwardingAlways, value “false” is returned in XS data
+ * mode
+ *           enableCallForwardingBusy, value “false” is returned in XS data
+ * mode
+ *           enableCallForwardingNoAnswer, value “false” is returned in XS data
+ * mode
+ *           enableAcd, value “false” is returned in XS data mode
+ *           enableExecutive, value “false” is returned in XS data mode
+ *           enableExecutiveAssistant, value “false” is returned in XS data
+ * mode
+ *           enableSecurityClassification, value “false” is returned in XS data
+ * mode
+ *           enableCallRecording, value “false” is returned in XS data mode
  */
 class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

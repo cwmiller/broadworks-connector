@@ -14,10 +14,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * access FQDN is not set,
  *           or "Error Access Context Name Not Provisioned" when the context name
  * is not set.
- *
  *           2. repositoryUrl may be set to
  * "DEVICE_CONFIGURATION_FILE_REPOSITORY_MISSING", if there is no file repository
  * defined.
+ *           
+ *           Replaced by: SystemSIPDeviceTypeFileGetResponse20 in AS data mode
  */
 class SystemSIPDeviceTypeFileGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

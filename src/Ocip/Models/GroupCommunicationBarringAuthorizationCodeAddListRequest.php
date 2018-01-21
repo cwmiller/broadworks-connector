@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a list of Communication Barring Authorization codes to a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by:
+ * GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 in AS data mode
  */
 class GroupCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

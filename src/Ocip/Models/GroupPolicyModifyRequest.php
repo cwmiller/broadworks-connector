@@ -7,6 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify the policies for a Group.
  *           The response is either a SuccessResponse or an ErrorResponse.
+ *           
+ *         The following elements are only used in AS data mode:
+ *           userAutoAttendantNameDialingAccess  
+ *           
+ *           Replaced by: GroupPolicyModifyRequest22 in AS data mode
  */
 class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

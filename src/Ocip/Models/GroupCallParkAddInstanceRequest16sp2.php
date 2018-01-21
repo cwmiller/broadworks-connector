@@ -7,10 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Adds a Call Park group.
  *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         The following elements are only used in AS data mode:
- *          recallAlternateUserId
- *          recallTo, use value "Parking User Only" in HSS data mode
  */
 class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

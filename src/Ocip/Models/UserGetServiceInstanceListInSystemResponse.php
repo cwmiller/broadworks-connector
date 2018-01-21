@@ -6,10 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetServiceInstanceListInSystemResponse
  *
  * Response to UserGetServiceInstanceListInSystemRequest.
- *         Contains a table with column headings : "User Id", "Group Id", "Serive
+ *         Contains a table with column headings : "User Id", "Group Id", "Service
  * Provider Id", "Service Type", "Name", "Phone Number", 
- *         "Extension" in a row for each Service Instance. Possible values for
- * Service Type column are ServiceType enums.
+ *         "Extension", "Reseller Id" in a row for each Service Instance. Possible
+ * values for Service Type column are ServiceType enums. 
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,7 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Create a service pack migration task.
  *         The response is either SuccessResponse or ErrorResponse.
- *         Replaced By: ServiceProviderServicePackMigrationTaskAddRequest21
+ *         
+ *         Replaced By: ServiceProviderServicePackMigrationTaskAddRequest21 in AS
+ * data mode
  */
 class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

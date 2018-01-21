@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCallProcessingPolicyProfileVoicePortalProfileGetResponse or an
  *         ErrorResponse.
+ *         
+ *         Replaced by:
+ * SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

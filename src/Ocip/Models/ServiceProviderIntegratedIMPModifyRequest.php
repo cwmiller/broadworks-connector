@@ -7,6 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Integrated IMP service attributes for the service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         If the service provider is within a reseller, useSystemServiceDomain
+ * means using reseller level service 
+ *         domain setting. And useSystemMessagingServer means using the reseller
+ * level messaging server setting.
+ *         
+ *         The following elements are only used in AS data mode:
+ *           servicePort
+ *           useSystemMessagingServer
+ *           provisioningUrl
+ *           provisioningUserId
+ *           provisioningPassword
+ *           boshURL
  */
 class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

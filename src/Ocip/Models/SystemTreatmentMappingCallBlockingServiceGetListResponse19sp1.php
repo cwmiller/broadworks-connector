@@ -5,9 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1
  *
- * Response to a SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1.
- * Contains a table with one row per mapping.
+ * Response to a SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1. 
+ *         Contains a table with one row per mapping.
  *         The table columns are: "Service", "Treatment Id".
+ *         The Service column list the service or policy which is using
+ * corresponding treatment, and can be OCP, EOCP, ICP, ACR, 
+ *         SCR, SCA, AAC, Intercept, PTT, CommBarring, SAC, IncomingCommBarring,
+ * HierCommBarring, IncomHierCommBarring, 
+ *         BWMobilityDenyOrig, BWMobilityDenyTerm, ETRouteExhaust, CallPark,
+ * NumberPortability.
+ *         
+ *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListResponse22
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

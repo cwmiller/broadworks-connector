@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's priority alert service.
  *         The response is either a UserPriorityAlertGetCriteriaResponse16 or an
  * ErrorResponse.
- *
- *         Replaced by: UserPriorityAlertGetCriteriaRequest21
+ *         Replaced by: UserPriorityAlertGetCriteriaRequest21 in AS data mode
  */
 class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

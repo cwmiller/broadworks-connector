@@ -10,7 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * nothing populated in it which means the user is a trunk user.
  *         The following data elements are only used in AS data mode:
  *           contact[2]-contact[5]
- *         The following data elements are only used in IMS data mode:
+ *           nameDialingName
+ *         The following data elements are only used in XS data mode:
  *           alternateTrunkIdentityDomain
  *         
  *         The country code (countryCode) included is the user's phone number
@@ -24,6 +25,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The callingLineIdPhoneNumber is no longer being formatted for display
  * purpose. The value is returned exactly the same as being stored.
+ *         
+ *         Replaced by UserGetResponse21sp1 in AS data mode
  */
 class UserGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

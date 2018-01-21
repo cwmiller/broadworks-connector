@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a device profile file.
  *         The response is either SystemAccessDeviceFileGetResponse16sp1 or
  * ErrorResponse.
+ *         
+ *         Replaced by: SystemAccessDeviceFileGetRequest20
  */
 class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

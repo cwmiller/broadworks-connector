@@ -10,8 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *
  *         The following element values are only applicable in AS data mode:
- *         numberActivationMode = Group And User Activation Enabled will raise
- *         an error in HSS data mode.
+ *           enableEnterpriseTrunkNumberRangeActivation
+ *           numberActivationMode = Group And User Activation Enabled will raise an
+ * error in XS data mode.
  */
 class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

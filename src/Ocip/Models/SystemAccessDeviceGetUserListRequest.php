@@ -8,9 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the users associated with a specified system access device.
  *         The response is either SystemAccessDeviceGetUserListResponse or
  * ErrorResponse.
- *         The following elements are only used in HSS data mode and ignored in AS
+ *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
+ *           
+ *          Replaced by: SystemAccessDeviceGetUserListRequest21sp1 in AS data mode.
  */
 class SystemAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -88,6 +90,14 @@ class SystemAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     private $searchCriteriaExactServiceProvider = null;
+
+    /**
+     * @ElementName searchCriteriaServiceProviderId
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
+     */
+    private $searchCriteriaServiceProviderId = array(
+        
+    );
 
     /**
      * @ElementName searchCriteriaExactEndpointType
@@ -451,6 +461,43 @@ class SystemAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip
     public function setSearchCriteriaExactServiceProvider($searchCriteriaExactServiceProvider)
     {
         $this->searchCriteriaExactServiceProvider = $searchCriteriaExactServiceProvider;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
+     */
+    public function getSearchCriteriaServiceProviderId()
+    {
+        return $this->searchCriteriaServiceProviderId;
+    }
+
+    /**
+     * Setter for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
+     * @return $this
+     */
+    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    {
+        $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId $searchCriteriaServiceProviderId
+     * @return $this
+     */
+    public function addSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    {
+        $this->searchCriteriaServiceProviderId []= $searchCriteriaServiceProviderId;
         return $this;
     }
 

@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallProcessingGetPolicyResponse18
  *
  * Response to UserCallProcessingGetPolicyRequest18.
- *       The useUserCLIDSetting attribute controls the CLID settings 
- *       (clidPolicy, emergencyClidPolicy,
+ *         The useUserCLIDSetting attribute controls the CLID settings 
+ *         (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName,
  * allowConfigurableCLIDForRedirectingIdentity, allowDepartmentCLIDNameOverride)
- *       
  *         The useUserMediaSetting attribute controls the Media settings 
  *         (medisPolicySelection, supportedMediaSetName)
- *         
  *         The useUserCallLimitsSetting attribute controls the Call Limits setting 
  *         (useMaxSimultaneousCalls, maxSimultaneousCalls,
  * useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls,
@@ -27,7 +25,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          enableDialableCallerID
  *          allowConfigurableCLIDForRedirectingIdentity
  *          allowDepartmentCLIDNameOverride
- *
  *         Replaced by: UserCallProcessingGetPolicyResponse19sp1
  */
 class UserCallProcessingGetPolicyResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

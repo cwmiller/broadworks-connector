@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDialableCallerIDGetResponse
  *
  * Response to the GroupDialableCallerIDGetRequest.
- *         The criteria table�s column headings are "Active", "Name",
- * "Description", �Prefix Digits�, �Priority�.
+ *         The criteria table's column headings are "Active", "Name",
+ * "Description", "Prefix Digits", "Priority".
  */
 class GroupDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

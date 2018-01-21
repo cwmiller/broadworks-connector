@@ -177,6 +177,18 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
     private $overrideCLIDRestrictionForPrivateCallCategory = null;
 
     /**
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = null;
+
+    /**
      * Getter for callProcessingPolicyProfileName
      *
      * @ElementName callProcessingPolicyProfileName
@@ -845,6 +857,54 @@ class SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest extends \
     public function setOverrideCLIDRestrictionForPrivateCallCategory($overrideCLIDRestrictionForPrivateCallCategory)
     {
         $this->overrideCLIDRestrictionForPrivateCallCategory = $overrideCLIDRestrictionForPrivateCallCategory;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
         return $this;
     }
 

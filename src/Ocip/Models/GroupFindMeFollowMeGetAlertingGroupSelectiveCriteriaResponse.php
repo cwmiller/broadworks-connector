@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest.
  *         Contains the alerting group selective criteria information.
- *
  *         Replaced by:
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
  */

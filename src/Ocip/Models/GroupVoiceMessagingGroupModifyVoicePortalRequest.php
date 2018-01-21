@@ -7,6 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify the group voice portal information for a voice messaging
  * group.
+ *         The following elements are only used in AS data mode:
+ *           networkClassOfService
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *          expressMode         
+ *           
  *         The response is either SuccessResponse or ErrorResponse.
  */
 class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
@@ -83,6 +89,12 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @var string|null
      */
     private $networkClassOfService = null;
+
+    /**
+     * @ElementName expressMode
+     * @var bool|null
+     */
+    private $expressMode = null;
 
     /**
      * Getter for serviceProviderId
@@ -369,6 +381,30 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * Getter for expressMode
+     *
+     * @ElementName expressMode
+     * @return bool|null
+     */
+    public function getExpressMode()
+    {
+        return $this->expressMode;
+    }
+
+    /**
+     * Setter for expressMode
+     *
+     * @ElementName expressMode
+     * @param bool|null $expressMode
+     * @return $this
+     */
+    public function setExpressMode($expressMode)
+    {
+        $this->expressMode = $expressMode;
         return $this;
     }
 

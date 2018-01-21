@@ -8,6 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add a user.
  *         The domain is required in the userId.
  *         The password is not required if external authentication is enabled.
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *           nameDialingName
+ *           alternateUserId
+ *           
  *         The response is either SuccessResponse or ErrorResponse.
  */
 class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
@@ -182,6 +187,14 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @var string|null
      */
     private $networkClassOfService = null;
+
+    /**
+     * @ElementName alternateUserId
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
+     */
+    private $alternateUserId = array(
+        
+    );
 
     /**
      * Getter for serviceProviderId
@@ -865,6 +878,43 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * Getter for alternateUserId
+     *
+     * @ElementName alternateUserId
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
+     */
+    public function getAlternateUserId()
+    {
+        return $this->alternateUserId;
+    }
+
+    /**
+     * Setter for alternateUserId
+     *
+     * @ElementName alternateUserId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[] $alternateUserId
+     * @return $this
+     */
+    public function setAlternateUserId($alternateUserId)
+    {
+        $this->alternateUserId = $alternateUserId;
+        return $this;
+    }
+
+    /**
+     * Adder for alternateUserId
+     *
+     * @ElementName alternateUserId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry $alternateUserId
+     * @return $this
+     */
+    public function addAlternateUserId($alternateUserId)
+    {
+        $this->alternateUserId []= $alternateUserId;
         return $this;
     }
 

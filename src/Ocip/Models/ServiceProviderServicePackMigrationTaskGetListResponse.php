@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The start timestamp column is the number of milliseconds since the
  * standard base time known as "the epoch",
  *         namely January 1, 1970, 00:00:00 GMT.
+ *         
+ *         Replaced By : ServiceProviderServicePackMigrationTaskGetListResponse21
+ * in AS data mode
  */
 class ServiceProviderServicePackMigrationTaskGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

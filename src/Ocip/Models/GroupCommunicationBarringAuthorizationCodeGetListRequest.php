@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupCommunicationBarringAuthorizationCodeGetListResponse 
  *         or an ErorResponse.
+ *         
+ *         Replaced by:
+ * GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 in AS data mode
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

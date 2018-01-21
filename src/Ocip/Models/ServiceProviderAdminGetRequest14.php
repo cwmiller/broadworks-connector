@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a service provider administrators profile.
  *         The response is either a ServiceProviderAdminGetResponse14 or an
  * ErrorResponse.
+ *         Replaced by ServiceProviderAdminGetRequest21sp1.
  */
 class ServiceProviderAdminGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

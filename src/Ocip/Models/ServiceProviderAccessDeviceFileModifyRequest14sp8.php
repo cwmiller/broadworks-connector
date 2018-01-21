@@ -7,9 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a specified service provider/enterprise access device file.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *
- *         The following elements are only used in AS data mode:
- *           extendedCaptureEnabled
  */
 class ServiceProviderAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

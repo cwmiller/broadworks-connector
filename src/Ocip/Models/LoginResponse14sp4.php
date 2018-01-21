@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginResponse14sp4
  *
  * LoginRequest14sp4/Response14sp4 is 2nd stage of the 2 stage OCI login process.
+ *         
+ *        Replaced by: LoginResponse22 in AS data mode.
  */
 class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

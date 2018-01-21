@@ -9,9 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings for the endpointTable are: "Organization Id",
  * "Organization Type", "Group Id", "Line/Port", "Last Name","First Name", "User
  * Id", "User Type", "Phone Number", "Extension", "Device Type", "Device Name",
- * "Net Address", "MAC Address", "Department", "Email Address".
- *         Possible values for User Type are ‘User’, ‘CCBasic’,
- * ‘CCStandard’, ‘CCPremium’, ‘RP’, ‘MOH’, ‘MOHVideo’.
+ * "Net Address", "MAC Address", "Department", "Email Address", "Reseller Id".
+ *         Possible values for User Type are "User", "CCBasic", "CCStandard",
+ * "CCPremium", "RP", "MOH", "MOHVideo".
+ *         
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class SystemEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

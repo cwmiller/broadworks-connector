@@ -8,7 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDnUtilizationGetListRequest.
  *         The table columns are: "Service Provider Id", "Phone Numbers", "Assigned
  * to Groups",
- *         "Percentage Assigned", "Is Enterprise" and "Activated on Groups".
+ *         "Percentage Assigned", "Is Enterprise", "Activated on Groups", "Reseller
+ * Id".
+ *
+ * 	    The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

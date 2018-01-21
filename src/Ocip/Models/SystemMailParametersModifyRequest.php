@@ -42,6 +42,18 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     private $supportDNSSRVForMailServerAccess = null;
 
     /**
+     * @ElementName secureMode
+     * @var string|null
+     */
+    private $secureMode = null;
+
+    /**
+     * @ElementName port
+     * @var int|null
+     */
+    private $port = null;
+
+    /**
      * Getter for primaryServerNetAddress
      *
      * @ElementName primaryServerNetAddress
@@ -158,6 +170,54 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     public function setSupportDNSSRVForMailServerAccess($supportDNSSRVForMailServerAccess)
     {
         $this->supportDNSSRVForMailServerAccess = $supportDNSSRVForMailServerAccess;
+        return $this;
+    }
+
+    /**
+     * Getter for secureMode
+     *
+     * @ElementName secureMode
+     * @return string|null
+     */
+    public function getSecureMode()
+    {
+        return $this->secureMode;
+    }
+
+    /**
+     * Setter for secureMode
+     *
+     * @ElementName secureMode
+     * @param string|null $secureMode
+     * @return $this
+     */
+    public function setSecureMode($secureMode)
+    {
+        $this->secureMode = $secureMode;
+        return $this;
+    }
+
+    /**
+     * Getter for port
+     *
+     * @ElementName port
+     * @return int|null
+     */
+    public function getPort()
+    {
+        return $this->port;
+    }
+
+    /**
+     * Setter for port
+     *
+     * @ElementName port
+     * @param int|null $port
+     * @return $this
+     */
+    public function setPort($port)
+    {
+        $this->port = $port;
         return $this;
     }
 

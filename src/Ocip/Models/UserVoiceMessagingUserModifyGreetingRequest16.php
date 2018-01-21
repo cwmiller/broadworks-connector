@@ -8,12 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user's voice messaging greeting.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Engineering Note: This command is used internally by Call Processing.
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
  *           disableMessageDeposit
  *           disableMessageDepositAction
  *           greetingOnlyForwardDestination
  *           
- *         Replaced by UserVoiceMessagingUserModifyGreetingRequest20
+ *         Replaced by UserVoiceMessagingUserModifyGreetingRequest20 in AS data
+ * mode
  */
 class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

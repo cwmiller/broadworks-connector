@@ -24,6 +24,12 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
     private $screenPrivateNumber = null;
 
     /**
+     * @ElementName emptyHolidayScheduleIsOutOfSchedule
+     * @var bool|null
+     */
+    private $emptyHolidayScheduleIsOutOfSchedule = null;
+
+    /**
      * Getter for scheduleCombination
      *
      * @ElementName scheduleCombination
@@ -68,6 +74,30 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
     public function setScreenPrivateNumber($screenPrivateNumber)
     {
         $this->screenPrivateNumber = $screenPrivateNumber;
+        return $this;
+    }
+
+    /**
+     * Getter for emptyHolidayScheduleIsOutOfSchedule
+     *
+     * @ElementName emptyHolidayScheduleIsOutOfSchedule
+     * @return bool|null
+     */
+    public function getEmptyHolidayScheduleIsOutOfSchedule()
+    {
+        return $this->emptyHolidayScheduleIsOutOfSchedule;
+    }
+
+    /**
+     * Setter for emptyHolidayScheduleIsOutOfSchedule
+     *
+     * @ElementName emptyHolidayScheduleIsOutOfSchedule
+     * @param bool|null $emptyHolidayScheduleIsOutOfSchedule
+     * @return $this
+     */
+    public function setEmptyHolidayScheduleIsOutOfSchedule($emptyHolidayScheduleIsOutOfSchedule)
+    {
+        $this->emptyHolidayScheduleIsOutOfSchedule = $emptyHolidayScheduleIsOutOfSchedule;
         return $this;
     }
 

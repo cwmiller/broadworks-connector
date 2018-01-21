@@ -8,7 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSIPDeviceTypeGetListRequest.
  *         Contains a table of identity/ device profile types configured in the
  * system.
- *         The column headings are: "Device Type", "Profile", "Is Obsolete".
+ *         The column headings are: "Device Type", "Profile", "Is Obsolete" and
+ * "Reseller Id".
+ *
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class SystemSIPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

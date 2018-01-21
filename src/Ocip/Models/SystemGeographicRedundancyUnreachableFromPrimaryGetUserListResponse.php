@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest.
  * The Unreachable From Primary User table column
  *         headings are: "User ID", "Lineport".
+ *         
+ *         Replaced by:
+ * SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 in AS data
+ * mode
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

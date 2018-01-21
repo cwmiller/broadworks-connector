@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingCallBlockingServiceGetListRequest. Contains
  * a table with one row per mapping.
  *         The table columns are: "Service", "Treatment Id".
+ *         
+ *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListResponse22
+ * in AS data mode
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

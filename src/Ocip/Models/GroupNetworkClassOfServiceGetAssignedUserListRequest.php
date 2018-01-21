@@ -10,8 +10,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupNetworkClassOfServiceGetAssignedUserListResponse 
  *         or an ErorResponse.
- *         
- *         Replaced by: GroupNetworkClassOfServiceGetAssignedUserListRequest21
  */
 class GroupNetworkClassOfServiceGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

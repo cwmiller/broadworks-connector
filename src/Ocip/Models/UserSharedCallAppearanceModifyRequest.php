@@ -6,10 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSharedCallAppearanceModifyRequest
  *
  * Modify the user's Shared Call Appearance service setting.
- *         The response is either a SuccessResponse or an ErrorResponse.
- *         
- *         The following elements are only used in AS data mode:
- *          enableCallParkNotification
+ *          The response is either a SuccessResponse or an ErrorResponse.
+ *          
+ *          The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *            useUserPrimaryWithAlternateCallsSetting
+ *            allowSimultaneousPrimaryAndAlternate
+ *            restrictCallRetrieveOfPrimary
+ *            restrictCallBridgingOfPrimary
  */
 class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -61,6 +65,30 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @var bool|null
      */
     private $enableCallParkNotification = null;
+
+    /**
+     * @ElementName useUserPrimaryWithAlternateCallsSetting
+     * @var bool|null
+     */
+    private $useUserPrimaryWithAlternateCallsSetting = null;
+
+    /**
+     * @ElementName allowSimultaneousPrimaryAndAlternateCalls
+     * @var bool|null
+     */
+    private $allowSimultaneousPrimaryAndAlternateCalls = null;
+
+    /**
+     * @ElementName restrictCallRetrieveOfPrimaryCall
+     * @var bool|null
+     */
+    private $restrictCallRetrieveOfPrimaryCall = null;
+
+    /**
+     * @ElementName restrictCallBridgingOfPrimaryCall
+     * @var bool|null
+     */
+    private $restrictCallBridgingOfPrimaryCall = null;
 
     /**
      * Getter for userId
@@ -251,6 +279,102 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     public function setEnableCallParkNotification($enableCallParkNotification)
     {
         $this->enableCallParkNotification = $enableCallParkNotification;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPrimaryWithAlternateCallsSetting
+     *
+     * @ElementName useUserPrimaryWithAlternateCallsSetting
+     * @return bool|null
+     */
+    public function getUseUserPrimaryWithAlternateCallsSetting()
+    {
+        return $this->useUserPrimaryWithAlternateCallsSetting;
+    }
+
+    /**
+     * Setter for useUserPrimaryWithAlternateCallsSetting
+     *
+     * @ElementName useUserPrimaryWithAlternateCallsSetting
+     * @param bool|null $useUserPrimaryWithAlternateCallsSetting
+     * @return $this
+     */
+    public function setUseUserPrimaryWithAlternateCallsSetting($useUserPrimaryWithAlternateCallsSetting)
+    {
+        $this->useUserPrimaryWithAlternateCallsSetting = $useUserPrimaryWithAlternateCallsSetting;
+        return $this;
+    }
+
+    /**
+     * Getter for allowSimultaneousPrimaryAndAlternateCalls
+     *
+     * @ElementName allowSimultaneousPrimaryAndAlternateCalls
+     * @return bool|null
+     */
+    public function getAllowSimultaneousPrimaryAndAlternateCalls()
+    {
+        return $this->allowSimultaneousPrimaryAndAlternateCalls;
+    }
+
+    /**
+     * Setter for allowSimultaneousPrimaryAndAlternateCalls
+     *
+     * @ElementName allowSimultaneousPrimaryAndAlternateCalls
+     * @param bool|null $allowSimultaneousPrimaryAndAlternateCalls
+     * @return $this
+     */
+    public function setAllowSimultaneousPrimaryAndAlternateCalls($allowSimultaneousPrimaryAndAlternateCalls)
+    {
+        $this->allowSimultaneousPrimaryAndAlternateCalls = $allowSimultaneousPrimaryAndAlternateCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for restrictCallRetrieveOfPrimaryCall
+     *
+     * @ElementName restrictCallRetrieveOfPrimaryCall
+     * @return bool|null
+     */
+    public function getRestrictCallRetrieveOfPrimaryCall()
+    {
+        return $this->restrictCallRetrieveOfPrimaryCall;
+    }
+
+    /**
+     * Setter for restrictCallRetrieveOfPrimaryCall
+     *
+     * @ElementName restrictCallRetrieveOfPrimaryCall
+     * @param bool|null $restrictCallRetrieveOfPrimaryCall
+     * @return $this
+     */
+    public function setRestrictCallRetrieveOfPrimaryCall($restrictCallRetrieveOfPrimaryCall)
+    {
+        $this->restrictCallRetrieveOfPrimaryCall = $restrictCallRetrieveOfPrimaryCall;
+        return $this;
+    }
+
+    /**
+     * Getter for restrictCallBridgingOfPrimaryCall
+     *
+     * @ElementName restrictCallBridgingOfPrimaryCall
+     * @return bool|null
+     */
+    public function getRestrictCallBridgingOfPrimaryCall()
+    {
+        return $this->restrictCallBridgingOfPrimaryCall;
+    }
+
+    /**
+     * Setter for restrictCallBridgingOfPrimaryCall
+     *
+     * @ElementName restrictCallBridgingOfPrimaryCall
+     * @param bool|null $restrictCallBridgingOfPrimaryCall
+     * @return $this
+     */
+    public function setRestrictCallBridgingOfPrimaryCall($restrictCallBridgingOfPrimaryCall)
+    {
+        $this->restrictCallBridgingOfPrimaryCall = $restrictCallBridgingOfPrimaryCall;
         return $this;
     }
 

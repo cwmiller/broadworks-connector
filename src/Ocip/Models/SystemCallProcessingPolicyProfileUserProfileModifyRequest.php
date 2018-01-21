@@ -264,6 +264,48 @@ class SystemCallProcessingPolicyProfileUserProfileModifyRequest extends \CWM\Bro
     private $enableDialableCallerID = null;
 
     /**
+     * @ElementName usePhoneListLookupPolicy
+     * @var bool|null
+     */
+    private $usePhoneListLookupPolicy = null;
+
+    /**
+     * @ElementName enablePhoneListLookup
+     * @var bool|null
+     */
+    private $enablePhoneListLookup = null;
+
+    /**
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @var bool|null
+     */
+    private $useMaxConcurrentTerminatingAlertingRequests = null;
+
+    /**
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @var int|null
+     */
+    private $maxConcurrentTerminatingAlertingRequests = null;
+
+    /**
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @var bool|null
+     */
+    private $includeRedirectionsInMaximumNumberOfConcurrentCalls = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = null;
+
+    /**
      * Getter for callProcessingPolicyProfileName
      *
      * @ElementName callProcessingPolicyProfileName
@@ -1268,6 +1310,174 @@ class SystemCallProcessingPolicyProfileUserProfileModifyRequest extends \CWM\Bro
     public function setEnableDialableCallerID($enableDialableCallerID)
     {
         $this->enableDialableCallerID = $enableDialableCallerID;
+        return $this;
+    }
+
+    /**
+     * Getter for usePhoneListLookupPolicy
+     *
+     * @ElementName usePhoneListLookupPolicy
+     * @return bool|null
+     */
+    public function getUsePhoneListLookupPolicy()
+    {
+        return $this->usePhoneListLookupPolicy;
+    }
+
+    /**
+     * Setter for usePhoneListLookupPolicy
+     *
+     * @ElementName usePhoneListLookupPolicy
+     * @param bool|null $usePhoneListLookupPolicy
+     * @return $this
+     */
+    public function setUsePhoneListLookupPolicy($usePhoneListLookupPolicy)
+    {
+        $this->usePhoneListLookupPolicy = $usePhoneListLookupPolicy;
+        return $this;
+    }
+
+    /**
+     * Getter for enablePhoneListLookup
+     *
+     * @ElementName enablePhoneListLookup
+     * @return bool|null
+     */
+    public function getEnablePhoneListLookup()
+    {
+        return $this->enablePhoneListLookup;
+    }
+
+    /**
+     * Setter for enablePhoneListLookup
+     *
+     * @ElementName enablePhoneListLookup
+     * @param bool|null $enablePhoneListLookup
+     * @return $this
+     */
+    public function setEnablePhoneListLookup($enablePhoneListLookup)
+    {
+        $this->enablePhoneListLookup = $enablePhoneListLookup;
+        return $this;
+    }
+
+    /**
+     * Getter for useMaxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @return bool|null
+     */
+    public function getUseMaxConcurrentTerminatingAlertingRequests()
+    {
+        return $this->useMaxConcurrentTerminatingAlertingRequests;
+    }
+
+    /**
+     * Setter for useMaxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @param bool|null $useMaxConcurrentTerminatingAlertingRequests
+     * @return $this
+     */
+    public function setUseMaxConcurrentTerminatingAlertingRequests($useMaxConcurrentTerminatingAlertingRequests)
+    {
+        $this->useMaxConcurrentTerminatingAlertingRequests = $useMaxConcurrentTerminatingAlertingRequests;
+        return $this;
+    }
+
+    /**
+     * Getter for maxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @return int|null
+     */
+    public function getMaxConcurrentTerminatingAlertingRequests()
+    {
+        return $this->maxConcurrentTerminatingAlertingRequests;
+    }
+
+    /**
+     * Setter for maxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @param int|null $maxConcurrentTerminatingAlertingRequests
+     * @return $this
+     */
+    public function setMaxConcurrentTerminatingAlertingRequests($maxConcurrentTerminatingAlertingRequests)
+    {
+        $this->maxConcurrentTerminatingAlertingRequests = $maxConcurrentTerminatingAlertingRequests;
+        return $this;
+    }
+
+    /**
+     * Getter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return bool|null
+     */
+    public function getIncludeRedirectionsInMaximumNumberOfConcurrentCalls()
+    {
+        return $this->includeRedirectionsInMaximumNumberOfConcurrentCalls;
+    }
+
+    /**
+     * Setter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @param bool|null $includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return $this
+     */
+    public function setIncludeRedirectionsInMaximumNumberOfConcurrentCalls($includeRedirectionsInMaximumNumberOfConcurrentCalls)
+    {
+        $this->includeRedirectionsInMaximumNumberOfConcurrentCalls = $includeRedirectionsInMaximumNumberOfConcurrentCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
         return $this;
     }
 

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a new file repository.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         Replaced by: SystemFileRepositoryDeviceAddRequest20
  */
 class SystemFileRepositoryDeviceAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

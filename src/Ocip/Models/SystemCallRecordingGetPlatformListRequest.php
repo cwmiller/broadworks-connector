@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Support Video Rec" can be either true or false.
  *  
  *         Schema version values include: 1.0, 2.0, 3.0
+ *         
+ *         Replaced by: SystemCallRecordingGetPlatformListRequest20sp1 in AS data
+ * mode
  */
 class SystemCallRecordingGetPlatformListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

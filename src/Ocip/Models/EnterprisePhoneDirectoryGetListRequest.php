@@ -13,7 +13,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          Multiple search criteria are logically ANDed together.
  *          The response is either EnterprisePhoneDirectoryGetListResponse or
  * ErrorResponse.
- *
  *          Replace by: EnterprisePhoneDirectoryGetListRequest17
  */
 class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

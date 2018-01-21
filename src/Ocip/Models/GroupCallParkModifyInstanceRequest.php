@@ -9,10 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The users are in the list are in the order they will try to be parked
  * on.
  *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         The following elements are only used in AS data mode:
- *          recallAlternateUserId
- *          recallTo
  */
 class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

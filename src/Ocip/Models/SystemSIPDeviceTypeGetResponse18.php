@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSIPDeviceTypeGetRequest18.
  *         
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           enable3G4GContinuity
  *           
  *         Replaced by: SystemSIPDeviceTypeGetResponse19

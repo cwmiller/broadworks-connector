@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify attributes for line/ports assigned on the group device
  * profile.
  *         The response is either SuccessResponse or ErrorResponse.
- *         The following elements are only used in HSS data mode and ignored in AS
+ *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           privateIdentity
  */

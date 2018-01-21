@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserGetResponse16
  *
  * Response to UserMusicOnHoldUserGetRequest16.
+ *         
+ *         Replaced by: UserMusicOnHoldUserGetResponse20 in AS data mode
  */
 class UserMusicOnHoldUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

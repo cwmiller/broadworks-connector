@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringProfileGetRequest17sp1.
  *          The response contains the Communication Barring Profile information.
  *          The incoming rules are returned in ascending priority order.
- *          The following elements are only used in HSS data mode:
+ *          The following elements are only used in XS data mode:
  *      incomingDefaultAction
  *      incomingDefaultCallTimeout
  *      incomingRule

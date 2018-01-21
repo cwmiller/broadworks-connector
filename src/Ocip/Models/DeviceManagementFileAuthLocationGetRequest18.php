@@ -10,7 +10,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Also get the file name and path on the File Repository.
  *         The response is either a DeviceManagementFileAuthLocationGetResponse18
  * or an ErrorResponse.
- *
  *         Replaced by: DeviceManagementFileAuthLocationGetRequest21.
  */
 class DeviceManagementFileAuthLocationGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the policy settings for the service provider administrator.
  *         The networkPolicyAccess is returned only for the enterprise
  * administrator.
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           communicationBarringAccess
  */
 class ServiceProviderAdminGetPolicyResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

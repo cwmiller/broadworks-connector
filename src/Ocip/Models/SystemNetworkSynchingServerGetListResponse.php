@@ -7,7 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemNetworkSynchingServerGetListRequest. The Network Server table
  * column
- *         headings are: "Net Address", "Port", "Description".
+ *         headings are: "Net Address", "Port", "Description", "Order".
+ *         The following columns are only used in XS data mode and not returned in
+ * AS data mode:
+ *           Order
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
+ *           preferredNetworkServerNetAddress
  */
 class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

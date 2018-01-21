@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetResponse17sp3
  *
  * Replaced by: UserGetRequest18
- *
  *         Response to UserGetRequest17sp3.
  *         It is possible that the TrunkAddressingRead element is present with
  * nothing populated in it which means the user is a trunk user.

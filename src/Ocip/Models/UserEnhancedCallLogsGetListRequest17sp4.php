@@ -21,7 +21,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the maximum number of call logs can be returned. 
  *         The response is either a UserEnhancedCallLogsGetListResponse17sp4 or an
  * ErrorResponse.
- *
  *         Replaced by UserEnhancedCallLogsGetListRequest17sp4V2.
  *         Originally deprecated in release 20.
  */

@@ -6,8 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDomainGetAssignedServiceProviderListResponse
  *
  * Response to SystemDomainGetAssignedServiceProviderListRequest.
- *         The table columns are: "Service Provider Id", "Service Provider Name"
- * and "Is Enterprise".
+ *         The table columns are: "Service Provider Id", "Service Provider Name",
+ * "Is Enterprise" and "Reseller Id".
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,9 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemThirdPartyIMPGetRequest19.
  *         The response contains the system Third-Party IMP service attributes.
- *         
- *         The following elements are only used in AS data mode:
- *           boshURL
  */
 class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

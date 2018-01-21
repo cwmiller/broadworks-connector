@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a session admission control group for the group.
  *         The response is either a
  * GroupSessionAdmissionControlGroupGetResponse19sp1 or an ErrorResponse.
+ *         
+ *         Replaced by: GroupSessionAdmissionControlGroupGetRequest21sp1
  */
 class GroupSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

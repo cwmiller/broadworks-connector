@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringGetResponse
  *
  * Response to SystemCommunicationBarringGetRequest.
+ *         
+ *         Replaced by: SystemCommunicationBarringGetResponse21sp1 in AS data mode.
  */
 class SystemCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

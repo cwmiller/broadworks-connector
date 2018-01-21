@@ -9,7 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         See Also: SystemDeviceTypeGetRequest
  *         The response is either SystemSIPDeviceTypeGetResponse19 or
  * ErrorResponse.
- *
  *         Replaced by: SystemSIPDeviceTypeGetRequest19sp1
  */
 class SystemSIPDeviceTypeGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

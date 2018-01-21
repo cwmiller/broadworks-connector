@@ -6,19 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CPEDeviceOptions16sp1
  *
  * CPE device's options.
- * 		
- * 		The field configType is optional to allow the use of field enableMonitoring
+ *     
+ *     The field configType is optional to allow the use of field enableMonitoring
  * for all device types being managed or not
- * 		ie. device configuration option equals to DeviceManagement, or Legacy, or Not
- * Supported).
- * 		
- * 		If the device configuration option is set to "Not Supported", the value of
+ *     ie. device configuration option equals to DeviceManagement, or Legacy, or
+ * Not Supported).
+ *     
+ *     If the device configuration option is set to "Not Supported", the value of
  * configType is forced set to "None" regardless 
- * 		of its current value.
- * 		
- * 		It is not allowed to add a device type with device configuration option set to
- * Device Management or Legacy when the configType
- * 		is not set.
+ *     of its current value.
+ *     
+ *     It is not allowed to add a device type with device configuration option set
+ * to Device Management or Legacy when the configType
+ *     is not set.
  */
 class CPEDeviceOptions16sp1
 {

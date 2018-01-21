@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigRebuildDeviceConfigFileRequest
  *
  * Rebuild the config file for a specified device.
+ *         The following elements are only used in AS data mode:
+ *           force
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

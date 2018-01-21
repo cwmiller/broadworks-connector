@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the performance measurements reporting settings.
  *         The response is either SystemPerformanceMeasurementReportingGetResponse
  * or ErrorResponse.
+ *         
+ *         Replaced by: SystemPerformanceMeasurementReportingGetRequest22
  */
 class SystemPerformanceMeasurementReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

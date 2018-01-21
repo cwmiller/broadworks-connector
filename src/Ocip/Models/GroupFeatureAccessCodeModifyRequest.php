@@ -7,9 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify group FAC code level and the list of feature access codes for a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         
  *         Note: choice element is only valid when useFeatureAccessCodeLevel is set
- *         to "Group", otherwise an ErrorResponse will be returned.
+ * to "Group", otherwise an ErrorResponse will be returned.
+ *         
+ *         Replaced by: GroupFeatureAccessCodeModifyRequest21 in AS data mode
  */
 class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

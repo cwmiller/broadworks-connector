@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name", "Hiragana First Name", "Weight".
  *         The following elements are only used in AS data mode:
  *            useSystemHuntGroupCLIDSetting
- * 	   includeHuntGroupNameInCLID
+ *      includeHuntGroupNameInCLID
  */
 class GroupHuntGroupGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

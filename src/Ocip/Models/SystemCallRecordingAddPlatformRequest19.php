@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a Call Recording platform.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: SystemCallRecordingAddPlatformRequest20
  */
 class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

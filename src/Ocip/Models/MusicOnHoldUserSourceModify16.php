@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MusicOnHoldUserSourceModify16
  *
- * Contains the music on hold user source
- *         configuration.
+ * Contains the music on hold user source configuration.
  */
 class MusicOnHoldUserSourceModify16
 {

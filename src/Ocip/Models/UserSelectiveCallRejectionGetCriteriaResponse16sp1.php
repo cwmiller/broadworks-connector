@@ -7,8 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserSelectiveCallRejectionGetCriteriaRequest16sp1.
  *         Private Phone Numbers are omitted from the fromDnCriteria.
- *
- *         Replaced by: UserSelectiveCallRejectionGetCriteriaResponse21
+ *         Replaced by: UserSelectiveCallRejectionGetCriteriaResponse21 in AS data
+ * mode
  */
 class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

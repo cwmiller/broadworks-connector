@@ -8,7 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceTypeCustomTagGetListRequest.
  *         Contains a table of custom configuration tags managed by the Device
  * Management System on a per-device type basis for a group.
- *         The column headings are: "Tag Name", "Tag Value"
+ *         In As data mode, the column headings are:
+ *           "Tag Name", "Tag Value", "Actual Tag Value".
+ *         In XS data mode, the column headings are:
+ *           "Tag Name", "Tag Value", "Actual Tag Value" if request is invoked by
+ * an admin without system privileges.
+ *           "Tag Name", "Tag Value", "Is Encrypted", "Actual Tag Value" if request
+ * is invoked by an admin with system privileges.
  */
 class GroupDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system level data associated with Call Recording.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced By: SystemCallRecordingModifyRequest22
  */
 class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

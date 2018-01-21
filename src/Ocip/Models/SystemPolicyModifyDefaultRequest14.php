@@ -14,8 +14,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * only used for groups in an Enterprise)
  *             GroupAdminVerifyTranslationAndRoutingAccess
  *             ServiceProviderVerifyTranslationAndRoutingAccess
- *         The following elements are only used in HSS data mode:
+ *             groupUserAutoAttendantNameDialingAccess
+ *         The following elements are only used in XS data mode:
  *             serviceProviderAdminCommunicationBarringAccess
+ *          
+ *         Replaced by: SystemPolicyModifyDefaultRequest22 in AS mode
  */
 class SystemPolicyModifyDefaultRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

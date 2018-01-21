@@ -8,7 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupDnGetAssignmentListRequest18.
  *         The response contains a table with columns: "Phone Numbers",
  * "Department", "Activated", "User Id",
- *         "Last Name", "First Name", "Extension", "Email Address", "User Type".
+ *         "Last Name", "First Name", "Extension", "Email Address", "User Type",
+ * "Country Code", "National Prefix".
  *         The "Phone Numbers" column contains either a single DN or a range of
  * DNs.
  *         The "User Id", "Last Name" and "First Name" columns contains the
@@ -21,6 +22,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * activated.  Only has a value if the DN(s) is assigned to a user.
  *         The "User Type" column contains the corresponding enumerated UserType
  * value.
+ *         The "Country Code" column indicates the dialing prefix for the phone
+ * number.
+ *         The "National Prefix" column indicates the digit sequence to be dialed
+ * before the telephone number.        
  *         NOTE: the same phone number can show up in the list twice if the phone
  * number is being used as the group calling line Id.
  */

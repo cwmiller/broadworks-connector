@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallProcessingModifyPolicyRequest14sp7
  *
- * Modify the user level data associated with Call Procesing Policy.
+ * Modify the user level data associated with Call Processing Policy.
  *           The response is either a SuccessResponse or an ErrorResponse.
  *  
  *           The useUserCLIDSetting attribute controls the CLID settings 
@@ -20,20 +20,45 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * setting 
  *           (useMaxSimultaneousCalls, maxSimultaneousCalls,
  * useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls,
- * useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes,
- * useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes,
- * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
+ * useMaxCallTimeForAnsweredCalls, 
+ *           maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls,
+ * maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, 
+ *           useMaxFindMeFollowMeDepth, maxRedirectionDepth,
  * useMaxConcurrentFindMeFollowMeInvocations,
- * maxConcurrentFindMeFollowMeInvocations)
+ * maxConcurrentFindMeFollowMeInvocations,
+ *           useMaxConcurrentTerminatingAlertingRequests,
+ * maxConcurrentTerminatingAlertingRequests,
+ *           includeRedirectionsInMaximumNumberOfConcurrentCalls)
  *
  *           The useUserDCLIDSetting controls the Dialable Caller ID settings
  * (enableDialableCallerID)
+ *           
+ *           The useUserPhoneListLookupSetting controls the Caller ID Lookup
+ * settings (enablePhoneListLookup)
+ *           
+ *           The useUserTranslationRoutingSetting attribute controls the routing
+ * and translation settings (routeOverrideDomain, routeOverridePrefix)
  *           
  *           The following elements are only used in AS data mode:
  *            useUserDCLIDSetting
  *            enableDialableCallerID
  *            allowConfigurableCLIDForRedirectingIdentity      
- *            allowDepartmentCLIDNameOverride
+ *            allowDepartmentCLIDNameOverride         
+ *           
+ *           The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *            useUserPhoneListLookupSetting
+ *            enablePhoneListLookup
+ *            useMaxConcurrentTerminatingAlertingRequests
+ *            maxConcurrentTerminatingAlertingRequests
+ *            includeRedirectionsInMaximumNumberOfConcurrentCalls
+ *            
+ *          
+ *           The following elements are only used in XS data mode and ignored in AS
+ * data mode: 
+ *            useUserTranslationRoutingSetting
+ *            routeOverrideDomain
+ *            routeOverridePrefix
  */
 class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -67,6 +92,12 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * @var bool|null
      */
     private $useUserDCLIDSetting = null;
+
+    /**
+     * @ElementName useUserTranslationRoutingSetting
+     * @var bool|null
+     */
+    private $useUserTranslationRoutingSetting = null;
 
     /**
      * @ElementName useMaxSimultaneousCalls
@@ -219,6 +250,48 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
     private $allowDepartmentCLIDNameOverride = null;
 
     /**
+     * @ElementName useUserPhoneListLookupSetting
+     * @var bool|null
+     */
+    private $useUserPhoneListLookupSetting = null;
+
+    /**
+     * @ElementName enablePhoneListLookup
+     * @var bool|null
+     */
+    private $enablePhoneListLookup = null;
+
+    /**
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @var bool|null
+     */
+    private $useMaxConcurrentTerminatingAlertingRequests = null;
+
+    /**
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @var int|null
+     */
+    private $maxConcurrentTerminatingAlertingRequests = null;
+
+    /**
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @var bool|null
+     */
+    private $includeRedirectionsInMaximumNumberOfConcurrentCalls = null;
+
+    /**
+     * @ElementName routeOverrideDomain
+     * @var string|null
+     */
+    private $routeOverrideDomain = null;
+
+    /**
+     * @ElementName routeOverridePrefix
+     * @var string|null
+     */
+    private $routeOverridePrefix = null;
+
+    /**
      * Getter for userId
      *
      * @ElementName userId
@@ -335,6 +408,30 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
     public function setUseUserDCLIDSetting($useUserDCLIDSetting)
     {
         $this->useUserDCLIDSetting = $useUserDCLIDSetting;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserTranslationRoutingSetting
+     *
+     * @ElementName useUserTranslationRoutingSetting
+     * @return bool|null
+     */
+    public function getUseUserTranslationRoutingSetting()
+    {
+        return $this->useUserTranslationRoutingSetting;
+    }
+
+    /**
+     * Setter for useUserTranslationRoutingSetting
+     *
+     * @ElementName useUserTranslationRoutingSetting
+     * @param bool|null $useUserTranslationRoutingSetting
+     * @return $this
+     */
+    public function setUseUserTranslationRoutingSetting($useUserTranslationRoutingSetting)
+    {
+        $this->useUserTranslationRoutingSetting = $useUserTranslationRoutingSetting;
         return $this;
     }
 
@@ -935,6 +1032,174 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
     public function setAllowDepartmentCLIDNameOverride($allowDepartmentCLIDNameOverride)
     {
         $this->allowDepartmentCLIDNameOverride = $allowDepartmentCLIDNameOverride;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneListLookupSetting
+     *
+     * @ElementName useUserPhoneListLookupSetting
+     * @return bool|null
+     */
+    public function getUseUserPhoneListLookupSetting()
+    {
+        return $this->useUserPhoneListLookupSetting;
+    }
+
+    /**
+     * Setter for useUserPhoneListLookupSetting
+     *
+     * @ElementName useUserPhoneListLookupSetting
+     * @param bool|null $useUserPhoneListLookupSetting
+     * @return $this
+     */
+    public function setUseUserPhoneListLookupSetting($useUserPhoneListLookupSetting)
+    {
+        $this->useUserPhoneListLookupSetting = $useUserPhoneListLookupSetting;
+        return $this;
+    }
+
+    /**
+     * Getter for enablePhoneListLookup
+     *
+     * @ElementName enablePhoneListLookup
+     * @return bool|null
+     */
+    public function getEnablePhoneListLookup()
+    {
+        return $this->enablePhoneListLookup;
+    }
+
+    /**
+     * Setter for enablePhoneListLookup
+     *
+     * @ElementName enablePhoneListLookup
+     * @param bool|null $enablePhoneListLookup
+     * @return $this
+     */
+    public function setEnablePhoneListLookup($enablePhoneListLookup)
+    {
+        $this->enablePhoneListLookup = $enablePhoneListLookup;
+        return $this;
+    }
+
+    /**
+     * Getter for useMaxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @return bool|null
+     */
+    public function getUseMaxConcurrentTerminatingAlertingRequests()
+    {
+        return $this->useMaxConcurrentTerminatingAlertingRequests;
+    }
+
+    /**
+     * Setter for useMaxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @param bool|null $useMaxConcurrentTerminatingAlertingRequests
+     * @return $this
+     */
+    public function setUseMaxConcurrentTerminatingAlertingRequests($useMaxConcurrentTerminatingAlertingRequests)
+    {
+        $this->useMaxConcurrentTerminatingAlertingRequests = $useMaxConcurrentTerminatingAlertingRequests;
+        return $this;
+    }
+
+    /**
+     * Getter for maxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @return int|null
+     */
+    public function getMaxConcurrentTerminatingAlertingRequests()
+    {
+        return $this->maxConcurrentTerminatingAlertingRequests;
+    }
+
+    /**
+     * Setter for maxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @param int|null $maxConcurrentTerminatingAlertingRequests
+     * @return $this
+     */
+    public function setMaxConcurrentTerminatingAlertingRequests($maxConcurrentTerminatingAlertingRequests)
+    {
+        $this->maxConcurrentTerminatingAlertingRequests = $maxConcurrentTerminatingAlertingRequests;
+        return $this;
+    }
+
+    /**
+     * Getter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return bool|null
+     */
+    public function getIncludeRedirectionsInMaximumNumberOfConcurrentCalls()
+    {
+        return $this->includeRedirectionsInMaximumNumberOfConcurrentCalls;
+    }
+
+    /**
+     * Setter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @param bool|null $includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return $this
+     */
+    public function setIncludeRedirectionsInMaximumNumberOfConcurrentCalls($includeRedirectionsInMaximumNumberOfConcurrentCalls)
+    {
+        $this->includeRedirectionsInMaximumNumberOfConcurrentCalls = $includeRedirectionsInMaximumNumberOfConcurrentCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for routeOverrideDomain
+     *
+     * @ElementName routeOverrideDomain
+     * @return string|null
+     */
+    public function getRouteOverrideDomain()
+    {
+        return $this->routeOverrideDomain;
+    }
+
+    /**
+     * Setter for routeOverrideDomain
+     *
+     * @ElementName routeOverrideDomain
+     * @param string|null $routeOverrideDomain
+     * @return $this
+     */
+    public function setRouteOverrideDomain($routeOverrideDomain)
+    {
+        $this->routeOverrideDomain = $routeOverrideDomain;
+        return $this;
+    }
+
+    /**
+     * Getter for routeOverridePrefix
+     *
+     * @ElementName routeOverridePrefix
+     * @return string|null
+     */
+    public function getRouteOverridePrefix()
+    {
+        return $this->routeOverridePrefix;
+    }
+
+    /**
+     * Setter for routeOverridePrefix
+     *
+     * @ElementName routeOverridePrefix
+     * @param string|null $routeOverridePrefix
+     * @return $this
+     */
+    public function setRouteOverridePrefix($routeOverridePrefix)
+    {
+        $this->routeOverridePrefix = $routeOverridePrefix;
         return $this;
     }
 

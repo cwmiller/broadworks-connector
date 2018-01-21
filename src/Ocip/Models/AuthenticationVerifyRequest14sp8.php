@@ -10,7 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         dn/passcode or a token previously authorized with the
  * ExternalAuthenticationAuthorizeTokenRequest. 
  *         The phone number may be any DN associated with a user.
+ *           
  *         The response is a AuthenticationVerifyResponse14sp8 or an ErrorResponse
+ *         
+ *         Replaced by AuthenticationVerifyRequest22.
  */
 class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

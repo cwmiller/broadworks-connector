@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallProcessingModifyPolicyRequest14sp7
  *
- * Modify the group level data associated with Call Procesing Policy.
+ * Modify the group level data associated with Call Processing Policy.
  *             The response is either a SuccessResponse or an ErrorResponse.
  *             The useGroupCLIDSetting attribute controls the CLID settings
  *             (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName)
- *
  *             The useGroupMediaSetting attribute controls the Media settings
  *             (medisPolicySelection, supportedMediaSetName)
- *
  *             The useGroupCallLimitsSetting attribute controls the Call Limits
  * settings
  *             (useMaxSimultaneousCalls, maxSimultaneousCalls,
@@ -23,7 +21,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
  * useMaxConcurrentFindMeFollowMeInvocations,
  * maxConcurrentFindMeFollowMeInvocations)
- *
  *             The useGroupTranslationRoutingSetting attribute controls the routing
  * and
  *             translation settings (networkUsageSelection,
@@ -32,7 +29,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * allowEnterpriseGroupCallTypingForPublicDialingPlan,
  * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
  * enableEnterpriseExtensionDialing)
- *
  *             Replaced By: GroupCallProcessingModifyPolicyRequest15sp2
  */
 class GroupCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

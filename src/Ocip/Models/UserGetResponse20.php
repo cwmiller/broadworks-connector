@@ -8,15 +8,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserGetRequest20.
  *         It is possible that the TrunkAddressingRead element is present with
  * nothing populated in it which means the user is a trunk user.
- *         The following data elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           contact[2]-contact[5]
- *
  *         The country code (countryCode) included is the user's phone number
  * country code when the user has a phone number assigned, or the
  *         user's Group associated country code when the user does not have a phone
  * number assigned, or the system default country code when the
  *         user's Group does not have an associated country code.
- *
  *         The nationalPrefix in this response is the one associated to the
  * included countryCode.
  */

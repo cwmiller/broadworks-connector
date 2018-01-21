@@ -12,10 +12,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Address".  
  *         The users are in the table are in the order they will try to be parked
  * on.
- *         
- *         The following elements are only used in AS data mode:
- *          recallAlternateUserId
- *          recallTo
  */
 class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

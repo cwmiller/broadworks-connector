@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and possibly access device
  * information.
  *         
- *         Replaced by: GroupVoiceXmlGetInstanceResponse19sp1
+ *         Replaced by: GroupVoiceXmlGetInstanceResponse19sp1 in AS data mode
  */
 class GroupVoiceXmlGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

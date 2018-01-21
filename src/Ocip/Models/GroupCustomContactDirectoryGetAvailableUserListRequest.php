@@ -8,7 +8,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of users that can be part of a custom contact directory.
  *         The response is either
  * GroupCustomContactDirectoryGetAvailableUserListResponse or ErrorResponse.
- *
  *         Replace by: GroupCustomContactDirectoryGetAvailableUserListRequest17
  */
 class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

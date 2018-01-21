@@ -5,11 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupPreAlertingAnnouncementModifyRequest
  *
- * Modify the group level pre-alerting service
- *         settings.
- *         The response is either a SuccessResponse or
- *         an
- *         ErrorResponse.
+ * Modify the group level pre-alerting service settings.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: GroupPreAlertingAnnouncementModifyRequest20 in AS data mode
  */
 class GroupPreAlertingAnnouncementModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

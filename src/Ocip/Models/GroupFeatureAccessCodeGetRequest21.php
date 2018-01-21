@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeGetRequest21
  *
  * Get group FAC code level and the list of feature access codes for a group.
- *         The response is either a GroupFeatureAccessCodeGetResponse20 or an 
+ *         The response is either a GroupFeatureAccessCodeGetResponse21 or an 
  *         ErrorResponse.
  *         Returned Feature Access Codes may be group specific, or Service Provider
  *         Feature Access Codes, depending on FAC code level.

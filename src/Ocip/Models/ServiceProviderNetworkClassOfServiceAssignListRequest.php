@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for the first assignment,
  *         for subsequent assignments it is optional.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced By : ServiceProviderNetworkClassOfServiceAssignListRequest21 in
+ * AS data mode
  */
 class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

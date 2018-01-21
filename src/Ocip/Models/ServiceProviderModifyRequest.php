@@ -7,6 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the profile for a service provider or enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following elements are only used in Amplify data mode and ignored 
+ *         in AS and XS data mode: 
+ *         servicePolicy,
+ *         callProcessingSliceId, 
+ *         provisioningSliceId, 
+ *         subscriberPartition,
+ *         preferredDataCenter.
+ *         When the callProcessingSliceId or provisioningSliceId is set to
+ * nillable, 
+ *         it will be assigned to the default Slice.
+ *         Only Provisioning admin and above can change the callProcessingSliceId, 
+ *         provisioningSliceId, subscriberPartition and preferredDataCenter.
  */
 class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -52,6 +64,36 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
+
+    /**
+     * @ElementName servicePolicy
+     * @var string|null
+     */
+    private $servicePolicy = null;
+
+    /**
+     * @ElementName callProcessingSliceId
+     * @var string|null
+     */
+    private $callProcessingSliceId = null;
+
+    /**
+     * @ElementName provisioningSliceId
+     * @var string|null
+     */
+    private $provisioningSliceId = null;
+
+    /**
+     * @ElementName subscriberPartition
+     * @var string|null
+     */
+    private $subscriberPartition = null;
+
+    /**
+     * @ElementName preferredDataCenter
+     * @var string|null
+     */
+    private $preferredDataCenter = null;
 
     /**
      * Getter for serviceProviderId
@@ -218,6 +260,126 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     public function setUseServiceProviderLanguages($useServiceProviderLanguages)
     {
         $this->useServiceProviderLanguages = $useServiceProviderLanguages;
+        return $this;
+    }
+
+    /**
+     * Getter for servicePolicy
+     *
+     * @ElementName servicePolicy
+     * @return string|null
+     */
+    public function getServicePolicy()
+    {
+        return $this->servicePolicy;
+    }
+
+    /**
+     * Setter for servicePolicy
+     *
+     * @ElementName servicePolicy
+     * @param string|null $servicePolicy
+     * @return $this
+     */
+    public function setServicePolicy($servicePolicy)
+    {
+        $this->servicePolicy = $servicePolicy;
+        return $this;
+    }
+
+    /**
+     * Getter for callProcessingSliceId
+     *
+     * @ElementName callProcessingSliceId
+     * @return string|null
+     */
+    public function getCallProcessingSliceId()
+    {
+        return $this->callProcessingSliceId;
+    }
+
+    /**
+     * Setter for callProcessingSliceId
+     *
+     * @ElementName callProcessingSliceId
+     * @param string|null $callProcessingSliceId
+     * @return $this
+     */
+    public function setCallProcessingSliceId($callProcessingSliceId)
+    {
+        $this->callProcessingSliceId = $callProcessingSliceId;
+        return $this;
+    }
+
+    /**
+     * Getter for provisioningSliceId
+     *
+     * @ElementName provisioningSliceId
+     * @return string|null
+     */
+    public function getProvisioningSliceId()
+    {
+        return $this->provisioningSliceId;
+    }
+
+    /**
+     * Setter for provisioningSliceId
+     *
+     * @ElementName provisioningSliceId
+     * @param string|null $provisioningSliceId
+     * @return $this
+     */
+    public function setProvisioningSliceId($provisioningSliceId)
+    {
+        $this->provisioningSliceId = $provisioningSliceId;
+        return $this;
+    }
+
+    /**
+     * Getter for subscriberPartition
+     *
+     * @ElementName subscriberPartition
+     * @return string|null
+     */
+    public function getSubscriberPartition()
+    {
+        return $this->subscriberPartition;
+    }
+
+    /**
+     * Setter for subscriberPartition
+     *
+     * @ElementName subscriberPartition
+     * @param string|null $subscriberPartition
+     * @return $this
+     */
+    public function setSubscriberPartition($subscriberPartition)
+    {
+        $this->subscriberPartition = $subscriberPartition;
+        return $this;
+    }
+
+    /**
+     * Getter for preferredDataCenter
+     *
+     * @ElementName preferredDataCenter
+     * @return string|null
+     */
+    public function getPreferredDataCenter()
+    {
+        return $this->preferredDataCenter;
+    }
+
+    /**
+     * Setter for preferredDataCenter
+     *
+     * @ElementName preferredDataCenter
+     * @param string|null $preferredDataCenter
+     * @return $this
+     */
+    public function setPreferredDataCenter($preferredDataCenter)
+    {
+        $this->preferredDataCenter = $preferredDataCenter;
         return $this;
     }
 

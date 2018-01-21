@@ -6,9 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserRouteListGetResponse
  *
  * Response to UserRouteListGetRequest.
- *         Contains the route list setting and a list of assigned number ranges.
+ *         Contains the route list setting and a list of assigned number ranges and
+ * number prefixes.
  *         The column headings for assignedNumberRangeTable are "Number Range
  * Start", "Number Range End" and "Is Active".
+ *         
+ *         Replaced by: UserRouteListGetResponse22
  */
 class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

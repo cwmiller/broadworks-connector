@@ -7,6 +7,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system call processing configuration for all subscribers.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in XS data mode and ignored in the
+ * AS data mode:
+ *           minNoAnswerNumberOfRings
+ *
+ *         The following elements are only used in AS data mode and ignored in the
+ * XS data mode:
+ *           isExtendedCallingLineIdActive
+ *           isRingTimeOutActive
+ *           ringTimeoutSeconds
+ *           allowEmergencyRemoteOfficeOriginations
+ *           incomingCallToUserAliasMode
+ *           bypassTerminationLoopDetection
+ *           honorCLIDBlockingForEmergencyCalls
+ *           useUnicodeIdentityName
  */
 class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -40,6 +55,12 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;
+
+    /**
+     * @ElementName minNoAnswerNumberOfRings
+     * @var int|null
+     */
+    private $minNoAnswerNumberOfRings = null;
 
     /**
      * @ElementName incomingCallToUserAliasMode
@@ -182,6 +203,30 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     public function setMaxNoAnswerNumberOfRings($maxNoAnswerNumberOfRings)
     {
         $this->maxNoAnswerNumberOfRings = $maxNoAnswerNumberOfRings;
+        return $this;
+    }
+
+    /**
+     * Getter for minNoAnswerNumberOfRings
+     *
+     * @ElementName minNoAnswerNumberOfRings
+     * @return int|null
+     */
+    public function getMinNoAnswerNumberOfRings()
+    {
+        return $this->minNoAnswerNumberOfRings;
+    }
+
+    /**
+     * Setter for minNoAnswerNumberOfRings
+     *
+     * @ElementName minNoAnswerNumberOfRings
+     * @param int|null $minNoAnswerNumberOfRings
+     * @return $this
+     */
+    public function setMinNoAnswerNumberOfRings($minNoAnswerNumberOfRings)
+    {
+        $this->minNoAnswerNumberOfRings = $minNoAnswerNumberOfRings;
         return $this;
     }
 

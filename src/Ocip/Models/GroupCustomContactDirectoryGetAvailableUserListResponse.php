@@ -9,7 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "User Id", "Last Name", "First
  * Name", 
  *         "Hiragana Last Name", "Hiragana First Name".
- *
  *         Replace by: GroupCustomContactDirectoryGetAvailableUserListResponse17
  */
 class GroupCustomContactDirectoryGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

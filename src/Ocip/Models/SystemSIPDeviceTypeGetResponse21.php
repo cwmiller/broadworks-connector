@@ -12,17 +12,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           supportClientSessionInfo
  *           supportCallInfoConferenceSubscriptionURI
  *           supportRemotePartyInfo
- *
- *         The following elements are only used in HSS data mode:
- *           enhancedForICS – value false is returned in AS data mode
+ *         The following elements are only used in XS data mode:
+ *           enhancedForICS - value false is returned in AS data mode
  *           enable3G4GContinuity - value false is returned in AS data mode
  *           publishesOwnPresence - value false is returned in AS data mode
- *
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold
- *
  *         The following elements are only used in AS data mode:
- *           supportCauseParameter – value false is returned in HSS data mode
+ *           supportCauseParameter - value false is returned in XS data mode
+ *         Replaced by: SystemSIPDeviceTypeGetResponse21Sp1
  */
 class SystemSIPDeviceTypeGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

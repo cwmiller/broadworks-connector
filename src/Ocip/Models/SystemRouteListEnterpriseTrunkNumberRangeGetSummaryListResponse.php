@@ -7,8 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest.
  *         The column headings are "Number Range Start", "Number Range End",
- * "Service Provider Id", "Is Enterprise", "User Id", "Enterprise Trunk" and "Is
- * Active".
+ * "Service Provider Id", "Is Enterprise", "User Id", "Enterprise Trunk", "Is
+ * Active", "Reseller Id".
  */
 class SystemRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

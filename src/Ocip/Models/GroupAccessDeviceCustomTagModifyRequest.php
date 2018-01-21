@@ -6,6 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceCustomTagModifyRequest
  *
  * Request to modify a static configuration tag for a group access device.
+ *         
+ *         The tagValueToEncrypt element can only be used by a system
+ * administrator.
+ *         
+ *         The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *           tagValueToEncrypt
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
@@ -40,6 +48,12 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
      * @var string|null
      */
     private $tagValue = null;
+
+    /**
+     * @ElementName tagValueToEncrypt
+     * @var string|null
+     */
+    private $tagValueToEncrypt = null;
 
     /**
      * Getter for serviceProviderId
@@ -158,6 +172,30 @@ class GroupAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\O
     public function setTagValue($tagValue)
     {
         $this->tagValue = $tagValue;
+        return $this;
+    }
+
+    /**
+     * Getter for tagValueToEncrypt
+     *
+     * @ElementName tagValueToEncrypt
+     * @return string|null
+     */
+    public function getTagValueToEncrypt()
+    {
+        return $this->tagValueToEncrypt;
+    }
+
+    /**
+     * Setter for tagValueToEncrypt
+     *
+     * @ElementName tagValueToEncrypt
+     * @param string|null $tagValueToEncrypt
+     * @return $this
+     */
+    public function setTagValueToEncrypt($tagValueToEncrypt)
+    {
+        $this->tagValueToEncrypt = $tagValueToEncrypt;
         return $this;
     }
 

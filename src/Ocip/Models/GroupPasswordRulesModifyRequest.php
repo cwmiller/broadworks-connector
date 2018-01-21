@@ -6,8 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPasswordRulesModifyRequest
  *
  * Request to modify the group's password rules setting that apply to the
- *         users within the group. The response is either SuccessResponse or
- * ErrorResponse.
+ *         users within the group. 
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *         forcePasswordChangeAfterReset
+ *         
+ *         The response is either SuccessResponse or ErrorResponse.
  */
 class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -131,6 +136,12 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;
+
+    /**
+     * @ElementName forcePasswordChangeAfterReset
+     * @var bool|null
+     */
+    private $forcePasswordChangeAfterReset = null;
 
     /**
      * Getter for serviceProviderId
@@ -609,6 +620,30 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     public function setNumberOfPreviousPasswords($numberOfPreviousPasswords)
     {
         $this->numberOfPreviousPasswords = $numberOfPreviousPasswords;
+        return $this;
+    }
+
+    /**
+     * Getter for forcePasswordChangeAfterReset
+     *
+     * @ElementName forcePasswordChangeAfterReset
+     * @return bool|null
+     */
+    public function getForcePasswordChangeAfterReset()
+    {
+        return $this->forcePasswordChangeAfterReset;
+    }
+
+    /**
+     * Setter for forcePasswordChangeAfterReset
+     *
+     * @ElementName forcePasswordChangeAfterReset
+     * @param bool|null $forcePasswordChangeAfterReset
+     * @return $this
+     */
+    public function setForcePasswordChangeAfterReset($forcePasswordChangeAfterReset)
+    {
+        $this->forcePasswordChangeAfterReset = $forcePasswordChangeAfterReset;
         return $this;
     }
 

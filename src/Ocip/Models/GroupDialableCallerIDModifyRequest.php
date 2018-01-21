@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDialableCallerIDModifyRequest
  *
- * Modify the group�s Dialable Caller ID settings and criteria list.
+ * Modify the group's Dialable Caller ID settings and criteria list.
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

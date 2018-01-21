@@ -8,7 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's voice messaging greeting information.
  *         The response is either a UserVoiceMessagingUserGetGreetingResponse16 or
  * an ErrorResponse.
- *         This request is replaced by: UserVoiceMessagingUserGetGreetingRequest18
+ *         
+ *         Replaced by: UserVoiceMessagingUserGetGreetingRequest18
  */
 class UserVoiceMessagingUserGetGreetingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

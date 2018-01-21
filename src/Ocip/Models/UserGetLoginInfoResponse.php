@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserGetLoginInfoRequest
  *         If a phoneNumber is returned, it will be the primay DN of the user
+ *         
+ *         Replaced by UserGetLoginInfoResponse22 in AS data mode.
  */
 class UserGetLoginInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

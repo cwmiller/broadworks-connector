@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnterpriseTrunkGetResponse
  *
  * Response to GroupEnterpriseTrunkGetRequest.
- *
  *         Replaced by: GroupEnterpriseTrunkGetResponse21.
  */
 class GroupEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            useSystemHuntGroupCLIDSetting
  *          includeHuntGroupNameInCLID
  *          
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *            allowMembersToControlGroupBusy
  *            enableGroupBusy           
  *            

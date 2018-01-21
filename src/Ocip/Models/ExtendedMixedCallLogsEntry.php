@@ -26,7 +26,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The elements "userGroupId", "userId","userPrimaryDn" and
  * "userPrimaryExtension"
  *         are only returned when the enterprise or group level requests are used.
- *
  *         Replaced by ExtendedMixedCallLogsEntry17sp4.
  *         Originally deprecated in release 20.
  */

@@ -6,7 +6,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemVoiceMessagingGroupGetResponse21
  *
  * Response to SystemVoiceMessagingGroupGetRequest21.
- *
  *         The following elements are only used in AS data mode:
  *            realDeleteForImap
  *            useDnInMailBody
@@ -29,6 +28,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            vmOnlySystem
  *            clientInitiatedMailServerSessionTimeoutMinutes
  *            recordingAudioFileFormat
+ *            
+ *         Replaced by: SystemVoiceMessagingGroupGetResponse22 in AS data mode
  */
 class SystemVoiceMessagingGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

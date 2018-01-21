@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderIntegratedIMPGetRequest.
  *         The response contains the service provider Integrated IMP service
  * attributes.
- *
- *         Replaced by: ServiceProviderIntegratedIMPGetResponse21
+ *         Replaced by: ServiceProviderIntegratedIMPGetResponse21 in AS data mode
  */
 class ServiceProviderIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemFileRepositoryDeviceGetListRequest.
  *         Contains a table with column headings : "Name","Protocol", "Root
- * Directory" in a row for each file repository.
+ * Directory", "Extended File Capture Support" in a row for each file repository.
  */
 class SystemFileRepositoryDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

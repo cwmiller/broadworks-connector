@@ -6,8 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdminGetListResponse14
  *
  * Response to ServiceProviderAdminGetListRequest14.
- *         Contains a 5 column table with column headings "Administrator ID",
- *         "Last Name", "First Name", "Administrator Type", "Language".
+ *         Contains a 7 column table with column headings "Administrator ID",
+ *         "Last Name", "First Name", "Administrator Type", "Language", "Locale"
+ * and "Encoding".
+ *         
+ *         The following columns are only returned in AS data mode:
+ *           "Locale" and "Encoding"
  */
 class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

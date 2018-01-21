@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add a Hunt Group instance to a group.
  *         The domain is required in the serviceUserId.
  *         The response is either SuccessResponse or ErrorResponse.
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *            allowMembersToControlGroupBusy, use value "false" in AS data mode
  *            enableGroupBusy, use value "false" in AS data mode
  */

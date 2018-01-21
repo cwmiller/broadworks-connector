@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterMediaOnHoldSourceRead17
  *
  * Contains the call center media on hold source configuration.
- * 		
- * 		Replaced by: CallCenterMediaOnHoldSourceRead19.
+ *     
+ *     Replaced by: CallCenterMediaOnHoldSourceRead19.
  */
 class CallCenterMediaOnHoldSourceRead17
 {

@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * MusicOnHoldSourceRead16
  *
  * Contains the music on hold source configuration.
- * 		
- * 	    Replaced by: MusicOnHoldSourceRead19.
+ *     
+ *       Replaced by: MusicOnHoldSourceRead19.
  */
 class MusicOnHoldSourceRead16
 {

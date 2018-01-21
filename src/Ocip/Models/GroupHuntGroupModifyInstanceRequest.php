@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *            useSystemHuntGroupCLIDSetting
  *            includeHuntGroupNameInCLID
+ *            applyGroupBusyWhenTerminatingToAgent
+ *            networkClassOfService
  */
 class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserVoiceMessagingUserGetGreetingResponse20
  *
- * Response to UserVoiceMessagingUserGetGreetingRequest18sp1.
+ * Response to UserVoiceMessagingUserGetGreetingRequest20.
  *         Contains the greeting configuration for a user's voice messaging.
  *         The following elements are only used in AS data mode:
  *           disableMessageDeposit

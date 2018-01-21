@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a service provider device profile file.
  *         The response is either ServiceProviderAccessDeviceFileGetResponse16sp1
  * or ErrorResponse.
+ *         
+ *         Replaced by: ServiceProviderAccessDeviceFileGetRequest20
  */
 class ServiceProviderAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

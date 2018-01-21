@@ -7,6 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system level data associated with Call Center.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in
+ * Amplify data mode:
+ *           callHandlingSamplingPeriodMinutes
+ *           callHandlingMinimumSamplingSize
+ *           thresholdCrossingNotificationEmailGuardTimerSeconds
  */
 class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

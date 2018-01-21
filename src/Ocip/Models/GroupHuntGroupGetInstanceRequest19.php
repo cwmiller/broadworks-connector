@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupHuntGroupGetInstanceResponse19 or
  * ErrorResponse.
  *         
- *         Replaced by: GroupHuntGroupGetInstanceRequest19sp1
+ *         Replaced by: GroupHuntGroupGetInstanceRequest19sp1 in AS data mode
  */
 class GroupHuntGroupGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

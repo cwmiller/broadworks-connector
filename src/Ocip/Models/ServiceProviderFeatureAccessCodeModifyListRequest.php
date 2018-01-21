@@ -6,7 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderFeatureAccessCodeModifyListRequest
  *
  * Modify a list of feature access codes for a service provider or enterprise.
- *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse. 
+ *         Replaced By : ServiceProviderFeatureAccessCodeModifyListRequest20 in AS
+ * data mode
  */
 class ServiceProviderFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

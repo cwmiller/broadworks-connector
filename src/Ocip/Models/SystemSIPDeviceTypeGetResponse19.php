@@ -7,14 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSIPDeviceTypeGetRequest19.
  *         The following elements are only used in AS data mode:
- *           holdAnnouncementMethod 
- *           supportRFC3398
- *         The following elements are only used in HSS data mode:
- *           enable3G4GContinuity
- *
+ *           holdAnnouncementMethod, value "useInactive" is returned in XS data
+ * mode 
+ *           supportRFC3398, value "false" is returned in XS data mode         
+ *         The following elements are only used in XS data mode:
+ *           enable3G4GContinuity, value "false" is returned in AS data mode
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold
- *
  *         Replaced by: SystemSIPDeviceTypeGetResponse19sSp1
  */
 class SystemSIPDeviceTypeGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

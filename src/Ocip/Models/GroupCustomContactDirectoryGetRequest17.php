@@ -18,7 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an ErrorResponse.
  *         In all cases, if a responseSizeLimit is specified and the number of
  * matching results is more than this limit, then an
- *         ErrorResponse is returned.
+ *         ErrorResponse is returned. The Receptionist Note column is only
+ * populated in AS mode; and populated only if the user 
+ *         sending the request is a the owner of this Receptionist Note and a Note
+ * exists.
  */
 class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -112,6 +115,22 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaTitle
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
+     */
+    private $searchCriteriaTitle = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaReceptionistNote
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
+     */
+    private $searchCriteriaReceptionistNote = array(
         
     );
 
@@ -515,6 +534,80 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     public function addSearchCriteriaImpId($searchCriteriaImpId)
     {
         $this->searchCriteriaImpId []= $searchCriteriaImpId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaTitle
+     *
+     * @ElementName searchCriteriaTitle
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
+     */
+    public function getSearchCriteriaTitle()
+    {
+        return $this->searchCriteriaTitle;
+    }
+
+    /**
+     * Setter for searchCriteriaTitle
+     *
+     * @ElementName searchCriteriaTitle
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[] $searchCriteriaTitle
+     * @return $this
+     */
+    public function setSearchCriteriaTitle($searchCriteriaTitle)
+    {
+        $this->searchCriteriaTitle = $searchCriteriaTitle;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaTitle
+     *
+     * @ElementName searchCriteriaTitle
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle $searchCriteriaTitle
+     * @return $this
+     */
+    public function addSearchCriteriaTitle($searchCriteriaTitle)
+    {
+        $this->searchCriteriaTitle []= $searchCriteriaTitle;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
+     */
+    public function getSearchCriteriaReceptionistNote()
+    {
+        return $this->searchCriteriaReceptionistNote;
+    }
+
+    /**
+     * Setter for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[] $searchCriteriaReceptionistNote
+     * @return $this
+     */
+    public function setSearchCriteriaReceptionistNote($searchCriteriaReceptionistNote)
+    {
+        $this->searchCriteriaReceptionistNote = $searchCriteriaReceptionistNote;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote $searchCriteriaReceptionistNote
+     * @return $this
+     */
+    public function addSearchCriteriaReceptionistNote($searchCriteriaReceptionistNote)
+    {
+        $this->searchCriteriaReceptionistNote []= $searchCriteriaReceptionistNote;
         return $this;
     }
 

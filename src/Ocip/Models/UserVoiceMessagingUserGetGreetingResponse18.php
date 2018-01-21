@@ -10,9 +10,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           disableMessageDeposit
  *           disableMessageDepositAction
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           greetingOnlyForwardDestination       
  *         
- *         Replaced by UserVoiceMessagingUserGetGreetingResponse18sp1
+ *         Replaced by UserVoiceMessagingUserGetGreetingResponse18sp1 in AS data
+ * mode
  */
 class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

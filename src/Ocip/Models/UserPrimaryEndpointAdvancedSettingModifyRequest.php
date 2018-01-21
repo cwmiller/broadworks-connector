@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Users Primary Endpoint line control settings.
  *           The response is either a SuccessResponse or an ErrorResponse.
+ *           The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *           	allowVideo
  */
 class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +31,12 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
      * @var bool|null
      */
     private $allowTermination = null;
+
+    /**
+     * @ElementName allowVideo
+     * @var bool|null
+     */
+    private $allowVideo = null;
 
     /**
      * Getter for userId
@@ -98,6 +107,30 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     public function setAllowTermination($allowTermination)
     {
         $this->allowTermination = $allowTermination;
+        return $this;
+    }
+
+    /**
+     * Getter for allowVideo
+     *
+     * @ElementName allowVideo
+     * @return bool|null
+     */
+    public function getAllowVideo()
+    {
+        return $this->allowVideo;
+    }
+
+    /**
+     * Setter for allowVideo
+     *
+     * @ElementName allowVideo
+     * @param bool|null $allowVideo
+     * @return $this
+     */
+    public function setAllowVideo($allowVideo)
+    {
+        $this->allowVideo = $allowVideo;
         return $this;
     }
 

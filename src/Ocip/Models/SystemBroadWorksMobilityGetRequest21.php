@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the broadworks mobility system parameters.
  *         The response is either a SystemBroadWorksMobilityGetResponse21 or an
  * ErrorResponse.
+ *         
+ *         Replaced by: SystemBroadWorksMobilityGetRequest22 in AS data mode
  */
 class SystemBroadWorksMobilityGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

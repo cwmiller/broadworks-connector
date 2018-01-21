@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isMobilityManagerDevice
  *         The response is either SuccessResponse or ErrorResponse.
  *         
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           enable3G4GContinuity        
  *         
  *         Replaced by: SystemSIPDeviceTypeModifyRequest19

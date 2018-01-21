@@ -7,6 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a Network Server in the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *           becomePreferred
+ *         The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *           order
  */
 class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,6 +40,12 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @var bool|null
      */
     private $becomePreferred = null;
+
+    /**
+     * @ElementName order
+     * @var int|null
+     */
+    private $order = null;
 
     /**
      * Getter for netAddress
@@ -128,6 +140,30 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
     public function setBecomePreferred($becomePreferred)
     {
         $this->becomePreferred = $becomePreferred;
+        return $this;
+    }
+
+    /**
+     * Getter for order
+     *
+     * @ElementName order
+     * @return int|null
+     */
+    public function getOrder()
+    {
+        return $this->order;
+    }
+
+    /**
+     * Setter for order
+     *
+     * @ElementName order
+     * @param int|null $order
+     * @return $this
+     */
+    public function setOrder($order)
+    {
+        $this->order = $order;
         return $this;
     }
 

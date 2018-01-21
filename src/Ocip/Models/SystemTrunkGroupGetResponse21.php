@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Following attributes are only used in IMS mode:
  *           implicitRegistrationSetSupportPolicy
  *           sipIdentityForPilotAndProxyTrunkModesPolicy
+ *           
+ *         Replaced by: SystemTrunkGroupGetResponse22
  */
 class SystemTrunkGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

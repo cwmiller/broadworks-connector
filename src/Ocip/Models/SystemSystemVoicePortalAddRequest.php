@@ -7,9 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to add a system voice portal instance.
  *         The response is either SuccessResponse or ErrorResponse.
- *
  *         The following elements are only used in IMS mode:
  *         publicUserIdentity, ignored in standalone mode if provided.
+ *         
+ *         Replaced by: SystemSystemVoicePortalAddRequest21sp1.
  */
 class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

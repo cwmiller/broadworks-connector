@@ -10,7 +10,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *         Returned Feature Access Codes may be group specific, or Service Provider
  *         Feature Access Codes, depending on FAC code level.
- *
  *         In release 20 the "Call Recording" FAC name is changed to
  *         "Call Recording - Start".
  *         Replaced by: GroupFeatureAccessCodeGetRequest21

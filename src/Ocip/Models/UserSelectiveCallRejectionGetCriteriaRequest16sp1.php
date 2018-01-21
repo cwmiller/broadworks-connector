@@ -8,8 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's selective call rejection service.
  *         The response is either a
  * UserSelectiveCallRejectionGetCriteriaResponse16sp1 or an ErrorResponse.
- *
- *         Replaced by: UserSelectiveCallRejectionGetCriteriaRequest21
+ *         Replaced by: UserSelectiveCallRejectionGetCriteriaRequest21 in AS data
+ * mode
  */
 class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

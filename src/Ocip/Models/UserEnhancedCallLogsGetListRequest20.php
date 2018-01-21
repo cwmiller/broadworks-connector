@@ -22,9 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the maximum number of call logs can be returned.
  *         The response is either a UserEnhancedCallLogsGetListResponse20 or an
  * ErrorResponse.
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           callAuthorizationCodeFilter
- *           callSecurityClassification
  */
 class UserEnhancedCallLogsGetListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

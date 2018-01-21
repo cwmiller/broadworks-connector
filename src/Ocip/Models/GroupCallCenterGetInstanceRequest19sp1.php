@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Call Center instance.
  *         The response is either GroupCallCenterGetInstanceResponse19sp1 or
  * ErrorResponse.
+ *         Replaced by GroupCallCenterGetInstanceRequest22.
  */
 class GroupCallCenterGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

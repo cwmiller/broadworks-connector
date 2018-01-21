@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The priorities for IncomingRules are requantized to consecutive integers
  * as part of the modify.
  *         The response is either a SuccessResponse or an ErrorResponse.
- * 	    The following elements are only used in AS data mode:
+ * 	      The following elements are only used in AS data mode:
  *            callMeNowDefaultAction
  *            callMeNowDefaultCallTimeout
  *            callMeNowRule

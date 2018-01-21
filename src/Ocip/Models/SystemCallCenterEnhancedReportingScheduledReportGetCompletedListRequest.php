@@ -43,6 +43,14 @@ class SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ex
     private $searchCriteriaExactCallCenterScheduledReportServiceProvider = null;
 
     /**
+     * @ElementName searchCriteriaServiceProviderId
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
+     */
+    private $searchCriteriaServiceProviderId = array(
+        
+    );
+
+    /**
      * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
@@ -175,6 +183,43 @@ class SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ex
     public function setSearchCriteriaExactCallCenterScheduledReportServiceProvider($searchCriteriaExactCallCenterScheduledReportServiceProvider)
     {
         $this->searchCriteriaExactCallCenterScheduledReportServiceProvider = $searchCriteriaExactCallCenterScheduledReportServiceProvider;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
+     */
+    public function getSearchCriteriaServiceProviderId()
+    {
+        return $this->searchCriteriaServiceProviderId;
+    }
+
+    /**
+     * Setter for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
+     * @return $this
+     */
+    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    {
+        $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId $searchCriteriaServiceProviderId
+     * @return $this
+     */
+    public function addSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    {
+        $this->searchCriteriaServiceProviderId []= $searchCriteriaServiceProviderId;
         return $this;
     }
 

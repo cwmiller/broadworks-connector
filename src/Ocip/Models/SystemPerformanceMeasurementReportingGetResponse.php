@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemPerformanceMeasurementReportingGetResponse
  *
  * Response to SystemPerformanceMeasurementReportingGetRequest.
+ *         
+ *         Replaced by: SystemPerformanceMeasurementReportingGetResponse22
  */
 class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

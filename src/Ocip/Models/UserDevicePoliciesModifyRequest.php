@@ -6,8 +6,30 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserDevicePoliciesModifyRequest
  *
  * Modify the user level data associated with Device Policy.
- * enableDeviceFeatureSynchronization can be configured regardless of lineMode, but
- * is ignored by the application server in Multiple User Shared mode. 
+ * enableDeviceFeatureSynchronization and enableCallDecline can be 
+ *           configured by the admin regardless of lineMode, but is ignored by the
+ * application server in Multiple User Shared mode. 
+ *           
+ *           enableCallDecline can be modified by the user when the admin has set
+ * the mode to ‘Single User Private and Shared Lines mode’. 
+ *           This is the only element that the user can modify. In XS data mode, 
+ * the lineMode is ignored and enabledCallDecline is the only element that can be
+ * configured.
+ *           
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *           lineMode
+ *           enableDeviceFeatureSynchronization
+ *           enableDnd
+ *           enableCallForwardingAlways
+ *           enableCallForwardingBusy
+ *           enableCallForwardingNoAnswer
+ *           enableAcd
+ *           enableExecutive
+ *           enableExecutiveAssistant
+ *           enableSecurityClassification
+ *           enableCallRecording         
+ *           
  *           The response is either a SuccessResponse or an ErrorResponse.
  */
 class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

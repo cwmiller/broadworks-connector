@@ -9,8 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The criteria table's column headings are: "Is Active", "Criteria Name", 
  *         "Time Schedule", "Calls From", "Blacklisted", "Holiday Schedule", "Calls
  * To Type", "Calls To Number" and "Calls To Extension".
- *        The possible values for the "Calls To Type" column are the following or a
- * combination of them separated by comma:
+ *         The following columns are only returned in AS data mode:       
+ *           "Calls To Type", "Calls To Number" and "Calls To Extension"
+ *           
+ *         The possible values for the "Calls To Type" column are the following or
+ * a combination of them separated by comma:
  *           - Primary
  *           - Alternate X (where x is a number between 1 and 10)
  *           - Mobility        

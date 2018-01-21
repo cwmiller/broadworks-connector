@@ -9,7 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the group's custom contact directory names.
  *         Contains a table with column headings: "User Id", "Last Name", "First
  * Name", "Hiragana Last Name", "Hiragana First Name".
- *
  *         Replace by: GroupCustomContactDirectoryGetResponse17
  */
 class GroupCustomContactDirectoryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

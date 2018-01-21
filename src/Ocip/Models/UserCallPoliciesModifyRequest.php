@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallPoliciesModifyRequest
  *
  * Modify the user level data associated with Call Policies.
+ *         The following elements are only used in AS data mode:
+ *           callingLineIdentityForRedirectedCalls
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

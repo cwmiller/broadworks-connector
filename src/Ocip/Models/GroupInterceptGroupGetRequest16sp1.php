@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the group's intercept group service settings.
  *         The response is either a GroupInterceptGroupGetResponse16sp1 or an
  * ErrorResponse.
+ *         
+ *         Replaced by: GroupInterceptGroupGetRequest21sp1 in AS data mode
  */
 class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,7 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupNetworkClassOfServiceAssignListRequest
  *
  * Assign a list of Network Classes of Service to a group.
- *         The Element defaultNetworkClassOfService is required only for the first
+ *         The Element defaultNetworkClassOfService is required only for the first 
+ *    
  *         assignment, for subsequent assignments it is optional.
  *         The response is either a SuccessResponse or an ErrorResponse.
  */

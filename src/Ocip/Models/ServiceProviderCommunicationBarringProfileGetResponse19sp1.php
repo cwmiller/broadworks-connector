@@ -9,11 +9,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Communication Barring Profile information.
  *         The incoming, originating, redirecting and call me now rules are
  * returned in ascending priority order.
- *       The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode:
  *            callMeNowDefaultAction
+ *            applyToAttendedCallTransfers
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode
  *            callMeNowDefaultCallTimeout
  *            callMeNowRule
- *            applyToAttendedCallTransfers
+ *            
+ *         Replaced By :
+ * ServiceProviderCommunicationBarringProfileGetResponse19sp1V2 in AS data mode
  */
 class ServiceProviderCommunicationBarringProfileGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

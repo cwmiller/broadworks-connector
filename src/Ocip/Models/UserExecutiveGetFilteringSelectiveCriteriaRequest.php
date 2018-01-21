@@ -9,7 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Both executive and the executive assistant can run this command.
  *         The response is either UserExecutiveGetSelectiveCriteriaResponse or
  * ErrorResponse.
- *
  *         Replaced by: UserExecutiveGetFilteringSelectiveCriteriaRequest21
  */
 class UserExecutiveGetFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

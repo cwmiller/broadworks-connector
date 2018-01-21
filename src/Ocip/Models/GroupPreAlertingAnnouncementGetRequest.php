@@ -5,9 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupPreAlertingAnnouncementGetRequest
  *
- * Get the group�s PreAlertingservice settings.
+ * Get the group PreAlertingservice settings.
  *         The response is either a GroupPreAlertingAnnouncementGetResponse or an
  * ErrorResponse.
+ *         
+ *         Replaced by: GroupPreAlertingAnnouncementGetRequest20 in AS data mode
  */
 class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

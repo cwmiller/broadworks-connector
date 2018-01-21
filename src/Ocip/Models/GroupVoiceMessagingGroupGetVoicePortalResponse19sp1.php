@@ -7,8 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupVoiceMessagingGroupGetVoicePortalRequest19sp1.
  *         
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *         enableExtendedScope
+ *         
+ *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 in AS
+ * data mode.
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

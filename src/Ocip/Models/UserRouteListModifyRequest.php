@@ -5,7 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserRouteListModifyRequest
  *
- * Modify the route list setting and the list of number ranges assigned to a user.
+ * Modify the route list setting and the list of number ranges and number prefixes
+ * assigned to a user.
  *         The response is either SuccessResponse or ErrorResponse.
  */
 class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
@@ -40,6 +41,12 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null
      */
     private $assignedNumberRangeStartList = null;
+
+    /**
+     * @ElementName assignedNumberPrefixList
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null
+     */
+    private $assignedNumberPrefixList = null;
 
     /**
      * Getter for userId
@@ -158,6 +165,30 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     public function setAssignedNumberRangeStartList($assignedNumberRangeStartList)
     {
         $this->assignedNumberRangeStartList = $assignedNumberRangeStartList;
+        return $this;
+    }
+
+    /**
+     * Getter for assignedNumberPrefixList
+     *
+     * @ElementName assignedNumberPrefixList
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null
+     */
+    public function getAssignedNumberPrefixList()
+    {
+        return $this->assignedNumberPrefixList;
+    }
+
+    /**
+     * Setter for assignedNumberPrefixList
+     *
+     * @ElementName assignedNumberPrefixList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null $assignedNumberPrefixList
+     * @return $this
+     */
+    public function setAssignedNumberPrefixList($assignedNumberPrefixList)
+    {
+        $this->assignedNumberPrefixList = $assignedNumberPrefixList;
         return $this;
     }
 

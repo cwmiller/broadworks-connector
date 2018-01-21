@@ -9,17 +9,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 	    Setting isEnterpriseRequested to true will return enterprise directory
  * 	    members in the response if the user is in an enterprise.  Otherwise,
  * 	    just the group directory members for a user are returned in the
- * 	    response.  The response is either
- *         UserPhoneDirectoryGetPagedSortedListResponse or ErrorResponse.
- *         The search can be done using multiple criterias.  If the              
- *         searchCriteriaModeOr is present, any result matching any one
- * 	    criteria is included in the results. Otherwise, only results matching all
- *         the search criterias are included in the results.  If no search criteria
- * is 
- *         specified, all results are returned.  Specifying searchCriteriaModeOr 
- *         without any search criteria results in an ErrorResponse.  The sort can
- * be
- *         performed on user last name, first name, or department.
+ * 	    response.  
+ *       The response is either UserPhoneDirectoryGetPagedSortedListResponse or
+ * ErrorResponse.
+ *       The search can be done using multiple criteria.  If the
+ * searchCriteriaModeOr is present, 
+ *       any result matching any one criteria is included in the results.
+ * Otherwise, only results 
+ *       matching all the search criteria are included in the results.  If no
+ * search criteria is 
+ *       specified, all results are returned.  Specifying searchCriteriaModeOr 
+ *       without any search criteria results in an ErrorResponse.  The sort can be
+ *       performed on user last name, first name, department, or receptionist note.
+ *  
+ *       The Receptionist Note column is only populated, if the user sending the
+ * request 
+ *       is the owner of the Receptionist Note and a Note exists.
  */
 class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -61,6 +66,12 @@ class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnect
     private $sortByUserDepartment = null;
 
     /**
+     * @ElementName sortByReceptionistNote
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote|null
+     */
+    private $sortByReceptionistNote = null;
+
+    /**
      * @ElementName searchCriteriaModeOr
      * @var bool|null
      */
@@ -79,6 +90,14 @@ class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnect
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaUserName
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserName[]
+     */
+    private $searchCriteriaUserName = array(
         
     );
 
@@ -157,6 +176,22 @@ class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnect
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaTitle
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
+     */
+    private $searchCriteriaTitle = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaReceptionistNote
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
+     */
+    private $searchCriteriaReceptionistNote = array(
         
     );
 
@@ -305,6 +340,30 @@ class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * Getter for sortByReceptionistNote
+     *
+     * @ElementName sortByReceptionistNote
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote|null
+     */
+    public function getSortByReceptionistNote()
+    {
+        return $this->sortByReceptionistNote;
+    }
+
+    /**
+     * Setter for sortByReceptionistNote
+     *
+     * @ElementName sortByReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote|null $sortByReceptionistNote
+     * @return $this
+     */
+    public function setSortByReceptionistNote($sortByReceptionistNote)
+    {
+        $this->sortByReceptionistNote = $sortByReceptionistNote;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaModeOr
      *
      * @ElementName searchCriteriaModeOr
@@ -399,6 +458,43 @@ class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnect
     public function addSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName []= $searchCriteriaUserFirstName;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaUserName
+     *
+     * @ElementName searchCriteriaUserName
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserName[]
+     */
+    public function getSearchCriteriaUserName()
+    {
+        return $this->searchCriteriaUserName;
+    }
+
+    /**
+     * Setter for searchCriteriaUserName
+     *
+     * @ElementName searchCriteriaUserName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserName[] $searchCriteriaUserName
+     * @return $this
+     */
+    public function setSearchCriteriaUserName($searchCriteriaUserName)
+    {
+        $this->searchCriteriaUserName = $searchCriteriaUserName;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaUserName
+     *
+     * @ElementName searchCriteriaUserName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserName $searchCriteriaUserName
+     * @return $this
+     */
+    public function addSearchCriteriaUserName($searchCriteriaUserName)
+    {
+        $this->searchCriteriaUserName []= $searchCriteriaUserName;
         return $this;
     }
 
@@ -756,6 +852,80 @@ class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnect
     public function addSearchCriteriaImpId($searchCriteriaImpId)
     {
         $this->searchCriteriaImpId []= $searchCriteriaImpId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaTitle
+     *
+     * @ElementName searchCriteriaTitle
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
+     */
+    public function getSearchCriteriaTitle()
+    {
+        return $this->searchCriteriaTitle;
+    }
+
+    /**
+     * Setter for searchCriteriaTitle
+     *
+     * @ElementName searchCriteriaTitle
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[] $searchCriteriaTitle
+     * @return $this
+     */
+    public function setSearchCriteriaTitle($searchCriteriaTitle)
+    {
+        $this->searchCriteriaTitle = $searchCriteriaTitle;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaTitle
+     *
+     * @ElementName searchCriteriaTitle
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle $searchCriteriaTitle
+     * @return $this
+     */
+    public function addSearchCriteriaTitle($searchCriteriaTitle)
+    {
+        $this->searchCriteriaTitle []= $searchCriteriaTitle;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
+     */
+    public function getSearchCriteriaReceptionistNote()
+    {
+        return $this->searchCriteriaReceptionistNote;
+    }
+
+    /**
+     * Setter for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[] $searchCriteriaReceptionistNote
+     * @return $this
+     */
+    public function setSearchCriteriaReceptionistNote($searchCriteriaReceptionistNote)
+    {
+        $this->searchCriteriaReceptionistNote = $searchCriteriaReceptionistNote;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaReceptionistNote
+     *
+     * @ElementName searchCriteriaReceptionistNote
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote $searchCriteriaReceptionistNote
+     * @return $this
+     */
+    public function addSearchCriteriaReceptionistNote($searchCriteriaReceptionistNote)
+    {
+        $this->searchCriteriaReceptionistNote []= $searchCriteriaReceptionistNote;
         return $this;
     }
 

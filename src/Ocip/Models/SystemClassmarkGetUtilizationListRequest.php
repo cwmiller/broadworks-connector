@@ -41,6 +41,14 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
     private $searchCriteriaExactServiceProviderId = null;
 
     /**
+     * @ElementName searchCriteriaServiceProviderId
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
+     */
+    private $searchCriteriaServiceProviderId = array(
+        
+    );
+
+    /**
      * @ElementName searchCriteriaUserFirstName
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
@@ -186,6 +194,43 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
     public function setSearchCriteriaExactServiceProviderId($searchCriteriaExactServiceProviderId)
     {
         $this->searchCriteriaExactServiceProviderId = $searchCriteriaExactServiceProviderId;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
+     */
+    public function getSearchCriteriaServiceProviderId()
+    {
+        return $this->searchCriteriaServiceProviderId;
+    }
+
+    /**
+     * Setter for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
+     * @return $this
+     */
+    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    {
+        $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaServiceProviderId
+     *
+     * @ElementName searchCriteriaServiceProviderId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId $searchCriteriaServiceProviderId
+     * @return $this
+     */
+    public function addSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    {
+        $this->searchCriteriaServiceProviderId []= $searchCriteriaServiceProviderId;
         return $this;
     }
 

@@ -9,10 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The priorities for IncomingRules are requantized to consecutive integers
  * as part of the add.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *   The following elements are only used in AS data mode:
- *           callMeNowDefaultAction, use value "Block" in HSS data mode
+ *         The following elements are only used in AS data mode:
+ *           callMeNowDefaultAction, use value "Block" in XS data mode
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
  *           callMeNowDefaultCallTimeout
  *           callMeNowRule
+ *           
+ *         Replaced by: SystemCommunicationBarringProfileAddRequest19sp1 in AS data
+ * mode
  */
 class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

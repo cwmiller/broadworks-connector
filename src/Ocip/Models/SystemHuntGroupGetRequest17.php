@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Hunt Group.
  *         The response is either a SystemHuntGroupGetResponse or an
  *         ErrorResponse.
- *
- *         Replaced by SystemHuntGroupGetRequest21.
+ *         Replaced by: SystemHuntGroupGetRequest21 in AS data mode
  */
 class SystemHuntGroupGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

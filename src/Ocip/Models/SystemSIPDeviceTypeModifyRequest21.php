@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a sip device type.
  *         The response is either SuccessResponse or ErrorResponse.
- *
  *         The following elements are not changeable:
  *           numberOfPorts
  *           SignalingAddressType
@@ -16,25 +15,33 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isMobilityManagerDevice
  *           deviceTypeConfigurationOption
  *           staticLineOrdering
- *
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
  *           holdAnnouncementMethod
  *           supportRFC3398
  *           supportClientSessionInfo
  *           supportCallInfoConferenceSubscriptionURI
  *           supportRemotePartyInfo
- *
- *         The following element values are only applicable in AS data mode:
- *           holdNormalization=useRfc3264Hold will raise an error in HSS data mode
- *
- * 		The following elements are only used in AS data mode and ignored in
- *           HSS data mode:
+ *           supportVisualDeviceManagement
+ *           bypassMediaTreatment
  *           supportCauseParameter
- *
- * 		The following elements are only used in HSS data mode and ignored in AS mode:
+ *         The following elements are only used in XS data mode and ignored in AS
+ * mode:
  *           enhancedForICS
- * 	      supports3G4GContinuity
- * 	      publishesOwnPresence
+ *           supports3G4GContinuity
+ *           publishesOwnPresence
+ *           locationNetwork
+ *           roamingMode
+ *         The following logic applies to these elements:
+ *           macInCert
+ *           macInNonRequestURI
+ *           The two elements are mutually exclusive.
+ *           When both are set to true, the command fails.
+ *           When macInCert is set to true, macInNonRequestURI will be reset to
+ * false.
+ *           When macInNonRequestURI is set to true, macInCert will be reset to
+ * false.
+ *         Replaced by: SystemSIPDeviceTypeModifyRequest22
  */
 class SystemSIPDeviceTypeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -284,6 +291,18 @@ class SystemSIPDeviceTypeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\M
      * @var bool|null
      */
     private $supportCauseParameter = null;
+
+    /**
+     * @ElementName locationNetwork
+     * @var string|null
+     */
+    private $locationNetwork = null;
+
+    /**
+     * @ElementName roamingMode
+     * @var string|null
+     */
+    private $roamingMode = null;
 
     /**
      * Getter for deviceType
@@ -1266,6 +1285,54 @@ class SystemSIPDeviceTypeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\M
     public function setSupportCauseParameter($supportCauseParameter)
     {
         $this->supportCauseParameter = $supportCauseParameter;
+        return $this;
+    }
+
+    /**
+     * Getter for locationNetwork
+     *
+     * @ElementName locationNetwork
+     * @return string|null
+     */
+    public function getLocationNetwork()
+    {
+        return $this->locationNetwork;
+    }
+
+    /**
+     * Setter for locationNetwork
+     *
+     * @ElementName locationNetwork
+     * @param string|null $locationNetwork
+     * @return $this
+     */
+    public function setLocationNetwork($locationNetwork)
+    {
+        $this->locationNetwork = $locationNetwork;
+        return $this;
+    }
+
+    /**
+     * Getter for roamingMode
+     *
+     * @ElementName roamingMode
+     * @return string|null
+     */
+    public function getRoamingMode()
+    {
+        return $this->roamingMode;
+    }
+
+    /**
+     * Setter for roamingMode
+     *
+     * @ElementName roamingMode
+     * @param string|null $roamingMode
+     * @return $this
+     */
+    public function setRoamingMode($roamingMode)
+    {
+        $this->roamingMode = $roamingMode;
         return $this;
     }
 

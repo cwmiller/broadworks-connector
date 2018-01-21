@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            useServiceProviderDCLIDSetting
  *            enableDialableCallerID
  *            allowConfigurableCLIDForRedirectingIdentity
+ *            
+ *         Replaced By : ServiceProviderCallProcessingGetPolicyResponse18sp1
  */
 class ServiceProviderCallProcessingGetPolicyResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,10 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * whether the
  *         type is SIP or MGCP.
  *         The response is either SystemDeviceTypeGetResponse18 or ErrorResponse.
- * 		Note: The elements deviceTypeConfigurationOption applies to SIP device types
+ *     Note: The elements deviceTypeConfigurationOption applies to SIP device types
  * only. Therefore, only present in the response when the device type is SIP.
- *
- * 		Replaced by: SystemSIPDeviceTypeGetRequest19.
+ *     Replaced by: SystemSIPDeviceTypeGetRequest19.
  */
 class SystemDeviceTypeGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

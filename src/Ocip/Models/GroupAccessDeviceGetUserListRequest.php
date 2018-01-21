@@ -8,9 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the configuration of a specified group access device.
  *         The response is either GroupAccessDeviceGetUserListResponse or
  * ErrorResponse.
- *         The following elements are only used in HSS data mode and ignored in AS
+ *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
+ *           
+ *          Replaced by: GroupAccessDeviceGetUserListRequest21sp1 in AS data mode.
  */
 class GroupAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to add a session admission control group for the group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         Note that to provision the accessInfoPattern element, the
+ *         captureAccessInfoInPaniHeader system parameter needs to be set to
+ * "true".
  */
 class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -90,6 +93,18 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;
+
+    /**
+     * @ElementName mediaGroupName
+     * @var string|null
+     */
+    private $mediaGroupName = null;
+
+    /**
+     * @ElementName accessInfoPattern
+     * @var string|null
+     */
+    private $accessInfoPattern = null;
 
     /**
      * Getter for serviceProviderId
@@ -413,6 +428,54 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     public function setBlockEmergencyAndRepairCallsDueToSACLimits($blockEmergencyAndRepairCallsDueToSACLimits)
     {
         $this->blockEmergencyAndRepairCallsDueToSACLimits = $blockEmergencyAndRepairCallsDueToSACLimits;
+        return $this;
+    }
+
+    /**
+     * Getter for mediaGroupName
+     *
+     * @ElementName mediaGroupName
+     * @return string|null
+     */
+    public function getMediaGroupName()
+    {
+        return $this->mediaGroupName;
+    }
+
+    /**
+     * Setter for mediaGroupName
+     *
+     * @ElementName mediaGroupName
+     * @param string|null $mediaGroupName
+     * @return $this
+     */
+    public function setMediaGroupName($mediaGroupName)
+    {
+        $this->mediaGroupName = $mediaGroupName;
+        return $this;
+    }
+
+    /**
+     * Getter for accessInfoPattern
+     *
+     * @ElementName accessInfoPattern
+     * @return string|null
+     */
+    public function getAccessInfoPattern()
+    {
+        return $this->accessInfoPattern;
+    }
+
+    /**
+     * Setter for accessInfoPattern
+     *
+     * @ElementName accessInfoPattern
+     * @param string|null $accessInfoPattern
+     * @return $this
+     */
+    public function setAccessInfoPattern($accessInfoPattern)
+    {
+        $this->accessInfoPattern = $accessInfoPattern;
         return $this;
     }
 

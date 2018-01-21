@@ -5,11 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCustomRingbackGroupModifyRequest16
  *
- * Modify the group's custom ring back service
- *         settings.
- *         The response is either a SuccessResponse or
- *         an
- *         ErrorResponse.
+ * Modify the group's custom ring back service settings.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced by: GroupCustomRingbackGroupModifyRequest20 in AS data mode
  */
 class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,7 +8,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Find-me/Follow-me instance.
  *         The response is either GroupFindMeFollowMeGetInstanceResponse or
  * ErrorResponse.
- *
  *         Replaced by: GroupFindMeFollowMeGetInstanceRequest19sp1
  */
 class GroupFindMeFollowMeGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

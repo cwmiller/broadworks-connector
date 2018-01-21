@@ -6,6 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallCenterGetResponse21
  *
  * Response to SystemCallCenterGetRequest21.
+ *         
+ *          The following elements are only used in AS data mode:
+ *           callHandlingSamplingPeriodMinutes, value "15" is returned in Amplify
+ * data mode
+ *           callHandlingMinimumSamplingSize, value "5" is returned in Amplify data
+ * mode
+ *           thresholdCrossingNotificationEmailGuardTimerSeconds, value "5" is
+ * returned in Amplify mode
  */
 class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

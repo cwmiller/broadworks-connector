@@ -7,12 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallParkGetRequest16sp2.
  *         Contains the settings that apply to the whole group for Call Park.
- *         
- *         The following elements are only used in AS data mode:
- *          recallAlternateUserId       
- *          recallRingPattern
- *          recallTo
- *          alternateUserRecallTimerSeconds
  */
 class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
  *
  * Response to the GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16.
+ *         
+ *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 in
+ * AS data mode
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

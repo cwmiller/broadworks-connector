@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the group's custom ring back service settings.
  *         The response is either a GroupCustomRingbackGroupGetResponse16 or an
  * ErrorResponse.
+ *         
+ *         Replaced by: GroupCustomRingbackGroupGetRequest20 in AS data mode
  */
 class GroupCustomRingbackGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemDomainParametersGetRequest.
  *         Contains the system Domain parameters.
+ *         
+ *         The following elements are only used in AS data mode:
+ *           useAliasForDomain, value "false" is returned in XS data mode.
+ *           
+ *         The following elements are only used in AS and XS data mode and not
+ * returned in Amplify data mode.
+ *           defaultDomain
  */
 class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

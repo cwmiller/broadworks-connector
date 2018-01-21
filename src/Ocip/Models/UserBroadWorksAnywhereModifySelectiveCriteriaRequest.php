@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereModifySelectiveCriteriaRequest
  *
  * Modify selective criteria for the user's BroadWorks Anywhere phone number.
+ *         The following elements are only used in AS data mode:
+ *           callToNumbers
+ *           
  *         For the callToNumbers in the callToNumberList, the extension element is
  * not used and the number element is only used when the type is BroadWorks
  * Mobility.

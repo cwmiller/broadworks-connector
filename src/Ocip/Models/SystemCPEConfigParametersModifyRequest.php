@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify CPE Config system parameters.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         Replaced by: SystemCPEConfigParametersModifyRequest20.
  */
 class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

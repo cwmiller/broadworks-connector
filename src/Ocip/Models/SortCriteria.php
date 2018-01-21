@@ -5,9 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SortCriteria
  *
- * The sort criteria specifies whether sort is ascending or descending, and
- * 				whether the sort is case sensitive. Sort order defaults to
- * 				ascending and case sensitive.
+ * The sort criteria specifies whether sort is ascending or descending,
+ *         and	whether the sort is case sensitive. Sort order defaults to
+ *         ascending and case sensitive.
  */
 abstract class SortCriteria
 {

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add a sip device type.
  *         The response is either SuccessResponse or ErrorResponse.
  *         
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           enable3G4GContinuity
  *           
  *         Replaced by: SystemSIPDeviceTypeAddRequest19

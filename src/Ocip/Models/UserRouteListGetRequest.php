@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the route list setting and the list of number ranges assigned to a user.
  *         The response is either UserRouteListGetResponse or ErrorResponse.
+ *         
+ *         Replaced by: UserRouteListGetRequest22
  */
 class UserRouteListGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

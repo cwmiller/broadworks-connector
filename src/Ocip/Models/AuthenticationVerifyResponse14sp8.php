@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to AuthenticationVerifyRequest14sp8
  *         If a phoneNumber is returned, it will be the primay DN of the user
+ *         
+ *         Replaced by AuthenticationVerifyResponse22 in AS data mode.
  */
 class AuthenticationVerifyResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

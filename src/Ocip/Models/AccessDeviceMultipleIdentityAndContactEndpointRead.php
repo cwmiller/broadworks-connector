@@ -8,12 +8,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Access device end point that can have multiple contacts.
  *         The endpoint is identified by its linePort (public Identity) and
  * possibly a private Identity.
- * 	Port numbers are only used by devices with static line ordering.
- *         The following elements are only used in HSS data mode and not returned
- * in AS data mode:
+ * 	      Port numbers are only used by devices with static line ordering.
+ *         The following elements are only used in XS data mode and not returned in
+ * AS data mode:
  *           privateIdentity
  *         The following elements are only used in AS data mode and a value false
- * is returned in the HSS mode:
+ * is returned in the XS mode:
  *           supportVisualDeviceManagement
  */
 class AccessDeviceMultipleIdentityAndContactEndpointRead

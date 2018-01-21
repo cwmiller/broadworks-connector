@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *             enableDialableCallerID
  *             allowConfigurableCLIDForRedirectingIdentity
+ *             
+ *         Replaced By : SystemCallProcessingGetPolicyResponse18sp1
  */
 class SystemCallProcessingGetPolicyResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

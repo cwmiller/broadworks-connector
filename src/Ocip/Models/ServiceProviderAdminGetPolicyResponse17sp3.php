@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * administrator.
  *         The following elements are only used in AS data mode:
  *             dialableCallerIDAccess
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *             communicationBarringAccess
  */
 class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

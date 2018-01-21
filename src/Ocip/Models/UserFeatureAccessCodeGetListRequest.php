@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of feature access codes for a user.
  *         The response is either a UserFeatureAccessCodeGetListResponse or an
  * ErrorResponse.
+ *         
+ *         Replaced by: UserFeatureAccessCodeGetListRequest20 in AS data mode
  */
 class UserFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

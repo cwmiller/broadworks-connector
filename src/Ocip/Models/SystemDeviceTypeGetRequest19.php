@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		Note: The elements deviceTypeConfigurationOption and staticLineOrdering apply
  * to SIP device types only. Therefore, only present in the response when the
  * device type is SIP.
+ * 		
+ * 		Replaced by: SystemSIPDeviceTypeGetRequest21sp1.
  */
 class SystemDeviceTypeGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

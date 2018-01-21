@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceManagementTagSetGetListRequest.
  *         The response includes an array of tag set names defined in the system.
  *         The system default tag set name is not part of this response.
+ *         
+ *         Replaced by SystemDeviceManagementTagSetGetListResponse22 in AS data
+ * mode
  */
 class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

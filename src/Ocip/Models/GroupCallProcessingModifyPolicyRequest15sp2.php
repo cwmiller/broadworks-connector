@@ -5,12 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallProcessingModifyPolicyRequest15sp2
  *
- * Modify the group level data associated with Call Procesing Policy.
+ * Modify the group level data associated with Call Processing Policy.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         The useGroupCLIDSetting attribute controls the CLID settings 
  *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, 
  * emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName,
- * allowConfigurableCLIDForRedirectingIdentity, allowDepartmentCLIDNameOverride)
+ * allowConfigurableCLIDForRedirectingIdentity, allowDepartmentCLIDNameOverride
+ *          useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable,
+ * useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailabl)
  *
  *         The allowDepartmentCLID attribute is automatically set to false when the
  * useGroupName attribute is set to false.
@@ -21,12 +23,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The useGroupCallLimitsSetting attribute controls the Call Limits
  * settings 
  *         (useMaxSimultaneousCalls, maxSimultaneousCalls,
- * useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls,
- * useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes,
- * useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes,
- * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
- * useMaxConcurrentFindMeFollowMeInvocations,
- * maxConcurrentFindMeFollowMeInvocations)
+ * useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, 
+ *         useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes,
+ * useMaxCallTimeForUnansweredCalls, 
+ *         maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls,
+ * useMaxFindMeFollowMeDepth, 
+ *         maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations,
+ * maxConcurrentFindMeFollowMeInvocations, 
+ *         useMaxConcurrentTerminatingAlertingRequests,
+ * maxConcurrentTerminatingAlertingRequests,
+ *         includeRedirectionsInMaximumNumberOfConcurrentCalls)
  *
  *         The useGroupTranslationRoutingSetting attribute controls the routing and
  * translation settings (networkUsageSelection,
@@ -34,10 +40,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * allowEnterpriseGroupCallTypingForPrivateDialingPlan,
  * allowEnterpriseGroupCallTypingForPublicDialingPlan,
  * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
- * enableEnterpriseExtensionDialing)
- *
+ * enableEnterpriseExtensionDialing, routeOverrideDomain, routeOverridePrefix)
  *         The useGroupDCLIDSetting controls the Dialable Caller ID settings
  * (enableDialableCallerID)
+ *
+ *         The useGroupPhoneListLookupSetting controls whether or not to use the
+ * enterprise/service provider setting for the Phone List Lookup policy
+ * (enablePhoneListLookup)
  *         
  *         The following elements are only used in AS data mode:
  *            useGroupDCLIDSetting
@@ -47,6 +56,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            allowConfigurableCLIDForRedirectingIdentity
  *            enterpriseCallsCLIDPolicy
  *            groupCallsCLIDPolicy
+ *            
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *            useGroupPhoneListLookupSetting
+ *            enablePhoneListLookup
+ *            useMaxConcurrentTerminatingAlertingRequests
+ *            maxConcurrentTerminatingAlertingRequests
+ *            includeRedirectionsInMaximumNumberOfConcurrentCalls
+ *            useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+ *            useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+ *            
+ *         The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *            routeOverrideDomain
+ *            routeOverridePrefix
  */
 class GroupCallProcessingModifyPolicyRequest15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -296,6 +320,60 @@ class GroupCallProcessingModifyPolicyRequest15sp2 extends \CWM\BroadWorksConnect
      * @var string|null
      */
     private $groupCallsCLIDPolicy = null;
+
+    /**
+     * @ElementName useGroupPhoneListLookupSetting
+     * @var bool|null
+     */
+    private $useGroupPhoneListLookupSetting = null;
+
+    /**
+     * @ElementName enablePhoneListLookup
+     * @var bool|null
+     */
+    private $enablePhoneListLookup = null;
+
+    /**
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @var bool|null
+     */
+    private $useMaxConcurrentTerminatingAlertingRequests = null;
+
+    /**
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @var int|null
+     */
+    private $maxConcurrentTerminatingAlertingRequests = null;
+
+    /**
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @var bool|null
+     */
+    private $includeRedirectionsInMaximumNumberOfConcurrentCalls = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = null;
+
+    /**
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @var bool|null
+     */
+    private $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = null;
+
+    /**
+     * @ElementName routeOverrideDomain
+     * @var string|null
+     */
+    private $routeOverrideDomain = null;
+
+    /**
+     * @ElementName routeOverridePrefix
+     * @var string|null
+     */
+    private $routeOverridePrefix = null;
 
     /**
      * Getter for serviceProviderId
@@ -1278,6 +1356,222 @@ class GroupCallProcessingModifyPolicyRequest15sp2 extends \CWM\BroadWorksConnect
     public function setGroupCallsCLIDPolicy($groupCallsCLIDPolicy)
     {
         $this->groupCallsCLIDPolicy = $groupCallsCLIDPolicy;
+        return $this;
+    }
+
+    /**
+     * Getter for useGroupPhoneListLookupSetting
+     *
+     * @ElementName useGroupPhoneListLookupSetting
+     * @return bool|null
+     */
+    public function getUseGroupPhoneListLookupSetting()
+    {
+        return $this->useGroupPhoneListLookupSetting;
+    }
+
+    /**
+     * Setter for useGroupPhoneListLookupSetting
+     *
+     * @ElementName useGroupPhoneListLookupSetting
+     * @param bool|null $useGroupPhoneListLookupSetting
+     * @return $this
+     */
+    public function setUseGroupPhoneListLookupSetting($useGroupPhoneListLookupSetting)
+    {
+        $this->useGroupPhoneListLookupSetting = $useGroupPhoneListLookupSetting;
+        return $this;
+    }
+
+    /**
+     * Getter for enablePhoneListLookup
+     *
+     * @ElementName enablePhoneListLookup
+     * @return bool|null
+     */
+    public function getEnablePhoneListLookup()
+    {
+        return $this->enablePhoneListLookup;
+    }
+
+    /**
+     * Setter for enablePhoneListLookup
+     *
+     * @ElementName enablePhoneListLookup
+     * @param bool|null $enablePhoneListLookup
+     * @return $this
+     */
+    public function setEnablePhoneListLookup($enablePhoneListLookup)
+    {
+        $this->enablePhoneListLookup = $enablePhoneListLookup;
+        return $this;
+    }
+
+    /**
+     * Getter for useMaxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @return bool|null
+     */
+    public function getUseMaxConcurrentTerminatingAlertingRequests()
+    {
+        return $this->useMaxConcurrentTerminatingAlertingRequests;
+    }
+
+    /**
+     * Setter for useMaxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName useMaxConcurrentTerminatingAlertingRequests
+     * @param bool|null $useMaxConcurrentTerminatingAlertingRequests
+     * @return $this
+     */
+    public function setUseMaxConcurrentTerminatingAlertingRequests($useMaxConcurrentTerminatingAlertingRequests)
+    {
+        $this->useMaxConcurrentTerminatingAlertingRequests = $useMaxConcurrentTerminatingAlertingRequests;
+        return $this;
+    }
+
+    /**
+     * Getter for maxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @return int|null
+     */
+    public function getMaxConcurrentTerminatingAlertingRequests()
+    {
+        return $this->maxConcurrentTerminatingAlertingRequests;
+    }
+
+    /**
+     * Setter for maxConcurrentTerminatingAlertingRequests
+     *
+     * @ElementName maxConcurrentTerminatingAlertingRequests
+     * @param int|null $maxConcurrentTerminatingAlertingRequests
+     * @return $this
+     */
+    public function setMaxConcurrentTerminatingAlertingRequests($maxConcurrentTerminatingAlertingRequests)
+    {
+        $this->maxConcurrentTerminatingAlertingRequests = $maxConcurrentTerminatingAlertingRequests;
+        return $this;
+    }
+
+    /**
+     * Getter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return bool|null
+     */
+    public function getIncludeRedirectionsInMaximumNumberOfConcurrentCalls()
+    {
+        return $this->includeRedirectionsInMaximumNumberOfConcurrentCalls;
+    }
+
+    /**
+     * Setter for includeRedirectionsInMaximumNumberOfConcurrentCalls
+     *
+     * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @param bool|null $includeRedirectionsInMaximumNumberOfConcurrentCalls
+     * @return $this
+     */
+    public function setIncludeRedirectionsInMaximumNumberOfConcurrentCalls($includeRedirectionsInMaximumNumberOfConcurrentCalls)
+    {
+        $this->includeRedirectionsInMaximumNumberOfConcurrentCalls = $includeRedirectionsInMaximumNumberOfConcurrentCalls;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable;
+        return $this;
+    }
+
+    /**
+     * Getter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return bool|null
+     */
+    public function getUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable()
+    {
+        return $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
+    }
+
+    /**
+     * Setter for useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     *
+     * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @param bool|null $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
+     * @return $this
+     */
+    public function setUseUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable($useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable)
+    {
+        $this->useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable;
+        return $this;
+    }
+
+    /**
+     * Getter for routeOverrideDomain
+     *
+     * @ElementName routeOverrideDomain
+     * @return string|null
+     */
+    public function getRouteOverrideDomain()
+    {
+        return $this->routeOverrideDomain;
+    }
+
+    /**
+     * Setter for routeOverrideDomain
+     *
+     * @ElementName routeOverrideDomain
+     * @param string|null $routeOverrideDomain
+     * @return $this
+     */
+    public function setRouteOverrideDomain($routeOverrideDomain)
+    {
+        $this->routeOverrideDomain = $routeOverrideDomain;
+        return $this;
+    }
+
+    /**
+     * Getter for routeOverridePrefix
+     *
+     * @ElementName routeOverridePrefix
+     * @return string|null
+     */
+    public function getRouteOverridePrefix()
+    {
+        return $this->routeOverridePrefix;
+    }
+
+    /**
+     * Setter for routeOverridePrefix
+     *
+     * @ElementName routeOverridePrefix
+     * @param string|null $routeOverridePrefix
+     * @return $this
+     */
+    public function setRouteOverridePrefix($routeOverridePrefix)
+    {
+        $this->routeOverridePrefix = $routeOverridePrefix;
         return $this;
     }
 

@@ -9,14 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If the specified group is part of an enterprise, the directory 
  *         includes all users in the enterprise and all entries in the enterprise 
  *         common phone list and the common phone list of the specified group.
- *
  *         If the specified group is part of a service provider, the directory 
  *         includes all users in the group and all entries in the common phone 
  *         list of the specified group.
- *
  *         It is possible to search by various criteria to restrict the number of 
  *         rows returned.
- *
  *         Multiple search criteria are logically ANDed together.
  *         The response is either GroupPhoneDirectoryGetListResponse17sp3 or 
  *         ErrorResponse.

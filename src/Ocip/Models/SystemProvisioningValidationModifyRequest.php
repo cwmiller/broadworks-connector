@@ -7,6 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify the system's provisioning validation attributes.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
+ *           denyMobilityNumberAsRedirectionDestination
+ *           denyEnterpriseNumberAsNetworkLocationDestination
  */
 class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +33,18 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
      * @var int|null
      */
     private $timeoutSeconds = null;
+
+    /**
+     * @ElementName denyMobilityNumberAsRedirectionDestination
+     * @var bool|null
+     */
+    private $denyMobilityNumberAsRedirectionDestination = null;
+
+    /**
+     * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
+     * @var bool|null
+     */
+    private $denyEnterpriseNumberAsNetworkLocationDestination = null;
 
     /**
      * Getter for isActive
@@ -98,6 +115,54 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
     public function setTimeoutSeconds($timeoutSeconds)
     {
         $this->timeoutSeconds = $timeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * Getter for denyMobilityNumberAsRedirectionDestination
+     *
+     * @ElementName denyMobilityNumberAsRedirectionDestination
+     * @return bool|null
+     */
+    public function getDenyMobilityNumberAsRedirectionDestination()
+    {
+        return $this->denyMobilityNumberAsRedirectionDestination;
+    }
+
+    /**
+     * Setter for denyMobilityNumberAsRedirectionDestination
+     *
+     * @ElementName denyMobilityNumberAsRedirectionDestination
+     * @param bool|null $denyMobilityNumberAsRedirectionDestination
+     * @return $this
+     */
+    public function setDenyMobilityNumberAsRedirectionDestination($denyMobilityNumberAsRedirectionDestination)
+    {
+        $this->denyMobilityNumberAsRedirectionDestination = $denyMobilityNumberAsRedirectionDestination;
+        return $this;
+    }
+
+    /**
+     * Getter for denyEnterpriseNumberAsNetworkLocationDestination
+     *
+     * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
+     * @return bool|null
+     */
+    public function getDenyEnterpriseNumberAsNetworkLocationDestination()
+    {
+        return $this->denyEnterpriseNumberAsNetworkLocationDestination;
+    }
+
+    /**
+     * Setter for denyEnterpriseNumberAsNetworkLocationDestination
+     *
+     * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
+     * @param bool|null $denyEnterpriseNumberAsNetworkLocationDestination
+     * @return $this
+     */
+    public function setDenyEnterpriseNumberAsNetworkLocationDestination($denyEnterpriseNumberAsNetworkLocationDestination)
+    {
+        $this->denyEnterpriseNumberAsNetworkLocationDestination = $denyEnterpriseNumberAsNetworkLocationDestination;
         return $this;
     }
 

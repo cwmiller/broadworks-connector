@@ -14,7 +14,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Changing the agentACDState from unavailable to any other state will
  * automatically clear the unavailable code.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *
  *         Replaced by UserCallCenterModifyRequest19.
  */
 class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

@@ -5,16 +5,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserSharedCallAppearanceGetResponse16sp2
  *
- * Response to the UserSharedCallAppearanceGetRequest16sp2.
+ * Response to the UserSharedCallAppearanceGetRequest.
  *         The endpointTable contains columns:
  *           "Device Level", "Device Name", "Device Type", "Line/Port", "SIP
- * Contact", "Port Number", "Device Support Visual Device Management".
+ * Contact", "Port Number". "Private Identity" .
+ *         The following columns are only returned in XS data mode:       
+ *           "Private Identity"
+ *           
  *         The "Device Level" column contains one of the AccessDeviceLevel
  * enumerated constants.
  *         Port numbers are only used by devices with static line ordering.
- *
+ *         
  *         The following elements are only used in AS data mode:
  *          enableCallParkNotification
+ *          
+ *         Replaced by: UserSharedCallAppearanceGetResponse21sp1.
  */
 class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

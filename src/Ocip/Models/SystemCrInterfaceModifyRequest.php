@@ -42,6 +42,18 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     private $crConnectionTimeoutMilliseconds = null;
 
     /**
+     * @ElementName crTcpConnectionTimeoutSeconds
+     * @var int|null
+     */
+    private $crTcpConnectionTimeoutSeconds = null;
+
+    /**
+     * @ElementName crNumberOfReconnectionAttempts
+     * @var int|null
+     */
+    private $crNumberOfReconnectionAttempts = null;
+
+    /**
      * Getter for crAuditEnabled
      *
      * @ElementName crAuditEnabled
@@ -158,6 +170,54 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     public function setCrConnectionTimeoutMilliseconds($crConnectionTimeoutMilliseconds)
     {
         $this->crConnectionTimeoutMilliseconds = $crConnectionTimeoutMilliseconds;
+        return $this;
+    }
+
+    /**
+     * Getter for crTcpConnectionTimeoutSeconds
+     *
+     * @ElementName crTcpConnectionTimeoutSeconds
+     * @return int|null
+     */
+    public function getCrTcpConnectionTimeoutSeconds()
+    {
+        return $this->crTcpConnectionTimeoutSeconds;
+    }
+
+    /**
+     * Setter for crTcpConnectionTimeoutSeconds
+     *
+     * @ElementName crTcpConnectionTimeoutSeconds
+     * @param int|null $crTcpConnectionTimeoutSeconds
+     * @return $this
+     */
+    public function setCrTcpConnectionTimeoutSeconds($crTcpConnectionTimeoutSeconds)
+    {
+        $this->crTcpConnectionTimeoutSeconds = $crTcpConnectionTimeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * Getter for crNumberOfReconnectionAttempts
+     *
+     * @ElementName crNumberOfReconnectionAttempts
+     * @return int|null
+     */
+    public function getCrNumberOfReconnectionAttempts()
+    {
+        return $this->crNumberOfReconnectionAttempts;
+    }
+
+    /**
+     * Setter for crNumberOfReconnectionAttempts
+     *
+     * @ElementName crNumberOfReconnectionAttempts
+     * @param int|null $crNumberOfReconnectionAttempts
+     * @return $this
+     */
+    public function setCrNumberOfReconnectionAttempts($crNumberOfReconnectionAttempts)
+    {
+        $this->crNumberOfReconnectionAttempts = $crNumberOfReconnectionAttempts;
         return $this;
     }
 

@@ -6,8 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereGetAvailablePortalListResponse
  *
  * Response to the UserBroadWorksAnywhereGetAvailablePortalListRequest.
- *         Contains a table with column headings: "Portal Name", "Phone Number",
+ *         Contains a table with column headings: "Portal ID", "Phone Number",
  * "Extension", "Language".
+ *         Replaced by UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1
  */
 class UserBroadWorksAnywhereGetAvailablePortalListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

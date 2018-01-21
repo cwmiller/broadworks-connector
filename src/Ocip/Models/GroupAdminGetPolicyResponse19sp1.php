@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the policy settings for the group administrator.
  *         The following elements are only used in AS data mode:
  *             dialableCallerIDAccess
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode            
  *             communicationBarringUserProfileAccess (This element will not be
  * returned in the response for Service Provider group administrators)
  */

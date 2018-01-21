@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSessionAdmissionControlGetRequest.
  *         The response contains the session admission control settings for the
  * system.
+ *         
+ *         Replaced by: SystemSessionAdmissionControlGetResponse21sp1.
  */
 class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

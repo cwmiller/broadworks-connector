@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallRejectionAddCriteriaRequest16
  *
  * Add a criteria to the user's selective call rejection service.
+ *         The following elements are only used in AS data mode:
+ *           callToNumber
+ *           
  *         For the callToNumber, the extension element is not used and the number
  * element is only used when the type is BroadWorks Mobility.
  *         The response is either a SuccessResponse or an ErrorResponse.

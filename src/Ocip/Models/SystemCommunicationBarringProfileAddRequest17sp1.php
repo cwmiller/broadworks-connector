@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The priorities for IncomingRules are requantized to consecutive integers
  * as part of the add.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *      incomingDefaultAction
  *      incomingDefaultCallTimeout
  *      incomingRule

@@ -6,9 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactModify
  *
  * Trunk group endpoint that can have multiple contacts. 
- *         alternateTrunkIdentityDomainName is only used in IMS mode.
+ *         alternateTrunkIdentityDomainName is only used in XS mode.
  *         Setting alternateTrunkIdentity or alternateTrunkIdentityDomain to nil in
- * IMS mode, the other one paremter should be set to nil at the same time.
+ * XS mode, the other one paremter should be set to nil at the same time.
+ *         The following elements are only used in AS data mode and are ignored in
+ * XS data mode:        
+ *          physicalLocation
  */
 class TrunkAddressingMultipleContactModify
 {
@@ -36,6 +39,12 @@ class TrunkAddressingMultipleContactModify
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;
+
+    /**
+     * @ElementName physicalLocation
+     * @var string|null
+     */
+    private $physicalLocation = null;
 
     /**
      * Getter for trunkGroupDeviceEndpoint
@@ -130,6 +139,30 @@ class TrunkAddressingMultipleContactModify
     public function setAlternateTrunkIdentityDomain($alternateTrunkIdentityDomain)
     {
         $this->alternateTrunkIdentityDomain = $alternateTrunkIdentityDomain;
+        return $this;
+    }
+
+    /**
+     * Getter for physicalLocation
+     *
+     * @ElementName physicalLocation
+     * @return string|null
+     */
+    public function getPhysicalLocation()
+    {
+        return $this->physicalLocation;
+    }
+
+    /**
+     * Setter for physicalLocation
+     *
+     * @ElementName physicalLocation
+     * @param string|null $physicalLocation
+     * @return $this
+     */
+    public function setPhysicalLocation($physicalLocation)
+    {
+        $this->physicalLocation = $physicalLocation;
         return $this;
     }
 

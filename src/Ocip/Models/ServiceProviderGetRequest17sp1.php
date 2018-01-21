@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the profile for a service provider or enterprise.
  *         The response is either a ServiceProviderGetResponse17sp1 or an
  * ErrorResponse.
+ *         
+ *         Replaced By: ServiceProviderGetRequest22
  */
 class ServiceProviderGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

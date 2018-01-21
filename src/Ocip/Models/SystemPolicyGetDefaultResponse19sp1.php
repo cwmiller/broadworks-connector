@@ -12,8 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             ServiceProviderAdminDialableCallerIDAccess
  *             GroupAdminCommunicationBarringUserProfileAccess (This element is
  * only used for groups in an Enterprise)
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *             serviceProviderAdminCommunicationBarringAccess
+ *             
+ *         Replaced by: SystemPolicyGetDefaultResponse20 in AS mode
  */
 class SystemPolicyGetDefaultResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBroadCloudModifyRequest
  *
- * Modify the system interface attributes for Messaging Server.
+ * Modify the system interface attributes for Messaging Server/BroadCloud.
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

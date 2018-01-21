@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneCallingRestrictionsZoneGetListResponse
  *
  * Response to SystemZoneCallingRestrictionsZoneGetListRequest. 
- * 	Contains a table of all the zones in the system. The column headings are "Zone
+ *   Contains a table of all the zones in the system. The column headings are "Zone
  * Name" , "Physical Location".
  *         Replaced by: SystemZoneGetListResponse
  */

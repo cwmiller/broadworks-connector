@@ -6,7 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserIntegratedIMPGeneratePasswordRequest
  *
  * Generate a new IMP password for the user. The new generated password is
- * synchronized to the service Messaging Server.
+ * synchronized to BroadCloud/service Messaging Server.
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class UserIntegratedIMPGeneratePasswordRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

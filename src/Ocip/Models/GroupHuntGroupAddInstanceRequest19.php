@@ -9,8 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The domain is required in the serviceUserId.
  *         The response is either SuccessResponse or ErrorResponse.
  *         The following elements are only used in AS data mode:
- *            useSystemHuntGroupCLIDSetting, use value "true" in HSS data mode
- *            includeHuntGroupNameInCLID, use value "true" in HSS data mode
+ *            useSystemHuntGroupCLIDSetting, use value "true" in XS data mode
+ *            includeHuntGroupNameInCLID, use value "true" in XS data mode
+ *         
+ *         Replaced by: GroupHuntGroupAddInstanceRequest20 in AS data mode
  */
 class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

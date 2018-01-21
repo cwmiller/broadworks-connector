@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupRoutePointExternalSystemGetAssignedListRequest.
  *         Contains a table of all Route Point External Systems assigned to the
- * 	group.  The column headings are: "Name" and "Description".
+ *         group.  The column headings are: "Name" and "Description".
  */
 class GroupRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

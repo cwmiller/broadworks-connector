@@ -9,7 +9,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The command will fail if enableNetworkAddressIdentity is set to
  *         true and administrator is not System/Provisioning level administrator.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *
  *         Replaced by: GroupTrunkGroupAddInstanceRequest20sp1
  */
 class GroupTrunkGroupAddInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

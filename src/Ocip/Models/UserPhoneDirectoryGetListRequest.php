@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         If the searchCriteriaModeOr is present, any result matching any one
  * criteria is included in the results. Otherwise, only
- *         results matching all the search criterias are included in the results. 
+ *         results matching all the search criteria are included in the results. 
  *         If no search criteria is specified, all results are returned.
  *         In all cases, if a responseSizeLimit is specified and the number of
  * matching results is more than this limit, then an

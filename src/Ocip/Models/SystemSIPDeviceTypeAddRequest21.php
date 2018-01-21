@@ -7,26 +7,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to add a sip device type.
  *         The response is either SuccessResponse or ErrorResponse.
- *
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           enhancedForICS, use value "false" in AS data mode
- * 	      supports3G4GContinuity, use value "false" in AS data mode
- * 	      publishesOwnPresence, use value "false" in AS data mode
- *
+ *           supports3G4GContinuity, use value "false" in AS data mode
+ *           publishesOwnPresence, use value "false" in AS data mode
  *         The following elements are only used in AS data mode:
- *           holdAnnouncementMethod, use value "useInactive" in HSS data mode
- *           supportRFC3398, use value "false" in HSS data mode
- *           supportClientSessionInfo, use value "false" in HSS data mode
- *           supportCallInfoConferenceSubscriptionURI, use value "false" in HSS
- * data mode
- *           supportRemotePartyInfo, use value "false" in HSS data mode
- *
+ *           holdAnnouncementMethod, use value "useInactive" in XS data mode
+ *           supportRFC3398, use value "false" in XS data mode
+ *           supportClientSessionInfo, use value "false" in XS data mode
+ *           supportCallInfoConferenceSubscriptionURI, use value "false" in XS data
+ * mode
+ *           supportRemotePartyInfo, use value "false" in XS data mode
+ *           bypassMediaTreatment, use value "false" in XS data mode
+ *           supportCauseParameter, use value "false" in XS data mode
  *         The following element values are only applicable in AS data mode:
- *           holdNormalization=useRfc3264Hold will raise an error in HSS data mode
- *
- *         The following elements are only used in AS data mode and ignored in
- *           HSS data mode:
+ *           holdNormalization=useRfc3264Hold will raise an error in XS data mode
+ *         The following elements are only used in AS data mode and ignored in XS
+ * data mode:
  *           supportCauseParameter
+ *         Replaced by: SystemSIPDeviceTypeAddRequest21sp1
  */
 class SystemSIPDeviceTypeAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

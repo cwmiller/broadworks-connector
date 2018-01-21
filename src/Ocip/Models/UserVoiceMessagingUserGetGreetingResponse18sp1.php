@@ -8,17 +8,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetGreetingRequest18sp1.
  *         Contains the greeting configuration for a user's voice messaging.
  *         The following elements are only used in AS data mode:
- *           disableMessageDeposit
- *           disableMessageDepositAction
+ *           disableMessageDeposit, value "false" is returned in XS data mode
+ *           disableMessageDepositAction, value "Disconnect" is returned in XS data
+ * mode
+ *           extendedAwayEnabled, value "false" is returned in XS data mode
+ *           extendedAwayDisableMessageDeposit, value "true" is returned in XS data
+ * mode
+ *           
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           greetingOnlyForwardDestination
- *           extendedAwayEnabled
- *           extendedAwayDisableMessageDeposit
  *           extendedAwayAudioFile
  *           extendedAwayAudioMediaType
  *           extendedAwayVideoFile
- *           extendedAwayVideoMediaTyp
+ *           extendedAwayVideoMediaType
  *           
- *           Replaced by UserVoiceMessagingUserGetGreetingResponse20
+ *           Replaced by: UserVoiceMessagingUserGetGreetingResponse20 in AS data
+ * mode
  */
 class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

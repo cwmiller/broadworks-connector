@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallProcessingGetPolicyResponse16sp2
  *
  * Response to UserCallProcessingGetPolicyRequest16sp2.
- * 	        The useUserCLIDSetting attribute controls the CLID settings 
- * 	        (clidPolicy, emergencyClidPolicy,
+ *           The useUserCLIDSetting attribute controls the CLID settings 
+ *           (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName)
- * 	      
+ *         
  *           The useUserMediaSetting attribute controls the Media settings 
  *           (medisPolicySelection, supportedMediaSetName)
  *           
@@ -22,10 +22,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
  * useMaxConcurrentFindMeFollowMeInvocations,
  * maxConcurrentFindMeFollowMeInvocations)
- *
  *           The useUserDCLIDSetting controls the Dialable Caller ID settings
  * (enableDialableCallerID)
- *
  *           Replaced by: UserCallProcessingGetPolicyResponse17sp4
  */
 class UserCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemThirdPartyVoiceMailSupportGetResponse or
  * an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemThirdPartyVoiceMailSupportGetRequest17sp4
  */
 class SystemThirdPartyVoiceMailSupportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

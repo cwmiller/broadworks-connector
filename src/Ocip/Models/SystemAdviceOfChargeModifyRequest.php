@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify Advice of Charge system parameters.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         Replaced by: SystemAdviceOfChargeModifyRequest19sp1
  */
 class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

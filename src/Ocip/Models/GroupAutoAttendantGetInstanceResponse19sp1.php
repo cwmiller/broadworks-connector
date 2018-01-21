@@ -7,16 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAutoAttendantGetInstanceRequest19sp1.
  *         Contains the service profile information.
- *
  *         
  *         The following elements are only used in AS data mode:
- *           type, use AutoAttendantType.BASIC in HSS mode.
- *           holidayMenu.
- *         The following elementsare only valid for Standard Auto
- *         Attendants:
+ *           type, value "Basic" is returned in XS data mode
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
+ *           holidayMenu
+ *         The following elementsare only valid for Standard Auto Attendants:
  *           holidayMenu
  *           
- *         Replaced by: GroupAutoAttendantGetInstanceResponse20
+ *         Replaced by: GroupAutoAttendantGetInstanceResponse20 in AS data mode
  */
 class GroupAutoAttendantGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

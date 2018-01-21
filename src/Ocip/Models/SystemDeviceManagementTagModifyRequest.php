@@ -6,6 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementTagModifyRequest
  *
  * Request to modify a static configuration tag.
+ *         
+ *         The following elements are only used in XS data mode and ignored in AS
+ * data mode:
+ *           tagValueToEncrypt
+ *
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
@@ -34,6 +39,18 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @var string|null
      */
     private $tagValue = null;
+
+    /**
+     * @ElementName tagValueToEncrypt
+     * @var string|null
+     */
+    private $tagValueToEncrypt = null;
+
+    /**
+     * @ElementName isTagValueOverridable
+     * @var bool|null
+     */
+    private $isTagValueOverridable = null;
 
     /**
      * Getter for systemDefaultTagSet
@@ -128,6 +145,54 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     public function setTagValue($tagValue)
     {
         $this->tagValue = $tagValue;
+        return $this;
+    }
+
+    /**
+     * Getter for tagValueToEncrypt
+     *
+     * @ElementName tagValueToEncrypt
+     * @return string|null
+     */
+    public function getTagValueToEncrypt()
+    {
+        return $this->tagValueToEncrypt;
+    }
+
+    /**
+     * Setter for tagValueToEncrypt
+     *
+     * @ElementName tagValueToEncrypt
+     * @param string|null $tagValueToEncrypt
+     * @return $this
+     */
+    public function setTagValueToEncrypt($tagValueToEncrypt)
+    {
+        $this->tagValueToEncrypt = $tagValueToEncrypt;
+        return $this;
+    }
+
+    /**
+     * Getter for isTagValueOverridable
+     *
+     * @ElementName isTagValueOverridable
+     * @return bool|null
+     */
+    public function getIsTagValueOverridable()
+    {
+        return $this->isTagValueOverridable;
+    }
+
+    /**
+     * Setter for isTagValueOverridable
+     *
+     * @ElementName isTagValueOverridable
+     * @param bool|null $isTagValueOverridable
+     * @return $this
+     */
+    public function setIsTagValueOverridable($isTagValueOverridable)
+    {
+        $this->isTagValueOverridable = $isTagValueOverridable;
         return $this;
     }
 

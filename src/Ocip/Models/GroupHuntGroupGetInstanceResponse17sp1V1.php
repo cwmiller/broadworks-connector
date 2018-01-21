@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a table of assigned users.
  *         The table has column headings: "User Id", "Last Name", "First Name",
  *         "Hiragana Last Name", "Hiragana First Name", "Weight".
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *            allowMembersToControlGroupBusy
  *            enableGroupBusy
  */

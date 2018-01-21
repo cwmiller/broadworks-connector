@@ -11,7 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupCallCenterGetAvailableUserListResponse or
  * ErrorResponse.
  *         
- *         Replaced By: GroupCallCenterGetAvailableAgentListRequest
+ *         Replaced By: GroupCallCenterGetAvailableAgentListRequest and
+ * GroupCallCenterGetAvailableSupervisorListRequest
  */
 class GroupCallCenterGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

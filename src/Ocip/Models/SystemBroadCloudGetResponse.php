@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemBroadCloudGetRequest.
  *         The response contains the system interface attributes for Messaging
- * Server.
+ * Server/BroadCloud.
  */
 class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

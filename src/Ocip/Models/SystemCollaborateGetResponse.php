@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCollaborateGetResponse
  *
  * Response to SystemCollaborateGetRequest.
+ *         
+ *         Replaced by: SystemCollaborateGetResponse20sp1
  */
 class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

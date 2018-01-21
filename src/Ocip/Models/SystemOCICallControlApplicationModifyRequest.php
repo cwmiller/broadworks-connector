@@ -42,6 +42,12 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
     private $maxEventChannelsPerSet = null;
 
     /**
+     * @ElementName unresponsiveChannelSetGracePeriodSeconds
+     * @var int|null
+     */
+    private $unresponsiveChannelSetGracePeriodSeconds = null;
+
+    /**
      * Getter for applicationId
      *
      * @ElementName applicationId
@@ -158,6 +164,30 @@ class SystemOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnec
     public function setMaxEventChannelsPerSet($maxEventChannelsPerSet)
     {
         $this->maxEventChannelsPerSet = $maxEventChannelsPerSet;
+        return $this;
+    }
+
+    /**
+     * Getter for unresponsiveChannelSetGracePeriodSeconds
+     *
+     * @ElementName unresponsiveChannelSetGracePeriodSeconds
+     * @return int|null
+     */
+    public function getUnresponsiveChannelSetGracePeriodSeconds()
+    {
+        return $this->unresponsiveChannelSetGracePeriodSeconds;
+    }
+
+    /**
+     * Setter for unresponsiveChannelSetGracePeriodSeconds
+     *
+     * @ElementName unresponsiveChannelSetGracePeriodSeconds
+     * @param int|null $unresponsiveChannelSetGracePeriodSeconds
+     * @return $this
+     */
+    public function setUnresponsiveChannelSetGracePeriodSeconds($unresponsiveChannelSetGracePeriodSeconds)
+    {
+        $this->unresponsiveChannelSetGracePeriodSeconds = $unresponsiveChannelSetGracePeriodSeconds;
         return $this;
     }
 

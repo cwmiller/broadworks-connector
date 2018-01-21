@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAutoAttendantSubmenuGetRequest.
  *         Contains AutoAttendant submenu information.
+ *         
+ *         Replaced by: GroupAutoAttendantSubmenuGetResponse20 in AS data mode
  */
 class GroupAutoAttendantSubmenuGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

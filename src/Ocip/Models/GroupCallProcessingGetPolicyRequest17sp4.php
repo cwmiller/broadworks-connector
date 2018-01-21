@@ -9,15 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The response is either a GroupCallProcessingGetPolicyResponse17sp4 or
  * an
  *           ErrorResponse.
- *
  *           The useGroupCLIDSetting attribute controls the CLID settings 
  *           (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName,
  * allowConfigurableCLIDForRedirectingIdentity)
- *
  *           The useGroupMediaSetting attribute controls the Media settings 
  *           (medisPolicySelection, supportedMediaSetName)
- *
  *           The useGroupCallLimitsSetting attribute controls the Call Limits
  * settings 
  *           (useMaxSimultaneousCalls, maxSimultaneousCalls, 
@@ -27,7 +24,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
  * useMaxConcurrentFindMeFollowMeInvocations,
  * maxConcurrentFindMeFollowMeInvocations)
- *
  *           The useGroupTranslationRoutingSetting attribute controls the routing
  * and translation settings 
  *           (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
@@ -35,7 +31,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * allowEnterpriseGroupCallTypingForPublicDialingPlan,
  * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
  * enableEnterpriseExtensionDialing)
- *
  *          The following elements are only used in AS data mode:
  *            useGroupDCLIDSetting
  *            enableDialableCallerID

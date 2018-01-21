@@ -10,7 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
  * First Name", 
  *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address",
- * "Department", "IMP Id".
+ * "Department", "IMP Id", "Title",
+ *           "Receptionist Note".  The Receptionist Note column is only populated,
+ * if the user sending 
+ *           the request is the owner of the Receptionist Note and a Note exists.
  */
 class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

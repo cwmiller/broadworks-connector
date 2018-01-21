@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCommunicationBarringAuthorizationCodeGetListRequest.
  *         Contains a list of Communication Barring Authorization Codes
  *         assigned to the group.
+ *         
+ *         Replaced by:
+ * GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1 in AS data mode
  */
 class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

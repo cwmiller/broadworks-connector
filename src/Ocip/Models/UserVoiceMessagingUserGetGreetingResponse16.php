@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserVoiceMessagingUserGetGreetingRequest16.
  *         Contains the greeting configuration for a user's voice messaging.
+ *         
+ *         Replaced by: UserVoiceMessagingUserGetGreetingResponse18
  */
 class UserVoiceMessagingUserGetGreetingResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

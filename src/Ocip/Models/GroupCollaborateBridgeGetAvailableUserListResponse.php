@@ -8,7 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCollaborateBridgeGetAvailableUserListRequest.
  *         Contains a table with column headings: "User Id", "Last Name", "First
  * Name", "Hiragana Last Name", and "Hiragana First Name", 
- *         "Phone Number", "Extension", "Department", "Email Address".
+ *         "Phone Number", "Extension", "Department", "Department Type", "Parent
+ * Department", "Parent Department Type", "Email Address".
  */
 class GroupCollaborateBridgeGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

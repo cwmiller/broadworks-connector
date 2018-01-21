@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the system level data associated with Voice Messaging.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS/Amplify data mode:
  *            realDeleteForImap
  *            useDnInMailBody
  *            useShortSubjectLine
@@ -27,9 +27,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            networkWideMessaging
  *            useExternalRouting
  *            defaultExternalRoutingAddress
- *            vmOnlySystem
+ *            vmOnlySystem, element is ignored in Amplify data mode.
  *            clientInitiatedMailServerSessionTimeoutMinutes
  *            recordingAudioFileFormat
+ *            allowVoicePortalAccessFromVMDepositMenu
+ *                       
+ *         The following elements are only used in Amplify data mode and ignored in
+ * AS and XS data mode:
+ *            storageSelection
+ *            vmBucketName
  */
 class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -159,6 +165,24 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * @var string|null
      */
     private $recordingAudioFileFormat = null;
+
+    /**
+     * @ElementName allowVoicePortalAccessFromVMDepositMenu
+     * @var bool|null
+     */
+    private $allowVoicePortalAccessFromVMDepositMenu = null;
+
+    /**
+     * @ElementName storageSelection
+     * @var string|null
+     */
+    private $storageSelection = null;
+
+    /**
+     * @ElementName vmBucketName
+     * @var string|null
+     */
+    private $vmBucketName = null;
 
     /**
      * Getter for realDeleteForImap
@@ -661,6 +685,78 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
     public function setRecordingAudioFileFormat($recordingAudioFileFormat)
     {
         $this->recordingAudioFileFormat = $recordingAudioFileFormat;
+        return $this;
+    }
+
+    /**
+     * Getter for allowVoicePortalAccessFromVMDepositMenu
+     *
+     * @ElementName allowVoicePortalAccessFromVMDepositMenu
+     * @return bool|null
+     */
+    public function getAllowVoicePortalAccessFromVMDepositMenu()
+    {
+        return $this->allowVoicePortalAccessFromVMDepositMenu;
+    }
+
+    /**
+     * Setter for allowVoicePortalAccessFromVMDepositMenu
+     *
+     * @ElementName allowVoicePortalAccessFromVMDepositMenu
+     * @param bool|null $allowVoicePortalAccessFromVMDepositMenu
+     * @return $this
+     */
+    public function setAllowVoicePortalAccessFromVMDepositMenu($allowVoicePortalAccessFromVMDepositMenu)
+    {
+        $this->allowVoicePortalAccessFromVMDepositMenu = $allowVoicePortalAccessFromVMDepositMenu;
+        return $this;
+    }
+
+    /**
+     * Getter for storageSelection
+     *
+     * @ElementName storageSelection
+     * @return string|null
+     */
+    public function getStorageSelection()
+    {
+        return $this->storageSelection;
+    }
+
+    /**
+     * Setter for storageSelection
+     *
+     * @ElementName storageSelection
+     * @param string|null $storageSelection
+     * @return $this
+     */
+    public function setStorageSelection($storageSelection)
+    {
+        $this->storageSelection = $storageSelection;
+        return $this;
+    }
+
+    /**
+     * Getter for vmBucketName
+     *
+     * @ElementName vmBucketName
+     * @return string|null
+     */
+    public function getVmBucketName()
+    {
+        return $this->vmBucketName;
+    }
+
+    /**
+     * Setter for vmBucketName
+     *
+     * @ElementName vmBucketName
+     * @param string|null $vmBucketName
+     * @return $this
+     */
+    public function setVmBucketName($vmBucketName)
+    {
+        $this->vmBucketName = $vmBucketName;
         return $this;
     }
 

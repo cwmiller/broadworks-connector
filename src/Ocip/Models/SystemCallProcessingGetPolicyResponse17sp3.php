@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallProcessingGetPolicyRequest17sp3.
  *         The following elements are only used in AS data mode:
  *             enableDialableCallerID
+ *             
+ *         Replaced by: SystemCallProcessingGetPolicyResponse17sp4
  */
 class SystemCallProcessingGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

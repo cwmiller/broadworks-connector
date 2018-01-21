@@ -6,8 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAdminGetListResponse
  *
  * Response to GroupAdminGetListRequest.
- *         Contains a 5 column table with column headings "Administrator ID",
- *         "Last Name", "First Name", "Department", "Language".
+ *         Contains a 7 column table with column headings "Administrator ID",
+ *         "Last Name", "First Name", "Department", "Language", "Locale" and
+ * "Encoding".
+ *         
+ *         The following columns are only returned in AS data mode:
+ *           "Locale" and "Encoding"
  */
 class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

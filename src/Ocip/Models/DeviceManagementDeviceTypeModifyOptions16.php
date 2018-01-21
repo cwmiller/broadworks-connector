@@ -41,6 +41,12 @@ class DeviceManagementDeviceTypeModifyOptions16
     private $allowGroupCustomTagSet = null;
 
     /**
+     * @ElementName allowSpCustomTagSet
+     * @var bool|null
+     */
+    private $allowSpCustomTagSet = null;
+
+    /**
      * @ElementName sendEmailUponResetFailure
      * @var bool|null
      */
@@ -105,6 +111,12 @@ class DeviceManagementDeviceTypeModifyOptions16
      * @var bool|null
      */
     private $macInNonRequestURI = null;
+
+    /**
+     * @ElementName macInCert
+     * @var bool|null
+     */
+    private $macInCert = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
@@ -229,6 +241,30 @@ class DeviceManagementDeviceTypeModifyOptions16
     public function setAllowGroupCustomTagSet($allowGroupCustomTagSet)
     {
         $this->allowGroupCustomTagSet = $allowGroupCustomTagSet;
+        return $this;
+    }
+
+    /**
+     * Getter for allowSpCustomTagSet
+     *
+     * @ElementName allowSpCustomTagSet
+     * @return bool|null
+     */
+    public function getAllowSpCustomTagSet()
+    {
+        return $this->allowSpCustomTagSet;
+    }
+
+    /**
+     * Setter for allowSpCustomTagSet
+     *
+     * @ElementName allowSpCustomTagSet
+     * @param bool|null $allowSpCustomTagSet
+     * @return $this
+     */
+    public function setAllowSpCustomTagSet($allowSpCustomTagSet)
+    {
+        $this->allowSpCustomTagSet = $allowSpCustomTagSet;
         return $this;
     }
 
@@ -493,6 +529,30 @@ class DeviceManagementDeviceTypeModifyOptions16
     public function setMacInNonRequestURI($macInNonRequestURI)
     {
         $this->macInNonRequestURI = $macInNonRequestURI;
+        return $this;
+    }
+
+    /**
+     * Getter for macInCert
+     *
+     * @ElementName macInCert
+     * @return bool|null
+     */
+    public function getMacInCert()
+    {
+        return $this->macInCert;
+    }
+
+    /**
+     * Setter for macInCert
+     *
+     * @ElementName macInCert
+     * @param bool|null $macInCert
+     * @return $this
+     */
+    public function setMacInCert($macInCert)
+    {
+        $this->macInCert = $macInCert;
         return $this;
     }
 

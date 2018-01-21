@@ -9,10 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             The useUserCLIDSetting attribute controls the CLID settings
  *             (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName)
- *
  *             The useUserMediaSetting attribute controls the Media settings
  *             (medisPolicySelection, supportedMediaSetName)
- *
  *             The useUserCallLimitsSetting attribute controls the Call Limits
  * setting
  *             (useMaxSimultaneousCalls, maxSimultaneousCalls,

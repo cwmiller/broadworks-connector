@@ -26,7 +26,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The elements "userGroupId", "userId","userPrimaryDn" and
  * "userPrimaryExtension"
  *         are only returned when the enterprise or group level requests are used.
- *         The following elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           callAuthorizationCode
  *           callSecurityClassification
  */

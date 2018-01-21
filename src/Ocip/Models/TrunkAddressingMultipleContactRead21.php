@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingMultipleContactRead21
  *
  * Trunk group endpoint that can have multiple contacts.
- *         alternateTrunkIdentityDomain is only used in IMS mode.
- *         The following elements are only used in AS data mode and ignored in HSS
+ *         alternateTrunkIdentityDomain is only used in XS mode.
+ *         The following elements are only used in AS data mode and ignored in XS
  * data mode:
  *           alternateTrunkIdentityDomain
  */

@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderIntegratedIMPGetRequest21.
  *         The response contains the service provider Integrated IMP service
  * attributes.
+ *         If the service provider is within a reseller, useSystemServiceDomain
+ * means using reseller level service 
+ *         domain setting. And useSystemMessagingServer means using the reseller
+ * level messaging server setting.
  */
 class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

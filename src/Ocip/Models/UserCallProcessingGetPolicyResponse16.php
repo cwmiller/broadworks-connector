@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallProcessingGetPolicyResponse16
  *
  * Response to UserCallProcessingGetPolicyRequest16.
- * 	      The useUserCLIDSetting attribute controls the CLID settings 
- * 	      (clidPolicy, emergencyClidPolicy,
+ *         The useUserCLIDSetting attribute controls the CLID settings 
+ *         (clidPolicy, emergencyClidPolicy,
  * allowAlternateNumbersForRedirectingIdentity, useGroupName)
- * 	      
+ *         
  *           The useUserMediaSetting attribute controls the Media settings 
  *           (medisPolicySelection, supportedMediaSetName)
  *           

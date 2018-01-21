@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *
  *         The following elements are only used in AS data mode:
- *           type, use AutoAttendantType.BASIC in HSS mode.
+ *           type, use AutoAttendantType.BASIC in XS mode.
  *           holidayMenu.
  *         The following elements are only valid for Standard Auto
  *         Attendants:

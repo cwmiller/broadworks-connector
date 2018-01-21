@@ -108,6 +108,12 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
     private $voiceMessagingGreetingFile = null;
 
     /**
+     * @ElementName expressMode
+     * @var bool|null
+     */
+    private $expressMode = null;
+
+    /**
      * Getter for systemVoicePortalId
      *
      * @ElementName systemVoicePortalId
@@ -488,6 +494,30 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
     public function setVoiceMessagingGreetingFile($voiceMessagingGreetingFile)
     {
         $this->voiceMessagingGreetingFile = $voiceMessagingGreetingFile;
+        return $this;
+    }
+
+    /**
+     * Getter for expressMode
+     *
+     * @ElementName expressMode
+     * @return bool|null
+     */
+    public function getExpressMode()
+    {
+        return $this->expressMode;
+    }
+
+    /**
+     * Setter for expressMode
+     *
+     * @ElementName expressMode
+     * @param bool|null $expressMode
+     * @return $this
+     */
+    public function setExpressMode($expressMode)
+    {
+        $this->expressMode = $expressMode;
         return $this;
     }
 

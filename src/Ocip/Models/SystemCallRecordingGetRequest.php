@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Call Recording.
  *         The response is either a SystemCallRecordingGetResponse or an
  *         ErrorResponse.
+ *         
+ *         Replaced by: SystemCallRecordingGetRequest22
  */
 class SystemCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

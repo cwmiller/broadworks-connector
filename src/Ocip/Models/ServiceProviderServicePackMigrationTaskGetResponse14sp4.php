@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderServicePackMigrationTaskGetRequest14sp4.
  *         The groupTable column headings are: "Group Id", "Group Name", "User
  * Count".
+ *         
+ *         Replaced By: ServiceProviderServicePackMigrationTaskGetResponse21 in AS
+ * data mode
  */
 class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

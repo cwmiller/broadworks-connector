@@ -7,6 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a Music on Hold Instance to a department.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         Replaced by GroupMusicOnHoldAddInstanceRequest22.
  */
 class GroupMusicOnHoldAddInstanceRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

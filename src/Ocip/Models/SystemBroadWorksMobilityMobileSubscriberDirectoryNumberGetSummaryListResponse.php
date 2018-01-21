@@ -8,9 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to
  * SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest.
  *         The response contains a table with columns: "Mobile Number", "Mobile
- * Network", "Service Provider Id", "Is Enterprise", "Group Id", "User Id", "Last
- * Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number"
- * and "Extension".
+ * Network", "Service Provider Id", 
+ *         "Is Enterprise", "Group Id", "User Id", "Last Name", "First Name",
+ * "Hiragana Last Name", 
+ *         "Hiragana First Name", "Phone Number", "Extension" and "Reseller Id".
+ *         
+ *         The following columns are only returned in AS data mode:       
+ *              "Reseller Id"
  */
 class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

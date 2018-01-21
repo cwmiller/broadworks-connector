@@ -48,6 +48,12 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     private $reportDevice = null;
 
     /**
+     * @ElementName reportTable
+     * @var bool|null
+     */
+    private $reportTable = null;
+
+    /**
      * Getter for isActive
      *
      * @ElementName isActive
@@ -188,6 +194,30 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     public function setReportDevice($reportDevice)
     {
         $this->reportDevice = $reportDevice;
+        return $this;
+    }
+
+    /**
+     * Getter for reportTable
+     *
+     * @ElementName reportTable
+     * @return bool|null
+     */
+    public function getReportTable()
+    {
+        return $this->reportTable;
+    }
+
+    /**
+     * Setter for reportTable
+     *
+     * @ElementName reportTable
+     * @param bool|null $reportTable
+     * @return $this
+     */
+    public function setReportTable($reportTable)
+    {
+        $this->reportTable = $reportTable;
         return $this;
     }
 

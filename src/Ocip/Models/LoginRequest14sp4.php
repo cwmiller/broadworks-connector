@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginRequest14sp4 is 2nd stage of the 2 stage OCI login process.
  *         The signedPassword is not required for external authentication login
  * from a trusted host (ACL).
+ *         
+ *        Replaced by: LoginRequest22 in AS data mode.
  */
 class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

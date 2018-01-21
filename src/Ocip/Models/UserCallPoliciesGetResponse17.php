@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserCallPoliciesGetRequest17.
  *         
- *         Replaced by: UserCallPoliciesGetResponse19sp1
+ *         Replaced by: UserCallPoliciesGetResponse19sp1 in AS data mode
  */
 class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

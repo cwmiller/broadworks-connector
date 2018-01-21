@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the file repository information.
  *             The response is either SystemFileRepositoryDeviceGetResponse or
  * ErrorResponse.
+ *             
+ *             Replaced by: SystemFileRepositoryDeviceGetRequest16
  */
 class SystemFileRepositoryDeviceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

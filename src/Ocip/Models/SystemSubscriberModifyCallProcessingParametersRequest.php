@@ -7,6 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system call processing configuration for all subscribers.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *         The following elements are only used in AS data mode and ignored in the
+ * XS data mode:
+ *           userCallingLineIdSelection
+ *           isExtendedCallingLineIdActive
+ *           isRingTimeOutActive
+ *           ringTimeoutSeconds
+ *           allowEmergencyRemoteOfficeOriginations
+ *         
  *         Replaced By: SystemSubscriberModifyCallProcessingParametersRequest14sp7
  */
 class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

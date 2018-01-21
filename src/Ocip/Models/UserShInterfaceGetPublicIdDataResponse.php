@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Sh non-transparent data for the specified
  * Public User Identity.
  *         The data also includes a userId, userType, and endpointType.
+ *         
+ *         Replaced by: UserShInterfaceGetPublicIdDataResponse21sp1.
  */
 class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

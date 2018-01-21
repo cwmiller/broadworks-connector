@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The request fails when the supportOutdial is included in the request and
  * the system-level collaborate supportOutdial setting is disabled.
  *         The response is either SuccessResponse or ErrorResponse.
+ *         
+ *         Replaced by: GroupCollaborateBridgeModifyInstanceRequest20sp1
  */
 class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

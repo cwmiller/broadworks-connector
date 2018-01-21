@@ -6,12 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCallProcessingGetPolicyResponse18sp1
  *
  * Response to ServiceProviderCallProcessingGetPolicyRequest18sp1.
- *         The following elements are only used in AS data mode:
- *            useServiceProviderDCLIDSetting
- *            enableDialableCallerID
- *            allowConfigurableCLIDForRedirectingIdentity
- *             enterpriseCallsCLIDPolicy
- *             groupCallsCLIDPolicy
+ *         The following elements are only used in AS data mode :
+ *           useServiceProviderDCLIDSetting
+ *           enableDialableCallerID
+ *           allowConfigurableCLIDForRedirectingIdentity
+ *           enterpriseCallsCLIDPolicy, value "Use Location Code plus Extension" is
+ * returned in XS data mode.
+ *           groupCallsCLIDPolicy, value "Use Extension" is returned in XS data
+ * mode.
  *             
  *         Replaced by: ServiceProviderCallProcessingGetPolicyResponse19sp1
  */

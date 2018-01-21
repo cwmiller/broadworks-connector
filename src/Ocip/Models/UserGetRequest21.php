@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the user information.  The response is either 
  *         UserGetResponse21 or ErrorResponse.
+ *         
+ *         Replaced by UserGetRequest21sp1 in AS data mode
  */
 class UserGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

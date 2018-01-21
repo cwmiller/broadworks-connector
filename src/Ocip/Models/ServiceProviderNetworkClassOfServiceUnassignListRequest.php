@@ -6,8 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderNetworkClassOfServiceUnassignListRequest
  *
  * Unassign a list of Network Classes of Service from a service provider.
- *         The response is either a SuccessResponse or an
- *         ErrorResponse.
+ *         The response is either a SuccessResponse or an ErrorResponse.
+ *         
+ *         Replaced By : ServiceProviderNetworkClassOfServiceUnassignListRequest21
+ * in AS data mode
  */
 class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

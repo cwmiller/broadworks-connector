@@ -5,12 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAutoAttendantSubmenuModifyRequest
  *
- * Request to modify an Auto Attendant submenu
- *         instance.
- *         The response is either SuccessResponse or
- *         ErrorResponse.
- *         This request is only valid for Standard auto
- *         attendants.
+ * Request to modify an Auto Attendant submenu instance.
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         This request is only valid for Standard auto attendants.
+ *         
+ *         Replaced by: GroupAutoAttendantSubmenuModifyRequest20 in AS data mode
  */
 class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

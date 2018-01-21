@@ -8,9 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSIPDeviceTypeGetRequest18sp1.
  *         The following elements are only used in AS data mode:
  *           holdAnnouncementMethod 
- *         The following elements are only used in HSS data mode:
+ *         The following elements are only used in XS data mode:
  *           enable3G4GContinuity
- *
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold
  */

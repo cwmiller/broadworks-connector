@@ -8,8 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile Instant
  * Group Call subscriber type profile.
  *         The response is either a
- * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse or an
+ * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22 or an
  *         ErrorResponse.
+ *         
+ *         Replaced by:
+ * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

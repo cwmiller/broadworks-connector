@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Route Point instance.
  *         The response is either GroupRoutePointGetInstanceResponse19sp1 or
  * ErrorResponse.
+ *         Replace by GroupRoutePointGetInstanceRequest22.
  */
 class GroupRoutePointGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

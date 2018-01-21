@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * the enterprise administrator.
  *         The following elements are only used in AS data mode:
  *             dialableCallerIDAccess
+ *             
+ *         Replaced by: ServiceProviderAdminGetPolicyResponse20 in AS data mode
  */
 class ServiceProviderAdminGetPolicyResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

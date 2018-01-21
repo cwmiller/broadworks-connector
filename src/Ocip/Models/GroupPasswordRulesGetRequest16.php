@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the group's password rules setting that is applicable to
  *         users within the group.
  *         The response is either GroupPasswordRulesGetResponse16 or ErrorResponse.
+ *         
+ *         Replaced by: GroupPasswordRulesGetRequest22 in AS data mode.
  */
 class GroupPasswordRulesGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

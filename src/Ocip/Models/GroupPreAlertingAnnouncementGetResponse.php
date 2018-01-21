@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the group level pre-alerting service settings.
  *         The response is either a GroupPreAlertingAnnouncementGetResponse or an
  * ErrorResponse.
+ *         
+ *         Replaced by: GroupPreAlertingAnnouncementGetResponse20 in AS data mode
  */
 class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,8 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDnGetSummaryListResponse
  *
  * Response to SystemDnGetSummaryListRequest.
- *         The column headings are "Phone Numbers, "Service Provider Id" and "Is
- * Enterprise"
+ *         The column headings are "Phone Numbers, "Service Provider Id", "Is
+ * Enterprise" and "Reseller Id".
+ *         
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class SystemDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

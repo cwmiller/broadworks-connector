@@ -7,17 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSIPDeviceTypeFileGetRequest20.
  *           Take note:
- *
  *           1. accessUrl may have undefined content.
  *           When it is the case, undefined content is put between [].
  *           It may also be set to "Error Access FQDN Not Provisioned" when the
  * access FQDN is not set,
  *           or "Error Access Context Name Not Provisioned" when the context name
  * is not set.
- *
  *           2. repositoryUrl may be set to
  * "DEVICE_CONFIGURATION_FILE_REPOSITORY_MISSING", if there is no file repository
  * defined.
+ *           
+ *           Replaced by: SystemSIPDeviceTypeFileGetResponse20Sp1
  */
 class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,9 +10,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Also get the file name and path on the File Repository. 
  *         The response is either DeviceManagementFileAuthLocationGetResponse21 or
  * ErrorResponse.
- *         The following elements are only used in AS data mode and will fail in
- * HSS data mode:
+ *         The following elements are only used in AS data mode and will fail in XS
+ * data mode:
  *           deviceToken
+ * 		  
+ * 		Replaced by: DeviceManagementFileAuthLocationGetRequest21sp1.
  */
 class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

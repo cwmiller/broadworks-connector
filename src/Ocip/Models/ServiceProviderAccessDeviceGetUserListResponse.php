@@ -18,6 +18,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The Endpoint Type column contains one of the enumerated EndpointType
  * values.
  *         The Private Identity column is empty is AS mode.
+ *         
+ *         Replaced by: ServiceProviderAccessDeviceGetUserListResponse21sp1 in AS
+ * data mode.
  */
 class ServiceProviderAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

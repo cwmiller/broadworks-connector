@@ -6,10 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemGetRegistrationContactListResponse
  *
  * Response to SystemGetRegistrationContactListRequest. The table columns are:
- * "Service Provider Id", "Group Id", "User Id", "Line/Port", "Endpoint Type",
- * "Order", "URI", "Expiration", "Contact", "Device Level", "Device Name", "Public
- * Net Address", "Public Port", "Private Net Address", "Private Port", "User
- * Agent".
+ * "Service Provider Id", "Group Id", "User Id", "Line/Port", 
+ *         "Endpoint Type", "Order", "URI", "Expiration", "Contact", "Device
+ * Level", "Device Name", "Public Net Address", 
+ *         "Public Port", "Private Net Address", "Private Port", "User Agent",
+ * "Reseller Id".
+ *         The following columns are only returned in AS data mode:       
+ *           "Reseller Id"
  */
 class SystemGetRegistrationContactListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

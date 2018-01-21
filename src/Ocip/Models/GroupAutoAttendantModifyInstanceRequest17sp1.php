@@ -6,18 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAutoAttendantModifyInstanceRequest17sp1
  *
  * Request to modify an Auto Attendant instance.
- *         Only Group and Enterprise level schedules are
- *         accepted.
- *         The
- *         response is either SuccessResponse or ErrorResponse.
- *
- *         The
- *         following elements are only used in AS data
- *         mode:
- *         holidayMenu.
- *         The following elementsare only valid for Standard Auto
- *         Attendants:
- *         holidayMenu
+ *         Only Group and Enterprise level schedules are accepted.
+ *         The response is either SuccessResponse or ErrorResponse.
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
+ *           holidayMenu.
+ *         The following elementsare only valid for Standard Auto Attendants:
+ *           holidayMenu
+ *         
+ *         Replaced by: GroupAutoAttendantModifyInstanceRequest20 in AS data mode
  */
 class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

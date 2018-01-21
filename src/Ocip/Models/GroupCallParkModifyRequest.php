@@ -7,12 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modifies the Group's Call Park settings.
  *         The response is either SuccessResponse or ErrorResponse.
- *         
- *         The following elements are only used in AS data mode:
- *          recallAlternateUserId
- *          recallRingPattern
- *          recallTo
- *          alternateUserRecallTimerSeconds
  */
 class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

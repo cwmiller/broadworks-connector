@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallAcceptanceModifyCriteriaRequest
  *
  * Modify a criteria for the user's selective call acceptance service.
+ *         The following elements are only used in AS data mode:
+ *           callToNumberList
+ *           
  *         For the callToNumbers in the callToNumberList, the extension element is
  * not used and the number element is only used when the type is BroadWorks
  * Mobility.

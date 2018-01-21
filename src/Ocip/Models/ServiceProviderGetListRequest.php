@@ -9,8 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It is possible to search by various criteria to restrict the number of
  * rows returned.
  *         Multiple search criteria are logically ANDed together.
+ *         If reseller administrator sends the request, searchCriteriaResellerId is
+ * ignored. Service providers/enterprise 
+ *         within the administrator's reseller meeting the search criteria are
+ * returned.        
  *         The response is either a ServiceProviderGetListResponse or an
  * ErrorResponse.
+ *         
+ *         The following data elements are only used in AS data mode:
+ *           searchCriteriaResellerId
  */
 class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -40,6 +47,14 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     private $searchCriteriaServiceProviderName = array(
+        
+    );
+
+    /**
+     * @ElementName searchCriteriaResellerId
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
+     */
+    private $searchCriteriaResellerId = array(
         
     );
 
@@ -162,6 +177,43 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     public function addSearchCriteriaServiceProviderName($searchCriteriaServiceProviderName)
     {
         $this->searchCriteriaServiceProviderName []= $searchCriteriaServiceProviderName;
+        return $this;
+    }
+
+    /**
+     * Getter for searchCriteriaResellerId
+     *
+     * @ElementName searchCriteriaResellerId
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
+     */
+    public function getSearchCriteriaResellerId()
+    {
+        return $this->searchCriteriaResellerId;
+    }
+
+    /**
+     * Setter for searchCriteriaResellerId
+     *
+     * @ElementName searchCriteriaResellerId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
+     * @return $this
+     */
+    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    {
+        $this->searchCriteriaResellerId = $searchCriteriaResellerId;
+        return $this;
+    }
+
+    /**
+     * Adder for searchCriteriaResellerId
+     *
+     * @ElementName searchCriteriaResellerId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId $searchCriteriaResellerId
+     * @return $this
+     */
+    public function addSearchCriteriaResellerId($searchCriteriaResellerId)
+    {
+        $this->searchCriteriaResellerId []= $searchCriteriaResellerId;
         return $this;
     }
 

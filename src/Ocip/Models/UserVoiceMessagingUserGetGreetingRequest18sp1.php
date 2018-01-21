@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserVoiceMessagingUserGetGreetingResponse18sp1
  * or an ErrorResponse.
  *         
- *         Replaced by UserVoiceMessagingUserGetGreetingRequest20
+ *         Replaced by: UserVoiceMessagingUserGetGreetingRequest20 in AS data mode
  */
 class UserVoiceMessagingUserGetGreetingRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

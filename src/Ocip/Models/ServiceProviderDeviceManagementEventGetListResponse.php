@@ -40,6 +40,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Each row represents an event sorted by priority of processing.  The 
  *         first row in the table is an event that has an associated expanded 
  *         event currently being processed or next in line to be processed.
+ *         Deprecated by ServiceProviderDeviceManagementEventGetListResponse22 in
+ * AS data mode.
  */
 class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

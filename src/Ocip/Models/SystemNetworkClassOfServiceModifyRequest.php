@@ -6,6 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNetworkClassOfServiceModifyRequest
  *
  * Modify an existing Network Class of Service.
+ *         The following elements are only used in AS data mode:
+ *           callProcessingPolicyProfileName
+ *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  */
 class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

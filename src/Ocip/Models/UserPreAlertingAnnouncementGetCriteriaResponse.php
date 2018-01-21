@@ -6,8 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPreAlertingAnnouncementGetCriteriaResponse
  *
  * Response to the UserPreAlertingAnnouncementGetCriteriaRequest.
- *
- *         Replaced by: UserPreAlertingAnnouncementGetCriteriaResponse21
+ *         Replaced by: UserPreAlertingAnnouncementGetCriteriaResponse21 in AS data
+ * mode
  */
 class UserPreAlertingAnnouncementGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

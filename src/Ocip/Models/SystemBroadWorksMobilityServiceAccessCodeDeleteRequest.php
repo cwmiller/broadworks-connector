@@ -7,7 +7,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete a system service access code.
  *         The response is either SuccessResponse or ErrorResponse.
- *
  *         Replaced by SystemBroadWorksMobilityServiceAccessCodeDeleteRequest21.
  */
 class SystemBroadWorksMobilityServiceAccessCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

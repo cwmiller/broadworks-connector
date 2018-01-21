@@ -10,7 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * System, on a per-group basis.
  *         The column headings are: "File Format", "Is Authenticated", "Access
  * URL", "Repository URL", "Template URL".
- *         Replaced by: GroupDeviceTypeFileGetListResponset21.
+ *         
+ *         Replaced by: GroupDeviceTypeFileGetListResponse21
  */
 class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,12 +21,6 @@ class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\O
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupDeviceTypeFilesTable = null;
-
-    /**
-     * @ElementName groupHasFilesWithCustomizableTags
-     * @var bool|null
-     */
-    private $groupHasFilesWithCustomizableTags = null;
 
     /**
      * Getter for groupDeviceTypeFilesTable
@@ -48,30 +43,6 @@ class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\O
     public function setGroupDeviceTypeFilesTable($groupDeviceTypeFilesTable)
     {
         $this->groupDeviceTypeFilesTable = $groupDeviceTypeFilesTable;
-        return $this;
-    }
-
-    /**
-     * Getter for groupHasFilesWithCustomizableTags
-     *
-     * @ElementName groupHasFilesWithCustomizableTags
-     * @return bool|null
-     */
-    public function getGroupHasFilesWithCustomizableTags()
-    {
-        return $this->groupHasFilesWithCustomizableTags;
-    }
-
-    /**
-     * Setter for groupHasFilesWithCustomizableTags
-     *
-     * @ElementName groupHasFilesWithCustomizableTags
-     * @param bool|null $groupHasFilesWithCustomizableTags
-     * @return $this
-     */
-    public function setGroupHasFilesWithCustomizableTags($groupHasFilesWithCustomizableTags)
-    {
-        $this->groupHasFilesWithCustomizableTags = $groupHasFilesWithCustomizableTags;
         return $this;
     }
 

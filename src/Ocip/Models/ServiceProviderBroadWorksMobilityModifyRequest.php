@@ -60,6 +60,12 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
     private $enableAnnouncementSuppression = null;
 
     /**
+     * @ElementName enableInternalCLIDDelivery
+     * @var bool|null
+     */
+    private $enableInternalCLIDDelivery = null;
+
+    /**
      * Getter for serviceProviderId
      *
      * @ElementName serviceProviderId
@@ -248,6 +254,30 @@ class ServiceProviderBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConn
     public function setEnableAnnouncementSuppression($enableAnnouncementSuppression)
     {
         $this->enableAnnouncementSuppression = $enableAnnouncementSuppression;
+        return $this;
+    }
+
+    /**
+     * Getter for enableInternalCLIDDelivery
+     *
+     * @ElementName enableInternalCLIDDelivery
+     * @return bool|null
+     */
+    public function getEnableInternalCLIDDelivery()
+    {
+        return $this->enableInternalCLIDDelivery;
+    }
+
+    /**
+     * Setter for enableInternalCLIDDelivery
+     *
+     * @ElementName enableInternalCLIDDelivery
+     * @param bool|null $enableInternalCLIDDelivery
+     * @return $this
+     */
+    public function setEnableInternalCLIDDelivery($enableInternalCLIDDelivery)
+    {
+        $this->enableInternalCLIDDelivery = $enableInternalCLIDDelivery;
         return $this;
     }
 

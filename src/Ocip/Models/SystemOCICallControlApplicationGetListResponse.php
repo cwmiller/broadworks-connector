@@ -8,7 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemOCICallControlApplicationGetListRequest. The table columns
  * are:
  *         "Application Id", "Enabled System Wide", "Description" "Notification
- * Timeout Seconds" and "Max Event Channels Per Set".
+ * Timeout Seconds", "Max Event Channels Per Set"
+ *         and "Channel Set Grace Period Seconds".
  */
 class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

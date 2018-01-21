@@ -6,7 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AutoAttendantKeyConfigurationReadEntry
  *
  * The read configuration entry of a key for Auto Attendant.
- *         The following data elements are only used in AS data mode:
+ *         The following elements are only used in AS data mode and not returned in
+ * XS data mode:
  *           audioFileDescription
  *           audioMediaType
  *           videoFileDescription

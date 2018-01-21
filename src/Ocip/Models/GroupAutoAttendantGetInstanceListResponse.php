@@ -13,8 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * false.
  *         The column values for "Type" can either be Basic or Standard.
  *
- *         In HSS Mode the value for the "Type" column will always be populated
- * with Basic.
+ *         In XS Mode the value for the "Type" column will always be populated with
+ * Basic.
  */
 class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

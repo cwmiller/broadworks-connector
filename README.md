@@ -2,7 +2,7 @@
 
 PHP library for connecting to BroadWorks APIs.
 
-**Currently a Work in Progress** and only supports OCI-P over SOAP.
+**Currently a Work in Progress** and only supports OCI-P.
 
 ## Installation
 Using Composer:
@@ -23,8 +23,11 @@ use CWM\BroadWorksConnector\OcipClient;
 
 require __DIR__ . '/vendor/autoload.php';
 
-// Initialize by passing the OCI-P API's WSDL along with your BroadWorks portal username and password.
+// Initialize by passing the OCI-P API's WSDL (if using SOAP) along with your BroadWorks portal username and password.
 $ocip = new OcipClient('https://your-service-provider-portal.com/webservice/services/ProvisioningService?wsdl', 'portal-username', 'portal-password');
+
+// .. or if connecting via TCP:
+//$ocip = new OcipClient('tcp://your-service-provider-portal.com:2208', 'portal-username', 'portal-password');
 
 // Execute a single request to get all users in a group.
 $request1 = (new UserGetListInGroupRequest())
@@ -60,7 +63,6 @@ foreach ($responses as $response) {
 ```
 
 ## TODO
-* OCI-P over TCP
 * XSI
 * Tests
 * Actually test the thing.. 

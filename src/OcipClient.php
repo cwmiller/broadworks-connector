@@ -2,6 +2,7 @@
 
 namespace CWM\BroadWorksConnector;
 
+use CWM\BroadWorksConnector\Ocip\ITransport;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationRequest;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationResponse;
 use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
@@ -12,10 +13,11 @@ use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\OcipBadResponseException;
 use CWM\BroadWorksConnector\Ocip\OcipLoginException;
+use CWM\BroadWorksConnector\Ocip\SoapTransport;
+use CWM\BroadWorksConnector\Ocip\TcpTransport;
 use DOMDocument;
 use DOMElement;
 use ReflectionClass;
-use SoapClient;
 
 /**
  * Client for BroadWorks OCI-P API
@@ -33,23 +35,41 @@ class OcipClient
     /** @var string */
     private $password;
 
-    /** @var SoapClient */
-    private $soap;
+    /** @var ITransport */
+    private $transport;
 
     /** @var bool */
     private $loggedIn = false;
 
     /**
-     * @param string $wsdlUrl
+     * @param string $url
      * @param string $username
      * @param string $password
+     * @throws \InvalidArgumentException
      */
-    public function __construct($wsdlUrl, $username, $password)
+    public function __construct($url, $username, $password)
     {
         $this->username = $username;
         $this->password = $password;
         $this->sessionId = hash('sha256', mt_rand());
-        $this->soap = new SoapClient($wsdlUrl);
+
+        $parsedUrl = parse_url($url);
+
+        if ($parsedUrl === false) {
+            throw new \InvalidArgumentException('Unable to parse URL.');
+        }
+
+        switch ($parsedUrl['scheme']) {
+            case 'http':
+            case 'https':
+                $this->transport = new SoapTransport($url);
+                break;
+            case 'tcp':
+                $this->transport = new TcpTransport($parsedUrl['host'], isset($parsedUrl['port']) ? $parsedUrl['port'] : 2208);
+                break;
+            default:
+                throw new \InvalidArgumentException('Unsupported protocol ' . $parsedUrl['scheme']);
+        }
     }
 
     /**
@@ -86,6 +106,14 @@ class OcipClient
     public function isLoggedIn()
     {
         return $this->loggedIn;
+    }
+
+    /**
+     * @return ITransport
+     */
+    public function getTransport()
+    {
+        return $this->transport;
     }
 
     public function login()
@@ -125,14 +153,10 @@ class OcipClient
     {
         $xml = $this->buildCommandXml($commands);
 
-        $response = $this->soap->processOCIMessage(['in0' => $xml->saveXML()]);
-
-        if (!isset($response->processOCIMessageReturn)) {
-            throw new OcipBadResponseException('No processOCIMessageReturn in response.');
-        }
+        $response = $this->transport->send($xml->saveXML());
 
         $document = new DOMDocument();
-        @$document->loadXML($response->processOCIMessageReturn);
+        @$document->loadXML($response);
 
         $broadsoftDocumentElement = $document->firstChild;
 

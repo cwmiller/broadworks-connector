@@ -90,7 +90,6 @@ class XmlUtils
                         }
 
                         foreach ($values as $value) {
-                            //$child = new DOMElement($propertyName);
                             $child = $document->createElement($propertyName);
 
                             if (is_object($value)) {

@@ -1,6 +1,6 @@
 {
     "name": "cwm/broadworks-connector",
-    "description": "Library for connecting to BroadWorks APIs",
+    "description": "Library for connecting to BroadWorks OCI-P API",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,6 +21,6 @@
         "ext-dom": "*"
     },
     "require-dev": {
-        "cwm/broadworks-xsd-converter": "dev-master"
+        "cwm/broadworks-xsd-converter": "1.0"
     }
 }

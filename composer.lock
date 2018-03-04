@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "379d2e05b669d181710d64e378514a16",
+    "content-hash": "1f34e9950ed9516107f66a76a7794a29",
     "packages": [],
     "packages-dev": [
         {
             "name": "cwm/broadworks-xsd-converter",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cwmiller/broadworks-xsd-converter.git",
-                "reference": "ce71420994c111633e5de0d945a1738e15cb89ff"
+                "reference": "2c399c92f1b6b5281ccaeb776a5d97f37f7e2bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/ce71420994c111633e5de0d945a1738e15cb89ff",
-                "reference": "ce71420994c111633e5de0d945a1738e15cb89ff",
+                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/2c399c92f1b6b5281ccaeb776a5d97f37f7e2bf5",
+                "reference": "2c399c92f1b6b5281ccaeb776a5d97f37f7e2bf5",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "Converts XSD files for BroadWorks APIs into PHP classes.",
-            "time": "2018-01-10T02:42:05+00:00"
+            "time": "2018-03-04T17:40:54+00:00"
         },
         {
             "name": "zendframework/zend-code",
@@ -155,15 +155,14 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cwm/broadworks-xsd-converter": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.4.0",
         "ext-soap": "*",
-        "ext-xml": "*"
+        "ext-xml": "*",
+        "ext-dom": "*"
     },
     "platform-dev": []
 }

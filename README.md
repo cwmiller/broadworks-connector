@@ -1,8 +1,6 @@
 # BroadWorks Connector
 
-PHP library for connecting to BroadWorks APIs.
-
-**Currently a Work in Progress** and only supports OCI-P.
+PHP library for connecting to BroadWorks OCI-P API
 
 ## Installation
 Using Composer:
@@ -11,9 +9,7 @@ Using Composer:
 composer require cwm/broadworks-connector
 ```
 
-Due to this being a WIP, you'll need to set your project's `minimum-stability` to `dev`. Also consider setting `prefer-stable` to `true` so not all your requirements are developmental versions. 
-
-## OCI-P Example
+## Usage Example
 
 ```php
 <?php
@@ -61,8 +57,3 @@ foreach ($responses as $response) {
     } 
 }
 ```
-
-## TODO
-* XSI
-* Tests
-* Actually test the thing.. 

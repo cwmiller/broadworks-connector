@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemOfficeZoneGetRequest.
  *         The response contains the Office Zone information.
+ *
+ * @see SystemOfficeZoneGetRequest
  */
 class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Last Name", "First Name", "Phone Number", "Email Address",
  *         "Hiragana Last Name", and "Hiragana First Name", "Extension",
  * "Department".
+ *
+ * @see SystemPreferredCarrierGetUserListRequest
  */
 class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

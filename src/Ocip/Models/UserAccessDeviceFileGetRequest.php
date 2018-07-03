@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get a user modifiable file.
  *         The response is either UserAccessDeviceFileGetResponse or ErrorResponse.
+ *
+ * @see UserAccessDeviceFileGetResponse
+ * @see ErrorResponse
  */
 class UserAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

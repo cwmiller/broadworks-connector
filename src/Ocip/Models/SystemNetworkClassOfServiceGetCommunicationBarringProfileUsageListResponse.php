@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Network Classes of Service that
  *         contain the specific Communication Barring Profile. The column headings
  *         are "Name" and "Description"
+ *
+ * @see SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest
  */
 class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

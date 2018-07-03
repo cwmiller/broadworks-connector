@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * information.
  *         The response is either a
  * SystemNumberPortabilityQueryDigitPatternGetListResponse or an ErrorResponse.
+ *
+ * @see SystemNumberPortabilityQueryDigitPatternGetListResponse
+ * @see ErrorResponse
  */
 class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

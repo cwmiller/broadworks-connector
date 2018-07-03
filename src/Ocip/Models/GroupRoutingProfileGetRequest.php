@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the routing profile for the group.
  *         The response is either a GroupRoutingProfileGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupRoutingProfileGetResponse
+ * @see ErrorResponse
  */
 class GroupRoutingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

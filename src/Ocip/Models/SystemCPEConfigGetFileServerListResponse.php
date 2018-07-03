@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Device Type", "FTP Host Net Address", "FTP User Id", "Directory" and
  * "Passive FTP".
  *         Replaced By: SystemCPEConfigGetFileServerListResponse14sp6
+ *
+ * @see SystemCPEConfigGetFileServerListRequest
+ * @see SystemCPEConfigGetFileServerListResponse14sp6
  */
 class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

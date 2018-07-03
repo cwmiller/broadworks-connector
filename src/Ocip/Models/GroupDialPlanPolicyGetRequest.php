@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupDialPlanPolicyGetRequest17
+ *
+ * @see GroupDialPlanPolicyGetResponse
+ * @see ErrorResponse
+ * @see GroupDialPlanPolicyGetRequest17
  */
 class GroupDialPlanPolicyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

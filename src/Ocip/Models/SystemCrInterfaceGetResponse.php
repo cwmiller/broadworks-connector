@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCrInterfaceGetResponse
  *
  * Response to the SystemCrInterfaceGetRequest.
+ *
+ * @see SystemCrInterfaceGetRequest
  */
 class SystemCrInterfaceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

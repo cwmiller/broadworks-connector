@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a new group file repository user.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

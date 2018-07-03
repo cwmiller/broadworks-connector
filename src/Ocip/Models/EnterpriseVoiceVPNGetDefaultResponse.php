@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNGetDefaultResponse
  *
  * Response to EnterpriseVoiceVPNGetDefaultResponse.
+ *
+ * @see EnterpriseVoiceVPNGetDefaultResponse
  */
 class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

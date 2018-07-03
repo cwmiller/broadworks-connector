@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallRecordingGetRequest.
  *          The response contains the group's Call Recording platform information.
+ *
+ * @see GroupCallRecordingGetRequest
  */
 class GroupCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

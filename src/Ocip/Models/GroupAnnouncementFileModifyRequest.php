@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify an existing announcement in the group repository
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

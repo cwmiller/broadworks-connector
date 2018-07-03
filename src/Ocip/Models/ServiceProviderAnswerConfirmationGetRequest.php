@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a ServiceProviderAnswerConfirmationGetResponse or
  * an ErrorResponse.
  *         Replaced By: ServiceProviderAnswerConfirmationGetRequest16
+ *
+ * @see ServiceProviderAnswerConfirmationGetResponse
+ * @see ErrorResponse
+ * @see ServiceProviderAnswerConfirmationGetRequest16
  */
 class ServiceProviderAnswerConfirmationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

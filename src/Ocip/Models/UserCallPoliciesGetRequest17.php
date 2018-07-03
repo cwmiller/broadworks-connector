@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         or an ErrorResponse.
  *         
  *         Replaced by: UserCallPoliciesGetRequest19sp1 in AS data mode
+ *
+ * @see UserCallPoliciesGetResponse17
+ * @see ErrorResponse
+ * @see UserCallPoliciesGetRequest19sp1
  */
 class UserCallPoliciesGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

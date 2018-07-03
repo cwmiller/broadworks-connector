@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserLegacyAutomaticCallbackGetResponse
  *
  * Response to UserLegacyAutomaticCallbackGetRequest.
+ *
+ * @see UserLegacyAutomaticCallbackGetRequest
  */
 class UserLegacyAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

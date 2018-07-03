@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCommunicationBarringAuthorizationCodeGetResponse
  *
  * Response to GroupCommunicationBarringAuthorizationCodeGetRequest.
+ *
+ * @see GroupCommunicationBarringAuthorizationCodeGetRequest
  */
 class GroupCommunicationBarringAuthorizationCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

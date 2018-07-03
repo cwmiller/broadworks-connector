@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a home zone from the BroadWorks Mobile Manager.
  *         The response is either GroupBroadWorksMobileManagerGetHomeZoneResponse
  * or ErrorResponse.
+ *
+ * @see GroupBroadWorksMobileManagerGetHomeZoneResponse
+ * @see ErrorResponse
  */
 class GroupBroadWorksMobileManagerGetHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

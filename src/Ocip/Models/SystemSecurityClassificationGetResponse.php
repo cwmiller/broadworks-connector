@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSecurityClassificationGetRequest.
  *         Contains a table with column headings:
  *         "Name", "Priority".
+ *
+ * @see SystemSecurityClassificationGetRequest
  */
 class SystemSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

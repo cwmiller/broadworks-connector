@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone
  * Number", "Group Id",
  *         "Extension", "Department", "Email Address".
+ *
+ * @see GroupCallCenterGetUnlicensedAgentListRequest
  */
 class GroupCallCenterGetUnlicensedAgentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of agent who selected the DNIS as the outgoing call.
  *         The response is either GroupCallCenterGetDNISAgentListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallCenterGetDNISAgentListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

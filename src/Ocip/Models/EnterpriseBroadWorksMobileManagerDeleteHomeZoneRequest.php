@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete a home zone from the BroadWorks Mobile Manager.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class EnterpriseBroadWorksMobileManagerDeleteHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

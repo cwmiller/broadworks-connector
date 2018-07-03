@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemInterceptUserGetResponse
  *
  * Response to the SystemInterceptUserGetRequest.
+ *
+ * @see SystemInterceptUserGetRequest
  */
 class SystemInterceptUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

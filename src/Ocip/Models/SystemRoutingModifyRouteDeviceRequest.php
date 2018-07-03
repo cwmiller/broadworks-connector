@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a routing device.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemRoutingModifyRouteDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with network progression.
  *         The response is either a SystemNetworkProgressionGetResponse or an
  *         ErrorResponse.
+ *
+ * @see SystemNetworkProgressionGetResponse
+ * @see ErrorResponse
  */
 class SystemNetworkProgressionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request data for all country codes.
  *         The response is either a SystemCountryCodeGetListResponse or an
  *         ErrorResponse.
+ *
+ * @see SystemCountryCodeGetListResponse
+ * @see ErrorResponse
  */
 class SystemCountryCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

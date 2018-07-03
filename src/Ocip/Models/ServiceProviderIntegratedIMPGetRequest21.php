@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Integrated IMP service attributes for the service provider.
  *         The response is either ServiceProviderIntegratedIMPGetResponse21 or
  * ErrorResponse.
+ *
+ * @see ServiceProviderIntegratedIMPGetResponse21
+ * @see ErrorResponse
  */
 class ServiceProviderIntegratedIMPGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

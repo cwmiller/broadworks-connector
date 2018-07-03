@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to delete a sip device type file.
  *             The response is either SuccessResponse or ErrorResponse.
  *             Replaced By: SystemSIPDeviceTypeFileDeleteRequest14sp8
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeFileDeleteRequest14sp8
  */
 class SystemSIPDeviceTypeFileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

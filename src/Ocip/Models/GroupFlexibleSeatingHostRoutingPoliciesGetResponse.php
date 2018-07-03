@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingHostRoutingPoliciesGetResponse
  *
  * Response to the GroupFlexibleSeatingHostRoutingPoliciesGetRequest.
+ *
+ * @see GroupFlexibleSeatingHostRoutingPoliciesGetRequest
  */
 class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

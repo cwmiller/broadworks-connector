@@ -17,6 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If the service is Call Forwarding Selective, the default forwarding
  * address is returned.
  *         "Phone Number" is presented in the E164 format.
+ *
+ * @see GroupUserCallForwardingSettingsGetListRequest
  */
 class GroupUserCallForwardingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

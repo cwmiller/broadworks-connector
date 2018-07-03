@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Call Forwarding Always.
  *         The response is either a UserCallForwardingAlwaysGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCallForwardingAlwaysGetResponse
+ * @see ErrorResponse
  */
 class UserCallForwardingAlwaysGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

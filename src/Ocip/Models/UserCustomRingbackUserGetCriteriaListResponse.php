@@ -29,6 +29,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * the extension is available. i.e. Primary may have number, but no extension.
  *           - For Mobility Calls To Type, this is always blank.
  *           - When no extension is available a blank space is provided instead.
+ *
+ * @see UserCustomRingbackUserGetCriteriaListRequest
  */
 class UserCustomRingbackUserGetCriteriaListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

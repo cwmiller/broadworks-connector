@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of device type languages mapped to equivalent
  * BroadWorks languages.
  *         The column headings are: "BroadWorks Language", "Device Language".
+ *
+ * @see SystemSIPDeviceTypeLanguageMappingGetListRequest
  */
 class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

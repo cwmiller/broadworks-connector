@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the Integrated IMP service attributes for the group.
  *         The response is either GroupIntegratedIMPGetResponse or ErrorResponse.
+ *
+ * @see GroupIntegratedIMPGetResponse
+ * @see ErrorResponse
  */
 class GroupIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

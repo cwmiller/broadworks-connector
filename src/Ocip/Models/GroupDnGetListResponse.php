@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupDnGetListRequest.
  *         The response contains the list of DNs assigned to the group.
+ *
+ * @see GroupDnGetListRequest
  */
 class GroupDnGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

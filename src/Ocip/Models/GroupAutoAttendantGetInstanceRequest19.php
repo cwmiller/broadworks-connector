@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupAutoAttendantGetInstanceRequest19sp1 in AS data mode
+ *
+ * @see GroupAutoAttendantGetInstanceResponse19
+ * @see ErrorResponse
+ * @see GroupAutoAttendantGetInstanceRequest19sp1
  */
 class GroupAutoAttendantGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemEnhancedCallLogsSchemaInstanceGetListRequest.
  *       Contains a table with column headings: "Instance Name", "Actual Users",
  * "Potential Users".
+ *
+ * @see SystemEnhancedCallLogsSchemaInstanceGetListRequest
  */
 class SystemEnhancedCallLogsSchemaInstanceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

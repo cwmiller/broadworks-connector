@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * group.
  *         It also indicates the maximum file size for individual audio and video
  * files.
+ *
+ * @see GroupAnnouncementFileGetSettingsRequest
  */
 class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

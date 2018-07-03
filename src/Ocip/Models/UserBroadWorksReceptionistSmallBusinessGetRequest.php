@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Receptionist Small Business parameters.
  *         The response is either a
  * UserBroadWorksReceptionistSmallBusinessGetResponse or an ErrorResponse.
+ *
+ * @see UserBroadWorksReceptionistSmallBusinessGetResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksReceptionistSmallBusinessGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

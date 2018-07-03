@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets a Call Park group.
  *         The response is either GroupCallParkGetInstanceResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallParkGetInstanceResponse
+ * @see ErrorResponse
  */
 class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

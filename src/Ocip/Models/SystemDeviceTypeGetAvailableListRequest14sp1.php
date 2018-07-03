@@ -15,6 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemDeviceTypeGetlAvailableListResponse14sp1 or
  * ErrorResponse.
  *         Replaced By: SystemDeviceTypeGetAvailableListRequest14sp3
+ *
+ * @see SystemSIPDeviceTypeGetListRequest
+ * @see SystemMGCPDeviceTypeGetListRequest
+ * @see SystemDeviceTypeGetlAvailableListResponse14sp1
+ * @see ErrorResponse
+ * @see SystemDeviceTypeGetAvailableListRequest14sp3
  */
 class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

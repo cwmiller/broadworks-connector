@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Administrator, user.
  *         The response is either SystemPasswordRulesGetResponse22 or
  * ErrorResponse.
+ *
+ * @see SystemPasswordRulesGetResponse22
+ * @see ErrorResponse
  */
 class SystemPasswordRulesGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

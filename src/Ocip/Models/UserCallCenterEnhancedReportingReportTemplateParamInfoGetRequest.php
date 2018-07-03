@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse
+ * @see ErrorResponse
  */
 class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

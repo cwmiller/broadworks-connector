@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify a holiday schedule in a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

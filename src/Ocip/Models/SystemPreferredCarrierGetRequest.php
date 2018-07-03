@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the attributes of carrier.
  *         The response is either a SystemPreferreredCarrierGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemPreferreredCarrierGetResponse
+ * @see ErrorResponse
  */
 class SystemPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

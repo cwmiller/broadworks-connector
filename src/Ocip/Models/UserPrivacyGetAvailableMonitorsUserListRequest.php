@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for phone status monitoring the user specified in the userId
  *         element.  The response is either
  *         UserPrivacyGetAvailableMonitorsUserListResponse or ErrorResponse.
+ *
+ * @see UserPrivacyGetAvailableMonitorsUserListResponse
+ * @see ErrorResponse
  */
 class UserPrivacyGetAvailableMonitorsUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

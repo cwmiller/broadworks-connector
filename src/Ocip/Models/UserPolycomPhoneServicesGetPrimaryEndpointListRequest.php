@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * user.
  *         The response is either a
  * UserPolycomPhoneServicesGetPrimaryEndpointListResponse or an ErrorResponse.
+ *
+ * @see UserPolycomPhoneServicesGetPrimaryEndpointListResponse
+ * @see ErrorResponse
  */
 class UserPolycomPhoneServicesGetPrimaryEndpointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

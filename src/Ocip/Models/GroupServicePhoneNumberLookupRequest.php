@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Lookup if the given number is defined in the specified service in the group.
  *         The response is GroupServicePhoneNumberLookupResponse.
+ *
+ * @see GroupServicePhoneNumberLookupResponse
  */
 class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

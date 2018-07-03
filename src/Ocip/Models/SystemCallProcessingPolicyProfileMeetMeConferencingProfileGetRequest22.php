@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22 or an
  *         ErrorResponse.
+ *
+ * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22
+ * @see ErrorResponse
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

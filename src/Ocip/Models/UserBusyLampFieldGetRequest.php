@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserBusyLampFieldGetResponse or an
  * ErrorResponse.
  *         Replaced by: UserBusyLampFieldGetRequest16sp2
+ *
+ * @see UserBusyLampFieldGetResponse
+ * @see ErrorResponse
+ * @see UserBusyLampFieldGetRequest16sp2
  */
 class UserBusyLampFieldGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

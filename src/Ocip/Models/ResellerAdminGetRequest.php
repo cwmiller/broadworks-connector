@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a reseller administrators profile.
  *         The response is either a ResellerAdminGetResponse or an ErrorResponse.
+ *
+ * @see ResellerAdminGetResponse
+ * @see ErrorResponse
  */
 class ResellerAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

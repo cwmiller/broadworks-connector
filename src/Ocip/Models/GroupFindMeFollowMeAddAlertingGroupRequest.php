@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add an alerting group to a Find-me/Follow-me instance.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

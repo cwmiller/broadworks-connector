@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * GroupCustomContactDirectoryGetAvailableUserListResponse or ErrorResponse.
  *         Replace by: GroupCustomContactDirectoryGetAvailableUserListRequest17
+ *
+ * @see GroupCustomContactDirectoryGetAvailableUserListResponse
+ * @see ErrorResponse
+ * @see GroupCustomContactDirectoryGetAvailableUserListRequest17
  */
 class GroupCustomContactDirectoryGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

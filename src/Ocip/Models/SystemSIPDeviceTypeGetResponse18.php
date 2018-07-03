@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enable3G4GContinuity
  *           
  *         Replaced by: SystemSIPDeviceTypeGetResponse19
+ *
+ * @see SystemSIPDeviceTypeGetRequest18
+ * @see SystemSIPDeviceTypeGetResponse19
  */
 class SystemSIPDeviceTypeGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

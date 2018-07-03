@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       
  *         Add a Trunk Group instance to a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see GroupTrunkGroupAddInstanceRequest17sp4
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

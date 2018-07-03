@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserPolycomPhoneServicesGetPrimaryEndpointListRequest.
  *         The column headings for the deviceUserTable are: "Device Level", "Device
  * Name", "Line/Port".
+ *
+ * @see UserPolycomPhoneServicesGetPrimaryEndpointListRequest
  */
 class UserPolycomPhoneServicesGetPrimaryEndpointListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

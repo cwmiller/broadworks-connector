@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutingProfileGetResponse
  *
  * Response to GroupRoutingProfileGetRequest.
+ *
+ * @see GroupRoutingProfileGetRequest
  */
 class GroupRoutingProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

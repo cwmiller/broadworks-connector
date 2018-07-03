@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the service provider's Malicious Call Trace settings.
  *         The response is either a ServiceProviderMaliciousCallTraceGetResponse 
  *         or an ErrorResponse.
+ *
+ * @see ServiceProviderMaliciousCallTraceGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

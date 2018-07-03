@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Trigger List information.
  *         The response is either a
  * ServiceProviderNumberPortabilityQueryGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderNumberPortabilityQueryGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

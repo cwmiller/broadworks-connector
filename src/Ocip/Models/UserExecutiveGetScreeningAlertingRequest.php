@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * executive assistant can run this command.
  *         The response is either UserExecutiveGetScreeningAlertingResponse or
  * ErrorResponse.
+ *
+ * @see UserExecutiveGetScreeningAlertingResponse
+ * @see ErrorResponse
  */
 class UserExecutiveGetScreeningAlertingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

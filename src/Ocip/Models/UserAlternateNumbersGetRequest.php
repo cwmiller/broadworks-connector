@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Alternate Numbers.
  *         The response is either a UserAlternateNumbersGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserAlternateNumbersGetResponse
+ * @see ErrorResponse
  */
 class UserAlternateNumbersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

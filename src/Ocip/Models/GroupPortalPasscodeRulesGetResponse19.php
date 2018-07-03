@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           numberOfAscendingDigits
  *           numberOfDescendingDigits
  *           numberOfPreviousPasscodes
+ *
+ * @see GroupPortalPasscodeRulesGetRequest19
  */
 class GroupPortalPasscodeRulesGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

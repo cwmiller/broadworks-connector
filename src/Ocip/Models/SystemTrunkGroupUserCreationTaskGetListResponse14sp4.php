@@ -16,6 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * strings defined in the
  *         OrganizationType OCI data type.  Please see OCISchemaDataTypes.xsd for
  * details on OrganizationType.
+ *
+ * @see SystemTrunkGroupUserCreationTaskGetListRequest14sp4
  */
 class SystemTrunkGroupUserCreationTaskGetListResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

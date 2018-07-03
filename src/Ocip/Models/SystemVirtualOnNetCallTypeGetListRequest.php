@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list Virtual On-Net Call Types in the system.
  *         The response is either a SystemVirtualOnNetCallTypeGetListResponse 
  *         or an ErrorResponse.
+ *
+ * @see SystemVirtualOnNetCallTypeGetListResponse
+ * @see ErrorResponse
  */
 class SystemVirtualOnNetCallTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

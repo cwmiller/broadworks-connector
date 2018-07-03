@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Daily, Recurring Weekly, Recurring Monthly, or Recurring Yearly.
  *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example:
  * 2010-10-01T09:30:00:000-0400.
+ *
+ * @see UserMeetMeConferencingGetConferenceListRequest
  */
 class UserMeetMeConferencingGetConferenceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

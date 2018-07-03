@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest.
  *         The column headings are "Number Prefix", "Service Provider Id", "Is
  * Enterprise", "User Id", "Enterprise Trunk", "Is Active", "Reseller Id".
+ *
+ * @see SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
  */
 class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

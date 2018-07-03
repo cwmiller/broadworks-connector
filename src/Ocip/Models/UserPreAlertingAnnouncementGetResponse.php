@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Blacklisted", and "Calls From".
  *         
  *         Replaced by: UserPreAlertingAnnouncementGetResponse20 in AS data mode
+ *
+ * @see UserPreAlertingAnnouncementGetRequest
+ * @see UserPreAlertingAnnouncementGetResponse20
  */
 class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

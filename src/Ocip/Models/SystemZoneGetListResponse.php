@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneGetListResponse
  *
  * Response to the SystemZoneGetListRequest.
+ *
+ * @see SystemZoneGetListRequest
  */
 class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

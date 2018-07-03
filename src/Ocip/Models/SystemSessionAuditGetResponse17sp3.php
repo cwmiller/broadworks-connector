@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSessionAuditGetResponse17sp3
  *
  * Response to SystemSessionAuditGetRequest17sp3.
+ *
+ * @see SystemSessionAuditGetRequest17sp3
  */
 class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the profile for a reseller.
  *         The response is either ResellerGetResponse or ErrorResponse.
+ *
+ * @see ResellerGetResponse
+ * @see ErrorResponse
  */
 class ResellerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

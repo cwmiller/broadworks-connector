@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's sequential ring service.
  *         The response is either a UserSequentialRingGetCriteriaResponse16 or an
  * ErrorResponse.
+ *
+ * @see UserSequentialRingGetCriteriaResponse16
+ * @see ErrorResponse
  */
 class UserSequentialRingGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

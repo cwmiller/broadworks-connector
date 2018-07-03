@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Remote Office.
  *         The response is either a UserRemoteOfficeGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserRemoteOfficeGetResponse
+ * @see ErrorResponse
  */
 class UserRemoteOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request a summary table of all DNs in a group IMRN pool.
  *         The response is either GroupIMRNGetListResponse or ErrorResponse.
+ *
+ * @see GroupIMRNGetListResponse
+ * @see ErrorResponse
  */
 class GroupIMRNGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

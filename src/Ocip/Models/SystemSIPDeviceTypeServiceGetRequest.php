@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * device type and the level of integration for this device type.
  *         The response is either SystemSIPDeviceTypeServiceGetResponse or
  * ErrorResponse.
+ *
+ * @see SystemSIPDeviceTypeServiceGetResponse
+ * @see ErrorResponse
  */
 class SystemSIPDeviceTypeServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the group voice portal information for a voice messaging group.
  *         The response is either
  * GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 or ErrorResponse.
+ *
+ * @see GroupVoiceMessagingGroupGetVoicePortalResponse21sp1
+ * @see ErrorResponse
  */
 class GroupVoiceMessagingGroupGetVoicePortalRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

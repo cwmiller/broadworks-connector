@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced By: UserSecurityClassificationGetRequest22.
+ *
+ * @see UserSecurityClassificationGetResponse
+ * @see ErrorResponse
+ * @see UserSecurityClassificationGetRequest22
  */
 class UserSecurityClassificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

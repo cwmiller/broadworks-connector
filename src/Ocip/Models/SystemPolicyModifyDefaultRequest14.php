@@ -19,6 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             serviceProviderAdminCommunicationBarringAccess
  *          
  *         Replaced by: SystemPolicyModifyDefaultRequest22 in AS mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemPolicyModifyDefaultRequest22
  */
 class SystemPolicyModifyDefaultRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * to another type.
  *         The response is either GroupCallCenterGetUnlicensedAgentListRequest or
  * ErrorResponse.
+ *
+ * @see GroupCallCenterGetUnlicensedAgentListRequest
+ * @see ErrorResponse
  */
 class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

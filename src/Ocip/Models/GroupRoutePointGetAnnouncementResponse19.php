@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetAnnouncementResponse19
  *
  * Response to the GroupRoutePointGetAnnouncementRequest19.
+ *
+ * @see GroupRoutePointGetAnnouncementRequest19
  */
 class GroupRoutePointGetAnnouncementResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

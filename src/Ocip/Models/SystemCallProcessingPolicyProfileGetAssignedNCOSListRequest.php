@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  *         SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse or
  *         ErrorResponse.
+ *
+ * @see SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse
+ * @see ErrorResponse
  */
 class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

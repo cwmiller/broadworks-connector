@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserChargeNumberGetResponse14sp9
  *
  * Response to UserChargeNumberGetRequest14sp9.
+ *
+ * @see UserChargeNumberGetRequest14sp9
  */
 class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         /var/broadworks/userfiles/AuditLogs/ or /var/broadworks/IpDeviceConfig/.
  *         The response is either a SystemFileGetContentResponse or an
  * ErrorResponse.
+ *
+ * @see SystemFileGetContentResponse
+ * @see ErrorResponse
  */
 class SystemFileGetContentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

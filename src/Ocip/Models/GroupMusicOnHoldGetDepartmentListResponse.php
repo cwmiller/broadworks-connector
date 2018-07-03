@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMusicOnHoldGetDepartmentListResponse
  *
  * Response to the GroupMusicOnHoldGetDepartmentListRequest.
+ *
+ * @see GroupMusicOnHoldGetDepartmentListRequest
  */
 class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

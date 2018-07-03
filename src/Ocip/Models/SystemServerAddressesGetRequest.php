@@ -11,6 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         See also:
  *           PrimaryInfoGetRequest
  *           PublicClusterGetFullyQualifiedDomainNameRequest
+ *
+ * @see SystemServerAddressesGetResponse
+ * @see ErrorResponse
+ * @see PrimaryInfoGetRequest
+ * @see PublicClusterGetFullyQualifiedDomainNameRequest
  */
 class SystemServerAddressesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

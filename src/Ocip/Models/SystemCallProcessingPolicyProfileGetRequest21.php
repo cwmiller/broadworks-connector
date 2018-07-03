@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a call processing policy profile in system.
  *         The response is either a SystemCallProcessingPolicyProfileGetResponse21
  * or an ErrorResponse.
+ *
+ * @see SystemCallProcessingPolicyProfileGetResponse21
+ * @see ErrorResponse
  */
 class SystemCallProcessingPolicyProfileGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

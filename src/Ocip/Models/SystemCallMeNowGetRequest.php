@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the system level data associated with Call Me Now service.
  *         The response is either a SystemCallMeNowGetResponse or an ErrorResponse.
+ *
+ * @see SystemCallMeNowGetResponse
+ * @see ErrorResponse
  */
 class SystemCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

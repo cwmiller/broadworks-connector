@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19 or ErrorResponse.
  *         
  *         Replaced by: SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1
+ *
+ * @see SystemVoiceMessagingGroupGetVoicePortalMenusResponse19
+ * @see ErrorResponse
+ * @see SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

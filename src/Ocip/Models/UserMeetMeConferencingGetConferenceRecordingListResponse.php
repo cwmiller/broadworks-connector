@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Conference Title", "Bridge Name", "Start Time", "File Size", and "URL".
  *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example:
  * 2010-10-01T09:30:00:000-0400.
+ *
+ * @see UserMeetMeConferencingGetConferenceRecordingListRequest
  */
 class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

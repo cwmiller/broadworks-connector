@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the EnterpriseCommonPhoneListGetListRequest.
  *         The response contains the enterprise's common phone list.
+ *
+ * @see EnterpriseCommonPhoneListGetListRequest
  */
 class EnterpriseCommonPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

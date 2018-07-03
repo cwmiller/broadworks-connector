@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

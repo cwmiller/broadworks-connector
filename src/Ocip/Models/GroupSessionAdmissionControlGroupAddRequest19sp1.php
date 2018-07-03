@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Note that to provision the accessInfoPattern element, the
  *         captureAccessInfoInPaniHeader system parameter needs to be set to
  * "true".
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAccessDeviceFileGetResponse
  *
  * Response to UserAccessDeviceFileGetRequest.
+ *
+ * @see UserAccessDeviceFileGetRequest
  */
 class UserAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

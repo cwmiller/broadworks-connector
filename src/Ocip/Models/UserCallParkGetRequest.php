@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Identifies which Call Park group the user belongs to if any and the list of
  * users in the group.
  *         The response is either UserCallParkGetResponse or ErrorResponse.
+ *
+ * @see UserCallParkGetResponse
+ * @see ErrorResponse
  */
 class UserCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

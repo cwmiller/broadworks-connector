@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the enterprise level data associated with Voice VPN.
  *         The response is either a EnterpriseVoiceVPNGetResponse14sp3 or an
  * ErrorResponse.
+ *
+ * @see EnterpriseVoiceVPNGetResponse14sp3
+ * @see ErrorResponse
  */
 class EnterpriseVoiceVPNGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemMediaGroupGetListRequest.
  *         The response includes an array of media groups defined in the system.
+ *
+ * @see SystemMediaGroupGetListRequest
  */
 class SystemMediaGroupGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

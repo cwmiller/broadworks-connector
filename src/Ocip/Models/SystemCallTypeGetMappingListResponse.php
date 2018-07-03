@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemCallTypeGetMappingListRequest. The table columns are:
  *         "Country Code", "Digit Map" and "Call Type".
+ *
+ * @see SystemCallTypeGetMappingListRequest
  */
 class SystemCallTypeGetMappingListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

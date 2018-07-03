@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           holdNormalization=useRfc3264Hold 
  *           
  *         Replaced by: SystemSIPDeviceTypeGetResponse20
+ *
+ * @see SystemSIPDeviceTypeGetRequest19sp1
+ * @see SystemSIPDeviceTypeGetResponse20
  */
 class SystemSIPDeviceTypeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

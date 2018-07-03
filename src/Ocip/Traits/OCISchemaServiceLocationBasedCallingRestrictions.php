@@ -1,0 +1,34 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Traits;
+
+use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetResponse17sp3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
+use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
+
+trait OCISchemaServiceLocationBasedCallingRestrictions
+{
+
+    /**
+     * @param SystemLocationBasedCallingRestrictionsGetRequest17sp3 $request
+     * @return SystemLocationBasedCallingRestrictionsGetResponse17sp3|ErrorResponse
+     */
+    public function systemLocationBasedCallingRestrictionsGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemLocationBasedCallingRestrictionsModifyRequest $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function systemLocationBasedCallingRestrictionsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+
+}
+

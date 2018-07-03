@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringDigitPatternCriteriaGetResponse
  *
  * The response to a SystemCommunicationBarringDigitPatternCriteriaGetRequest.
+ *
+ * @see SystemCommunicationBarringDigitPatternCriteriaGetRequest
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

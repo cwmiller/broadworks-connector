@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This command is supported for regular users only.
  *         The response is either a UserPrivacyGetResponse13mp17
  *         or an ErrorResponse.
+ *
+ * @see UserPrivacyGetResponse13
+ * @see ErrorResponse
  */
 class UserPrivacyGetRequest13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

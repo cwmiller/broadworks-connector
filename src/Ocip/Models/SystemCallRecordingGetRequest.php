@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *         
  *         Replaced by: SystemCallRecordingGetRequest22
+ *
+ * @see SystemCallRecordingGetResponse
+ * @see ErrorResponse
+ * @see SystemCallRecordingGetRequest22
  */
 class SystemCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

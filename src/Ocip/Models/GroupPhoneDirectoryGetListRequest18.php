@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together.
  *         The response is either GroupPhoneDirectoryGetListResponse18 or 
  *         ErrorResponse.
+ *
+ * @see GroupPhoneDirectoryGetListResponse18
+ * @see ErrorResponse
  */
 class GroupPhoneDirectoryGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemMediaServerGetListRequest. The Media Server table column
  *         headings are: "Net Address", "Port", "Transport", "Description".
+ *
+ * @see SystemMediaServerGetListRequest
  */
 class SystemMediaServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

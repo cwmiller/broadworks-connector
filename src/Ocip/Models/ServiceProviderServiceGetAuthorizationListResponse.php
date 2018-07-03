@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Service Name", "Authorized", "Assigned", "Limited", "Quantity",
  * "Allocated", "Licensed", "Service Pack Allocation", "User Assignable", "Service
  * Pack Assignable".
+ *
+ * @see ServiceProviderServiceGetAuthorizationListRequest
  */
 class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

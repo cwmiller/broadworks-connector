@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add an Auto Attendant submenu instance.
  *         The response is either SuccessResponse or ErrorResponse. 
  *         This request is only valid for Standard auto attendants.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupAutoAttendantSubmenuAddRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

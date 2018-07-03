@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of all conferences for which user is a host or a delegate.
  *         The response is either UserMeetMeConferencingGetConferenceListResponse
  * or ErrorResponse.
+ *
+ * @see UserMeetMeConferencingGetConferenceListResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

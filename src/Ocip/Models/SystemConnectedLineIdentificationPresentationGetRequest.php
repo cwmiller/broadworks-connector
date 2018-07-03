@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a 
  *         SystemConnectedLineIdentificationPresentationGetResponse or an
  *         ErrorResponse.
+ *
+ * @see SystemConnectedLineIdentificationPresentationGetResponse
+ * @see ErrorResponse
  */
 class SystemConnectedLineIdentificationPresentationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

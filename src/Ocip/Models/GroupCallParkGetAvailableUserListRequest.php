@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         by not setting the name.
  *         The response is either GroupCallParkGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallParkGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

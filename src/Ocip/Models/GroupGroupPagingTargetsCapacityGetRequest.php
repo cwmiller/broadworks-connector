@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * group.
  *         The response is either a GroupGroupPagingTargetsCapacityGetResponse
  *         or an ErrorResponse.
+ *
+ * @see GroupGroupPagingTargetsCapacityGetResponse
+ * @see ErrorResponse
  */
 class GroupGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

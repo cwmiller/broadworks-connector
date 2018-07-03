@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemBwDiameterBaseDataGetRequest17sp3.
  *         Contains a list of System Diameter base parameters.
+ *
+ * @see SystemBwDiameterBaseDataGetRequest17sp3
  */
 class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

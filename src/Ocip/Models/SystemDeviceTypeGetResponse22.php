@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         The following elements are only used in AS data mode:
  *           resellerId
+ *
+ * @see SystemDeviceTypeGetRequest22
  */
 class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderLanguageGetListResponse
  *
  * Response to ServiceProviderLanguageGetListRequest.
+ *
+ * @see ServiceProviderLanguageGetListRequest
  */
 class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

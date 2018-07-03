@@ -25,6 +25,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following data elements are only used in AS data mode:
  *           resellerId
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

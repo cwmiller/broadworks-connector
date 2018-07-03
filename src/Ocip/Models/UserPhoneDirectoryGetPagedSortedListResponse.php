@@ -33,6 +33,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *   
  *   The following columns are returned in AS data mode only:
  *     "Service Name", "Receptionist Notes"
+ *
+ * @see UserPhoneDirectoryGetPagedSortedListRequest
  */
 class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

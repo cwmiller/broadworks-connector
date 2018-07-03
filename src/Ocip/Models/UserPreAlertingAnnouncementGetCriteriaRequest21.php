@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's pre-alerting service.
  *         The response is either a
  * UserPreAlertingAnnouncementGetCriteriaResponse21 or an ErrorResponse.
+ *
+ * @see UserPreAlertingAnnouncementGetCriteriaResponse21
+ * @see ErrorResponse
  */
 class UserPreAlertingAnnouncementGetCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

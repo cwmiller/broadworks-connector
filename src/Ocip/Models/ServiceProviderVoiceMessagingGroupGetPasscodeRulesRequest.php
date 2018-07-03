@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse or ErrorResponse.
  *         Replaced By: ServiceProviderPortalPasscodeRulesGetRequest
+ *
+ * @see ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse
+ * @see ErrorResponse
+ * @see ServiceProviderPortalPasscodeRulesGetRequest
  */
 class ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

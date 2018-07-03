@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to delete a list of SMDI Servers for a user.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

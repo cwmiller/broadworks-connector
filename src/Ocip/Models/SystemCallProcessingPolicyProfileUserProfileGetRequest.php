@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1
  * in AS data mode
+ *
+ * @see SystemCallProcessingPolicyProfileUserProfileGetResponse
+ * @see ErrorResponse
+ * @see SystemCallProcessingPolicyProfileUserProfileGetRequest21sp1
  */
 class SystemCallProcessingPolicyProfileUserProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

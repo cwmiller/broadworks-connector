@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of user creation tasks for a trunk group.
  *         The response is either GroupTrunkGroupUserCreationTaskGetListResponse or
  * ErrorResponse.
+ *
+ * @see GroupTrunkGroupUserCreationTaskGetListResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupUserCreationTaskGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

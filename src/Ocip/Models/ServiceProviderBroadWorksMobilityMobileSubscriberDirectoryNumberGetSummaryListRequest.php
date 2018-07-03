@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
  * or ErrorResponse.
+ *
+ * @see
+ * ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

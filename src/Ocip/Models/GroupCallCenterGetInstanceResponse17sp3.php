@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterGetInstanceRequest17sp3.
  *         
  *         Replaced by GroupCallCenterGetInstanceResponse19
+ *
+ * @see GroupCallCenterGetInstanceRequest17sp3
+ * @see GroupCallCenterGetInstanceResponse19
  */
 class GroupCallCenterGetInstanceResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

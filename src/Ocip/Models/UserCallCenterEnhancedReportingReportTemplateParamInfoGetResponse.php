@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse
  *
  * Response to UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest.
+ *
+ * @see UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest
  */
 class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

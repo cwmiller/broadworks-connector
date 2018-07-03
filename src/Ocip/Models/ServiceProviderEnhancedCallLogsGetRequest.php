@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the service provider's enhanced call log settings.
  *         The response is either a ServiceProviderEnhancedCallLogsGetResponse or
  * an ErrorResponse.
+ *
+ * @see ServiceProviderEnhancedCallLogsGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderEnhancedCallLogsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

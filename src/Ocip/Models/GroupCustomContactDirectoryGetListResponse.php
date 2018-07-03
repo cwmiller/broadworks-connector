@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCustomContactDirectoryGetListRequest.
  *         The response contains all the group's custom contact directory names.
+ *
+ * @see GroupCustomContactDirectoryGetListRequest
  */
 class GroupCustomContactDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

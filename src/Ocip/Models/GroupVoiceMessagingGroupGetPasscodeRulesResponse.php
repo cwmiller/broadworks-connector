@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupVoiceMessagingGroupGetPasscodeRulesRequest.
  *         Contains the group's voice portal passcode rules setting.
  *         Replaced By: GroupPortalPasscodeRulesGetResponse
+ *
+ * @see GroupVoiceMessagingGroupGetPasscodeRulesRequest
+ * @see GroupPortalPasscodeRulesGetResponse
  */
 class GroupVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

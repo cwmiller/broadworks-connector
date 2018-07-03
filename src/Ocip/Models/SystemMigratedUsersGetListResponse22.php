@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * userListSizeLimit is set in the request and 
  *         if the total number of migrated users is greater than the value of
  * userListSizeLimit.
+ *
+ * @see SystemMigratedUsersGetListRequest22
  */
 class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

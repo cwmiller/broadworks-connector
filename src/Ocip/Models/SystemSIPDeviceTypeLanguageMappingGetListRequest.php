@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * names, per-device type.
  *         The response is either SystemSIPDeviceTypeLanguageMappingGetListResponse
  * or ErrorResponse.
+ *
+ * @see SystemSIPDeviceTypeLanguageMappingGetListResponse
+ * @see ErrorResponse
  */
 class SystemSIPDeviceTypeLanguageMappingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

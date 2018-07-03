@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemNumberPortabilityQueryGetRequest.
  *         Returns system Number Portability Query Parameters.
+ *
+ * @see SystemNumberPortabilityQueryGetRequest
  */
 class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         or an ErrorResponse.
  *         
  *         Replaced by: SystemNetworkClassOfServiceGetRequest19sp1 in AS data mode
+ *
+ * @see SystemNetworkClassOfServiceGetResponse17
+ * @see ErrorResponse
+ * @see SystemNetworkClassOfServiceGetRequest19sp1
  */
 class SystemNetworkClassOfServiceGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserPersonalPhoneListGetListRequest.
  *         The response contains a user's personal phone list.
+ *
+ * @see UserPersonalPhoneListGetListRequest
  */
 class UserPersonalPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

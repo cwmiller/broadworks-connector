@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Prepaid.
  *         The response is either a UserPrepaidGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserPrepaidGetResponse
+ * @see ErrorResponse
  */
 class UserPrepaidGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

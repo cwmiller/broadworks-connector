@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the settings for a user's specified mobile identity.
  *         The response is either a
  * UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2 or an ErrorResponse.
+ *
+ * @see UserBroadWorksMobilityMobileIdentityGetResponse21sp1
+ * @see ErrorResponse
  */
 class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

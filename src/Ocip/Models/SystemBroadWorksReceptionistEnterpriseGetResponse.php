@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemBroadWorksReceptionistEnterpriseGetRequest.
  *         Contains a list of BroadWorks Receptionist - Enterprise parameters.
+ *
+ * @see SystemBroadWorksReceptionistEnterpriseGetRequest
  */
 class SystemBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

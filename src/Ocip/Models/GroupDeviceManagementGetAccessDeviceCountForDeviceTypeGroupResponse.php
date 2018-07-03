@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
  *
  * Response to GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest.
+ *
+ * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

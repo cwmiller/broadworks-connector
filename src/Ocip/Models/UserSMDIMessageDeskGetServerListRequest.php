@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of SMDI Servers defined for a user.
  *         The response is either a UserSMDIMessageDeskGetServerListResponse or an
  * ErrorResponse.
+ *
+ * @see UserSMDIMessageDeskGetServerListResponse
+ * @see ErrorResponse
  */
 class UserSMDIMessageDeskGetServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to add an alternate user Id to an user.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

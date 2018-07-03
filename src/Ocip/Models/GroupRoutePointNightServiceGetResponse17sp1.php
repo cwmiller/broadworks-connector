@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointNightServiceGetResponse17sp1
  *
  * Response to the GroupRoutePointNightServiceGetRequest17sp1.
+ *
+ * @see GroupRoutePointNightServiceGetRequest17sp1
  */
 class GroupRoutePointNightServiceGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

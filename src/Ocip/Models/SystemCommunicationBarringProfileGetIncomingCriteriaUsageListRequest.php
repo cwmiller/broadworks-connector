@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

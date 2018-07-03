@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Schedule" and
  *         "Type".
  *         The response contains user's personal and user's group's schedule names.
+ *
+ * @see UserTimeScheduleGetListRequest
  */
 class UserTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

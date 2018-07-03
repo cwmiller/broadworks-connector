@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of all the BroadWorks Anywhere phone numbers for the user.
  *         The response is either a UserBroadWorksAnywhereGetResponse16sp2 or an
  * ErrorResponse.
+ *
+ * @see UserBroadWorksAnywhereGetResponse16sp2
+ * @see ErrorResponse
  */
 class UserBroadWorksAnywhereGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

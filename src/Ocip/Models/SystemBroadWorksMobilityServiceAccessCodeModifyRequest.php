@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify a system service access code.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced by SystemBroadWorksMobilityServiceAccessCodeModifyRequest21.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemBroadWorksMobilityServiceAccessCodeModifyRequest21
  */
 class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

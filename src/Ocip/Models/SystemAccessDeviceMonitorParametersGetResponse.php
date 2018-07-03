@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAccessDeviceMonitorParametersGetListRequest.
  *         Contains a list of system Access Device Monitor parameters.
+ *
+ * @see SystemAccessDeviceMonitorParametersGetListRequest
  */
 class SystemAccessDeviceMonitorParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMPPGetResponse
  *
  * Response to SystemSMPPGetRequest.
+ *
+ * @see SystemSMPPGetRequest
  */
 class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

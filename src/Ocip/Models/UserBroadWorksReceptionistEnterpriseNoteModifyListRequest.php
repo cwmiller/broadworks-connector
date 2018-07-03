@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If some of the users add and some users fail to add, then the
  *         response will contain a WarningResponse containing only the 
  *         a comma delimited list of users that failed to add.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see WarningResponse
  */
 class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by:
  * SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22
+ *
+ * @see SystemCallProcessingPolicyProfileCollaborateProfileGetRequest
+ * @see SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22
  */
 class SystemCallProcessingPolicyProfileCollaborateProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallToNumberGetAvailableListRequest.
  *         Contains a list of the user available Call to Numbers".
+ *
+ * @see UserCallToNumberGetAvailableListRequest
  */
 class UserCallToNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

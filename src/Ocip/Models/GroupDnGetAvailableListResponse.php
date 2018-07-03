@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the list of DNs that are assigned to a group and
  * still available for
  *         assignment to users or service instances within the group.
+ *
+ * @see GroupDnGetAvailableListRequest
  */
 class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * elements are not used and the only types accepted for each number are Primary
  * and Alternates. If other type is specified the command fails.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

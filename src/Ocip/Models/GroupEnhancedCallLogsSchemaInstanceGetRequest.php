@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       a service provider.
  *       The response is either a GroupEnhancedCallLogsSchemaInstanceGetResponse or
  * an ErrorResponse.
+ *
+ * @see GroupEnhancedCallLogsSchemaInstanceGetResponse
+ * @see ErrorResponse
  */
 class GroupEnhancedCallLogsSchemaInstanceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

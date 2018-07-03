@@ -18,6 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * will be displayed instead of Call Center and
  *         Auto Attendant (for the Basic Auto Attendant) and Auto Attendant -
  * Standard instead of Auto Attendant.
+ *
+ * @see GroupNetworkClassOfServiceGetAssignedUserListRequest21
  */
 class GroupNetworkClassOfServiceGetAssignedUserListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

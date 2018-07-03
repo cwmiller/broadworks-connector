@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Address", "Department", "Email Address".
  *           Possible values for User Type are "User", "CCBasic", "CCStandard",
  * "CCPremium", "RP", "MOH", "MOHVideo".
+ *
+ * @see GroupEndpointGetListRequest
  */
 class GroupEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

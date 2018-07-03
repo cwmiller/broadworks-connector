@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAccountingGetRadiusServerListRequest. The Radius Server table
  *         column headings are: "Net Address", "Port", "Description"
+ *
+ * @see SystemAccountingGetRadiusServerListRequest
  */
 class SystemAccountingGetRadiusServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

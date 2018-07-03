@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * setting.
  *         The response is either a
  * UserVoiceMessagingUserGetOutgoingSMDIMWIResponse or an ErrorResponse.
+ *
+ * @see UserVoiceMessagingUserGetOutgoingSMDIMWIResponse
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserGetOutgoingSMDIMWIRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

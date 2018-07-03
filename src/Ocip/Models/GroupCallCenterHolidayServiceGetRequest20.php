@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's holiday service settings.
  *         The response is either a GroupCallCenterHolidayServiceGetResponse20 or
  * an ErrorResponse.
+ *
+ * @see GroupCallCenterHolidayServiceGetResponse20
+ * @see ErrorResponse
  */
 class GroupCallCenterHolidayServiceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

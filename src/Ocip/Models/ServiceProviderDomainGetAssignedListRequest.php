@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of all domains assigned to a service provider.
  *         The response is either ServiceProviderDomainGetAssignedListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderDomainGetAssignedListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

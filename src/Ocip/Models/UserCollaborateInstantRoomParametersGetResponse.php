@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateInstantRoomParametersGetResponse
  *
  * Response to UserCollaborateInstantRoomParametersGetRequest.
+ *
+ * @see UserCollaborateInstantRoomParametersGetRequest
  */
 class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

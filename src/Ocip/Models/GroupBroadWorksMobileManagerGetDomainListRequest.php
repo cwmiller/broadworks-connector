@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of domains of the BroadWorks Mobile Manager.
  *         The response is either GroupBroadWorksMobileManagerGetDomainListResponse
  * or ErrorResponse.
+ *
+ * @see GroupBroadWorksMobileManagerGetDomainListResponse
+ * @see ErrorResponse
  */
 class GroupBroadWorksMobileManagerGetDomainListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

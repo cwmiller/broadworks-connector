@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupFlexibleSeatingHostGuestAssociationGetResponse or an ErrorResponse.
  * accessLevel is always set to Group for a Service Provider
+ *
+ * @see GroupFlexibleSeatingHostGuestAssociationGetResponse
+ * @see ErrorResponse
  */
 class GroupFlexibleSeatingHostGuestAssociationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

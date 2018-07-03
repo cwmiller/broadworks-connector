@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAccessDeviceTagSetGetRequest.
  *         The response includes a tag set name defined in the access device.
+ *
+ * @see GroupAccessDeviceTagSetGetRequest
  */
 class GroupAccessDeviceTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * user.
  *         The response is either
  * GroupCallParkGetAvailableAlternateRecallUserListResponse or ErrorResponse.
+ *
+ * @see GroupCallParkGetAvailableAlternateRecallUserListResponse
+ * @see ErrorResponse
  */
 class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

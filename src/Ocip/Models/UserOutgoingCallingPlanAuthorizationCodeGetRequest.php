@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the authorization code setting for a user.
  *         The response is either a
  * UserOutgoingCallingPlanAuthorizationCodeGetResponse or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanAuthorizationCodeGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

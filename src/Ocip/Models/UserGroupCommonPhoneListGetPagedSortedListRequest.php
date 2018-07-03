@@ -19,6 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 				Specifying searchCriteriaModeOr without any search criteria results
  * 				in an ErrorResponse.
  * 				The sort can be done on the name or the number in the common phone list.
+ *
+ * @see UserGroupCommonPhoneListGetPagedSortedListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

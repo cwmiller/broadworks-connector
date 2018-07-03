@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user level data associated with Call Processing Policy.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: UserCallProcessingModifyPolicyRequest14sp7
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserCallProcessingModifyPolicyRequest14sp7
  */
 class UserCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

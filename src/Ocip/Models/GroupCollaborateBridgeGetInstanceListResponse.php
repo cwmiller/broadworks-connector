@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Service User Id", "Name", "Phone
  * Number", "Extension", "Department", "Participants", and "Is Default".
  *         The column values for "Is default" can either be true, or false.
+ *
+ * @see GroupCollaborateBridgeGetInstanceListRequest
  */
 class GroupCollaborateBridgeGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

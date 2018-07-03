@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         Replaced By:
  * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16
+ *
+ * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse
+ * @see ErrorResponse
+ * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Group Id".
  *         The "Device Level" column contains one of the AccessDeviceLevel
  * enumerated constants.
+ *
+ * @see GroupTrunkGroupGetInstanceListRequest14
  */
 class GroupTrunkGroupGetInstanceListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

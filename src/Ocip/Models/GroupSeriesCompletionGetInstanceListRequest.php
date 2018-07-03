@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of Series Completion instances within a group.
  *         The response is either GroupSeriesCompletionGetInstanceListResponse or
  * ErrorResponse.
+ *
+ * @see GroupSeriesCompletionGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupSeriesCompletionGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

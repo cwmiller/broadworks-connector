@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMusicOnHoldGetInstanceResponse14
  *
  * Response to the GroupMusicOnHoldGetInstanceRequest14.
+ *
+ * @see GroupMusicOnHoldGetInstanceRequest14
  */
 class GroupMusicOnHoldGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

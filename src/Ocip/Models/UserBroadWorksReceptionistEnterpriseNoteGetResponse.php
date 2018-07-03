@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksReceptionistEnterpriseNoteGetResponse
  *
  * Response to UserBroadWorksReceptionistEnterpriseNoteGetRequest.
+ *
+ * @see UserBroadWorksReceptionistEnterpriseNoteGetRequest
  */
 class UserBroadWorksReceptionistEnterpriseNoteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Returns a zone calling physical location for a given zone.
  * 	     Response is SystemZoneCallingZonePhysicalLocationGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemZoneCallingZonePhysicalLocationGetResponse
+ * @see ErrorResponse
  */
 class SystemZoneCallingZonePhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

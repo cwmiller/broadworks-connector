@@ -20,6 +20,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * agent.
  *         The response is either a UserCallCenterAgentSignOutResponse or
  * ErrorResponse.
+ *
+ * @see UserCallCenterModifyRequest19
+ * @see UserCallCenterAgentSignOutResponse
+ * @see ErrorResponse
  */
 class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

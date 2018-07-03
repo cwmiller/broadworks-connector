@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the originating permissions for a group default and it's departments.
  *         The response is either a
  * GroupOutgoingCallingPlanOriginatingGetListResponse or an ErrorResponse.
+ *
+ * @see GroupOutgoingCallingPlanOriginatingGetListResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanOriginatingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

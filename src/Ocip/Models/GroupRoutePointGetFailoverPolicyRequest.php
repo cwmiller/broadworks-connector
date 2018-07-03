@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the route point failover policy. 
  *         The response is either a GroupRoutePointGetFailoverPolicyResponse or an
  * ErrorResponse.
+ *
+ * @see GroupRoutePointGetFailoverPolicyResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointGetFailoverPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

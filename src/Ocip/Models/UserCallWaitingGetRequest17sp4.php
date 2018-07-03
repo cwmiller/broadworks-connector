@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Call Waiting.
  *         The response is either a UserCallWaitingGetResponse17sp4 or an
  *         ErrorResponse.
+ *
+ * @see UserCallWaitingGetResponse17sp4
+ * @see ErrorResponse
  */
 class UserCallWaitingGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

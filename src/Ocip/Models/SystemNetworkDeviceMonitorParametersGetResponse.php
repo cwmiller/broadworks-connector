@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemNetworkDeviceMonitorParametersGetListRequest.
  *         Contains a list of system Network Device Polling parameters.
+ *
+ * @see SystemNetworkDeviceMonitorParametersGetListRequest
  */
 class SystemNetworkDeviceMonitorParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by
  * EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4.
+ *
+ * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest
+ * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

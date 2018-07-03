@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * means using reseller level service 
  *         domain setting. And useSystemMessagingServer means using the reseller
  * level messaging server setting.
+ *
+ * @see ServiceProviderIntegratedIMPGetRequest21
  */
 class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to search endpoints in the group.
  *         The response is either GroupEndpointGetListResponse or ErrorResponse.
+ *
+ * @see GroupEndpointGetListResponse
+ * @see ErrorResponse
  */
 class GroupEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the ResellerIntegratedIMPGetRequest.
  *         The response contains the reseller Integrated IMP service attributes.
+ *
+ * @see ResellerIntegratedIMPGetRequest
  */
 class ResellerIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVideoServerGetListRequest. The Video Server table column
  *         headings are: "Net Address", "Port", "Transport", "Description".
  *         Transport types: udp, tcp, unspecified
+ *
+ * @see SystemVideoServerGetListRequest
  */
 class SystemVideoServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

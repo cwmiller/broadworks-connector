@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the
  * ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest.
  *         The response contains the Digit Pattern Criteria information.
+ *
+ * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

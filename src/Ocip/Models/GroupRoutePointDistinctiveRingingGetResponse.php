@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointDistinctiveRingingGetResponse
  *
  * Response to the GroupRoutePointDistinctiveRingingGetRequest.
+ *
+ * @see GroupRoutePointDistinctiveRingingGetRequest
  */
 class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

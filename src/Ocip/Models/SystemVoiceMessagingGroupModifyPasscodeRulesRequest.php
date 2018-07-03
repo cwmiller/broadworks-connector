@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify the system voice portal passcode rules setting.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced By: SystemPortalPasscodeRulesModifyRequest
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemPortalPasscodeRulesModifyRequest
  */
 class SystemVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

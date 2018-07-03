@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterReportingServerGetListRequest.  The table columns
  * are:
  *         "Name", "URL", "Net Address", and "Description".
+ *
+ * @see SystemCallCenterReportingServerGetListRequest
  */
 class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

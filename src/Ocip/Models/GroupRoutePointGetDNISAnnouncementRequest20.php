@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's DNIS Announcements
  *         The response is either a GroupRoutePointGetDNISAnnouncementResponse20 or
  * an ErrorResponse.
+ *
+ * @see GroupRoutePointGetDNISAnnouncementResponse20
+ * @see ErrorResponse
  */
 class GroupRoutePointGetDNISAnnouncementRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

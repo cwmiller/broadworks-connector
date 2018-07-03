@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         NOTE: The command fails if all the alerting groups defined for the user
  * are not provided.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

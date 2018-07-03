@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's simultaneous ring service Family setting.
  *         The response is either a UserSimultaneousRingFamilyGetResponse14sp4 or
  * an ErrorResponse.
+ *
+ * @see UserSimultaneousRingFamilyGetResponse14sp4
+ * @see ErrorResponse
  */
 class UserSimultaneousRingFamilyGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Management System, on a per-device profile basis.
  *         The response is either
  * ServiceProviderAccessDeviceCustomTagGetListResponse or ErrorResponse.
+ *
+ * @see ServiceProviderAccessDeviceCustomTagGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderAccessDeviceCustomTagGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

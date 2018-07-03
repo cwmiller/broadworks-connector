@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with External Custom Ringback.
  *         The response is either a UserExternalCustomRingbackGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserExternalCustomRingbackGetResponse
+ * @see ErrorResponse
  */
 class UserExternalCustomRingbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

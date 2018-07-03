@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         information for every Public User Identity in the group.
  *         
  *         Replaced by: GroupShInterfaceGetUserListResponse21sp1 in AS data mode.
+ *
+ * @see GroupShInterfaceGetUserListRequest
+ * @see GroupShInterfaceGetUserListResponse21sp1
  */
 class GroupShInterfaceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

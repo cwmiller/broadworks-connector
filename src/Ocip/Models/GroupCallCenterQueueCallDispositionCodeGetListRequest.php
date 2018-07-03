@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of Call Center Level and Organization Level Call Disposition Codes.
  *         The response is either
  * GroupCallCenterQueueCallDispositionCodeGetListResponse or ErrorResponse.
+ *
+ * @see GroupCallCenterQueueCallDispositionCodeGetListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterQueueCallDispositionCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains a table with one row per Communication Barring Alternate Call
  * Indicator.  The table column headings are: "Alternate Call Indicator" and
  * "Network Server Alternate Call Indicator".
+ *
+ * @see SystemCommunicationBarringAlternateCallIndicatorGetListRequest
  */
 class SystemCommunicationBarringAlternateCallIndicatorGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

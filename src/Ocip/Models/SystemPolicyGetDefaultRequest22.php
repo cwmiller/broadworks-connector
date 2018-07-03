@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the system's default policy settings.
  *         The response is either SystemPolicyGetDefaultResponse22 or
  * ErrorResponse.
+ *
+ * @see SystemPolicyGetDefaultResponse22
+ * @see ErrorResponse
  */
 class SystemPolicyGetDefaultRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

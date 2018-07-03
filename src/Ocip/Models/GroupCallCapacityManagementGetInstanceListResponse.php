@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCapacityManagementGetInstanceListRequest.
  *         Contains a table with column headings: "Name", "Is Default", "Maximum
  * Calls", "Maximum Incoming Calls", "Maximum Outgoing Calls".
+ *
+ * @see GroupCallCapacityManagementGetInstanceListRequest
  */
 class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

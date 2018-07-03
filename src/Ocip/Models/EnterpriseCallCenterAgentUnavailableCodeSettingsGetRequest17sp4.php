@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an
  * EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 or an
  *         ErrorResponse.
+ *
+ * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

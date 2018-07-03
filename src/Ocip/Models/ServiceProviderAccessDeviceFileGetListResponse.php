@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The column headings are: "File Type", "File Format", "Is
  * Authenticated".
  *           Replaced By: ServiceProviderAccessDeviceFileGetListResponse14sp8
+ *
+ * @see ServiceProviderAccessDeviceFileGetListRequest
+ * @see ServiceProviderAccessDeviceFileGetListResponse14sp8
  */
 class ServiceProviderAccessDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

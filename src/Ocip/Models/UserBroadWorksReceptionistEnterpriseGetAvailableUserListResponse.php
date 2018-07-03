@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Receptionist Note".  The Receptionist Note column is only populated,
  * if the user sending 
  *           the request is the owner of the Receptionist Note and a Note exists.
+ *
+ * @see UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest
  */
 class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

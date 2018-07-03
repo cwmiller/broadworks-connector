@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Intercept, PTT, CommBarring, SAC, IncomingCommBarring, HierCommBarring,
  * IncomHierCommBarring, BWMobilityDenyOrig, BWMobilityDenyTerm, ETRouteExhaust,
  * CallPark, NumberPortability, ConcTerminatingAlertingPolicy.
+ *
+ * @see SystemTreatmentMappingCallBlockingServiceGetListRequest22
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

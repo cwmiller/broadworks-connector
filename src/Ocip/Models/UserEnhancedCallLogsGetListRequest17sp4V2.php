@@ -25,6 +25,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and not returned in
  * XS data mode:
  *           callAuthorizationCodeFilter
+ *
+ * @see maxNonPagedResponse
+ * @see UserEnhancedCallLogsGetListResponse17sp4
+ * @see ErrorResponse
  */
 class UserEnhancedCallLogsGetListRequest17sp4V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

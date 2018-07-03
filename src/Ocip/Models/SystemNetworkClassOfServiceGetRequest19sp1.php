@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get an existing Network Class of Service.
  *         The response is either a SystemNetworkClassOfServiceGetResponse19sp1
  *         or an ErrorResponse.
+ *
+ * @see SystemNetworkClassOfServiceGetResponse19sp1
+ * @see ErrorResponse
  */
 class SystemNetworkClassOfServiceGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

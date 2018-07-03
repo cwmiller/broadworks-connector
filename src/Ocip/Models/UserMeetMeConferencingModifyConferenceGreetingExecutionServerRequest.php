@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         Engineering Note: This command can only be executed from the Execution
  * Server
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateRoomIDRegenerateResponse
  *
  * Response to UserCollaborateRoomIDRegenerateRequest.
+ *
+ * @see UserCollaborateRoomIDRegenerateRequest
  */
 class UserCollaborateRoomIDRegenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -30,6 +30,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CollaborateSharing, MeetMeConferencing.
  *         For a Regular User or a Virtual On Network Enterprise Extensions,
  * the Service Name is empty.
+ *
+ * @see GroupPhoneDirectoryGetPagedListRequest
  */
 class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

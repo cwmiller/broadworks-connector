@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enumerated constants.
  *         The "SIP Contact" column does not contain "sip:" in 21sp1.
  *         Port numbers are only used by devices with static line ordering.
+ *
+ * @see UserSharedCallAppearanceGetRequest21sp1
  */
 class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

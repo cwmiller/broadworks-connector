@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the system login configuration for all subscribers.
  *         The response is either a SystemSubscriberGetLoginParametersResponse or
  * an ErrorResponse.
+ *
+ * @see SystemSubscriberGetLoginParametersResponse
+ * @see ErrorResponse
  */
 class SystemSubscriberGetLoginParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

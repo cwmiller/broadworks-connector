@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Enterprise level pre-alerting service settings.
  *         The response is either a EnterprisePreAlertingAnnouncementGetResponse or
  * an ErrorResponse.
+ *
+ * @see EnterprisePreAlertingAnnouncementGetResponse
+ * @see ErrorResponse
  */
 class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

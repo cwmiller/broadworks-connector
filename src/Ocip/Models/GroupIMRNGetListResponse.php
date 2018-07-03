@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupIMRNGetListResponse
  *
  * Response to GroupIMRNGetListRequest.
+ *
+ * @see GroupIMRNGetListRequest
  */
 class GroupIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

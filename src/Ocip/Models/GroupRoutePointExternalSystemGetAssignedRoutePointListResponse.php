@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Service User Id", "Name", "Video", "Phone Number", "Extension",
  * "Department".
  *         The column values for "Video" can either be "true", or "false".
+ *
+ * @see GroupRoutePointExternalSystemGetAssignedRoutePointListRequest
  */
 class GroupRoutePointExternalSystemGetAssignedRoutePointListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

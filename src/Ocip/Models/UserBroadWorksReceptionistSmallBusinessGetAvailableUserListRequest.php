@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * UserBroadWorksReceptionistSmallBusinessGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see UserBroadWorksReceptionistSmallBusinessGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

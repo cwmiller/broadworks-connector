@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * request becomes
  *         the default language for the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            allowConfigurableCLIDForRedirectingIdentity
  *            
  *           Replaced by GroupCallProcessingGetPolicyResponse18
+ *
+ * @see GroupCallProcessingGetPolicyRequest17sp4
+ * @see GroupCallProcessingGetPolicyResponse18
  */
 class GroupCallProcessingGetPolicyResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

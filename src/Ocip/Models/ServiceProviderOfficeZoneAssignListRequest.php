@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Restrictions has been authorized to the service provider otherwise the request
  * will fail.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

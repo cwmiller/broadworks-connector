@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  *         SystemCommunicationBarringIncomingCriteriaGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCommunicationBarringIncomingCriteriaGetListResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringIncomingCriteriaGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

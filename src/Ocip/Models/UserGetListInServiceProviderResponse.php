@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Activated", "Email Address", "Hiragana Last Name", "Hiragana First Name", "In
  * Trunk Group", "Extension"
  *         in a row for each user.
+ *
+ * @see UserGetListInServiceProviderRequest
  */
 class UserGetListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

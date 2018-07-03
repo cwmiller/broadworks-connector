@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the maximum permissible active Trunk Group calls for the service provider.
  *         The response is either a ServiceProviderTrunkGroupGetResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderTrunkGroupGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderTrunkGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

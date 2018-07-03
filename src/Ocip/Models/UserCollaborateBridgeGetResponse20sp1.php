@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The system-level collaborate supportOutdial setting is returned in the response
  * when the system-level collaborate supportOutdial setting is disabled.
  *         Response to UserCollaborateBridgeGetRequest20sp1.
+ *
+ * @see UserCollaborateBridgeGetRequest20sp1
  */
 class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

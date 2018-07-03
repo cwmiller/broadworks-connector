@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the service provider administrators profile
  * information.
  *         Replaced by ServiceProviderAdminGetResponse21sp1.
+ *
+ * @see ServiceProviderAdminGetRequest14
+ * @see ServiceProviderAdminGetResponse21sp1
  */
 class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

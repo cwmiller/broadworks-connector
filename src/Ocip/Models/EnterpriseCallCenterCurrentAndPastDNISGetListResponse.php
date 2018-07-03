@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterCurrentAndPastDNISGetListResponse
  *
  * Response to the EnterpriseCallCenterCurrentAndPastDNISGetListRequest.
+ *
+ * @see EnterpriseCallCenterCurrentAndPastDNISGetListRequest
  */
 class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceTypeGetAvailableListResponse14sp3
  *
  * Response to SystemDeviceTypeGetAvailableListRequest14sp3.
+ *
+ * @see SystemDeviceTypeGetAvailableListRequest14sp3
  */
 class SystemDeviceTypeGetAvailableListResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

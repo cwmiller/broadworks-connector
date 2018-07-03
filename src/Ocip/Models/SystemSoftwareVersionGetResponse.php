@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSoftwareVersionGetResponse
  *
  * Response to the SystemSoftwareVersionGetRequest.
+ *
+ * @see SystemSoftwareVersionGetRequest
  */
 class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

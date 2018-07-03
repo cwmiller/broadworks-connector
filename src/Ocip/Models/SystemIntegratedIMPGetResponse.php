@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the system Integrated IMP service attributes.
  *         
  *         Replaced by SystemIntegratedIMPGetResponse19.
+ *
+ * @see SystemIntegratedIMPGetRequest
+ * @see SystemIntegratedIMPGetResponse19
  */
 class SystemIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          
  *          Columns for the mobileNumberAlertedTable are as follows: "Mobile
  * Number", "Country Code", "National Prefix"
+ *
+ * @see UserBroadWorksMobilityMobileIdentityGetRequest21sp1
  */
 class UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

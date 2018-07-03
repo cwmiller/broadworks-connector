@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallPickupGetInstanceListResponse
  *
  * Response to the GroupCallPickupGetInstanceListRequest.
+ *
+ * @see GroupCallPickupGetInstanceListRequest
  */
 class GroupCallPickupGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

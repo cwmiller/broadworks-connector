@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a 
  *         EnterpriseCommunicationBarringAuthorizationCodeGetResponse or an
  * ErrorResponse.
+ *
+ * @see EnterpriseCommunicationBarringAuthorizationCodeGetResponse
+ * @see ErrorResponse
  */
 class EnterpriseCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

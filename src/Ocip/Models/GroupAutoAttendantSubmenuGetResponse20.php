@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAutoAttendantSubmenuGetRequest20.
  *         Contains AutoAttendant submenu information.
+ *
+ * @see GroupAutoAttendantSubmenuGetRequest20
  */
 class GroupAutoAttendantSubmenuGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

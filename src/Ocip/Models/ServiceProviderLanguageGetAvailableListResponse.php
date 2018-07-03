@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderLanguageGetAvailableListRequest.
  *         The language table column headings are: "Language", "Locale" and
  * "Encoding".
+ *
+ * @see ServiceProviderLanguageGetAvailableListRequest
  */
 class ServiceProviderLanguageGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

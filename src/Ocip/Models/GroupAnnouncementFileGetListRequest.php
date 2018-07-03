@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of available announcement files for a Group.
  *         The response is either a GroupAnnouncementFileGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupAnnouncementFileGetListResponse
+ * @see ErrorResponse
  */
 class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

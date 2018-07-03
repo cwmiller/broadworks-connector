@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallCenterAgentDetailsGetRequest. 
  *         Contains the detail information for a Call Center Agent.
+ *
+ * @see UserCallCenterAgentDetailsGetRequest
  */
 class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

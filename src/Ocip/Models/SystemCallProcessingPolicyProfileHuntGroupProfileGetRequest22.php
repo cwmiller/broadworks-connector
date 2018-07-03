@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22 or an
  *         ErrorResponse.
+ *
+ * @see SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22
+ * @see ErrorResponse
  */
 class SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

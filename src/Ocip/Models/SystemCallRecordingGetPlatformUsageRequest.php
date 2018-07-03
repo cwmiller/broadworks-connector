@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * platform.
  *         The response is either SystemCallRecordingGetPlatformUsageResponse or
  * ErrorResponse.
+ *
+ * @see SystemCallRecordingGetPlatformUsageResponse
+ * @see ErrorResponse
  */
 class SystemCallRecordingGetPlatformUsageRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

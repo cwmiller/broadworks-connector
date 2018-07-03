@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of home zones of the BroadWorks Mobile Manager.
  *         The response is either
  * EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse or ErrorResponse.
+ *
+ * @see EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse
+ * @see ErrorResponse
  */
 class EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingNotReachableGetResponse
  *
  * Response to UserCallForwardingNotReachableGetRequest.
+ *
+ * @see UserCallForwardingNotReachableGetRequest
  */
 class UserCallForwardingNotReachableGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

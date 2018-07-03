@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          enableCallParkNotification
  *          
  *         Replaced by: UserSharedCallAppearanceGetResponse21sp1.
+ *
+ * @see UserSharedCallAppearanceGetRequest
+ * @see UserSharedCallAppearanceGetResponse21sp1
  */
 class UserSharedCallAppearanceGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

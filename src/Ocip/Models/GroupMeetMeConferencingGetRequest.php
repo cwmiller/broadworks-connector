@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group level data associated with Meet-Me Conferencing functions.
  *         The response is either a GroupMeetMeConferencingGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupMeetMeConferencingGetResponse
+ * @see ErrorResponse
  */
 class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

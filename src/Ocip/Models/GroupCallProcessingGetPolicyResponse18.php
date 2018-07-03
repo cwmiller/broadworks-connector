@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enableDialableCallerID
  *           allowConfigurableCLIDForRedirectingIdentity
  *           allowDepartmentCLIDNameOverride
+ *
+ * @see GroupCallProcessingGetPolicyRequest18
  */
 class GroupCallProcessingGetPolicyResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

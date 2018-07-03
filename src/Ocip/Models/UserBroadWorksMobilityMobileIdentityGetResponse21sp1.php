@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a UserBroadWorksMobilityMobileIdentityGetRequest21sp1.
  *          
  *          Replaced by: UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2.
+ *
+ * @see UserBroadWorksMobilityMobileIdentityGetRequest21sp1
+ * @see UserBroadWorksMobilityMobileIdentityGetResponse21sp1
  */
 class UserBroadWorksMobilityMobileIdentityGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

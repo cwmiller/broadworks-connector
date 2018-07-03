@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the transfer numbers for a user.
  *         The response is either a
  * UserOutgoingCallingPlanTransferNumbersGetResponse or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanTransferNumbersGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanTransferNumbersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

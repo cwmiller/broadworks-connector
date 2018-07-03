@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of all Office Zones assigned to the
  *         service provider. The column headings are: "Name", "Description" and
  * "Default".
+ *
+ * @see ServiceProviderOfficeZoneGetAssignedListRequest
  */
 class ServiceProviderOfficeZoneGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

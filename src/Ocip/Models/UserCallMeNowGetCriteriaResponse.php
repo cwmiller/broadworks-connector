@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallMeNowGetCriteriaResponse
  *
  * Response to the UserCallMeNowGetCriteriaRequest.
+ *
+ * @see UserCallMeNowGetCriteriaRequest
  */
 class UserCallMeNowGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

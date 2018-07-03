@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderServicePackMigrationTaskGetResponse21
  *         or ErrorResponse.
+ *
+ * @see ServiceProviderServicePackMigrationTaskGetResponse21
+ * @see ErrorResponse
  */
 class ServiceProviderServicePackMigrationTaskGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

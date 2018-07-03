@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseEnterpriseTrunkGetListRequest.
  *         Contains a table of enterprise trunks defined in the enterprise
  *         The column headings are: "Enterprise Trunk Name", "Routing Type"
+ *
+ * @see EnterpriseEnterpriseTrunkGetListRequest
  */
 class EnterpriseEnterpriseTrunkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

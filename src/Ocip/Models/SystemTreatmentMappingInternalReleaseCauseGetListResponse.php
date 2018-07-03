@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingInternalReleaseCauseGetListRequest. Contains
  * a table with one row per mapping.
  *         The table columns are: "Internal Release Cause", "Treatment Id".
+ *
+ * @see SystemTreatmentMappingInternalReleaseCauseGetListRequest
  */
 class SystemTreatmentMappingInternalReleaseCauseGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

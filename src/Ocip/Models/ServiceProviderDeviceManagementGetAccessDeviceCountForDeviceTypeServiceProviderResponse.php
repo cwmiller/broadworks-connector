@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to
  * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest.
+ *
+ * @see
+ * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest
  */
 class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

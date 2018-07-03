@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPortalPasscodeGetInfoResponse
  *
  * Response to UserPortalPasscodeGetInfoRequest.
+ *
+ * @see UserPortalPasscodeGetInfoRequest
  */
 class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

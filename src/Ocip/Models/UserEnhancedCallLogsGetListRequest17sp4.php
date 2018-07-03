@@ -23,6 +23,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         Replaced by UserEnhancedCallLogsGetListRequest17sp4V2.
  *         Originally deprecated in release 20.
+ *
+ * @see maxNonPagedResponse
+ * @see UserEnhancedCallLogsGetListResponse17sp4
+ * @see ErrorResponse
+ * @see UserEnhancedCallLogsGetListRequest17sp4
  */
 class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

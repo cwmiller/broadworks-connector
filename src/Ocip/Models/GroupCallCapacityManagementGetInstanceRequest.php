@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets a Call Capacity Management group.
  *         The response is either GroupCallCapacityManagementGetInstanceResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallCapacityManagementGetInstanceResponse
+ * @see ErrorResponse
  */
 class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

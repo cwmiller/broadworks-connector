@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a Call Center instance.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced by: GroupCallCenterModifyInstanceRequest22.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterModifyInstanceRequest22
  */
 class GroupCallCenterModifyInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemConfigurableTreatmentGetListRequest. Contains a table with
  * one row per treatment.
  *         The table columns are: "Treatment Id", "Description".
+ *
+ * @see SystemConfigurableTreatmentGetListRequest
  */
 class SystemConfigurableTreatmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

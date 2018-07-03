@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced By : ServiceProviderNetworkClassOfServiceUnassignListRequest21
  * in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ServiceProviderNetworkClassOfServiceUnassignListRequest21
  */
 class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

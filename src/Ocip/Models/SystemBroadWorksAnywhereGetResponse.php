@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksAnywhereGetResponse
  *
  * The response to a SystemBroadWorksAnywhereGetRequest.
+ *
+ * @see SystemBroadWorksAnywhereGetRequest
  */
 class SystemBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

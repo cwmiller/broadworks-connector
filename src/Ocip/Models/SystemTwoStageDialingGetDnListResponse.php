@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemTwoStageDialingGetDnListRequest.
  *           The Two Stage Dialing DN List table column
  *           headings are: "Phone Number",  "Description".
+ *
+ * @see SystemTwoStageDialingGetDnListRequest
  */
 class SystemTwoStageDialingGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * service.
  *         The response is either a UserMWIDeliveryToMobileEndpointGetResponse or
  * an ErrorResponse.
+ *
+ * @see UserMWIDeliveryToMobileEndpointGetResponse
+ * @see ErrorResponse
  */
 class UserMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAutoAttendantGetInstanceRequest14.
  *         Contains the service profile information.
  *         Replaced By: GroupAutoAttendantGetInstanceResponse16
+ *
+ * @see GroupAutoAttendantGetInstanceRequest14
+ * @see GroupAutoAttendantGetInstanceResponse16
  */
 class GroupAutoAttendantGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

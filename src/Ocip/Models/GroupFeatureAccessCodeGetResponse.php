@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupFeatureAccessCodeGetRequest.
  *         
  *         Replaced by: GroupFeatureAccessCodeGetResponse21 in AS data mode
+ *
+ * @see GroupFeatureAccessCodeGetRequest
+ * @see GroupFeatureAccessCodeGetResponse21
  */
 class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

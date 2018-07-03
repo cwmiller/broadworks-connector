@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDepartmentAdminGetListRequest.
  *         Contains a 5 column table with column headings "Administrator ID",
  *         "Last Name", "First Name", "Department", "Language".
+ *
+ * @see GroupDepartmentAdminGetListRequest
  */
 class GroupDepartmentAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceAvailablePortGetListRequest.
  *         Contains a list of available ports in a device using static mode. The
  * list is empty in case the device is using dynamic mode.
+ *
+ * @see GroupAccessDeviceAvailablePortGetListRequest
  */
 class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

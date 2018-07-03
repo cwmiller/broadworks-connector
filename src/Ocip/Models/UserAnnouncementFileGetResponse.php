@@ -20,6 +20,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * contans the instance id and the DNIS id.
  *         For Auto Attendants with submenus and the announcement is used by a
  * submenu the "Instance Name" column will contain the submenu name
+ *
+ * @see UserAnnouncementFileGetRequest
  */
 class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

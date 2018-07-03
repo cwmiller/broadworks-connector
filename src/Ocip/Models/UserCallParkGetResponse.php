@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", "Hiragana Last Name", 
  *         "Hiragana First Name".  The users are in the table in the order they
  * will try to be parked on.
+ *
+ * @see UserCallParkGetRequest
  */
 class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

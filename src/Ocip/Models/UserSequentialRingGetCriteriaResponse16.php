@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSequentialRingGetCriteriaResponse16
  *
  * Response to the UserSequentialRingGetCriteriaRequest16.
+ *
+ * @see UserSequentialRingGetCriteriaRequest16
  */
 class UserSequentialRingGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

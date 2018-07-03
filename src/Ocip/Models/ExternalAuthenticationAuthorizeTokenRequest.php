@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         3) The above string then is used to populate the password field in the
  * request.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ExternalAuthenticationAuthorizeTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

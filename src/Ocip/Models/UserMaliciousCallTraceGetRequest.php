@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Malicious Call Trace.
  *         The response is either a UserMaliciousCallTraceGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserMaliciousCallTraceGetResponse
+ * @see ErrorResponse
  */
 class UserMaliciousCallTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

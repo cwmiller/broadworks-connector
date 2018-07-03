@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingTargetsCapacityGetResponse
  *
  * Response to GroupGroupPagingTargetsCapacityGetRequest.
+ *
+ * @see GroupGroupPagingTargetsCapacityGetRequest
  */
 class GroupGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

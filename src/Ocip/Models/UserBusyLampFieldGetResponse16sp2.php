@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
  * First Name",
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
+ *
+ * @see UserBusyLampFieldGetRequest16sp2
  */
 class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

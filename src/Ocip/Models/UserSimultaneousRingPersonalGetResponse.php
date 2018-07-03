@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserSimultaneousRingPersonalGetRequest.
  *         Replaced By: UserSimultaneousRingPersonalGetResponse14sp4
+ *
+ * @see UserSimultaneousRingPersonalGetRequest
+ * @see UserSimultaneousRingPersonalGetResponse14sp4
  */
 class UserSimultaneousRingPersonalGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

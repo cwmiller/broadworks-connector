@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Call Me Now call permissions for digit patterns for a user.
  *         The response is either a
  * UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanDigitPlanCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

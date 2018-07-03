@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSimultaneousRingPersonalGetRequest14sp4.
  *         Contains a table with column headings: "Phone Number", "Answer
  * Confirmation Required".
+ *
+ * @see UserSimultaneousRingPersonalGetRequest14sp4
  */
 class UserSimultaneousRingPersonalGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

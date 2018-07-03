@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * device type is SIP.
  * 		
  * 		Replaced by: SystemSIPDeviceTypeGetRequest21sp1.
+ *
+ * @see SystemDeviceTypeGetResponse19
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeGetRequest21sp1
  */
 class SystemDeviceTypeGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

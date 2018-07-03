@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemEnhancedCallLogsGetResponse22
  *
  * Response to SystemEnhancedCallLogsGetRequest22.
+ *
+ * @see SystemEnhancedCallLogsGetRequest22
  */
 class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

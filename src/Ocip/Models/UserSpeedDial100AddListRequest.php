@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add one or more speed dial 100 settings for a user.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserSpeedDial100AddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

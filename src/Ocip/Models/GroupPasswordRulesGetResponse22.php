@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupPasswordRulesGetRequest22.
  *         Contains the password rules applicable to users within the group.
+ *
+ * @see GroupPasswordRulesGetRequest22
  */
 class GroupPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

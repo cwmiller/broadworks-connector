@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetFailoverPolicyResponse
  *
  * Response to the GroupRoutePointGetFailoverPolicyRequest.
+ *
+ * @see GroupRoutePointGetFailoverPolicyRequest
  */
 class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

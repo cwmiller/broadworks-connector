@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of media under a media group.
  *         The response is either SystemMediaGroupCodecGetListResponse or
  * ErrorResponse.
+ *
+ * @see SystemMediaGroupCodecGetListResponse
+ * @see ErrorResponse
  */
 class SystemMediaGroupCodecGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

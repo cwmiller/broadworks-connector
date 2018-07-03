@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of defined service packs for a service provider.
  *         The response is either ServiceProviderServicePackGetListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderServicePackGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderServicePackGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

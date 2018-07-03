@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderMeetMeConferencingGetResponse
  *
  * Response to ServiceProviderMeetMeConferencingGetRequest.
+ *
+ * @see ServiceProviderMeetMeConferencingGetRequest
  */
 class ServiceProviderMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemTrunkGroupGetResponse or ErrorResponse.
  *         
  *         Replaced by: SystemTrunkGroupGetRequest19sp1.
+ *
+ * @see SystemTrunkGroupGetResponse
+ * @see ErrorResponse
+ * @see SystemTrunkGroupGetRequest19sp1
  */
 class SystemTrunkGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

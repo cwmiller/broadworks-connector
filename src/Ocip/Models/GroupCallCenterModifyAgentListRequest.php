@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         If the agentUserIdList is used for Skill Based Premium call centers, 
  *         the agents will be set to skill level 1.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterModifyAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

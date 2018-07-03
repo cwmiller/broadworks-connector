@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Active".
  *         "Is Active" is "true" or "false".
  *         "Phone Number" is presented in the E164 format.
+ *
+ * @see GroupUserCallWaitingSettingsGetListRequest
  */
 class GroupUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

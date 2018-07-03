@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemHuntGroupGetResponse or an
  *         ErrorResponse.
  *         Replaced by: SystemHuntGroupGetRequest17
+ *
+ * @see SystemHuntGroupGetResponse
+ * @see ErrorResponse
+ * @see SystemHuntGroupGetRequest17
  */
 class SystemHuntGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

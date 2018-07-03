@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeGetResponse17
  *
  * Response to SystemSIPDeviceTypeGetRequest17.
+ *
+ * @see SystemSIPDeviceTypeGetRequest17
  */
 class SystemSIPDeviceTypeGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

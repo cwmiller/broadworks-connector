@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Feature Access Codes, depending on FAC code level.
  *         
  *         Replaced by: GroupFeatureAccessCodeGetRequest21 in AS data mode
+ *
+ * @see GroupFeatureAccessCodeGetResponse
+ * @see ErrorResponse
+ * @see GroupFeatureAccessCodeGetRequest21
  */
 class GroupFeatureAccessCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

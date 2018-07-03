@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * defined.
  *           
  *           Replaced by: SystemSIPDeviceTypeFileGetResponse20 in AS data mode
+ *
+ * @see SystemSIPDeviceTypeFileGetRequest19
+ * @see SystemSIPDeviceTypeFileGetResponse20
  */
 class SystemSIPDeviceTypeFileGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

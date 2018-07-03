@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             Contains a hosted user table with column headings: "User Id", "Last
  * Name",
  *             "First Name", "Hiragana Last Name", "Hiragana First Name".
+ *
+ * @see GroupTrunkGroupGetInstanceRequest15
  */
 class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

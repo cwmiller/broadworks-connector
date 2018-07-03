@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group Communication Barring Authorization Code setting.
  *         The response is either a
  * GroupCommunicationBarringAuthorizationCodeGetResponse or an ErrorResponse.
+ *
+ * @see GroupCommunicationBarringAuthorizationCodeGetResponse
+ * @see ErrorResponse
  */
 class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

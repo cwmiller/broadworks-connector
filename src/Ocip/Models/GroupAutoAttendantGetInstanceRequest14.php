@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupAutoAttendantGetInstanceResponse or
  * ErrorResponse.
  *         Replaced By: GroupAutoAttendantGetInstanceRequest16
+ *
+ * @see GroupAutoAttendantGetInstanceResponse
+ * @see ErrorResponse
+ * @see GroupAutoAttendantGetInstanceRequest16
  */
 class GroupAutoAttendantGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

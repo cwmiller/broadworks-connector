@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following columns are only returned in AS data mode:       
  *           "Disable National Prefix for OffNet Calls"
+ *
+ * @see SystemCountryCodeGetListRequest
  */
 class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

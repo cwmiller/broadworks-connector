@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallProcessingGetPolicyResponse14sp1
  *
  * Response to GroupCallProcessingGetPolicyRequest14sp1.
+ *
+ * @see GroupCallProcessingGetPolicyRequest14sp1
  */
 class GroupCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

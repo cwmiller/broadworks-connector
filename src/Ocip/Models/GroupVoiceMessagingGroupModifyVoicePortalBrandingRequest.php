@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the group's voice portal branding settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16
  */
 class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

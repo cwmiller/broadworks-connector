@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the Integrated IMP specific service attribute for the user.
  *         The response is either UserIMPGetResponse or ErrorResponse.
+ *
+ * @see UserIMPGetResponse
+ * @see ErrorResponse
  */
 class UserIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -18,6 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The service pack table's column headings are:
  *           "Service Pack Name", "Authorized", "Assigned", "Limited", "Allocated",
  * "Allowed", "Usage", "Description".
+ *
+ * @see GroupServiceGetAuthorizationListRequest
  */
 class GroupServiceGetAuthorizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

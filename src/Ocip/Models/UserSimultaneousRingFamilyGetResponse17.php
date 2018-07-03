@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSimultaneousRingFamilyGetRequest17.
  *         Contains a criteria table wich column heading: "Is Active", "Criteria
  * Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
+ *
+ * @see UserSimultaneousRingFamilyGetRequest17
  */
 class UserSimultaneousRingFamilyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

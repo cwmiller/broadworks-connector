@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSpeedDial100GetListRequest.
  *         
  *         Replaced by: UserSpeedDial100GetListResponse17Sp1
+ *
+ * @see UserSpeedDial100GetListRequest
+ * @see UserSpeedDial100GetListResponse17
  */
 class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

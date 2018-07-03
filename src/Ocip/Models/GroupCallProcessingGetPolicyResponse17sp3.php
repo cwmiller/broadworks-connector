@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            enableDialableCallerID
  *            
  *           Replaced by GroupCallProcessingGetPolicyResponse17sp4
+ *
+ * @see GroupCallProcessingGetPolicyRequest17sp3
+ * @see GroupCallProcessingGetPolicyResponse17sp4
  */
 class GroupCallProcessingGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

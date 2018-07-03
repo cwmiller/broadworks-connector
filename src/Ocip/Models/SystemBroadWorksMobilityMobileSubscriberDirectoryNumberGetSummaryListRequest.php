@@ -16,6 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
+ *
+ * @see
+ * SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
+ * @see ErrorResponse
  */
 class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * headings :
  *         "Name", "Status", "Users Created", "Total Users To Create", "Error
  * Count".
+ *
+ * @see GroupTrunkGroupUserCreationTaskGetListRequest
  */
 class GroupTrunkGroupUserCreationTaskGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

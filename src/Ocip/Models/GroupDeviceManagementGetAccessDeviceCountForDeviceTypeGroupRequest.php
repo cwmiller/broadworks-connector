@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse or
  * ErrorResponse.
+ *
+ * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
+ * @see ErrorResponse
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

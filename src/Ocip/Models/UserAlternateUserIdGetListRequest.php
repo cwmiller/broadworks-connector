@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either UserAlternateUserIdGetListResponse or
  * ErrorResponse.
  *         The "userId" can be either the user Id or an alternate user Id.
+ *
+ * @see UserAlternateUserIdGetListResponse
+ * @see ErrorResponse
  */
 class UserAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

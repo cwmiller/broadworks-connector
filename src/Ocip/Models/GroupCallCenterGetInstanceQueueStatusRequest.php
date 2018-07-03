@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get Call Center queue status.
  *         The response is either GroupCallCenterGetInstanceQueueStatusResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallCenterGetInstanceQueueStatusResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetInstanceQueueStatusRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

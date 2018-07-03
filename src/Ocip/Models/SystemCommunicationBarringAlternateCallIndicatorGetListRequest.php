@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in the system. The response is either a
  * SystemCommunicationBarringAlternateCallIndicatorGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCommunicationBarringAlternateCallIndicatorGetListResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringAlternateCallIndicatorGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

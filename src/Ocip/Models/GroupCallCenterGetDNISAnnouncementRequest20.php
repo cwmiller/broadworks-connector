@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's DNIS Announcements
  *         The response is either a GroupCallCenterGetDNISAnnouncementRequest20 or
  * an ErrorResponse.
+ *
+ * @see GroupCallCenterGetDNISAnnouncementRequest20
+ * @see ErrorResponse
  */
 class GroupCallCenterGetDNISAnnouncementRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

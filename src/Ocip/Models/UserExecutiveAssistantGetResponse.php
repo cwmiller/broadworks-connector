@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Assistant Opt-in Status" and "Executive Allow Opt-in".
  *         The possible values for "Assistant Opt-in Status" and "Executive Allow
  * Opt-in" columns are "true" and "false".
+ *
+ * @see UserExecutiveAssistantGetRequest
  */
 class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

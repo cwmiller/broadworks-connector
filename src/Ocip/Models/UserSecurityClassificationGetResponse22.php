@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in Amplify data mode and not
  * returned in AS and XS data mode:
  *           customizedSecurityClassification
+ *
+ * @see UserSecurityClassificationGetRequest22
  */
 class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserVoiceMessagingUserGetVoiceManagementResponse13mp8 or an ErrorResponse.
  *         Replaced by: UserVoiceMessagingUserGetVoiceManagementRequest17
+ *
+ * @see UserVoiceMessagingUserGetVoiceManagementResponse13
+ * @see ErrorResponse
+ * @see UserVoiceMessagingUserGetVoiceManagementRequest17
  */
 class UserVoiceMessagingUserGetVoiceManagementRequest13mp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

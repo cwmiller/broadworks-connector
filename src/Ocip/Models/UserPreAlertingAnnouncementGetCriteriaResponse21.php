@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPreAlertingAnnouncementGetCriteriaResponse21
  *
  * Response to the UserPreAlertingAnnouncementGetCriteriaRequest21.
+ *
+ * @see UserPreAlertingAnnouncementGetCriteriaRequest21
  */
 class UserPreAlertingAnnouncementGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by:
  * SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse22
+ *
+ * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest
+ * @see SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse22
  */
 class SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

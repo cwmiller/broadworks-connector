@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get all the attributes of a configurable treatment.
  *         The response is either a SystemConfigurableTreatmentGetResponse16 or an
  * ErrorResponse.
+ *
+ * @see SystemConfigurableTreatmentGetResponse16
+ * @see ErrorResponse
  */
 class SystemConfigurableTreatmentGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

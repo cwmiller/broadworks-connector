@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemLanguageGetListRequest.
  *         The language table column headings are: "Language", "Locale" and
  * "Encoding".
+ *
+ * @see SystemLanguageGetListRequest
  */
 class SystemLanguageGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

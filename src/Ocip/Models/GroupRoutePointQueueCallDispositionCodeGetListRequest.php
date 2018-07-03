@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of Route Point Level and Organization Level Call Disposition Codes.
  *         The response is either
  * GroupRoutePointQueueCallDispositionCodeGetListResponse or ErrorResponse.
+ *
+ * @see GroupRoutePointQueueCallDispositionCodeGetListResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointQueueCallDispositionCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

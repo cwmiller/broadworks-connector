@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupFlexibleSeatingAccessDeviceGetListResponse
  * or
  *         ErrorResponse.
+ *
+ * @see GroupFlexibleSeatingAccessDeviceGetListResponse
+ * @see ErrorResponse
  */
 class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

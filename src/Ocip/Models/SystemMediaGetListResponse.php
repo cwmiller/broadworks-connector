@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMediaGetListRequest. The column headings are
  *         "Media Name", "Codec", "Media Type", "Bandwidth Enforcement Type" and
  * "Bandwidth".
+ *
+ * @see SystemMediaGetListRequest
  */
 class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

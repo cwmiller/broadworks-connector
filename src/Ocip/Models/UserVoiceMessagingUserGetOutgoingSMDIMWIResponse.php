@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetOutgoingSMDIMWIResponse
  *
  * Response to the UserVoiceMessagingUserGetOutgoingSMDIMWIRequest.
+ *
+ * @see UserVoiceMessagingUserGetOutgoingSMDIMWIRequest
  */
 class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

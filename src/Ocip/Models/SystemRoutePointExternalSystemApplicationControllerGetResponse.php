@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRoutePointExternalSystemApplicationControllerGetResponse
  *
  * Response to the SystemRoutePointExternalSystemApplicationControllerGetRequest.
+ *
+ * @see SystemRoutePointExternalSystemApplicationControllerGetRequest
  */
 class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

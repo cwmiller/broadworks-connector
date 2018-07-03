@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *         The response contains the call processing policy profile setting for
  * Auto Attendant.
+ *
+ * @see SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequestResponse22
+ * @see ErrorResponse
  */
 class SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

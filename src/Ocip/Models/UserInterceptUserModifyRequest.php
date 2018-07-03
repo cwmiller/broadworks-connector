@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user's intercept user service settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: UserInterceptUserModifyRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserInterceptUserModifyRequest16
  */
 class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

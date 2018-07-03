@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemInterceptUserGetDnListRequest.
  *           The Intercept User DN List.
+ *
+ * @see SystemInterceptUserGetDnListRequest
  */
 class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the Voice VPN default settings for the enterprise.
  *         The response is EnterpriseVoiceVPNGetDefaultResponse or ErrorResponse.
+ *
+ * @see EnterpriseVoiceVPNGetDefaultResponse
+ * @see ErrorResponse
  */
 class EnterpriseVoiceVPNGetDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

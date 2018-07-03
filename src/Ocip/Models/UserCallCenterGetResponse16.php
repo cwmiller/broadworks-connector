@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * call center in the list.
  *         Contains a table with column headings: "Service User Id", "Phone
  * Number", "Extension", "Available", "Logoff Allowed", "Type", and "Priority".
+ *
+ * @see UserCallCenterGetRequest16
  */
 class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

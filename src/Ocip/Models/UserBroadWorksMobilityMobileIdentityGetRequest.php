@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or an ErrorResponse.
  *         
  *         Replaced by: UserBroadWorksMobilityMobileIdentityGetRequest21sp1.
+ *
+ * @see UserBroadWorksMobilityMobileIdentityGetResponse
+ * @see ErrorResponse
+ * @see UserBroadWorksMobilityMobileIdentityGetRequest21sp1
  */
 class UserBroadWorksMobilityMobileIdentityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

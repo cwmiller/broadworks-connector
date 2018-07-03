@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a service access code to a list.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemBroadWorksMobilityServiceAccessCodeAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings for the enterpriseTrunkUserTable are: "User Id",
  * "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
+ *
+ * @see GroupEnterpriseTrunkGetAvailableUserListRequest
  */
 class GroupEnterpriseTrunkGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

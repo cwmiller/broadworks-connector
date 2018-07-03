@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of Calling Party Category defined in system.
  *         The column headings are: "Category Name", "User Category", "Collect
  * Call", "Default" and "Web Display Key".
+ *
+ * @see SystemCallingPartyCategoryGetListRequest
  */
 class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

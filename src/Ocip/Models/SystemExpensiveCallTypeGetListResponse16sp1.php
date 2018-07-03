@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExpensiveCallTypeGetListRequest16sp1.
  *         The column headings are:
  *         "Alternate Call Indicator", "Treatment Audio File".
+ *
+ * @see SystemExpensiveCallTypeGetListRequest16sp1
  */
 class SystemExpensiveCallTypeGetListResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

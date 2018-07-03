@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * settings.
  *         The response is either a
  * ServiceProviderSIPAuthenticationPasswordRulesGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderSIPAuthenticationPasswordRulesGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderSIPAuthenticationPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

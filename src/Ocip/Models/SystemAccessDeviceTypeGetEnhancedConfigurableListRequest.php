@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * SystemAccessDeviceTypeGetEnhancedConfigurableListResponse
  *         or ErrorResponse.
+ *
+ * @see SystemAccessDeviceTypeGetEnhancedConfigurableListResponse
+ * @see ErrorResponse
  */
 class SystemAccessDeviceTypeGetEnhancedConfigurableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

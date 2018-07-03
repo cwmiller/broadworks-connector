@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserBroadWorksAnywhereGetRequest16sp2.
  *         The phoneNumberTable contains columns: "Phone Number", "Description"
+ *
+ * @see UserBroadWorksAnywhereGetRequest16sp2
  */
 class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

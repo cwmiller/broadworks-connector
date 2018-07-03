@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the utilization of a single DN.
  *         The response is either SystemDnGetUtilizationResponse or ErrorResponse.
  *         Replaced By: SystemDnGetUtilizationRequest14sp3
+ *
+ * @see SystemDnGetUtilizationResponse
+ * @see ErrorResponse
+ * @see SystemDnGetUtilizationRequest14sp3
  */
 class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

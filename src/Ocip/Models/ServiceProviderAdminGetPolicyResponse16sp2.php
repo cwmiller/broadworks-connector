@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the policy settings for the service provider administrator.
  *         The networkPolicyAccess is returned only for the enterprise
  * administrator.
+ *
+ * @see ServiceProviderAdminGetPolicyRequest16sp1
+ * @see ServiceProviderAdminGetPolicyRequest16sp2
  */
 class ServiceProviderAdminGetPolicyResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

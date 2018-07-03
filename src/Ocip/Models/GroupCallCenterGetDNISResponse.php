@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetDNISResponse
  *
  * Response to the GroupCallCenterGetDNISResponse.
+ *
+ * @see GroupCallCenterGetDNISResponse
  */
 class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

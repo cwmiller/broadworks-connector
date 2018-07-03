@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderExternalCustomRingbackGetResponse
  *
  * Response to ServiceProviderExternalCustomRingbackGetRequest.
+ *
+ * @see ServiceProviderExternalCustomRingbackGetRequest
  */
 class ServiceProviderExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

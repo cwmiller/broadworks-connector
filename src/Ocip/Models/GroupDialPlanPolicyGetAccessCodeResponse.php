@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDialPlanPolicyGetAccessCodeResponse
  *
  * Response to GroupDialPlanPolicyGetAccessCodeRequest
+ *
+ * @see GroupDialPlanPolicyGetAccessCodeRequest
  */
 class GroupDialPlanPolicyGetAccessCodeResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         3. and, the device type of the device does support Device Management.
  *         The response is either UserSingleSignOnCreateDeviceTokenResponse
  *         or ErrorResponse.
+ *
+ * @see UserSingleSignOnCreateDeviceTokenResponse
+ * @see ErrorResponse
  */
 class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

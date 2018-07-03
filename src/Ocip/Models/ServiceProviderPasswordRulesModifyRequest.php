@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         setting applicable to Administrators (Group and Department) and Users.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced By: ServiceProviderPasswordRulesModifyRequest14sp3
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ServiceProviderPasswordRulesModifyRequest14sp3
  */
 class ServiceProviderPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

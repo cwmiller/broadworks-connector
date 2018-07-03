@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Call Recording attributes for a user.
  *         The response is either a UserCallRecordingGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserCallRecordingGetResponse
+ * @see ErrorResponse
  */
 class UserCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

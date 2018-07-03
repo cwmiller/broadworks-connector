@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemShInterfaceParametersGetRequest.  Contains the Sh Interface
  * system parameters.
+ *
+ * @see SystemShInterfaceParametersGetRequest
  */
 class SystemShInterfaceParametersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

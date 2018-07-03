@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * part of a department.
  *         The "Mobile Network" column contains the Mobile Network the number
  * belongs to.
+ *
+ * @see
+ * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

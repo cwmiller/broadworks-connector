@@ -32,6 +32,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enableEnterpriseExtensionDialing)
  *        
  *         Replaced by: GroupCallProcessingGetPolicyRequest21sp1
+ *
+ * @see GroupCallProcessingGetPolicyResponse19sp1
+ * @see ErrorResponse
+ * @see GroupCallProcessingGetPolicyRequest21sp1
  */
 class GroupCallProcessingGetPolicyRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

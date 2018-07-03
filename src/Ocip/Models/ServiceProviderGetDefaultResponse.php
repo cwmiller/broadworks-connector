@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS and XS data mode and not
  * returned in Amplify data mode.
  *           defaultDomain
+ *
+ * @see ServiceProviderGetDefaultRequest
  */
 class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

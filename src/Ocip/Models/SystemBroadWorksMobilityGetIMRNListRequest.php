@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * system.
  *         The response is either a SystemBroadWorksMobilityGetIMRNListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemBroadWorksMobilityGetIMRNListResponse
+ * @see ErrorResponse
  */
 class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest.
  *         Contains a table of groups that have the Communication Barring Profile 
  *         assigned. The column headings are: "Group Id" and "Group Name".
+ *
+ * @see ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest
  */
 class ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

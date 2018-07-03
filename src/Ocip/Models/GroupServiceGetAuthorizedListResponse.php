@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupServiceGetAuthorizedListResponse
  *
  * Response to GroupServiceGetAuthorizedListRequest.
+ *
+ * @see GroupServiceGetAuthorizedListRequest
  */
 class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

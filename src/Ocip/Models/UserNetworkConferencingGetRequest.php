@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Network-Based Conferencing data for a specified user.
  *         The response is either a UserNetworkConferencingGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserNetworkConferencingGetResponse
+ * @see ErrorResponse
  */
 class UserNetworkConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

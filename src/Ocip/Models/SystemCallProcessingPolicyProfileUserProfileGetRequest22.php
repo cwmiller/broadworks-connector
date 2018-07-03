@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * subscriber type profile.
  *         The response is either a
  * SystemCallProcessingPolicyProfileUserProfileGetResponse22 or an ErrorResponse.
+ *
+ * @see SystemCallProcessingPolicyProfileUserProfileGetResponse22
+ * @see ErrorResponse
  */
 class SystemCallProcessingPolicyProfileUserProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

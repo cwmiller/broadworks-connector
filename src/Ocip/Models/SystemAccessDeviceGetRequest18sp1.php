@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the configuration of a specified system access device.
  *         The response is either SystemAccessDeviceGetResponse18sp1 or
  * ErrorResponse.
+ *
+ * @see SystemAccessDeviceGetResponse18sp1
+ * @see ErrorResponse
  */
 class SystemAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the originating permissions for digit patterns for a user.
  *         The response is either a
  * UserOutgoingCallingPlanDigitPlanOriginatingGetResponse or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanDigitPlanOriginatingGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanDigitPlanOriginatingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Last Name", "First Name", "Phone Number", "Alternate Trunk Identity", "Hiragana
  * Last Name", "Hiragana First Name",
  *         "Extension", "Department", "Email Address" and "Route List Assigned".
+ *
+ * @see GroupEnterpriseTrunkGetUserListRequest
  */
 class GroupEnterpriseTrunkGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

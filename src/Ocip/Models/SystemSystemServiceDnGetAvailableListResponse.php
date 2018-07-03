@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSystemServiceDnGetAvailableListRequest.
  *         Contains a list of available DNs not yet assigned to any instance of
  * system service.
+ *
+ * @see SystemSystemServiceDnGetAvailableListRequest
  */
 class SystemSystemServiceDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

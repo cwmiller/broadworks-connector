@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of all Route Point External Systems assigned to a group.
  *         The response is either
  * GroupRoutePointExternalSystemGetAssignedListResponse or ErrorResponse.
+ *
+ * @see GroupRoutePointExternalSystemGetAssignedListResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointExternalSystemGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

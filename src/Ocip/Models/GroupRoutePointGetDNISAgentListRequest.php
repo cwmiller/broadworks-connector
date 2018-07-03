@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of agent who selected the DNIS as the outgoing call.
  *         The response is either GroupRoutePointGetDNISAgentListResponse or
  * ErrorResponse.
+ *
+ * @see GroupRoutePointGetDNISAgentListResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

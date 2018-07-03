@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Find-me/Follow-me alerting group.
  *         The response is either GroupFindMeFollowMeGetAlertingGroupResponse or
  * ErrorResponse.
+ *
+ * @see GroupFindMeFollowMeGetAlertingGroupResponse
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeGetAlertingGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

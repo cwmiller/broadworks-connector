@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of state and province names.
  *         The response is either SystemStateOrProvinceGetListResponse or
  * ErrorResponse.
+ *
+ * @see SystemStateOrProvinceGetListResponse
+ * @see ErrorResponse
  */
 class SystemStateOrProvinceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest.
  *         Contains a table with column headings:
  *         "Trunk Group Name","Group ID","Organization ID" and "Organization Type"
+ *
+ * @see SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest
  */
 class SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

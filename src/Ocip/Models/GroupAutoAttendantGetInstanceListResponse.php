@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         In XS Mode the value for the "Type" column will always be populated with
  * Basic.
+ *
+ * @see GroupAutoAttendantGetInstanceListRequest
  */
 class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

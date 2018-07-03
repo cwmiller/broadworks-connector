@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMediaSetGetListResponse
  *
  * Response to SystemMediaSetGetRequest.
+ *
+ * @see SystemMediaSetGetRequest
  */
 class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderExternalCustomRingbackGetResponse or an
  *         ErrorResponse.
+ *
+ * @see ServiceProviderExternalCustomRingbackGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderExternalCustomRingbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         SystemAccountingInhibitedAttributeValuePairCodeGetListRequest. Contains
  * a 2 column
  *         table with column headings "Attribute Value Pair Code" and "Vendor Id".
+ *
+ * @see SystemAccountingInhibitedAttributeValuePairCodeGetListRequest
  */
 class SystemAccountingInhibitedAttributeValuePairCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

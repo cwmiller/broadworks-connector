@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: GroupBroadWorksAnywhereGetInstanceResponse19sp1 in AS data
  * mode
+ *
+ * @see GroupBroadWorksAnywhereGetInstanceRequest17
+ * @see GroupBroadWorksAnywhereGetInstanceResponse19sp1
  */
 class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

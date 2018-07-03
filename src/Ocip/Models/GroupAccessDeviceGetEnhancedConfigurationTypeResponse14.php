@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
  *
  * Response to GroupAccessDeviceGetEnhancedConfigurationTypeRequest14.
+ *
+ * @see GroupAccessDeviceGetEnhancedConfigurationTypeRequest14
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

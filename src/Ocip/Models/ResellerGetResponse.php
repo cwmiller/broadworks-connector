@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerGetResponse
  *
  * Response to the ResellerGetRequest.
+ *
+ * @see ResellerGetRequest
  */
 class ResellerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

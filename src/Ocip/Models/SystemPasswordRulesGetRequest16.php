@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemPasswordRulesGetRequest22 in AS data mode.
+ *
+ * @see SystemPasswordRulesGetResponse16
+ * @see ErrorResponse
+ * @see SystemPasswordRulesGetRequest22
  */
 class SystemPasswordRulesGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

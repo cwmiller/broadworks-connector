@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table columns are:  "Phone Number", "Id",
  *         "Name", and "System Service".
  *         The possible values for "System Service" is "System Voice Portal".
+ *
+ * @see SystemSystemServiceDnGetUsageListRequest
  */
 class SystemSystemServiceDnGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

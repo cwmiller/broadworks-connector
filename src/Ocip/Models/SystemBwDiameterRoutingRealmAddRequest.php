@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a static entry in the Realm Routing Table.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemBwDiameterRoutingRealmAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

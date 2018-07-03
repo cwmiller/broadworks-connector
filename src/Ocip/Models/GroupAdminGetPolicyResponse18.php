@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the policy settings for the group administrator.
  *         The following elements are only used in AS data mode:
  *             dialableCallerIDAccess
+ *
+ * @see GroupAdminGetPolicyRequest18
  */
 class GroupAdminGetPolicyResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

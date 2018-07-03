@@ -19,6 +19,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "User Id",  "Registration Id",  "Application Id",  "Application
  * Version",  "Device Os Type",  
  *         "Device Os Version",  "Registration Date",  "Token",  "Events"
+ *
+ * @see UserPushNotificationRegistrationGetListRequest
  */
 class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

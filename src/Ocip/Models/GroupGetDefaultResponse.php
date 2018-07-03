@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupGetDefaultRequest. All values are default values for a
  * group's profile.
+ *
+ * @see GroupGetDefaultRequest
  */
 class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

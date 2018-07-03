@@ -15,6 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           deviceToken
  * 		  
  * 		Replaced by: DeviceManagementFileAuthLocationGetRequest21sp1.
+ *
+ * @see DeviceManagementFileAuthLocationGetResponse21
+ * @see ErrorResponse
+ * @see DeviceManagementFileAuthLocationGetRequest21sp1
  */
 class DeviceManagementFileAuthLocationGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

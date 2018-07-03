@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse
  *
  * Response to the EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest.
+ *
+ * @see EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest
  */
 class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

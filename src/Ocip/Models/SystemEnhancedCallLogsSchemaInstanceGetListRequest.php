@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       (users part of a group or service provider using that schema instance). 
  *       The response is either a
  * SystemEnhancedCallLogsSchemaInstanceGetListResponse or an ErrorResponse.
+ *
+ * @see SystemEnhancedCallLogsSchemaInstanceGetListResponse
+ * @see ErrorResponse
  */
 class SystemEnhancedCallLogsSchemaInstanceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           User id and shared key, no login token = Shared Key login.
  *         
  *         Replaced by AuthenticationVerificationRequest22V2 in AS data mode.
+ *
+ * @see AuthenticationVerificationRequest
+ * @see AuthenticationVerificationRequest22
  */
 class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

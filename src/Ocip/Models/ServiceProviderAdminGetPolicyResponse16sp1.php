@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The networkPolicyAccess is returned only for the enterprise
  * administrator.
  *         Replaced by: ServiceProviderAdminGetPolicyResponse17
+ *
+ * @see ServiceProviderAdminGetPolicyRequest16sp1
+ * @see ServiceProviderAdminGetPolicyResponse17
  */
 class ServiceProviderAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

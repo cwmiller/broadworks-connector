@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Activated" column indicates if the DN has been activated. 
  *         Only has a value if the DN(s) is assigned to a user or if "Group
  *         Enable Activation Mode" is enabled.
+ *
+ * @see GroupDnGetDetailedAvailableListRequest
  */
 class GroupDnGetDetailedAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

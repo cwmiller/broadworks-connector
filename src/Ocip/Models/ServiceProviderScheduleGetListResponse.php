@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderScheduleGetListRequest.
  *         The response contains a list of service provider schedules.
+ *
+ * @see ServiceProviderScheduleGetListRequest
  */
 class ServiceProviderScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

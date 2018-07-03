@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         with the SystemAccountingGetChargingFunctionElementServerListRequest
  * command.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SystemAccountingGetChargingFunctionElementServerListRequest
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

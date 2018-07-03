@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemCollaborateGetRequest20sp1
+ *
+ * @see SystemCollaborateGetResponse
+ * @see ErrorResponse
+ * @see SystemCollaborateGetRequest20sp1
  */
 class SystemCollaborateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

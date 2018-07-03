@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSecurityClassificationGetResponse
  *
  * Response to the UserSecurityClassificationGetRequest.
+ *
+ * @see UserSecurityClassificationGetRequest
  */
 class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

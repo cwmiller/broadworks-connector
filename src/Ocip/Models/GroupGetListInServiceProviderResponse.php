@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a 3 column table with column headings: "Group Id", "Group
  * Name", "User Limit"
  *         and a row for each group.
+ *
+ * @see GroupGetListInServiceProviderRequest
  */
 class GroupGetListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

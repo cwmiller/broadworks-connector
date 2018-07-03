@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterComfortMessageBypassGetResponse17 or an ErrorResponse.
  *         
  *         Replaced by: GroupCallCenterComfortMessageBypassGetRequest20
+ *
+ * @see GroupCallCenterComfortMessageBypassGetResponse17
+ * @see ErrorResponse
+ * @see GroupCallCenterComfortMessageBypassGetRequest20
  */
 class GroupCallCenterComfortMessageBypassGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * obtained
  *         with the GroupAccessDeviceGetRequest16 command.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see GroupAccessDeviceGetRequest16
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

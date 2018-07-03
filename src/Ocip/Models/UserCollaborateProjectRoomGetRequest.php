@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * rooms or My Room.
  *         The response is either UserCollaboratProjectRoomGetResponse or 
  *         ErrorResponse.
+ *
+ * @see UserCollaboratProjectRoomGetResponse
+ * @see ErrorResponse
  */
 class UserCollaborateProjectRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

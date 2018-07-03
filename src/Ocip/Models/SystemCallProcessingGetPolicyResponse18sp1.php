@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * XS data mode.
  *           
  *       Replaced by: SystemCallProcessingGetPolicyResponse19sp1
+ *
+ * @see SystemCallProcessingGetPolicyRequest18sp1
+ * @see SystemCallProcessingGetPolicyResponse19sp1
  */
 class SystemCallProcessingGetPolicyResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

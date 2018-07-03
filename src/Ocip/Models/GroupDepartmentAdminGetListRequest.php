@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of department administrators for the department.
  *         The response is either a GroupDepartmentAdminGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupDepartmentAdminGetListResponse
+ * @see ErrorResponse
  */
 class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

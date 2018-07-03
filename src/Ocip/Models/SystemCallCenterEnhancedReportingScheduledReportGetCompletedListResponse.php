@@ -20,6 +20,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Enterprise" and "Group".
  *         For the rows with "Is Enterprise" column value "true", the "Group Id"
  * column will be empty.
+ *
+ * @see SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest
  */
 class SystemCallCenterEnhancedReportingScheduledReportGetCompletedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

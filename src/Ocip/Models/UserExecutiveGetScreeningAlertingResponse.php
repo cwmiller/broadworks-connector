@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserExecutiveGetScreeningAlertingRequest.
  *         Contains the screening and alerting settings for an executive.
+ *
+ * @see UserExecutiveGetScreeningAlertingRequest
  */
 class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

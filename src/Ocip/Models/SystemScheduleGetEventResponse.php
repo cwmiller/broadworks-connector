@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemScheduleGetEventRequest.
  *         The response contains the event of the system schedulable.
+ *
+ * @see SystemScheduleGetEventRequest
  */
 class SystemScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Gets the home zone for a user
  *         Response to a UserZoneCallingRestrictionsGetRequest
+ *
+ * @see UserZoneCallingRestrictionsGetRequest
  */
 class UserZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

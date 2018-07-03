@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ServiceProviderCallProcessingGetPolicyResponse17sp4 or an ErrorResponse.
  *         
  *         Replaced By : ServiceProviderCallProcessingGetPolicyRequest18sp1
+ *
+ * @see ServiceProviderCallProcessingGetPolicyResponse17sp4
+ * @see ErrorResponse
+ * @see ServiceProviderCallProcessingGetPolicyRequest18sp1
  */
 class ServiceProviderCallProcessingGetPolicyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

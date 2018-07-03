@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMWIDeliveryToMobileEndpointGetResponse
  *
  * Response to UserMWIDeliveryToMobileEndpointGetRequest.
+ *
+ * @see UserMWIDeliveryToMobileEndpointGetRequest
  */
 class UserMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

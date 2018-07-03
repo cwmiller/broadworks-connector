@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ResellerAdminGetListRequest.
  *         Contains a 4 column table with column headings "Administrator ID",
  *         "Last Name", "First Name", "Language".
+ *
+ * @see ResellerAdminGetListRequest
  */
 class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

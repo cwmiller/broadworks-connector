@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetProvisioningParametersResponse
  *
  * Response to the SystemSubscriberGetProvisioningParametersRequest.
+ *
+ * @see SystemSubscriberGetProvisioningParametersRequest
  */
 class SystemSubscriberGetProvisioningParametersResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

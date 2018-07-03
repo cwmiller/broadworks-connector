@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExternalAuthenticationGetACLListRequest. The table columns
  * are:
  *         "Net Address" and "Description".
+ *
+ * @see SystemExternalAuthenticationGetACLListRequest
  */
 class SystemExternalAuthenticationGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

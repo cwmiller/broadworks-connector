@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify an Auto Attendant instance.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced By: GroupAutoAttendantModifyInstanceRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupAutoAttendantModifyInstanceRequest16
  */
 class GroupAutoAttendantModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

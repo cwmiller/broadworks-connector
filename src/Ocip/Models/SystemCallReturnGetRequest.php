@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Call Return.
  *         The response is either a SystemCallReturnGetResponse or an
  *         ErrorResponse.
+ *
+ * @see SystemCallReturnGetResponse
+ * @see ErrorResponse
  */
 class SystemCallReturnGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

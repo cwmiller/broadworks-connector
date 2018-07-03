@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse
  *
  * Response to SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest.
+ *
+ * @see SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest
  */
 class SystemBroadWorksMobilityGetMobileNetworkIMRNListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemPortalPasscodeRulesGetRequest19
+ *
+ * @see SystemPortalPasscodeRulesGetResponse
+ * @see ErrorResponse
+ * @see SystemPortalPasscodeRulesGetRequest19
  */
 class SystemPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSystemServiceDnGetSummaryListRequest.
  *         The column headings are "Phone Numbers" and "Assigned".
  *         The possible values for "Assigned" are true, false.
+ *
+ * @see SystemSystemServiceDnGetSummaryListRequest
  */
 class SystemSystemServiceDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

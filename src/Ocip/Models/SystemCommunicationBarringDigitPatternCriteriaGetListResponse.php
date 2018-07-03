@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringDigitPatternCriteriaGetListRequest.
  *         The response contains a table of all Digit Pattern Criteria defined at
  * the system level. The column headings are "Name" and "Description"
+ *
+ * @see SystemCommunicationBarringDigitPatternCriteriaGetListRequest
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

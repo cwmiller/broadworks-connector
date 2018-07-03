@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Deletes a zone from the system
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced by: SystemZoneDeleteRequest
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemZoneDeleteRequest
  */
 class SystemZoneCallingRestrictionsZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get an existing Calling Party Category in system.
  *         The response is either a SystemCallingPartyCategoryGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCallingPartyCategoryGetResponse
+ * @see ErrorResponse
  */
 class SystemCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

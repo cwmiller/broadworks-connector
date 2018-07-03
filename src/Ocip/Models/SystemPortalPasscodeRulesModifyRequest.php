@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           numberOfAscendingDigits
  *           numberOfDescendingDigits
  *           numberOfPreviousPasscodes
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

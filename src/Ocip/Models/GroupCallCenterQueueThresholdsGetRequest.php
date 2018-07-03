@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's queue Thresholds settings.
  *         The response is either a GroupCallCenterQueueThresholdsGetRequest or an
  * ErrorResponse.
+ *
+ * @see GroupCallCenterQueueThresholdsGetRequest
+ * @see ErrorResponse
  */
 class GroupCallCenterQueueThresholdsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

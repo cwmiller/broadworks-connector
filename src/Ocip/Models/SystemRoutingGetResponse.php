@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRoutingGetResponse
  *
  * Response to SystemRoutingGetRequest.
+ *
+ * @see SystemRoutingGetRequest
  */
 class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

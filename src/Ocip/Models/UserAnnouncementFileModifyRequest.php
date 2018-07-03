@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * the new file changes 
  *         the announcement from audio to video (or vice versa).
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

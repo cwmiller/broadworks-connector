@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCustomRingbackGroupGetRequest.
  *         Replaced By: GroupCustomRingbackGroupGetResponse16
+ *
+ * @see GroupCustomRingbackGroupGetRequest
+ * @see GroupCustomRingbackGroupGetResponse16
  */
 class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

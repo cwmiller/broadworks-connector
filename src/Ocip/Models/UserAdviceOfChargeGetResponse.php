@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAdviceOfChargeGetResponse
  *
  * Response to UserAdviceOfChargeGetRequest.
+ *
+ * @see UserAdviceOfChargeGetRequest
  */
 class UserAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

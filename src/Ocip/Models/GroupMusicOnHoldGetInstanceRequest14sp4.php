@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a Music On Hold data for a group or department instance.
  *         The response is either GroupMusicOnHoldGetInstanceResponse14sp4 or
  * ErrorResponse.
+ *
+ * @see GroupMusicOnHoldGetInstanceResponse14sp4
+ * @see ErrorResponse
  */
 class GroupMusicOnHoldGetInstanceRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

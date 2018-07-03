@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20
  * in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20
  */
 class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

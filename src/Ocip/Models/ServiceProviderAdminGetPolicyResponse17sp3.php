@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             dialableCallerIDAccess
  *         The following elements are only used in XS data mode:
  *             communicationBarringAccess
+ *
+ * @see ServiceProviderAdminGetPolicyRequest17sp3
  */
 class ServiceProviderAdminGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

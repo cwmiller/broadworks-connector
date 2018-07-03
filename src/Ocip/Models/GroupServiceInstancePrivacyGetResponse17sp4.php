@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupServiceInstancePrivacyGetResponse17sp4
  *
  * Response to GroupServiceInstancePrivacyGetRequest17sp4.
+ *
+ * @see GroupServiceInstancePrivacyGetRequest17sp4
  */
 class GroupServiceInstancePrivacyGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

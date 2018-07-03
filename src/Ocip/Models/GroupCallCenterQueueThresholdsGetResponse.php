@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterQueueThresholdsGetResponse
  *
  * Response to the GroupCallCenterQueueThresholdsGetRequest.
+ *
+ * @see GroupCallCenterQueueThresholdsGetRequest
  */
 class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

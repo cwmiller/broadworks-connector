@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *      incomingDefaultAction
  *      incomingDefaultCallTimeout
  *      incomingRule
+ *
+ * @see SystemCommunicationBarringProfileGetRequest17sp1
  */
 class SystemCommunicationBarringProfileGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

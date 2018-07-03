@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * group.
  *         The response is either
  * GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse or ErrorResponse.
+ *
+ * @see GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
+ * @see ErrorResponse
  */
 class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

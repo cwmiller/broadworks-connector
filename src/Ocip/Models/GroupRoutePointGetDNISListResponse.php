@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointGetDNISListRequest.
  *         Contains a table with column headings: "Name", "Phone Number",
  * "Extension".
+ *
+ * @see GroupRoutePointGetDNISListRequest
  */
 class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallingLineIDDeliveryBlockingGetResponse
  *
  * Response to UserCallingLineIDDeliveryBlockingGetRequest.
+ *
+ * @see UserCallingLineIDDeliveryBlockingGetRequest
  */
 class UserCallingLineIDDeliveryBlockingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

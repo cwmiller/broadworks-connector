@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         either registration id or user id.
  *         The response is either UserPushNotificationRegistrationGetListResponse
  * or ErrorResponse.
+ *
+ * @see UserPushNotificationRegistrationGetListResponse
+ * @see ErrorResponse
  */
 class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

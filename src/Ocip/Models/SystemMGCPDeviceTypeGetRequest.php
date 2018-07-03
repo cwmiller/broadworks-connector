@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a mgcp device type.
  *         See Also: SystemDeviceTypeGetRequest
  *         The response is either SystemMGCPDeviceTypeGetResponse or ErrorResponse.
+ *
+ * @see SystemDeviceTypeGetRequest
+ * @see SystemMGCPDeviceTypeGetResponse
+ * @see ErrorResponse
  */
 class SystemMGCPDeviceTypeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

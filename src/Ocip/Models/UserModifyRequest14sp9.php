@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a user. The response is either
  *         SuccessResponse or ErrorResponse.
  *         Replaced by: UserModifyRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserModifyRequest16
  */
 class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

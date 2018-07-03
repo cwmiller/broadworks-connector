@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Service Providers that have
  *         the given Network Class of Service assigned. The column headings are
  *         "Service Provider Id", "Service Provider Name" and "Is Enterprise".
+ *
+ * @see SystemNetworkClassOfServiceGetAssignedServiceProviderListRequest
  */
 class SystemNetworkClassOfServiceGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

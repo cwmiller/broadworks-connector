@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccountAuthorizationCodesGetListResponse
  *
  * Response to GroupAccountAuthorizationCodesGetListRequest.
+ *
+ * @see GroupAccountAuthorizationCodesGetListRequest
  */
 class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

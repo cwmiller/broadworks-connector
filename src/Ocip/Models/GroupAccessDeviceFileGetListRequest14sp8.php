@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * on a per-device profile basis.
  *         The response is either GroupAccessDeviceFileGetListResponse14sp8 or
  * ErrorResponse.
+ *
+ * @see GroupAccessDeviceFileGetListResponse14sp8
+ * @see ErrorResponse
  */
 class GroupAccessDeviceFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

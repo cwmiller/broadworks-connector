@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Calling
  *         Name Delivery. The response is either a
  *         UserCallingNameDeliveryGetResponse or an ErrorResponse.
+ *
+ * @see UserCallingNameDeliveryGetResponse
+ * @see ErrorResponse
  */
 class UserCallingNameDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

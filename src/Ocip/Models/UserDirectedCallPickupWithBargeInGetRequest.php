@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserDirectedCallPickupWithBargeInGetResponse or
  * an
  *         ErrorResponse.
+ *
+ * @see UserDirectedCallPickupWithBargeInGetResponse
+ * @see ErrorResponse
  */
 class UserDirectedCallPickupWithBargeInGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

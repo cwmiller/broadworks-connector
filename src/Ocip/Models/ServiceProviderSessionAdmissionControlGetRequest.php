@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the session admission control capacity for the service provider.
  *         The response is either a
  * ServiceProviderSessionAdmissionControlGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderSessionAdmissionControlGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderSessionAdmissionControlGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

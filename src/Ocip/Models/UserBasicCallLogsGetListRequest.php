@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserBasicCallLogsGetListResponse or an
  * ErrorResponse.
  *         Replaced By: UserBasicCallLogsGetListRequest14sp4
+ *
+ * @see UserBasicCallLogsGetListResponse
+ * @see ErrorResponse
+ * @see UserBasicCallLogsGetListRequest14sp4
  */
 class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

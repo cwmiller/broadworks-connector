@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeListGetListResponse
  *
  * Response to SystemBroadWorksMobilityServiceAccessCodeListGetListRequest.
+ *
+ * @see SystemBroadWorksMobilityServiceAccessCodeListGetListRequest
  */
 class SystemBroadWorksMobilityServiceAccessCodeListGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

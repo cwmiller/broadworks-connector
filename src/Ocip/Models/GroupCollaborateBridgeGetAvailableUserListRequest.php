@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enterprise groups.
  *         The response is either
  * GroupCollaborateBridgeGetAvailableUserListResponse or ErrorResponse.
+ *
+ * @see GroupCollaborateBridgeGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupCollaborateBridgeGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

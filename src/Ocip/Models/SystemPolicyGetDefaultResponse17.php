@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemPolicyGetDefaultRequest17.
  *         Contains the default policy settings for the system.
+ *
+ * @see SystemPolicyGetDefaultRequest17
  */
 class SystemPolicyGetDefaultResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

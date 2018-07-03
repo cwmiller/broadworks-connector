@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemSubscriberGetCallProcessingParametersResponse18sp1
  *         or an ErrorResponse.
+ *
+ * @see SystemSubscriberGetCallProcessingParametersResponse18sp1
+ * @see ErrorResponse
  */
 class SystemSubscriberGetCallProcessingParametersRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

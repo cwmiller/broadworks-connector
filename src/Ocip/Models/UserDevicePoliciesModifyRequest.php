@@ -31,6 +31,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enableCallRecording         
  *           
  *           The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

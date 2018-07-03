@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupCallCenterQueueCallDispositionCodeSettingsGetResponse or an
  *         ErrorResponse.
+ *
+ * @see GroupCallCenterQueueCallDispositionCodeSettingsGetResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterQueueCallDispositionCodeSettingsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

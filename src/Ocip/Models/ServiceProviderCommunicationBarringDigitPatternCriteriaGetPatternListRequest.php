@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse or
  * an ErrorResponse.
+ *
+ * @see
+ * ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

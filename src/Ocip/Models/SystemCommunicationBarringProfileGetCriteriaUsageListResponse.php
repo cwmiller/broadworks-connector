@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * that
  *         use the specific Communication Barring Criteria. The column headings
  *         are "Name" and "Description"
+ *
+ * @see SystemCommunicationBarringProfileGetCriteriaUsageListRequest
  */
 class SystemCommunicationBarringProfileGetCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

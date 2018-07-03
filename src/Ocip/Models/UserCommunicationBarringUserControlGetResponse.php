@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         is active as well as the lockout status.
  *         Contains a table with column headings: "Name", "Code", "Activated" and
  * "Primary".
+ *
+ * @see UserCommunicationBarringUserControlGetRequest
  */
 class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

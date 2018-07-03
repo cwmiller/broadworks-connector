@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *            useSystemHuntGroupCLIDSetting, use value "true" in XS data mode
  *            includeHuntGroupNameInCLID, use value "true" in XS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupHuntGroupAddInstanceRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

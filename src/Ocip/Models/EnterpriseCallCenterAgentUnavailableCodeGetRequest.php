@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a Call Center Agent Unavailable Code.
  *         The response is either
  * EnterpriseCallCenterAgentUnavailableCodeGetResponse or ErrorResponse.
+ *
+ * @see EnterpriseCallCenterAgentUnavailableCodeGetResponse
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

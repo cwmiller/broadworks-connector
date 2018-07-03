@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add collaborate instant room.
  *         The response is either a UserCollaborateInstantRoomAddResponse or an
  * ErrorResponse.
+ *
+ * @see UserCollaborateInstantRoomAddResponse
+ * @see ErrorResponse
  */
 class UserCollaborateInstantRoomAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemTimeScheduleGetRequest.
  *         The response contains the system time schedule's information.
+ *
+ * @see SystemTimeScheduleGetRequest
  */
 class SystemTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

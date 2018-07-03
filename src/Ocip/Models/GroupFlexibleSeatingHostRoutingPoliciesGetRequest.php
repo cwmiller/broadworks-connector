@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a flexible seating host’s routing policies
  *         The response is either a
  * GroupFlexibleSeatingHostRoutingPoliciesGetResponse or an ErrorResponse.
+ *
+ * @see GroupFlexibleSeatingHostRoutingPoliciesGetResponse
+ * @see ErrorResponse
  */
 class GroupFlexibleSeatingHostRoutingPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

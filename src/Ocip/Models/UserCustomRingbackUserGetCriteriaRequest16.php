@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an ErrorResponse.
  *         
  *         Replaced by: UserCustomRingbackUserGetCriteriaRequest20 in AS data mode
+ *
+ * @see UserCustomRingbackUserGetCriteriaResponse16
+ * @see ErrorResponse
+ * @see UserCustomRingbackUserGetCriteriaRequest20
  */
 class UserCustomRingbackUserGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

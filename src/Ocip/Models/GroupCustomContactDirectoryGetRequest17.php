@@ -22,6 +22,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * populated in AS mode; and populated only if the user 
  *         sending the request is a the owner of this Receptionist Note and a Note
  * exists.
+ *
+ * @see GroupCustomContactDirectoryGetResponse17
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

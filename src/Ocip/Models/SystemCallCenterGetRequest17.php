@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *         
  *         Replaced by SystemCallCenterGetRequest17sp4.
+ *
+ * @see SystemCallCenterGetResponse17
+ * @see ErrorResponse
+ * @see SystemCallCenterGetRequest17sp4
  */
 class SystemCallCenterGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

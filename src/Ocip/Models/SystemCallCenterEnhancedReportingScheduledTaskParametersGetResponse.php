@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse
  *
  * Response to SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest
+ *
+ * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

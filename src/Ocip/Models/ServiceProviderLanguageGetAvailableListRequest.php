@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * depending on the useServiceProviderLanguages flag.
  *         The response is either a ServiceProviderLanguageGetAvailableListResponse
  * or an ErrorResponse.
+ *
+ * @see ServiceProviderLanguageGetAvailableListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderLanguageGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

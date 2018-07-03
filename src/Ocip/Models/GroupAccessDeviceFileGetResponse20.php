@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceFileGetResponse20
  *
  * Response to GroupAccessDeviceFileGetRequest20.
+ *
+ * @see GroupAccessDeviceFileGetRequest20
  */
 class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

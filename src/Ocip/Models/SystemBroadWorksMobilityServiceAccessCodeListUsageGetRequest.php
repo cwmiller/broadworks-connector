@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get all the Mobile Networks using a given Service Access Code list.
  *         The response is either
  * SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse or ErrorResponse.
+ *
+ * @see SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse
+ * @see ErrorResponse
  */
 class SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

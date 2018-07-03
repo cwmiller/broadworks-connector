@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSMDIMessageDeskGetServerListRequest.
  *         The SMDI Server table column headings are: "Device Name", "Net Address",
  * "Port".
+ *
+ * @see UserSMDIMessageDeskGetServerListRequest
  */
 class UserSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

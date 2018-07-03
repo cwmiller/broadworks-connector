@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a DeviceManagementFileAuthLocationGetResponse18
  * or an ErrorResponse.
  *         Replaced by: DeviceManagementFileAuthLocationGetRequest21.
+ *
+ * @see DeviceManagementFileAuthLocationGetResponse18
+ * @see ErrorResponse
+ * @see DeviceManagementFileAuthLocationGetRequest21
  */
 class DeviceManagementFileAuthLocationGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

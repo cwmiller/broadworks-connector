@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointQueueCallDispositionCodeSettingsGetResponse
  *
  * Response to GroupRoutePointQueueCallDispositionCodeSettingsGetRequest.
+ *
+ * @see GroupRoutePointQueueCallDispositionCodeSettingsGetRequest
  */
 class GroupRoutePointQueueCallDispositionCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

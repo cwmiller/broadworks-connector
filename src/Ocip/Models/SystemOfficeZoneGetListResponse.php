@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemOfficeZoneGetListRequest.
  *         The response contains a table of all Office Zones
  *         in the system. The column headings are "Name" and "Description"
+ *
+ * @see SystemOfficeZoneGetListRequest
  */
 class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

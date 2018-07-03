@@ -18,6 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enable3G4GContinuity        
  *         
  *         Replaced by: SystemSIPDeviceTypeModifyRequest19
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeModifyRequest19
  */
 class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

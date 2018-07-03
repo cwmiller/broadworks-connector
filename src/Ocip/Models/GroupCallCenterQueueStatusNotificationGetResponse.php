@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallCenterQueueStatusNotificationGetRequest.
  *         The response contains the call center status configuration information.
+ *
+ * @see GroupCallCenterQueueStatusNotificationGetRequest
  */
 class GroupCallCenterQueueStatusNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

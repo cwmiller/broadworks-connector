@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of available number prefixes not yet assigned to any
  * group.
  *         The column headings are "Number Prefix" and "Is Active".
+ *
+ * @see ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMusicOnHoldUserGetResponse20
  *
  * Response to UserMusicOnHoldUserGetRequest20.
+ *
+ * @see UserMusicOnHoldUserGetRequest20
  */
 class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

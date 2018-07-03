@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the effective password rules setting for a group administrator.
  *         The response is either GroupAdministratorPasswordRulesGetResponse or 
  *         ErrorResponse.
+ *
+ * @see GroupAdministratorPasswordRulesGetResponse
+ * @see ErrorResponse
  */
 class GroupAdministratorPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Informs BroadWorks that a file was uploaded to the repository. The response is
  * always a SuccessResponse.
+ *
+ * @see SuccessResponse
  */
 class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

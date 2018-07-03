@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a table of assigned hosts.
  *         The table has column headings: "User Id", "Last Name", "First Name",
  * "Hiragana Last Name", and "Hiragana First Name".
+ *
+ * @see GroupMeetMeConferencingGetInstanceRequest17sp4
  */
 class GroupMeetMeConferencingGetInstanceResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

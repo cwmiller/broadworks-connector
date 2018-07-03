@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         those decisions itself.
  *         The domain is required in the serviceUserId.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointAddInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

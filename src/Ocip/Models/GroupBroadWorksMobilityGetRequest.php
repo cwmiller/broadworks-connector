@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the groups BroadWorks Mobility settings.
  *         The response is either a GroupBroadWorksMobilityGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupBroadWorksMobilityGetResponse
+ * @see ErrorResponse
  */
 class GroupBroadWorksMobilityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

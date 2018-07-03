@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAutomaticCallbackGetReleaseCauseListResponse
  *
  * Response to SystemAutomaticCallbackGetReleaseCauseListRequest.
+ *
+ * @see SystemAutomaticCallbackGetReleaseCauseListRequest
  */
 class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

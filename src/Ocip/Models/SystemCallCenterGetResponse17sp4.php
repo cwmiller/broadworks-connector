@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallCenterGetRequest17sp4.
  *         
  *         Replaced by: SystemCallCenterGetResponse19.
+ *
+ * @see SystemCallCenterGetRequest17sp4
+ * @see SystemCallCenterGetResponse19
  */
 class SystemCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

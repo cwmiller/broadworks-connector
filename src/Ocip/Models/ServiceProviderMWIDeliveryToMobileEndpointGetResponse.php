@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The templateActivationTable contains the list of templates defined for
  * the service provider.
  *         The column headings are "Enable", "Language", "Type".
+ *
+ * @see ServiceProviderMWIDeliveryToMobileEndpointGetRequest
  */
 class ServiceProviderMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -17,6 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         An ErrorResponse will be returned if any number cannot be unassigned
  * because of insufficient privilege.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see ErrorResponse
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

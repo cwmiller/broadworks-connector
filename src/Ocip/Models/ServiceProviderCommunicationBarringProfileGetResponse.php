@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Communication Barring Profile information.
  *         The incoming, originating and redirecting rules are returned in
  * ascending priority order.
+ *
+ * @see ServiceProviderCommunicationBarringProfileGetRequest
  */
 class ServiceProviderCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

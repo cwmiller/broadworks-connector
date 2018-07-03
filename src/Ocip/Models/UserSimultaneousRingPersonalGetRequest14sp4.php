@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's simultaneous ring service personal setting.
  *         The response is either a UserSimultaneousRingPersonalGetResponse14sp4 or
  * an ErrorResponse.
+ *
+ * @see UserSimultaneousRingPersonalGetResponse14sp4
+ * @see ErrorResponse
  */
 class UserSimultaneousRingPersonalGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

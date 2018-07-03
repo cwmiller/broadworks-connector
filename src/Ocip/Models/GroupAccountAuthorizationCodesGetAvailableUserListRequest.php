@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of non restricted users for the account/authorization codes service.
  *         The response is either
  * GroupAccountAuthorizationCodesGetAvailableUserListResponse or ErrorResponse.
+ *
+ * @see GroupAccountAuthorizationCodesGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

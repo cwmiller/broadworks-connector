@@ -38,6 +38,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in Amplify data mode:
  *            storageSelection, value "Mail Server" is returned in AS and XS data
  * mode
+ *
+ * @see SystemVoiceMessagingGroupGetRequest22
  */
 class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

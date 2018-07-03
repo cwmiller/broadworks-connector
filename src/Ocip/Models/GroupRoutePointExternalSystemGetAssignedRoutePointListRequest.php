@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * system assigned.
  *         The response is either
  * GroupRoutePointExternalSystemGetAssignedRoutePointListResponse or ErrorResponse.
+ *
+ * @see GroupRoutePointExternalSystemGetAssignedRoutePointListResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

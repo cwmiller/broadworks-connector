@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *              svcProvAdminCommunicationBarringAccess
  *              
  *           Replaced by AuthenticationVerificationResponse22V2 in AS data mode.
+ *
+ * @see AuthenticationVerificationRequest
+ * @see AuthenticationVerificationResponse22
  */
 class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

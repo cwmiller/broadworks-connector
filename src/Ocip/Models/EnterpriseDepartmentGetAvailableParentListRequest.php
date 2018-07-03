@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         the parent department.
  *         The response is either
  * EnterpriseDepartmentGetAvailableParentListResponse or ErrorResponse.
+ *
+ * @see EnterpriseDepartmentGetAvailableParentListResponse
+ * @see ErrorResponse
  */
 class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

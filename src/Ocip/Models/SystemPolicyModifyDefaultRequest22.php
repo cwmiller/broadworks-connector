@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             groupUserAutoAttendantNameDialingAccess
  *         The following elements are only used in XS data mode:
  *             serviceProviderAdminCommunicationBarringAccess
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemPolicyModifyDefaultRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

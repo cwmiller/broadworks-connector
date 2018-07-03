@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a ServiceProviderAdminGetResponse14 or an
  * ErrorResponse.
  *         Replaced by ServiceProviderAdminGetRequest21sp1.
+ *
+ * @see ServiceProviderAdminGetResponse14
+ * @see ErrorResponse
+ * @see ServiceProviderAdminGetRequest21sp1
  */
 class ServiceProviderAdminGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksMobileManagerGetHomeZoneResponse
  *
  * Response to the GroupBroadWorksMobileManagerGetHomeZoneRequest
+ *
+ * @see GroupBroadWorksMobileManagerGetHomeZoneRequest
  */
 class GroupBroadWorksMobileManagerGetHomeZoneResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -32,6 +32,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only valid for Standard Auto
  *         Attendants:
  *           holidayMenu
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

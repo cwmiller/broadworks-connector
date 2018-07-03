@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAlternateNumbersGetRequest17.
  *         
  *         Replaced by: UserAlternateNumbersGetResponse21 in AS data mode
+ *
+ * @see UserAlternateNumbersGetRequest17
+ * @see UserAlternateNumbersGetResponse21
  */
 class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

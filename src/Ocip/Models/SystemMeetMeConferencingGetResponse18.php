@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMeetMeConferencingGetResponse18
  *
  * Response to SystemMeetMeConferencingGetRequest18.
+ *
+ * @see SystemMeetMeConferencingGetRequest18
  */
 class SystemMeetMeConferencingGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

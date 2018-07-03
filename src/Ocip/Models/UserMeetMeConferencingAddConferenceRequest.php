@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add a Meet-Me conference.
  *         The response is either UserMeetMeConferencingAddConferenceResponse or
  * ErrorResponse.
+ *
+ * @see UserMeetMeConferencingAddConferenceResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingAddConferenceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

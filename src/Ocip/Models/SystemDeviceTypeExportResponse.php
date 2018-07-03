@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceTypeExportResponse
  *
  * Response to SystemDeviceTypeExportRequest.
+ *
+ * @see SystemDeviceTypeExportRequest
  */
 class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

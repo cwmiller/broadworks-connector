@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Lockout Count". Lockout times are shown in the system GMT time. When a
  * permanent lockout is shown, the "Lockout Expires" column is empty and the
  * "Lockout Count" column contains the word Permanent.
+ *
+ * @see SystemSIPAuthenticationEndpointLockoutGetRequest
  */
 class SystemSIPAuthenticationEndpointLockoutGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

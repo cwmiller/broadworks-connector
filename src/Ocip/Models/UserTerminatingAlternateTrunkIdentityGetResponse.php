@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserTerminatingAlternateTrunkIdentityGetResponse
  *
  * Response to UserTerminatingAlternateTrunkIdentityGetRequest.
+ *
+ * @see UserTerminatingAlternateTrunkIdentityGetRequest
  */
 class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

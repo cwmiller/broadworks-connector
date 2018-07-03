@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserInterceptUserGetRequest21sp1 in AS data mode
+ *
+ * @see UserInterceptUserGetResponse16sp1
+ * @see ErrorResponse
+ * @see UserInterceptUserGetRequest21sp1
  */
 class UserInterceptUserGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

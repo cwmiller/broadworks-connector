@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemOutgoingCallingPlanGetResponse
  *
  * Response to SystemOutgoingCallingPlanGetRequest.
+ *
+ * @see SystemOutgoingCallingPlanGetRequest
  */
 class SystemOutgoingCallingPlanGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

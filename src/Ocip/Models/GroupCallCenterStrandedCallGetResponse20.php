@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterStrandedCallGetResponse20
  *
  * Response to the GroupCallCenterStrandedCallGetRequest20.
+ *
+ * @see GroupCallCenterStrandedCallGetRequest20
  */
 class GroupCallCenterStrandedCallGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

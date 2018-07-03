@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the Group administrator's policy settings.
  *         The response is either GroupAdminGetPolicyResponse20 or ErrorResponse.
+ *
+ * @see GroupAdminGetPolicyResponse20
+ * @see ErrorResponse
  */
 class GroupAdminGetPolicyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

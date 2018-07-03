@@ -28,6 +28,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * will fail otherwise.
  *         
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see ErrorResponse
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of user's on a Trunk Group Instance.
  *         The response is either a GroupTrunkGroupGetInstanceUserListResponse or
  * an ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetInstanceUserListResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetInstanceUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

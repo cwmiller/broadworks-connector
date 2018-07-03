@@ -27,6 +27,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         The following columns are only returned in AS data mode:       
  *           "My Room Room Id", "My Room Bridge Id", "Service Name"
+ *
+ * @see UserPhoneDirectoryGetListRequest
  */
 class UserPhoneDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

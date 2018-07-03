@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         If the request is executed by a group administrator and modifies the
  * useSettingLevel, the request is rejected.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

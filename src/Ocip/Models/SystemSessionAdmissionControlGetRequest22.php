@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the session admission control settings for the system.
  *         The response is either a SystemSessionAdmissionControlGetResponse22 or
  * an ErrorResponse.
+ *
+ * @see SystemSessionAdmissionControlGetResponse22
+ * @see ErrorResponse
  */
 class SystemSessionAdmissionControlGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

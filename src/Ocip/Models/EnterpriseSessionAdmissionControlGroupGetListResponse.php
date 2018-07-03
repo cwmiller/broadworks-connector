@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enterprise.
  *         The column headings are: "Name", "Is Default", "Maximum Sessions",
  * "Maximum Originating Sessions", "Maximum Terminating Sessions"..
+ *
+ * @see EnterpriseSessionAdmissionControlGroupGetListRequest
  */
 class EnterpriseSessionAdmissionControlGroupGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

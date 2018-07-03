@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMusicOnHoldGetResponse
  *
  * Response to SystemMusicOnHoldGetRequest.
+ *
+ * @see SystemMusicOnHoldGetRequest
  */
 class SystemMusicOnHoldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of all Roaming Networks.
  *         The response is either a SystemRoamingNetworkGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemRoamingNetworkGetListResponse
+ * @see ErrorResponse
  */
 class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

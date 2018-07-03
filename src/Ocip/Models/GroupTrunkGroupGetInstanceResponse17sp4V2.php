@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name".
  *     
  *         Replaced by: GroupTrunkGroupGetInstanceResponse19V2
+ *
+ * @see GroupTrunkGroupGetInstanceRequest17sp4
+ * @see GroupTrunkGroupGetInstanceResponse19
  */
 class GroupTrunkGroupGetInstanceResponse17sp4V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

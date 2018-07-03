@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserBroadWorksAnywhereGetSelectiveCriteriaRequest16.
  *         Replaced by: UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 in AS
  * data mode
+ *
+ * @see UserBroadWorksAnywhereGetSelectiveCriteriaRequest16
+ * @see UserBroadWorksAnywhereGetSelectiveCriteriaResponse21
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

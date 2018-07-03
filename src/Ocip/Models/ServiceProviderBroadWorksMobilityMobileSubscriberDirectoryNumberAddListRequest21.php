@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * combination. It is possible to add a single DN,
  *         or a list of DNs.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

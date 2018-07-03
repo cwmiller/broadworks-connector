@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupVoiceMessagingGroupGetPasscodeRulesResponse
  * or ErrorResponse.
  *         Replaced By: GroupPortalPasscodeRulesGetRequest
+ *
+ * @see GroupVoiceMessagingGroupGetPasscodeRulesResponse
+ * @see ErrorResponse
+ * @see GroupPortalPasscodeRulesGetRequest
  */
 class GroupVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

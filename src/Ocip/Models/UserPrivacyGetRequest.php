@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Privacy.
  *         The response is either a UserPrivacyGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserPrivacyGetResponse
+ * @see ErrorResponse
  */
 class UserPrivacyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

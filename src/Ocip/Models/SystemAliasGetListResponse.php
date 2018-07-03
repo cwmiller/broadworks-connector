@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAliasGetListRequest. Contains the list of all network alias'
  * for
  *         the Application Server.
+ *
+ * @see SystemAliasGetListRequest
  */
 class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

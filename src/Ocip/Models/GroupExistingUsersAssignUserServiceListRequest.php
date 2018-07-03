@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * recommended way to bulk 
  *         assign/unassign services is Service Pack Migration.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupExistingUsersAssignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

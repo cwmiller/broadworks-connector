@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallParkGetAvailableAlternateRecallUserListResponse.
  *         Contains a table with column headings: "User Id", "Last Name", "First
  * Name", "Hiragana Last Name", "Hiragana First Name".
+ *
+ * @see GroupCallParkGetAvailableAlternateRecallUserListResponse
  */
 class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

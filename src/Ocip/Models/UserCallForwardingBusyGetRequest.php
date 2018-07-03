@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Call Forwarding Busy.
  *         The response is either a UserCallForwardingBusyGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCallForwardingBusyGetResponse
+ * @see ErrorResponse
  */
 class UserCallForwardingBusyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

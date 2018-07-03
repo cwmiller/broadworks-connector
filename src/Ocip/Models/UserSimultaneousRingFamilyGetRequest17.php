@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's simultaneous ring family service setting.
  *         The response is either a UserSimultaneousRingFamilyGetResponse17 or an
  * ErrorResponse.
+ *
+ * @see UserSimultaneousRingFamilyGetResponse17
+ * @see ErrorResponse
  */
 class UserSimultaneousRingFamilyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

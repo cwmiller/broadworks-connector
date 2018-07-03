@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSystemVoicePortalGetRequest.
  *             
  *             Replaced by: SystemSystemVoicePortalGetResponse21sp1.
+ *
+ * @see SystemSystemVoicePortalGetRequest
+ * @see SystemSystemVoicePortalGetResponse21sp1
  */
 class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

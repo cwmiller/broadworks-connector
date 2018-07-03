@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserInterceptUserGetRequest.
  *         Replaced By: UserInterceptUserGetResponse16
+ *
+ * @see UserInterceptUserGetRequest
+ * @see UserInterceptUserGetResponse16
  */
 class UserInterceptUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse
  *
  * Response to GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest.
+ *
+ * @see GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest
  */
 class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

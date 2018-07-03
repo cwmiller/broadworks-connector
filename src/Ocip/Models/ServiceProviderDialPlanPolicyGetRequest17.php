@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Service Provider level data associated with Dial Plan Policy.
  *         The response is either a ServiceProviderDialPlanPolicyGetResponse17
  *         or an ErrorResponse.
+ *
+ * @see ServiceProviderDialPlanPolicyGetResponse17
+ * @see ErrorResponse
  */
 class ServiceProviderDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the attributes of a department.
  *         The response is either a GroupDepartmentGetResponse or an ErrorResponse.
+ *
+ * @see GroupDepartmentGetResponse
+ * @see ErrorResponse
  */
 class GroupDepartmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

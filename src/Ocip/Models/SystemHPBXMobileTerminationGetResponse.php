@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemHPBXMobileTerminationGetRequest.
  *         Contains the hPBX mobile termination related configuration parameters.
+ *
+ * @see SystemHPBXMobileTerminationGetRequest
  */
 class SystemHPBXMobileTerminationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

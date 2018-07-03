@@ -17,6 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Only has a value if the DN(s) is assigned to a user or if "Group Enable
  * Activation
  *         Mode" is enabled.
+ *
+ * @see GroupDnGetSummaryListRequest
  */
 class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

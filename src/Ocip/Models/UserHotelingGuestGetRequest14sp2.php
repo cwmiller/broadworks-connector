@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserHotelingGuestGetResponse14 or an
  * ErrorResponse.
  *         Replaced by: UserHotelingGuestGetRequest14sp4
+ *
+ * @see UserHotelingGuestGetResponse14
+ * @see ErrorResponse
+ * @see UserHotelingGuestGetRequest14sp4
  */
 class UserHotelingGuestGetRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

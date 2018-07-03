@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCommunicationBarringGetResponse
  *
  * Response to GroupCommunicationBarringGetRequest.
+ *
+ * @see GroupCommunicationBarringGetRequest
  */
 class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

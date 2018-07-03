@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get a list of DNs associated with a user and their activation state.
  *         The response is either UserDnGetActivationListResponse or ErrorResponse.
+ *
+ * @see UserDnGetActivationListResponse
+ * @see ErrorResponse
  */
 class UserDnGetActivationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

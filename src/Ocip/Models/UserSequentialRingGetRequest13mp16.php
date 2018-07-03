@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserSequentialRingGetResponse13mp16 or an
  * ErrorResponse.
  *         Replaced By: UserSequentialRingGetRequest14sp4
+ *
+ * @see UserSequentialRingGetResponse13
+ * @see ErrorResponse
+ * @see UserSequentialRingGetRequest14sp4
  */
 class UserSequentialRingGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

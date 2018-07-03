@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * group for the group.
  *         The response is either an
  * GroupSessionAdmissionControlGetAvailableDeviceListResponse or an ErrorResponse.
+ *
+ * @see GroupSessionAdmissionControlGetAvailableDeviceListResponse
+ * @see ErrorResponse
  */
 class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         or an ErrorResponse.
  *         
  *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListRequest22
+ *
+ * @see SystemTreatmentMappingCallBlockingServicesGetListResponse19sp1
+ * @see ErrorResponse
+ * @see SystemTreatmentMappingCallBlockingServiceGetListRequest22
  */
 class SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

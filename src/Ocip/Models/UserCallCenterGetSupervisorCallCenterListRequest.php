@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserCallCenterGetSupervisorCallCenterListResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCallCenterGetSupervisorCallCenterListResponse
+ * @see ErrorResponse
  */
 class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

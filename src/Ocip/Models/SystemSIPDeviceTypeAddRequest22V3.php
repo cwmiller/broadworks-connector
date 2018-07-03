@@ -42,6 +42,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           macInNonRequestURI
  *           The two elements are mutually exclusive.
  *           When both are set to true, the command fails.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see macInNonRequest
  */
 class SystemSIPDeviceTypeAddRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

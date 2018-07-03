@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * available for assignment to users within the group.
  *         The column headings are "Number Range Start", "Number Range End" and "Is
  * Active".
+ *
+ * @see GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest
  */
 class GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

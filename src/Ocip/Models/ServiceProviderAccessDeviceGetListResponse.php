@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Device Name", "Device Type", "Available
  * Ports",
  *         "Net Address", "MAC Address", "Status", and "Version".
+ *
+ * @see ServiceProviderAccessDeviceGetListRequest
  */
 class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

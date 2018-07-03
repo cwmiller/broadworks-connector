@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceResponse16
  *
  * Response to GroupCallCenterGetInstanceRequest16.
+ *
+ * @see GroupCallCenterGetInstanceRequest16
  */
 class GroupCallCenterGetInstanceResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

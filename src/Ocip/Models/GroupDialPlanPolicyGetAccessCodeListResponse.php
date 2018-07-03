@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDialPlanPolicyGetAccessCodeListRequest
  *         Contains a table with column headings: "Access Code",
  *         "Enable Secondary Dial Tone", "Description"
+ *
+ * @see GroupDialPlanPolicyGetAccessCodeListRequest
  */
 class GroupDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

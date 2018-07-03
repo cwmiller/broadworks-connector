@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request a list of service providers that have a given Office Zone assigned.  The
  * response is either a SystemOfficeZoneGetAssignedServiceProviderListResponse or
  * ErrorResponse.
+ *
+ * @see SystemOfficeZoneGetAssignedServiceProviderListResponse
+ * @see ErrorResponse
  */
 class SystemOfficeZoneGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

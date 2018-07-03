@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSeriesCompletionGetInstanceListResponse
  *
  * Response to the GroupSeriesCompletionGetInstanceListRequest.
+ *
+ * @see GroupSeriesCompletionGetInstanceListRequest
  */
 class GroupSeriesCompletionGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallTransferGetResponse14sp4
  *
  * Response to UserCallTransferGetRequest14sp4.
+ *
+ * @see UserCallTransferGetRequest14sp4
  */
 class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

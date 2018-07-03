@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The groupPagingTable contains columns: "Name", "Phone Number",
  * "Extension" and "Is Active"
  *         The column value for "Is Active" can either be true, or false.
+ *
+ * @see UserGroupPagingGetListRequest
  */
 class UserGroupPagingGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

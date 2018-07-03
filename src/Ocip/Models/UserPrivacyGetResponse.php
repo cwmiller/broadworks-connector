@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPrivacyGetResponse
  *
  * Response to UserPrivacyGetRequest.
+ *
+ * @see UserPrivacyGetRequest
  */
 class UserPrivacyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

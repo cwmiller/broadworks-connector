@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         event queues are returned.
  *         The response is either a GroupDeviceManagementEventGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupDeviceManagementEventGetListResponse
+ * @see ErrorResponse
  */
 class GroupDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

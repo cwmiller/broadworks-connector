@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemLicensingGetSystemLicenseListRequest19sp1.
  *         
  *         Replaced by: SystemLicensingGetSystemLicenseListRequest21sp1.
+ *
+ * @see SystemLicensingGetSystemLicenseListRequest19sp1
+ * @see SystemLicensingGetSystemLicenseListRequest21sp1
  */
 class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
  * or ErrorResponse.
+ *
+ * @see
+ * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
+ * @see ErrorResponse
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

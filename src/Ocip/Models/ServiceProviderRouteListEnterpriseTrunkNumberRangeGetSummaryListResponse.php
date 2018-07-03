@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest.
  *         The column headings are "Number Range Start", "Number Range End", "Group
  * Id" and "Is Active".
+ *
+ * @see ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -21,6 +21,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Forwarding Busy,
  *                 Call Forwarding No Answer, Call Forwarding Not Reachable, Call
  * Forwarding Selective.
+ *
+ * @see EnterpriseUserCallForwardingSettingsGetListRequest
+ * @see GroupUserCallForwardingSettingsGetListRequest
  */
 class SortByForwardedToNumber extends SortCriteria
 {

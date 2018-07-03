@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get an existing Communication Barring Digit Pattern Criteria.
  *         The response is either a
  * SystemCommunicationBarringDigitPatternCriteriaGetResponse or an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringDigitPatternCriteriaGetResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         true and administrator is not System/Provisioning level administrator.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced by: GroupTrunkGroupAddInstanceRequest20sp1
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupTrunkGroupAddInstanceRequest20sp1
  */
 class GroupTrunkGroupAddInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

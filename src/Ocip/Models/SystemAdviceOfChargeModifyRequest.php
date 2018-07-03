@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         
  *         Replaced by: SystemAdviceOfChargeModifyRequest19sp1
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemAdviceOfChargeModifyRequest19sp1
  */
 class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

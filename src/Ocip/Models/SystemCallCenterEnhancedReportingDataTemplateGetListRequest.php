@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCallCenterEnhancedReportingDataTemplateGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCallCenterEnhancedReportingDataTemplateGetListResponse
+ * @see ErrorResponse
  */
 class SystemCallCenterEnhancedReportingDataTemplateGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

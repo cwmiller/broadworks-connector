@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of events of a user schedule.
  *         The response is either a UserScheduleGetEventListResponse or an
  * ErrorResponse.
+ *
+ * @see UserScheduleGetEventListResponse
+ * @see ErrorResponse
  */
 class UserScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

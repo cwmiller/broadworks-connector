@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemPerformanceMeasurementReportingGetFileServerListRequest. The
  * table columns are:
  *         "FTP Host Net Address", "FTP User Id", "Passive FTP".
+ *
+ * @see SystemPerformanceMeasurementReportingGetFileServerListRequest
  */
 class SystemPerformanceMeasurementReportingGetFileServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSpeedDial100GetResponse
  *
  * Response to the GroupSpeedDial100GetRequest.
+ *
+ * @see GroupSpeedDial100GetRequest
  */
 class GroupSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

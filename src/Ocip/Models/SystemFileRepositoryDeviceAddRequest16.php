@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         
  *         Replaced by: SystemFileRepositoryDeviceAddRequest20
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemFileRepositoryDeviceAddRequest20
  */
 class SystemFileRepositoryDeviceAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

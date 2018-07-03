@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserInterceptUserGetResponse16 or an
  * ErrorResponse.
  *         Replaced By: UserInterceptUserGetRequest16sp1
+ *
+ * @see UserInterceptUserGetResponse16
+ * @see ErrorResponse
+ * @see UserInterceptUserGetRequest16sp1
  */
 class UserInterceptUserGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

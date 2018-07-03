@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with In-Call Service Activation.
  *         The response is either a UserInCallServiceActivationGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserInCallServiceActivationGetResponse
+ * @see ErrorResponse
  */
 class UserInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

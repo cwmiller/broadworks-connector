@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRoutingGetTranslationListRequest. The column headings are
  * "Routing Digits"
  *         and "Route".
+ *
+ * @see SystemRoutingGetTranslationListRequest
  */
 class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

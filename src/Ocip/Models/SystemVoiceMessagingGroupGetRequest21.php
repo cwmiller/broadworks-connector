@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemVoiceMessagingGroupGetRequest22 in AS data mode
+ *
+ * @see SystemVoiceMessagingGroupGetResponse21
+ * @see ErrorResponse
+ * @see SystemVoiceMessagingGroupGetRequest22
  */
 class SystemVoiceMessagingGroupGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserDirectedCallPickupWithBargeInGetResponse14sp7
  *
  * Response to UserDirectedCallPickupWithBargeInGetRequest14sp7.
+ *
+ * @see UserDirectedCallPickupWithBargeInGetRequest14sp7
  */
 class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

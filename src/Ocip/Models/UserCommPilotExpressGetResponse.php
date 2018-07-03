@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCommPilotExpressGetResponse
  *
  * Response to the UserCommPilotExpressGetRequest.
+ *
+ * @see UserCommPilotExpressGetRequest
  */
 class UserCommPilotExpressGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

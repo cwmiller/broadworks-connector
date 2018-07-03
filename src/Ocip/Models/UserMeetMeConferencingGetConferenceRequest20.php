@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the information of a conference owned by the user.
  *         The response is either UserMeetMeConferencingGetConferenceResponse20 or
  * ErrorResponse.
+ *
+ * @see UserMeetMeConferencingGetConferenceResponse20
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingGetConferenceRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -18,6 +18,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * quantified number of participants.
  *         
  *         Replaced by: GroupCollaborateBridgeGetInstanceResponse20sp1
+ *
+ * @see GroupCollaborateBridgeGetInstanceRequest
+ * @see GroupCollaborateBridgeGetInstanceResponse20sp1
  */
 class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

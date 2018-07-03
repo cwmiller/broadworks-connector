@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ResellerGetListRequest.
  *         Contains a 2 column table with column headings "Reseller Id", "Reseller
  * Name". A row for each reseller.
+ *
+ * @see ResellerGetListRequest
  */
 class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

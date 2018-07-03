@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           bypassTerminationLoopDetection
  *           honorCLIDBlockingForEmergencyCalls
  *           useUnicodeIdentityName
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

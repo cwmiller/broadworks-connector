@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: 
  *         "Home Zone Id", "Domain Name", "Mobile Country Code",
  *         "Mobile Network Code", "Local Area Code" and "Cell Identity".
+ *
+ * @see GroupBroadWorksMobileManagerGetHomeZoneListRequest
  */
 class GroupBroadWorksMobileManagerGetHomeZoneListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderIMRNGetListResponse
  *
  * Response to ServiceProviderIMRNGetListRequest.
+ *
+ * @see ServiceProviderIMRNGetListRequest
  */
 class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

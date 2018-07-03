@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of available ports in a device.
  *         The response is either GroupAccessDeviceAvailablePortGetListResponse or
  * ErrorResponse.
+ *
+ * @see GroupAccessDeviceAvailablePortGetListResponse
+ * @see ErrorResponse
  */
 class GroupAccessDeviceAvailablePortGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserConnectedLineIdentificationRestrictionGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserConnectedLineIdentificationRestrictionGetResponse
+ * @see ErrorResponse
  */
 class UserConnectedLineIdentificationRestrictionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

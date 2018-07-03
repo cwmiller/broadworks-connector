@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * part of an Enterprise.
  *         The response is either GroupGroupPagingGetAvailableTargetListResponse or
  * ErrorResponse.
+ *
+ * @see GroupGroupPagingGetAvailableTargetListResponse
+ * @see ErrorResponse
  */
 class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

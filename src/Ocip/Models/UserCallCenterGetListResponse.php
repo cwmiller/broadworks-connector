@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * appserver is compliant with the schema and emits a
  *         *****       the column heading "Service User Id".
  *         Replaced By: UserCallCenterGetResponse
+ *
+ * @see UserCallCentersLoginGetListRequest
+ * @see UserCallCenterGetResponse
  */
 class UserCallCenterGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

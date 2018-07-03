@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Overridable".
  *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is
  * Overridable", "Is Encrypted".
+ *
+ * @see SystemDeviceManagementTagGetListRequest
  */
 class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

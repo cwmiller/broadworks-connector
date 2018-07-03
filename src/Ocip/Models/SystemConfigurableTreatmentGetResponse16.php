@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemConfigurableTreatmentGetRequest16.
  *         The response contains the treatment configurable information.
+ *
+ * @see SystemConfigurableTreatmentGetRequest16
  */
 class SystemConfigurableTreatmentGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

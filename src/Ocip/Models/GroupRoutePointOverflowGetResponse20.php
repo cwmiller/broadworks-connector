@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointOverflowGetResponse20
  *
  * Response to the GroupRoutePointOverflowGetRequest20.
+ *
+ * @see GroupRoutePointOverflowGetRequest20
  */
 class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

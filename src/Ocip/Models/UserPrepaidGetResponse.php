@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPrepaidGetResponse
  *
  * Response to UserPrepaidGetRequest.
+ *
+ * @see UserPrepaidGetRequest
  */
 class UserPrepaidGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

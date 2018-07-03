@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's bounced call settings.
  *         The response is either a GroupRoutePointBouncedCallGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupRoutePointBouncedCallGetResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointBouncedCallGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

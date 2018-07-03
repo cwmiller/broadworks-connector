@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of users for a file repository in the system.
  *         The response is either a SystemFileRepositoryDeviceUserGetListResponse
  * or an ErrorResponse.
+ *
+ * @see SystemFileRepositoryDeviceUserGetListResponse
+ * @see ErrorResponse
  */
 class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

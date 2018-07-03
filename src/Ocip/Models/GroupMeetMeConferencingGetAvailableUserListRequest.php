@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Conferencing is part of an Enterprise.
  *         The response is either
  * GroupMeetMeConferencingGetAvailableUserListResponse or ErrorResponse.
+ *
+ * @see GroupMeetMeConferencingGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupMeetMeConferencingGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

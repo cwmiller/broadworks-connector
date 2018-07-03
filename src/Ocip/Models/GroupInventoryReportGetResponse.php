@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInventoryReportGetResponse
  *
  * Response to GroupInventoryReportGetRequest.
+ *
+ * @see GroupInventoryReportGetRequest
  */
 class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

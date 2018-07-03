@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the configuration of a specified service provider access device.
  *         The response is either ServiceProviderAccessDeviceGetResponse18sp1 or
  * ErrorResponse.
+ *
+ * @see ServiceProviderAccessDeviceGetResponse18sp1
+ * @see ErrorResponse
  */
 class ServiceProviderAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

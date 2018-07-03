@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the Service Provider Session Admission White List information.
  *         The response is either a
  * ServiceProviderSessionAdmissionControlWhiteListGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderSessionAdmissionControlWhiteListGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderSessionAdmissionControlWhiteListGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

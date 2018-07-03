@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by:
  * GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1 in AS data mode
+ *
+ * @see GroupCommunicationBarringAuthorizationCodeGetListRequest
+ * @see GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1
  */
 class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

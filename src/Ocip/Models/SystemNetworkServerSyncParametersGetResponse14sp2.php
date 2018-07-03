@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemNetworkServerSyncParametersGetRequest14sp2.
  *          Contains a list of system Network Server Sync parameters.
  *          Replaced By: SystemNetworkServerSyncParametersGetResponse16
+ *
+ * @see SystemNetworkServerSyncParametersGetRequest14sp2
+ * @see SystemNetworkServerSyncParametersGetResponse16
  */
 class SystemNetworkServerSyncParametersGetResponse14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

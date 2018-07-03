@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the calling line id settings for a group.
  *         The response is either a GroupCallingLineIdGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupCallingLineIdGetResponse
+ * @see ErrorResponse
  */
 class GroupCallingLineIdGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

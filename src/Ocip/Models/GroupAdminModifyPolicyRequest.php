@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             verifyTranslationAndRoutingAccess
  *             communicationBarringUserProfileAccess (only applicable to groups in
  * an Enterprise)
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupAdminModifyPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

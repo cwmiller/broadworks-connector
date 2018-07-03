@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the group’s PreAlertingservice settings.
  *         The response is either a GroupPreAlertingAnnouncementGetResponse20 or an
  * ErrorResponse.
+ *
+ * @see GroupPreAlertingAnnouncementGetResponse20
+ * @see ErrorResponse
  */
 class GroupPreAlertingAnnouncementGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

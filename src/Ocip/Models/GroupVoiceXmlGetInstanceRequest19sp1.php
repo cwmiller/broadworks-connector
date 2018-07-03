@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a VoiceXML instance.
  *         The response is either GroupVoiceXmlGetInstanceResponse19sp1 or
  * ErrorResponse.
+ *
+ * @see GroupVoiceXmlGetInstanceResponse19sp1
+ * @see ErrorResponse
  */
 class GroupVoiceXmlGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

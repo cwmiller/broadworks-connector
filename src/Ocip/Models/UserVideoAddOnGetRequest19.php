@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's Video Add-On service setting.
  *         The response is either a UserVideoAddOnGetResponse19 or an
  * ErrorResponse.
+ *
+ * @see UserVideoAddOnGetResponse19
+ * @see ErrorResponse
  */
 class UserVideoAddOnGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

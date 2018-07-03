@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringDigitPatternCriteriaGetListRequest.
  *         The response contains a table of all Digit Pattern Criteria defined for
  * the service provider. The column headings are "Name" and "Description"
+ *
+ * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetListRequest
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

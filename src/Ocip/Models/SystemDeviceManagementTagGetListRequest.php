@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Management System.
  *         The response is either SystemDeviceManagementTagGetListResponse or
  * ErrorResponse.
+ *
+ * @see SystemDeviceManagementTagGetListResponse
+ * @see ErrorResponse
  */
 class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

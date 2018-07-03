@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify a list of feature access codes for a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced by: GroupFeatureAccessCodeModifyRequest
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupFeatureAccessCodeModifyRequest
  */
 class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

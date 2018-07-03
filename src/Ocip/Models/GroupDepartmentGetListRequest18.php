@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         defined within the enterprise the group belongs to.
  *         The response is either GroupDepartmentGetListResponse18 or
  * ErrorResponse.
+ *
+ * @see GroupDepartmentGetListResponse18
+ * @see ErrorResponse
  */
 class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

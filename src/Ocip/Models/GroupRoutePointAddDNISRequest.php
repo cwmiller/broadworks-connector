@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a Route Point DNIS.        
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -59,6 +59,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            useUserTranslationRoutingSetting
  *            routeOverrideDomain
  *            routeOverridePrefix
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see useMaxConcurrentTerminatingAlertingRequests
+ * @see maxConcurrentTerminatingAlertingRequests
+ * @see useMaxConcurrentTerminatingAlertingRequests
+ * @see maxConcurrentTerminatingAlertingRequests
  */
 class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

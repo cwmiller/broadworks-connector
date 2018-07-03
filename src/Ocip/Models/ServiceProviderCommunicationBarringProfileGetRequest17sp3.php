@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced By :
  * ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 in AS data mode
+ *
+ * @see ServiceProviderCommunicationBarringProfileGetResponse17sp3
+ * @see ErrorResponse
+ * @see ServiceProviderCommunicationBarringProfileGetRequest19sp1
  */
 class ServiceProviderCommunicationBarringProfileGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

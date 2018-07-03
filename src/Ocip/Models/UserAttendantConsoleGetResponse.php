@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAttendantConsoleGetResponse
  *
  * Response to UserAttendantConsoleGetRequest.
+ *
+ * @see UserAttendantConsoleGetRequest
  */
 class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

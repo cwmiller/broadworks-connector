@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add collaborate project room.
  *         The response is either a UserCollaborateProjectRoomAddResponse or an
  * ErrorResponse.
+ *
+ * @see UserCollaborateProjectRoomAddResponse
+ * @see ErrorResponse
  */
 class UserCollaborateProjectRoomAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

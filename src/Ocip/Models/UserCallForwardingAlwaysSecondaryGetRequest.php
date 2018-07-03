@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallForwardingAlwaysSecondaryGetResponse or
  * an
  *         ErrorResponse.
+ *
+ * @see UserCallForwardingAlwaysSecondaryGetResponse
+ * @see ErrorResponse
  */
 class UserCallForwardingAlwaysSecondaryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

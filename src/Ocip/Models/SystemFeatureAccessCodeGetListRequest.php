@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemFeatureAccessCodeGetListRequest21 in AS data mode
+ *
+ * @see SystemFeatureAccessCodeGetListResponse
+ * @see ErrorResponse
+ * @see SystemFeatureAccessCodeGetListRequest21
  */
 class SystemFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

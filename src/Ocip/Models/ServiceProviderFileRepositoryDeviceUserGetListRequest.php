@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of service provider users for a file repository in the system.
  *         The response is either a
  * ServiceProviderFileRepositoryDeviceUserGetListResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderFileRepositoryDeviceUserGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

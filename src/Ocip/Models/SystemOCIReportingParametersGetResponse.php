@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemOCIReportingParametersGetListRequest.
  *         Contains a list of system OCI Reporting parameters.
+ *
+ * @see SystemOCIReportingParametersGetListRequest
  */
 class SystemOCIReportingParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

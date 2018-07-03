@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a specified system access device file.
  *           The response is either a SuccessResponse or an ErrorResponse.
  *           Replaced By: SystemAccessDeviceFileModifyRequest14sp8
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemAccessDeviceFileModifyRequest14sp8
  */
 class SystemAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -29,6 +29,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Parameter","Service Level Objective Threshold Parameter" 
  *         and "Abandoned Call Threshold Parameter" are "Required", "Hidden" and
  * "Does Not Apply".
+ *
+ * @see GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest
  */
 class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

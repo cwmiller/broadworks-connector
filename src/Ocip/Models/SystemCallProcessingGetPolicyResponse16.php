@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingGetPolicyResponse16
  *
  * Response to SystemCallProcessingGetPolicyRequest16.
+ *
+ * @see SystemCallProcessingGetPolicyRequest16
  */
 class SystemCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

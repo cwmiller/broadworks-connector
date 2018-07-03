@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TutorialFlagGetResponse
  *
  * Response to the TutorialFlagGetRequest.
+ *
+ * @see TutorialFlagGetRequest
  */
 class TutorialFlagGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

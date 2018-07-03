@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * agent of.
  *         The response is either a
  * UserCallCenterGetAvailableCallCenterListResponse or an ErrorResponse.
+ *
+ * @see UserCallCenterGetAvailableCallCenterListResponse
+ * @see ErrorResponse
  */
 class UserCallCenterGetAvailableCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

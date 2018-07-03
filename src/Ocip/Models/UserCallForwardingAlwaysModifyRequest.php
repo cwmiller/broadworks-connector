@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user level data associated with Call Forwarding Always.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Engineering Note: This command is used internally by Call Processing.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserCallForwardingAlwaysModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

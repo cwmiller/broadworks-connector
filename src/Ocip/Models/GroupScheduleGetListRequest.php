@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of a group schedules. The list can be filtered by schedule type.
  *         The response is either a GroupScheduleGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupScheduleGetListResponse
+ * @see ErrorResponse
  */
 class GroupScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

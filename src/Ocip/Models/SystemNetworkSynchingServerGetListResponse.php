@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and not returned in
  * XS data mode:
  *           preferredNetworkServerNetAddress
+ *
+ * @see SystemNetworkSynchingServerGetListRequest
  */
 class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

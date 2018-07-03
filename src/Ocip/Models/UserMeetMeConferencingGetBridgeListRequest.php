@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of Meet-Me Conferencing bridges for which the user is a host.
  *         The response is either UserMeetMeConferencingGetBridgeListResponse or
  * ErrorResponse.
+ *
+ * @see UserMeetMeConferencingGetBridgeListResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingGetBridgeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBargeInExemptGetResponse
  *
  * Response to UserBargeInExemptGetRequest.
+ *
+ * @see UserBargeInExemptGetRequest
  */
 class UserBargeInExemptGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * SystemPushNotificationAllowedApplicationGetListResponse or
  *         ErrorResponse.
+ *
+ * @see SystemPushNotificationAllowedApplicationGetListResponse
+ * @see ErrorResponse
  */
 class SystemPushNotificationAllowedApplicationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

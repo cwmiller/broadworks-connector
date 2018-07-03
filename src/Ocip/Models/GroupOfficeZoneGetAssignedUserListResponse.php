@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Last Name" and "Hiragana First Name", "Extension".
  *         Office Zones can only be unassigned if the Location-Based Calling
  * Restrictions has been authorized to the group otherwise the request will fail.
+ *
+ * @see GroupOfiiceZoneGetAssignedUserListRequest
  */
 class GroupOfficeZoneGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

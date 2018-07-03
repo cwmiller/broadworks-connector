@@ -21,6 +21,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: ServiceProviderAccessDeviceGetUserListResponse21sp1 in AS
  * data mode.
+ *
+ * @see ServiceProviderAccessDeviceGetUserListRequest
+ * @see ServiceProviderAccessDeviceGetUserListResponse21sp1
  */
 class ServiceProviderAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a Personal Assistant Exclusion Number.
  *         The response is either UserPersonalAssistantExclusionNumberGetResponse
  * or ErrorResponse.
+ *
+ * @see UserPersonalAssistantExclusionNumberGetResponse
+ * @see ErrorResponse
  */
 class UserPersonalAssistantExclusionNumberGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

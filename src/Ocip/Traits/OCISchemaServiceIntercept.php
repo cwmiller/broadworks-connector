@@ -1,0 +1,117 @@
+<?php
+
+namespace CWM\BroadWorksConnector\Ocip\Traits;
+
+use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupModifyRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserAddDnListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserDeleteDnListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetDnListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetDnListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyDnRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
+use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
+
+trait OCISchemaServiceIntercept
+{
+
+    /**
+     * @param GroupInterceptGroupGetRequest21sp1 $request
+     * @return GroupInterceptGroupGetResponse21sp1|ErrorResponse
+     */
+    public function groupInterceptGroupGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param GroupInterceptGroupModifyRequest21sp1 $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function groupInterceptGroupModifyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupModifyRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemInterceptUserAddDnListRequest $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function systemInterceptUserAddDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserAddDnListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemInterceptUserDeleteDnListRequest $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function systemInterceptUserDeleteDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserDeleteDnListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemInterceptUserGetDnListRequest $request
+     * @return SystemInterceptUserGetDnListResponse
+     */
+    public function systemInterceptUserGetDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetDnListRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemInterceptUserGetRequest $request
+     * @return SystemInterceptUserGetResponse|ErrorResponse
+     */
+    public function systemInterceptUserGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserGetRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemInterceptUserModifyDnRequest $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function systemInterceptUserModifyDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyDnRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param SystemInterceptUserModifyRequest $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function systemInterceptUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemInterceptUserModifyRequest $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserInterceptUserGetRequest21sp1 $request
+     * @return UserInterceptUserGetResponse21sp1|ErrorResponse
+     */
+    public function userInterceptUserGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+    /**
+     * @param UserInterceptUserModifyRequest21sp1 $request
+     * @return SuccessResponse|ErrorResponse
+     */
+    public function userInterceptUserModifyRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest21sp1 $request)
+    {
+        return $this->call($request);
+    }
+
+
+}
+

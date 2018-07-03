@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Dns assigned to the IMRN pool are not listed in the response.
  *         The response is either a GroupDnGetAvailableListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupDnGetAvailableListResponse
+ * @see ErrorResponse
  */
 class GroupDnGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

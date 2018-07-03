@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's night service settings.
  *         The response is either a GroupRoutePointNightServiceGetResponse17sp1 or
  * an ErrorResponse.
+ *
+ * @see GroupRoutePointNightServiceGetResponse17sp1
+ * @see ErrorResponse
  */
 class GroupRoutePointNightServiceGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

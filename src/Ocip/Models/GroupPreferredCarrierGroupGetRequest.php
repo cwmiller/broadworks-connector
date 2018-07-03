@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the currently configured carriers for a group.
  *         The response is either a GroupPreferredCarrierGroupGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupPreferredCarrierGroupGetResponse
+ * @see ErrorResponse
  */
 class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

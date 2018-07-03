@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAdministratorPasswordRulesGetResponse
  *
  * Response to GroupAdministratorPasswordRulesGetRequest.
+ *
+ * @see GroupAdministratorPasswordRulesGetRequest
  */
 class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

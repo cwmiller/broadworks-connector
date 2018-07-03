@@ -28,6 +28,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * before the telephone number.        
  *         NOTE: the same phone number can show up in the list twice if the phone
  * number is being used as the group calling line Id.
+ *
+ * @see GroupDnGetAssignmentListRequest18
  */
 class GroupDnGetAssignmentListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

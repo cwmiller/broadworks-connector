@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       the roomStartTime and roomEndTime are returned for Instant Room. 
  *         The response is either UserCollaboratetRoomGetResponse or 
  *         ErrorResponse.
+ *
+ * @see UserCollaboratetRoomGetResponse
+ * @see ErrorResponse
  */
 class UserCollaborateRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

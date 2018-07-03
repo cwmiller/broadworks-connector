@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemAnonymousCallRejectionGetRequest.
  *         The response contains the anonymous call rejection system.".
+ *
+ * @see SystemAnonymousCallRejectionGetRequest
  */
 class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

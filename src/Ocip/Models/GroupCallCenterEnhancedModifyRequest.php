@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
  *         Replaced By: GroupCallCenterModifyInstanceRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterModifyInstanceRequest16
  */
 class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Group level data associated with Dial Plan Policy.
  *         The response is either a GroupDialPlanPolicyGetAccessCodeListResponse
  *         or an ErrorResponse.
+ *
+ * @see GroupDialPlanPolicyGetAccessCodeListResponse
+ * @see ErrorResponse
  */
 class GroupDialPlanPolicyGetAccessCodeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

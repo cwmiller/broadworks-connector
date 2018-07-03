@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse 
  *         or an ErrorResponse.
+ *
+ * @see ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

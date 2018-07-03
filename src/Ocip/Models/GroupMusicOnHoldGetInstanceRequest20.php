@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupMusicOnHoldGetInstanceResponse20 or
  * ErrorResponse.
  *         Replaced by: GroupMusicOnHoldGetInstanceRequest21
+ *
+ * @see GroupMusicOnHoldGetInstanceResponse20
+ * @see ErrorResponse
+ * @see GroupMusicOnHoldGetInstanceRequest21
  */
 class GroupMusicOnHoldGetInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

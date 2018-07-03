@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
  *           
  *          Replaced by: GroupAccessDeviceGetUserListRequest21sp1 in AS data mode.
+ *
+ * @see GroupAccessDeviceGetUserListResponse
+ * @see ErrorResponse
+ * @see GroupAccessDeviceGetUserListRequest21sp1
  */
 class GroupAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

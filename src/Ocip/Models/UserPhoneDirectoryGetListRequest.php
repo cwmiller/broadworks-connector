@@ -27,6 +27,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse is returned.
  *         Specifying searchCriteriaModeOr without any search criteria results in
  * an ErrorResponse.
+ *
+ * @see UserPhoneDirectoryGetListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserPhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

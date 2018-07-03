@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns a 4 column table with column headings:
  *           "Location Code", "Min Extension Length", "Max Extension Length",
  * "Location Selection".
+ *
+ * @see EnterpriseVoiceVPNGetListResponse
  */
 class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

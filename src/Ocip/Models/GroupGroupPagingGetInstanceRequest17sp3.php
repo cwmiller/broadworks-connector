@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupGroupPagingGetInstanceRequest19sp1
+ *
+ * @see GroupGroupPagingGetInstanceResponse17sp3
+ * @see ErrorResponse
+ * @see GroupGroupPagingGetInstanceRequest19sp1
  */
 class GroupGroupPagingGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

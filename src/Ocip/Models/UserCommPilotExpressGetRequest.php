@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's commPilot express service setting.
  *         The response is either a UserCommPilotExpressGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserCommPilotExpressGetResponse
+ * @see ErrorResponse
  */
 class UserCommPilotExpressGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

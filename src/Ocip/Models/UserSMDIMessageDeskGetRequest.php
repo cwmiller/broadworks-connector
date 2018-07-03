@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's SMDI Message Desk service personal setting.
  *         The response is either a UserSMDIMessageDeskGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserSMDIMessageDeskGetResponse
+ * @see ErrorResponse
  */
 class UserSMDIMessageDeskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

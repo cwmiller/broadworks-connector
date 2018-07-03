@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Response to UserCollaborateBridgeGetRequest.
  *         
  *         Replaced by: UserCollaborateBridgeGetResponse20sp1
+ *
+ * @see UserCollaborateBridgeGetRequest
+ * @see UserCollaborateBridgeGetResponse20sp1
  */
 class UserCollaborateBridgeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

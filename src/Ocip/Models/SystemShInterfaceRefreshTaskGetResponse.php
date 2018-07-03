@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * system that will be refreshed by the system refresh task;
  * numberPublicIdentityRefreshesStarted indicates the total number of public
  * identities for which a refresh has been started.
+ *
+ * @see SystemShInterfaceRefreshTaskGetRequest
  */
 class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

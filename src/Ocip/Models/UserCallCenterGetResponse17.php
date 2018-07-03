@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Number", "Extension", "Available", "Logoff Allowed", "Type", and "Priority".
  *         
  *         Replaced by UserCallCenterGetResponse17sp4.
+ *
+ * @see UserCallCenterGetRequest17
+ * @see UserCallCenterGetResponse17sp4
  */
 class UserCallCenterGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

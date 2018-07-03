@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The response is either a
  * SystemRoutePointExternalSystemGetRoutePointListResponse or an
  *       ErrorResponse.
+ *
+ * @see SystemRoutePointExternalSystemGetRoutePointListResponse
+ * @see ErrorResponse
  */
 class SystemRoutePointExternalSystemGetRoutePointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

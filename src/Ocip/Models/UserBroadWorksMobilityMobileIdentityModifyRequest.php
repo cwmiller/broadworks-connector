@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * denyCallTerminiations, accessDeviceEndpoint, outboundAlternateNumber,
  * enableDirectRouting and markCDRAsEnterpriseGroupCalls parameters require an
  * authorization level of Group for modification.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

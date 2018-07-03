@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallingPartyCategoryGetResponse16
  *
  * Response to UserCallingPartyCategoryGetRequest16.
+ *
+ * @see UserCallingPartyCategoryGetRequest16
  */
 class UserCallingPartyCategoryGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

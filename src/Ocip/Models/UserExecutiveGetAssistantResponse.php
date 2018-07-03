@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email
  * Address" and "Opt-in".
  *         The possible values for "Opt-in" column are "true" and "false".
+ *
+ * @see UserExecutiveGetAssistantsRequest
  */
 class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse
  *         or ErrorResponse.
+ *
+ * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse
+ * @see ErrorResponse
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

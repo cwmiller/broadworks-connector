@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced By : ServiceProviderServicePackMigrationTaskGetListResponse21
  * in AS data mode
+ *
+ * @see ServiceProviderServicePackMigrationTaskGetListRequest
+ * @see ServiceProviderServicePackMigrationTaskGetListResponse21
  */
 class ServiceProviderServicePackMigrationTaskGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

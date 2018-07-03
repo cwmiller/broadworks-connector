@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address", "Association
  * Limit Hours", "Enable Association Limit",
+ *
+ * @see UserFlexibleSeatingGuestGetAvailableHostListRequest
  */
 class UserFlexibleSeatingGuestGetAvailableHostListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

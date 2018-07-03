@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemSubscriberGetProvisioningParametersResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemSubscriberGetProvisioningParametersResponse
+ * @see ErrorResponse
  */
 class SystemSubscriberGetProvisioningParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

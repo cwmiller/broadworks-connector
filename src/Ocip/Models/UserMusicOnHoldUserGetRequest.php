@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserMusicOnHoldUserGetResponse or an
  *         ErrorResponse.
  *         Replaced By: UserMusicOnHoldUserGetRequest16
+ *
+ * @see UserMusicOnHoldUserGetResponse
+ * @see ErrorResponse
+ * @see UserMusicOnHoldUserGetRequest16
  */
 class UserMusicOnHoldUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

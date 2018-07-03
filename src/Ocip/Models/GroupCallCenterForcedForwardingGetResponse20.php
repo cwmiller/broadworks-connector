@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterForcedForwardingGetResponse20
  *
  * Response to the GroupCallCenterForcedForwardingGetRequest20.
+ *
+ * @see GroupCallCenterForcedForwardingGetRequest20
  */
 class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

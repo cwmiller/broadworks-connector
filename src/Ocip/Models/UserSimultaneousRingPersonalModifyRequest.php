@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user's simultaneous ring personal service setting.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: UserSimultaneousRingPersonalModifyRequest14sp4
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserSimultaneousRingPersonalModifyRequest14sp4
  */
 class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

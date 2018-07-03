@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Enterprise.
  *         The response is either a
  * EnterpriseCallCenterAgentThresholdProfileGetResponse or an ErrorResponse.
+ *
+ * @see EnterpriseCallCenterAgentThresholdProfileGetResponse
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

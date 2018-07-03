@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserExecutiveGetFilteringSelectiveCriteriaRequest.
  *         Replaced by: UserExecutiveGetFilteringSelectiveCriteriaResponse21
+ *
+ * @see UserExecutiveGetFilteringSelectiveCriteriaRequest
+ * @see UserExecutiveGetFilteringSelectiveCriteriaResponse21
  */
 class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

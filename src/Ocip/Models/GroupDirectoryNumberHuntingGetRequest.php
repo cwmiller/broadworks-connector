@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *  
  *         Replaced by: GroupDirectoryNumberHuntingGetRequest17sp1
+ *
+ * @see GroupDirectoryNumberHuntingGetResponse
+ * @see ErrorResponse
+ * @see GroupDirectoryNumberHuntingGetRequest17sp1
  */
 class GroupDirectoryNumberHuntingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

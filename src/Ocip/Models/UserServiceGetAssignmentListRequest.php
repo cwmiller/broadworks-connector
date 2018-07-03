@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the user's service and service pack assignment list with status.
  *         The response is either UserServiceGetAssignmentListResponse or
  * ErrorResponse.
+ *
+ * @see UserServiceGetAssignmentListResponse
+ * @see ErrorResponse
  */
 class UserServiceGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

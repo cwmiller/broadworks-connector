@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEnhancedCallLogsGetResponse
  *
  * Response to ServiceProviderEnhancedCallLogsGetRequest.
+ *
+ * @see ServiceProviderEnhancedCallLogsGetRequest
  */
 class ServiceProviderEnhancedCallLogsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

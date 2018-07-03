@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserInternalCallingLineIDDeliveryGetResponse
  *
  * Response to UserInternalCallingLineIDDeliveryGetRequest.
+ *
+ * @see UserInternalCallingLineIDDeliveryGetRequest
  */
 class UserInternalCallingLineIDDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

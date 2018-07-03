@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the
  * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16.
+ *
+ * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

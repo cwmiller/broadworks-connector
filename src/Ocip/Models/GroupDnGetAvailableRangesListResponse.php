@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * user, service instances or IMRN pool.
  *         The Dns are returned in a list of DNs or DN ranges and formated in E164
  * format for display.
+ *
+ * @see GroupDnGetAvailableRangesListRequest
  */
 class GroupDnGetAvailableRangesListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

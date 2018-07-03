@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with all the  Call Center Agent Threshold Profiles in
  * the Enterprise.
  *         The column headings are: "Default", "Name", "Description".
+ *
+ * @see EnterpriseCallCenterAgentThresholdProfileGetListRequest
  */
 class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

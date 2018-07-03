@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a
  * EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse or an ErrorResponse.
+ *
+ * @see EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse
+ * @see ErrorResponse
  */
 class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

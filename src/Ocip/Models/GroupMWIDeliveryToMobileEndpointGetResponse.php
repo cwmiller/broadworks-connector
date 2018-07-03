@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The templateActivationTable contains the list of templates defined for
  * the group.
  *         The column headings are "Enable", "Language", "Type".
+ *
+ * @see GroupMWIDeliveryToMobileEndpointGetRequest
  */
 class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

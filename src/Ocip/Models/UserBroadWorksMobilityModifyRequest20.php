@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * must belong to the enterprise Mobile Subscriber Directory Numbers pool. 
  *         If the request is executed by a user and modifies the mobilePhoneNumber,
  * the request is rejected.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

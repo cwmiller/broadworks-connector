@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupVoiceMessagingGroupGetVoicePortalRequest14.
  *         Replaced by GroupVoiceMessagingGroupGetVoicePortalResponse15
+ *
+ * @see GroupVoiceMessagingGroupGetVoicePortalRequest14
+ * @see GroupVoiceMessagingGroupGetVoicePortalResponse15
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

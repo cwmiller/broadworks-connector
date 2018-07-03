@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserGetLoginInfoRequest22
  *         If a phoneNumber is returned, it will be the primary DN of the user
+ *
+ * @see UserGetLoginInfoRequest22
  */
 class UserGetLoginInfoResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

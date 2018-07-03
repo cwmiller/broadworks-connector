@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereGetSelectiveCriteriaResponse21
  *
  * Response to the UserBroadWorksAnywhereGetSelectiveCriteriaRequest21.
+ *
+ * @see UserBroadWorksAnywhereGetSelectiveCriteriaRequest21
  */
 class UserBroadWorksAnywhereGetSelectiveCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

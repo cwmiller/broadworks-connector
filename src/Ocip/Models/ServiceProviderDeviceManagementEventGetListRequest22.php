@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         event queues are returned.
  *         The response is either a
  * ServiceProviderDeviceManagementEventGetListResponse22 or an ErrorResponse.
+ *
+ * @see ServiceProviderDeviceManagementEventGetListResponse22
+ * @see ErrorResponse
  */
 class ServiceProviderDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

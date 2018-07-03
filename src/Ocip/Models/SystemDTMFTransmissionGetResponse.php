@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDTMFTransmissionGetResponse
  *
  * Response to the SystemDTMFTransmissionGetRequest.
+ *
+ * @see SystemDTMFTransmissionGetRequest
  */
 class SystemDTMFTransmissionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

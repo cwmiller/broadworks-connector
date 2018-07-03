@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The DNs must have previously been added to the service provider or
  * enterprise.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

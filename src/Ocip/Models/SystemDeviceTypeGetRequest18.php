@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     Note: The elements deviceTypeConfigurationOption applies to SIP device types
  * only. Therefore, only present in the response when the device type is SIP.
  *     Replaced by: SystemSIPDeviceTypeGetRequest19.
+ *
+ * @see SystemDeviceTypeGetResponse18
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeGetRequest19
  */
 class SystemDeviceTypeGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

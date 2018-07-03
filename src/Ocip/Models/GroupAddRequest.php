@@ -24,6 +24,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *         defaultUserCallingLineIdPhoneNumber.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCommunicationBarringProfileGetAssignedListRequest.
  *         The response contains a simple list of all communication barring
  * profiles assigned to the group.
+ *
+ * @see GroupCommunicationBarringProfileGetAssignedListRequest
  */
 class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

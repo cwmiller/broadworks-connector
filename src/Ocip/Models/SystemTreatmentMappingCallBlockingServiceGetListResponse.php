@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListResponse22
  * in AS data mode
+ *
+ * @see SystemTreatmentMappingCallBlockingServiceGetListRequest
+ * @see SystemTreatmentMappingCallBlockingServiceGetListResponse22
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

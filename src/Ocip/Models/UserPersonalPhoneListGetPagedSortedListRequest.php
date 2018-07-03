@@ -19,6 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 				Specifying searchCriteriaModeOr without any search criteria results
  * 				in an ErrorResponse.
  * 				The sort can done by the personal phone list number or name.
+ *
+ * @see UserPersonalPhoneListGetPagedSortedListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

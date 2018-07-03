@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserCollaborateBridgeGetRequest20sp1
+ *
+ * @see UserCollaborateBridgeGetResponse
+ * @see ErrorResponse
+ * @see UserCollaborateBridgeGetRequest20sp1
  */
 class UserCollaborateBridgeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

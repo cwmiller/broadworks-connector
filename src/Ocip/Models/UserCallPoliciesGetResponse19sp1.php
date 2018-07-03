@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallPoliciesGetResponse19sp1
  *
  * Response to UserCallPoliciesGetRequest19sp1.
+ *
+ * @see UserCallPoliciesGetRequest19sp1
  */
 class UserCallPoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

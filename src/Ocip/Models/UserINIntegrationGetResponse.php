@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserINIntegrationGetResponse
  *
  * Response to UserINIntegrationGetRequest
+ *
+ * @see UserINIntegrationGetRequest
  */
 class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

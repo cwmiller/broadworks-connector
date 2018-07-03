@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the system-level intercept user service settings.
  *         The response is either a SystemInterceptUserGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemInterceptUserGetResponse
+ * @see ErrorResponse
  */
 class SystemInterceptUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

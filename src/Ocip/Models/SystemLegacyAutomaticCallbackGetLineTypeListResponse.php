@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         table with column headings: "Line Type", "Match" and "No Match". The
  * possible values
  *         for the "Match" and "No Match" columns are "Accept" and "Deny".
+ *
+ * @see SystemLegacyAutomaticCallbackGetLineTypeListRequest
  */
 class SystemLegacyAutomaticCallbackGetLineTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

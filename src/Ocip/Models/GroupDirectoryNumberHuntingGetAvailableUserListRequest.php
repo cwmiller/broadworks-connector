@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  *         GroupDirectoryNumberHuntingGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see GroupDirectoryNumberHuntingGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupDirectoryNumberHuntingGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

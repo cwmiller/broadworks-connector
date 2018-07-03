@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of system service access codes.
  *         The response is either
  * SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 or ErrorResponse.
+ *
+ * @see SystemBroadWorksMobilityServiceAccessCodeGetListResponse21
+ * @see ErrorResponse
  */
 class SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

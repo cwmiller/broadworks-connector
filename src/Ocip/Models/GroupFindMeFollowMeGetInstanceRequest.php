@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupFindMeFollowMeGetInstanceResponse or
  * ErrorResponse.
  *         Replaced by: GroupFindMeFollowMeGetInstanceRequest19sp1
+ *
+ * @see GroupFindMeFollowMeGetInstanceResponse
+ * @see ErrorResponse
+ * @see GroupFindMeFollowMeGetInstanceRequest19sp1
  */
 class GroupFindMeFollowMeGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

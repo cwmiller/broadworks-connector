@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Is Active" can either be true, or false.
  *         NOTE: prior to release 14, the policy column did not match the
  * HuntPolicy enumerated type.
+ *
+ * @see GroupHuntGroupGetInstanceListRequest
  */
 class GroupHuntGroupGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

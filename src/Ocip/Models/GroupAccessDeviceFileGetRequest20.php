@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a group device profile file.
  *         The response is either GroupAccessDeviceFileGetResponse20 or
  * ErrorResponse.
+ *
+ * @see GroupAccessDeviceFileGetResponse20
+ * @see ErrorResponse
  */
 class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

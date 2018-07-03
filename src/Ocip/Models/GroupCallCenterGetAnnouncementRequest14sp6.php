@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an ErrorResponse.
  *         
  *         Replaced By: GroupCallCenterGetAnnouncementRequest16
+ *
+ * @see GroupCallCenterGetAnnouncementResponse14sp6
+ * @see ErrorResponse
+ * @see GroupCallCenterGetAnnouncementRequest16
  */
 class GroupCallCenterGetAnnouncementRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

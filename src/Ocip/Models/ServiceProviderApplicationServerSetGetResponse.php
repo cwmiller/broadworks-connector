@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderApplicationServerSetGetRequest.
  *         The response contains the service provider or enterprise's Application
  * Server set information.
+ *
+ * @see ServiceProviderApplicationServerSetGetRequest
  */
 class ServiceProviderApplicationServerSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

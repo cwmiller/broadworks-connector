@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a sip device type file.
  *           The response is either SystemSIPDeviceTypeFileGetResponse18 or
  * ErrorResponse.
+ *
+ * @see SystemSIPDeviceTypeFileGetResponse18
+ * @see ErrorResponse
  */
 class SystemSIPDeviceTypeFileGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * service pack.
  *         The response is either GroupServiceGetAuthorizationResponse or
  * ErrorResponse.
+ *
+ * @see GroupServiceGetAuthorizationResponse
+ * @see ErrorResponse
  */
 class GroupServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAssignedServicesGetListRequest.
  *         A user can have both user services and group services because of music
  * on hold.
+ *
+ * @see UserAssignedServicesGetListRequest
  */
 class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

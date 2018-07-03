@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Phone Number" column contains a single DN.
  *         The "Department" column contains the department of the user if it is
  * part of a department.
+ *
+ * @see
+ * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

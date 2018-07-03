@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingAddConferenceResponse
  *
  * Response to UserMeetMeConferencingAddConferenceRequest.
+ *
+ * @see UserMeetMeConferencingAddConferenceRequest
  */
 class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

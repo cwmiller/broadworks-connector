@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSharedCallAppearanceGetEndpointResponse
  *
  * Response to the UserSharedCallAppearanceGetEndpointRequest.
+ *
+ * @see UserSharedCallAppearanceGetEndpointRequest
  */
 class UserSharedCallAppearanceGetEndpointResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

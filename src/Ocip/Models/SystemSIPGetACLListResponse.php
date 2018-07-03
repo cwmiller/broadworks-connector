@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSIPGetACLListRequest. The table columns are:
  *         "Net Address", "Transport" and "Description".
+ *
+ * @see SystemSIPGetACLListRequest
  */
 class SystemSIPGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

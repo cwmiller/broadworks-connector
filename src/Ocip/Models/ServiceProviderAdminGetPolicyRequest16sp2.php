@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the service provider administrator's policy settings.
  *         The response is either ServiceProviderAdminGetPolicyResponse16sp2 or
  * ErrorResponse.
+ *
+ * @see ServiceProviderAdminGetPolicyResponse16sp2
+ * @see ErrorResponse
  */
 class ServiceProviderAdminGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

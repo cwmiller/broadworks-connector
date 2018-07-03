@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderInCallServiceActivationGetResponse17
  *
  * Response to ServiceProviderInCallServiceActivationGetRequest17.
+ *
+ * @see ServiceProviderInCallServiceActivationGetRequest17
  */
 class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

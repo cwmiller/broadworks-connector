@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * this
  *         will make the DNs become unassigned from any department.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

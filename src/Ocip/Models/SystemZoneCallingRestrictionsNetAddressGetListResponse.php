@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemZoneCallingRestrictionsNetAddressGetListRequest.
  *         Replaced by: SystemZoneNetAddressGetListResponse
+ *
+ * @see SystemZoneCallingRestrictionsNetAddressGetListRequest
+ * @see SystemZoneNetAddressGetListResponse
  */
 class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

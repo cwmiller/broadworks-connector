@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Application Server set for a group.
  *         The response is either a GroupApplicationServerSetGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupApplicationServerSetGetResponse
+ * @see ErrorResponse
  */
 class GroupApplicationServerSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

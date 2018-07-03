@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the service provider's digit collection attributes.
  *         The response is either a ServiceProviderDigitCollectionGetResponse13mp4
  * or an ErrorResponse.
+ *
+ * @see ServiceProviderDigitCollectionGetResponse13
+ * @see ErrorResponse
  */
 class ServiceProviderDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

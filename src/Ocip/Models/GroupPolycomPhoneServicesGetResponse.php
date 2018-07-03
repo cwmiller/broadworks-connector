@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPolycomPhoneServicesGetResponse
  *
  * Response to GroupPolycomPhoneServicesGetRequest.
+ *
+ * @see GroupPolycomPhoneServicesGetRequest
  */
 class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

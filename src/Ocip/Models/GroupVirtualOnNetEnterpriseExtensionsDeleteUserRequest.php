@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete an existing Virtual On-Net user from a Group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

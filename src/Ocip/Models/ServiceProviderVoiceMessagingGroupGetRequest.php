@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the service provider's or enterprise's voice messaging settings.
  *         The response is either ServiceProviderVoiceMessagingGroupGetResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderVoiceMessagingGroupGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

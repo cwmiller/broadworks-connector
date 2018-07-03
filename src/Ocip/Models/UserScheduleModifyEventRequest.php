@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * recurrent schedule that comes at or after the startDate.
  *         The endDate element is set to the sum of the adjusted starDate element
  * value and the event duration.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

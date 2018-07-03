@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Legacy Automatic Callback.
  *         The response is either a UserLegacyAutomaticCallbackGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserLegacyAutomaticCallbackGetResponse
+ * @see ErrorResponse
  */
 class UserLegacyAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

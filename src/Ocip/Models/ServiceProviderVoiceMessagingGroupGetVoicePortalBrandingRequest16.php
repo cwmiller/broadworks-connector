@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
+ * @see ErrorResponse
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

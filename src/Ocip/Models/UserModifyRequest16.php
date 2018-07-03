@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The request will fail if officeZoneName or primaryZoneName is present
  * but the Location-Based Calling Restrictions service is not assigned to the user.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see UserModifyRequest17sp4
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

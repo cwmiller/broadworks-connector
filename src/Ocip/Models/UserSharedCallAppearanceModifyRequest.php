@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            allowSimultaneousPrimaryAndAlternate
  *            restrictCallRetrieveOfPrimary
  *            restrictCallBridgingOfPrimary
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -25,6 +25,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *           Replaced by: UserVoiceMessagingUserGetGreetingResponse20 in AS data
  * mode
+ *
+ * @see UserVoiceMessagingUserGetGreetingRequest18sp1
+ * @see UserVoiceMessagingUserGetGreetingResponse20
  */
 class UserVoiceMessagingUserGetGreetingResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

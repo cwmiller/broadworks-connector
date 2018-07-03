@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enablePhoneListLookup, value "false" is returned in XS data mode.
  *           
  *         Replaced by: GroupCallProcessingGetPolicyResponse21sp2
+ *
+ * @see GroupCallProcessingGetPolicyRequest21sp1
+ * @see GroupCallProcessingGetPolicyResponse21sp2
  */
 class GroupCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

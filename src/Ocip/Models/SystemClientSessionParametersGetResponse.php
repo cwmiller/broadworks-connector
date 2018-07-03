@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemClientSessionParametersGetRequest.
  *         Contains a list of system Client Session (web and CLI) parameters.
+ *
+ * @see SystemClientSessionParametersGetRequest
  */
 class SystemClientSessionParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

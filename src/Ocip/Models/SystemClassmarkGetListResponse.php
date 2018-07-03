@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemClassmarkGetListRequest. 
  *         Contains a table of with the column headings: "Class Mark", "Value" and
  * "Web Display Key".
+ *
+ * @see SystemClassmarkGetListRequest
  */
 class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

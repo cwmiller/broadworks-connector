@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * mode.
  *           
  *         Contains a list of system push notification parameters.
+ *
+ * @see SystemPushNotificationParametersGetRequest
  */
 class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemFileRepositoryDeviceGetRequest16.
  *         
  *         Replaced by: SystemFileRepositoryDeviceGetResponse20 in AS data mode
+ *
+ * @see SystemFileRepositoryDeviceGetRequest16
+ * @see SystemFileRepositoryDeviceGetResponse20
  */
 class SystemFileRepositoryDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

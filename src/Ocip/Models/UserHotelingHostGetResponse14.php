@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserHotelingHostGetRequest14.
  *         Replaced by: UserHotelingHostGetResponse14sp4
+ *
+ * @see UserHotelingHostGetRequest14
+ * @see UserHotelingHostGetResponse14sp4
  */
 class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

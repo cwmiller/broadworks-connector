@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and/or Service Provider Administrator, Group Administrator, Department
  * Administrator, user.
  *         Replaced By : SystemPasswordRulesGetResponse16
+ *
+ * @see SystemPasswordRulesGetRequest13
+ * @see SystemPasswordRulesGetResponse16
  */
 class SystemPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

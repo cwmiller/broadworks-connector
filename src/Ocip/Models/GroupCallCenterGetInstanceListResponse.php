@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column values for "Type" can be "Basic", "Standard" or "Premium".
  *         NOTE: prior to release 14, the policy column did not match the
  * HuntPolicy enumerated type.
+ *
+ * @see GroupCallCenterGetInstanceListRequest
  */
 class GroupCallCenterGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

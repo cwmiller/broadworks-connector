@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBusyLampFieldGetResponse
  *
  * Response to SystemBusyLampFieldGetRequest.
+ *
+ * @see SystemBusyLampFieldGetRequest
  */
 class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

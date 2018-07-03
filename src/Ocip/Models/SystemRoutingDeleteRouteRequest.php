@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to delete a route from the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemRoutingDeleteRouteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

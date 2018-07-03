@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to
  * ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest.
  *         The column headings are "Phone Number", "Group Id" and "Mobile Network".
+ *
+ * @see
+ * ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

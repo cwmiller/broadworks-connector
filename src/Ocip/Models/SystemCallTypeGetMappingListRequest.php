@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of system call type mappings.
  *         The response is either SystemCallTypeGetMappingListResponse or
  * ErrorResponse.
+ *
+ * @see SystemCallTypeGetMappingListResponse
+ * @see ErrorResponse
  */
 class SystemCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

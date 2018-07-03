@@ -27,6 +27,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         The response is either SystemDeviceTypeGetlAvailableListResponse22 or
  * ErrorResponse.
+ *
+ * @see SystemSIPDeviceTypeGetListRequest
+ * @see SystemMGCPDeviceTypeGetListRequest
+ * @see SystemDeviceTypeGetlAvailableListResponse22
+ * @see ErrorResponse
  */
 class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

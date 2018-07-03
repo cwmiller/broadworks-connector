@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by GroupCallCenterGetDNISAnnouncementRequest17sp4
+ *
+ * @see GroupCallCenterGetDNISAnnouncementRequest
+ * @see ErrorResponse
+ * @see GroupCallCenterGetDNISAnnouncementRequest17sp4
  */
 class GroupCallCenterGetDNISAnnouncementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

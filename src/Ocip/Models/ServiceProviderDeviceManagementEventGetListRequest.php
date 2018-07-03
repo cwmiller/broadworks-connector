@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDeviceManagementEventGetListResponse or an ErrorResponse.
  *         Deprecated by ServiceProviderDeviceManagementEventGetListRequest22 in AS
  * data mode.
+ *
+ * @see ServiceProviderDeviceManagementEventGetListResponse
+ * @see ErrorResponse
+ * @see ServiceProviderDeviceManagementEventGetListRequest22
  */
 class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

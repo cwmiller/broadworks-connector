@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced By : ServiceProviderFeatureAccessCodeGetListRequest20 in AS
  * data mode
+ *
+ * @see ServiceProviderFeatureAccessCodeGetListResponse
+ * @see ErrorResponse
+ * @see ServiceProviderFeatureAccessCodeGetListRequest20
  */
 class ServiceProviderFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

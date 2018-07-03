@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of transfer numbers for a group default and it's departments.
  *         The response is either a
  * GroupOutgoingCallingPlanTransferNumbersGetListResponse or an ErrorResponse.
+ *
+ * @see GroupOutgoingCallingPlanTransferNumbersGetListResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanTransferNumbersGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

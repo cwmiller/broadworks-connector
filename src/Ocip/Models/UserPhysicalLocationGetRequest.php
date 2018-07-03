@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Physical Location.
  *         The response is either a UserPhysicalLocationGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserPhysicalLocationGetResponse
+ * @see ErrorResponse
  */
 class UserPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

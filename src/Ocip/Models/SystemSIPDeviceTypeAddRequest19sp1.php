@@ -17,6 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold will raise an error in XS data mode
  *         Replaced by: SystemSIPDeviceTypeAddRequest20
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeAddRequest20
  */
 class SystemSIPDeviceTypeAddRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

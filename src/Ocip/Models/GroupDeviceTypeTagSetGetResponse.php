@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDeviceTypeTagSetGetResponse
  *
  * Response to GroupDeviceTypeTagSetGetRequest.
+ *
+ * @see GroupDeviceTypeTagSetGetRequest
  */
 class GroupDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

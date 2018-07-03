@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserCallProcessingGetPolicyRequest14sp1.
  *         Replaced By: UserCallProcessingGetPolicyResponse14sp7
+ *
+ * @see UserCallProcessingGetPolicyRequest14sp1
+ * @see UserCallProcessingGetPolicyResponse14sp7
  */
 class UserCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

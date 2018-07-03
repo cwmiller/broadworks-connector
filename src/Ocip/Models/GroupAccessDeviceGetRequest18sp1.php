@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the configuration of a specified group access device.
  *         The response is either GroupAccessDeviceGetResponse18sp1 or
  * ErrorResponse.
+ *
+ * @see GroupAccessDeviceGetResponse18sp1
+ * @see ErrorResponse
  */
 class GroupAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

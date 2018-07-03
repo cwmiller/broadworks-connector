@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupCallingPlanGetDigitPatternListRequest.
  *         Contains a table with column headings: "Name", "Digit Pattern".
+ *
+ * @see GroupCallingPlanGetDigitPatternListRequest
  */
 class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

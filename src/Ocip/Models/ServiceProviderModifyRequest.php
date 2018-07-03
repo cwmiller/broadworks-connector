@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         it will be assigned to the default Slice.
  *         Only Provisioning admin and above can change the callProcessingSliceId, 
  *         provisioningSliceId, subscriberPartition and preferredDataCenter.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

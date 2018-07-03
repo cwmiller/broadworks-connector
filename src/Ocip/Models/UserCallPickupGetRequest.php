@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets the details of the Call Pickup group that a user belongs to (if any).
  *         Any user can only belong to one Call Pickup group.
  *         The response is either UserCallPickupGetResponse or ErrorResponse.
+ *
+ * @see UserCallPickupGetResponse
+ * @see ErrorResponse
  */
 class UserCallPickupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

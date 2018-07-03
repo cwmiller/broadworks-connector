@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * settings.
  *         The response is either a
  * SystemDeviceProfileAuthenticationPasswordRulesGetResponse or an ErrorResponse.
+ *
+ * @see SystemDeviceProfileAuthenticationPasswordRulesGetResponse
+ * @see ErrorResponse
  */
 class SystemDeviceProfileAuthenticationPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

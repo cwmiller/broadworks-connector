@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The response is either a UserTerminatingAlternateTrunkIdentityGetResponse
  * or an
  *       ErrorResponse.
+ *
+ * @see UserTerminatingAlternateTrunkIdentityGetResponse
+ * @see ErrorResponse
  */
 class UserTerminatingAlternateTrunkIdentityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

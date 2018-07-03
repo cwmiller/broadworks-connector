@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of agents assigned to a call center.
  *         The response is either a
  *         GroupCallCenterGetAgentListResponse or an ErrorResponse.
+ *
+ * @see GroupCallCenterGetAgentListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

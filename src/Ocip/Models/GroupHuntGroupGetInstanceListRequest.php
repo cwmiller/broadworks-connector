@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupHuntGroupGetInstanceListResponse or
  * ErrorResponse.
  *         It is possible to get the instances within a specified department.
+ *
+ * @see GroupHuntGroupGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

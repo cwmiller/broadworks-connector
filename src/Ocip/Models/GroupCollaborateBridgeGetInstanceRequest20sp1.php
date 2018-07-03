@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a collaborate bridge.
  *         The response is either GroupCollaborateBridgeGetInstanceResponse20sp1 or
  * ErrorResponse.
+ *
+ * @see GroupCollaborateBridgeGetInstanceResponse20sp1
+ * @see ErrorResponse
  */
 class GroupCollaborateBridgeGetInstanceRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

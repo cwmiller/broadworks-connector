@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings for the userTable are: "Group Id", "User Id", "Last
  * Name", "First Name", "Hiragana Last Name", 
  *         "Hiragana First Name", "Phone Number", "Extension" and "Department".
+ *
+ * @see ServiceProviderServicePhoneNumberLookupRequest
  */
 class ServiceProviderServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

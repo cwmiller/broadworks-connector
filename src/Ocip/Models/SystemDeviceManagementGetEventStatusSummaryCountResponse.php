@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceManagementGetEventStatusSummaryCountRequest.
  *         The column headings are "Action, "Pending", "Queued Internally", and
  * "Completed"
+ *
+ * @see SystemDeviceManagementGetEventStatusSummaryCountRequest
  */
 class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

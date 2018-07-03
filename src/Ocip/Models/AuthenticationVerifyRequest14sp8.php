@@ -14,6 +14,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is a AuthenticationVerifyResponse14sp8 or an ErrorResponse
  *         
  *         Replaced by AuthenticationVerifyRequest22.
+ *
+ * @see AuthenticationVerifyRequest14sp8
+ * @see ExternalAuthenticationAuthorizeTokenRequest
+ * @see AuthenticationVerifyResponse14sp8
+ * @see ErrorResponse
+ * @see AuthenticationVerifyRequest22
  */
 class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

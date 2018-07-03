@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * information.
  *         
  *         Replaced by: GroupVoiceXmlGetInstanceResponse19sp1 in AS data mode
+ *
+ * @see GroupVoiceXmlGetInstanceRequest
+ * @see GroupVoiceXmlGetInstanceResponse19sp1
  */
 class GroupVoiceXmlGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

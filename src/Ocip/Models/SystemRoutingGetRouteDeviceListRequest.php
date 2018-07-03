@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of devices for a route.
  *         The response is either a SystemRoutingGetRouteDeviceListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemRoutingGetRouteDeviceListResponse
+ * @see ErrorResponse
  */
 class SystemRoutingGetRouteDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

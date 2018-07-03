@@ -21,6 +21,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *               macInNonRequestURI
  *               macInCert
  *               macFormatInNonRequestURI
+ *
+ * @see macInNonRequest
+ * @see macFormatInNonRequest
  */
 class DeviceManagementDeviceTypeOptions21sp1
 {

@@ -42,6 +42,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           When macInNonRequestURI is set to true, macInCert will be reset to
  * false.
  *         Replaced by: SystemSIPDeviceTypeModifyRequest22
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see macInNonRequest
+ * @see macInNonRequest
+ * @see macInNonRequest
+ * @see SystemSIPDeviceTypeModifyRequest22
  */
 class SystemSIPDeviceTypeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

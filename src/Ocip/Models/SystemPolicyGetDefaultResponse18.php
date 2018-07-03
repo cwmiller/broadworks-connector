@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             serviceProviderAdminCommunicationBarringAccess
  *             
  *         Replaced by: SystemPolicyGetDefaultResponse20 in AS data mode
+ *
+ * @see SystemPolicyGetDefaultRequest18
+ * @see SystemPolicyGetDefaultResponse20
  */
 class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

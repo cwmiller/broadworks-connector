@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "In Trunk Group", "Email Address", "Is Active".
  *         "Is Active" is "true" or "false".
  *         "Phone Number" is presented in the E164 format.
+ *
+ * @see EnterpriseUserCallWaitingSettingsGetListRequest
  */
 class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

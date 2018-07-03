@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Generate passwords based on the corresponding password/passcode rules.
  *         The response is either PasswordGenerateResponse or ErrorResponse.
+ *
+ * @see PasswordGenerateResponse
+ * @see ErrorResponse
  */
 class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

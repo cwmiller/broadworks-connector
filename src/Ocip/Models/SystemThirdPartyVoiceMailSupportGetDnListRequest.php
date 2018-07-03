@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        The response is either a
  * SystemThirdPartyVoiceMailSupportGetDnListResponse or an ErrorResponse.
  *        The search can be done using multiple criterion.
+ *
+ * @see SystemThirdPartyVoiceMailSupportGetDnListResponse
+ * @see ErrorResponse
  */
 class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

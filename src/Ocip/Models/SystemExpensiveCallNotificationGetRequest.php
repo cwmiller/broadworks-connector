@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the expensive call notification service parameters.
  *         The response is either a SystemExpensiveCallNotificationGetResponse or
  * an ErrorResponse.
+ *
+ * @see SystemExpensiveCallNotificationGetResponse
+ * @see ErrorResponse
  */
 class SystemExpensiveCallNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

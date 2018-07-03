@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemAdminGetRequest.
  *         The response contains the system or provisioning administrators profile
  * information.
+ *
+ * @see SystemAdminGetRequest
  */
 class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAnonymousCallRejectionGetResponse
  *
  * Response to UserAnonymousCallRejectionGetRequest.
+ *
+ * @see UserAnonymousCallRejectionGetRequest
  */
 class UserAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

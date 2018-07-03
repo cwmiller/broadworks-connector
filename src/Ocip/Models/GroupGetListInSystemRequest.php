@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
+ *
+ * @see GroupGetListInSystemResponse
+ * @see ErrorResponse
  */
 class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

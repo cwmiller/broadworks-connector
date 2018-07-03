@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's announcement settings.
  *         The response is either a GroupRoutePointGetAnnouncementResponse20 or an
  * ErrorResponse.
+ *
+ * @see GroupRoutePointGetAnnouncementResponse20
+ * @see ErrorResponse
  */
 class GroupRoutePointGetAnnouncementRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

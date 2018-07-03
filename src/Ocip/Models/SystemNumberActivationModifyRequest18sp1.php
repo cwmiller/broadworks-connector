@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enableEnterpriseTrunkNumberRangeActivation
  *           numberActivationMode = Group And User Activation Enabled will raise an
  * error in XS data mode.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

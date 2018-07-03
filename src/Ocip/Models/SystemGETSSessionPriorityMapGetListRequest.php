@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of GETS Session Priority maps.
  *         The response is either SystemGETSSessionPriorityMapGetListResponse or
  * ErrorResponse.
+ *
+ * @see SystemGETSSessionPriorityMapGetListResponse
+ * @see ErrorResponse
  */
 class SystemGETSSessionPriorityMapGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

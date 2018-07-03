@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemExecutiveGetResponse
  *
  * Response to SystemExecutiveGetRequest.
+ *
+ * @see SystemExecutiveGetRequest
  */
 class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

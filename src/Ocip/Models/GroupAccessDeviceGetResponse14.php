@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAccessDeviceGetRequest14.
  *         Replaced By: GroupAccessDeviceGetResponse14sp3
+ *
+ * @see GroupAccessDeviceGetRequest14
+ * @see GroupAccessDeviceGetResponse14sp3
  */
 class GroupAccessDeviceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

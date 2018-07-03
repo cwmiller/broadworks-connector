@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of available users for the push to talk service.
  *         The response is either UserPushToTalkGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see UserPushToTalkGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class UserPushToTalkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

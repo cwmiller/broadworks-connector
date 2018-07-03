@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the service provider's service authorization status.
  *         The response is either
  * ServiceProviderServiceGetAuthorizationListResponse or ErrorResponse.
+ *
+ * @see ServiceProviderServiceGetAuthorizationListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderServiceGetAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

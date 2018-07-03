@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the redirecting permissions for digit patterns for a user.
  *         The response is either a
  * UserOutgoingCallingPlanDigitPlanRedirectingGetResponse or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanDigitPlanRedirectingGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanDigitPlanRedirectingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

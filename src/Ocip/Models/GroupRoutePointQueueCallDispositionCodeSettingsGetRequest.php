@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an
  * GroupRoutePointQueueCallDispositionCodeSettingsGetResponse or an
  *         ErrorResponse.
+ *
+ * @see GroupRoutePointQueueCallDispositionCodeSettingsGetResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointQueueCallDispositionCodeSettingsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group level configuration for Exchange Integration.
  *         The response is either a GroupExchangeIntegrationGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupExchangeIntegrationGetResponse
+ * @see ErrorResponse
  */
 class GroupExchangeIntegrationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

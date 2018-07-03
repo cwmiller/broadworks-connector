@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupVoiceXmlGetInstanceRequest19sp1.
  *         Contains the service profile information and possibly access device
  * information.
+ *
+ * @see GroupVoiceXmlGetInstanceRequest19sp1
  */
 class GroupVoiceXmlGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

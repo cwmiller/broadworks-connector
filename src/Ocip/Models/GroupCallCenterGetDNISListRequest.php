@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of DNIS that are configured for a Call Center.
  *         The response is either GroupCallCenterGetDNISListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallCenterGetDNISListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetDNISListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

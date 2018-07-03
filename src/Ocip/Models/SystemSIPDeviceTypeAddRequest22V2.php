@@ -43,6 +43,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           When both are set to true, the command fails.
  *         
  *         Deprecated by SystemSIPDeviceTypeAddRequest22V3 in AS data mode.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see macInNonRequest
+ * @see SystemSIPDeviceTypeAddRequest22
  */
 class SystemSIPDeviceTypeAddRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

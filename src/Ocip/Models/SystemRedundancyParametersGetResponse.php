@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       
  *         Response to SystemRedundancyParametersGetRequest.
  *         Contains a list of system Redundancy parameters.
+ *
+ * @see SystemRedundancyParametersGetResponse16sp2
+ * @see SystemRedundancyParametersGetRequest
  */
 class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

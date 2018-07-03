@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse or
  * ErrorResponse.
+ *
+ * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
+ * @see ErrorResponse
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -21,6 +21,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useDBS
  *           eclQueryApplicationURL
  *           eclQueryDataRepositoryURL
+ *
+ * @see SystemEnhancedCallLogsGetRequest20sp1
  */
 class SystemEnhancedCallLogsGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

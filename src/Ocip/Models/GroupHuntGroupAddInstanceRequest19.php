@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            includeHuntGroupNameInCLID, use value "true" in XS data mode
  *         
  *         Replaced by: GroupHuntGroupAddInstanceRequest20 in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupHuntGroupAddInstanceRequest20
  */
 class GroupHuntGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

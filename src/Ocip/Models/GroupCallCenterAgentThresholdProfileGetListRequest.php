@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of Call Center Agent Threshold Profiles in the Group.
  *         The response is either
  * GroupCallCenterAgentThresholdProfileGetListResponse or ErrorResponse.
+ *
+ * @see GroupCallCenterAgentThresholdProfileGetListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterAgentThresholdProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

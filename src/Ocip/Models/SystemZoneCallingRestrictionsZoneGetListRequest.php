@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is SystemZoneCallingRestrictionsZoneGetListResponse or an
  * ErrorResponse.
  *         Replaced by: SystemZoneGetListRequest
+ *
+ * @see SystemZoneCallingRestrictionsZoneGetListResponse
+ * @see ErrorResponse
+ * @see SystemZoneGetListRequest
  */
 class SystemZoneCallingRestrictionsZoneGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

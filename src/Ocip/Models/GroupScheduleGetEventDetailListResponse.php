@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a list of ScheduleEvents.
  *         If the scheduleKey doesn't refer to an existing schedule on the AS, then
  * the response will be empty.
+ *
+ * @see GroupScheduleGetEventDetailListRequest
  */
 class GroupScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

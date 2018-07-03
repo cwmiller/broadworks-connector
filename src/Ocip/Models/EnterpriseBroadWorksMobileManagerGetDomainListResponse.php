@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the EnterpriseBroadWorksMobileManagerGetDomainListRequest.
  *         Contains the list of domains.
+ *
+ * @see EnterpriseBroadWorksMobileManagerGetDomainListRequest
  */
 class EnterpriseBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

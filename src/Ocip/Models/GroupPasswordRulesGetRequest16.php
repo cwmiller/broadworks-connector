@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupPasswordRulesGetResponse16 or ErrorResponse.
  *         
  *         Replaced by: GroupPasswordRulesGetRequest22 in AS data mode.
+ *
+ * @see GroupPasswordRulesGetResponse16
+ * @see ErrorResponse
+ * @see GroupPasswordRulesGetRequest22
  */
 class GroupPasswordRulesGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

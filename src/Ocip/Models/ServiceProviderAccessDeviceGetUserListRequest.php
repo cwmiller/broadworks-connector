@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: ServiceProviderAccessDeviceGetUserListRequest21sp1 in AS
  * data mode.
+ *
+ * @see ServiceProviderAccessDeviceGetResponse
+ * @see ErrorResponse
+ * @see ServiceProviderAccessDeviceGetUserListRequest21sp1
  */
 class ServiceProviderAccessDeviceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a voice mail distribution list for a users voice message.
  *         The response is either UserVoiceMessagingUserGetDistributionListResponse
  * or ErrorResponse.
+ *
+ * @see UserVoiceMessagingUserGetDistributionListResponse
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

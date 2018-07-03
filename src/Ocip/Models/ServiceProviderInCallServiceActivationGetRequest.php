@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * attributes.The response is either a
  * ServiceProviderInCallServiceActivationGetResponse or an ErrorResponse.
  *           Replaced by: ServiceProviderInCallServiceActivationGetRequest17
+ *
+ * @see ServiceProviderInCallServiceActivationGetResponse
+ * @see ErrorResponse
+ * @see ServiceProviderInCallServiceActivationGetRequest17
  */
 class ServiceProviderInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

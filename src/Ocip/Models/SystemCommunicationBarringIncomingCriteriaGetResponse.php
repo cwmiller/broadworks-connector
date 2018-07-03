@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringIncomingCriteriaGetRequest.
  *         The response contains the Communication Barring Incoming Criteria
  * information.
+ *
+ * @see SystemCommunicationBarringIncomingCriteriaGetRequest
  */
 class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

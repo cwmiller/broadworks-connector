@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         create a Single Sign-On token for a user.
  *         The response is either ExternalAuthenticationCreateLoginTokenResponse
  *         or ErrorResponse.
+ *
+ * @see ExternalAuthenticationCreateLoginTokenResponse
+ * @see ErrorResponse
  */
 class ExternalAuthenticationCreateLoginTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserSharedCallAppearanceGetResponse16sp2 or an
  * ErrorResponse.
  *         Replaced by: UserSharedCallAppearanceGetRequest21sp1.
+ *
+ * @see UserSharedCallAppearanceGetResponse16sp2
+ * @see ErrorResponse
+ * @see UserSharedCallAppearanceGetRequest21sp1
  */
 class UserSharedCallAppearanceGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

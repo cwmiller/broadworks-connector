@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: ServiceProviderAccessDeviceGetRequest19
+ *
+ * @see ServiceProviderAccessDeviceGetResponse16
+ * @see ErrorResponse
+ * @see ServiceProviderAccessDeviceGetRequest19
  */
 class ServiceProviderAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

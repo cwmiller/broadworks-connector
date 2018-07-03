@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemCallingPartyCategoryGetRequest.
  *         Contains information of a Calling Party Category defined in system.
+ *
+ * @see SystemCallingPartyCategoryGetRequest
  */
 class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

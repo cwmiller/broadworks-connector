@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * provider.
  *         The response is either
  * ServiceProviderRoutePointExternalSystemGetAssignedListResponse or ErrorResponse.
+ *
+ * @see ServiceProviderRoutePointExternalSystemGetAssignedListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

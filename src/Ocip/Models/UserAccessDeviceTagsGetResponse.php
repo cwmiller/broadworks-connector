@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserAccessDeviceTagsGetRequest.
  *         The response contains a table with columns: "Tag Name", and "Tag Value".
+ *
+ * @see UserAccessDeviceTagsGetRequest
  */
 class UserAccessDeviceTagsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

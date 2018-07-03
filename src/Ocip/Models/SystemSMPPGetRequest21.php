@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the system level data associated with SMPP external interface.
  *         The response is either a SystemSMPPGetResponse21 or an ErrorResponse.
+ *
+ * @see SystemSMPPGetResponse21
+ * @see ErrorResponse
  */
 class SystemSMPPGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

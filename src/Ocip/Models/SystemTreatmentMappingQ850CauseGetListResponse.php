@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingQ850CauseGetListRequest. Contains a table
  * with one row per mapping.
  *         The table columns are: "Q850 Cause Value", "Treatment Id".
+ *
+ * @see SystemTreatmentMappingQ850CauseGetListRequest
  */
 class SystemTreatmentMappingQ850CauseGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

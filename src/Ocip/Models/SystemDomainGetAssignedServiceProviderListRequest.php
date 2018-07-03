@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode:
  *           resellerId
+ *
+ * @see SystemDomainGetAssignedServiceProviderListResponse
+ * @see ErrorResponse
  */
 class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

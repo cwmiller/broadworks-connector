@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with one row per access control list entry.
  *         The table columns are "Net Address", "Description" and "Restrict
  * Messages".
+ *
+ * @see SystemOCIReportingACLListGetRequest
  */
 class SystemOCIReportingGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

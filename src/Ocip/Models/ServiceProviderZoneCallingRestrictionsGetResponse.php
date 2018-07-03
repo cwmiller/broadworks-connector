@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderZoneCallingRestrictionsGetResponse
  *
  * Response to ServiceProviderZoneCallingRestrictionsGetRequest
+ *
+ * @see ServiceProviderZoneCallingRestrictionsGetRequest
  */
 class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The response is either a SystemRoutingProfileGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemRoutingProfileGetListResponse
+ * @see ErrorResponse
  */
 class SystemRoutingProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

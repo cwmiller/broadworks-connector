@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         rules setting.
  *         
  *         Replaced by: ServiceProviderPasswordRulesGetResponse22 in AS data mode.
+ *
+ * @see ServiceProviderPasswordRulesGetRequest16
+ * @see ServiceProviderPasswordRulesGetResponse22
  */
 class ServiceProviderPasswordRulesGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Call Logs features.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: UserCallLogsClearRequest14sp4
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserCallLogsClearRequest14sp4
  */
 class UserCallLogsClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

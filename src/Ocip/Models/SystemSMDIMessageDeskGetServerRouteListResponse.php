@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSMDIMessageDeskGetServerRouteListRequest.
  *         The SMDI Server route table column headings are: "Destination" and "SMDI
  * Servers".
+ *
+ * @see SystemSMDIMessageDeskGetServerRouteListRequest
  */
 class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

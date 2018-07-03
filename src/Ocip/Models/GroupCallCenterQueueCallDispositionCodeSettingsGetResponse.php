@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterQueueCallDispositionCodeSettingsGetResponse
  *
  * Response to GroupCallCenterQueueCallDispositionCodeSettingsGetRequest.
+ *
+ * @see GroupCallCenterQueueCallDispositionCodeSettingsGetRequest
  */
 class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

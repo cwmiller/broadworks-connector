@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupFindMeFollowMeGetInstanceListResponse or
  * ErrorResponse.
  *         It is possible to get the instances within a specified department.
+ *
+ * @see GroupFindMeFollowMeGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

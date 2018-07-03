@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPersonalAssistantExclusionNumberGetListRequest.
  *         Contains a table with column headings:
  *         "Number", "Description".
+ *
+ * @see UserPersonalAssistantExclusionNumberGetListRequest
  */
 class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

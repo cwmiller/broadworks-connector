@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemOutgoingCallingPlanGetResponse17sp3
  *
  * Response to SystemOutgoingCallingPlanGetRequest17sp3.
+ *
+ * @see SystemOutgoingCallingPlanGetRequest17sp3
  */
 class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

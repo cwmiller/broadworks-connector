@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           tagValueToEncrypt
  *           
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the speed dial 100 service settings for a group.
  *         The response is either a GroupSpeedDial100GetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupSpeedDial100GetResponse
+ * @see ErrorResponse
  */
 class GroupSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

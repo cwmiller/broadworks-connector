@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         version.
  *         "Auto Rebuild Enabled": 'True' if the request prefix triggers DM events
  *         automatically.  Otherwise, automatic DM events are not generated.
+ *
+ * @see SystemDeviceManagementAutoRebuildConfigGetListRequest
  */
 class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

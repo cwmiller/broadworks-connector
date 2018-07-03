@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of service provider administrators.
  *         The response is either a ServiceProviderAdminGetListResponse14 or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderAdminGetListResponse14
+ * @see ErrorResponse
  */
 class ServiceProviderAdminGetListRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

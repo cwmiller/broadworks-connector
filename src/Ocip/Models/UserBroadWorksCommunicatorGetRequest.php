@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the Configuration Server for a specified user.
  *         The response is either a UserBroadWorksCommunicatorGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserBroadWorksCommunicatorGetResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

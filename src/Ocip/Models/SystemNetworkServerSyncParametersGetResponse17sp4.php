@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Network Server Sync parameters.
  *         The following elements are only used in AS data mode:
  *           syncTrunkGroups
+ *
+ * @see SystemNetworkServerSyncParametersGetRequest17sp4
  */
 class SystemNetworkServerSyncParametersGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

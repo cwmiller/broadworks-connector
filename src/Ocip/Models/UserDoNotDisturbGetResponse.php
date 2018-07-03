@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserDoNotDisturbGetResponse
  *
  * Response to UserDoNotDisturbGetRequest.
+ *
+ * @see UserDoNotDisturbGetRequest
  */
 class UserDoNotDisturbGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

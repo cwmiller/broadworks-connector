@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallRecordingGetRequest.
  *         The response contains the user's Call Recording option information.
+ *
+ * @see UserCallRecordingGetRequest
  */
 class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

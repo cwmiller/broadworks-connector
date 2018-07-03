@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", "Hiragana Last Name", and "Hiragana First Name", 
  *         "Phone Number", "Extension", "Department", "Department Type", "Parent
  * Department", "Parent Department Type", "Email Address".
+ *
+ * @see GroupCollaborateBridgeGetAvailableUserListRequest
  */
 class GroupCollaborateBridgeGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

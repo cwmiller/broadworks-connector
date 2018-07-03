@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of Diameter peers.
  *         The response is either SystemBwDiameterPeerGetListResponse or
  * ErrorResponse
+ *
+ * @see SystemBwDiameterPeerGetListResponse
+ * @see ErrorResponse
  */
 class SystemBwDiameterPeerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The number ranges must have previously been added to the service
  * provider.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

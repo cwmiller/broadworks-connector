@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemExpensiveCallTypeGetListRequest.
  *         Replaced by: SystemExpensiveCallTypeGetListResponse16sp1
+ *
+ * @see SystemExpensiveCallTypeGetListRequest
+ * @see SystemExpensiveCallTypeGetListResponse16sp1
  */
 class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

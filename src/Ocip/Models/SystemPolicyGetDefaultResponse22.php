@@ -16,6 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             ServiceProviderAdminVerifyTranslationAndRoutingAccess
  *         The following elements are only used in XS data mode:
  *             serviceProviderAdminCommunicationBarringAccess
+ *
+ * @see SystemPolicyGetDefaultRequest22
  */
 class SystemPolicyGetDefaultResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

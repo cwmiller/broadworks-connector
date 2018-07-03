@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         publicUserIdentity, ignored in standalone mode if provided.
  *         
  *         Replaced by: SystemSystemVoicePortalAddRequest21sp1.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSystemVoicePortalAddRequest21sp1
  */
 class SystemSystemVoicePortalAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

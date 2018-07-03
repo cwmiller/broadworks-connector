@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         preferredDataCenter.
  *         
  *         Replaced by ServiceProviderGetResponse22V2 in AS data mode.
+ *
+ * @see ServiceProviderGetRequest22
+ * @see ServiceProviderGetResponse22
  */
 class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

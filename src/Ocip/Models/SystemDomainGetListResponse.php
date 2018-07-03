@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           systemDefaultDomain
  *           
  *         Replaced by SystemDomainGetListResponse22 in AS data mode.
+ *
+ * @see SystemDomainGetListResponse22
  */
 class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

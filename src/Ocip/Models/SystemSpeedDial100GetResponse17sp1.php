@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSpeedDial100GetResponse17sp1
  *
  * Response to the SystemSpeedDial100GetRequest17sp1.
+ *
+ * @see SystemSpeedDial100GetRequest17sp1
  */
 class SystemSpeedDial100GetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by SystemDeviceManagementTagSetGetListResponse22 in AS data
  * mode
+ *
+ * @see SystemDeviceManagementTagSetGetListRequest
+ * @see SystemDeviceManagementTagSetGetListResponse22
  */
 class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

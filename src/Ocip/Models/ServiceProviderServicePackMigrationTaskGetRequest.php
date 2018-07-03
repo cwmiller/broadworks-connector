@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetResponse
  *         or ErrorResponse.
  *         Replaced By: ServiceProviderServicePackMigrationTaskGetRequest14sp4
+ *
+ * @see ServiceProviderServicePackMigrationTaskGetResponse
+ * @see ErrorResponse
+ * @see ServiceProviderServicePackMigrationTaskGetRequest14sp4
  */
 class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

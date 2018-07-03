@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Also return the file name and path on the File Repository.
  *         Also returns the status of the file authentication.   
  *         Replaced by: DeviceManagementFileAuthLocationGetResponse21sp1.
+ *
+ * @see DeviceManagementFileAuthLocationGetRequest21
+ * @see DeviceManagementFileAuthLocationGetResponse21sp1
  */
 class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           provisioningUserId
  *           provisioningPassword
  *           boshURL
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

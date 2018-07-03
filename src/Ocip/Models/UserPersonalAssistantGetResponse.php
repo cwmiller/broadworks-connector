@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserPersonalAssistantGetRequest.
  *         The response contains the user Personal Assistant information".
+ *
+ * @see UserPersonalAssistantGetRequest
  */
 class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

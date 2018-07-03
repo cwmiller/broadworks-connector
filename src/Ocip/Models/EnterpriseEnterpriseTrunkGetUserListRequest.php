@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a EnterpriseEnterpriseTrunkGetUserListResponse or
  * an ErrorResponse.
+ *
+ * @see EnterpriseEnterpriseTrunkGetUserListResponse
+ * @see ErrorResponse
  */
 class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

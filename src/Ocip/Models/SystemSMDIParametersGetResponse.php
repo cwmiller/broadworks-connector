@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSMDIParametersGetListRequest.
  *         Contains a list of system SMDI parameters.
+ *
+ * @see SystemSMDIParametersGetListRequest
  */
 class SystemSMDIParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

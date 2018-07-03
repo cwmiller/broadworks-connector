@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         existing weight setting. In release 14, any agents who are not in the
  * list
  *         will have their weight set to 0.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

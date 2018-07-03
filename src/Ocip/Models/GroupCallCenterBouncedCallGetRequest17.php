@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's bounced call settings.
  *         The response is either a GroupCallCenterBouncedCallGetResponse17 or an
  * ErrorResponse.
+ *
+ * @see GroupCallCenterBouncedCallGetResponse17
+ * @see ErrorResponse
  */
 class GroupCallCenterBouncedCallGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

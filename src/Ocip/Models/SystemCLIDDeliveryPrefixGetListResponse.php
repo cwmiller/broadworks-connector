@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCLIDDeliveryPrefixGetListResponse
  *
  * Response to SystemCLIDDeliveryPrefixGetListRequest.
+ *
+ * @see SystemCLIDDeliveryPrefixGetListRequest
  */
 class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

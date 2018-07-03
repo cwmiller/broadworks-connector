@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingHostGuestAssociationGetResponse
  *
  * Response to GroupFlexibleSeatingHostGuestAssociationGetRequest.
+ *
+ * @see GroupFlexibleSeatingHostGuestAssociationGetRequest
  */
 class GroupFlexibleSeatingHostGuestAssociationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

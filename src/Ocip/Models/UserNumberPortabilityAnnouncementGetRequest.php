@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Number Portability Announcement attributes for the user.
  *         The response is either UserNumberPortabilityAnnouncementGetResponse or
  * ErrorResponse.
+ *
+ * @see UserNumberPortabilityAnnouncementGetResponse
+ * @see ErrorResponse
  */
 class UserNumberPortabilityAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

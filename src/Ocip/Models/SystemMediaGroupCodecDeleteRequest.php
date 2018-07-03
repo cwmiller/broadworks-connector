@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to delete media from a media group.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemMediaGroupCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a system time schedule.
  *         The response is either a SystemTimeScheduleGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemTimeScheduleGetResponse
+ * @see ErrorResponse
  */
 class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

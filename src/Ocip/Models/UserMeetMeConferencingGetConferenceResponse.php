@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserMeetMeConferencingGetConferenceRequest.
  *         Contains the information of a conference.
+ *
+ * @see UserMeetMeConferencingGetConferenceRequest
  */
 class UserMeetMeConferencingGetConferenceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

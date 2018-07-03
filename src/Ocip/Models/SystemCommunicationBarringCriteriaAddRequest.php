@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add a new Communication Barring Criteria.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced by: SystemCommunicationBarringCriteriaAddRequest17
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemCommunicationBarringCriteriaAddRequest17
  */
 class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

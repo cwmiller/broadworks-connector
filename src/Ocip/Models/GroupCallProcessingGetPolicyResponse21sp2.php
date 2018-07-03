@@ -24,6 +24,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           routeOverridePrefix
  *             
  *         Replaced by: GroupCallProcessingGetPolicyResponse22 in AS data mode
+ *
+ * @see GroupCallProcessingGetPolicyRequest21sp2
+ * @see GroupCallProcessingGetPolicyResponse22
  */
 class GroupCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

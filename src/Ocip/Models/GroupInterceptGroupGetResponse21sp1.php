@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           exemptInboundMobilityCalls
  *           exemptOutboundMobilityCalls
  *           disableParallelRingingToNetworkLocations
+ *
+ * @see GroupInterceptGroupGetRequest21sp1
  */
 class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

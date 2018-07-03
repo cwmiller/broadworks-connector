@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         equal to 'Queued' and 'In Progress' as per DeviceManagementEventStatus.
  *         The response is either
  * SystemDeviceManagementGetEventStatusSummaryCountResponse or ErrorResponse.
+ *
+ * @see SystemDeviceManagementGetEventStatusSummaryCountResponse
+ * @see ErrorResponse
  */
 class SystemDeviceManagementGetEventStatusSummaryCountRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

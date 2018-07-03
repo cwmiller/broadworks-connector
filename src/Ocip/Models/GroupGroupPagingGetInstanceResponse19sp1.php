@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupGroupPagingGetInstanceRequest19sp1.
  *         Contains the service profile information.
+ *
+ * @see GroupGroupPagingGetInstanceRequest19sp1
  */
 class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

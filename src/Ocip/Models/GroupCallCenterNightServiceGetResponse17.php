@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterNightServiceGetResponse17
  *
  * Response to the GroupCallCenterNightServiceGetRequest17.
+ *
+ * @see GroupCallCenterNightServiceGetRequest17
  */
 class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

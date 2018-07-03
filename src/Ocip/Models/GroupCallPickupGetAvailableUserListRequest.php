@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         by not setting the name.
  *         The response is either GroupCallPickupGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallPickupGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupCallPickupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

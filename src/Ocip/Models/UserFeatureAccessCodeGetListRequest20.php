@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         In release 20 the "Call Recording" FAC name is changed to
  *         "Call Recording Start".
  *         Replaced by: UserFeatureAccessCodeGetListRequest21 in AS data mode
+ *
+ * @see UserFeatureAccessCodeGetListResponse20
+ * @see ErrorResponse
+ * @see UserFeatureAccessCodeGetListRequest21
  */
 class UserFeatureAccessCodeGetListRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

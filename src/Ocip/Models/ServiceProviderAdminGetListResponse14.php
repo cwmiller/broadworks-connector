@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following columns are only returned in AS data mode:
  *           "Locale" and "Encoding"
+ *
+ * @see ServiceProviderAdminGetListRequest14
  */
 class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

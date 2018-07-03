@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The officeZoneName and primaryZoneName elements are ignored and provided
  * here for backwards compatibility only.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see UserAddRequest17sp4
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

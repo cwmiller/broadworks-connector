@@ -19,6 +19,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        ErrorResponse is returned.
  *        Specifying searchCriteriaModeOr without any search criteria results in an
  * ErrorResponse.
+ *
+ * @see UserCallCenterGetSupervisedAgentListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

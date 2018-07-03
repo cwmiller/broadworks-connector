@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AuthenticationResponse
  *
  * AuthenticationRequest/Response is 1st stage of the 2 stage OCI login process.
+ *
+ * @see AuthenticationRequest
  */
 class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

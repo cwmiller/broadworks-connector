@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Device Policy.
  *           The response is either a UserDevicePoliciesGetResponse or an
  *           ErrorResponse.
+ *
+ * @see UserDevicePoliciesGetResponse
+ * @see ErrorResponse
  */
 class UserDevicePoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

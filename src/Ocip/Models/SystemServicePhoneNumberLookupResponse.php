@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Enterprise", "Group Id", "User Id",
  *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  * "Phone Number" and "Extension".
+ *
+ * @see SystemServicePhoneNumberLookupRequest
  */
 class SystemServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

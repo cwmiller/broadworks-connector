@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * department display names.
  *         
  *         Replaced by: GroupDepartmentGetListResponse18
+ *
+ * @see GroupDepartmentGetListRequest
+ * @see GroupDepartmentGetListResponse18
  */
 class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Do Not Disturb.
  *         The response is either a UserDoNotDisturbGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserDoNotDisturbGetResponse
+ * @see ErrorResponse
  */
 class UserDoNotDisturbGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of collaborate room instances for this specific user. 
  *         The response is either a UserCollaborateRoomListGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCollaborateRoomListGetResponse
+ * @see ErrorResponse
  */
 class UserCollaborateRoomListGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of calling plan digit strings for a group.
  *         The response is either a GroupCallingPlanGetDigitPatternListResponse or
  * an ErrorResponse.
+ *
+ * @see GroupCallingPlanGetDigitPatternListResponse
+ * @see ErrorResponse
  */
 class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

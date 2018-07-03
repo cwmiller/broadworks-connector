@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         When the element configFile is set to nil, the configuration file
  * defined
  *         at the parent level is used.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

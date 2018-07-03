@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemHomeNetworkGetListResponse
  *
  * Response to the SystemHomeNetworkGetListRequest.
+ *
+ * @see SystemHomeNetworkGetListRequest
  */
 class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

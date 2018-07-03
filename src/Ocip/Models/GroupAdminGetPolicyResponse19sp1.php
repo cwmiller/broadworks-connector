@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * XS data mode            
  *             communicationBarringUserProfileAccess (This element will not be
  * returned in the response for Service Provider group administrators)
+ *
+ * @see GroupAdminGetPolicyRequest19sp1
  */
 class GroupAdminGetPolicyResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -18,6 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
  * or ErrorResponse.
+ *
+ * @see
+ * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

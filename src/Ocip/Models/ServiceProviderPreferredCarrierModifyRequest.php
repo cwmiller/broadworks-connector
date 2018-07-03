@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * country code.
  *         At the service provider level, you must choose from the carriers
  * assigned at the system level.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

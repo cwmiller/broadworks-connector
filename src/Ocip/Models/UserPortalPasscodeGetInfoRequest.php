@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user's portal passcode information.
  *         The response is either a UserPortalPasscodeGetInfoResponse or an
  * ErrorResponse.
+ *
+ * @see UserPortalPasscodeGetInfoResponse
+ * @see ErrorResponse
  */
 class UserPortalPasscodeGetInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

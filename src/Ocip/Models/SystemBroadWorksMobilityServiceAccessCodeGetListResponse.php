@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Country Code", "Service Access
  * Code", "Description".
  *         Replaced by SystemBroadWorksMobilityServiceAccessCodeGetListReponse21.
+ *
+ * @see SystemBroadWorksMobilityServiceAccessCodeGetListRequest
  */
 class SystemBroadWorksMobilityServiceAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -15,6 +15,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Department", "Email Address".
  *         
  *         Replaced by: GroupTrunkGroupGetInstanceRequest21
+ *
+ * @see GroupTrunkGroupGetInstanceResponse20sp1
+ * @see ErrorResponse
+ * @see GroupTrunkGroupGetInstanceRequest21
  */
 class GroupTrunkGroupGetInstanceRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

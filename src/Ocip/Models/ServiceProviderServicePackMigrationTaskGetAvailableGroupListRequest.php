@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
  *         or ErrorResponse.
+ *
+ * @see ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * activation status.
  *         The response is either SystemNumberActivationGetResponse21 or
  * ErrorResponse.
+ *
+ * @see SystemNumberActivationGetResponse21
+ * @see ErrorResponse
  */
 class SystemNumberActivationGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

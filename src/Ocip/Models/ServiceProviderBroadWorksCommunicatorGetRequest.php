@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get Configuration Server for a specified service
  *         provider. The response is either a
  * ServiceProviderBroadWorksCommunicatorGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderBroadWorksCommunicatorGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

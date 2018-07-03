@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallTypeGetListResponse
  *
  * Response to SystemCallTypeGetListRequest.
+ *
+ * @see SystemCallTypeGetListRequest
  */
 class SystemCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

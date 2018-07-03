@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the past and current DNIS for the Call Center for the group.
  *         The response is either GroupCallCenterCurrentAndPastDNISGetListResponse
  * or ErrorResponse.
+ *
+ * @see GroupCallCenterCurrentAndPastDNISGetListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemNetworkServerSyncParametersGetResponse16 or
  * ErrorResponse.
  *         Replaced By: SystemNetworkServerSyncParametersGetRequest17sp4
+ *
+ * @see SystemNetworkServerSyncParametersGetResponse16
+ * @see ErrorResponse
+ * @see SystemNetworkServerSyncParametersGetRequest17sp4
  */
 class SystemNetworkServerSyncParametersGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

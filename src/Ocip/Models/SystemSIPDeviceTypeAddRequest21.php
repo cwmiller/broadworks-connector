@@ -26,6 +26,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * data mode:
  *           supportCauseParameter
  *         Replaced by: SystemSIPDeviceTypeAddRequest21sp1
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeAddRequest21sp1
  */
 class SystemSIPDeviceTypeAddRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemDialableCallerIDCriteriaGetRequest.
  *         The response contains the Dialable Caller ID Criteria information.
+ *
+ * @see SystemDialableCallerIDCriteriaGetRequest
  */
 class SystemDialableCallerIDCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

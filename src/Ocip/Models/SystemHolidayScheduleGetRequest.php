@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a system holiday schedule.
  *         The response is either a SystemHolidayScheduleGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemHolidayScheduleGetResponse
+ * @see ErrorResponse
  */
 class SystemHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

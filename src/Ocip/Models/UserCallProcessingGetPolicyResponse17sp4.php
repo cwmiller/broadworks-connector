@@ -31,6 +31,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            enableDialableCallerID
  *            allowConfigurableCLIDForRedirectingIdentity
  *           Replaced by: UserCallProcessingGetPolicyResponse18
+ *
+ * @see UserCallProcessingGetPolicyRequest17sp4
+ * @see UserCallProcessingGetPolicyResponse18
  */
 class UserCallProcessingGetPolicyResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

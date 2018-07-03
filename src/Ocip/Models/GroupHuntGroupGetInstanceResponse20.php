@@ -25,6 +25,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            Parent Department Type
  *            Group Id
  *            Group Name
+ *
+ * @see GroupHuntGroupGetInstanceRequest20
  */
 class GroupHuntGroupGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

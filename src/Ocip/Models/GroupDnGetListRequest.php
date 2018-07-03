@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of DNs that are assigned to a group.
  *         Dns assigned to the IMRN pool are not listed in the response.
  *         The response is either a GroupDnGetListResponse or an ErrorResponse.
+ *
+ * @see GroupDnGetListResponse
+ * @see ErrorResponse
  */
 class GroupDnGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

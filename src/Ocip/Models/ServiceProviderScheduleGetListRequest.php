@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * schedule type.
  *         The response is either a ServiceProviderScheduleGetListResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderScheduleGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

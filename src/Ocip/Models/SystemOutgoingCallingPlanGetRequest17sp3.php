@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Outgoing Calling Plan.
  *         The response is either a SystemOutgoingCallingPlanGetResponse17sp3 or an
  * ErrorResponse.
+ *
+ * @see SystemOutgoingCallingPlanGetResponse17sp3
+ * @see ErrorResponse
  */
 class SystemOutgoingCallingPlanGetRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

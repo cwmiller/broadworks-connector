@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of Device Management user modifiable files.
  *         The response is either UserAccessDeviceFileGetListResponse or
  * ErrorResponse.
+ *
+ * @see UserAccessDeviceFileGetListResponse
+ * @see ErrorResponse
  */
 class UserAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

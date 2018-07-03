@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to AuthenticationVerifyRequest22
  *         If a phoneNumber is returned, it will be the primary DN of the user
+ *
+ * @see AuthenticationVerifyRequest22
  */
 class AuthenticationVerifyResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

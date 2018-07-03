@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an GroupEnterpriseTrunkGetResponse or an
  * ErrorResponse.
  *         Replaced by: GroupEnterpriseTrunkGetRequest21.
+ *
+ * @see GroupEnterpriseTrunkGetResponse
+ * @see ErrorResponse
+ * @see GroupEnterpriseTrunkGetRequest21
  */
 class GroupEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

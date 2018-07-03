@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         The following elements are only used in AS data mode:
  *            version
+ *
+ * @see SystemAccessDeviceGetRequest18sp1
  */
 class SystemAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

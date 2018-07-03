@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetCallProcessingParametersResponse14sp7 or an ErrorResponse.
  *             Replaced By :
  * SystemSubscriberGetCallProcessingParametersRequest15sp2
+ *
+ * @see SystemSubscriberGetCallProcessingParametersResponse14sp7
+ * @see ErrorResponse
+ * @see SystemSubscriberGetCallProcessingParametersRequest15sp2
  */
 class SystemSubscriberGetCallProcessingParametersRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

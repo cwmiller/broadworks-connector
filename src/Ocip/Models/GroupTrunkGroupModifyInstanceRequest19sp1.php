@@ -17,6 +17,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
  *       The response is either a SuccessResponse or an ErrorResponse.
  *       Replaced by: GroupTrunkGroupModifyInstanceRequest20sp1
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupTrunkGroupModifyInstanceRequest20sp1
  */
 class GroupTrunkGroupModifyInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

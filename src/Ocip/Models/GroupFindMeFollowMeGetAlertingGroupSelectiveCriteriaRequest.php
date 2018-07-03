@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         Replaced by:
  * GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
+ *
+ * @see GroupFindMeFollowMeGetAlertingGroupResponse
+ * @see ErrorResponse
+ * @see GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

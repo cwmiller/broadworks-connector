@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either ServiceProviderPasswordRulesGetResponse13mp2 or
  * ErrorResponse.
  *         Replaced By: ServiceProviderPasswordRulesGetRequest16
+ *
+ * @see ServiceProviderPasswordRulesGetResponse13
+ * @see ErrorResponse
+ * @see ServiceProviderPasswordRulesGetRequest16
  */
 class ServiceProviderPasswordRulesGetRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

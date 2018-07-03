@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         schedules.
  *         The response is either a UserTimeScheduleGetListResponse or an
  * ErrorResponse.
+ *
+ * @see UserTimeScheduleGetListResponse
+ * @see ErrorResponse
  */
 class UserTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

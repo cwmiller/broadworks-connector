@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemTrunkGroupGetRequest.
  *         
  *         Replaced by: SystemTrunkGroupGetResponse19sp1.
+ *
+ * @see SystemTrunkGroupGetRequest
+ * @see SystemTrunkGroupGetResponse19sp1
  */
 class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

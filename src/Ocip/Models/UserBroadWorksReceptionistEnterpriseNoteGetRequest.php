@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserBroadWorksReceptionistEnterpriseNoteGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserBroadWorksReceptionistEnterpriseNoteGetResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

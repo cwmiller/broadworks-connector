@@ -18,6 +18,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           includeReseller
  *           resellerId
+ *
+ * @see SystemDomainGetListResponse22
+ * @see ErrorResponse
  */
 class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

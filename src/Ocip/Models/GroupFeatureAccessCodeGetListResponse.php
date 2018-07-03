@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupFeatureAccessCodeGetListRequest.
  *         Replaced by: GroupFeatureAccessCodeGetResponse
+ *
+ * @see GroupFeatureAccessCodeGetListRequest
+ * @see GroupFeatureAccessCodeGetResponse
  */
 class GroupFeatureAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

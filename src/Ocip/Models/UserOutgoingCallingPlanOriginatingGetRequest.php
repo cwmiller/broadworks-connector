@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the originating permissions for a user.
  *         The response is either a UserOutgoingCallingPlanOriginatingGetResponse
  * or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanOriginatingGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanOriginatingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

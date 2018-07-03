@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with flexible seating guest.
  *         The response is either a UserFlexibleSeatingGuestGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserFlexibleSeatingGuestGetResponse
+ * @see ErrorResponse
  */
 class UserFlexibleSeatingGuestGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

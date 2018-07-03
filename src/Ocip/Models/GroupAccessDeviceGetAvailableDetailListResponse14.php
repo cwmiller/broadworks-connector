@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetAvailableDetailListResponse14
  *
  * Response to GroupAccessDeviceGetAvailableDetailListRequest14.
+ *
+ * @see GroupAccessDeviceGetAvailableDetailListRequest14
  */
 class GroupAccessDeviceGetAvailableDetailListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

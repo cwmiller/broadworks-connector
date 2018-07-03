@@ -28,6 +28,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - The value of the extension for the corresponding Calls To Type, when
  * the extension is available. i.e. Primary may have number, but no extension.
  *           - When no extension is available a blank space is provided instead.
+ *
+ * @see GroupFindMeFollowMeGetAlertingGroupRequest
  */
 class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

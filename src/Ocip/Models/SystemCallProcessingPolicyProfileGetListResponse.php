@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCallProcessingPolicyProfileGetListRequest.
  *         The response contains a table of all Call Processing Policy Profiles
  *         in the system. The column headings are "Name" and "Description".
+ *
+ * @see SystemCallProcessingPolicyProfileGetListRequest
  */
 class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

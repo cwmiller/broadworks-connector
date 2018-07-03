@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserAlternateNumbersGetRequest21 in AS data mode
+ *
+ * @see UserAlternateNumbersGetResponse17
+ * @see ErrorResponse
+ * @see UserAlternateNumbersGetRequest21
  */
 class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

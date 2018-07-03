@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of supervisors for an agent on a given call center.
  *         The response is either a UserCallCenterGetAgentSupervisorListResponse
  *         or an ErrorResponse.
+ *
+ * @see UserCallCenterGetAgentSupervisorListResponse
+ * @see ErrorResponse
  */
 class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

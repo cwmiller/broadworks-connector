@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * obtained
  *         with the ServiceProviderAccessDeviceGetRequest command.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderAccessDeviceGetRequest
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

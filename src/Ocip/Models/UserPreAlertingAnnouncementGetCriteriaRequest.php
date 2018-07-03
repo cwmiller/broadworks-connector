@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or an ErrorResponse.
  *         Replaced by: UserPreAlertingAnnouncementGetCriteriaRequest21 in AS data
  * mode
+ *
+ * @see UserPreAlertingAnnouncementGetCriteriaResponse
+ * @see ErrorResponse
+ * @see UserPreAlertingAnnouncementGetCriteriaRequest21
  */
 class UserPreAlertingAnnouncementGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

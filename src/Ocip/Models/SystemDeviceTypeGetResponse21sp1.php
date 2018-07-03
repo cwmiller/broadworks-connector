@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDeviceTypeGetRequest21sp1.
  *         
  *         Replaced by SystemDeviceTypeGetResponse22 in AS data mode.
+ *
+ * @see SystemDeviceTypeGetRequest21sp1
+ * @see SystemDeviceTypeGetResponse22
  */
 class SystemDeviceTypeGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

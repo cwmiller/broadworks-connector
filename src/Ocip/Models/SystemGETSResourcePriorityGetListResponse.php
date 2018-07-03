@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemGETSResourcePriorityGetListRequest. 
  *         The table columns are: "Priority Value", "Priority Level" and "Priority
  * Class".
+ *
+ * @see SystemGETSResourcePriorityGetListRequest
  */
 class SystemGETSResourcePriorityGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

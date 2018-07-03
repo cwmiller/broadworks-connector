@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * group selective criteria.
  *         The response is either GroupFindMeFollowMeGetAlertingGroupResponse21 or
  * ErrorResponse.
+ *
+ * @see GroupFindMeFollowMeGetAlertingGroupResponse21
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

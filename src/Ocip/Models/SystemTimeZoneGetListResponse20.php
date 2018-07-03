@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         contains a 2 column table with column headings 'Key' and 'Display Name'
  * and a row
  *         for each time zone.
+ *
+ * @see SystemTimeZoneGetListRequest20
  */
 class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

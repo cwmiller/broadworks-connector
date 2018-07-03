@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetDNISAnnouncementResponse20
  *
  * Response to the GroupCallCenterGetDNISAnnouncementRequest20.
+ *
+ * @see GroupCallCenterGetDNISAnnouncementRequest20
  */
 class GroupCallCenterGetDNISAnnouncementResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

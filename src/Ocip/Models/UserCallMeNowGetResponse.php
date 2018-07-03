@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * are:
  *         "Is Active", "Criteria Name", "Time Schedule", "Call To", "Reject Call"
  * and "Holiday Schedule".
+ *
+ * @see UserCallMeNowGetRequest
  */
 class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

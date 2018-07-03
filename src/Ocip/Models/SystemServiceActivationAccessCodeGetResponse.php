@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemServiceActivationAccessCodeGetRequest.
  *         Contains Service Activation Access Code system parameters.
+ *
+ * @see SystemServiceActivationAccessCodeGetRequest
  */
 class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

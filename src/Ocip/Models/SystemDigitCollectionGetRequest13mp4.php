@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system's digit collection attributes.
  *         The response is either a SystemDigitCollectionGetResponse13mp4 or an
  * ErrorResponse.
+ *
+ * @see SystemDigitCollectionGetResponse13
+ * @see ErrorResponse
  */
 class SystemDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

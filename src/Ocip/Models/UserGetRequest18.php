@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         UserGetResponse18 or ErrorResponse.
  *         
  *     Replaced by: UserGetRequest19.
+ *
+ * @see UserGetResponse18
+ * @see ErrorResponse
+ * @see UserGetRequest19
  */
 class UserGetRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

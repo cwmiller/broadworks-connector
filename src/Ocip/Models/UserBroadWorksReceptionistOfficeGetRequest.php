@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Receptionist Office parameters.
  *         The response is either a UserBroadWorksReceptionistOfficeGetResponse or
  * an ErrorResponse.
+ *
+ * @see UserBroadWorksReceptionistOfficeGetResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksReceptionistOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

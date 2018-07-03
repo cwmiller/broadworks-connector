@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Dns assigned to the IMRN pool are not listed in the response.
  *         The response is either a GroupDnGetSummaryListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupDnGetSummaryListResponse
+ * @see ErrorResponse
  */
 class GroupDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

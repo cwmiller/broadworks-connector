@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMultimediaPolicyGetResponse
  *
  * Response to SystemMultimediaPolicyGetRequest
+ *
+ * @see SystemMultimediaPolicyGetRequest
  */
 class SystemMultimediaPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

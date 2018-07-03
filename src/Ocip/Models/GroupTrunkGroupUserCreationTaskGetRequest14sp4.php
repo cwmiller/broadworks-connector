@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the details of a specified user creation task for a trunk group.
  *         The response is either GroupTrunkGroupUserCreationTaskGetResponse14sp4
  * or ErrorResponse.
+ *
+ * @see GroupTrunkGroupUserCreationTaskGetResponse14sp4
+ * @see ErrorResponse
  */
 class GroupTrunkGroupUserCreationTaskGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

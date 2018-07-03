@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserBasicCallLogsGetListRequest.
  *         Replaced By: UserBasicCallLogsGetListResponse14sp4
+ *
+ * @see UserBasicCallLogsGetListRequest
+ * @see UserBasicCallLogsGetListResponse14sp4
  */
 class UserBasicCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

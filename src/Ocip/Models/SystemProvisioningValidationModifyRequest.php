@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * data mode:
  *           denyMobilityNumberAsRedirectionDestination
  *           denyEnterpriseNumberAsNetworkLocationDestination
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

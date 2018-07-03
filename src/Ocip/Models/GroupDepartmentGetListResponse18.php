@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of department attributes.
  *         The column headings are: "Is Enterprise Department", "Department Name",
  * "Full Path Name", "Calling Line Id Name", and "Calling Line Id Phone Number"
+ *
+ * @see GroupDepartmentGetListRequest18
  */
 class GroupDepartmentGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

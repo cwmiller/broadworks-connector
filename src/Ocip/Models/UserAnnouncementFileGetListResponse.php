@@ -21,6 +21,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * across
  *         all media types and the maximum total file size (MB) allowed for the
  * user.
+ *
+ * @see UserAnnouncementFileGetListRequest
  */
 class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

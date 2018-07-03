@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * trusted host (ACL).
  *         
  *         Replaced by LoginRequest22V2 in AS data mode.
+ *
+ * @see LoginRequest22
  */
 class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

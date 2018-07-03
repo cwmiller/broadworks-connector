@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallCenterGetAvailableCallCenterListRequest.
  *         Contains a table with column heading: "Service User Id".
+ *
+ * @see UserCallCenterGetAvailableCallCenterListRequest
  */
 class UserCallCenterGetAvailableCallCenterListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

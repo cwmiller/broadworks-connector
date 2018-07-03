@@ -13,6 +13,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         An ErrorResponse will be returned if the country code preferred carriers
  * were never added or
  *         were already deleted.
+ *
+ * @see ServiceProviderPreferredCarrierModifyRequest
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class ServiceProviderPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

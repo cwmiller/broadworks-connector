@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of Call Park group instances within a group.
  *         The response is either GroupCallParkGetInstanceListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallParkGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

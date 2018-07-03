@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete a Communication Barring Alternate Call Indicator.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringAlternateCallIndicatorDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

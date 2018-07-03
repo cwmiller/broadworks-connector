@@ -17,6 +17,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceTypeGetAvailableListRequest19 in XS data mode.
  *         The response is either SystemSIPDeviceTypeGetListResponse or
  * ErrorResponse.
+ *
+ * @see SystemDeviceTypeGetAvailableListRequest22
+ * @see SystemDeviceTypeGetAvailableListRequest19
+ * @see SystemSIPDeviceTypeGetListResponse
+ * @see ErrorResponse
  */
 class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

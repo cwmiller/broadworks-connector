@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of targets assigned to a paging group.
  *         The response is either a
  *         GroupGroupPagingGetTargetListResponse or an ErrorResponse.
+ *
+ * @see GroupGroupPagingGetTargetListResponse
+ * @see ErrorResponse
  */
 class GroupGroupPagingGetTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

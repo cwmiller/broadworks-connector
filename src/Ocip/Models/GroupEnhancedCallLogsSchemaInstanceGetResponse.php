@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnhancedCallLogsSchemaInstanceGetResponse
  *
  * Response to GroupEnhancedCallLogsSchemaInstanceGetRequest.
+ *
+ * @see GroupEnhancedCallLogsSchemaInstanceGetRequest
  */
 class GroupEnhancedCallLogsSchemaInstanceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

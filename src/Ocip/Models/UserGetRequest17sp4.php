@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Request to get the user information.  The response is either 
  *         UserGetResponse17sp4 or ErrorResponse.
+ *
+ * @see UserGetRequest18
+ * @see UserGetResponse17sp4
+ * @see ErrorResponse
  */
 class UserGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

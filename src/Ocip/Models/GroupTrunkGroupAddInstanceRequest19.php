@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
  *         Replaced by GroupTrunkGroupAddInstanceRequest19sp1.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupTrunkGroupAddInstanceRequest19sp1
  */
 class GroupTrunkGroupAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

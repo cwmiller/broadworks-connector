@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the user level data associated with Calling Line ID Delivery Blocking.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserCallingLineIDDeliveryBlockingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

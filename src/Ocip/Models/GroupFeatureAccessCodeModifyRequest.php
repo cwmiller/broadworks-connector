@@ -11,6 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * to "Group", otherwise an ErrorResponse will be returned.
  *         
  *         Replaced by: GroupFeatureAccessCodeModifyRequest21 in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see GroupFeatureAccessCodeModifyRequest21
  */
 class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

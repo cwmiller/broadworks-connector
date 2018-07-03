@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBCCTGetOCIInterfaceAddressListResponse
  *
  * Response to SystemBCCTGetOCIInterfaceAddressListRequest.
+ *
+ * @see SystemBCCTGetOCIInterfaceAddressListRequest
  */
 class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

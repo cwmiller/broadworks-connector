@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         defined within the groups inside the enterprise.
  *         The response is either EnterpriseDepartmentGetListResponse or
  * ErrorResponse.
+ *
+ * @see EnterpriseDepartmentGetListResponse
+ * @see ErrorResponse
  */
 class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

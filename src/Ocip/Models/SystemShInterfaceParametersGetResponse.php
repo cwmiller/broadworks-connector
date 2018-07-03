@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * system parameters.
  *         
  *         Replaced by: SystemShInterfaceParametersGetResponse17
+ *
+ * @see SystemShInterfaceParametersGetRequest
+ * @see SystemShInterfaceParametersGetResponse17
  */
 class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the group's voice portal branding settings.
  *         The response is either a
  * GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 or an ErrorResponse.
+ *
+ * @see GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20
+ * @see ErrorResponse
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

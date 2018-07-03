@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Hiragana Last Name" and "Hiragana First Name".
  *         
  *         Replaced By: SystemMaliciousCallTraceGetResponse
+ *
+ * @see SystemMaliciousCallTraceGetUserListRequest
+ * @see SystemMaliciousCallTraceGetResponse
  */
 class SystemMaliciousCallTraceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

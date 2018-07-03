@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetAnnouncementRequest17.
  *         
  *         Replaced by GroupCallCenterGetAnnouncementResponse17sp4
+ *
+ * @see GroupCallCenterGetAnnouncementRequest17
+ * @see GroupCallCenterGetAnnouncementResponse17sp4
  */
 class GroupCallCenterGetAnnouncementResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Address".  
  *         The users are in the table are in the order they will try to be parked
  * on.
+ *
+ * @see GroupCallParkGetInstanceRequest16sp2
  */
 class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

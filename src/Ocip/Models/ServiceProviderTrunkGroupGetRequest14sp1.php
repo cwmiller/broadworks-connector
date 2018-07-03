@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * the service provider.
  *         The response is either a ServiceProviderTrunkGroupGetResponse14sp1 or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderTrunkGroupGetResponse14sp1
+ * @see ErrorResponse
  */
 class ServiceProviderTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

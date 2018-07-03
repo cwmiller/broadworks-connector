@@ -16,6 +16,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupUserCallWaitingSettingsGetListRequest, 
  *             EnterpriseUserHotelingGuestSettingsGetListRequest, and
  * GroupUserHotelingGuestSettingsGetListRequest.
+ *
+ * @see EnterpriseUserCallWaitingSettingsGetListRequest
+ * @see GroupUserCallWaitingSettingsGetListRequest
+ * @see EnterpriseUserHotelingGuestSettingsGetListRequest
+ * @see GroupUserHotelingGuestSettingsGetListRequest
  */
 class SortByServiceStatus extends SortCriteria
 {

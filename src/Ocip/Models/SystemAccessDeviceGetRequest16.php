@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemAccessDeviceGetResponse16 or ErrorResponse.
  *         
  *         Replaced by: SystemAccessDeviceGetRequest19
+ *
+ * @see SystemAccessDeviceGetResponse16
+ * @see ErrorResponse
+ * @see SystemAccessDeviceGetRequest19
  */
 class SystemAccessDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

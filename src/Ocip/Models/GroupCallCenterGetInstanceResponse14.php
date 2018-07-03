@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table has column headings: "User Id", "Last Name", "First Name",
  *         "Hiragana Last Name", "Hiragana First Name", "Weight".
  *         Replaced By: GroupCallCenterGetInstanceResponse14sp3
+ *
+ * @see GroupCallCenterGetInstanceRequest14
+ * @see GroupCallCenterGetInstanceResponse14sp3
  */
 class GroupCallCenterGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

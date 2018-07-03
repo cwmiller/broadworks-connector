@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a system level call center report template.
  *         The response is either a
  * SystemCallCenterEnhancedReportingReportTemplateGetResponse or an ErrorResponse.
+ *
+ * @see SystemCallCenterEnhancedReportingReportTemplateGetResponse
+ * @see ErrorResponse
  */
 class SystemCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

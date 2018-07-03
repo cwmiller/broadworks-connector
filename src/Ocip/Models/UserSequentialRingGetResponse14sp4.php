@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * headings are:
  *         "Is Active", "Criteria Name", "Time Schedule", "Calls From",
  * "Blacklisted" and "Holiday Schedule".
+ *
+ * @see UserSequentialRingGetRequest14sp4
  */
 class UserSequentialRingGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

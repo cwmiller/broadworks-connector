@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallRecordingGetRequest.
  *         
  *         Replaced By: SystemCallRecordingGetResponse22
+ *
+ * @see SystemCallRecordingGetRequest
+ * @see SystemCallRecordingGetResponse22
  */
 class SystemCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

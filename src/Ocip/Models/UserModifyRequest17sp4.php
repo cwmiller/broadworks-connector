@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         when Integrated IMP service is assigned to the user and active, only the
  * impPassword is accepted; 
  *         all other cases, the request fails if either field is changed.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

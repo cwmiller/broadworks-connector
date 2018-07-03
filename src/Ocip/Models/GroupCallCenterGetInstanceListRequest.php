@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupCallCenterGetInstanceListResponse or
  * ErrorResponse.
  *         It is possible to get the instances within a specified department.
+ *
+ * @see GroupCallCenterGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

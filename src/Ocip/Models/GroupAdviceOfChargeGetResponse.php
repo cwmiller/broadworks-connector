@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAdviceOfChargeGetRequest.
  *         Contains a list of Advice of Charge group parameters.
+ *
+ * @see GroupAdviceOfChargeGetRequest
  */
 class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

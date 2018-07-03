@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the currently configured preferred carriers for a user.
  *         The response is either a UserPreferredCarrierUserGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserPreferredCarrierUserGetResponse
+ * @see ErrorResponse
  */
 class UserPreferredCarrierUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

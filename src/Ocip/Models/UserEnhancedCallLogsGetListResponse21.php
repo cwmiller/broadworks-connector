@@ -19,6 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The logs are sorted by date/time of the call.
  *         
  *         Replaced by: UserEnhancedCallLogsGetListResponse21Sp1 in AS data mode
+ *
+ * @see UserEnhancedCallLogsGetListRequest21
+ * @see UserEnhancedCallLogsGetListRequest21
+ * @see UserEnhancedCallLogsGetListResponse21
  */
 class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

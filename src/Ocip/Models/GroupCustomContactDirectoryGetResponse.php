@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "User Id", "Last Name", "First
  * Name", "Hiragana Last Name", "Hiragana First Name".
  *         Replace by: GroupCustomContactDirectoryGetResponse17
+ *
+ * @see GroupCustomContactDirectoryGetRequest
+ * @see GroupCustomContactDirectoryGetResponse17
  */
 class GroupCustomContactDirectoryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

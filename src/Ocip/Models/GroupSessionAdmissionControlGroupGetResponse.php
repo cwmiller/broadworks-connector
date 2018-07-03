@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupSessionAdmissionControlGroupGetRequest.
  *         Returns the profile information for the session admission control group.
+ *
+ * @see GroupSessionAdmissionControlGroupGetRequest
  */
 class GroupSessionAdmissionControlGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

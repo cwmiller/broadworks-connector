@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * to another guest and for a guest in a Service Provider host in the user’s
  * group and for a user in an Enterprise a host within the user’s group and host
  * in the user’s enterprise that has the accessLevel set to Enterprise.
+ *
+ * @see UserFlexibleSeatingGuestGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

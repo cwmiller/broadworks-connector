@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of Advice of Charge service provider parameters.
  *         The response is either ServiceProviderAdviceOfChargeGetResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderAdviceOfChargeGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

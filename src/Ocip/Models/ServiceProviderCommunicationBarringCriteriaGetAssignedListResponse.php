@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest.
  *         Contains a table of all Communication Barring Criteria assigned to the
  *         service provider. The column headings are: "Name" and "Description".
+ *
+ * @see ServiceProviderCommunicationBarringCriteriaGetAssignedListRequest
  */
 class ServiceProviderCommunicationBarringCriteriaGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

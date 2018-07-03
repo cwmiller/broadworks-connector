@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingAccessDeviceGetListResponse
  *
  * Response to GroupFlexibleSeatingAccessDeviceGetListRequest
+ *
+ * @see GroupFlexibleSeatingAccessDeviceGetListRequest
  */
 class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

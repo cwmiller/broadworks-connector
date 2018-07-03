@@ -32,6 +32,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enableEnterpriseExtensionDialing)
  *          The useGroupDCLIDSetting controls the Dialable Caller ID settings
  * (enableDialableCallerID)
+ *
+ * @see GroupCallProcessingGetPolicyResponse16sp2
+ * @see ErrorResponse
  */
 class GroupCallProcessingGetPolicyRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDialPlanPolicyGetRequest
  *         
  *         Replaced by: ServiceProviderDialPlanPolicyGetResponse17
+ *
+ * @see ServiceProviderDialPlanPolicyGetRequest
+ * @see ServiceProviderDialPlanPolicyGetResponse17
  */
 class ServiceProviderDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

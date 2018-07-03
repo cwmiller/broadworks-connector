@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetVoicePortalResponse16
  *
  * Response to UserVoiceMessagingUserGetVoicePortalRequest16.
+ *
+ * @see UserVoiceMessagingUserGetVoicePortalRequest16
  */
 class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

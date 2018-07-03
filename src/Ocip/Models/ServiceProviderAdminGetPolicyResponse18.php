@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             dialableCallerIDAccess
  *             
  *         Replaced by: ServiceProviderAdminGetPolicyResponse20 in AS data mode
+ *
+ * @see ServiceProviderAdminGetPolicyRequest18
+ * @see ServiceProviderAdminGetPolicyResponse20
  */
 class ServiceProviderAdminGetPolicyResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

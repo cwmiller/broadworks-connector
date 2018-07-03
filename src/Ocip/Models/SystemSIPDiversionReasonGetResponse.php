@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table containing a list of diversion reasons and associated
  * cause values.
  *         The column headings are: "Diversion Reaon", "Cause Value".
+ *
+ * @see SystemSIPDiversionReasonGetRequest
  */
 class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The searchCriteriaExactUserGroup does not apply to past agents.
  *         The response is either
  * EnterpriseCallCenterCurrentAndPastAgentGetListResponse or ErrorResponse.
+ *
+ * @see EnterpriseCallCenterCurrentAndPastAgentGetListResponse
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

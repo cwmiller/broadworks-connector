@@ -4,21 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f34e9950ed9516107f66a76a7794a29",
+    "hash": "9ca526a4a8d79daa8bb4f72a4b9302c0",
+    "content-hash": "d8a7c08bed46bec4641493abb70cec27",
     "packages": [],
     "packages-dev": [
         {
             "name": "cwm/broadworks-xsd-converter",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cwmiller/broadworks-xsd-converter.git",
-                "reference": "2c399c92f1b6b5281ccaeb776a5d97f37f7e2bf5"
+                "reference": "9d8bbf8bea5c1c6f5fb0ac4adc99f9217c90ddbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/2c399c92f1b6b5281ccaeb776a5d97f37f7e2bf5",
-                "reference": "2c399c92f1b6b5281ccaeb776a5d97f37f7e2bf5",
+                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/9d8bbf8bea5c1c6f5fb0ac4adc99f9217c90ddbe",
+                "reference": "9d8bbf8bea5c1c6f5fb0ac4adc99f9217c90ddbe",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +44,7 @@
                 }
             ],
             "description": "Converts XSD files for BroadWorks APIs into PHP classes.",
-            "time": "2018-03-04T17:40:54+00:00"
+            "time": "2018-07-02 23:55:42"
         },
         {
             "name": "zendframework/zend-code",
@@ -96,20 +97,20 @@
                 "code",
                 "zf2"
             ],
-            "time": "2016-10-24T13:23:32+00:00"
+            "time": "2016-10-24 13:23:32"
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c"
+                "reference": "a5e2583a211f73604691586b8406ff7296a946dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/9d72db10ceb6e42fb92350c0cb54460da61bd79c",
-                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/a5e2583a211f73604691586b8406ff7296a946dd",
+                "reference": "a5e2583a211f73604691586b8406ff7296a946dd",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +119,7 @@
             "require-dev": {
                 "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
-                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
             },
@@ -150,7 +151,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2017-07-11T19:17:22+00:00"
+            "time": "2018-04-25 15:33:34"
         }
     ],
     "aliases": [],

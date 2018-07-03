@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             isCLIDDeliveryPrefixLicensed
  *             
  *           Replaced by SessionStartResponse22 in AS data mode.
+ *
+ * @see SessionStartRequest
+ * @see SessionStartResponse22
  */
 class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAutomaticCallbackGetRequest15.
  *             Replaced By: SystemAutomaticCallbackGetResponse15sp2
+ *
+ * @see SystemAutomaticCallbackGetRequest15
+ * @see SystemAutomaticCallbackGetResponse15sp2
  */
 class SystemAutomaticCallbackGetResponse15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

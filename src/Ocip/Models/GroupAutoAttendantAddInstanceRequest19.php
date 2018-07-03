@@ -18,6 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           holidayMenu
  *           
  *         Replaced by: GroupAutoAttendantAddInstanceRequest20 in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupAutoAttendantAddInstanceRequest20
  */
 class GroupAutoAttendantAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserCallCenterGetRequest17
+ *
+ * @see UserCallCenterGetResponse16
+ * @see ErrorResponse
+ * @see UserCallCenterGetRequest17
  */
 class UserCallCenterGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

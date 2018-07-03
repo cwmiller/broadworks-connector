@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of an Instant Group Call service instance.
  *         The response is either GroupInstantGroupCallGetInstanceResponse14 or
  * ErrorResponse.
+ *
+ * @see GroupInstantGroupCallGetInstanceResponse14
+ * @see ErrorResponse
  */
 class GroupInstantGroupCallGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

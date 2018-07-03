@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCommunicationBarringAuthorizationCodeGetListRequest.
  *         Contains a list of Communication Barring Authorization Codes
  *         assigned to the user.
+ *
+ * @see UserCommunicationBarringAuthorizationCodeGetListRequest
  */
 class UserCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group level data associated with Call Processing Policy.
  *         The response is either a GroupCallProcessingGetPolicyResponse14 or an
  *         ErrorResponse.
+ *
+ * @see GroupCallProcessingGetPolicyResponse14
+ * @see ErrorResponse
  */
 class GroupCallProcessingGetPolicyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

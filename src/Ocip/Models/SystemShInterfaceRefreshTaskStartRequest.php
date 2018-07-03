@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * node at a given point in time.  If the system refresh task is already running
  * when this request is made, an ErrorResponse is returned.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see ErrorResponse
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemShInterfaceRefreshTaskStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

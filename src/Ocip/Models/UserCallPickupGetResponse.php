@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", "Hiragana Last Name",
  *         "Hiragana First Name", "Department", "Phone Number", "Extension", "Email
  * Address".
+ *
+ * @see UserCallPickupGetRequest
  */
 class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

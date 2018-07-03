@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDigitCollectionGetResponse13mp4
  *
  * Response to ServiceProviderDigitCollectionGetRequest13mp4.
+ *
+ * @see ServiceProviderDigitCollectionGetRequest13
  */
 class ServiceProviderDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

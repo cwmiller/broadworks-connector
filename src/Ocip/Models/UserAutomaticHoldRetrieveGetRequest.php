@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Automatic Hold/Retrieve.
  *         The response is either a UserAutomaticHoldRetrieveGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserAutomaticHoldRetrieveGetResponse
+ * @see ErrorResponse
  */
 class UserAutomaticHoldRetrieveGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

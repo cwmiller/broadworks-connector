@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an
  *         ErrorResponse.
  *         Replaced By: SystemMaliciousCallTraceGetRequest
+ *
+ * @see SystemMaliciousCallTraceGetUserListResponse
+ * @see ErrorResponse
+ * @see SystemMaliciousCallTraceGetRequest
  */
 class SystemMaliciousCallTraceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

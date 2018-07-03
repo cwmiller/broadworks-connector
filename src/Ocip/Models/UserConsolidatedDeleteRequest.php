@@ -26,6 +26,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           When omitted, the number(s) will be left assigned to the group.
  *          An ErrorResponse will be returned if any number cannot be unassigned
  * because of insufficient privilege.
+ *
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

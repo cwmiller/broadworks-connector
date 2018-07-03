@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * response
  * 				contains the enterprise's common phone list. The response contains a
  * 				table with column headings: "Name" and "Phone Number".
+ *
+ * @see UserEnterpriseCommonPhoneListGetPagedSortedListRequest
  */
 class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

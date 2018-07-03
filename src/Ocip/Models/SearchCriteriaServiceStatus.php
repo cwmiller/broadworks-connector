@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         introduced by BW-2301. 
  *         The commands are EnterpriseUserCallWaitingSettingsGetListRequest 
  *         and GroupUserCallWaitingSettingsGetListRequest.
+ *
+ * @see EnterpriseUserCallWaitingSettingsGetListRequest
+ * @see GroupUserCallWaitingSettingsGetListRequest
  */
 class SearchCriteriaServiceStatus extends SearchCriteria
 {

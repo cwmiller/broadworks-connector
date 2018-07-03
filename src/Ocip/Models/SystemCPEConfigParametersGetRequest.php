@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemCPEConfigParametersGetResponse or
  * ErrorResponse.
  *         Replaced By: SystemCPEConfigParametersGetRequest14sp6
+ *
+ * @see SystemCPEConfigParametersGetResponse
+ * @see ErrorResponse
+ * @see SystemCPEConfigParametersGetRequest14sp6
  */
 class SystemCPEConfigParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

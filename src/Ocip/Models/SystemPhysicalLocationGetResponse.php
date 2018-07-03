@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemPhysicalLocationGetRequest.
  *         Contains a list of system Physical Location parameters.
+ *
+ * @see SystemPhysicalLocationGetRequest
  */
 class SystemPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

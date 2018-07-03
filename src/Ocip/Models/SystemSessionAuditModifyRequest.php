@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the system level data associated with session sudit.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: SystemSessionAuditModifyRequest14sp3
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSessionAuditModifyRequest14sp3
  */
 class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

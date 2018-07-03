@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupFeatureAccessCodeGetListResponse or an
  * ErrorResponse.
  *         Replaced by: GroupFeatureAccessCodeGetRequest
+ *
+ * @see GroupFeatureAccessCodeGetListResponse
+ * @see ErrorResponse
+ * @see GroupFeatureAccessCodeGetRequest
  */
 class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

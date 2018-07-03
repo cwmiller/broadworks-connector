@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "City", "State", "Zip", "Country".
  *         
  *         Replace by: GroupPhoneDirectoryGetListResponse17
+ *
+ * @see GroupPhoneDirectoryGetListRequest
+ * @see GroupPhoneDirectoryGetListResponse17
  */
 class GroupPhoneDirectoryGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

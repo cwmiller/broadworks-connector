@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add a static configuration tag.
  *           The response is either a SuccessResponse or an ErrorResponse.
  *           Replaced by: SystemDeviceManagementTagAddRequest22
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemDeviceManagementTagAddRequest22
  */
 class SystemDeviceManagementTagAddRequest21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

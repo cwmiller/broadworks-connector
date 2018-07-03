@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the speed dial 100 settings for a user.
  *         The response is either a UserSpeedDial100GetListResponse17sp1 or an
  * ErrorResponse.
+ *
+ * @see UserSpeedDial100GetListResponse17sp1
+ * @see ErrorResponse
  */
 class UserSpeedDial100GetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

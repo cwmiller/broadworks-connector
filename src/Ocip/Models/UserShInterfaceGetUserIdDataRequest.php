@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserShInterfaceGetUserIdDataRequest21sp1 in AS data mode.
+ *
+ * @see UserShInterfaceGetUserIdDataResponse
+ * @see ErrorResponse
+ * @see UserShInterfaceGetUserIdDataRequest21sp1
  */
 class UserShInterfaceGetUserIdDataRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

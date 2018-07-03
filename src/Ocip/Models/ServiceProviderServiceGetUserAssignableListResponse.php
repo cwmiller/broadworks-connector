@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServiceGetUserAssignableListResponse
  *
  * Response to ServiceProviderServiceGetUserAssignableListRequest.
+ *
+ * @see ServiceProviderServiceGetUserAssignableListRequest
  */
 class ServiceProviderServiceGetUserAssignableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

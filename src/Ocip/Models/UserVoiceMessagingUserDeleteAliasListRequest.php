@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete one or more voice mail aliases from a users voice message.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

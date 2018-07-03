@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateProjectRoomAddResponse
  *
  * Response to UserCollaborateProjectRoomAddRequest.
+ *
+ * @see UserCollaborateProjectRoomAddRequest
  */
 class UserCollaborateProjectRoomAddResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

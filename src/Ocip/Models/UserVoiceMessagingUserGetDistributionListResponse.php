@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetDistributionListResponse
  *
  * Response to UserVoiceMessagingUserGetDistributionListRequest.
+ *
+ * @see UserVoiceMessagingUserGetDistributionListRequest
  */
 class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

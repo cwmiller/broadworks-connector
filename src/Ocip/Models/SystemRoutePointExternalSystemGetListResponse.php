@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *       Contains a table with column headings:
  *       "External System", "Description".
+ *
+ * @see SystemRoutePointExternalSystemGetListRequest
  */
 class SystemRoutePointExternalSystemGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

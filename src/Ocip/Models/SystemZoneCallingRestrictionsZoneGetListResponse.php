@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *   Contains a table of all the zones in the system. The column headings are "Zone
  * Name" , "Physical Location".
  *         Replaced by: SystemZoneGetListResponse
+ *
+ * @see SystemZoneCallingRestrictionsZoneGetListRequest
+ * @see SystemZoneGetListResponse
  */
 class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

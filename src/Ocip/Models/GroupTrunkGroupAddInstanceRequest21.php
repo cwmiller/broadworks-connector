@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useSystemImplicitRegistrationSetSupportPolicy
  *           sipIdentityForPilotAndProxyTrunkModesPolicy   
  *           useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupAddInstanceRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

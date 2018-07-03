@@ -17,6 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Monthly" and "Yearly". 
  *         The possible values for "Report Template Level" are "System" and
  * "Group".
+ *
+ * @see GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

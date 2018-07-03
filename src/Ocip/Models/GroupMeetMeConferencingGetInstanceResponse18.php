@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Hiragana Last Name", 
  *         "Hiragana First Name", Phone Number", "Extension", "Department", "Email
  * Address".
+ *
+ * @see GroupMeetMeConferencingGetInstanceRequest18
  */
 class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

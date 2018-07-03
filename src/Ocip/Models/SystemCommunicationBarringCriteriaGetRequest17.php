@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get an existing Communication Barring Criteria.
  *         The response is either a
  *         SystemCommunicationBarringCriteriaGetResponse17 or an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringCriteriaGetResponse17
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringCriteriaGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The response is either a
  * SystemCommunicationBarringProfileGetResponse17sp1
  *          or an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringProfileGetResponse17sp1
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringProfileGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

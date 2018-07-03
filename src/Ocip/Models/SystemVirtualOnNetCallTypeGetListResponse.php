@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: 
  *         "Virtual On-Net Call Type Name", "Virtual On-Net Call Type CDR Value" 
  *         in a row for each Virtual On-Net Call Type.
+ *
+ * @see SystemVirtualOnNetCallTypeGetListRequest
  */
 class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

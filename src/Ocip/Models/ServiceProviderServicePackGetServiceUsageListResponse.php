@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderServicePackGetServiceUsageListRequest.
  *         The column headings are "Service Pack Name", "Total Packs" and
  * "Allocated to Groups"
+ *
+ * @see ServiceProviderServicePackGetServiceUsageListRequest
  */
 class ServiceProviderServicePackGetServiceUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

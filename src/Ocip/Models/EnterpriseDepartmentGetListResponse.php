@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseDepartmentGetListRequest.
  *         The response includes two parallel arrays of department keys and
  * department display names.
+ *
+ * @see EnterpriseDepartmentGetListRequest
  */
 class EnterpriseDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of provisioned prefixes in the system.  
  *         The response is either a SystemCLIDDeliveryPrefixGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCLIDDeliveryPrefixGetListResponse
+ * @see ErrorResponse
  */
 class SystemCLIDDeliveryPrefixGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

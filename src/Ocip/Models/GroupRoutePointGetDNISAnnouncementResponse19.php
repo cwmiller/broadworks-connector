@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetDNISAnnouncementResponse19
  *
  * Response to the GroupRoutePointGetDNISAnnouncementRequest19.
+ *
+ * @see GroupRoutePointGetDNISAnnouncementRequest19
  */
 class GroupRoutePointGetDNISAnnouncementResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

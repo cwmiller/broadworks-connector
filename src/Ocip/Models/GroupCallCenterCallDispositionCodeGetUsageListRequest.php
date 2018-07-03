@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * code.
  *         The response is either
  * GroupCallCenterCallDispositionCodeGetUsageListResponse or ErrorResponse.
+ *
+ * @see GroupCallCenterCallDispositionCodeGetUsageListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

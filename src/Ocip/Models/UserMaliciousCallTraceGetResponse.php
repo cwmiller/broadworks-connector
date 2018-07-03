@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMaliciousCallTraceGetResponse
  *
  * Response to UserMaliciousCallTraceGetRequest.
+ *
+ * @see UserMaliciousCallTraceGetRequest
  */
 class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse 
  *         or an ErorResponse.
+ *
+ * @see ServiceProviderCommunicationBarringProfileGetAssignedGroupListResponse
+ * @see ErorResponse
  */
 class ServiceProviderCommunicationBarringProfileGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

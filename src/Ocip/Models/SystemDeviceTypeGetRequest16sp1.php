@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         type is SIP or MGCP.
  *         The response is either SystemDeviceTypeGetResponse16sp1 or
  * ErrorResponse.
+ *
+ * @see SystemDeviceTypeGetRequest18
+ * @see SystemDeviceTypeGetResponse16sp1
+ * @see ErrorResponse
  */
 class SystemDeviceTypeGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

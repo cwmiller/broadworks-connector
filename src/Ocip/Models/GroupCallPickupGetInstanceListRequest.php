@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of Call Pickup instances within a group.
  *         The response is either GroupCallPickupGetInstanceListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCallPickupGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

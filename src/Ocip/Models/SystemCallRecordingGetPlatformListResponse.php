@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          
  *          Replaced by: SystemCallRecordingGetPlatformListResponse20sp1 in AS data
  * mode
+ *
+ * @see SystemCallRecordingGetPlatformListRequest
+ * @see SystemCallRecordingGetPlatformListResponse20sp1
  */
 class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

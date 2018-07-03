@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the system's provisioning validation attributes.
  *         The response is either a SystemProvisioningValidationGetResponse or and
  * ErrorResponse.
+ *
+ * @see SystemProvisioningValidationGetResponse
+ * @see ErrorResponse
  */
 class SystemProvisioningValidationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

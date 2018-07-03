@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add an application to the OCI call control application list.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

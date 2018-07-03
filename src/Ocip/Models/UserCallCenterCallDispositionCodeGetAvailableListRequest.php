@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * client.
  *         The response is either
  * UserCallCenterCallDispositionCodeGetAvailableListResponse or ErrorResponse.
+ *
+ * @see UserCallCenterCallDispositionCodeGetAvailableListResponse
+ * @see ErrorResponse
  */
 class UserCallCenterCallDispositionCodeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

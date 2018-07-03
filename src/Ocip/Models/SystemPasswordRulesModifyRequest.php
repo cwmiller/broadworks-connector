@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Administrator, User.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced By: SystemPasswordRulesModifyRequest14sp3
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemPasswordRulesModifyRequest14sp3
  */
 class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

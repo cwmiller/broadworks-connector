@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Adds a Custom Contact Directory to a group.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupCustomContactDirectoryAddRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

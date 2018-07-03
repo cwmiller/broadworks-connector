@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The response is either EnterprisePhoneDirectoryGetListResponse or
  * ErrorResponse.
  *          Replace by: EnterprisePhoneDirectoryGetListRequest17
+ *
+ * @see EnterprisePhoneDirectoryGetListResponse
+ * @see ErrorResponse
+ * @see EnterprisePhoneDirectoryGetListRequest17
  */
 class EnterprisePhoneDirectoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

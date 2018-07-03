@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemPolicyGetDefaultRequest20 in AS mode
+ *
+ * @see SystemPolicyGetDefaultResponse19sp1
+ * @see ErrorResponse
+ * @see SystemPolicyGetDefaultRequest20
  */
 class SystemPolicyGetDefaultRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

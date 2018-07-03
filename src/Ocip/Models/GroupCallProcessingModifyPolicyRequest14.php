@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the group level data associated with Call Processing Policy.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By : GroupCallProcessingModifyPolicyRequest15
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCallProcessingModifyPolicyRequest15
  */
 class GroupCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

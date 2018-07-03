@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserCommunicationBarringGetRequest.
  *         This command only applies to users in an Enterprise.
+ *
+ * @see UserCommunicationBarringGetRequest
  */
 class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

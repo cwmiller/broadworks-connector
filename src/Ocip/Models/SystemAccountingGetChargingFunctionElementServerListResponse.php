@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAccountingGetChargingFunctionElementServerListRequest. The
  * accounting charging function element Server table column
  *         headings are: "Address", "Extended Net Address", "Type", "Description".
+ *
+ * @see SystemAccountingGetChargingFunctionElementServerListRequest
  */
 class SystemAccountingGetChargingFunctionElementServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

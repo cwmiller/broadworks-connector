@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAnswerConfirmationGetResponse16
  *
  * Response to the ServiceProviderAnswerConfirmationGetRequest16.
+ *
+ * @see ServiceProviderAnswerConfirmationGetRequest16
  */
 class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

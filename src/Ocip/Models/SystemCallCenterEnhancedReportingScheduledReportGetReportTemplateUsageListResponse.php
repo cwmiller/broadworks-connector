@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          The "Created By" can be either "Administrator" or user id if created by
  * supervisor.
  *          The possible values for "Created By Supervisor" are "true" and "false".
+ *
+ * @see
+ * SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest
  */
 class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

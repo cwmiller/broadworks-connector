@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either UserRouteListGetResponse or ErrorResponse.
  *         
  *         Replaced by: UserRouteListGetRequest22
+ *
+ * @see UserRouteListGetResponse
+ * @see ErrorResponse
+ * @see UserRouteListGetRequest22
  */
 class UserRouteListGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

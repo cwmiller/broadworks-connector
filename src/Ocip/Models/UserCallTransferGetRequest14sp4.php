@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Call Transfer.
  *         The response is either a UserCallTransferGetResponse14sp4 or an
  *         ErrorResponse.
+ *
+ * @see UserCallTransferGetResponse14sp4
+ * @see ErrorResponse
  */
 class UserCallTransferGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

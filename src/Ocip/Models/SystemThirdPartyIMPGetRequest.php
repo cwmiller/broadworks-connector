@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemThirdPartyIMPGetResponse or ErrorResponse.
  *         
  *         Replaced by SystemThirdPartyIMPGetRequest19.
+ *
+ * @see SystemThirdPartyIMPGetResponse
+ * @see ErrorResponse
+ * @see SystemThirdPartyIMPGetRequest19
  */
 class SystemThirdPartyIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

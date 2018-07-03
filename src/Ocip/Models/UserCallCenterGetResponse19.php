@@ -16,6 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * This column is only populated for Premium Call Centers.
  *         The valid "Skill Level" values are of from 1-20. This column is only
  * populated for Premium Skill Based Call Centers.
+ *
+ * @see UserCallCenterGetRequest19
  */
 class UserCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

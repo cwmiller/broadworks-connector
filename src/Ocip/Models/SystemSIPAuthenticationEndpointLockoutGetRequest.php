@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get sip authentication endpoint lockout data in the system.
  *          The response is either a
  * SystemSIPAuthenticationEndpointLockoutGetResponse or an ErrorResponse.
+ *
+ * @see SystemSIPAuthenticationEndpointLockoutGetResponse
+ * @see ErrorResponse
  */
 class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

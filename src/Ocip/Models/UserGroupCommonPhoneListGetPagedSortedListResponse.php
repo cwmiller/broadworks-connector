@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserGroupCommonPhoneListGetPagedSortedListRequest.
  * 				The response contains the group's common phone list. The response
  * 				contains a table with column headings: "Name" and "Phone Number".
+ *
+ * @see UserGroupCommonPhoneListGetPagedSortedListRequest
  */
 class UserGroupCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

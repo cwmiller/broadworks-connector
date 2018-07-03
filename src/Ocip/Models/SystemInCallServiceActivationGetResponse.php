@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemInCallServiceActivationGetRequest.
  *           Replaced by: SystemInCallServiceActivationGetResponse17
+ *
+ * @see SystemInCallServiceActivationGetRequest
+ * @see SystemInCallServiceActivationGetResponse17
  */
 class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

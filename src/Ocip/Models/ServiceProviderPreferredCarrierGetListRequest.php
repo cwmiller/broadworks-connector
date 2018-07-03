@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enterprise.
  *         The response is either a ServiceProviderPreferredCarrierGetListResponse
  * or an ErrorResponse.
+ *
+ * @see ServiceProviderPreferredCarrierGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderPreferredCarrierGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

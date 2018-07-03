@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's Shared Call Appearance service setting.
  *         The response is either a UserSharedCallAppearanceGetResponse21sp1 or an
  * ErrorResponse.
+ *
+ * @see UserSharedCallAppearanceGetResponse21sp1
+ * @see ErrorResponse
  */
 class UserSharedCallAppearanceGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

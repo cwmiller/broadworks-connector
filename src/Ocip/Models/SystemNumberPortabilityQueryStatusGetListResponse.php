@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemNumberPortabilityQueryStatusGetListRequest.
  *         Contains a table with column headings:
  *         "Status and Treatment File Name".
+ *
+ * @see SystemNumberPortabilityQueryStatusGetListRequest
  */
 class SystemNumberPortabilityQueryStatusGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

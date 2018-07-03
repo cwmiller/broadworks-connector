@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the routing profile for the service provider/enterprise.
  *         The response is either a ServiceProviderRoutingProfileGetResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderRoutingProfileGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderRoutingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's holiday service settings.
  *         The response is either a GroupRoutePointHolidayServiceGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupRoutePointHolidayServiceGetResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointHolidayServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

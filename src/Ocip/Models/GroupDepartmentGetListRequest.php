@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupDepartmentGetListResponse or ErrorResponse.
  *         
  *         Replaced by: GroupDepartmentGetListRequest18
+ *
+ * @see GroupDepartmentGetListResponse
+ * @see ErrorResponse
+ * @see GroupDepartmentGetListRequest18
  */
 class GroupDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

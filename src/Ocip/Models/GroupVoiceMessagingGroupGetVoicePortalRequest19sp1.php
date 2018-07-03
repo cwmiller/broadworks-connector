@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalRequest21sp1 in AS
  * data mode.
+ *
+ * @see GroupVoiceMessagingGroupGetVoicePortalResponse19sp1
+ * @see ErrorResponse
+ * @see GroupVoiceMessagingGroupGetVoicePortalRequest21sp1
  */
 class GroupVoiceMessagingGroupGetVoicePortalRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

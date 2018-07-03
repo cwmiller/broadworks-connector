@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the service provider level data associated with Call Processing
  *         Policy. The response is either a
  *         ServiceProviderCallProcessingGetPolicyResponse17 or an ErrorResponse.
+ *
+ * @see ServiceProviderCallProcessingGetPolicyResponse17
+ * @see ErrorResponse
  */
 class ServiceProviderCallProcessingGetPolicyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

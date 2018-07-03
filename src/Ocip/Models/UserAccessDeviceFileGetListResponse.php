@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAccessDeviceFileGetListRequest.
  *         Contains a table of user modifiable Device Management files.
  *         The column headings are: "File Format", "Template URL".
+ *
+ * @see UserAccessDeviceFileGetListRequest
  */
 class UserAccessDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

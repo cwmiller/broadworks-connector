@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's simultaneous ring family service.
  *         The response is either a UserSimultaneousRingFamilyGetCriteriaResponse
  * or an ErrorResponse.
+ *
+ * @see UserSimultaneousRingFamilyGetCriteriaResponse
+ * @see ErrorResponse
  */
 class UserSimultaneousRingFamilyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

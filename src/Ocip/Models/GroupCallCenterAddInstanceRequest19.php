@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The domain is required in the serviceUserId.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced by GroupCallCenterAddInstanceRequest22
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterAddInstanceRequest22
  */
 class GroupCallCenterAddInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

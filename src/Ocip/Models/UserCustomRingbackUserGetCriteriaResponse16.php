@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCustomRingbackUserGetCriteriaRequest16.
  *         
  *         Replaced by: UserCustomRingbackUserGetCriteriaResponse20 in AS data mode
+ *
+ * @see UserCustomRingbackUserGetCriteriaRequest16
+ * @see UserCustomRingbackUserGetCriteriaResponse20
  */
 class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

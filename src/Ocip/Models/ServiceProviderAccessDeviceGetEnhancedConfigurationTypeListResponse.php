@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
  *
  * Response to ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest.
+ *
+ * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

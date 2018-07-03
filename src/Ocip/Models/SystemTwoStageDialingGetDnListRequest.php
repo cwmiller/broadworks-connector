@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a list of Two Stage Dialing dns defined in the system.
  *           The response is either a SystemTwoStageDialingGetDnListResponse
  *           or an ErrorResponse.
+ *
+ * @see SystemTwoStageDialingGetDnListResponse
+ * @see ErrorResponse
  */
 class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

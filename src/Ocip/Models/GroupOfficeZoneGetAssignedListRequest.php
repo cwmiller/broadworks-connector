@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of Office Zones assigned to a group.
  *         The response is either a GroupOfficeZoneGetAssignedListResponse 
  *         or an ErrorResponse.
+ *
+ * @see GroupOfficeZoneGetAssignedListResponse
+ * @see ErrorResponse
  */
 class GroupOfficeZoneGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -71,6 +71,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            thirdPartyVoiceMailServerMailboxIdType
  *            thirdPartyVoiceMailMailboxURL
  *            sipAuthenticationData
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

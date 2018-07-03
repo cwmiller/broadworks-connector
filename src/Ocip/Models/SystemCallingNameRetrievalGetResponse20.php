@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallingNameRetrievalGetResponse20
  *
  * Response to SystemCallingNameRetrievalGetRequest20.
+ *
+ * @see SystemCallingNameRetrievalGetRequest20
  */
 class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

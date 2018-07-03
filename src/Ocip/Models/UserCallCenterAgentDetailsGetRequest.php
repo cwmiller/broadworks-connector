@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         itself can send this command.
  *         The response is either UserCallCenterAgentDetailsGetResponse or
  * ErrorResponse.
+ *
+ * @see UserCallCenterAgentDetailsGetResponse
+ * @see ErrorResponse
  */
 class UserCallCenterAgentDetailsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

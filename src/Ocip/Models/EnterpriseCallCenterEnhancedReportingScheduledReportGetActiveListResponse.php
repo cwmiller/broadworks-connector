@@ -16,6 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "Recurring" are "None", "Daily", "Weekly",
  * "Monthly" and "Yearly". 
  *         The possible values for "Report Level" are "System" and "Enterprise".
+ *
+ * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

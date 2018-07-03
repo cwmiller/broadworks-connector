@@ -29,6 +29,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enableSecurityClassification, value “false” is returned in XS data
  * mode
  *           enableCallRecording, value “false” is returned in XS data mode
+ *
+ * @see UserDevicePoliciesGetRequest21
  */
 class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             The response is either a SystemConfigurableTreatmentGetResponse or
  * an ErrorResponse.
  *             Replaced By: SystemConfigurableTreatmentGetRequest16
+ *
+ * @see SystemConfigurableTreatmentGetResponse
+ * @see ErrorResponse
+ * @see SystemConfigurableTreatmentGetRequest16
  */
 class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

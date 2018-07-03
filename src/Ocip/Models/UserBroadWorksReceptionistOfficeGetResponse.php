@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * First Name", 
  *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address",
  * "Department", "IMP Id", "Title".
+ *
+ * @see UserBroadWorksReceptionistOfficeGetRequest
  */
 class UserBroadWorksReceptionistOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

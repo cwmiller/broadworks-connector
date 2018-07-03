@@ -19,6 +19,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Menu),
  *         and will contain the Submenu ID when the "Type" Column contains type
  * Submenu.
+ *
+ * @see GroupAutoAttendantSubmenuGetUsageListRequest
  */
 class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

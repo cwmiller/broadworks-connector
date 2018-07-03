@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderGetRequest17sp1.
  *         The response contains the service provider or enterprise's profile
  * information.
+ *
+ * @see ServiceProviderGetRequest17sp1
  */
 class ServiceProviderGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

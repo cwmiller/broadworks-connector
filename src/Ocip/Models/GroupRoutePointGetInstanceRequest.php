@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupRoutePointGetInstanceRequest19sp1
+ *
+ * @see GroupRoutePointGetInstanceResponse
+ * @see ErrorResponse
+ * @see GroupRoutePointGetInstanceRequest19sp1
  */
 class GroupRoutePointGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Communication Barring.
  *         The response is either a SystemCommunicationBarringGetResponse21sp1 or
  * an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringGetResponse21sp1
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

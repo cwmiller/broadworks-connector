@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringCriteriaGetListRequest.
  *         The response contains a table of all Communication Barring Criteria
  *         in the system. The column headings are "Name" and "Description".
+ *
+ * @see SystemCommunicationBarringCriteriaGetListRequest
  */
 class SystemCommunicationBarringCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

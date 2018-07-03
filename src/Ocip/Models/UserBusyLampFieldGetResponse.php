@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The table has column headings:
  *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
  * First Name".
+ *
+ * @see UserBusyLampFieldGetResponse16sp2
+ * @see UserBusyLampFieldGetRequest
  */
 class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

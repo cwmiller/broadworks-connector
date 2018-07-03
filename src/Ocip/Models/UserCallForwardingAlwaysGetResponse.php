@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingAlwaysGetResponse
  *
  * Response to UserCallForwardingAlwaysGetRequest.
+ *
+ * @see UserCallForwardingAlwaysGetRequest
  */
 class UserCallForwardingAlwaysGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

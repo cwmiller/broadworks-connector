@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemCPEConfigGetFileServerListResponse or
  * ErrorResponse.
  *         Replaced By: SystemCPEConfigGetFileServerListRequest14sp6
+ *
+ * @see SystemCPEConfigGetFileServerListResponse
+ * @see ErrorResponse
+ * @see SystemCPEConfigGetFileServerListRequest14sp6
  */
 class SystemCPEConfigGetFileServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

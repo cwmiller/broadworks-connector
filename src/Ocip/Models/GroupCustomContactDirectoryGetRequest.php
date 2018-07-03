@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupCustomContactDirectoryGetResponse or
  * ErrorResponse.
  *         Replace by: GroupCustomContactDirectoryGetRequest17
+ *
+ * @see GroupCustomContactDirectoryGetResponse
+ * @see ErrorResponse
+ * @see GroupCustomContactDirectoryGetRequest17
  */
 class GroupCustomContactDirectoryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

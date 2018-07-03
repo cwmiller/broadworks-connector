@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

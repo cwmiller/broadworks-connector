@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemGETSNumberGetListRequest. 
  *         The table columns are: "Number", "Type" and "Description".
+ *
+ * @see SystemGETSNumberGetListRequest
  */
 class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

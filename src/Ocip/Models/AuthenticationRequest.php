@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AuthenticationRequest
  *
  * AuthenticationRequest is 1st stage of the 2 stage OCI login process.
+ *
+ * @see AuthenticationRequest
  */
 class AuthenticationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

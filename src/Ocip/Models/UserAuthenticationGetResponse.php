@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAuthenticationGetResponse
  *
  * Response to the UserAuthenticationGetRequest.
+ *
+ * @see UserAuthenticationGetRequest
  */
 class UserAuthenticationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

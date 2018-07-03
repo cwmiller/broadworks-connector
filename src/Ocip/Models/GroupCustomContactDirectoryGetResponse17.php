@@ -23,6 +23,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         contains false.  The Receptionist Note column is only populated in AS 
  *         Mode, if the user sending the request is the owner of the Receptionist 
  *         Note and a Note exists.
+ *
+ * @see GroupCustomContactDirectoryGetRequest17
  */
 class GroupCustomContactDirectoryGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

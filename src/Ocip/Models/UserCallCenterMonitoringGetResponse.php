@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterMonitoringGetResponse
  *
  * Response to UserCallCenterMonitoringGetRequest.
+ *
+ * @see UserCallCenterMonitoringGetRequest
  */
 class UserCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

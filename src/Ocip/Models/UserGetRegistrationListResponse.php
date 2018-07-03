@@ -35,6 +35,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Lockout times are shown in GMT offset. When a permanent lockout is
  * shown, the "Lockout Expires" column is empty and the "Lockout Count" column
  * contains the word Permanent.
+ *
+ * @see UserGetRegistrationListRequest
  */
 class UserGetRegistrationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

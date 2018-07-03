@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the group's intercept group service settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: GroupInterceptGroupModifyRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupInterceptGroupModifyRequest16
  */
 class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

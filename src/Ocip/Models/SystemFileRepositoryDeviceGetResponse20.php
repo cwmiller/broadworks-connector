@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFileRepositoryDeviceGetResponse20
  *
  * Response to SystemFileRepositoryDeviceGetRequest20.
+ *
+ * @see SystemFileRepositoryDeviceGetRequest20
  */
 class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

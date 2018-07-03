@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get an existing Office Zone.
  *         The response is either a SystemOfficeZoneGetResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemOfficeZoneGetResponse
+ * @see ErrorResponse
  */
 class SystemOfficeZoneGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

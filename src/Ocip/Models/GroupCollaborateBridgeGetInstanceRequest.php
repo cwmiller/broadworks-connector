@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupCollaborateBridgeGetInstanceRequest20sp1
+ *
+ * @see GroupCollaborateBridgeGetInstanceResponse
+ * @see ErrorResponse
+ * @see GroupCollaborateBridgeGetInstanceRequest20sp1
  */
 class GroupCollaborateBridgeGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

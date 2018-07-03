@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *             dialableCallerIDAccess
  *             verifyTranslationAndRoutingAccess
+ *
+ * @see ServiceProviderAdminGetPolicyRequest20
  */
 class ServiceProviderAdminGetPolicyResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -16,6 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           enable3G4GContinuity
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold
+ *
+ * @see SystemSIPDeviceTypeGetRequest20
  */
 class SystemSIPDeviceTypeGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

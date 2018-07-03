@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetAvailableDetailListResponse
  *
  * Response to GroupTrunkGroupGetAvailableDetailListRequest.
+ *
+ * @see GroupTrunkGroupGetAvailableDetailListRequest
  */
 class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

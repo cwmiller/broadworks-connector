@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an
  * EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse or an
  * ErrorResponse.
+ *
+ * @see EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse
+ * @see ErrorResponse
  */
 class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         It is not an error to activate an already activated DN
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupDnActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemServiceCodeGetListRequest.
  *         Contains a table of defined service codes
  *         The column headings are: "Service Code", and "Description".
+ *
+ * @see SystemServiceCodeGetListRequest
  */
 class SystemServiceCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserMeetMeConferencingGetConferenceGreetingRequest.
  *         Contains the information of a conference custom greeting.
+ *
+ * @see UserMeetMeConferencingGetConferenceGreetingRequest
  */
 class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

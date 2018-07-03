@@ -13,6 +13,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * is made while the carrier is used as an intra-LATA carrier.
  *         An ErrorResponse is returned if an attempt to set isInternational to
  * false is made while the carrier is used as an international carrier.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

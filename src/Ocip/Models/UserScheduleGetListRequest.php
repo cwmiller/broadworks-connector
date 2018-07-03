@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of a user schedules. The list can be filtered by schedule type.
  *         The response is either a UserScheduleGetListResponse or an
  * ErrorResponse.
+ *
+ * @see UserScheduleGetListResponse
+ * @see ErrorResponse
  */
 class UserScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileGetResponse14sp8
  *
  * Response to SystemSIPDeviceTypeFileGetRequest14sp8.
+ *
+ * @see SystemSIPDeviceTypeFileGetRequest14sp8
  */
 class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

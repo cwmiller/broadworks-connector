@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request a list of users within in a group that have a given domain assigned.
  *         The response is either GroupDomainGetAssignedUserListResponse or
  * ErrorResponse.
+ *
+ * @see GroupDomainGetAssignedUserListResponse
+ * @see ErrorResponse
  */
 class GroupDomainGetAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

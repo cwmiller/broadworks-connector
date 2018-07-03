@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserVoiceMessagingUserGetGreetingResponse13mp16
  * or an ErrorResponse.
  *         Replaced By: UserVoiceMessagingUserGetGreetingRequest16
+ *
+ * @see UserVoiceMessagingUserGetGreetingResponse13
+ * @see ErrorResponse
+ * @see UserVoiceMessagingUserGetGreetingRequest16
  */
 class UserVoiceMessagingUserGetGreetingRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

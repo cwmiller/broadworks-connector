@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * specific user
  *         The response is either
  * UserBroadWorksAnywhereGetAvailableListResponse21sp1 or ErrorResponse.
+ *
+ * @see UserBroadWorksAnywhereGetAvailableListResponse21sp1
+ * @see ErrorResponse
  */
 class UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

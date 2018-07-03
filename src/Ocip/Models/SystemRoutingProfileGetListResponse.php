@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemRoutingProfileGetListRequest.
  *         Returns a list of routing profiles defined in the system.
+ *
+ * @see SystemRoutingProfileGetListRequest
  */
 class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         It is possible to get the service instances within a specified
  * department.
+ *
+ * @see GroupInstantGroupCallGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

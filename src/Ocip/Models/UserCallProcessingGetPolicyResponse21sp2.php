@@ -42,6 +42,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            useUserTranslationRoutingSetting, value "false" is returned in AS
  * data mode.
  *         Replaced by: UserCallProcessingGetPolicyResponse22 in AS data mode
+ *
+ * @see UserCallProcessingGetPolicyRequest21sp2
+ * @see UserCallProcessingGetPolicyResponse22
  */
 class UserCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

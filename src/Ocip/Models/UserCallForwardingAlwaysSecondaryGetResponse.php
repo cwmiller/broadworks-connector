@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingAlwaysSecondaryGetResponse
  *
  * Response to UserCallForwardingAlwaysSecondaryGetRequest.
+ *
+ * @see UserCallForwardingAlwaysSecondaryGetRequest
  */
 class UserCallForwardingAlwaysSecondaryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

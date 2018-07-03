@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * expand the list to the entire enterprise.
  *         The response is either a GroupTrunkGroupGetInstanceListResponse14 or an
  * ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetInstanceListResponse14
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetInstanceListRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

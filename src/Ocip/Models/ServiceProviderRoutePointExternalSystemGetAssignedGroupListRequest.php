@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

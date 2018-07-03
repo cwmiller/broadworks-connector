@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCustomerOriginatedTraceGetResponse
  *
  * Response to SystemCustomerOriginatedTraceGetRequest.
+ *
+ * @see SystemCustomerOriginatedTraceGetRequest
  */
 class SystemCustomerOriginatedTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the data associated with Privacy for a service instance.
  *         The response is either a GroupServiceInstancePrivacyGetResponse.
  *         Replaced by: GroupServiceInstancePrivacyGetRequest17sp4
+ *
+ * @see GroupServiceInstancePrivacyGetResponse
+ * @see GroupServiceInstancePrivacyGetRequest17sp4
  */
 class GroupServiceInstancePrivacyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For each service pack, a table of groups utilizing the pack is returned.
  *         The response is either
  * ServiceProviderServicePackGetUtilizationListResponse or ErrorResponse.
+ *
+ * @see ServiceProviderServicePackGetUtilizationListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderServicePackGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

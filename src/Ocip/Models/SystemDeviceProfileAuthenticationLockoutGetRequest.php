@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get device password authentication lockout data in the system.
  *          The response is either a
  * SystemDeviceProfileAuthenticationLockoutGetResponse or an ErrorResponse.
+ *
+ * @see SystemDeviceProfileAuthenticationLockoutGetResponse
+ * @see ErrorResponse
  */
 class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

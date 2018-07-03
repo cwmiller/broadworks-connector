@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "User Id", "Last Name", "First
  * Name", "Hiragana Last Name", and "Hiragana First Name", 
  *         "Phone Number", "Extension", "Department", "Email Address".
+ *
+ * @see GroupMeetMeConferencingGetAvailableUserListRequest
  */
 class GroupMeetMeConferencingGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCodecGetListResponse
  *
  * Response to SystemCodecGetListRequest.
+ *
+ * @see SystemCodecGetListRequest
  */
 class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

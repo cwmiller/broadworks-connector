@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPersonalPhoneListGetPagedSortedListRequest.
  * 				The response contains a user's personal phone list. The response
  * 				contains a table with column headings: "Name" and "Phone Number".
+ *
+ * @see UserPersonalPhoneListGetPagedSortedListRequest
  */
 class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

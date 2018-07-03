@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksMobilityGetResponse
  *
  * Response to a UserBroadWorksMobilityGetRequest.
+ *
+ * @see UserBroadWorksMobilityGetRequest
  */
 class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

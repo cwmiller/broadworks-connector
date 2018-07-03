@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse
+ * @see ErrorResponse
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

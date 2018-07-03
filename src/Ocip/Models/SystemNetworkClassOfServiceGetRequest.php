@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemNetworkClassOfServiceGetResponse
  *         or an ErrorResponse.
  *         Replaced by: SystemNetworkClassOfServiceGetRequest17
+ *
+ * @see SystemNetworkClassOfServiceGetResponse
+ * @see ErrorResponse
+ * @see SystemNetworkClassOfServiceGetRequest17
  */
 class SystemNetworkClassOfServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * and UserService data types.
  *         With the exception of the string "Voice Portal" which is returned when
  * the announcement is being used by Voice Portal Personalized Name.
+ *
+ * @see GroupAnnouncementFileGetRequest
  */
 class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

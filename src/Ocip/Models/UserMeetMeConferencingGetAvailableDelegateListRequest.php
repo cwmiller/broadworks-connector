@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Searching for users, who are host on a Meet-Me Conferencing bridge.
  *         The response is either
  * UserMeetMeConferencingGetAvailableDelegateListResponse or ErrorResponse.
+ *
+ * @see UserMeetMeConferencingGetAvailableDelegateListResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

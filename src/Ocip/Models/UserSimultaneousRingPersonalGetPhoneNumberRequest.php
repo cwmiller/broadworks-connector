@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the answer confirmation setting for the phone number specified.
  *         The response is either a
  * UserSimultaneousRingPersonalGetPhoneNumberResponse or an ErrorResponse.
+ *
+ * @see UserSimultaneousRingPersonalGetPhoneNumberResponse
+ * @see ErrorResponse
  */
 class UserSimultaneousRingPersonalGetPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

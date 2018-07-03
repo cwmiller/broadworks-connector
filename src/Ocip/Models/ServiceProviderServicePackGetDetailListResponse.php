@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and the list of services in a table format. The column headings are
  * "Service", "Authorized"
  *         "Allocated" and "Available".
+ *
+ * @see ServiceProviderServicePackGetDetailListRequest
  */
 class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of assigned User and Group Services for the specified user.
  *         The response is either an UserAssignedServicesGetListResponse or an
  * ErrorResponse.
+ *
+ * @see UserAssignedServicesGetListResponse
+ * @see ErrorResponse
  */
 class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

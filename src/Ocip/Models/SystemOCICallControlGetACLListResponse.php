@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemOCICallControlGetACLListRequest. The table columns are:
  *         "Net Address" and "Description".
+ *
+ * @see SystemOCICallControlGetACLListRequest
  */
 class SystemOCICallControlGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of all Network Classes of Service assigned to the
  *         service provider. The column headings are: "Name", "Description" and
  * "Default".
+ *
+ * @see ServiceProviderNetworkClassOfServiceGetAssignedListRequest
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

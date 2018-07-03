@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is a
  * SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 or an
  * ErrorResponse.
+ *
+ * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22
+ * @see ErrorResponse
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

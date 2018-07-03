@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderRoutePointExternalSystemGetAssignedListRequest.
  *         Contains a table of all Route Point External Systems assigned to the
  *         service provider.  The column headings are: "Name" and "Description".
+ *
+ * @see ServiceProviderRoutePointExternalSystemGetAssignedListRequest
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

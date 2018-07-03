@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to a SystemFileGetContentRequest. The fileContent length returned is
  * limited to 128KBytes.
+ *
+ * @see SystemFileGetContentRequest
  */
 class SystemFileGetContentResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

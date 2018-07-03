@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a System Number Portability Status Digit Pattern mapping.
  *         The response is either a
  * SystemNumberPortabilityQueryDigitPatternGetResponse or an ErrorResponse.
+ *
+ * @see SystemNumberPortabilityQueryDigitPatternGetResponse
+ * @see ErrorResponse
  */
 class SystemNumberPortabilityQueryDigitPatternGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

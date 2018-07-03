@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings:
  *         "Submenu Id" "Is Used".
  *         The column values for "Is Used" can either be true, or false.
+ *
+ * @see GroupAutoAttendantSubmenuGetListRequest
  */
 class GroupAutoAttendantSubmenuGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

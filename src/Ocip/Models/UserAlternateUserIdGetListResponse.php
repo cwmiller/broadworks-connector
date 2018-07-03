@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * column headings are: "User Id", "Description", "Alternate".
  *         The possible values for "Alternate" are "true" and "false".
  *         The "Description" is only present for alternate user Ids.
+ *
+ * @see UserAlternateUserIdGetListRequest
  */
 class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

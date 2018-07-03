@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointHolidayServiceGetResponse17sp1
  *
  * Response to the GroupRoutePointHolidayServiceGetRequest17sp1.
+ *
+ * @see GroupRoutePointHolidayServiceGetRequest17sp1
  */
 class GroupRoutePointHolidayServiceGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

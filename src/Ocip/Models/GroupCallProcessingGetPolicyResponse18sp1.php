@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * mode.
  *           
  *         Replaced by: GroupCallProcessingGetPolicyResponse19sp1
+ *
+ * @see GroupCallProcessingGetPolicyRequest18sp1
+ * @see GroupCallProcessingGetPolicyResponse19sp1
  */
 class GroupCallProcessingGetPolicyResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

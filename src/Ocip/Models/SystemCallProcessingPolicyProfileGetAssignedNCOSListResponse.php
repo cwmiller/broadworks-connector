@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Network Classes of Service that
  *         contain the specific CAllP Policy Profile. The column headings
  *         are "Name" and "Description".
+ *
+ * @see SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest
  */
 class SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

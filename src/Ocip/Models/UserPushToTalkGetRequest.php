@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the push to talk service setting.
  *         The response is either a UserPushToTalkGetResponse or an ErrorResponse.
+ *
+ * @see UserPushToTalkGetResponse
+ * @see ErrorResponse
  */
 class UserPushToTalkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

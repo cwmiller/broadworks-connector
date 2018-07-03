@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         
  *         Replaced by: SystemOCICallControlApplicationAddRequest17
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemOCICallControlApplicationAddRequest17
  */
 class SystemOCICallControlApplicationAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

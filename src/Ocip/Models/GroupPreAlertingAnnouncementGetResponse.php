@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupPreAlertingAnnouncementGetResponse20 in AS data mode
+ *
+ * @see GroupPreAlertingAnnouncementGetResponse
+ * @see ErrorResponse
+ * @see GroupPreAlertingAnnouncementGetResponse20
  */
 class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

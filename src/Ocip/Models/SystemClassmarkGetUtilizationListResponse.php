@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Service Provider Id",
  *         "Last Name", "First Name", and "Phone Number", "Extension",
  * "Department", "Email Address".
+ *
+ * @see SystemClassmarkGetUtilizationListRequest
  */
 class SystemClassmarkGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

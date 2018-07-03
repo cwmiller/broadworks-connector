@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the user's call notify service setting.
  *         The response is either a UserCallNotifyGetResponse or an ErrorResponse.
+ *
+ * @see UserCallNotifyGetResponse
+ * @see ErrorResponse
  */
 class UserCallNotifyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

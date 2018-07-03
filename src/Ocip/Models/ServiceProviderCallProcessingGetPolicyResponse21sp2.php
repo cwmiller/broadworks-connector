@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           routeOverridePrefix
  *         Replaced by: ServiceProviderCallProcessingGetPolicyResponse22 in AS data
  * mode
+ *
+ * @see ServiceProviderCallProcessingGetPolicyRequest21sp2
+ * @see ServiceProviderCallProcessingGetPolicyResponse22
  */
 class ServiceProviderCallProcessingGetPolicyResponse21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

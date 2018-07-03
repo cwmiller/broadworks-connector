@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the initiating call forwards/transfer permissions for a user.
  *         The response is either a UserOutgoingCallingPlanRedirectingGetResponse
  * or an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanRedirectingGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanRedirectingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

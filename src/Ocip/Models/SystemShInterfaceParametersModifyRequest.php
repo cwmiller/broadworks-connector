@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *       
  *         Replaced by: SystemShInterfaceParametersModifyRequest17
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemShInterfaceParametersModifyRequest17
  */
 class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

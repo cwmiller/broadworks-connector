@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings : "User Name","Allow
  * Delete","Allow Get","Allow Put" in a row for each file repository service
  * provider user.
+ *
+ * @see ServiceProviderFileRepositoryDeviceUserGetListRequest
  */
 class ServiceProviderFileRepositoryDeviceUserGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

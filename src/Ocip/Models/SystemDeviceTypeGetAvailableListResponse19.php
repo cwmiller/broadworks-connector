@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Note: element numberOfPorts is only used by devices types with static
  * line ordering enabled
  *         Replaced by SystemDeviceTypeGetAvailableListResponse22 in AS data mode.
+ *
+ * @see SystemDeviceTypeGetAvailableListRequest19
+ * @see SystemDeviceTypeGetAvailableListResponse22
  */
 class SystemDeviceTypeGetAvailableListResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

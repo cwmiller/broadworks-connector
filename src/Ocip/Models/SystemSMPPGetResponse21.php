@@ -17,6 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           version, value "" is returned in Amplify data mode
  *           systemType, value "VMS" is returned in Amplify mode
  *           useGsmMwiUcs2Encoding, value "true" is returned in Amplify mode
+ *
+ * @see SystemSMPPGetRequest21
  */
 class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

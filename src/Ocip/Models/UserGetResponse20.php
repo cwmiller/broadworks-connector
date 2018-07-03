@@ -18,6 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         user's Group does not have an associated country code.
  *         The nationalPrefix in this response is the one associated to the
  * included countryCode.
+ *
+ * @see UserGetRequest20
  */
 class UserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced By : ServiceProviderFeatureAccessCodeGetListResponse20 in AS
  * data mode
+ *
+ * @see ServiceProviderFeatureAccessCodeGetListRequest
+ * @see ServiceProviderFeatureAccessCodeGetListResponse20
  */
 class ServiceProviderFeatureAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

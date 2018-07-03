@@ -7,6 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system level data associated with SystemSelectiveServicesRequest.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SystemSelectiveServicesRequest
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

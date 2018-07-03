@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * mode
  *           thresholdCrossingNotificationEmailGuardTimerSeconds, value "5" is
  * returned in Amplify mode
+ *
+ * @see SystemCallCenterGetRequest21
  */
 class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

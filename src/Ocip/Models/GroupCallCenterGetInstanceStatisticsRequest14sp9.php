@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get Call Center queue and agent statistics.
  *         The response is either GroupCallCenterGetInstanceStatisticsResponse14sp9
  * or ErrorResponse.
+ *
+ * @see GroupCallCenterGetInstanceStatisticsResponse14sp9
+ * @see ErrorResponse
  */
 class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

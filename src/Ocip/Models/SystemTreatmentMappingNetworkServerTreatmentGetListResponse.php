@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingNetworkServerTreatmentGetListRequest.
  * Contains a table with one row per mapping.
  *         The table columns are: "NS Treatment", "Treatment Id".
+ *
+ * @see SystemTreatmentMappingNetworkServerTreatmentGetListRequest
  */
 class SystemTreatmentMappingNetworkServerTreatmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

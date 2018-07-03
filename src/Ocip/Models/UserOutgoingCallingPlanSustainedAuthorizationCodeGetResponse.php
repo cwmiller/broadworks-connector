@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse
  *
  * Response to UserOutgoingCallingPlanAuthorizationCodeGetRequest.
+ *
+ * @see UserOutgoingCallingPlanAuthorizationCodeGetRequest
  */
 class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

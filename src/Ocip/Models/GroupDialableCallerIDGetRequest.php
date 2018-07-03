@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Group's Dialable Caller ID settings and criteria list.
  *         The response is either a 
  *         GroupDialableCallerIDGetResponse or an ErrorResponse.
+ *
+ * @see GroupDialableCallerIDGetResponse
+ * @see ErrorResponse
  */
 class GroupDialableCallerIDGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

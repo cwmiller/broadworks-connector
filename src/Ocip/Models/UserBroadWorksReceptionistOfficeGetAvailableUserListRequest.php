@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Receptionist Office available user list.
  *         The response is either
  * UserBroadWorksReceptionistOfficeGetAvailableUserListResponse or ErrorResponse.
+ *
+ * @see UserBroadWorksReceptionistOfficeGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksReceptionistOfficeGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

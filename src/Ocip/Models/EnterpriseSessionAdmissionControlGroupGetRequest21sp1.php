@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a session admission control group for the enterprise.
  *         The response is either an
  * EnterpriseSessionAdmissionControlGroupGetResponse21sp1 or an ErrorResponse.
+ *
+ * @see EnterpriseSessionAdmissionControlGroupGetResponse21sp1
+ * @see ErrorResponse
  */
 class EnterpriseSessionAdmissionControlGroupGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

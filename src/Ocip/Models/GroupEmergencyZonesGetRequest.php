@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group level data associated with Emergency Zones.
  *         The response is either a GroupEmergencyZonesGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupEmergencyZonesGetResponse
+ * @see ErrorResponse
  */
 class GroupEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

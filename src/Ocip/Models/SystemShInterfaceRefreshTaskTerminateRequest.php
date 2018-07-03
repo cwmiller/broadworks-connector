@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Terminates the system refresh task in progress on the local Application Server
  * node.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemShInterfaceRefreshTaskTerminateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

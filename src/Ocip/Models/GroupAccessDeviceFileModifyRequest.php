@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a specified group access device file.
  *           The response is either a SuccessResponse or an ErrorResponse.
  *           Replaced By: GroupAccessDeviceFileModifyRequest14sp8
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupAccessDeviceFileModifyRequest14sp8
  */
 class GroupAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

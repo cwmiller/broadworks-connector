@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetAnnouncementResponse16
  *
  * Response to the GroupCallCenterGetAnnouncementRequest16.
+ *
+ * @see GroupCallCenterGetAnnouncementRequest16
  */
 class GroupCallCenterGetAnnouncementResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

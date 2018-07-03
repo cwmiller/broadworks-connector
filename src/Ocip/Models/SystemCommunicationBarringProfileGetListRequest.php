@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of all Communication Barring Profiles.
  *         The response is either a
  *         SystemCommunicationBarringProfileGetListResponse or an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringProfileGetListResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

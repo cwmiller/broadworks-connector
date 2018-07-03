@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify a Route Point instance.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced by GroupRoutePointModifyInstanceRequest22.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupRoutePointModifyInstanceRequest22
  */
 class GroupRoutePointModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

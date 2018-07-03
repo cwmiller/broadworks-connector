@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemAdminGetListRequest.
  *         Contains a 6 column table with column headings "Administrator ID",
  *         "Last Name", "First Name", "Type", "Read Only", "Language".
+ *
+ * @see SystemAdminGetListRequest
  */
 class SystemAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

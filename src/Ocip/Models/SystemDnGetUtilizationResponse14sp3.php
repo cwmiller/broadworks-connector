@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemDnGetUtilizationRequest14sp3.
  *         The isActivated element is only included when the DN is
  *   assigned to a user.
+ *
+ * @see SystemDnGetUtilizationRequest14sp3
  */
 class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

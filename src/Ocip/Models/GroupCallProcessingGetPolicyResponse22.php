@@ -32,6 +32,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AS data mode:
  *           routeOverrideDomain
  *           routeOverridePrefix
+ *
+ * @see GroupCallProcessingGetPolicyRequest22
+ * @see useMaxConcurrentTerminatingAlertingRequests
+ * @see maxConcurrentTerminatingAlertingRequests
  */
 class GroupCallProcessingGetPolicyResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserMusicOnHoldUserGetRequest20 in AS data mode
+ *
+ * @see UserMusicOnHoldUserGetResponse16
+ * @see ErrorResponse
+ * @see UserMusicOnHoldUserGetRequest20
  */
 class UserMusicOnHoldUserGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVideoAddOnGetResponse19
  *
  * Response to the UserVideoAddOnGetRequest19.
+ *
+ * @see UserVideoAddOnGetRequest19
  */
 class UserVideoAddOnGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

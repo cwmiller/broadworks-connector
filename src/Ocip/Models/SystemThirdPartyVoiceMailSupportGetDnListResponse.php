@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        Contains a table with a row for each ThirdPartyVoiceMailSupport User DN
  * and column headings:
  *        "Phone Number", "Description"
+ *
+ * @see SystemThirdPartyVoiceMailSupportGetDnListRequest
  */
 class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

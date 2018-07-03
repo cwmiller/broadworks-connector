@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Advice Of Charge.
  *         The response is either a UserAdviceOfChargeGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserAdviceOfChargeGetResponse
+ * @see ErrorResponse
  */
 class UserAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add an entry to the SIP access control list.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

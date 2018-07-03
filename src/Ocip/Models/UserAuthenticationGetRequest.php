@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's authentication service information.
  *         The response is either a UserAuthenticationGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserAuthenticationGetResponse
+ * @see ErrorResponse
  */
 class UserAuthenticationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

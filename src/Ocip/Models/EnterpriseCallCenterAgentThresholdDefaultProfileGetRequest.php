@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         list of agents to be included in the table.
  *         The response is either a
  * EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse or an ErrorResponse.
+ *
+ * @see EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

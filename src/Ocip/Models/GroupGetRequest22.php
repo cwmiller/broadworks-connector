@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupGetResponse22 or an ErrorResponse.
  *         
  *         Replaced by GroupGetRequest22V2 in AS data mode.
+ *
+ * @see GroupGetResponse22
+ * @see ErrorResponse
+ * @see GroupGetRequest22
  */
 class GroupGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

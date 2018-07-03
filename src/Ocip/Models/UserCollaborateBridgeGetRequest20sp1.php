@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * assigned to one collaborate bridge at any given time.
  *         The response is either UserCollaborateBridgeGetResponse20sp1 or 
  *         ErrorResponse.
+ *
+ * @see UserCollaborateBridgeGetResponse20sp1
+ * @see ErrorResponse
  */
 class UserCollaborateBridgeGetRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

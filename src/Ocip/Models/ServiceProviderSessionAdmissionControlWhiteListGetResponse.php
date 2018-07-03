@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the ServiceProviderSessionAdmissionControlWhiteListGetRequest.
  *         The response contains the White List information.
+ *
+ * @see ServiceProviderSessionAdmissionControlWhiteListGetRequest
  */
 class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

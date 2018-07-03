@@ -18,6 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Enterprise Trunk" column contains the enterprise trunk the user
  * possessing the number range belongs to. 
  *         The "Is Active" column indicates if the number range has been activated.
+ *
+ * @see EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
  */
 class EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

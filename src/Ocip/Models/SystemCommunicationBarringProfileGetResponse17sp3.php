@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            
  *         Replaced by: SystemCommunicationBarringProfileGetResponse19sp1 in AS
  * data mode
+ *
+ * @see SystemCommunicationBarringProfileGetRequest17sp3
+ * @see SystemCommunicationBarringProfileGetResponse19sp1
  */
 class SystemCommunicationBarringProfileGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

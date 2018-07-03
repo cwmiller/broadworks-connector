@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * rows returned.
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a ResellerGetListResponse or an ErrorResponse.
+ *
+ * @see ResellerGetListResponse
+ * @see ErrorResponse
  */
 class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

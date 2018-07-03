@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a system voice portal instance.
  *         The response is either SystemSystemVoicePortalGetResponse21sp1 or
  * ErrorResponse.
+ *
+ * @see SystemSystemVoicePortalGetResponse21sp1
+ * @see ErrorResponse
  */
 class SystemSystemVoicePortalGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

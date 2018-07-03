@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest.
  *         Contains a list of available Mobile Subscriber Directory Numbers not yet
  * assigned to any user.
+ *
+ * @see
+ * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

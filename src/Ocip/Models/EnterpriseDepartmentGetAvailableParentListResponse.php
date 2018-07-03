@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseDepartmentGetAvailableParentListRequest.
  *         The response includes two parallel arrays of department keys and
  * department display names.
+ *
+ * @see EnterpriseDepartmentGetAvailableParentListRequest
  */
 class EnterpriseDepartmentGetAvailableParentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

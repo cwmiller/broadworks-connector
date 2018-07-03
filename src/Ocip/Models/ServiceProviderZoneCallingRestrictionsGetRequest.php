@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets the Service Provider/Enterprise level Zone Calling Restrictions Policies.
  *         The response is ServiceProviderZoneCallingRestrictionsGetResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderZoneCallingRestrictionsGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderZoneCallingRestrictionsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

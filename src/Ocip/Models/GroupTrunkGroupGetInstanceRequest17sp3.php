@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name".
  *         
  *         Replaced by: GroupTrunkGroupGetInstanceRequest17sp4
+ *
+ * @see GroupTrunkGroupGetInstanceResponse17sp3
+ * @see ErrorResponse
+ * @see GroupTrunkGroupGetInstanceRequest17sp4
  */
 class GroupTrunkGroupGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

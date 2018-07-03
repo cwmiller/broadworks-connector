@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallRejectionGetCriteriaResponse16sp1 or an ErrorResponse.
  *         Replaced by: UserSelectiveCallRejectionGetCriteriaRequest21 in AS data
  * mode
+ *
+ * @see UserSelectiveCallRejectionGetCriteriaResponse16sp1
+ * @see ErrorResponse
+ * @see UserSelectiveCallRejectionGetCriteriaRequest21
  */
 class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

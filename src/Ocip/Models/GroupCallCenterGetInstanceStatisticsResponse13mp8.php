@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains Call Center statistics.
  *         Replaced By: GroupCallCenterGetInstanceStatisticsResponse14sp9
+ *
+ * @see GroupCallCenterGetInstanceStatisticsResponse14sp9
  */
 class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

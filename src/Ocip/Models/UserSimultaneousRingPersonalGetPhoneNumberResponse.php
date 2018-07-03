@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalGetPhoneNumberResponse
  *
  * Response to the UserSimultaneousRingPersonalGetPhoneNumberRequest.
+ *
+ * @see UserSimultaneousRingPersonalGetPhoneNumberRequest
  */
 class UserSimultaneousRingPersonalGetPhoneNumberResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

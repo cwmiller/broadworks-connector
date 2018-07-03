@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of Communication Barring Authorization Codes for a group.
  *         The response is either
  * GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1 or ErrorResponse.
+ *
+ * @see GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1
+ * @see ErrorResponse
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingGetResponse or an ErrorResponse.
  *         
  *         Replaced by EnterpriseCallCenterEnhancedReportingGetRequest19
+ *
+ * @see EnterpriseCallCenterEnhancedReportingGetResponse
+ * @see ErrorResponse
+ * @see EnterpriseCallCenterEnhancedReportingGetRequest19
  */
 class EnterpriseCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

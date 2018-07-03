@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * on a per-device type basis.
  *         The column headings are: "File Format", "Is Authenticated", "Access
  * URL", "Repository URL", "Template URL".
+ *
+ * @see SystemSIPDeviceTypeFileGetListRequest14sp8
  */
 class SystemSIPDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

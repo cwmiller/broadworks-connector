@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallCenterGetListResponse or an
  * ErrorResponse.
  *         Replaced By: UserCallCenterGetRequest
+ *
+ * @see UserCallCenterGetListResponse
+ * @see ErrorResponse
+ * @see UserCallCenterGetRequest
  */
 class UserCallCenterGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

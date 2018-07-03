@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's night service settings.
  *         The response is either a GroupCallCenterNightServiceGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupCallCenterNightServiceGetResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterNightServiceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

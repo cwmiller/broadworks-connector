@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Barge In Exempt.
  *         The response is either a UserBargeInExemptGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserBargeInExemptGetResponse
+ * @see ErrorResponse
  */
 class UserBargeInExemptGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

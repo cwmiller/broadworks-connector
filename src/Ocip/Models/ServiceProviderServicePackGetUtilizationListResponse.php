@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For each service pack, a table of groups utilizing the pack is returned.
  *         The utilization table column headings are "Group", "Total Packs" and
  * "Assigned".
+ *
+ * @see ServiceProviderServicePackGetUtilizationListRequest
  */
 class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

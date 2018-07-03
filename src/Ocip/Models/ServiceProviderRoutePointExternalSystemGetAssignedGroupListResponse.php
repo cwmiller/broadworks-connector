@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest.
  *         Contains a table with column headings: "Group Id", "Group Name"
  *         and a row for each group.
+ *
+ * @see ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

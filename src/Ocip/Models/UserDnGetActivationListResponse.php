@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Phone Number" column contains a single DN.
  *         The "Activated" column indicates if the phone number is activated or
  * not.
+ *
+ * @see UserDnGetActivationListRequest
  */
 class UserDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

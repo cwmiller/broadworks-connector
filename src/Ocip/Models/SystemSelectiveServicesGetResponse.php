@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSelectiveServicesGetResponse
  *
  * Response to SystemSelectiveServicesGetRequest.
+ *
+ * @see SystemSelectiveServicesGetRequest
  */
 class SystemSelectiveServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

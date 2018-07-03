@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFileRepositoryDeviceGetResponse16 or ErrorResponse.
  *         
  *         Replaced by: SystemFileRepositoryDeviceGetRequest20
+ *
+ * @see SystemFileRepositoryDeviceGetResponse16
+ * @see ErrorResponse
+ * @see SystemFileRepositoryDeviceGetRequest20
  */
 class SystemFileRepositoryDeviceGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

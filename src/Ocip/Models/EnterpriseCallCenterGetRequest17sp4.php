@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the enterprise level data associated with Call Center.
  *         The response is either an EnterpriseCallCenterGetResponse17sp4 or an
  *         ErrorResponse.
+ *
+ * @see EnterpriseCallCenterGetResponse17sp4
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

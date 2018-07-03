@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterCallDispositionCodeGetResponse
  *
  * Response to the EnterpriseCallCenterCallDispositionCodeGetRequest
+ *
+ * @see EnterpriseCallCenterCallDispositionCodeGetRequest
  */
 class EnterpriseCallCenterCallDispositionCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

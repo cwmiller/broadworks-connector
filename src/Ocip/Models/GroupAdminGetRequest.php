@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a group administrators profile.
  *         The response is either a GroupAdminGetResponse or an ErrorResponse.
  *         Replaced by GroupAdminGetRequest21sp1.
+ *
+ * @see GroupAdminGetResponse
+ * @see ErrorResponse
+ * @see GroupAdminGetRequest21sp1
  */
 class GroupAdminGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

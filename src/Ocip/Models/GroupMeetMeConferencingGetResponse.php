@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMeetMeConferencingGetResponse
  *
  * Response to GroupMeetMeConferencingGetRequest.
+ *
+ * @see GroupMeetMeConferencingGetRequest
  */
 class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

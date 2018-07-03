@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           holidayMenu
  *           
  *         Replaced by: GroupAutoAttendantGetInstanceResponse19sp1 in AS data mode
+ *
+ * @see GroupAutoAttendantGetInstanceRequest19
+ * @see GroupAutoAttendantGetInstanceResponse19sp1
  */
 class GroupAutoAttendantGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the OCI login request.
  *        
  *        Replaced by LoginResponse22V2 in AS data mode.
+ *
+ * @see LoginResponse22
  */
 class LoginResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a  
  * SystemTreatmentMappingNetworkServerTreatmentGetListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemTreatmentMappingNetworkServerTreatmentGetListResponse
+ * @see ErrorResponse
  */
 class SystemTreatmentMappingNetworkServerTreatmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

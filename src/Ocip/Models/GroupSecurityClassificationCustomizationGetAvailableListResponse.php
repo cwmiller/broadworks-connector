@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns the available group security classifications.
  *         Contains a table with column headings:
  *         "SystemSecurityClassification", "CustomizedSecurityClassification"
+ *
+ * @see GroupClassificationCustomizationGetAvailableListRequest
  */
 class GroupSecurityClassificationCustomizationGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

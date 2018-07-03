@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group call center routing policy.
  *         The response is either a GroupCallCenterGetRoutingPolicyResponse
  *         or an ErrorResponse.
+ *
+ * @see GroupCallCenterGetRoutingPolicyResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetRoutingPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAutomaticHoldRetrieveGetResponse
  *
  * Response to UserAutomaticHoldRetrieveGetRequest.
+ *
+ * @see UserAutomaticHoldRetrieveGetRequest
  */
 class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

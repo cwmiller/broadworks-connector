@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets the details of the Series Completion group that a user belongs to (if any).
  *         Any user can only belong to one Series Completion group.
  *         The response is either UserSeriesCompletionGetResponse or ErrorResponse.
+ *
+ * @see UserSeriesCompletionGetResponse
+ * @see ErrorResponse
  */
 class UserSeriesCompletionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

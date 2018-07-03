@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * is either a 
  *         SystemEnhancedCallLogsGetResponse20sp1 or an ErrorResponse.
  *         Replaced by:SystemEnhancedCallLogsGetRequest22 in AS data mode
+ *
+ * @see SystemEnhancedCallLogsGetResponse20sp1
+ * @see ErrorResponse
+ * @see SystemEnhancedCallLogsGetRequest22
  */
 class SystemEnhancedCallLogsGetRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

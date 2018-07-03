@@ -26,6 +26,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           supportRemotePartyInfo
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold will raise an error in XS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemSIPDeviceTypeModifyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

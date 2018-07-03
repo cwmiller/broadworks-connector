@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         
  *         Replaced by: SystemCPEConfigParametersModifyRequest21
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemCPEConfigParametersModifyRequest21
  */
 class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

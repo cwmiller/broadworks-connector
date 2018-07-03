@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * codes.
  *         The response is either a GroupDialPlanPolicyGetAccessCodeResponse or an
  * ErrorResponse.
+ *
+ * @see GroupDialPlanPolicyGetAccessCodeResponse
+ * @see ErrorResponse
  */
 class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

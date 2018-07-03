@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             User id and password, no login token = Normal login .
  *             
  *           Replaced by SessionStartRequest22 in AS data mode.
+ *
+ * @see SessionStartRequest
+ * @see SessionStartRequest22
  */
 class SessionStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

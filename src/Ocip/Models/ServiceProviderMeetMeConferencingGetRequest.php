@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Conferencing functions.
  *         The response is either a ServiceProviderMeetMeConferencingGetResponse or
  * an ErrorResponse.
+ *
+ * @see ServiceProviderMeetMeConferencingGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * the group.
  *         The response is either a GroupTrunkGroupGetResponse14sp1 or an
  * ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetResponse14sp1
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

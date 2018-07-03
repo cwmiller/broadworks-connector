@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a service provider device type file.
  *         The response is either ServiceProviderDeviceTypeFileGetResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderDeviceTypeFileGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

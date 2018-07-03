@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupCallCenterGetInstanceResponse17sp3 or
  * ErrorResponse.
  *         Replaced by GroupCallCenterGetInstanceRequest19
+ *
+ * @see GroupCallCenterGetInstanceResponse17sp3
+ * @see ErrorResponse
+ * @see GroupCallCenterGetInstanceRequest19
  */
 class GroupCallCenterGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

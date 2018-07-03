@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode:
  *            allowMembersToControlGroupBusy
  *            enableGroupBusy
+ *
+ * @see GroupHuntGroupGetInstanceRequest17sp1
  */
 class GroupHuntGroupGetInstanceResponse17sp1V1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

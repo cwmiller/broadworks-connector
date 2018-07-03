@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Description" and "Level".
  *         Level column can be any of the values in the data type
  * CallDispositionCodeLevel.
+ *
+ * @see GroupCallCenterQueueCallDispositionCodeGetListRequest
  */
 class GroupCallCenterQueueCallDispositionCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of all domains assigned to a group.
  *         The response is either GroupDomainGetAssignedListResponse or
  * ErrorResponse.
+ *
+ * @see GroupDomainGetAssignedListResponse
+ * @see ErrorResponse
  */
 class GroupDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

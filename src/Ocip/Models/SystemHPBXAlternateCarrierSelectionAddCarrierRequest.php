@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a new alternate carrier for CbC and Preselection.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemHPBXAlternateCarrierSelectionAddCarrierRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

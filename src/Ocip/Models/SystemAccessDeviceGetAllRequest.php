@@ -18,6 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
+ *
+ * @see SystemAccessDeviceGetListRequest14
+ * @see SystemAccessDeviceGetAllResponse
+ * @see ErrorResponse
  */
 class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

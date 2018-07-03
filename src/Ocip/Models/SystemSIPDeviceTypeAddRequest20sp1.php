@@ -26,6 +26,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           holdNormalization=useRfc3264Hold will raise an error in HSS data mode
  * 		  
  * 		Replaced by: SystemSIPDeviceTypeAddRequest21sp1V2.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see macInNonRequest
+ * @see SystemSIPDeviceTypeAddRequest21sp1
  */
 class SystemSIPDeviceTypeAddRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

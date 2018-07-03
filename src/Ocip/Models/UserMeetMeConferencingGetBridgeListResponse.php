@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Bridge Id", "Name", "Phone
  * Number", "Extension", "Ports", and "Is Active"
  *         The column values for "Is Active" can either be true, or false.
+ *
+ * @see UserMeetMeConferencingGetBridgeListRequest
  */
 class UserMeetMeConferencingGetBridgeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

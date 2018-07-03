@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupCallCenterGetSupervisorListResponse
  *         or an ErrorResponse.
  *         Replaced By: GroupCallCenterSupervisorReportingGetRequest
+ *
+ * @see GroupCallCenterGetSupervisorListResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterSupervisorReportingGetRequest
  */
 class GroupCallCenterGetSupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

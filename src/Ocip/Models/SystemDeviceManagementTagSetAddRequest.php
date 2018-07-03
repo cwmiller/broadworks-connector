@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode and ignored in the
  * XS data mode:
  *           resellerId
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

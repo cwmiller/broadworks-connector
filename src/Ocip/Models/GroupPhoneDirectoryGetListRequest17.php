@@ -19,6 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *         
  *         Replaced by: GroupPhoneDirectoryGetListRequest18
+ *
+ * @see GroupPhoneDirectoryGetListResponse17
+ * @see ErrorResponse
+ * @see GroupPhoneDirectoryGetListRequest18
  */
 class GroupPhoneDirectoryGetListRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

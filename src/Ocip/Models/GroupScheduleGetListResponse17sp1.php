@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a list of group schedules. If the group belongs to
  * an enterprise, 
  *         it also contains the schedules for the enterprise.
+ *
+ * @see GroupScheduleGetListRequest17sp1
  */
 class GroupScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

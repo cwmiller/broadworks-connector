@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNGetResponse14sp3
  *
  * Response to EnterpriseVoiceVPNGetRequest14sp3.
+ *
+ * @see EnterpriseVoiceVPNGetRequest14sp3
  */
 class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Engineering Note: This command is used internally by Call Processing.
  *         Replaced By: UserVoiceMessagingUserModifyVoicePortalRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserVoiceMessagingUserModifyVoicePortalRequest16
  */
 class UserVoiceMessagingUserModifyVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

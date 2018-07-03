@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the Class Mark data associated with User.
  *         The response is either a UserClassmarkGetResponse or an ErrorResponse.
+ *
+ * @see UserClassmarkGetResponse
+ * @see ErrorResponse
  */
 class UserClassmarkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

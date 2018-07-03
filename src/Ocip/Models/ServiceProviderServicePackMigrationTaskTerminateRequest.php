@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Terminates a service pack migration task that is currently executing.
  *         Modification is only allowed prior to task execution.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class ServiceProviderServicePackMigrationTaskTerminateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

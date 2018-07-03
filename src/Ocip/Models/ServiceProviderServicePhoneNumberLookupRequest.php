@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Lookup if the given number is defined in the specified service in the service
  * provider.
  *         The response is ServiceProviderServicePhoneNumberLookupResponse.
+ *
+ * @see ServiceProviderServicePhoneNumberLookupResponse
  */
 class ServiceProviderServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

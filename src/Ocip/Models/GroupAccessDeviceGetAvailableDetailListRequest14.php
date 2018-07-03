@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *     
  *         Replaced by: GroupAccessDeviceGetAvailableDetailListRequest19.
+ *
+ * @see GroupAccessDeviceGetAvailableDetailListResponse14
+ * @see ErrorResponse
+ * @see GroupAccessDeviceGetAvailableDetailListRequest19
  */
 class GroupAccessDeviceGetAvailableDetailListRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

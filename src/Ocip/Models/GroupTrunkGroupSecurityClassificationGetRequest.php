@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a trunk group's Security Classifications configuration.
  *         The response is either GroupTrunkGroupSecurityClassificationGetResponse
  * or ErrorResponse.
+ *
+ * @see GroupTrunkGroupSecurityClassificationGetResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupSecurityClassificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

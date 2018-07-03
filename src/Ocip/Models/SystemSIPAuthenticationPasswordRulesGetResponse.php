@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSIPAuthenticationPasswordRulesGetRequest.
  *         Contains the SIP authentication password rules for the system.
+ *
+ * @see SystemSIPAuthenticationPasswordRulesGetRequest
  */
 class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

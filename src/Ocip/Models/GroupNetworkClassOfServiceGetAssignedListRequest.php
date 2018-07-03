@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupNetworkClassOfServiceGetAssignedListResponse 
  *         or an ErorResponse.
+ *
+ * @see GroupNetworkClassOfServiceGetAssignedListResponse
+ * @see ErorResponse
  */
 class GroupNetworkClassOfServiceGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

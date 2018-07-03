@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * The response to a SystemBroadWorksMobilityGetRequest19sp1.
  *         Replaced by SystemBroadWorksMobilityGetResponse21
+ *
+ * @see SystemBroadWorksMobilityGetRequest19sp1
+ * @see SystemBroadWorksMobilityGetResponse21
  */
 class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

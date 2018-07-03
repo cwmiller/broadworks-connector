@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request a list of all time schedules in a group.
  *         The response is either a GroupTimeScheduleGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupTimeScheduleGetListResponse
+ * @see ErrorResponse
  */
 class GroupTimeScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * part of an Enterprise.
  *         The response is either GroupHuntGroupGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see GroupHuntGroupGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

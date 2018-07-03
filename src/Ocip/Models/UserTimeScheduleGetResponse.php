@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserTimeScheduleGetRequest.
  *         The response contains the requested time schedule information.
+ *
+ * @see UserTimeScheduleGetRequest
  */
 class UserTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

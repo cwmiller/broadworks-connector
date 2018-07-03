@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceStatisticsReportingResponse or ErrorResponse.
  *         
  *         Replaced By: GroupCallCenterGetInstanceStatisticsReportingRequest16
+ *
+ * @see GroupCallCenterGetInstanceStatisticsReportingResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterGetInstanceStatisticsReportingRequest16
  */
 class GroupCallCenterGetInstanceStatisticsReportingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

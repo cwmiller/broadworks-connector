@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * schedule type.
  *         The response is either a UserScheduleGetEventListForGroupResponse or an
  * ErrorResponse.
+ *
+ * @see UserScheduleGetEventListForGroupResponse
+ * @see ErrorResponse
  */
 class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

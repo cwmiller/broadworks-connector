@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse or an ErrorResponse.
  *         Replaced By: UserPortalPasscodeGetInfoRequest
+ *
+ * @see UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse
+ * @see ErrorResponse
+ * @see UserPortalPasscodeGetInfoRequest
  */
 class UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            enableGroupBusy           
  *            
  *         Replaced by: GroupHuntGroupGetInstanceResponse19sp1 in AS data mode
+ *
+ * @see GroupHuntGroupGetInstanceRequest19
+ * @see GroupHuntGroupGetInstanceResponse19sp1
  */
 class GroupHuntGroupGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

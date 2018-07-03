@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the service provider?s Dialable Caller ID settings and criteria list.
  *         The response is either a 
  *         ServiceProviderDialableCallerIDGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderDialableCallerIDGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDialableCallerIDGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

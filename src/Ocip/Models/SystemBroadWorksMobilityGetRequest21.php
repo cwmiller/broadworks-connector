@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemBroadWorksMobilityGetRequest22 in AS data mode
+ *
+ * @see SystemBroadWorksMobilityGetResponse21
+ * @see ErrorResponse
+ * @see SystemBroadWorksMobilityGetRequest22
  */
 class SystemBroadWorksMobilityGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

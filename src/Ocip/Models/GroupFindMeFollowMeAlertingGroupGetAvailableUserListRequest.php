@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of users that can be assigned to a Find-me/Follow-me alerting group.
  *         The response is either
  * GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse or ErrorResponse.
+ *
+ * @see GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

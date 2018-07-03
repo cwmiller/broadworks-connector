@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserBroadWorksAnywhereGetResponse or an
  * ErrorResponse.
  *         Replaced by: UserBroadWorksAnywhereGetRequest16sp2
+ *
+ * @see UserBroadWorksAnywhereGetResponse
+ * @see ErrorResponse
+ * @see UserBroadWorksAnywhereGetRequest16sp2
  */
 class UserBroadWorksAnywhereGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

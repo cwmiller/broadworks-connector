@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the User Personal Assistant information.
  *         The response is either a UserPersonalAssistantGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserPersonalAssistantGetResponse
+ * @see ErrorResponse
  */
 class UserPersonalAssistantGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

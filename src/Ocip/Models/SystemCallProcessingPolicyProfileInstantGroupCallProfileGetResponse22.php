@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to
  * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22.
+ *
+ * @see SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -35,6 +35,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode:
  *           resellerId
+ *
+ * @see SystemGetRegistrationContactListResponse21sp1
+ * @see ErrorResponse
  */
 class SystemGetRegistrationContactListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a Call Center Call Disposition Code.
  *         The response is either
  * GroupCallCenterQueueCallDispositionCodeGetResponse or ErrorResponse.
+ *
+ * @see GroupCallCenterQueueCallDispositionCodeGetResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

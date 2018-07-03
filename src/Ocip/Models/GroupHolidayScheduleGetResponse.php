@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupHolidayScheduleGetRequest.
  *         The response contains the group's holiday schedule information.
+ *
+ * @see GroupHolidayScheduleGetRequest
  */
 class GroupHolidayScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

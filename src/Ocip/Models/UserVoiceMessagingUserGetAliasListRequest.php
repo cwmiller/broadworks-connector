@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the voice mail aliases for a users voice message.
  *         The response is either a UserVoiceMessagingUserGetAliasListResponse or
  * an ErrorResponse.
+ *
+ * @see UserVoiceMessagingUserGetAliasListResponse
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserGetAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

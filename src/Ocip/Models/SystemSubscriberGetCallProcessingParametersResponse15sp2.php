@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemSubscriberGetCallProcessingParametersRequest15sp2.
  *         Replaced by: SystemSubscriberGetCallProcessingParametersResponse17
+ *
+ * @see SystemSubscriberGetCallProcessingParametersRequest15sp2
+ * @see SystemSubscriberGetCallProcessingParametersResponse17
  */
 class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

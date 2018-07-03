@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Call Forwarding Not Reachable.
  *         The response is either a UserCallForwardingNotReachableGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCallForwardingNotReachableGetResponse
+ * @see ErrorResponse
  */
 class UserCallForwardingNotReachableGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

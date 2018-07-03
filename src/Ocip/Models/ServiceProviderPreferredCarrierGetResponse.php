@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a ServiceProviderPreferredCarrierGetRequest.
  *         Contains the currently configured carriers for a specified country code
  * for a service provider / enterprise.
+ *
+ * @see ServiceProviderPreferredCarrierGetRequest
  */
 class ServiceProviderPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

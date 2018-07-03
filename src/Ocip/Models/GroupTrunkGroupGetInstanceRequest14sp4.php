@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a Trunk Group Instance's profile.
  *         The response is either a GroupTrunkGroupGetInstanceResponse14sp4 or an
  * ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetInstanceResponse14sp4
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetInstanceRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

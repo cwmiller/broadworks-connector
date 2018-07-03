@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserNetworkConferencingGetResponse
  *
  * Response to UserNetworkConferencingGetRequest.
+ *
+ * @see UserNetworkConferencingGetRequest
  */
 class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

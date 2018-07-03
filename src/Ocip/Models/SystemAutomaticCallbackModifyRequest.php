@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modifies the system's automatic callback attributes.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: SystemAutomaticCallbackModifyRequest15
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemAutomaticCallbackModifyRequest15
  */
 class SystemAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallParkGetRequest.
  *         Contains the settings that apply to the whole group for Call Park.
+ *
+ * @see GroupCallParkGetRequest
  */
 class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

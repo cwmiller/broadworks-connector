@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest.
  *         The response contains of the list of system level successful SIP OPTIONS
  * message respoonse status codes.
+ *
+ * @see SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest
  */
 class SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

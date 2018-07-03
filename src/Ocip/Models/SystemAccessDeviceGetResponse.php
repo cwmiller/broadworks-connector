@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAccessDeviceGetRequest.
  *         Replaced By: SystemAccessDeviceGetResponse14sp3
+ *
+ * @see SystemAccessDeviceGetRequest
+ * @see SystemAccessDeviceGetResponse14sp3
  */
 class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

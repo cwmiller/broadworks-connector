@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupPolicyGetResponse17 or ErrorResponse.
  *         
  *         Replaced by: GroupPolicyGetRequest20 in AS data mode
+ *
+ * @see GroupPolicyGetResponse17
+ * @see ErrorResponse
+ * @see GroupPolicyGetRequest20
  */
 class GroupPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

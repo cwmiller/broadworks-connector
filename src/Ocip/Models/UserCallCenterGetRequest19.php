@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * user belongs to.
  *         The response is either a UserCallCenterGetResponse19 or an
  * ErrorResponse.
+ *
+ * @see UserCallCenterGetResponse19
+ * @see ErrorResponse
  */
 class UserCallCenterGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

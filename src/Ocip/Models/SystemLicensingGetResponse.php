@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Licensed", "Used",
  *         "Available" and "Expiration Date".
  *         Replaced By: SystemLicensingGetResponse14sp3
+ *
+ * @see SystemLicensingGetRequest
+ * @see SystemLicensingGetResponse14sp3
  */
 class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

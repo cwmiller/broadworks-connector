@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * system.
  *         
  *         Replaced by: SystemSessionAdmissionControlGetResponse21sp1.
+ *
+ * @see SystemSessionAdmissionControlGetRequest
+ * @see SystemSessionAdmissionControlGetResponse21sp1
  */
 class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

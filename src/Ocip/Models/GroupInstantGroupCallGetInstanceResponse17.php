@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a list of phone numbers.
  *         
  *         Replaced by: GroupInstantGroupCallGetInstanceResponse19sp1
+ *
+ * @see GroupInstantGroupCallGetInstanceRequest17
+ * @see GroupInstantGroupCallGetInstanceResponse19sp1
  */
 class GroupInstantGroupCallGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

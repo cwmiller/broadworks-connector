@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupInterceptGroupGetRequest21sp1 in AS data mode
+ *
+ * @see GroupInterceptGroupGetResponse16sp1
+ * @see ErrorResponse
+ * @see GroupInterceptGroupGetRequest21sp1
  */
 class GroupInterceptGroupGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         enumerated values.
  *         The "Supports Reset" column is a boolean flag indicating the device can
  * be remotely reset.
+ *
+ * @see SystemAccessDeviceTypeGetEnhancedConfigurableListRequest
  */
 class SystemAccessDeviceTypeGetEnhancedConfigurableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

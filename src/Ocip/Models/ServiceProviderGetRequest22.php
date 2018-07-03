@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by ServiceProviderGetRequest22V2 in AS data mode.
+ *
+ * @see ServiceProviderGetResponse22
+ * @see ErrorResponse
+ * @see ServiceProviderGetRequest22
  */
 class ServiceProviderGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

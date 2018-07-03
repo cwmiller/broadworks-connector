@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings:
  *         "User ID", "Last Name", "First Name", "Phone Number", "Extension",
  * "Service Provider Id", "Group Id".
+ *
+ * @see SystemSecurityClassificationGetClassificationUserUsageListRequest
  */
 class SystemSecurityClassificationGetClassificationUserUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

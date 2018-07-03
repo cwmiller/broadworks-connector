@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Last Name",
  *         "First Name", "Department", "Phone Number", "Hiragana Last Name",
  * "Hiragana First Name".
+ *
+ * @see GroupTrunkGroupGetInstanceUserListRequest
  */
 class GroupTrunkGroupGetInstanceUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

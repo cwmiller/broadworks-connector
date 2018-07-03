@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the file repository information.  The response is either
  * SystemFileRepositoryDeviceGetResponse20 or ErrorResponse.
+ *
+ * @see SystemFileRepositoryDeviceGetResponse20
+ * @see ErrorResponse
  */
 class SystemFileRepositoryDeviceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

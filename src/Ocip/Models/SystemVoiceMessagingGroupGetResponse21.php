@@ -30,6 +30,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            recordingAudioFileFormat
  *            
  *         Replaced by: SystemVoiceMessagingGroupGetResponse22 in AS data mode
+ *
+ * @see SystemVoiceMessagingGroupGetRequest21
+ * @see SystemVoiceMessagingGroupGetResponse22
  */
 class SystemVoiceMessagingGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

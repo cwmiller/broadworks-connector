@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceTypeGetListResponse
  *
  * Response to SystemAccessDeviceTypeGetListRequest.
+ *
+ * @see SystemAccessDeviceTypeGetListRequest
  */
 class SystemAccessDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

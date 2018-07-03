@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemOCIGetACLListRequest.
  *         Returns a 2 coulmn table with column headings:
  *           "Net Address" and "Description".
+ *
+ * @see SystemOCIGetACLListRequest
  */
 class SystemOCIGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

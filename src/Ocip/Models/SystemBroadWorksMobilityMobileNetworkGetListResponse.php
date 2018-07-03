@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemBroadWorksMobilityMobileNetworkGetListRequest.
  *         Contains a table with column headings: "Name", "SCF Signaling Net
  * Address", "SCF Signaling Port"
+ *
+ * @see SystemBroadWorksMobilityMobileNetworkGetListRequest
  */
 class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

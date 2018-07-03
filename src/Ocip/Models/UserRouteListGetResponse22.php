@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Start", "Number Range End" and "Is Active".
  *         The column headings for assignedNumberPrefixTable are "Number Prefix"
  * and "Is Active".
+ *
+ * @see UserRouteListGetRequest22
  */
 class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

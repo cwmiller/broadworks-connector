@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the Sh Non Transparent data and associated Public
  * User Identity
  *         information for every Public User Identity in the group.
+ *
+ * @see GroupShInterfaceGetUserListRequest21sp1
  */
 class GroupShInterfaceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

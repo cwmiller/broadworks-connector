@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest.
  *         The groupTable column headings are: "Group Id", "Group Name", "User
  * Count".
+ *
+ * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

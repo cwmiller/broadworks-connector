@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderPasswordRulesGetRequest22.
  *         Contains the group, department administrator and/or user password
  *         rules setting.
+ *
+ * @see ServiceProviderPasswordRulesGetRequest22
  */
 class ServiceProviderPasswordRulesGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

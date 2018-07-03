@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
  *         or ErrorResponse.
+ *
+ * @see GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
+ * @see ErrorResponse
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

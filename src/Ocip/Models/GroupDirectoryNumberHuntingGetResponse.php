@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *         Replaced by: GroupDirectoryNumberHuntingGetResponse17sp1
+ *
+ * @see GroupDirectoryNumberHuntingGetRequest
+ * @see GroupDirectoryNumberHuntingGetResponse17sp1
  */
 class GroupDirectoryNumberHuntingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

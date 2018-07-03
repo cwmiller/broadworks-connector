@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * with one row per carrier.
  *         The table columns are: "Country Code", "Intra-Lata PIC", "Inter-Lata
  * PIC", "International PIC".
+ *
+ * @see ServiceProviderPreferredCarrierGetListRequest
  */
 class ServiceProviderPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

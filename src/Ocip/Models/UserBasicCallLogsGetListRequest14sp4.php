@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           If the callLogType is not specified, all types of calls are returned.
  *           The response is either a UserBasicCallLogsGetListResponse14sp4 or an
  * ErrorResponse.
+ *
+ * @see UserBasicCallLogsGetListResponse14sp4
+ * @see ErrorResponse
  */
 class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -15,6 +15,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * with userId.
  *           
  *         The response is a AuthenticationVerifyResponse22 or an ErrorResponse
+ *
+ * @see AuthenticationVerifyRequest22
+ * @see ExternalAuthenticationAuthorizeTokenRequest
+ * @see AuthenticationVerifyResponse22
+ * @see ErrorResponse
  */
 class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

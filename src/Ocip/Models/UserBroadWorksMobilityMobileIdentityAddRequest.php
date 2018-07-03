@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * mobileNumberAlerted list is empty.
  *         
  *         Replaced by: UserBroadWorksMobilityMobileIdentityAddRequest21sp1.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserBroadWorksMobilityMobileIdentityAddRequest21sp1
  */
 class UserBroadWorksMobilityMobileIdentityAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -17,6 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           extendedAwayAudioMediaType
  *           extendedAwayVideoFile
  *           extendedAwayVideoMediaTyp
+ *
+ * @see UserVoiceMessagingUserGetGreetingRequest20
  */
 class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

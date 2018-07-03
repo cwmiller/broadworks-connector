@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetLoginParametersResponse
  *
  * Response to the SystemSubscriberGetLoginParametersRequest.
+ *
+ * @see SystemSubscriberGetLoginParametersRequest
  */
 class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

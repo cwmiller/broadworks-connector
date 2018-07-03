@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the enterprise level data associated with Voice VPN location code.
  *         The response is either a EnterpriseVoiceVPNGetPolicyResponse or an
  * ErrorResponse.
+ *
+ * @see EnterpriseVoiceVPNGetPolicyResponse
+ * @see ErrorResponse
  */
 class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

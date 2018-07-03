@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * returned in the response will contain entries up to value of userListSizeLimit.
  *         The response is either SystemMigratedUsersGetListResponse22 or
  * ErrorResponse.
+ *
+ * @see SystemMigratedUsersGetListResponse22
+ * @see ErrorResponse
  */
 class SystemMigratedUsersGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

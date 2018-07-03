@@ -17,6 +17,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useSystemImplicitRegistrationSetSupportPolicy
  *           sipIdentityForPilotAndProxyTrunkModesPolicy
  *           useSystemSIPIdentityForPilotAndProxyTrunkModesPolicy
+ *
+ * @see GroupTrunkGroupGetInstanceRequest21
  */
 class GroupTrunkGroupGetInstanceResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

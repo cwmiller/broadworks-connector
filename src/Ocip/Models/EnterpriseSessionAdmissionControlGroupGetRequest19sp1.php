@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseSessionAdmissionControlGroupGetResponse19sp1 or an ErrorResponse.
  *         
  *         Replaced by: EnterpriseSessionAdmissionControlGroupGetRequest21sp1
+ *
+ * @see EnterpriseSessionAdmissionControlGroupGetResponse19sp1
+ * @see ErrorResponse
+ * @see EnterpriseSessionAdmissionControlGroupGetRequest21sp1
  */
 class EnterpriseSessionAdmissionControlGroupGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

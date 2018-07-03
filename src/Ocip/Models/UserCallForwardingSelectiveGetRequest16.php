@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's call forwarding selective service setting.
  *         The response is either a UserCallForwardingSelectiveGetResponse16 or an
  * ErrorResponse.
+ *
+ * @see UserCallForwardingSelectiveGetResponse16
+ * @see ErrorResponse
  */
 class UserCallForwardingSelectiveGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

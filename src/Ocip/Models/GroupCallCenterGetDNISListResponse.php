@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetDNISListResponse.
  *         Contains a table with column headings: "Name", "Phone Number",
  * "Extension", "Priority", "Is Primary DNIS".
+ *
+ * @see GroupCallCenterGetDNISListResponse
  */
 class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

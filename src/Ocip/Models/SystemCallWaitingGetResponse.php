@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallWaitingGetResponse
  *
  * Response to SystemCallWaitingGetRequest.
+ *
+ * @see SystemCallWaitingGetRequest
  */
 class SystemCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

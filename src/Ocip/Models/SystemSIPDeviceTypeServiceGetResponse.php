@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSIPDeviceTypeServiceGetRequest.
  *         Contains the list of device type services integrated to BroadWorks.
+ *
+ * @see SystemSIPDeviceTypeServiceGetRequest
  */
 class SystemSIPDeviceTypeServiceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

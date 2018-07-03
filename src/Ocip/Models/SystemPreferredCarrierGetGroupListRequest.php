@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         are logically ANDed together.
  *         The response is either a SystemPreferredCarrierGetGroupListResponse or
  * an ErrorResponse.
+ *
+ * @see SystemPreferredCarrierGetGroupListResponse
+ * @see ErrorResponse
  */
 class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

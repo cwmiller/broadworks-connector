@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Auto Attendant instance.
  *         The response is either GroupAutoAttendantGetInstanceResponse16 or
  * ErrorResponse.
+ *
+ * @see GroupAutoAttendantGetInstanceResponse16
+ * @see ErrorResponse
  */
 class GroupAutoAttendantGetInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

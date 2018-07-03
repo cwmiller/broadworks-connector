@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ExternalAuthenticationCreateLoginTokenResponse
  *
  * Response to ExternalAuthenticationCreateLoginTokenRequest.
+ *
+ * @see ExternalAuthenticationCreateLoginTokenRequest
  */
 class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

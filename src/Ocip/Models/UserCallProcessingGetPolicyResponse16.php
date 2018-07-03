@@ -22,6 +22,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
  * useMaxConcurrentFindMeFollowMeInvocations,
  * maxConcurrentFindMeFollowMeInvocations)
+ *
+ * @see UserCallProcessingGetPolicyRequest16
  */
 class UserCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

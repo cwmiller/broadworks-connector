@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of system outgoing calling plan call type mappings.
  *         The response is either
  * SystemOutgoingCallingPlanCallTypeGetMappingListResponse or ErrorResponse.
+ *
+ * @see SystemOutgoingCallingPlanCallTypeGetMappingListResponse
+ * @see ErrorResponse
  */
 class SystemOutgoingCallingPlanCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

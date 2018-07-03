@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         A list of ExtendedMixedCallLogsEntry21sp1V2 will be returned if the call
  * logs are stored on DBS
  *         The logs are sorted by date/time of the call.
+ *
+ * @see UserEnhancedCallLogsGetListRequest21sp1
+ * @see UserEnhancedCallLogsGetListRequest21sp1
  */
 class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

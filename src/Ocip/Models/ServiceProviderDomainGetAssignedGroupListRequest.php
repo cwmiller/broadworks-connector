@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a
  * ServiceProviderDomainGetAssignedGroupListResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderDomainGetAssignedGroupListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

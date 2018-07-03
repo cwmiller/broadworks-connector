@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           searchCriteriaDn, searchCriteriaGroupId
+ *
+ * @see ServiceProviderDnGetSummaryListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

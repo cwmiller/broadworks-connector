@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupNightForwardingGetResponse
  *
  * Response to GroupGroupNightForwardingGetRequest.
+ *
+ * @see GroupGroupNightForwardingGetRequest
  */
 class GroupGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

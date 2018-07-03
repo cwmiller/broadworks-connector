@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Public User Identity.
  *         The data also includes a userId, userType, and endpointType.
  *         The value Mobility in Endpoint Type is only applicable in AS data mode.
+ *
+ * @see UserShInterfaceGetPublicIdDataRequest21sp1
  */
 class UserShInterfaceGetPublicIdDataResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

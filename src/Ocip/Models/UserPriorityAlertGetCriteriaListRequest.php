@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's priority alert criteria listing.
  *         The response is either a UserPriorityAlertGetCriteriaListResponse or an
  * ErrorResponse.
+ *
+ * @see UserPriorityAlertGetCriteriaListResponse
+ * @see ErrorResponse
  */
 class UserPriorityAlertGetCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

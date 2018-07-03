@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemConnectedLineIdentificationPresentationGetResponse
  *
  * Response to SystemConnectedLineIdentificationPresentationGetRequest.
+ *
+ * @see SystemConnectedLineIdentificationPresentationGetRequest
  */
 class SystemConnectedLineIdentificationPresentationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

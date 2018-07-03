@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * schedule type.
  *         The response is either a GroupScheduleGetListResponse17sp1 or an
  * ErrorResponse.
+ *
+ * @see GroupScheduleGetListResponse17sp1
+ * @see ErrorResponse
  */
 class GroupScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

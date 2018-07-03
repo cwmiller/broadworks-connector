@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user's Polycom Phone Services attributes.
  *         The response is either a UserPolycomPhoneServicesGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserPolycomPhoneServicesGetResponse
+ * @see ErrorResponse
  */
 class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         This command is authorized to user who is Executive-Assistant of the
  * Executive.
+ *
+ * @see UserScheduleGetListResponse17sp1
+ * @see ErrorResponse
  */
 class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPreferredCarrierUserGetResponse
  *
  * Response to a UserPreferredCarrierUserGetRequest.
+ *
+ * @see UserPreferredCarrierUserGetRequest
  */
 class UserPreferredCarrierUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

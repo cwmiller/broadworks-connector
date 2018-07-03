@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * recurrent schedule that comes at or after the startTime.
  *         The startTime, endTime and recurrence information for a
  * conferenceSchedule element will be adjusted to the user Host time zone.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

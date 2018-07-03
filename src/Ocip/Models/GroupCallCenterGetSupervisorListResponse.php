@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name".
  *         Element "reportingServerURL"" will always be blank.        
  *         Replaced By: GroupCallCenterSupervisorReportingGetResponse
+ *
+ * @see GroupCallCenterGetSupervisorListRequest
+ * @see GroupCallCenterSupervisorReportingGetResponse
  */
 class GroupCallCenterGetSupervisorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

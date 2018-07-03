@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         by not setting the name.
  *         The response is either GroupSeriesCompletionGetAvailableUserListResponse
  * or ErrorResponse.
+ *
+ * @see GroupSeriesCompletionGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupSeriesCompletionGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

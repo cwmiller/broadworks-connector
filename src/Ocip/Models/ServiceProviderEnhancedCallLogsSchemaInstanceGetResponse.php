@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse
  *
  * Response to ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest.
+ *
+ * @see ServiceProviderEnhancedCallLogsSchemaInstanceGetRequest
  */
 class ServiceProviderEnhancedCallLogsSchemaInstanceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

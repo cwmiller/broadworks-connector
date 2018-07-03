@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a service provider or enterprise's answer confirmation settings.
  *         The response is either a ServiceProviderAnswerConfirmationGetResponse16
  * or an ErrorResponse.
+ *
+ * @see ServiceProviderAnswerConfirmationGetResponse16
+ * @see ErrorResponse
  */
 class ServiceProviderAnswerConfirmationGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Adds a list of IP addresses to a zone
  *         The response is SuccessResponse or an ErrorResponse.
  *         Replaced by: SystemZoneNetAddressAddListRequest
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemZoneNetAddressAddListRequest
  */
 class SystemZoneCallingRestrictionsNetAddressAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

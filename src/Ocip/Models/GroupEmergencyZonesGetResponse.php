@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEmergencyZonesGetResponse
  *
  * Response to GroupEmergencyZonesGetRequest.
+ *
+ * @see GroupEmergencyZonesGetRequest
  */
 class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

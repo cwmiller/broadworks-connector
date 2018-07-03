@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of account/authorization codes for a group.
  *         The response is either a GroupAccountAuthorizationCodesGetListResponse
  * or an ErrorResponse.
+ *
+ * @see GroupAccountAuthorizationCodesGetListResponse
+ * @see ErrorResponse
  */
 class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

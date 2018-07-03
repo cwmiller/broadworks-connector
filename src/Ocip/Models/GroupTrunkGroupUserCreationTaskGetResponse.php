@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupUserCreationTaskGetResponse
  *
  * Response to a GroupTrunkGroupUserCreationTaskGetRequest.
+ *
+ * @see GroupTrunkGroupUserCreationTaskGetRequest
  */
 class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

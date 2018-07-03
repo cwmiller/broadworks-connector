@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupScheduleGetListRequest.
  *         The response contains a list of system schedules.
+ *
+ * @see GroupScheduleGetListRequest
  */
 class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

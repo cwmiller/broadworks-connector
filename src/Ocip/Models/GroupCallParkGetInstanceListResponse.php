@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallParkGetInstanceListResponse
  *
  * Response to the GroupCallParkGetInstanceListRequest.
+ *
+ * @see GroupCallParkGetInstanceListRequest
  */
 class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupOfficeZoneGetAssignedListRequest.
  *         Contains a table of all Office Zones assigned to the
  *         group. The column headings are: "Name", "Description" and "Default".
+ *
+ * @see GroupOfficeZoneGetAssignedListRequest
  */
 class GroupOfficeZoneGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

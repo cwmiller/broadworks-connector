@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a group level call center reporting scheduled report.
  *         The response is either a
  * GroupCallCenterEnhancedReportingScheduledReportGetResponse or an ErrorResponse.
+ *
+ * @see GroupCallCenterEnhancedReportingScheduledReportGetResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

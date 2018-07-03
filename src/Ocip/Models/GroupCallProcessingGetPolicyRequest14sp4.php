@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupCallProcessingGetPolicyResponse14sp4 or an
  *         ErrorResponse.
  *         Replaced By : GroupCallProcessingGetPolicyRequest15
+ *
+ * @see GroupCallProcessingGetPolicyResponse14sp4
+ * @see ErrorResponse
+ * @see GroupCallProcessingGetPolicyRequest15
  */
 class GroupCallProcessingGetPolicyRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

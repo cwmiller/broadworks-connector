@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * System, on a per-group basis.
  *         The response is either GroupDeviceTypeFileGetListResponse21 or
  * ErrorResponse.
+ *
+ * @see GroupDeviceTypeFileGetListResponse21
+ * @see ErrorResponse
  */
 class GroupDeviceTypeFileGetListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * URL", "Repository URL", "Template URL".
  *         
  *         Replaced by: GroupDeviceTypeFileGetListResponse21
+ *
+ * @see GroupDeviceTypeFileGetListRequest14sp8
+ * @see GroupDeviceTypeFileGetListResponse21
  */
 class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

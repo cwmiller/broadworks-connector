@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderRoutingProfileGetResponse
  *
  * Response to ServiceProviderRoutingProfileGetRequest.
+ *
+ * @see ServiceProviderRoutingProfileGetRequest
  */
 class ServiceProviderRoutingProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add one or more voice mail aliases to a users voice message.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserAddAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

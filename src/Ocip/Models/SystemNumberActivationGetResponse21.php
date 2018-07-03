@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemNumberActivationGetRequest21.
  *         Contains the system number activation and enterprise trunk number range
  * activation setting.
+ *
+ * @see SystemNumberActivationGetRequest21
  */
 class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

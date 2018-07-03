@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This command can be sent either to the server, or to the client from
  * OCS.
  *         Response is either SuccessResponse or ErrorResponse.
+ *
+ * @see LogoutRequest
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

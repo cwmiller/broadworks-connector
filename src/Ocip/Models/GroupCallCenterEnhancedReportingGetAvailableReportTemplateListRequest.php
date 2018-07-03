@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The publicUserIdentity in the ServiceInstanceReadProfile is not used for
  * trunk groups.
  *         Returns the profile information for the Trunk Group.
+ *
+ * @see GroupTrunkGroupGetInstanceRequest
  */
 class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

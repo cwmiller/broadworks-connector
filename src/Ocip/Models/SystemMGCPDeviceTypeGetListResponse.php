@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of identity/ device profile types configured in the
  * system.
  *         The column headings are: "Device Type", "Profile", "Is Obsolete".
+ *
+ * @see SystemMGCPDeviceTypeGetListRequest
  */
 class SystemMGCPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

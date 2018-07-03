@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserPriorityAlertGetCriteriaResponse16 or an
  * ErrorResponse.
  *         Replaced by: UserPriorityAlertGetCriteriaRequest21 in AS data mode
+ *
+ * @see UserPriorityAlertGetCriteriaResponse16
+ * @see ErrorResponse
+ * @see UserPriorityAlertGetCriteriaRequest21
  */
 class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

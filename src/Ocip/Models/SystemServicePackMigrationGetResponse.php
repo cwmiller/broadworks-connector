@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemServicePackMigrationGetRequest.
  *         The response contains the Service Pack Migration system level settings.
+ *
+ * @see SystemServicePackMigrationGetRequest
  */
 class SystemServicePackMigrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

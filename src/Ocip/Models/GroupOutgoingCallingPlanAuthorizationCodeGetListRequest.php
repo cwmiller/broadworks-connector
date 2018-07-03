@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * departments.
  *         The response is either a
  * GroupOutgoingCallingPlanAuthorizationCodeGetListResponse or an ErrorResponse.
+ *
+ * @see GroupOutgoingCallingPlanAuthorizationCodeGetListResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

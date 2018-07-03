@@ -8,6 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AuthenticationVerifyRequest is used to authenticate a user using the user Id and
  * password. The response is a AuthenticationVerifyResponse or an ErrorResponse
  *         Replaced By: AuthenticationVerifyRequest14sp8
+ *
+ * @see AuthenticationVerifyRequest
+ * @see AuthenticationVerifyResponse
+ * @see ErrorResponse
+ * @see AuthenticationVerifyRequest14sp8
  */
 class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

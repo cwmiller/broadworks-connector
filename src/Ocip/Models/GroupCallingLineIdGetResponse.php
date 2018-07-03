@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallingLineIdGetRequest.
  *         The response contains the group's calling line id settings.
+ *
+ * @see GroupCallingLineIdGetRequest
  */
 class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

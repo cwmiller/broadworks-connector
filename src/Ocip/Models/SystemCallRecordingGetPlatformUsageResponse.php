@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCallRecordingGetPlatformUsageRequest.
  *         The response contains a table with columns headings "Service Provider
  * Id", "Group Id".
+ *
+ * @see SystemCallRecordingGetPlatformUsageRequest
  */
 class SystemCallRecordingGetPlatformUsageResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

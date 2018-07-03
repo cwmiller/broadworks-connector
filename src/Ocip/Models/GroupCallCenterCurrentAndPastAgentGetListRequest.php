@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the current and past agents for the group.
  *         The response is either GroupCallCenterCurrentAndPastAgentGetListResponse
  * or ErrorResponse.
+ *
+ * @see GroupCallCenterCurrentAndPastAgentGetListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

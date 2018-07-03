@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingBrandingGetResponse
  *
  * Response to the EnterpriseCallCenterEnhancedReportingBrandingGetRequest.
+ *
+ * @see EnterpriseCallCenterEnhancedReportingBrandingGetRequest
  */
 class EnterpriseCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

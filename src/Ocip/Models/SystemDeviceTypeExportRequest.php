@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to export an existing Device Type to a Device Type Archive File (DTAF).
  *         The response is either a SystemDeviceTypeExportResponse or an
  * ErrorResponse.
+ *
+ * @see SystemDeviceTypeExportResponse
+ * @see ErrorResponse
  */
 class SystemDeviceTypeExportRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

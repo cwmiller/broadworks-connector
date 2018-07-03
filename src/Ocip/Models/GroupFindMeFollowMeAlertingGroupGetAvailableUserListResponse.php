@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", "Hiragana Last Name", 
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email
  * Address".
+ *
+ * @see GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest
  */
 class GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * client.
  *         The response is either
  * UserRoutePointCallDispositionCodeGetAvailableListResponse or ErrorResponse.
+ *
+ * @see UserRoutePointCallDispositionCodeGetAvailableListResponse
+ * @see ErrorResponse
  */
 class UserRoutePointCallDispositionCodeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get information for a system Number Portability Query Status.
  *         The response is either SystemNumberPortabilityQueryStatusGetResponse or
  * ErrorResponse.
+ *
+ * @see SystemNumberPortabilityQueryStatusGetResponse
+ * @see ErrorResponse
  */
 class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

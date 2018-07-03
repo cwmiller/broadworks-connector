@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingBusyGetResponse
  *
  * Response to UserCallForwardingBusyGetRequest.
+ *
+ * @see UserCallForwardingBusyGetRequest
  */
 class UserCallForwardingBusyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

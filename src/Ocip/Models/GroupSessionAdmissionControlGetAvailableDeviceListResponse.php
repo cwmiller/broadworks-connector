@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupSessionAdmissionControlGetAvailableDeviceListRequest.
  *         Contains a table of devices can be assigned to session admission control
  * group in the group.
+ *
+ * @see GroupSessionAdmissionControlGetAvailableDeviceListRequest
  */
 class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

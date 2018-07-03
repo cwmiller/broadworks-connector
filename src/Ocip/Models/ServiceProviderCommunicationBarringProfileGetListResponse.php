@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Communication Barring Profiles
  *         for the service provider. The column headings are "Default" , "Name" and
  * "Description"
+ *
+ * @see ServiceProviderCommunicationBarringProfileGetListRequest
  */
 class ServiceProviderCommunicationBarringProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

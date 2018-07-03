@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Delete a submenu form an auto attendant.
  *         The response is either SuccessResponse or ErrorResponse. 
  *         This request is only valid for Standard auto attendants.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * service pack, "authorizedQuantity" is the service pack's quantity.
  *         "authorizable" is applicable for user services and group services; it is
  * not returned for service packs.
+ *
+ * @see ServiceProviderServiceGetAuthorizationRequest
  */
 class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

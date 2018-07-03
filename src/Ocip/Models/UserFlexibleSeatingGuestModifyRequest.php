@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		The request fails when accessDeviceEndpoint is set in the request when the
  * guest is associated to a host.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

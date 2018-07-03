@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add a sip device type file.
  *             The response is either SuccessResponse or ErrorResponse.
  *             Replaced By: SystemSIPDeviceTypeFileAddRequest14sp8
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeFileAddRequest14sp8
  */
 class SystemSIPDeviceTypeFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

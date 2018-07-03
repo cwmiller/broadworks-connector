@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemMediaServerParametersGetListRequest.
  *         Contains a list of system Media Server parameters.
+ *
+ * @see SystemMediaServerParametersGetListRequest
  */
 class SystemMediaServerParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

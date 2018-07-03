@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterGetRoutingPolicyRequest.
  *         Contains a table with column headings: "Service User Id", "Name" and
  *         "Priority".
+ *
+ * @see GroupCallCenterGetRoutingPolicyRequest
  */
 class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

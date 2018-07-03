@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * is specified, only the users matching all of the specified search criteria are
  * included in the response. If no search criteria is specified, all results are
  * returned.
+ *
+ * @see EnterpriseUserCallingPlanSettingsGetListResponse
+ * @see ErrorResponse
  */
 class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

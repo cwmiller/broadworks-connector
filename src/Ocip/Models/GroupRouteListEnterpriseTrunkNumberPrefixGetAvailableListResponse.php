@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of number prefixess that are assigned to a group and
  * still available for assignment to users within the group.
  *         The column headings are "Number Prefix" and "Is Active".
+ *
+ * @see GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

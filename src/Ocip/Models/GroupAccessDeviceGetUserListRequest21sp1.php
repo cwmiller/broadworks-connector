@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
+ *
+ * @see GroupAccessDeviceGetUserListResponse21sp1
+ * @see ErrorResponse
  */
 class GroupAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

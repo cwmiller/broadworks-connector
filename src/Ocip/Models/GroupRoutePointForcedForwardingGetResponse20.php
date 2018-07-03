@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointForcedForwardingGetResponse20
  *
  * Response to the GroupRoutePointForcedForwardingGetRequest20.
+ *
+ * @see GroupRoutePointForcedForwardingGetRequest20
  */
 class GroupRoutePointForcedForwardingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

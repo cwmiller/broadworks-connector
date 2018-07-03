@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Last Name";
  *         "Hiragana First Name", "Extension".
  *         This is a response to the GroupGetUserServiceAssignedUserListRequest.
+ *
+ * @see GroupGetUserServiceAssignedUserListRequest
  */
 class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

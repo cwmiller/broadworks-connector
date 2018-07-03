@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemCommunicationBarringCallTypeGetListRequest. Contains a table
  * with one row per Communication Barring Call Type.  The table column headings
  * are: "Call Type" and "Network Server Call Type".
+ *
+ * @see SystemCommunicationBarringCallTypeGetListRequest
  */
 class SystemCommunicationBarringCallTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

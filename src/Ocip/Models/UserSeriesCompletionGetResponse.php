@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", "Hiragana Last Name", 
  *         "Hiragana First Name", "Department", "Phone Number", "Extension", "Email
  * Address".
+ *
+ * @see UserSeriesCompletionGetRequest
  */
 class UserSeriesCompletionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

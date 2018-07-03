@@ -25,6 +25,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The useUserDCLIDSetting controls the Dialable Caller ID settings
  * (enableDialableCallerID)
  *           Replaced by: UserCallProcessingGetPolicyResponse17sp4
+ *
+ * @see UserCallProcessingGetPolicyRequest16sp2
+ * @see UserCallProcessingGetPolicyResponse17sp4
  */
 class UserCallProcessingGetPolicyResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

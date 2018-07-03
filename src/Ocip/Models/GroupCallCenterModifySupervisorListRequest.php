@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Element "reportingServerURL"" will always be ignored.        
  *         Replaced By: GroupCallCenterSupervisorReportingModifyRequest
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterSupervisorReportingModifyRequest
  */
 class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

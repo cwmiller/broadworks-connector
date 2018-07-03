@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "SAC Group Name", "Organization Id",
  * "Organization Type", and "Group Id".
  *         The "Group Id" will be empty for enterprise SAC groups.
+ *
+ * @see SystemMediaGroupUsageListRequest
  */
 class SystemMediaGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

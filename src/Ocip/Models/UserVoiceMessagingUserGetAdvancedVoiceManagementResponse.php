@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetAdvancedVoiceManagementRequest.
  *         Replaced By:
  * UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
+ *
+ * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest
+ * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

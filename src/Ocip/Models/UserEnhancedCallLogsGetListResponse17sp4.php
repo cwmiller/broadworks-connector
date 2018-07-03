@@ -19,6 +19,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The logs are sorted by date/time of the call.
  *         Replaced by UserEnhancedCallLogsGetListResponse17sp4V2.
  *         Originally deprecated in release 20.
+ *
+ * @see UserEnhancedCallLogsGetListRequest17sp4
+ * @see UserEnhancedCallLogsGetListRequest17sp4
+ * @see UserEnhancedCallLogsGetListResponse17sp4
  */
 class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

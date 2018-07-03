@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Calling Name Retrieval.
  *         The response is either a UserCallingNameRetrievalGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCallingNameRetrievalGetResponse
+ * @see ErrorResponse
  */
 class UserCallingNameRetrievalGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by:
  * SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22
+ *
+ * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse
+ * @see ErrorResponse
+ * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

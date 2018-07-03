@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the conference delegates for this conference.
  *         The response is either
  * UserMeetMeConferencingGetConferenceDelegateListResponse or ErrorResponse.
+ *
+ * @see UserMeetMeConferencingGetConferenceDelegateListResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingGetConferenceDelegateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

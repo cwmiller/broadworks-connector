@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserClassmarkGetRequest.
  *         Contains the Class Mark data
+ *
+ * @see UserClassmarkGetRequest
  */
 class UserClassmarkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

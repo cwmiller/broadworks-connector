@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the Alternate Carrier Selection parameters.
  *         The response is either a
  * ServiceProviderHPBXAlternateCarrierSelectionGetResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderHPBXAlternateCarrierSelectionGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderHPBXAlternateCarrierSelectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

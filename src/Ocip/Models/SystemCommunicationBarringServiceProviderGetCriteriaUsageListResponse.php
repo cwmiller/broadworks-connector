@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains a table of all Service Providers that use the
  * specific Communication Barring criteria. The column headings are "Service
  * Provider Id", "Service Provider Name" and "Is Enterprise"
+ *
+ * @see SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest
  */
 class SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

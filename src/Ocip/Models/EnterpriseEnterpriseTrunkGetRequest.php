@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an EnterpriseEnterpriseTrunkGetResponse or an
  * ErrorResponse.
  *         Replaced by: EnterpriseEnterpriseTrunkGetRequest21
+ *
+ * @see EnterpriseEnterpriseTrunkGetResponse
+ * @see ErrorResponse
+ * @see EnterpriseEnterpriseTrunkGetRequest21
  */
 class EnterpriseEnterpriseTrunkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

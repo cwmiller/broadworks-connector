@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPhysicalLocationGetResponse
  *
  * Response to UserPhysicalLocationGetRequest.
+ *
+ * @see UserPhysicalLocationGetRequest
  */
 class UserPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

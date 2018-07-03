@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           userAutoAttendantNameDialingAccess  
  *           
  *           Replaced by: GroupPolicyModifyRequest22 in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupPolicyModifyRequest22
  */
 class GroupPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

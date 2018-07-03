@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * room.
  *         The response is either a UserCollaborateRoomIDRegenerateResponse or an
  *         ErrorResponse.
+ *
+ * @see UserCollaborateRoomIDRegenerateResponse
+ * @see ErrorResponse
  */
 class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

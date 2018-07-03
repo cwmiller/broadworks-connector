@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         For the callToNumbers in the callToNumberList, the extension element 
  *         is not used and the number element is only used when the type is
  * BroadWorks Mobility.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

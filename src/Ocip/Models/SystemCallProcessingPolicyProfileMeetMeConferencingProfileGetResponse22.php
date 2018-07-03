@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to
  * SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22.
+ *
+ * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

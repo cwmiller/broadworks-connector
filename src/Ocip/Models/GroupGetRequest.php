@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the profile for a group.
  *         The response is either a GroupGetResponse or an ErrorResponse.
  *         Replaced By: GroupGetRequest14sp7
+ *
+ * @see GroupGetResponse
+ * @see ErrorResponse
+ * @see GroupGetRequest14sp7
  */
 class GroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

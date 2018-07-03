@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserIntegratedIMPGetRequest.
  *         The response contains the Integrated IMP specific service attributes for
  * the user.
+ *
+ * @see UserIntegratedIMPGetRequest
  */
 class UserIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

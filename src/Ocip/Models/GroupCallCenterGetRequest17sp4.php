@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Group level data associated with Call Center.
  *         The response is either a GroupCallCenterGetResponse17sp4 or an
  *         ErrorResponse.
+ *
+ * @see GroupCallCenterGetResponse17sp4
+ * @see ErrorResponse
  */
 class GroupCallCenterGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

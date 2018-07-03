@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: GroupVoiceMessagingGroupGetVoicePortalResponse19sp1 in AS
  * data mode
+ *
+ * @see GroupVoiceMessagingGroupGetVoicePortalRequest17sp4
+ * @see GroupVoiceMessagingGroupGetVoicePortalResponse19sp1
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

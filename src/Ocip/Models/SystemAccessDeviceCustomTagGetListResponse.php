@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Actual Tag Value".
  *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is
  * Encrypted", "Actual Tag Value".
+ *
+ * @see SystemAccessDeviceCustomTagGetListRequest
  */
 class SystemAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

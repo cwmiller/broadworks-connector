@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallNotifyGetCriteriaResponse16 or an
  * ErrorResponse.
  *         Replaced by: UserCallNotifyGetCriteriaRequest21 in AS data mode
+ *
+ * @see UserCallNotifyGetCriteriaResponse16
+ * @see ErrorResponse
+ * @see UserCallNotifyGetCriteriaRequest21
  */
 class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

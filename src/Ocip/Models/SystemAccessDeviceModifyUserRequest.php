@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           privateIdentity
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

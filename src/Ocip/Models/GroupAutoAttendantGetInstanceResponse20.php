@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only valid for Standard Auto
  *         Attendants:
  *           holidayMenu
+ *
+ * @see GroupAutoAttendantGetInstanceRequest20
  */
 class GroupAutoAttendantGetInstanceResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

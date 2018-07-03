@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserSimultaneousRingFamilyGetResponse or an
  * ErrorResponse.
  *         Replaced By: UserSimultaneousRingFamilyGetRequest14sp4
+ *
+ * @see UserSimultaneousRingFamilyGetResponse
+ * @see ErrorResponse
+ * @see UserSimultaneousRingFamilyGetRequest14sp4
  */
 class UserSimultaneousRingFamilyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

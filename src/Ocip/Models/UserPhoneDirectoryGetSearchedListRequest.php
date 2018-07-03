@@ -18,6 +18,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         matches on first name or last name or common phone list names.
  *         The response is either UserPhoneDirectoryGetSearchedListResponse or
  * ErrorResponse.
+ *
+ * @see UserPhoneDirectoryGetSearchedListResponse
+ * @see ErrorResponse
  */
 class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

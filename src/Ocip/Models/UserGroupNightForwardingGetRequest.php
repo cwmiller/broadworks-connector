@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the Group Night Forwarding user parameters.
  *         The response is either UserGroupNightForwardingGetResponse or
  * ErrorResponse.
+ *
+ * @see UserGroupNightForwardingGetResponse
+ * @see ErrorResponse
  */
 class UserGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

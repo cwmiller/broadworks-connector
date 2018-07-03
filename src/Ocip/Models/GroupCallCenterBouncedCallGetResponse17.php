@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterBouncedCallGetResponse17
  *
  * Response to the GroupCallCenterBouncedCallGetRequest17.
+ *
+ * @see GroupCallCenterBouncedCallGetRequest17
  */
 class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

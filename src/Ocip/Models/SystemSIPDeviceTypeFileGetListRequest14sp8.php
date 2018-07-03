@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * on a per-device type basis.
  *         The response is either SystemSIPDeviceTypeFileGetListResponse14sp8 or
  * ErrorResponse.
+ *
+ * @see SystemSIPDeviceTypeFileGetListResponse14sp8
+ * @see ErrorResponse
  */
 class SystemSIPDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

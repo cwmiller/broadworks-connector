@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * NumberPortability.
  *         
  *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListResponse22
+ *
+ * @see SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1
+ * @see SystemTreatmentMappingCallBlockingServiceGetListResponse22
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

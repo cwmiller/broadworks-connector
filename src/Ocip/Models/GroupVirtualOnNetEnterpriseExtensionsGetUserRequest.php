@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a 
  *         GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
  *         or an ErrorResponse.
+ *
+ * @see GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
+ * @see ErrorResponse
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

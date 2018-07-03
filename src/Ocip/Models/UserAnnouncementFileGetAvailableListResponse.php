@@ -20,6 +20,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * announcement file such as "User" or "Group"
  *         The "File Size" column contains the file size in kB of the announcement
  * file.
+ *
+ * @see UserAnnouncementFileGetAvailableListRequest
  */
 class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's voice messaging voice portal settings.
  *         The response is either a UserVoiceMessagingUserGetVoicePortalResponse20
  * or an ErrorResponse.
+ *
+ * @see UserVoiceMessagingUserGetVoicePortalResponse20
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserGetVoicePortalRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

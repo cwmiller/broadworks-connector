@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Contains a list of available number ranges not yet assigned to any group.
  *         The column headings are "Number Range Start", "Number Range End" and "Is
  * Active".
+ *
+ * @see ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

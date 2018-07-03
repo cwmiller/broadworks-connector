@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobileManagerGetResponse
  *
  * Response to the SystemBroadWorksMobileManagerGetRequest
+ *
+ * @see SystemBroadWorksMobileManagerGetRequest
  */
 class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

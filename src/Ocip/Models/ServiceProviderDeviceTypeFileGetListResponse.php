@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * System, on a per-service provider basis.
  *         The column headings are: "File Format", "Is Authenticated", "Access
  * URL", "Repository URL", "Template URL".
+ *
+ * @see ServiceProviderDeviceTypeFileGetListRequest
  */
 class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

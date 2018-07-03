@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserVoiceMessagingUserGetVoicePortalResponse or
  * an ErrorResponse.
  *         Replaced By: UserVoiceMessagingUserGetVoicePortalRequest16
+ *
+ * @see UserVoiceMessagingUserGetVoicePortalResponse
+ * @see ErrorResponse
+ * @see UserVoiceMessagingUserGetVoicePortalRequest16
  */
 class UserVoiceMessagingUserGetVoicePortalRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

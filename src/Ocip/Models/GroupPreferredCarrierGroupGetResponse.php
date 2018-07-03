@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPreferredCarrierGroupGetResponse
  *
  * Response to a GroupPreferredCarrierGroupGetRequest.
+ *
+ * @see GroupPreferredCarrierGroupGetRequest
  */
 class GroupPreferredCarrierGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupThirdPartyVoiceMailSupportGetResponse
  *
  * Response to GroupThirdPartyVoiceMailSupportGetRequest.
+ *
+ * @see GroupThirdPartyVoiceMailSupportGetRequest
  */
 class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

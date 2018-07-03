@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get a group level call center enhanced reporting setting.
  *         The response is either a GroupCallCenterEnhancedReportingGetResponse19
  * or an ErrorResponse.
+ *
+ * @see GroupCallCenterEnhancedReportingGetResponse19
+ * @see ErrorResponse
  */
 class GroupCallCenterEnhancedReportingGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

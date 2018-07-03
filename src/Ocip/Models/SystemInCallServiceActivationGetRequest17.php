@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system's DTMF based in-call service activation trigger attributes.
  * The response is either a SystemInCallServiceActivationGetResponse17 or an
  * ErrorResponse.
+ *
+ * @see SystemInCallServiceActivationGetResponse17
+ * @see ErrorResponse
  */
 class SystemInCallServiceActivationGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

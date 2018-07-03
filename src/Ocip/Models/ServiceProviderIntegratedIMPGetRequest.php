@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either ServiceProviderIntegratedIMPGetResponse or
  * ErrorResponse.
  *         Replaced by: ServiceProviderIntegratedIMPGetRequest21 in AS data mode
+ *
+ * @see ServiceProviderIntegratedIMPGetResponse
+ * @see ErrorResponse
+ * @see ServiceProviderIntegratedIMPGetRequest21
  */
 class ServiceProviderIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

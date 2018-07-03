@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupCallCenterGetInstanceRequest17sp3
+ *
+ * @see GroupCallCenterGetInstanceResponse17sp1
+ * @see ErrorResponse
+ * @see GroupCallCenterGetInstanceRequest17sp3
  */
 class GroupCallCenterGetInstanceRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

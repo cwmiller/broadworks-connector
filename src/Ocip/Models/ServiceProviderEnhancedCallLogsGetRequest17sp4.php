@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or an ErrorResponse.
  *         This command will return an ErrorResponse if DBS is used as the call log
  * server.
+ *
+ * @see ServiceProviderEnhancedCallLogsGetResponse17sp4
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class ServiceProviderEnhancedCallLogsGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

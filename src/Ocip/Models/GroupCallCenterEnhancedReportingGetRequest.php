@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an ErrorResponse.
  *         
  *         Replaced by GroupCallCenterEnhancedReportingGetRequest19
+ *
+ * @see GroupCallCenterEnhancedReportingGetResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterEnhancedReportingGetRequest19
  */
 class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

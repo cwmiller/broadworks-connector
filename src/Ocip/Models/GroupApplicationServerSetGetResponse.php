@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupApplicationServerSetGetRequest.
  *         The response contains the group's Application Server set information.
+ *
+ * @see GroupApplicationServerSetGetRequest
  */
 class GroupApplicationServerSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

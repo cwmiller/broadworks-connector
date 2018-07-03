@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the effective passcode rules setting for a user.
  *         The response is either UserPortalPasscodeRulesGetResponse or
  * ErrorResponse.
+ *
+ * @see UserPortalPasscodeRulesGetResponse
+ * @see ErrorResponse
  */
 class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

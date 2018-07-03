@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         given Announcement Repository Type
  *         The response is either a UserAnnouncementFileGetListResponse or an
  * ErrorResponse.
+ *
+ * @see UserAnnouncementFileGetListResponse
+ * @see ErrorResponse
  */
 class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

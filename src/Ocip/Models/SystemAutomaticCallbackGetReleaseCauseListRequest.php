@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system's automatic callback attributes.
  *         The response is either a
  * SystemAutomaticCallbackGetReleaseCauseListResponse or an ErrorResponse.
+ *
+ * @see SystemAutomaticCallbackGetReleaseCauseListResponse
+ * @see ErrorResponse
  */
 class SystemAutomaticCallbackGetReleaseCauseListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

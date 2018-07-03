@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDeviceTypeTagSetGetResponse
  *
  * Response to ServiceProviderDeviceTypeGetRequest.
+ *
+ * @see ServiceProviderDeviceTypeGetRequest
  */
 class ServiceProviderDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * and is ignored if set for a service provider. 
  *         The response is either a
  * UserGetServiceInstanceListInServiceProviderResponse or an ErrorResponse.
+ *
+ * @see UserGetServiceInstanceListInServiceProviderResponse
+ * @see ErrorResponse
  */
 class UserGetServiceInstanceListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

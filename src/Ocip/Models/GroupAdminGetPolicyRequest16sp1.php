@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupAdminGetPolicyResponse16sp1 or
  * ErrorResponse.
  *         Replaced by: GroupAdminGetPolicyRequest17
+ *
+ * @see GroupAdminGetPolicyResponse16sp1
+ * @see ErrorResponse
+ * @see GroupAdminGetPolicyRequest17
  */
 class GroupAdminGetPolicyRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

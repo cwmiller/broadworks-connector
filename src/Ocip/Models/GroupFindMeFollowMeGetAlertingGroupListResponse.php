@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupFindMeFollowMeGetAlertingGroupListRequest.
  *         Contains a table with column headings:
  *         "Name", "Priority".
+ *
+ * @see GroupFindMeFollowMeGetAlertingGroupListRequest
  */
 class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

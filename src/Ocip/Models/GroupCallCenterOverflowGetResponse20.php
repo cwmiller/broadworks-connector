@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterOverflowGetResponse20
  *
  * Response to the GroupCallCenterOverflowGetRequest20.
+ *
+ * @see GroupCallCenterOverflowGetRequest20
  */
 class GroupCallCenterOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExtensionLengthGetResponse
  *
  * Response to GroupExtensionLengthGetRequest.
+ *
+ * @see GroupExtensionLengthGetRequest
  */
 class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

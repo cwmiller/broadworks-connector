@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemNumberActivationGetRequest18sp1.
  *         Contains the system number activation setting.
+ *
+ * @see SystemNumberActivationGetRequest18sp1
  */
 class SystemNumberActivationGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

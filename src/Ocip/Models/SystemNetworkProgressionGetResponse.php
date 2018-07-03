@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNetworkProgressionGetResponse
  *
  * Response to SystemNetworkProgressionGetRequest.
+ *
+ * @see SystemNetworkProgressionGetRequest
  */
 class SystemNetworkProgressionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

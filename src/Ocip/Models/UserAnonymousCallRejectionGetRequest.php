@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Anonymous Call Rejection.
  *         The response is either a UserAnonymousCallRejectionGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserAnonymousCallRejectionGetResponse
+ * @see ErrorResponse
  */
 class UserAnonymousCallRejectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

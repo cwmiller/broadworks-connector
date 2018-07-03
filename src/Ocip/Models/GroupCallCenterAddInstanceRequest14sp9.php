@@ -13,6 +13,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *                      GroupCallCenterAddAgentListRequest, 
  *                      GroupCallCenterModifyPolicyRequest,
  *                      GroupCallCenterModifyAnnouncementRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCallCenterAddInstanceRequest16
+ * @see GroupCallCenterAddAgentListRequest
+ * @see GroupCallCenterModifyPolicyRequest
+ * @see GroupCallCenterModifyAnnouncementRequest16
  */
 class GroupCallCenterAddInstanceRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

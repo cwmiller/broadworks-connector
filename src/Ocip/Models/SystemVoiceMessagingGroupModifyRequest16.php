@@ -36,6 +36,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AS and XS data mode:
  *            storageSelection
  *            vmBucketName
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

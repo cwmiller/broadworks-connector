@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group's digit collection attributes.
  *         The response is either a GroupDigitCollectionGetResponse13mp4 or an
  * ErrorResponse.
+ *
+ * @see GroupDigitCollectionGetResponse13
+ * @see ErrorResponse
  */
 class GroupDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

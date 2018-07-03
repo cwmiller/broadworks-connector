@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an ErrorResponse.
  *     
  *     Replaced by: GroupRoutePointGetDNISAnnouncementRequest19.
+ *
+ * @see GroupRoutePointGetDNISAnnouncementResponse
+ * @see ErrorResponse
+ * @see GroupRoutePointGetDNISAnnouncementRequest19
  */
 class GroupRoutePointGetDNISAnnouncementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

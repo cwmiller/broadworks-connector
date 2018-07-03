@@ -30,6 +30,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Does Not Apply".
  *         The possible values for "Scope" are "Supervisor Only" and "Supervisor
  * and Agent".
+ *
+ * @see EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest
  */
 class EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

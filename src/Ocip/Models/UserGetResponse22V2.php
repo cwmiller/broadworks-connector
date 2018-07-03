@@ -36,6 +36,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * purpose. The value is returned exactly the same as being stored.
  *     
  *     Replaced by UserGetResponse22V3
+ *
+ * @see UserGetRequest22
+ * @see UserGetResponse22
  */
 class UserGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

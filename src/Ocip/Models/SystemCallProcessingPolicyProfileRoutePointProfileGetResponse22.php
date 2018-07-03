@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileRoutePointProfileGetResponse22
  *
  * Response to SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22.
+ *
+ * @see SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileRoutePointProfileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

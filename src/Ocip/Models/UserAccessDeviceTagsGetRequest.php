@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * resolved tags are returned only if the device is the main device for this user.
  *         The response is either a UserAccessDeviceTagsGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserAccessDeviceTagsGetResponse
+ * @see ErrorResponse
  */
 class UserAccessDeviceTagsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

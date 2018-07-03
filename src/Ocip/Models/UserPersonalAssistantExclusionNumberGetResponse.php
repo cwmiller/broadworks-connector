@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPersonalAssistantExclusionNumberGetResponse
  *
  * Response to the UserPersonalAssistantExclusionNumberGetRequest
+ *
+ * @see UserPersonalAssistantExclusionNumberGetRequest
  */
 class UserPersonalAssistantExclusionNumberGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

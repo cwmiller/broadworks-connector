@@ -27,6 +27,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           callAuthorizationCodeFilter
  *           
  *         Replaced by: UserEnhancedCallLogsGetListRequest21Sp1V2 in AS data mode
+ *
+ * @see maxNonPagedResponse
+ * @see UserEnhancedCallLogsGetListResponse21sp1
+ * @see ErrorResponse
+ * @see UserEnhancedCallLogsGetListRequest21
  */
 class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

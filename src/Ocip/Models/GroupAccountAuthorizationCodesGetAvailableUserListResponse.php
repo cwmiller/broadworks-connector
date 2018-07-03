@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Last Name" and
  *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email
  * Address".
+ *
+ * @see GroupAccountAuthorizationCodesGetAvailableUserListRequest
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

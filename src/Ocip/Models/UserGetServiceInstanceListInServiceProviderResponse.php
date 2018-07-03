@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Name", "Phone Number", "Extension", "Department" in a row for each
  * Service Instance.  Possible values for Service Type column are ServiceType
  * enums.
+ *
+ * @see UserGetServiceInstanceListInServiceProviderRequest
  */
 class UserGetServiceInstanceListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemZoneLocationBasedPhysicalLocationGetListResponse
  *
  * Response to SystemZoneLocationBasedPhysicalLocationGetListRequest.
+ *
+ * @see SystemZoneLocationBasedPhysicalLocationGetListRequest
  */
 class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

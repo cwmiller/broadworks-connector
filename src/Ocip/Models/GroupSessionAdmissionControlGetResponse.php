@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupSessionAdmissionControlGetRequest.
  *         The response contains the session admission control capacity allocated
  * for the group.
+ *
+ * @see GroupSessionAdmissionControlGetRequest
  */
 class GroupSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

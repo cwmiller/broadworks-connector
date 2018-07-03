@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * table column
  *         headings are: "Net Address", "Port", "Transport", "Poll", "OpState",
  * "Description".
+ *
+ * @see SystemNetworkRoutingServerGetListRequest
  */
 class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

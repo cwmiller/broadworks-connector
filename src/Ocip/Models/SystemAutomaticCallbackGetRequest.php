@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemAutomaticCallbackGetResponse or an
  * ErrorResponse.
  *         Replaced By: SystemAutomaticCallbackGetRequest15
+ *
+ * @see SystemAutomaticCallbackGetResponse
+ * @see ErrorResponse
+ * @see SystemAutomaticCallbackGetRequest15
  */
 class SystemAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

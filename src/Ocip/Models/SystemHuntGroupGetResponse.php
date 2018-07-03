@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemHuntGroupGetRequest.
  *         Replaced by: SystemHuntGroupGetResponse17
+ *
+ * @see SystemHuntGroupGetRequest
+ * @see SystemHuntGroupGetResponse17
  */
 class SystemHuntGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

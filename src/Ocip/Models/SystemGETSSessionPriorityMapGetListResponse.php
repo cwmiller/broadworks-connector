@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemGETSSessionPriorityMapGetListRequest. 
  *         The table columns are: "Priority Level" and "Session Priority Value".
+ *
+ * @see SystemGETSSessionPriorityMapGetListRequest
  */
 class SystemGETSSessionPriorityMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

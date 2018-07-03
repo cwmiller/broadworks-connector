@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to a SystemPreferredCarrierGetRequest.
  *         Contains the attributes of a carrier.
+ *
+ * @see SystemPreferredCarrierGetRequest
  */
 class SystemPreferredCarrierGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

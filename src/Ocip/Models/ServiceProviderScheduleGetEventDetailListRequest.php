@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of events of a service provider schedule.
  *         The response is either a
  * ServiceProviderScheduleGetEventDetailListResponse or an ErrorResponse.
+ *
+ * @see ServiceProviderScheduleGetEventDetailListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

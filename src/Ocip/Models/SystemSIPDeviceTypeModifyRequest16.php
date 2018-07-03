@@ -14,6 +14,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           isMobilityManagerDevice
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced by: SystemSIPDeviceTypeModifyRequest16sp1
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSIPDeviceTypeModifyRequest16sp1
  */
 class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

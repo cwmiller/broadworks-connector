@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupInterceptGroupGetRequest16.
  *         Replaced By: GroupInterceptGroupGetResponse16sp1
+ *
+ * @see GroupInterceptGroupGetRequest16
+ * @see GroupInterceptGroupGetResponse16sp1
  */
 class GroupInterceptGroupGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * an admin without system privileges.
  *           "Tag Name", "Tag Value", "Is Encrypted", "Actual Tag Value" if request
  * is invoked by an admin with system privileges.
+ *
+ * @see GroupDeviceTypeCustomTagGetListRequest
  */
 class GroupDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

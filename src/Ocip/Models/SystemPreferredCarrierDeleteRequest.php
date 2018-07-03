@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         An ErrorResponse is returned if the carrier is in use, or if the carrier
  * didn't exist prior to deletion..
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

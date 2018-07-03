@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         NOTE: The security classifications must be specified in order of
  * priority. The command fails if all the security classifications defined for the
  * system are not provided.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

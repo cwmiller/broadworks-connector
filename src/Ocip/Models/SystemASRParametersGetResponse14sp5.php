@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemASRParametersGetRequest14sp5.
  *         Contains a list of system Application Server Registration parameters.
+ *
+ * @see SystemASRParametersGetRequest14sp5
  */
 class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

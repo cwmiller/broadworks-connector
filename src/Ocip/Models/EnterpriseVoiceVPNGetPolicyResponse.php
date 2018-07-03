@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNGetPolicyResponse
  *
  * Response to EnterpriseVoiceVPNGetPolicyRequest.
+ *
+ * @see EnterpriseVoiceVPNGetPolicyRequest
  */
 class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

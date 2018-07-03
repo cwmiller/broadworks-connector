@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's sequential ring service setting.
  *         The response is either a UserSequentialRingGetResponse14sp4 or an
  * ErrorResponse.
+ *
+ * @see UserSequentialRingGetResponse14sp4
+ * @see ErrorResponse
  */
 class UserSequentialRingGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an
  * EnterpriseSecurityClassificationCustomizationGetAvailableListResponse or an
  * ErrorResponse.
+ *
+ * @see EnterpriseSecurityClassificationCustomizationGetAvailableListResponse
+ * @see ErrorResponse
  */
 class EnterpriseSecurityClassificationCustomizationGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

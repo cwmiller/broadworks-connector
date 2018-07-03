@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the PasswordGenerateRequest.
  *         The response contains the requested passwords.
+ *
+ * @see PasswordGenerateRequest
  */
 class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

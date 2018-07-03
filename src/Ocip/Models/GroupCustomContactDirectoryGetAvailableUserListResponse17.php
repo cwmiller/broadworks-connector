@@ -21,6 +21,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         his BroadWorks userId, the "Virtual On-Net Phone Number" and 
  *         "Group Id" fields are blank and the "Is Virtual On-Net User" 
  *         contains false.
+ *
+ * @see GroupCustomContactDirectoryGetAvailableUserListRequest17
  */
 class GroupCustomContactDirectoryGetAvailableUserListResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

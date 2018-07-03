@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's stranded call settings.
  *         The response is either a GroupCallCenterStrandedCallGetResponse17 or an
  * ErrorResponse.
+ *
+ * @see GroupCallCenterStrandedCallGetResponse17
+ * @see ErrorResponse
  */
 class GroupCallCenterStrandedCallGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

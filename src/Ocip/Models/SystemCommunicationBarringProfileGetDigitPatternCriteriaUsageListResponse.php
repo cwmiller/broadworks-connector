@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest.
  *         The response contains a table of all Profiles that use the specific
  * Digit Pattern Criteria. The column headings are "Name" and "Description"
+ *
+ * @see SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest
  */
 class SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

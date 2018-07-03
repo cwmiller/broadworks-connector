@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         The startDate element is adjusted to the first occurrence of the
  * recurrent schedule that comes at or after startDate.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

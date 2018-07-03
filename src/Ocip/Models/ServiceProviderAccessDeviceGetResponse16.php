@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetResponse16
  *
  * Response to ServiceProviderAccessDeviceGetRequest16.
+ *
+ * @see ServiceProviderAccessDeviceGetRequest16
  */
 class ServiceProviderAccessDeviceGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemBroadWorksMobilityGetResponse19sp1 or an
  * ErrorResponse.
  *         Replaced by SystemBroadWorksMobilityGetRequest21
+ *
+ * @see SystemBroadWorksMobilityGetResponse19sp1
+ * @see ErrorResponse
+ * @see SystemBroadWorksMobilityGetRequest21
  */
 class SystemBroadWorksMobilityGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

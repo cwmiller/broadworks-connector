@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         defined for the user and the group the user belongs to. If the user
  * belongs to an enterprise, 
  *         the list also contains the schedules defined for the enterprise.
+ *
+ * @see UserScheduleGetListRequest17sp1
  */
 class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

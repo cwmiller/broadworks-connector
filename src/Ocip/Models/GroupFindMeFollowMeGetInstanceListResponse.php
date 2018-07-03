@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Service User Id", "Name", "Phone Number", "Extension", "Department",
  * "Is Active".
  *         The column value for "Is Active" can either be true, or false.
+ *
+ * @see GroupFindMeFollowMeGetInstanceListRequest
  */
 class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

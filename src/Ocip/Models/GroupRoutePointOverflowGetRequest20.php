@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's overflow settings.
  *         The response is either a GroupRoutePointOverflowGetResponse20 or an
  * ErrorResponse.
+ *
+ * @see GroupRoutePointOverflowGetResponse20
+ * @see ErrorResponse
  */
 class GroupRoutePointOverflowGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

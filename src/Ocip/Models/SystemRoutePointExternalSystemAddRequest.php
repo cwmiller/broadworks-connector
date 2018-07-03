@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add an Route Point External System, which is a cluster of Application
  *       Controllers.
  *       The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemRoutePointExternalSystemAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

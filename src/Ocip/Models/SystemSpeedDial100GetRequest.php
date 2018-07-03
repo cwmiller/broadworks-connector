@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemSpeedDial100GetRequest17sp1
+ *
+ * @see SystemSpeedDial100GetResponse
+ * @see ErrorResponse
+ * @see SystemSpeedDial100GetRequest17sp1
  */
 class SystemSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

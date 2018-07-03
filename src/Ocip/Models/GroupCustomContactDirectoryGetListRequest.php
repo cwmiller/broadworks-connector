@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets the list of Custom Contact Directories for a group.
  *         The response is either GroupCustomContactDirectoryGetListResponse or
  * ErrorResponse.
+ *
+ * @see GroupCustomContactDirectoryGetListResponse
+ * @see ErrorResponse
  */
 class GroupCustomContactDirectoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       ErrorResponse.
  *       
  *       Replaced by: SystemCallProcessingGetPolicyRequest19sp1
+ *
+ * @see SystemCallProcessingGetPolicyResponse18sp1
+ * @see ErrorResponse
+ * @see SystemCallProcessingGetPolicyRequest19sp1
  */
 class SystemCallProcessingGetPolicyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

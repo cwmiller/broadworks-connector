@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallWaitingGetResponse
  *
  * Response to UserCallWaitingGetRequest.
+ *
+ * @see UserCallWaitingGetRequest
  */
 class UserCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

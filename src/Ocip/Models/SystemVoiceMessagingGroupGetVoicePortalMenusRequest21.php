@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the system voice portal Menus setting.
  *         The response is either
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 or ErrorResponse.
+ *
+ * @see SystemVoiceMessagingGroupGetVoicePortalMenusResponse21
+ * @see ErrorResponse
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

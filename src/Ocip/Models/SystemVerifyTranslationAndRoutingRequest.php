@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * request containing
  *         parameters or a request containing a SIP message. Returns a
  * SystemVerifyTranslationAndRoutingResponse.
+ *
+ * @see SystemVerifyTranslationAndRoutingResponse
  */
 class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

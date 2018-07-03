@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a flexible seating host instance.
  *         The response is either GroupFlexibleSeatingHostGetInstanceResponse or
  * ErrorResponse.
+ *
+ * @see GroupFlexibleSeatingHostGetInstanceResponse
+ * @see ErrorResponse
  */
 class GroupFlexibleSeatingHostGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

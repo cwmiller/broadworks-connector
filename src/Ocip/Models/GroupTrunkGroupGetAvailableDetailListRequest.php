@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of available trunk groups within a group.
  *         The response is either GroupTrunkGroupGetAvailableDetailListResponse or
  *         ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetAvailableDetailListResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetAvailableDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

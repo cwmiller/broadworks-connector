@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPreAlertingAnnouncementGetResponse20
  *
  * Response to a GroupPreAlertingAnnouncementGetResponse20.
+ *
+ * @see GroupPreAlertingAnnouncementGetResponse20
  */
 class GroupPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

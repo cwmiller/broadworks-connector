@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: UserPreAlertingAnnouncementGetRequest20 in AS data mode
+ *
+ * @see UserPreAlertingAnnouncementGetResponse
+ * @see ErrorResponse
+ * @see UserPreAlertingAnnouncementGetRequest20
  */
 class UserPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

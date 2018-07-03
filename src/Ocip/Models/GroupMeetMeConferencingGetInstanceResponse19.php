@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Address".
  *         
  *         Replaced by: GroupMeetMeConferencingGetInstanceResponse19sp1
+ *
+ * @see GroupMeetMeConferencingGetInstanceRequest19
+ * @see GroupMeetMeConferencingGetInstanceResponse19sp1
  */
 class GroupMeetMeConferencingGetInstanceResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

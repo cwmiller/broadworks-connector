@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: ServiceProviderAdminGetPolicyRequest20 in AS data mode
+ *
+ * @see ServiceProviderAdminGetPolicyResponse18
+ * @see ErrorResponse
+ * @see ServiceProviderAdminGetPolicyRequest20
  */
 class ServiceProviderAdminGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

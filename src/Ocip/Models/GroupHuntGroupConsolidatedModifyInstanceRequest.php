@@ -28,6 +28,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *            useSystemHuntGroupCLIDSetting
  *            includeHuntGroupNameInCLID
+ *
+ * @see ErrorResponse
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

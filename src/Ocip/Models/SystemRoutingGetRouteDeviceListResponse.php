@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRoutingGetRouteDeviceListRequest. The column headings are "Net
  * Address",
  *         "Port", "Transport" and "Description".
+ *
+ * @see SystemRoutingGetRouteDeviceListRequest
  */
 class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

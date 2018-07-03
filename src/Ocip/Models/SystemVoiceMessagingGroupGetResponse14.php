@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVoiceMessagingGroupGetRequest14.
  *         
  *         Replaced by: SystemVoiceMessagingGroupGetResponse16
+ *
+ * @see SystemVoiceMessagingGroupGetRequest14
+ * @see SystemVoiceMessagingGroupGetResponse16
  */
 class SystemVoiceMessagingGroupGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

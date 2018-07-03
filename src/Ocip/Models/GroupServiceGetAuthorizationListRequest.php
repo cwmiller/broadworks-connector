@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the group's service authorization status.
  *         The response is either GroupServiceGetAuthorizationListResponse or
  * ErrorResponse.
+ *
+ * @see GroupServiceGetAuthorizationListResponse
+ * @see ErrorResponse
  */
 class GroupServiceGetAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

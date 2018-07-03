@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a EnterpriseVoiceVPNGetResponse or an
  * ErrorResponse.
  *         Replaced By: EnterpriseVoiceVPNGetRequest14sp3
+ *
+ * @see EnterpriseVoiceVPNGetResponse
+ * @see ErrorResponse
+ * @see EnterpriseVoiceVPNGetRequest14sp3
  */
 class EnterpriseVoiceVPNGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

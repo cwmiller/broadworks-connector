@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assigned to any other directory number hunting group.
  *         The response is either GroupDirectoryNumberHuntingGetResponse or
  * ErrorResponse.
+ *
+ * @see GroupDirectoryNumberHuntingGetResponse
+ * @see ErrorResponse
  */
 class GroupDirectoryNumberHuntingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

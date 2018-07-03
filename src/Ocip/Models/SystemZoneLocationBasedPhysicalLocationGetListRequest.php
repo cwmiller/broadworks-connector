@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Gets a list of physical locations assigned to a zone.
  *         Response is SystemZoneLocationBasedPhysicalLocationGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemZoneLocationBasedPhysicalLocationGetListResponse
+ * @see ErrorResponse
  */
 class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

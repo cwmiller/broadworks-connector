@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by:
  * SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
+ *
+ * @see SystemCallProcessingPolicyProfileRoutePointProfileGetResponse
+ * @see ErrorResponse
+ * @see SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileRoutePointProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

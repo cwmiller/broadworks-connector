@@ -14,6 +14,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in the summary. 
  *         When a delete request is attempted on the primary mobile identity, the
  * delete will fail unless it is the last mobile identity in the user's list.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksMobilityMobileIdentityDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

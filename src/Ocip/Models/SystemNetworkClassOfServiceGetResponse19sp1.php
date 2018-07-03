@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemNetworkClassOfServiceGetRequest19sp1.
  *         The response contains the Network Class of Service information.
+ *
+ * @see SystemNetworkClassOfServiceGetRequest19sp1
  */
 class SystemNetworkClassOfServiceGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

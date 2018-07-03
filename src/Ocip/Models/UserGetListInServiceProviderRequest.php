@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a UserGetListInServiceProviderResponse or an
  * ErrorResponse.
+ *
+ * @see UserGetListInServiceProviderResponse
+ * @see ErrorResponse
  */
 class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

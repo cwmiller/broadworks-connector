@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse
  *
  * Response to EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest.
+ *
+ * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

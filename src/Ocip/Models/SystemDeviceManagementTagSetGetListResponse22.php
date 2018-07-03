@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *         The system default tag set name is not part of this response.
+ *
+ * @see SystemDeviceManagementTagSetGetListRequest22
  */
 class SystemDeviceManagementTagSetGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

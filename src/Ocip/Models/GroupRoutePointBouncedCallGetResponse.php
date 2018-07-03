@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointBouncedCallGetResponse
  *
  * Response to the GroupRoutePointBouncedCallGetRequest.
+ *
+ * @see GroupRoutePointBouncedCallGetRequest
  */
 class GroupRoutePointBouncedCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

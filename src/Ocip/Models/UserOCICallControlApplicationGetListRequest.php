@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the OCI call control application list that can be used by the user.
  *         The response is either UserOCICallControlApplicationGetListResponse or
  * ErrorResponse.
+ *
+ * @see UserOCICallControlApplicationGetListResponse
+ * @see ErrorResponse
  */
 class UserOCICallControlApplicationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

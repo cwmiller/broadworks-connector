@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The response is either SystemDeviceManagementTagSetGetListResponse22 or
  * ErrorResponse.
+ *
+ * @see SystemDeviceManagementTagSetGetListResponse22
+ * @see ErrorResponse
  */
 class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

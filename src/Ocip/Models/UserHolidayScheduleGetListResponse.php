@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserHolidayScheduleGetListRequest.
  *         The response contains all the user's personal and user's group holiday
  * schedule names.
+ *
+ * @see UserHolidayScheduleGetListRequest
  */
 class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

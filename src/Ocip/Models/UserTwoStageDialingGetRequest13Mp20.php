@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Two Stage Dialing.
  *           The response is either a UserTwoStageDialingGetResponse13Mp20 or an
  * ErrorResponse.
+ *
+ * @see UserTwoStageDialingGetResponse13
+ * @see ErrorResponse
  */
 class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

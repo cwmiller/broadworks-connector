@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the Users Primary Endpoint setting.
  *         The response is either a UserPrimaryEndpointAdvancedSettingGetResponse
  * or an ErrorResponse.
+ *
+ * @see UserPrimaryEndpointAdvancedSettingGetResponse
+ * @see ErrorResponse
  */
 class UserPrimaryEndpointAdvancedSettingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

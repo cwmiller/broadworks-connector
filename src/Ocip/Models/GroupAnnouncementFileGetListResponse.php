@@ -21,6 +21,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * group across
  *         all media types and the maximum total file size (MB) allowed for the
  * group.
+ *
+ * @see GroupAnnouncementFileGetAvailableListRequest
  */
 class GroupAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

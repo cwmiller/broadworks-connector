@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupTimeScheduleGetRequest.
  *         The response contains the group's time schedule information.
+ *
+ * @see GroupTimeScheduleGetRequest
  */
 class GroupTimeScheduleGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

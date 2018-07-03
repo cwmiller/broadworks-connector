@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemDnGetUtilizationRequest.
  *         Replaced By: SystemDnGetUtilizationResponse14sp3
+ *
+ * @see SystemDnGetUtilizationRequest
+ * @see SystemDnGetUtilizationResponse14sp3
  */
 class SystemDnGetUtilizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

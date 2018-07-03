@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest.
  *         Contains a table of groups that have the Network Class of Service 
  *         assigned. The column headings are: "Group Id" and "Group Name".
+ *
+ * @see ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

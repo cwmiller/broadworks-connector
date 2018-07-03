@@ -11,6 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           PrimaryInfoGetResponse
  *           PublicClusterGetFullyQualifiedDomainNameResponse
  *           ServingInfoGetResponse
+ *
+ * @see SystemServerAddressesGetRequest
+ * @see PrimaryInfoGetResponse
+ * @see PublicClusterGetFullyQualifiedDomainNameResponse
+ * @see ServingInfoGetResponse
  */
 class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

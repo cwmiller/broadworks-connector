@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 or an
  * ErrorResponse.
+ *
+ * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

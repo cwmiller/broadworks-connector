@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  *
  * The ErrorResponse is concrete response sent whenever a transaction fails and
  * does not return any data.
+ *
+ * @see ErrorResponse
  */
 class ErrorResponse extends OCIResponse
 {

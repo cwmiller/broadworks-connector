@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterDistinctiveRingingGetResponse
  *
  * Response to the GroupCallCenterDistinctiveRingingGetRequest.
+ *
+ * @see GroupCallCenterDistinctiveRingingGetRequest
  */
 class GroupCallCenterDistinctiveRingingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

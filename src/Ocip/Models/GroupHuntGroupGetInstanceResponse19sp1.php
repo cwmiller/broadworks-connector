@@ -19,6 +19,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            enableGroupBusy           
  *            
  *         Replaced by: GroupHuntGroupGetInstanceResponse20
+ *
+ * @see GroupHuntGroupGetInstanceRequest19sp1
+ * @see GroupHuntGroupGetInstanceResponse20
  */
 class GroupHuntGroupGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

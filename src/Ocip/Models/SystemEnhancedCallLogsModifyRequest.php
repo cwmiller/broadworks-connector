@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           useDBS
  *           eclQueryApplicationURL
  *           eclQueryDataRepositoryURL
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

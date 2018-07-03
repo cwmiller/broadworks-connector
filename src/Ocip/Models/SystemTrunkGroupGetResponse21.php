@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           sipIdentityForPilotAndProxyTrunkModesPolicy
  *           
  *         Replaced by: SystemTrunkGroupGetResponse22
+ *
+ * @see SystemTrunkGroupGetRequest21
+ * @see SystemTrunkGroupGetResponse22
  */
 class SystemTrunkGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

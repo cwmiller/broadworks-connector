@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemFileRepositoryDeviceUserGetListRequest.
  *         Contains a table with column headings : "User Name","Allow Get","Allow
  * Delete","Allow Put" in a row for each file repository user.
+ *
+ * @see SystemFileRepositoryDeviceUserGetListRequest
  */
 class SystemFileRepositoryDeviceUserGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

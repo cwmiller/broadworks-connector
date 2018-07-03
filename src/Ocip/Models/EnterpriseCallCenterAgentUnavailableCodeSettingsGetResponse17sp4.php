@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
  *
  * Response to EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4.
+ *
+ * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

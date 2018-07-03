@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * SystemSecurityClassificationGetClassificationUserUsageListResponse or
  * ErrorResponse.
+ *
+ * @see SystemSecurityClassificationGetClassificationUserUsageListResponse
+ * @see ErrorResponse
  */
 class SystemSecurityClassificationGetClassificationUserUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

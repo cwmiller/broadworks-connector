@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Meet-Me Conferencing bridge.
  *         The response is either GroupMeetMeConferencingGetInstanceResponse19sp1
  * or ErrorResponse.
+ *
+ * @see GroupMeetMeConferencingGetInstanceResponse19sp1
+ * @see ErrorResponse
  */
 class GroupMeetMeConferencingGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

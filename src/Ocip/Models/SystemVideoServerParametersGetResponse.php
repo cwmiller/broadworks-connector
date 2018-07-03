@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemVideoServerParametersGetRequest.
  *         Contains a list of system video server parameters.
+ *
+ * @see SystemVideoServerParametersGetRequest
  */
 class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

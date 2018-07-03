@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Calling Party Category.
  *         The response is either a UserCallingPartyCategoryGetResponse16 or an
  *         ErrorResponse.
+ *
+ * @see UserCallingPartyCategoryGetResponse16
+ * @see ErrorResponse
  */
 class UserCallingPartyCategoryGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

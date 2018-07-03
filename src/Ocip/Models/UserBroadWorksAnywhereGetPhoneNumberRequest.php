@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a broadworks anywhere phone number
  *         The response is UserBroadWorksAnywhereGetPhoneNumberResponse.
+ *
+ * @see UserBroadWorksAnywhereGetPhoneNumberResponse
  */
 class UserBroadWorksAnywhereGetPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

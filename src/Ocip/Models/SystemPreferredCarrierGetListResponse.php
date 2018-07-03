@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Intra-Lata", "Is Inter-Lata", "Is International".
  *         The value in the "Is Intra-Lata", "Is Inter-Lata", and "Is
  * International" columns is one of "true" or "false".
+ *
+ * @see SystemPreferredCarrierGetListRequest
  */
 class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

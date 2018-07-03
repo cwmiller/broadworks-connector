@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalGetCriteriaResponse
  *
  * Response to the UserSimultaneousRingPersonalGetCriteriaRequest.
+ *
+ * @see UserSimultaneousRingPersonalGetCriteriaRequest
  */
 class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

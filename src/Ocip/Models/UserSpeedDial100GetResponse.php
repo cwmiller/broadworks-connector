@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSpeedDial100GetResponse
  *
  * Response to the UserSpeedDial100GetRequest.
+ *
+ * @see UserSpeedDial100GetRequest
  */
 class UserSpeedDial100GetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

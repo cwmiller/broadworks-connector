@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Fax Messaging.
  *         The response is either a UserFaxMessagingGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserFaxMessagingGetResponse
+ * @see ErrorResponse
  */
 class UserFaxMessagingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

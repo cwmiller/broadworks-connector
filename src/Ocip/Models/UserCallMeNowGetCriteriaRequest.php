@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's call me now service.
  *         The response is either a UserCallMeNowGetCriteriaResponse or an
  * ErrorResponse.
+ *
+ * @see UserCallMeNowGetCriteriaResponse
+ * @see ErrorResponse
  */
 class UserCallMeNowGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

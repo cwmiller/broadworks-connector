@@ -21,6 +21,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The enableVoiceMailRecording parameter is only applicable 
  *         if the Voice Messaging User service is assigned to the user.
  *         This applies to both users and service instances.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

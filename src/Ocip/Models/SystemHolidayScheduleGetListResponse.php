@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemHolidayScheduleGetListRequest.
  *         The response contains all the system holiday schedule names.
+ *
+ * @see SystemHolidayScheduleGetListRequest
  */
 class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

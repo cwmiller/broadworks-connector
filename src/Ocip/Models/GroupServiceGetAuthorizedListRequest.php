@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of services and service packs authorized to a group.
  *         The response is either GroupServiceGetAuthorizedListResponse or
  * ErrorResponse.
+ *
+ * @see GroupServiceGetAuthorizedListResponse
+ * @see ErrorResponse
  */
 class GroupServiceGetAuthorizedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

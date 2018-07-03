@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveGetCriteriaResponse16 or an ErrorResponse.
  *         Replaced by: UserCallForwardingSelectiveGetCriteriaRequest21 in AS data
  * mode
+ *
+ * @see UserCallForwardingSelectiveGetCriteriaResponse16
+ * @see ErrorResponse
+ * @see UserCallForwardingSelectiveGetCriteriaRequest21
  */
 class UserCallForwardingSelectiveGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get all the licensing information.
  *         The response is either SystemLicensingGetResponse14sp3 or ErrorResponse.
+ *
+ * @see SystemLicensingGetResponse14sp3
+ * @see ErrorResponse
  */
 class SystemLicensingGetRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

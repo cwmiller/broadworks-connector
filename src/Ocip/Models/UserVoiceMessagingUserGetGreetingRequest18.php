@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by UserVoiceMessagingUserGetGreetingRequest18sp1 in AS data
  * mode
+ *
+ * @see UserVoiceMessagingUserGetGreetingResponse18
+ * @see ErrorResponse
+ * @see UserVoiceMessagingUserGetGreetingRequest18sp1
  */
 class UserVoiceMessagingUserGetGreetingRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

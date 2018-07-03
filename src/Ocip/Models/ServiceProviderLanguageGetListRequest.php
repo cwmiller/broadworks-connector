@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the defined languages for a service provider.
  *         The response is either a ServiceProviderLanguageGetListResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderLanguageGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderLanguageGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

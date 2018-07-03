@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the call forwarded/transferred permissions for a group default and it's
  * departments.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

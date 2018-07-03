@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * when the userListSizeLimit is set in the request and 
  *         if the total number of unreachable from primary users is greater than
  * the value of userListSizeLimit.
+ *
+ * @see SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22
  */
 class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

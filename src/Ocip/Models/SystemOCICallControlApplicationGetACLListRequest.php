@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the OCI call control access control list.
  *         The response is either SystemOCICallControlApplicationGetACLListResponse
  * or ErrorResponse.
+ *
+ * @see SystemOCICallControlApplicationGetACLListResponse
+ * @see ErrorResponse
  */
 class SystemOCICallControlApplicationGetACLListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

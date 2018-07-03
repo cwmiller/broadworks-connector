@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserConnectedLineIdentificationRestrictionGetResponse
  *
  * Response to UserConnectedLineIdentificationRestrictionGetRequest.
+ *
+ * @see UserConnectedLineIdentificationRestrictionGetRequest
  */
 class UserConnectedLineIdentificationRestrictionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

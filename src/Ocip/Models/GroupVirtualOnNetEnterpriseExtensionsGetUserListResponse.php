@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Phone Number", "Extension", 
  *         "Virtual On-Net Call Type Name"
  *         in a row for each user.
+ *
+ * @see GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

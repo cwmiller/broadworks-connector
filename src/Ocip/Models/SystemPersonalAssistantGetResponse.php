@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemPersonalAssistantGetRequest.
  *         Returns system Personal Assistant Parameters.
+ *
+ * @see SystemPersonalAssistantGetRequest
  */
 class SystemPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

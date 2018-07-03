@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemNetworkClassOfServiceGetListRequest.
  *         The response contains a table of all Network Classes of Service
  *         in the system. The column headings are "Name" and "Description"
+ *
+ * @see SystemNetworkClassOfServiceGetListRequest
  */
 class SystemNetworkClassOfServiceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

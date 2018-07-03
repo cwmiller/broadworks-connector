@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table of devices configured in the group.
  *         The column headings are: "Device Name", "Device Type", "Available
  * Ports", "Net Address", "MAC Address", "Status" and "Version".
+ *
+ * @see GroupAccessDeviceGetListRequest
  */
 class GroupAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

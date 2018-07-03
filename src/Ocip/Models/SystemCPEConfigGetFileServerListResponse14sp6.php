@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCPEConfigGetFileServerListRequest14sp6. The table columns are:
  *         "Device Type", "File Repository Name", "Directory", "Extended File
  * Repository Name".
+ *
+ * @see SystemCPEConfigGetFileServerListRequest14sp6
  */
 class SystemCPEConfigGetFileServerListResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

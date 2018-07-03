@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of all the Paging Groups a user was assigned as an originator.
  *         The response is either a UserGroupPagingGetListResponse or an
  * ErrorResponse.
+ *
+ * @see UserGroupPagingGetListResponse
+ * @see ErrorResponse
  */
 class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

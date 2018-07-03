@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: ServiceProviderGetRequest17sp1
+ *
+ * @see ServiceProviderGetResponse13
+ * @see ErrorResponse
+ * @see ServiceProviderGetRequest17sp1
  */
 class ServiceProviderGetRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

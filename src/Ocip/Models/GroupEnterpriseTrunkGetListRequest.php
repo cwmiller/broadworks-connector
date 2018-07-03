@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the list of all enterprise trunks defined in a group.
  *         The response is either a GroupEnterpriseTrunkGetListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupEnterpriseTrunkGetListResponse
+ * @see ErrorResponse
  */
 class GroupEnterpriseTrunkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

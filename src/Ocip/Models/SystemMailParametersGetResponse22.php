@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemMailParametersGetListRequest22.
  *         Contains a list of system Mail parameters.
+ *
+ * @see SystemMailParametersGetListRequest22
  */
 class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The data also includes a userType, publicUserIdentity and endpointType.
  *         
  *         Replaced by: UserShInterfaceGetUserIdDataResponse21sp1 in AS data mode.
+ *
+ * @see UserShInterfaceGetUserIdDataRequest
+ * @see UserShInterfaceGetUserIdDataResponse21sp1
  */
 class UserShInterfaceGetUserIdDataResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

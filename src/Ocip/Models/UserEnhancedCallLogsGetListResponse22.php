@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         A list of ExtendedMixedCallLogsEntry22 will be returned if the call logs
  * are stored on DBS or Couchbase
  *         The logs are sorted by date/time of the call.
+ *
+ * @see UserEnhancedCallLogsGetListRequest22
+ * @see UserEnhancedCallLogsGetListRequest22
  */
 class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

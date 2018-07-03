@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanDigitPlanRedirectingGetResponse
  *
  * Response to UserOutgoingCallingPlanDigitPlanRedirectingGetRequest.
+ *
+ * @see UserOutgoingCallingPlanDigitPlanRedirectingGetRequest
  */
 class UserOutgoingCallingPlanDigitPlanRedirectingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

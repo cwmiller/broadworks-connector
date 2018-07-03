@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * obtained
  *         with the SystemAccessDeviceGetRequest16 command.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SystemAccessDeviceGetRequest16
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

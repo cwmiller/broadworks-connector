@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOCICallControlApplicationGetListResponse
  *
  * Response to UserOCICallControlApplicationGetListRequest.
+ *
+ * @see UserOCICallControlApplicationGetListRequest
  */
 class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

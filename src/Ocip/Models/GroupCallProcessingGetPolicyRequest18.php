@@ -38,6 +38,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           allowDepartmentCLIDNameOverride
  *  
  *        Replaced By : GroupCallProcessingGetPolicyRequest18sp1
+ *
+ * @see GroupCallProcessingGetPolicyResponse18
+ * @see ErrorResponse
+ * @see GroupCallProcessingGetPolicyRequest18sp1
  */
 class GroupCallProcessingGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

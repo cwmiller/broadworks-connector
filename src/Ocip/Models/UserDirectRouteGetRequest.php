@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the direct route setting and the list of DTGs/Trunk Identities assigned to a
  * user.
  *         The response is either UserDirectRouteGetResponse or ErrorResponse.
+ *
+ * @see UserDirectRouteGetResponse
+ * @see ErrorResponse
  */
 class UserDirectRouteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

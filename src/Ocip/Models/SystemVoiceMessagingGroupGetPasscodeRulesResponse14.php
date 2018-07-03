@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVoiceMessagingGroupGetPasscodeRulesRequest14.
  *         Contains the system voice portal passcode rules setting.
  *         Replaced By: SystemPortalPasscodeRulesGetResponse
+ *
+ * @see SystemVoiceMessagingGroupGetPasscodeRulesRequest14
+ * @see SystemPortalPasscodeRulesGetResponse
  */
 class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

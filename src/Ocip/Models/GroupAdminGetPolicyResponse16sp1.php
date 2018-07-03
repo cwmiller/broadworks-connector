@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAdminGetPolicyRequest16sp1.
  *         Contains the policy settings for the group administrator.
  *         Replaced by: GroupAdminGetPolicyRequest17
+ *
+ * @see GroupAdminGetPolicyRequest16sp1
+ * @see GroupAdminGetPolicyRequest17
  */
 class GroupAdminGetPolicyResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

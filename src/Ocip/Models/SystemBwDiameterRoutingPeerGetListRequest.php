@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of Diameter routing peers associated with the specified realm.
  * The response is either SystemBwDiameterRoutingPeerGetListResponse or 
  * ErrorResponse.
+ *
+ * @see SystemBwDiameterRoutingPeerGetListResponse
+ * @see ErrorResponse
  */
 class SystemBwDiameterRoutingPeerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -20,6 +20,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Id", "Group Name".
  *         Collaborate bridge maximum participant’s choices unlimited or a
  * quantified number of participants.
+ *
+ * @see GroupCollaborateBridgeGetInstanceRequest20sp1
  */
 class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

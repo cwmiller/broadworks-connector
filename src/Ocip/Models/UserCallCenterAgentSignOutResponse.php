@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * signed-in agent.
  *         Contains a table with column headings: "Service User Id" and "Call
  * Center Name".
+ *
+ * @see UserCallCenterAgentSignOutRequest
  */
 class UserCallCenterAgentSignOutResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

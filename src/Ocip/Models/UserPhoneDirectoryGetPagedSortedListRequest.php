@@ -25,6 +25,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       The Receptionist Note column is only populated, if the user sending the
  * request 
  *       is the owner of the Receptionist Note and a Note exists.
+ *
+ * @see isEnterpriseRequest
+ * @see UserPhoneDirectoryGetPagedSortedListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserPhoneDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

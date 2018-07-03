@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a criteria for the user's call notify service.        
  *          The response is either a UserCallNotifyGetCriteriaResponse or an
  * ErrorResponse.
+ *
+ * @see UserCallNotifyGetCriteriaResponse
+ * @see ErrorResponse
  */
 class UserCallNotifyGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

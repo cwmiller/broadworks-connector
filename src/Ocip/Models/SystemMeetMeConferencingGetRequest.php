@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemMeetMeConferencingGetRequest17sp3
+ *
+ * @see SystemMeetMeConferencingGetResponse
+ * @see ErrorResponse
+ * @see SystemMeetMeConferencingGetRequest17sp3
  */
 class SystemMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Type", "Status",
  *         "Hiragana Last Name" and "Hiragana First Name", "Extension",
  * "Department", "Email Address".
+ *
+ * @see SystemMaliciousCallTraceGetRequest
  */
 class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

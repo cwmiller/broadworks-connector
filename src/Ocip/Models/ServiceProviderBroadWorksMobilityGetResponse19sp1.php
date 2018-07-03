@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: ServiceProviderBroadWorksMobilityGetResponse22 in AS data
  * mode
+ *
+ * @see ServiceProviderBroadWorksMobilityGetRequest19sp1
+ * @see ServiceProviderBroadWorksMobilityGetResponse22
  */
 class ServiceProviderBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

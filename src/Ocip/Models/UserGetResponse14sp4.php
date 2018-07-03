@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserGetRequest14sp4.
  *         The callingLineIdPhoneNumber is no longer being formatted for display
  * purpose. The value is returned exactly the same as being stored.
+ *
+ * @see UserGetRequest14sp4
  */
 class UserGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

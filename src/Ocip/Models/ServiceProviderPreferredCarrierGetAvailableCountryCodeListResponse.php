@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest.
  *         Contains the default country code and the list of unused country codes
  * for a service provider / enterprise.
+ *
+ * @see ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest
  */
 class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

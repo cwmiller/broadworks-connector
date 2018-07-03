@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Music On Hold User.
  *         The response is either a UserMusicOnHoldUserGetResponse20 or an
  * ErrorResponse.
+ *
+ * @see UserMusicOnHoldUserGetResponse20
+ * @see ErrorResponse
  */
 class UserMusicOnHoldUserGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

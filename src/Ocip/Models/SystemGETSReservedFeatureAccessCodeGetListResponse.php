@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemGETSReservedFeatureAccessCodeGetListRequest. 
  *         The table columns are: "Code" and "Description".
+ *
+ * @see SystemGETSReservedFeatureAccessCodeGetListRequest
  */
 class SystemGETSReservedFeatureAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

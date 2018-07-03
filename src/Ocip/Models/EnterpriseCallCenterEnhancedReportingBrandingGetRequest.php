@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the enterprise branding information.
  *         The response is either
  * EnterpriseCallCenterEnhancedReportingBrandingGetResponse or ErrorResponse.
+ *
+ * @see EnterpriseCallCenterEnhancedReportingBrandingGetResponse
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterEnhancedReportingBrandingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

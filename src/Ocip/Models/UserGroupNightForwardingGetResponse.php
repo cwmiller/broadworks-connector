@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserGroupNightForwardingGetRequest.
  *         businessHours and holidaySchedule are returned in the response only when
  * groupNightForwarding is ‘Auto On’.
+ *
+ * @see UserGroupNightForwardingGetRequest
  */
 class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

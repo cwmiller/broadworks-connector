@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemCommunicationBarringGetRequest21sp1.
  *         The following elements are only used in AS data mode:
  *         vmCallbackScreening, value "false" is returned in XS data mode.
+ *
+ * @see SystemCommunicationBarringGetRequest21sp1
  */
 class SystemCommunicationBarringGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

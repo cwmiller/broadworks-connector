@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemOCIReportingGetMessageNameListResponse
  *
  * Response to SystemOCIReportingGetMessageNameListRequest.
+ *
+ * @see SystemOCIReportingGetMessageNameListRequest
  */
 class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

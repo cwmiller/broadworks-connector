@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupRoutePointGetInstanceRequest19sp1.
  *         Replace by GroupRoutePointGetInstanceResponse22.
+ *
+ * @see GroupRoutePointGetInstanceRequest19sp1
+ * @see GroupRoutePointGetInstanceResponse22
  */
 class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

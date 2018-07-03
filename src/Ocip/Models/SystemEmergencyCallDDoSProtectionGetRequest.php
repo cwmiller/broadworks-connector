@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the system Emergency Call DDos Protection configurations.
  *       The response is either SystemEmergencyCallDDoSProtectionGetResponse or
  * ErrorResponse.
+ *
+ * @see SystemEmergencyCallDDoSProtectionGetResponse
+ * @see ErrorResponse
  */
 class SystemEmergencyCallDDoSProtectionGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

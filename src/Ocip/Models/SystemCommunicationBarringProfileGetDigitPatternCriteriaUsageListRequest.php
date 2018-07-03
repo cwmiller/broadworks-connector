@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        
  * SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
+ * @see ErrorResponse
  */
 class SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

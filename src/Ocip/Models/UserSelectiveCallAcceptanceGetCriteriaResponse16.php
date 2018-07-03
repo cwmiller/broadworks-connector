@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSelectiveCallAcceptanceGetCriteriaRequest16.
  *         Replaced by: UserSelectiveCallAcceptanceGetCriteriaResponse21 in AS data
  * mode
+ *
+ * @see UserSelectiveCallAcceptanceGetCriteriaRequest16
+ * @see UserSelectiveCallAcceptanceGetCriteriaResponse21
  */
 class UserSelectiveCallAcceptanceGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The service pack table's column headings are: "Service Pack Name",
  * "Assigned", "Description".
  *         The "Assigned" column has either a true or false value
+ *
+ * @see UserServiceGetAssignmentListRequest
  */
 class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

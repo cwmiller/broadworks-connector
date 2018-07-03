@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterHolidayServiceGetResponse17sp1
  *
  * Response to the GroupCallCenterHolidayServiceGetRequest17sp1.
+ *
+ * @see GroupCallCenterHolidayServiceGetRequest17sp1
  */
 class GroupCallCenterHolidayServiceGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

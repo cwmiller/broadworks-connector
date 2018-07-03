@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemAccountingGetChargingFunctionElementServerListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemAccountingGetChargingFunctionElementServerListResponse
+ * @see ErrorResponse
  */
 class SystemAccountingGetChargingFunctionElementServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

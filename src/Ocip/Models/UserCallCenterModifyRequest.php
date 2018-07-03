@@ -16,6 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
  *         Replaced by UserCallCenterModifyRequest17sp4.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserCallCenterModifyRequest17sp4
  */
 class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Group Paging instance.
  *         The response is either GroupGroupPagingGetInstanceResponse19sp1 or
  * ErrorResponse.
+ *
+ * @see GroupGroupPagingGetInstanceResponse19sp1
+ * @see ErrorResponse
  */
 class GroupGroupPagingGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

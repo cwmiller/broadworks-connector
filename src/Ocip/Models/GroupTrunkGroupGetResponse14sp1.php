@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupTrunkGroupGetRequest14sp1.
  *         The response contains the maximum and bursting maximum permissible
  * active trunk group calls for the group.
+ *
+ * @see GroupTrunkGroupGetRequest14sp1
  */
 class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get an enterprise trunk
  *         The response is either an GroupEnterpriseTrunkGetResponse21 or an
  * ErrorResponse.
+ *
+ * @see GroupEnterpriseTrunkGetResponse21
+ * @see ErrorResponse
  */
 class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

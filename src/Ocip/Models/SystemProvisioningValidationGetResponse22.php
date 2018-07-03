@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemProvisioningValidationGetResponse22
  *
  * Response to the SystemProvisioningValidationGetRequest22.
+ *
+ * @see SystemProvisioningValidationGetRequest22
  */
 class SystemProvisioningValidationGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

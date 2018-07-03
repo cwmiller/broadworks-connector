@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupCallCenterGetInstanceStatisticsReportingRequest17sp1.
  *         Contains Call Center statistics reporting settings.
+ *
+ * @see GroupCallCenterGetInstanceStatisticsReportingRequest17sp1
  */
 class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

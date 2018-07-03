@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The domain is required in the userId.
  *         The password is not required if external authentication is enabled.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

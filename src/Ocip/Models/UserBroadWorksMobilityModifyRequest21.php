@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * profileIdentityMobilityNumbersAlerted parameters can be modified by users with
  * User Authorization Level and above when the BroadWorks Mobility service is
  * turned on.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

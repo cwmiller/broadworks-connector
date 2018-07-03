@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemNumberPortabilityQueryDigitPatternGetListRequest.
  *         Contains a table with column headings:
  *         "Digit Pattern", "Status".
+ *
+ * @see SystemNumberPortabilityQueryDigitPatternGetListRequest
  */
 class SystemNumberPortabilityQueryDigitPatternGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

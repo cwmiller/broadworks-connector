@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of users that can be assigned as Hoteling Guests.
  *         The response is either UserHotelingGuestGetAvailableUserListResponse or
  * ErrorResponse.
+ *
+ * @see UserHotelingGuestGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class UserHotelingGuestGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

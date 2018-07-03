@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Returns the Sh non-transparent data stored against a userId.
  *         The response is either a UserShInterfaceGetUserIdDataResponse21sp1 or an
  * ErrorResponse.
+ *
+ * @see UserShInterfaceGetUserIdDataResponse21sp1
+ * @see ErrorResponse
  */
 class UserShInterfaceGetUserIdDataRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

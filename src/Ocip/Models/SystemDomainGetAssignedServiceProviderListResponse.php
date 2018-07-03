@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Is Enterprise" and "Reseller Id".
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
+ *
+ * @see SystemDomainGetAssignedServiceProviderListRequest
  */
 class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

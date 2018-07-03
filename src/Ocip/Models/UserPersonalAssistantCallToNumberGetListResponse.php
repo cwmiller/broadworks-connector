@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserPersonalAssistantCallToNumberGetListRequest.
  *         Contains a list of assigned Call to Numbers".
+ *
+ * @see UserPersonalAssistantCallToNumberGetListRequest
  */
 class UserPersonalAssistantCallToNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemSMDIGetACLListRequest. The table columns are:
  *         "Net Address" and "Description".
+ *
+ * @see SystemSMDIGetACLListRequest
  */
 class SystemSMDIGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

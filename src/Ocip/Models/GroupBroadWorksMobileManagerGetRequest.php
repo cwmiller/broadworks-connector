@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the BroadWorks Mobile Manager.
  *         The response is either GroupBroadWorksMobileManagerGetResponse or
  * ErrorResponse.
+ *
+ * @see GroupBroadWorksMobileManagerGetResponse
+ * @see ErrorResponse
  */
 class GroupBroadWorksMobileManagerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

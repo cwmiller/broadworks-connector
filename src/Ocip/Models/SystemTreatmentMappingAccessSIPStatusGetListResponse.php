@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingAccessSIPStatusGetListRequest. Contains a
  * table with one row per mapping.
  *         The table columns are: "SIP Status Code", "Treatment Id".
+ *
+ * @see SystemTreatmentMappingAccessSIPStatusGetListRequest
  */
 class SystemTreatmentMappingAccessSIPStatusGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

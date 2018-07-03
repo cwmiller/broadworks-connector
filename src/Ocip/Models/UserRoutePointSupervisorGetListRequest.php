@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of Route Point supervisors assigned to a user.
  *         The response is either a
  *         UserRoutePointSupervisorGetListResponse or an ErrorResponse.
+ *
+ * @see UserRoutePointSupervisorGetListResponse
+ * @see ErrorResponse
  */
 class UserRoutePointSupervisorGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

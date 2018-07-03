@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Service User Id", "Name", "Phone
  * Number", "Extension", "Department", "Ports", and "Is Active".
  *         The column values for "Is Active" can either be true, or false.
+ *
+ * @see GroupMeetMeConferencingGetInstanceListRequest
  */
 class GroupMeetMeConferencingGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the distinctive ringing configuration values for route point.
  *         The response is either a GroupRoutePointDistinctiveRingingGetResponse 
  *         or an ErrorResponse.
+ *
+ * @see GroupRoutePointDistinctiveRingingGetResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointDistinctiveRingingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

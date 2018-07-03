@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * part of an Enterprise.
  *         The response is either GroupCallCenterGetAvailableSupervisorListResponse
  * or ErrorResponse.
+ *
+ * @see GroupCallCenterGetAvailableSupervisorListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetAvailableSupervisorListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

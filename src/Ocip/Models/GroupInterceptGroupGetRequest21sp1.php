@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the group's intercept group service settings.
  *         The response is either a GroupInterceptGroupGetResponse21sp1 or an
  * ErrorResponse.
+ *
+ * @see GroupInterceptGroupGetResponse21sp1
+ * @see ErrorResponse
  */
 class GroupInterceptGroupGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

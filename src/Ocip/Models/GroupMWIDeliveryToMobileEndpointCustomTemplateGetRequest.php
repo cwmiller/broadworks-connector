@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request a MWI Delivery to Mobile Endpoint Custom Template.
  *         The response is either a
  * GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse or an ErrorResponse.
+ *
+ * @see GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse
+ * @see ErrorResponse
  */
 class GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by:
  * SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22
+ *
+ * @see SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse
+ * @see ErrorResponse
+ * @see SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

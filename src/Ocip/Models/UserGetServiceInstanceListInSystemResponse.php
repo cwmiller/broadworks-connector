@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * values for Service Type column are ServiceType enums. 
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
+ *
+ * @see UserGetServiceInstanceListInSystemRequest
  */
 class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

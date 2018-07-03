@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Adds a list of physical locations to a zone
  *         The response is SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

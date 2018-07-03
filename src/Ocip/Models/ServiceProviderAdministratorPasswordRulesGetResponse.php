@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdministratorPasswordRulesGetResponse
  *
  * Response to ServiceProviderAdministratorPasswordRulesGetRequest.
+ *
+ * @see ServiceProviderAdministratorPasswordRulesGetRequest
  */
 class ServiceProviderAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

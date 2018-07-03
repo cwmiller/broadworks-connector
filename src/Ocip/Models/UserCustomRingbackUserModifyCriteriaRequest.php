@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify a criteria for the user's custom ringback service.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced By: UserCustomRingbackUserModifyCriteriaRequest16
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserCustomRingbackUserModifyCriteriaRequest16
  */
 class UserCustomRingbackUserModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

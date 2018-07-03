@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Reseller Id".
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
+ *
+ * @see SystemGetRegistrationContactListRequest
  */
 class SystemGetRegistrationContactListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

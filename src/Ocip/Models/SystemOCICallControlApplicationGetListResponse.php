@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Application Id", "Enabled System Wide", "Description" "Notification
  * Timeout Seconds", "Max Event Channels Per Set"
  *         and "Channel Set Grace Period Seconds".
+ *
+ * @see SystemOCICallControlApplicationGetListRequest
  */
 class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

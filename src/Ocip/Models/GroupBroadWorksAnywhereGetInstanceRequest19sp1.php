@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a BroadWorks Anywhere instance.
  *         The response is either GroupBroadWorksAnywhereGetInstanceResponse19sp1
  * or ErrorResponse.
+ *
+ * @see GroupBroadWorksAnywhereGetInstanceResponse19sp1
+ * @see ErrorResponse
  */
 class GroupBroadWorksAnywhereGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

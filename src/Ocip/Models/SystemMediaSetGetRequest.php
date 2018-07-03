@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get a Media Set.
  *         The response is either a SystemMediaSetGetResponse or an ErrorResponse.
+ *
+ * @see SystemMediaSetGetResponse
+ * @see ErrorResponse
  */
 class SystemMediaSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

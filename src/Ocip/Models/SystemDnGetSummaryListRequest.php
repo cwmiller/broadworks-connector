@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * data mode:
  *           searchCriteriaDn, searchCriteriaServiceProviderId,
  * searchCriteriaExactOrganizationType
+ *
+ * @see SystemDnGetSummaryListResponse
+ * @see ErrorResponse
  */
 class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest.
  *         Contains the device profile authentication password rules for the
  * service provider.
+ *
+ * @see ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest
  */
 class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of hosted users that can be assigned to a Trunk Group.
  *         The response is either GroupTrunkGroupGetAvailableHostedUserListResponse
  * or ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetAvailableHostedUserListResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

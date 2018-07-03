@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings : "Group Id", "Last Name", "First
  * Name", "Phone Number", "Extension", 
  *         "Virtual On-Net Call Type" in a row for each user.
+ *
+ * @see EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest
  */
 class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallTransferGetResponse or an
  * ErrorResponse.
  *         Replaced By: UserCallTransferGetRequest14Sp4
+ *
+ * @see UserCallTransferGetResponse
+ * @see ErrorResponse
+ * @see UserCallTransferGetRequest14
  */
 class UserCallTransferGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

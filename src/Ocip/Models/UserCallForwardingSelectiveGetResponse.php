@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * column headings are:        
  *          "Is Active", "Criteria Name", "Time Schedule", "Calls From" and
  * "Forward To".
+ *
+ * @see UserCallForwardingSelectiveGetRequest
  */
 class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

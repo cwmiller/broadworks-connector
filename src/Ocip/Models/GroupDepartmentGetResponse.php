@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           callingLineIdName
  *           caliingLineIdPhoneNumber
+ *
+ * @see GroupDepartmentGetRequest
  */
 class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

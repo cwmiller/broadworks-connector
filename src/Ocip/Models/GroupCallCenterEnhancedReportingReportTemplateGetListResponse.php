@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterEnhancedReportingReportTemplateGetListRequest. 
  *         Contains a table with column headings: "Name", "Description", "Type" and
  * "Enabled"
+ *
+ * @see GroupCallCenterEnhancedReportingReportTemplateGetListRequest
  */
 class GroupCallCenterEnhancedReportingReportTemplateGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

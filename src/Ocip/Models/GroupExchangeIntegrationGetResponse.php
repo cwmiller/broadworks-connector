@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExchangeIntegrationGetResponse
  *
  * Response to GroupExchangeIntegrationGetRequest.
+ *
+ * @see GroupExchangeIntegrationGetRequest
  */
 class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

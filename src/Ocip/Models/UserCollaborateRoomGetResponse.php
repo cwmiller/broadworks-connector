@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           ownerRequired. In addition, the roomSchedule is returned for 
  *           Project Room and the instantRoomStartTime and instantRoomEndTime 
  *           are returned for Instant Room.
+ *
+ * @see UserCollaborateRoomGetRequest
  */
 class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

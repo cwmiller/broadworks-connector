@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a Radius Server in the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemAccountingModifyRadiusServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

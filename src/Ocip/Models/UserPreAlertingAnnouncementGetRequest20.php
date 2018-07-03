@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's pre-alerting service setting.
  *         The response is either a UserPreAlertingAnnouncementGetResponse20 or an
  * ErrorResponse.
+ *
+ * @see UserPreAlertingAnnouncementGetResponse20
+ * @see ErrorResponse
  */
 class UserPreAlertingAnnouncementGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

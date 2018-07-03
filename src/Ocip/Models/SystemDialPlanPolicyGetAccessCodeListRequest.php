@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level Access Codes data associated with Dial Plan Policy.
  *         The response is either a SystemDialPlanPolicyGetAccessCodeListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemDialPlanPolicyGetAccessCodeListResponse
+ * @see ErrorResponse
  */
 class SystemDialPlanPolicyGetAccessCodeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemVoiceMessageSummaryUpdateGetResponse
  *
  * Response to SystemVoiceMessageSummaryUpdateGetRequest.
+ *
+ * @see SystemVoiceMessageSummaryUpdateGetRequest
  */
 class SystemVoiceMessageSummaryUpdateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

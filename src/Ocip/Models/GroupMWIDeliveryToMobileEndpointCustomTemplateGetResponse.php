@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse
  *
  * Response to the GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest.
+ *
+ * @see GroupMWIDeliveryToMobileEndpointCustomTemplateGetRequest
  */
 class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

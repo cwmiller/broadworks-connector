@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * format for display.
  *         The response is either a GroupDnGetAvailableRangeListResponse or an
  * ErrorResponse.
+ *
+ * @see GroupDnGetAvailableRangeListResponse
+ * @see ErrorResponse
  */
 class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

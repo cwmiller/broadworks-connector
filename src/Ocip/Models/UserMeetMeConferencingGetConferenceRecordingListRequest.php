@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of recordings of the conferences owned by the host.
  *         The response is either
  * UserMeetMeConferencingGetConferenceRecordingListResponse or ErrorResponse.
+ *
+ * @see UserMeetMeConferencingGetConferenceRecordingListResponse
+ * @see ErrorResponse
  */
 class UserMeetMeConferencingGetConferenceRecordingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

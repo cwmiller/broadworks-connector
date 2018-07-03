@@ -18,6 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * cannot be unassigned because of insufficient privilege.
  *         
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see ErrorResponse
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupAutoAttendantDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

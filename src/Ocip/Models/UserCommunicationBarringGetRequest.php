@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         This command only applies to groups in an Enterprise. This command will
  * fail for groups in a Service Provider.
+ *
+ * @see UserCommunicationBarringGetResponse
+ * @see ErrorResponse
  */
 class UserCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

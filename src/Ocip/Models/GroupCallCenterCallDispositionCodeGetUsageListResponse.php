@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterCallDispositionCodeGetUsageListRequest.
  *         The Type column contains either "Call Center" or "Route Point".
  *         Contains a table with column headings: "Id", "Name" and "Type".
+ *
+ * @see GroupCallCenterCallDispositionCodeGetUsageListRequest
  */
 class GroupCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

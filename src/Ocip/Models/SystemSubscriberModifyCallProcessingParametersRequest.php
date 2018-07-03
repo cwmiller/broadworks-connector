@@ -16,6 +16,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           allowEmergencyRemoteOfficeOriginations
  *         
  *         Replaced By: SystemSubscriberModifyCallProcessingParametersRequest14sp7
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemSubscriberModifyCallProcessingParametersRequest14sp7
  */
 class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemThirdPartyIMPGetRequest19.
  *         The response contains the system Third-Party IMP service attributes.
+ *
+ * @see SystemThirdPartyIMPGetRequest19
  */
 class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  *         The following elements are only used in IMS mode:
  *         publicUserIdentity, ignored in standalone mode if provided.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemSystemVoicePortalAddRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the tutorial flag setting for a user or admin.
  *         The response is either a TutorialFlagGetResponse or an ErrorResponse.
+ *
+ * @see TutorialFlagGetResponse
+ * @see ErrorResponse
  */
 class TutorialFlagGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

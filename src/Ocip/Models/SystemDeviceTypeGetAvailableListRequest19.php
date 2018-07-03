@@ -15,6 +15,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemDeviceTypeGetlAvailableListResponse19 or
  * ErrorResponse.
  *         Replaced by SystemDeviceTypeGetAvailableListRequest22 in AS data mode.
+ *
+ * @see SystemSIPDeviceTypeGetListRequest
+ * @see SystemMGCPDeviceTypeGetListRequest
+ * @see SystemDeviceTypeGetlAvailableListResponse19
+ * @see ErrorResponse
+ * @see SystemDeviceTypeGetAvailableListRequest22
  */
 class SystemDeviceTypeGetAvailableListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

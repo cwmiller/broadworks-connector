@@ -31,6 +31,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
  * enableEnterpriseExtensionDialing)
  *         Replaced by: GroupCallProcessingGetPolicyRequest19sp1
+ *
+ * @see GroupCallProcessingGetPolicyResponse18sp1
+ * @see ErrorResponse
+ * @see GroupCallProcessingGetPolicyRequest19sp1
  */
 class GroupCallProcessingGetPolicyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

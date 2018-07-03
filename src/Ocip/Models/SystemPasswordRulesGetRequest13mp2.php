@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SystemPasswordRulesGetResponse13mp2 or
  * ErrorResponse.
  *         Replaced By : SystemPasswordRulesGetRequest16
+ *
+ * @see SystemPasswordRulesGetResponse13
+ * @see ErrorResponse
+ * @see SystemPasswordRulesGetRequest16
  */
 class SystemPasswordRulesGetRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

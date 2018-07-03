@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the information of a Hunt Group instance.
  *         The response is either GroupHuntGroupGetInstanceResponse17sp4 or
  * ErrorResponse.
+ *
+ * @see GroupHuntGroupGetInstanceResponse17sp4
+ * @see ErrorResponse
  */
 class GroupHuntGroupGetInstanceRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

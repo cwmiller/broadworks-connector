@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Systems specified.
  *       The response is either
  * SystemRoutePointExternalSystemApplicationControllerGetResponse or ErrorResponse.
+ *
+ * @see SystemRoutePointExternalSystemApplicationControllerGetResponse
+ * @see ErrorResponse
  */
 class SystemRoutePointExternalSystemApplicationControllerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

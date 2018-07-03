@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of calling plan Pinhole digit strings for a group.
  *         The response is either a
  * GroupOutgoingCallingPlanPinholeDigitPatternGetListResponse or an ErrorResponse.
+ *
+ * @see GroupOutgoingCallingPlanPinholeDigitPatternGetListResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

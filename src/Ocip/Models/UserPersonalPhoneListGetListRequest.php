@@ -19,6 +19,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         In all cases, if a responseSizeLimit is specified and the number of
  * matching results is more than this limit, then an
  *         ErrorResponse is returned.
+ *
+ * @see UserPersonalPhoneListGetListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

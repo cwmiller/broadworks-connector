@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         or TEL URI).
  *         The response is either a UserShInterfaceGetPublicIdDataResponse21sp1 or
  * an ErrorResponse.
+ *
+ * @see UserShInterfaceGetPublicIdDataResponse21sp1
+ * @see ErrorResponse
  */
 class UserShInterfaceGetPublicIdDataRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

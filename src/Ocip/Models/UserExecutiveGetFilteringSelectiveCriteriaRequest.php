@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either UserExecutiveGetSelectiveCriteriaResponse or
  * ErrorResponse.
  *         Replaced by: UserExecutiveGetFilteringSelectiveCriteriaRequest21
+ *
+ * @see UserExecutiveGetSelectiveCriteriaResponse
+ * @see ErrorResponse
+ * @see UserExecutiveGetFilteringSelectiveCriteriaRequest21
  */
 class UserExecutiveGetFilteringSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

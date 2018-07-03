@@ -17,6 +17,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         preferredDataCenter.
  *         
  *         Replaced by GroupGetResponse22V2 in AS data mode.
+ *
+ * @see GroupGetRequest22
+ * @see GroupGetResponse22
  */
 class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

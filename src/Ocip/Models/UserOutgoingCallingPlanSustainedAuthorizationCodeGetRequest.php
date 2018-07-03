@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse or an
  * ErrorResponse.
  *         Engineering Note: This command is used internally by Call Processing.
+ *
+ * @see UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

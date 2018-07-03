@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a EnterpriseVoiceVPNGetPolicyListResponse or an
  * ErrorResponse.
+ *
+ * @see EnterpriseVoiceVPNGetPolicyListResponse
+ * @see ErrorResponse
  */
 class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

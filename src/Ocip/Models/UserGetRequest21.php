@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         UserGetResponse21 or ErrorResponse.
  *         
  *         Replaced by UserGetRequest21sp1 in AS data mode
+ *
+ * @see UserGetResponse21
+ * @see ErrorResponse
+ * @see UserGetRequest21sp1
  */
 class UserGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

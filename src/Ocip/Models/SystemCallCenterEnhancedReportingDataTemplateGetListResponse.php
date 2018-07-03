@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallCenterEnhancedReportingDataTemplateGetListResponse
  *
  * Response to SystemCallCenterEnhancedReportingDataTemplateGetListRequest.
+ *
+ * @see SystemCallCenterEnhancedReportingDataTemplateGetListRequest
  */
 class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

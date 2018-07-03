@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the default profile for a group.
  *         The response is either a GroupGetDefaultResponse or an ErrorResponse.
+ *
+ * @see GroupGetDefaultResponse
+ * @see ErrorResponse
  */
 class GroupGetDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

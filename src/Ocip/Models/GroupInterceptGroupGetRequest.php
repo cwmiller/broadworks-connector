@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupInterceptGroupGetResponse or an
  * ErrorResponse.
  *         Replaced By: GroupInterceptGroupGetRequest16
+ *
+ * @see GroupInterceptGroupGetResponse
+ * @see ErrorResponse
+ * @see GroupInterceptGroupGetRequest16
  */
 class GroupInterceptGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

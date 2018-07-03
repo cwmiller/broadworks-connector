@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's comfort message bypass settings.
  *         The response is either a GroupCallCenterComfortMessageBypassGetResponse
  * or an ErrorResponse.
+ *
+ * @see GroupCallCenterComfortMessageBypassGetResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterComfortMessageBypassGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

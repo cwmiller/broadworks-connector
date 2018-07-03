@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           "Contact", "Contact2", "Contact3", "Contact4", "Contact5", "
  * Authentication Mode ",
  *           and "Auto-Config Soft Client".
+ *
+ * @see UserLinePortGetListRequest
  */
 class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either ServiceProviderAdminGetPolicyResponse16sp1 or
  * ErrorResponse.
  *         Replaced by: ServiceProviderAdminGetPolicyRequest17
+ *
+ * @see ServiceProviderAdminGetPolicyResponse16sp1
+ * @see ErrorResponse
+ * @see ServiceProviderAdminGetPolicyRequest17
  */
 class ServiceProviderAdminGetPolicyRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

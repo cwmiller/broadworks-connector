@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemSystemVoicePortalGetRequest21sp1.
+ *
+ * @see SystemSystemVoicePortalGetResponse
+ * @see ErrorResponse
+ * @see SystemSystemVoicePortalGetRequest21sp1
  */
 class SystemSystemVoicePortalGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

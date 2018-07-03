@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            callMeNowDefaultCallTimeout
  *            callMeNowRule
  *            applyToAttendedCallTransfers
+ *
+ * @see ServiceProviderCommunicationBarringProfileGetRequest19sp1
  */
 class ServiceProviderCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

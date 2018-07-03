@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           	allowVideo
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

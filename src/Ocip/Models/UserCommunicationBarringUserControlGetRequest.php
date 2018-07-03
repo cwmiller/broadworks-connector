@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         indicates which profile if any is currently active for the user..
  *         The response is either UserCommunicationBarringUserControlGetResponse or
  * ErrorResponse.
+ *
+ * @see UserCommunicationBarringUserControlGetResponse
+ * @see ErrorResponse
  */
 class UserCommunicationBarringUserControlGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

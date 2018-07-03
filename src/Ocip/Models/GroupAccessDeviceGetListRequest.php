@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of access devices in a group.
  *         The response is either GroupAccessDeviceGetListResponse or
  * ErrorResponse.
+ *
+ * @see GroupAccessDeviceGetListResponse
+ * @see ErrorResponse
  */
 class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

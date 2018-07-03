@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemRoamingNetworkGetListRequest.
  *         Contains a table with columns: "MSC Address", "Network Translation
  * Index".
+ *
+ * @see SystemRoamingNetworkGetListRequest
  */
 class SystemRoamingNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

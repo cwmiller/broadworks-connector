@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallRejectionGetCriteriaResponse
  *
  * Response to the UserSelectiveCallRejectionGetCriteriaRequest.
+ *
+ * @see UserSelectiveCallRejectionGetCriteriaRequest
  */
 class UserSelectiveCallRejectionGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

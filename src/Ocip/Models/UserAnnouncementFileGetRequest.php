@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the announcement repository file information.  
  *         The response is either UserAnnouncementFileGetResponse or ErrorResponse.
+ *
+ * @see UserAnnouncementFileGetResponse
+ * @see ErrorResponse
  */
 class UserAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSMDIMessageDeskGetResponse
  *
  * Response to the UserSMDIMessageDeskGetRequest.
+ *
+ * @see UserSMDIMessageDeskGetRequest
  */
 class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAuthenticationLockoutSettingsGetRequest.
  *        Contains the authentication lockout settings in the system.
+ *
+ * @see SystemAuthenticationLockoutSettingsGetRequest
  */
 class SystemAuthenticationLockoutSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

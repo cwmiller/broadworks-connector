@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetAliasListResponse
  *
  * Response to UserVoiceMessagingUserGetAliasListRequest.
+ *
+ * @see UserVoiceMessagingUserGetAliasListRequest
  */
 class UserVoiceMessagingUserGetAliasListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

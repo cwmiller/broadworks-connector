@@ -15,6 +15,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS and XS data mode and ignored
  * in Amplify data mode:
  *           defaultDomain
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Enhanced Call Logs. The response
  * is either a 
  *         SystemEnhancedCallLogsGetResponse22 or an ErrorResponse.
+ *
+ * @see SystemEnhancedCallLogsGetResponse22
+ * @see ErrorResponse
  */
 class SystemEnhancedCallLogsGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

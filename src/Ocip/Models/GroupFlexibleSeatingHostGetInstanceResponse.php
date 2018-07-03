@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupFlexibleSeatingHostGetInstanceRequest.
  *         Contains the service profile and access device information.
+ *
+ * @see GroupFlexibleSeatingHostGetInstanceRequest
  */
 class GroupFlexibleSeatingHostGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

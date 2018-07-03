@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVirtualOnNetEnterpriseExtensionsGetUserResponse
  *
  * Response to GroupVirtualOnNetEnterpriseExtensionsGetUserRequest.
+ *
+ * @see GroupVirtualOnNetEnterpriseExtensionsGetUserRequest
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

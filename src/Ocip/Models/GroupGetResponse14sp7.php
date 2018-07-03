@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupGetRequest14sp7.
  *         The response contains the group's profile information.
+ *
+ * @see GroupGetRequest14sp7
  */
 class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

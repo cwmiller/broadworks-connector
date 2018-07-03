@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the ServiceProviderNumberPortabilityQueryGetRequest.
  *         The response contains the service provider number portability query
  * information.
+ *
+ * @see ServiceProviderNumberPortabilityQueryGetRequest
  */
 class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

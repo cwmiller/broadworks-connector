@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of all Home Networks.
  *         The response is either a SystemHomeNetworkGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemHomeNetworkGetListResponse
+ * @see ErrorResponse
  */
 class SystemHomeNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

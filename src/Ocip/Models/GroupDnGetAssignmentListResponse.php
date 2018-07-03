@@ -18,6 +18,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * activated.  Only has a value if the DN(s) is assigned to a user.
  *         
  *         Replaced by: GroupDnGetAssignmentListResponse18
+ *
+ * @see GroupDnGetAssignmentListRequest
+ * @see GroupDnGetAssignmentListResponse18
  */
 class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

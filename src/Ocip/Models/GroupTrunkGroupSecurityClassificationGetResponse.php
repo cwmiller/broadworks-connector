@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupSecurityClassificationGetResponse
  *
  * Response to the GroupTrunkGroupSecurityClassificationGetRequest.
+ *
+ * @see GroupTrunkGroupSecurityClassificationGetRequest
  */
 class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

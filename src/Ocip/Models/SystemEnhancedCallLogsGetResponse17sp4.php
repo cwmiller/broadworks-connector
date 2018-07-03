@@ -22,6 +22,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           server2NetAddress
  *           sharedSecret
  *           Replaced by:SystemEnhancedCallLogsGetResponse20sp1 in AS data mode
+ *
+ * @see SystemEnhancedCallLogsGetRequest17sp4
+ * @see SystemEnhancedCallLogsGetResponse20sp1
  */
 class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

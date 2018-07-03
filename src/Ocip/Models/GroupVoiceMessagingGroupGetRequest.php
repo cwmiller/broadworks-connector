@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the group's Voice Messaging settings.
  *         The response is either GroupVoiceMessagingGroupGetResponse or
  * ErrorResponse.
+ *
+ * @see GroupVoiceMessagingGroupGetResponse
+ * @see ErrorResponse
  */
 class GroupVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

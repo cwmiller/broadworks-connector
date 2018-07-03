@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCallForwardingSelectiveGetCriteriaRequest16.
  *         Replaced by: UserCallForwardingSelectiveGetCriteriaResponse21 in AS data
  * mode
+ *
+ * @see UserCallForwardingSelectiveGetCriteriaRequest16
+ * @see UserCallForwardingSelectiveGetCriteriaResponse21
  */
 class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

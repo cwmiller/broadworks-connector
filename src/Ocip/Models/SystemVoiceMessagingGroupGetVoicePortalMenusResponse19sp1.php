@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1.
  *         
  *         Replaced by SystemVoiceMessagingGroupGetVoicePortalMenusResponse20
+ *
+ * @see SystemVoiceMessagingGroupGetVoicePortalMenusRequest19sp1
+ * @see SystemVoiceMessagingGroupGetVoicePortalMenusResponse20
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

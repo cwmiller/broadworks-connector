@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to AuthenticationVerifyRequest
  *         Replaced By: AuthenticationVerifyResponse14sp8
+ *
+ * @see AuthenticationVerifyRequest
+ * @see AuthenticationVerifyResponse14sp8
  */
 class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListResponse or an
  * ErrorResponse.
+ *
+ * @see EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListResponse
+ * @see ErrorResponse
  */
 class EnterpriseCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's overflow settings.
  *         The response is either a GroupCallCenterOverflowGetResponse20 or an
  * ErrorResponse.
+ *
+ * @see GroupCallCenterOverflowGetResponse20
+ * @see ErrorResponse
  */
 class GroupCallCenterOverflowGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

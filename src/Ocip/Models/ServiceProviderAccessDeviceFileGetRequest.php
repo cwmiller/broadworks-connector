@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The response is either ServiceProviderAccessDeviceFileGetResponse or
  * ErrorResponse.
  *           Replaced By: ServiceProviderAccessDeviceFileGetRequest14sp8
+ *
+ * @see ServiceProviderAccessDeviceFileGetResponse
+ * @see ErrorResponse
+ * @see ServiceProviderAccessDeviceFileGetRequest14sp8
  */
 class ServiceProviderAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

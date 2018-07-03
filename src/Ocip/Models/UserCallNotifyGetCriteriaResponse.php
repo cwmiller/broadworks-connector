@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallNotifyGetCriteriaResponse
  *
  * Response to the UserCallNotifyGetCriteriaRequest.
+ *
+ * @see UserCallNotifyGetCriteriaRequest
  */
 class UserCallNotifyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

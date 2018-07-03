@@ -25,6 +25,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * data mode:
  *            routeOverrideDomain
  *            routeOverridePrefix
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see useMaxConcurrentTerminatingAlertingRequests
+ * @see maxConcurrentTerminatingAlertingRequests
  */
 class ServiceProviderCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

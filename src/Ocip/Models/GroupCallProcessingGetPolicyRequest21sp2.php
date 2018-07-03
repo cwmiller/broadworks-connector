@@ -32,6 +32,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * enableEnterpriseExtensionDialing, routeOverrideDomain, routeOverridePrefix)
  *           
  *         Replaced by: GroupCallProcessingGetPolicyRequest22 in AS data mode
+ *
+ * @see GroupCallProcessingGetPolicyResponse21sp2
+ * @see ErrorResponse
+ * @see GroupCallProcessingGetPolicyRequest22
  */
 class GroupCallProcessingGetPolicyRequest21sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

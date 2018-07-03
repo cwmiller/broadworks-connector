@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingGetResponse19
  *
  * Response to GroupCallCenterEnhancedReportingGetRequest19.
+ *
+ * @see GroupCallCenterEnhancedReportingGetRequest19
  */
 class GroupCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

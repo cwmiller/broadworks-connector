@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or an ErrorResponse.
  *         
  *         Replaced by: SystemLicensingGetSystemLicenseListRequest21sp1.
+ *
+ * @see SystemLicensingGetSystemLicenseListResponse21
+ * @see ErrorResponse
+ * @see SystemLicensingGetSystemLicenseListRequest21sp1
  */
 class SystemLicensingGetSystemLicenseListRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

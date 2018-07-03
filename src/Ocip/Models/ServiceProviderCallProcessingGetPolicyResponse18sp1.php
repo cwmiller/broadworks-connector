@@ -16,6 +16,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * mode.
  *             
  *         Replaced by: ServiceProviderCallProcessingGetPolicyResponse19sp1
+ *
+ * @see ServiceProviderCallProcessingGetPolicyRequest18sp1
+ * @see ServiceProviderCallProcessingGetPolicyResponse19sp1
  */
 class ServiceProviderCallProcessingGetPolicyResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

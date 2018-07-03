@@ -29,6 +29,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            useUserDCLIDSetting
  *            enableDialableCallerID
  *            Replaced by: UserCallProcessingGetPolicyResponse17Sp4
+ *
+ * @see UserCallProcessingGetPolicyRequest17sp3
+ * @see UserCallProcessingGetPolicyResponse17
  */
 class UserCallProcessingGetPolicyResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

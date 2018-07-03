@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserCallCenterGetAvailableDNISListRequest.
  *         Contains a list of available DNIS for agent to select.
+ *
+ * @see UserCallCenterGetAvailableDNISListRequest
  */
 class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify a device CPE config file server.
  *         The response is either SuccessResponse or ErrorResponse.
  *         Replaced By: SystemCPEConfigModifyFileServerRequest14sp6
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemCPEConfigModifyFileServerRequest14sp6
  */
 class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

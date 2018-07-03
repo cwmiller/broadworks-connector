@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group's extension length.
  *         The response is either a GroupExtensionLengthGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupExtensionLengthGetResponse
+ * @see ErrorResponse
  */
 class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

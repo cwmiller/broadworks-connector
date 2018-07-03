@@ -13,6 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           callHandlingSamplingPeriodMinutes
  *           callHandlingMinimumSamplingSize
  *           thresholdCrossingNotificationEmailGuardTimerSeconds
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

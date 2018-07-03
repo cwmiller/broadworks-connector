@@ -12,6 +12,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either SuccessResponse or ErrorResponse.
  *         
  *         Replaced by GroupCollaborateBridgeAddInstanceRequest20sp1
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see GroupCollaborateBridgeAddInstanceRequest20sp1
  */
 class GroupCollaborateBridgeAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

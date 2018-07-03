@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupDialPlanPolicyGetRequest
  *         Replaced by: GroupDialPlanPolicyGetResponse17
+ *
+ * @see GroupDialPlanPolicyGetRequest
+ * @see GroupDialPlanPolicyGetResponse17
  */
 class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

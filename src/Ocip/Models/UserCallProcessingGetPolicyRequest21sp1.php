@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallProcessingGetPolicyResponse21sp1 or an
  *         ErrorResponse.
  *         Replaced by: UserCallProcessingGetPolicyRequest21sp2
+ *
+ * @see UserCallProcessingGetPolicyResponse21sp1
+ * @see ErrorResponse
+ * @see UserCallProcessingGetPolicyRequest21sp2
  */
 class UserCallProcessingGetPolicyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

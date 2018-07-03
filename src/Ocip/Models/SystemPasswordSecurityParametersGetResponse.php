@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemPasswordSecurityParametersGetResponse.
  *         The response contains the password security parameters for the system.
+ *
+ * @see SystemPasswordSecurityParametersGetResponse
  */
 class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

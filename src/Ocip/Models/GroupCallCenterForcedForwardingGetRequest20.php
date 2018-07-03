@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a call center's forced forwarding settings.
  *         The response is either a GroupCallCenterForcedForwardingGetResponse20 or
  * an ErrorResponse.
+ *
+ * @see GroupCallCenterForcedForwardingGetResponse20
+ * @see ErrorResponse
  */
 class GroupCallCenterForcedForwardingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

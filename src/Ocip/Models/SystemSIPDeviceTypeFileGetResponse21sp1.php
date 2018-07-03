@@ -18,6 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           2. repositoryUrl may be set to
  * "DEVICE_CONFIGURATION_FILE_REPOSITORY_MISSING", if there is no file repository
  * defined.
+ *
+ * @see SystemSIPDeviceTypeFileGetRequest21sp1
  */
 class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

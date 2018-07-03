@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           boshURL
  *           
  *         Replaced by: SystemIntegratedIMPGetResponse21 in AS data mode
+ *
+ * @see SystemIntegratedIMPGetRequest19
+ * @see SystemIntegratedIMPGetResponse21
  */
 class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

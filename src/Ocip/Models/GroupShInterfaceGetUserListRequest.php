@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupShInterfaceGetUserListRequest21sp1 in AS data mode.
+ *
+ * @see GroupShInterfaceGetUserListResponse
+ * @see ErrorResponse
+ * @see GroupShInterfaceGetUserListRequest21sp1
  */
 class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Hoteling Guest.
  *         The response is either a UserHotelingGuestGetResponse14sp4 or an
  * ErrorResponse.
+ *
+ * @see UserHotelingGuestGetResponse14sp4
+ * @see ErrorResponse
  */
 class UserHotelingGuestGetRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

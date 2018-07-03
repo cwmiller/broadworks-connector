@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemNetworkServerSyncParametersGetListRequest.
  *         Contains a list of system Network Server Sync parameters.
+ *
+ * @see SystemNetworkServerSyncParametersGetListRequest
  */
 class SystemNetworkServerSyncParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

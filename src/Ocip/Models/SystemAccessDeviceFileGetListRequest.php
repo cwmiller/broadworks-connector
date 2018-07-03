@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The response is either SystemAccessDeviceFileGetListResponse or
  * ErrorResponse.
  *           Replaced By: SystemAccessDeviceFileGetListRequest14sp8
+ *
+ * @see SystemAccessDeviceFileGetListResponse
+ * @see ErrorResponse
+ * @see SystemAccessDeviceFileGetListRequest14sp8
  */
 class SystemAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -31,6 +31,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            defaultExternalRoutingAddress
  *            
  *         Replaced by: SystemVoiceMessagingGroupGetResponse21
+ *
+ * @see SystemVoiceMessagingGroupGetRequest20
+ * @see SystemVoiceMessagingGroupGetResponse21
  */
 class SystemVoiceMessagingGroupGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

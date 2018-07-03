@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the list of access devices in a service provider.
  *         The response is either ServiceProviderAccessDeviceGetListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderAccessDeviceGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

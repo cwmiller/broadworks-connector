@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * PublicClusterGetFullyQualifiedDomainNameResponse
  *         or an ErrorResponse.
+ *
+ * @see PublicClusterGetFullyQualifiedDomainNameResponse
+ * @see ErrorResponse
  */
 class PublicClusterGetFullyQualifiedDomainNameRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Administrators (Group and Department) and Users.
  *         The response is either ServiceProviderPasswordRulesGetResponse22 or
  * ErrorResponse.
+ *
+ * @see ServiceProviderPasswordRulesGetResponse22
+ * @see ErrorResponse
  */
 class ServiceProviderPasswordRulesGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the distinctive ringing configuration values for call center.
  *         The response is either a GroupCallCenterGetDistinctiveRingingResponse 
  *         or an ErrorResponse.
+ *
+ * @see GroupCallCenterGetDistinctiveRingingResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterGetDistinctiveRingingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

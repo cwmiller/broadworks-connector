@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a system Security Classification.
  *         The response is either
  * SystemSecurityClassificationGetClassificationResponse or ErrorResponse.
+ *
+ * @see SystemSecurityClassificationGetClassificationResponse
+ * @see ErrorResponse
  */
 class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

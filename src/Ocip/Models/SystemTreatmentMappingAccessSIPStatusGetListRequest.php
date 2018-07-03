@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either an
  * SystemTreatmentMappingAccessSIPStatusGetListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemTreatmentMappingAccessSIPStatusGetListResponse
+ * @see ErrorResponse
  */
 class SystemTreatmentMappingAccessSIPStatusGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

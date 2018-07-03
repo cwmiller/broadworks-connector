@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringUserControlGetRequest.
  *         Contains the settings to whole system for Communication Barring
  * User-Control
+ *
+ * @see SystemCommunicationBarringUserControlGetRequest
  */
 class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

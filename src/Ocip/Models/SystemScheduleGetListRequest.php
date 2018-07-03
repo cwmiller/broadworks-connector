@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the list of a system schedules. The list can be filtered by schedule type.
  *         The response is either a SystemScheduleGetListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemScheduleGetListResponse
+ * @see ErrorResponse
  */
 class SystemScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

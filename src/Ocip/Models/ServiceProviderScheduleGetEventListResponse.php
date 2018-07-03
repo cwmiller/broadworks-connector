@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderScheduleGetEventListRequest.
  *         The response contains a list of events.
+ *
+ * @see ServiceProviderScheduleGetEventListRequest
  */
 class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user's Call Center Monitoring settings.
  *         The response is either a UserCallCenterMonitoringGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserCallCenterMonitoringGetResponse
+ * @see ErrorResponse
  */
 class UserCallCenterMonitoringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

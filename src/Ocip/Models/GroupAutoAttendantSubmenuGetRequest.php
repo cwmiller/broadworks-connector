@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         This request is only valid for Standard auto attendants.
  *         
  *         Replaced by: GroupAutoAttendantSubmenuGetRequest20 in AS data mode
+ *
+ * @see GroupAutoAttendantSubmenuGetResponse
+ * @see ErrorResponse
+ * @see GroupAutoAttendantSubmenuGetRequest20
  */
 class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

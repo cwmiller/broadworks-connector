@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * node.
  *         The response is either a SystemShInterfaceRefreshTaskGetResponse or an
  * ErrorResponse.
+ *
+ * @see SystemShInterfaceRefreshTaskGetResponse
+ * @see ErrorResponse
  */
 class SystemShInterfaceRefreshTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

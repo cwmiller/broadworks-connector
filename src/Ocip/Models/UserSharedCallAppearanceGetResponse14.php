@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The "Device Level" column contains one of the AccessDeviceLevel
  * enumerated constants.
  *         Replaced By: UserSharedCallAppearanceGetResponse14sp2
+ *
+ * @see UserSharedCallAppearanceGetRequest14
+ * @see UserSharedCallAppearanceGetResponse14sp2
  */
 class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

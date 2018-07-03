@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest.
  *         Contains a list of Peer SIP Connection Monitoring system parameters.
+ *
+ * @see SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest
  */
 class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          Columns for the mobileIdentity table are as follows: "Mobile Number",
  * "Description", "Country Code", "National Prefix", "Is Primary", "Enable
  * Alerting".
+ *
+ * @see UserBroadWorksMobilityGetRequest21sp1
  */
 class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of DNIS that are configured for a Route Point.
  *         The response is either GroupRoutePointGetDNISListResponse or
  * ErrorResponse.
+ *
+ * @see GroupRoutePointGetDNISListResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointGetDNISListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

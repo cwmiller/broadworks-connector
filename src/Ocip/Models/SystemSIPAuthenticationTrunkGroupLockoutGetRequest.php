@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get sip authentication trunk group lockout data in the system.
  *          The response is either a
  * SystemSIPAuthenticationTrunkGroupLockoutGetResponse or an ErrorResponse.
+ *
+ * @see SystemSIPAuthenticationTrunkGroupLockoutGetResponse
+ * @see ErrorResponse
  */
 class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

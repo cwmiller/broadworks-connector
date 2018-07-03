@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the list of group users for a file repository in the system.
  *         The response is either a GroupFileRepositoryDeviceUserGetListResponse or
  * an ErrorResponse.
+ *
+ * @see GroupFileRepositoryDeviceUserGetListResponse
+ * @see ErrorResponse
  */
 class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

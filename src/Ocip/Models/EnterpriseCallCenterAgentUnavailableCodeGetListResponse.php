@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseCallCenterAgentUnavailableCodeGetListRequest.
  *         Contains a table with column headings: "Is Active", "Code",
  * "Description".
+ *
+ * @see EnterpriseCallCenterAgentUnavailableCodeGetListRequest
  */
 class EnterpriseCallCenterAgentUnavailableCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

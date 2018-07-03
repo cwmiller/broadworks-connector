@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * System, on a per-group basis.
  *         The column headings are: "File Type", "File Format", "Is Authenticated".
  *         Replaced By: GroupDeviceTypeFileGetListResponse14sp8
+ *
+ * @see GroupDeviceTypeFileGetListRequest
+ * @see GroupDeviceTypeFileGetListResponse14sp8
  */
 class GroupDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

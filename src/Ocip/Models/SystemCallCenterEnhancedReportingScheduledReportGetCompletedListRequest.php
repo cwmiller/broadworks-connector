@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemCallCenterEnhancedReportingScheduledReportGetCompletedListResponse or an
  * ErrorResponse.
+ *
+ * @see SystemCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
+ * @see ErrorResponse
  */
 class SystemCallCenterEnhancedReportingScheduledReportGetCompletedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

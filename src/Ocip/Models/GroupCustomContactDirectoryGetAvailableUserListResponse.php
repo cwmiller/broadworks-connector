@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Name", 
  *         "Hiragana Last Name", "Hiragana First Name".
  *         Replace by: GroupCustomContactDirectoryGetAvailableUserListResponse17
+ *
+ * @see GroupCustomContactDirectoryGetAvailableUserListRequest
+ * @see GroupCustomContactDirectoryGetAvailableUserListResponse17
  */
 class GroupCustomContactDirectoryGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

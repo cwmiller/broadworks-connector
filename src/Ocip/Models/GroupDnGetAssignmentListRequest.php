@@ -13,6 +13,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *   
  *         Replaced by: GroupDnGetAssignmentListRequest18
+ *
+ * @see GroupDnGetAssignmentListResponse
+ * @see ErrorResponse
+ * @see GroupDnGetAssignmentListRequest18
  */
 class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

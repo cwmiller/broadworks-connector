@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemAdviceOfChargeCostInformationSourceGetListRequest.
  *         Contains a table with column headings: "PeerIdentity", "Priority"
+ *
+ * @see SystemAdviceOfChargeCostInformationSourceGetListRequest
  */
 class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

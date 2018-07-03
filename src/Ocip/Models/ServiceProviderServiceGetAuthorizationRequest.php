@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * service or service pack.
  *         The response is either ServiceProviderServiceGetAuthorizationResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderServiceGetAuthorizationResponse
+ * @see ErrorResponse
  */
 class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in a row for each collaborate room instance.  
  *         Possible values for Room Type column are MyRoom, Project Room and
  *         Instant Room.
+ *
+ * @see UserCollaborateRoomListGetRequest
  */
 class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemExpensiveCallNotificationGetResponse
  *
  * Response to SystemExpensiveCallNotificationGetRequest.
+ *
+ * @see SystemExpensiveCallNotificationGetRequest
  */
 class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            includeHuntGroupNameInCLID
  *            applyGroupBusyWhenTerminatingToAgent
  *            networkClassOfService
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

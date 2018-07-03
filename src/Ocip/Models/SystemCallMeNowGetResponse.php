@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallMeNowGetResponse
  *
  * Response to SystemCallMeNowGetRequest.
+ *
+ * @see SystemCallMeNowGetRequest
  */
 class SystemCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

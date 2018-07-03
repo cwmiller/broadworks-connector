@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Advice of Charge parameters.
  *         
  *         Replaced by: SystemAdviceOfChargeGetResponse19sp1
+ *
+ * @see SystemAdviceOfChargeGetRequest
+ * @see SystemAdviceOfChargeGetResponse19sp1
  */
 class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

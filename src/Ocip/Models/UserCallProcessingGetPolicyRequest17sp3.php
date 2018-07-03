@@ -11,6 +11,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           ErrorResponse.
  *           
  *           Replaced by: UserCallProcessingGetPolicyRequest17Sp4
+ *
+ * @see UserCallProcessingGetPolicyResponse17sp3
+ * @see ErrorResponse
+ * @see UserCallProcessingGetPolicyRequest17
  */
 class UserCallProcessingGetPolicyRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or an
  *         ErrorResponse.
  *         Replaced by: UserThirdPartyVoiceMailSupportGetRequest17
+ *
+ * @see UserThirdPartyVoiceMailSupportGetResponse13
+ * @see ErrorResponse
+ * @see UserThirdPartyVoiceMailSupportGetRequest17
  */
 class UserThirdPartyVoiceMailSupportGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

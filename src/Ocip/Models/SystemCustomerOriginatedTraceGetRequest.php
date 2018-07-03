@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the system level data associated with Customer Originated Trace.
  *         The response is either a SystemCustomerOriginatedTraceGetResponse or an
  *         ErrorResponse.
+ *
+ * @see SystemCustomerOriginatedTraceGetResponse
+ * @see ErrorResponse
  */
 class SystemCustomerOriginatedTraceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get all the current and past call centers for the group.
  *         The response is either
  * GroupCallCenterCurrentAndPastCallCenterGetListResponse or ErrorResponse.
+ *
+ * @see GroupCallCenterCurrentAndPastCallCenterGetListResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

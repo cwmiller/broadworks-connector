@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced By: ServiceProviderServicePackMigrationTaskAddRequest21 in AS
  * data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see ServiceProviderServicePackMigrationTaskAddRequest21
  */
 class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

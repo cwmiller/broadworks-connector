@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderHPBXAlternateCarrierSelectionGetResponse
  *
  * Response to the ServiceProviderHPBXAlternateCarrierSelectionGetRequest.
+ *
+ * @see ServiceProviderHPBXAlternateCarrierSelectionGetRequest
  */
 class ServiceProviderHPBXAlternateCarrierSelectionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

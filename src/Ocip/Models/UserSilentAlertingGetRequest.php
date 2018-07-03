@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user level data associated with Silent Alerting service.
  *         The response is either a UserSilentAlertingGetResponse or an
  *         ErrorResponse.
+ *
+ * @see UserSilentAlertingGetResponse
+ * @see ErrorResponse
  */
 class UserSilentAlertingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

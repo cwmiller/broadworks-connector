@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
  *         Replaced by: UserInterceptUserModifyResponse21sp1 in AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see UserInterceptUserModifyResponse21sp1
  */
 class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

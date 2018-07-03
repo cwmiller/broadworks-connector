@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
  *         Replaced by: SystemCallRecordingAddPlatformRequest20
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemCallRecordingAddPlatformRequest20
  */
 class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

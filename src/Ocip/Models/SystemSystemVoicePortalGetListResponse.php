@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are "Default", "System Voice Portal Id", "Name",
  * "Network Voice Portal Number", "System Voice Portal Number" and "Language".
  *         The possible values for "Default" are true, false.
+ *
+ * @see SystemSystemVoicePortalGetListRequest
  */
 class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

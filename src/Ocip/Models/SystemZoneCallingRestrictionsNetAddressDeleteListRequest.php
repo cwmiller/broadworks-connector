@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Deletes a list of IP addresses from a zone
  *         The response is SuccessResponse or an ErrorResponse.
  *         Replaced by: SystemZoneNetAddressDeleteListRequest
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemZoneNetAddressDeleteListRequest
  */
 class SystemZoneCallingRestrictionsNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

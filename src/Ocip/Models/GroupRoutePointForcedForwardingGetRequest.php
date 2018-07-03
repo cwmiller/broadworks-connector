@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a route point's forced forwarding settings.
  *         The response is either a GroupRoutePointForcedForwardingGetResponse or
  * an ErrorResponse.
+ *
+ * @see GroupRoutePointForcedForwardingGetResponse
+ * @see ErrorResponse
  */
 class GroupRoutePointForcedForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPrimaryEndpointAdvancedSettingGetResponse
  *
  * Response to the UserPrimaryEndpointAdvancedSettingGetRequest.
+ *
+ * @see UserPrimaryEndpointAdvancedSettingGetRequest
  */
 class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

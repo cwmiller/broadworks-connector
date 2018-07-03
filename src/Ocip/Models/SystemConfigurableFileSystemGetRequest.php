@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the File System parameters.
  *         The response is either SystemConfigurableFileSystemGetResponse or
  * ErrorResponse.
+ *
+ * @see SystemConfigurableFileSystemGetResponse
+ * @see ErrorResponse
  */
 class SystemConfigurableFileSystemGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings: "Service User Id", "Phone
  * Number", 
  *         "Extension", "Type" and "Priority".
+ *
+ * @see UserCallCenterGetSupervisorCallCenterListRequest
  */
 class UserCallCenterGetSupervisorCallCenterListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

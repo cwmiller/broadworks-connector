@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PublicClusterGetFullyQualifiedDomainNameResponse
  *
  * Response to PublicClusterGetFullyQualifiedDomainNameRequest.
+ *
+ * @see PublicClusterGetFullyQualifiedDomainNameRequest
  */
 class PublicClusterGetFullyQualifiedDomainNameResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

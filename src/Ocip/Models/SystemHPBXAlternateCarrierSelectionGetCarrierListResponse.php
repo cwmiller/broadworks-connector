@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          "Carrier Name", "Carrier Prefix", "Carrier Domain", "Carrier Type"
  *         The possible values for Carrier Type are "Local And Distant" and
  * "Distant".
+ *
+ * @see SystemHPBXAlternateCarrierSelectionGetCarrierListRequest
  */
 class SystemHPBXAlternateCarrierSelectionGetCarrierListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

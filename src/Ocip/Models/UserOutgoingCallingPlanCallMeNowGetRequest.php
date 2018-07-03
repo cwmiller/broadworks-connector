@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the Call Me Now call permissions for a user.
  *         The response is either a UserOutgoingCallingPlanCallMeNowGetResponse or
  * an ErrorResponse.
+ *
+ * @see UserOutgoingCallingPlanCallMeNowGetResponse
+ * @see ErrorResponse
  */
 class UserOutgoingCallingPlanCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

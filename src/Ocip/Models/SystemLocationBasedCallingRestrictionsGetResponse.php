@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemLocationBasedCallingRestrictionsGetRequest.
  *         
  *         Replaced by: SystemLocationBasedCallingRestrictionsGetResponse17sp3
+ *
+ * @see SystemLocationBasedCallingRestrictionsGetRequest
+ * @see SystemLocationBasedCallingRestrictionsGetResponse17sp3
  */
 class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

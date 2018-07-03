@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Level".
  *         Level column can be any of the values in the data type
  * CallDispositionCodeLevel.
+ *
+ * @see UserRoutePointCallDispositionCodeGetAvailableListRequest
  */
 class UserRoutePointCallDispositionCodeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

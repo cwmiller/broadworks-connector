@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *       Contains a table with column headings: "Name", "Subscriber Id", "Channel
  * Set Id", "Status".
  *       The column values for "Status" can either be "ready" or "notReady".
+ *
+ * @see SystemApplicationControllerGetListRequest
  */
 class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

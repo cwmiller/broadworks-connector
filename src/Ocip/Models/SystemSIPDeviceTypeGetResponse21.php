@@ -21,6 +21,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           supportCauseParameter - value false is returned in XS data mode
  *         Replaced by: SystemSIPDeviceTypeGetResponse21Sp1
+ *
+ * @see SystemSIPDeviceTypeGetRequest21
+ * @see SystemSIPDeviceTypeGetResponse21
  */
 class SystemSIPDeviceTypeGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

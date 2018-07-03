@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           - enableCallRecordingAnnouncement
  *           - enableRecordCallRepeatWarningTone
  *           - recordCallRepeatWarningToneTimerSeconds
+ *
+ * @see UserCallRecordingGetResponse20
+ * @see ErrorResponse
  */
 class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

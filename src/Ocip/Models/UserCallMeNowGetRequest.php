@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the user's call me now service setting.
  *         The response is either a UserCallMeNowGetResponse or an ErrorResponse.
+ *
+ * @see UserCallMeNowGetResponse
+ * @see ErrorResponse
  */
 class UserCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

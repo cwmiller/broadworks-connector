@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetCallProcessingParametersResponse17sp4
  *
  * Response to the SystemSubscriberGetCallProcessingParametersRequest17sp4.
+ *
+ * @see SystemSubscriberGetCallProcessingParametersRequest17sp4
  */
 class SystemSubscriberGetCallProcessingParametersResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

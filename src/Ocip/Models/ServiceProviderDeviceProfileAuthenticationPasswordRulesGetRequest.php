@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse or an
  * ErrorResponse.
+ *
+ * @see ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

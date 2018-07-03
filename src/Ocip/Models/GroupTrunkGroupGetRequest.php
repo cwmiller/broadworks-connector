@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the maximum permissible active trunk group calls for the group.
  *         The response is either a GroupTrunkGroupGetResponse or an ErrorResponse.
+ *
+ * @see GroupTrunkGroupGetResponse
+ * @see ErrorResponse
  */
 class GroupTrunkGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

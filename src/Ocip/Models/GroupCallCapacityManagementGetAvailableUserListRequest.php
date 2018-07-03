@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         by not setting the name.
  *         The response is either
  * GroupCallCapacityManagementGetAvailableUserListResponse or ErrorResponse.
+ *
+ * @see GroupCallCapacityManagementGetAvailableUserListResponse
+ * @see ErrorResponse
  */
 class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

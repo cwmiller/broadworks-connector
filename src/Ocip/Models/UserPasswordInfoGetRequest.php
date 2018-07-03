@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the user's Web password information.
  *         The response is either a UserPasswordInfoGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserPasswordInfoGetResponse
+ * @see ErrorResponse
  */
 class UserPasswordInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

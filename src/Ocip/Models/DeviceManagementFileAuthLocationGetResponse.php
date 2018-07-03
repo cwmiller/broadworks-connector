@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Return the address and credentials of the File Repository hosting the requested
  * access device file. Also return the file name and path on the File Repository.
  * This is a response to DeviceManagementFileAuthLocationGetRequest.
+ *
+ * @see DeviceManagementFileAuthLocationGetRequest
  */
 class DeviceManagementFileAuthLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

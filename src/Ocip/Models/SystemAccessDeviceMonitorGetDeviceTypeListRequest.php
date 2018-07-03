@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of monitored device types.
  *         The response is either a
  * SystemAccessDeviceMonitorGetDeviceTypeListResponse or an ErrorResponse.
+ *
+ * @see SystemAccessDeviceMonitorGetDeviceTypeListResponse
+ * @see ErrorResponse
  */
 class SystemAccessDeviceMonitorGetDeviceTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -18,6 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * possessing the number range belongs to. 
  *         The "Is Active" column indicates if the number prefix has been
  * activated.
+ *
+ * @see GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * ServiceProviderOfficeZoneGetAssignedGroupListResponse 
  *         or an ErrorResponse.
+ *
+ * @see ServiceProviderOfficeZoneGetAssignedGroupListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderOfficeZoneGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

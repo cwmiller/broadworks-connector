@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the custom configuration tag set defined at the access device.
  *         The response is either GroupAccessDeviceTagSetGetResponse or
  * ErrorResponse.
+ *
+ * @see GroupAccessDeviceTagSetGetResponse
+ * @see ErrorResponse
  */
 class GroupAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

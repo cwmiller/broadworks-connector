@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemTreatmentMappingCallBlockingServicesGetListResponse22
  *         or an ErrorResponse.
+ *
+ * @see SystemTreatmentMappingCallBlockingServicesGetListResponse22
+ * @see ErrorResponse
  */
 class SystemTreatmentMappingCallBlockingServiceGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

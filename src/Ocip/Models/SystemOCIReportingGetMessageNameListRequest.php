@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of restricted messages from a host in the OCI Reporting
  *         Access Control List. The response is either a
  *         SystemOCIReportingGetMessageNameListResponse or an ErrorResponse.
+ *
+ * @see SystemOCIReportingGetMessageNameListResponse
+ * @see ErrorResponse
  */
 class SystemOCIReportingGetMessageNameListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

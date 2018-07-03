@@ -14,6 +14,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          "Type", and "Priority".
  *         
  *         Replaced by UserCallCenterGetResponse19
+ *
+ * @see UserCallCenterGetRequest17sp4
+ * @see UserCallCenterGetResponse19
  */
 class UserCallCenterGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse22
  *
  * Response to SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22.
+ *
+ * @see SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22
  */
 class SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

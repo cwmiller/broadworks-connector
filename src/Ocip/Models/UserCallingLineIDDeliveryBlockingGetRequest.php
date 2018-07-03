@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallingLineIDDeliveryBlockingGetResponse or
  * an
  *         ErrorResponse.
+ *
+ * @see UserCallingLineIDDeliveryBlockingGetResponse
+ * @see ErrorResponse
  */
 class UserCallingLineIDDeliveryBlockingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

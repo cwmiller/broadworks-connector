@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserDevicePoliciesGetRequest19sp1.
  * enableDeviceFeatureSynchronization is ignored by the application server in
  * Multiple User Shared mode.
+ *
+ * @see UserDevicePoliciesGetRequest19sp1
  */
 class UserDevicePoliciesGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

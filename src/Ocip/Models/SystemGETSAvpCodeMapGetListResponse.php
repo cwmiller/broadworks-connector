@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemGETSAvpCodeMapGetListRequest. 
  *         The table columns are: "AVP Code" and "Vendor ID".
+ *
+ * @see SystemGETSAvpCodeMapGetListRequest
  */
 class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

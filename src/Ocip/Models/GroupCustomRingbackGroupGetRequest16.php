@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupCustomRingbackGroupGetRequest20 in AS data mode
+ *
+ * @see GroupCustomRingbackGroupGetResponse16
+ * @see ErrorResponse
+ * @see GroupCustomRingbackGroupGetRequest20
  */
 class GroupCustomRingbackGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

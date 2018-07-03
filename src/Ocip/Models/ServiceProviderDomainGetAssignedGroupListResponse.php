@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDomainGetAssignedGroupListRequest.
  *         Contains a table with column headings: "Group Id", "Group Name"
  *         and a row for each group.
+ *
+ * @see ServiceProviderDomainGetAssignedGroupListRequest
  */
 class ServiceProviderDomainGetAssignedGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

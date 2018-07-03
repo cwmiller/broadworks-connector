@@ -11,6 +11,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is a UserGetLoginInfoResponse or an ErrorResponse
  *         
  *         Replaced by UserGetLoginInfoRequest22.
+ *
+ * @see UserGetLoginInfoRequest
+ * @see UserGetLoginInfoResponse
+ * @see ErrorResponse
+ * @see UserGetLoginInfoRequest22
  */
 class UserGetLoginInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

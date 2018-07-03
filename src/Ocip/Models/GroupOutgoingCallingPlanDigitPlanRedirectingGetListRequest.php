@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * it's departments.
  *         The response is either a
  * GroupOutgoingCallingPlanDigitPlanRedirectingGetListResponse or an ErrorResponse.
+ *
+ * @see GroupOutgoingCallingPlanDigitPlanRedirectingGetListResponse
+ * @see ErrorResponse
  */
 class GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

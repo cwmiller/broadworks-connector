@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseCallCenterEnhancedReportingGetRequest.
  *         
  *         Replaced by EnterpriseCallCenterEnhancedReportingGetResponse19
+ *
+ * @see EnterpriseCallCenterEnhancedReportingGetRequest
+ * @see EnterpriseCallCenterEnhancedReportingGetResponse19
  */
 class EnterpriseCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

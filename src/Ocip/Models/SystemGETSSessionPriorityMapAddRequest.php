@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Add a GETS Session Priority map.  It maps a priority level with a session
  * priority AVP value.
  *         The response is either SuccessResponse or ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemGETSSessionPriorityMapAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

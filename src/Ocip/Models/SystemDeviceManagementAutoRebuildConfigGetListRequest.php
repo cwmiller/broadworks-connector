@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         automatic rebuild event or not.
  *         The response is either a
  * SystemDeviceManagementAutoRebuildConfigGetListResponse or an ErrorResponse.
+ *
+ * @see SystemDeviceManagementAutoRebuildConfigGetListResponse
+ * @see ErrorResponse
  */
 class SystemDeviceManagementAutoRebuildConfigGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

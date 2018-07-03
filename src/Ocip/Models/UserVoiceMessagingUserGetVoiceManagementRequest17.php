@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's voice messaging voice management service settings.
  *         The response is either a
  * UserVoiceMessagingUserGetVoiceManagementResponse17 or an ErrorResponse.
+ *
+ * @see UserVoiceMessagingUserGetVoiceManagementResponse17
+ * @see ErrorResponse
  */
 class UserVoiceMessagingUserGetVoiceManagementRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

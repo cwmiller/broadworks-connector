@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Use Custom Settings".
  *         "Use Custom Settings" is "true" or "false".
  *         "Phone Number" is presented in the E164 format.
+ *
+ * @see EnterpriseUserCallingPlanSettingsGetListRequest
  */
 class EnterpriseUserCallingPlanSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

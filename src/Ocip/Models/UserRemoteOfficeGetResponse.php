@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserRemoteOfficeGetResponse
  *
  * Response to UserRemoteOfficeGetRequest.
+ *
+ * @see UserRemoteOfficeGetRequest
  */
 class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

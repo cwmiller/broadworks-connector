@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Both executive and the executive assistant can run this command.
  *         The response is either UserExecutiveGetFilteringResponse or
  * ErrorResponse.
+ *
+ * @see UserExecutiveGetFilteringResponse
+ * @see ErrorResponse
  */
 class UserExecutiveGetFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

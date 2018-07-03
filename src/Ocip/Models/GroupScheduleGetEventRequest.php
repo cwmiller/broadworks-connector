@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get an event from a group schedule.
  *         The response is either a GroupScheduleGetEventResponse or an
  * ErrorResponse.
+ *
+ * @see GroupScheduleGetEventResponse
+ * @see ErrorResponse
  */
 class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

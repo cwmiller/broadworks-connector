@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: SystemTreatmentMappingCallBlockingServiceDeleteRequest22 in
  * AS data mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemTreatmentMappingCallBlockingServiceDeleteRequest22
  */
 class SystemTreatmentMappingCallBlockingServiceDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

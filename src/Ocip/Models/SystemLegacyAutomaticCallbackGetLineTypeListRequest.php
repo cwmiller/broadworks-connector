@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * SystemLegacyAutomaticCallbackGetTypeLineListResponse or 
  *         an ErrorResponse.
+ *
+ * @see SystemLegacyAutomaticCallbackGetTypeLineListResponse
+ * @see ErrorResponse
  */
 class SystemLegacyAutomaticCallbackGetLineTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

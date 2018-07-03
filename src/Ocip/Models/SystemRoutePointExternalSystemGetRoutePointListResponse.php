@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRoutePointExternalSystemGetRoutePointListResponse
  *
  * Response to the SystemRoutePointExternalSystemGetRoutePointListRequest.
+ *
+ * @see SystemRoutePointExternalSystemGetRoutePointListRequest
  */
 class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

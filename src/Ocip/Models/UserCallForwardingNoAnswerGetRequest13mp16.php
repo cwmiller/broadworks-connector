@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallForwardingNoAnswerGetResponse13mp16 or
  * an
  *         ErrorResponse.
+ *
+ * @see UserCallForwardingNoAnswerGetResponse13
+ * @see ErrorResponse
  */
 class UserCallForwardingNoAnswerGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderDnGetSummaryListRequest.
  *         The column headings are "Phone Numbers, "Group Id" and "Can Delete"
+ *
+ * @see ServiceProviderDnGetSummaryListRequest
  */
 class ServiceProviderDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

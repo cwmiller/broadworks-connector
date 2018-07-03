@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetAdvancedVoiceManagementResponse or an ErrorResponse.
  *         Replaced By:
  * UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3
+ *
+ * @see UserVoiceMessagingUserGetAdvancedVoiceManagementResponse
+ * @see ErrorResponse
+ * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

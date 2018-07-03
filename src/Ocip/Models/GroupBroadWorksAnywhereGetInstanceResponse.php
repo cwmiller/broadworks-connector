@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupBroadWorksAnywhereGetInstanceRequest.
  *         Contains the service profile information.
+ *
+ * @see GroupBroadWorksAnywhereGetInstanceRequest
  */
 class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

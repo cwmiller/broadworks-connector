@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the group's passcode rules setting.
  *         The response is either GroupPortalPasscodeRulesGetResponse or
  * ErrorResponse.
+ *
+ * @see GroupPortalPasscodeRulesGetResponse
+ * @see ErrorResponse
  */
 class GroupPortalPasscodeRulesGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

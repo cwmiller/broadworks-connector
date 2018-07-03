@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request user's attendant console settings.
  *         The response is either a UserAttendantConsoleGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserAttendantConsoleGetResponse
+ * @see ErrorResponse
  */
 class UserAttendantConsoleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

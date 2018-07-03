@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: GroupMeetMeConferencingGetInstanceRequest19sp1
+ *
+ * @see GroupMeetMeConferencingGetInstanceResponse19
+ * @see ErrorResponse
+ * @see GroupMeetMeConferencingGetInstanceRequest19sp1
  */
 class GroupMeetMeConferencingGetInstanceRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

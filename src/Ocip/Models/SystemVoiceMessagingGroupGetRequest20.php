@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemVoiceMessagingGroupGetResponse20 or an
  * ErrorResponse.
  *         Replaced by: SystemVoiceMessagingGroupGetRequest21
+ *
+ * @see SystemVoiceMessagingGroupGetResponse20
+ * @see ErrorResponse
+ * @see SystemVoiceMessagingGroupGetRequest21
  */
 class SystemVoiceMessagingGroupGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

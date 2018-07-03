@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Department", "Phone Number", "Email Address", "Service Provider Id", 
  *         "Group Id", "Hiragana Last Name" and "Hiragana First Name" ,
  * "Extension".
+ *
+ * @see GroupNetworkClassOfServiceGetAssignedUserListRequest
  */
 class GroupNetworkClassOfServiceGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

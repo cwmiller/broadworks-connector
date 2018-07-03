@@ -29,6 +29,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following columns are returned in AS data mode only:
  *           "Service Name"
+ *
+ * @see EnterprisePhoneDirectoryGetListRequest18
  */
 class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

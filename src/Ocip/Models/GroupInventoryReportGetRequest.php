@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the group's inventory report.
  *         The response is either a GroupInventoryReportGetResponse or an
  * ErrorResponse.
+ *
+ * @see GroupInventoryReportGetResponse
+ * @see ErrorResponse
  */
 class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

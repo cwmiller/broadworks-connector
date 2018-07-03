@@ -18,6 +18,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: SystemCommunicationBarringProfileAddRequest19sp1 in AS data
  * mode
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see SystemCommunicationBarringProfileAddRequest19sp1
  */
 class SystemCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAlternateNumbersGetResponse21
  *
  * Response to UserAlternateNumbersGetRequest21.
+ *
+ * @see UserAlternateNumbersGetRequest21
  */
 class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

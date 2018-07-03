@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSIPGetContentTypeListRequest.
  *         Returns a 2 column table with column headings:
  *           "Content Type" and "Supported Interface".
+ *
+ * @see SystemSIPGetContentTypeListRequest
  */
 class SystemSIPGetContentTypeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

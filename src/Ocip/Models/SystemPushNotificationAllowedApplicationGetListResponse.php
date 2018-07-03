@@ -9,6 +9,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with a row for each allowed push notification
  * application with columns:
  *         "Application Id", "Description"
+ *
+ * @see SystemPushNotificationAllowedApplicationGetListRequest
  */
 class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

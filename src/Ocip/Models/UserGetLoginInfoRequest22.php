@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         either by a userId, dn or lineport.  The phone number may be any
  *         DN associated with a user.
  *         The response is a UserGetLoginInfoResponse22 or an ErrorResponse
+ *
+ * @see UserGetLoginInfoRequest22
+ * @see UserGetLoginInfoResponse22
+ * @see ErrorResponse
  */
 class UserGetLoginInfoRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

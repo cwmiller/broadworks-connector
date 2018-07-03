@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserScheduleGetEventListRequest.
  *         The response contains a list of events.
+ *
+ * @see UserScheduleGetEventListRequest
  */
 class UserScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * "Department", "Is Active".
  *         The column values for "Video" and "Is Active" can either be true, or
  * false.
+ *
+ * @see GroupRoutePointGetInstanceListRequest
  */
 class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

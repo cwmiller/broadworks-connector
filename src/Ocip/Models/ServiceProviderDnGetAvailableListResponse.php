@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderDnGetAvailableListRequest.
  *         Contains a list of available DNs not yet assigned to any group.
+ *
+ * @see ServiceProviderDnGetAvailableListRequest
  */
 class ServiceProviderDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

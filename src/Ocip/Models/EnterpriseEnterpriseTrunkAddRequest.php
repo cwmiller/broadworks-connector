@@ -8,6 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to add an enterprise trunk in an enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         Replaced by: EnterpriseEnterpriseTrunkAddRequest21
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
+ * @see EnterpriseEnterpriseTrunkAddRequest21
  */
 class EnterpriseEnterpriseTrunkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

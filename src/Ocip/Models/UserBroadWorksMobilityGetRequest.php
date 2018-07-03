@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the user's broadworks mobility service settings.
  *         The response is either a UserBroadWorksMobilityGetResponse or an
  * ErrorResponse.
+ *
+ * @see UserBroadWorksMobilityGetResponse
+ * @see ErrorResponse
  */
 class UserBroadWorksMobilityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

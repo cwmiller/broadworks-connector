@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNumberPortabilityQueryDigitPatternGetResponse
  *
  * Response to the SystemNumberPortabilityQueryDigitPatternGetRequest.
+ *
+ * @see SystemNumberPortabilityQueryDigitPatternGetRequest
  */
 class SystemNumberPortabilityQueryDigitPatternGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

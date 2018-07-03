@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFaxMessagingGetResponse17sp1
  *
  * Response to UserFaxMessagingGetRequest17sp1.
+ *
+ * @see UserFaxMessagingGetRequest17sp1
  */
 class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

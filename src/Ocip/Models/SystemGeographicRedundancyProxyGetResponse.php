@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemGeographicRedundancyProxyGetRequest.
  *         Contains a list of Geographic Redundancy Proxy system parameters.
+ *
+ * @see SystemGeographicRedundancyProxyGetRequest
  */
 class SystemGeographicRedundancyProxyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

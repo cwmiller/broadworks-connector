@@ -16,6 +16,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * status which can be Awaiting edit, Pending, 
  *         Processing, Terminating, Terminated, Stopped by system, Completed, or
  * Expired.
+ *
+ * @see ServiceProviderServicePackMigrationTaskGetListRequest21
  */
 class ServiceProviderServicePackMigrationTaskGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

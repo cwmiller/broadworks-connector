@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMediaGroupCodecGetListRequest.
  *         Contains a table of media assigned to the media group.
  *         The column headings are: "Codec Name", "Codec Weight".
+ *
+ * @see SystemMediaGroupCodecGetListRequest
  */
 class SystemMediaGroupCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupAccessDeviceFileGetResponse14sp8 or
  * ErrorResponse.
  *         Replaced by: GroupAccessDeviceFileGetRequest16sp1
+ *
+ * @see GroupAccessDeviceFileGetResponse14sp8
+ * @see ErrorResponse
+ * @see GroupAccessDeviceFileGetRequest16sp1
  */
 class GroupAccessDeviceFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

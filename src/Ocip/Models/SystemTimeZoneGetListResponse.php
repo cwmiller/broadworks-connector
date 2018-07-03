@@ -11,6 +11,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for each time zone.
  *         
  *         Replaced by: SystemTimeZoneGetListResponse20 in AS data mode
+ *
+ * @see SystemTimeZoneGetListRequest
+ * @see SystemTimeZoneGetListResponse20
  */
 class SystemTimeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

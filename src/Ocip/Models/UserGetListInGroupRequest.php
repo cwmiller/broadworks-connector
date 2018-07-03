@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * rows returned.
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a UserGetListInGroupResponse or an ErrorResponse.
+ *
+ * @see UserGetListInGroupResponse
+ * @see ErrorResponse
  */
 class UserGetListInGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

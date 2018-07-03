@@ -14,6 +14,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following columns are only returned in AS data mode:   
  *           "Country Code", "National Prefix
+ *
+ * @see UserGetListInGroupRequest
  */
 class UserGetListInGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

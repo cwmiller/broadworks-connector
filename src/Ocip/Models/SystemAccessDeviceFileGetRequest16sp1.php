@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         
  *         Replaced by: SystemAccessDeviceFileGetRequest20
+ *
+ * @see SystemAccessDeviceFileGetResponse16sp1
+ * @see ErrorResponse
+ * @see SystemAccessDeviceFileGetRequest20
  */
 class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

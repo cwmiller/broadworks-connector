@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterComfortMessageBypassGetResponse20
  *
  * Response to the GroupCallCenterComfortMessageBypassGetRequest20.
+ *
+ * @see GroupCallCenterComfortMessageBypassGetRequest20
  */
 class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

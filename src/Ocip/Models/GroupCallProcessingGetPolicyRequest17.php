@@ -29,6 +29,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * allowEnterpriseGroupCallTypingForPublicDialingPlan,
  * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
  * enableEnterpriseExtensionDialing)
+ *
+ * @see GroupCallProcessingGetPolicyResponse17
+ * @see ErrorResponse
  */
 class GroupCallProcessingGetPolicyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

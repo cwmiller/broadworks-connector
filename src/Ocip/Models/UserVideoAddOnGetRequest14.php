@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *     
  *         Replaced by: UserVideoAddOnGetRequest19.
+ *
+ * @see UserVideoAddOnGetResponse14
+ * @see ErrorResponse
+ * @see UserVideoAddOnGetRequest19
  */
 class UserVideoAddOnGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

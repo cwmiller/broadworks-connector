@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemCommunicationBarringProfileGetRequest.
  *         The response contains the Communication Barring Profile information.
  *         Replaced by: SystemCommunicationBarringProfileGetResponse16
+ *
+ * @see SystemCommunicationBarringProfileGetRequest
+ * @see SystemCommunicationBarringProfileGetResponse16
  */
 class SystemCommunicationBarringProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

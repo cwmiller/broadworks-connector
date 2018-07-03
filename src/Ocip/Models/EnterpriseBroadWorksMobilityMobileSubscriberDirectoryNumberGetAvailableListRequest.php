@@ -10,6 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
  * or ErrorResponse.
+ *
+ * @see
+ * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
+ * @see ErrorResponse
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

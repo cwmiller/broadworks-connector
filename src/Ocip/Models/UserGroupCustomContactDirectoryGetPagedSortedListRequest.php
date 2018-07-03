@@ -23,6 +23,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         user sending the request is a the owner of this Receptionist Note and a
  * Note 
  *         exists.
+ *
+ * @see UserGroupCustomContactDirectoryGetPagedSortedListResponse
+ * @see ErrorResponse
+ * @see ErrorResponse
  */
 class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

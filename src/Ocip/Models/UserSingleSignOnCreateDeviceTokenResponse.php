@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSingleSignOnCreateDeviceTokenResponse
  *
  * Response to UserSingleSignOnCreateDeviceTokenRequest.
+ *
+ * @see UserSingleSignOnCreateDeviceTokenRequest
  */
 class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

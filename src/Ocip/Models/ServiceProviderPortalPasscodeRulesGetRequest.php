@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests the service provider's passcode rules setting.
  *         The response is either ServiceProviderPortalPasscodeRulesGetResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderPortalPasscodeRulesGetResponse
+ * @see ErrorResponse
  */
 class ServiceProviderPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

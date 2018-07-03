@@ -9,6 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupCustomRingbackGroupGetResponse or an
  * ErrorResponse.
  *         Replaced By: GroupCustomRingbackGroupGetRequest16
+ *
+ * @see GroupCustomRingbackGroupGetResponse
+ * @see ErrorResponse
+ * @see GroupCustomRingbackGroupGetRequest16
  */
 class GroupCustomRingbackGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

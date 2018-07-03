@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the settings for the busy lamp field service.
  *         The response is either a UserBusyLampFieldGetResponse16sp2 or an
  * ErrorResponse.
+ *
+ * @see UserBusyLampFieldGetResponse16sp2
+ * @see ErrorResponse
  */
 class UserBusyLampFieldGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

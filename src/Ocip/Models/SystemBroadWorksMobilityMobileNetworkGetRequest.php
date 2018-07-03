@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a Mobile Network.
  *         The response is either SystemBroadWorksMobilityMobileNetworkGetResponse
  * or ErrorResponse.
+ *
+ * @see SystemBroadWorksMobilityMobileNetworkGetResponse
+ * @see ErrorResponse
  */
 class SystemBroadWorksMobilityMobileNetworkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

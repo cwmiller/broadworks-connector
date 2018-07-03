@@ -20,6 +20,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The Private Identity column is empty is AS mode.
  *         
  *         Replaced by: GroupAccessDeviceGetUserListResponse21sp1 in AS data mode.
+ *
+ * @see GroupAccessDeviceGetUserListRequest
+ * @see GroupAccessDeviceGetUserListResponse21sp1
  */
 class GroupAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

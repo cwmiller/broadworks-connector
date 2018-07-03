@@ -29,6 +29,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *          allowDepartmentCLIDNameOverride
  *         
  *         Replaced by: UserCallProcessingGetPolicyResponse21sp1
+ *
+ * @see UserCallProcessingGetPolicyRequest19sp1
+ * @see UserCallProcessingGetPolicyResponse21sp1
  */
 class UserCallProcessingGetPolicyResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

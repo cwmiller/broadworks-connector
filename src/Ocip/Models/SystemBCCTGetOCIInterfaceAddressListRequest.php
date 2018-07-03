@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * protocol to interface mapping list.
  *         The response is SystemBCCTGetOCIInterfaceAddressListResponse or
  * ErrorResponse.
+ *
+ * @see SystemBCCTGetOCIInterfaceAddressListResponse
+ * @see ErrorResponse
  */
 class SystemBCCTGetOCIInterfaceAddressListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

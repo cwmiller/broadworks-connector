@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to search endpoints in the service provider/enterprise.
  *         The response is either ServiceProviderEndpointGetListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderEndpointGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

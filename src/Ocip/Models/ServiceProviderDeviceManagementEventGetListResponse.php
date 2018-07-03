@@ -42,6 +42,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         event currently being processed or next in line to be processed.
  *         Deprecated by ServiceProviderDeviceManagementEventGetListResponse22 in
  * AS data mode.
+ *
+ * @see ServiceProviderDeviceManagementEventGetListRequest
+ * @see ServiceProviderDeviceManagementEventGetListResponse22
  */
 class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

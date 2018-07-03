@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Zone.
  *         The response is either a SystemOfficeZoneGetZoneUsageListResponse
  *         or an ErrorResponse.
+ *
+ * @see SystemOfficeZoneGetZoneUsageListResponse
+ * @see ErrorResponse
  */
 class SystemOfficeZoneGetZoneUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

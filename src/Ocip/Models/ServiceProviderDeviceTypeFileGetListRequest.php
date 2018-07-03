@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * System, on a per-service provider basis.
  *         The response is either ServiceProviderDeviceTypeFileGetListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderDeviceTypeFileGetListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDeviceTypeFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

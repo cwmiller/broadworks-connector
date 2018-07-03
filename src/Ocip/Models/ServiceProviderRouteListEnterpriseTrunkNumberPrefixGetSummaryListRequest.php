@@ -10,6 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

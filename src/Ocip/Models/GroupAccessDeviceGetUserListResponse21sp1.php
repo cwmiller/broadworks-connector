@@ -20,6 +20,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The value Mobility in Endpoint Type column is only applicable in AS data
  * mode.
  *         The Private Identity column is empty is AS mode.
+ *
+ * @see GroupAccessDeviceGetUserListRequest21sp1
  */
 class GroupAccessDeviceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

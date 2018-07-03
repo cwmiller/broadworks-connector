@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Dns assigned to the IMRN pool are not listed in the response.
  *         The response is either ServiceProviderDnGetAvailableListResponse or
  * ErrorResponse.
+ *
+ * @see ServiceProviderDnGetAvailableListResponse
+ * @see ErrorResponse
  */
 class ServiceProviderDnGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

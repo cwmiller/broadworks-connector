@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the group branding information.
  *         The response is either
  * GroupCallCenterEnhancedReportingBrandingGetResponse or ErrorResponse.
+ *
+ * @see GroupCallCenterEnhancedReportingBrandingGetResponse
+ * @see ErrorResponse
  */
 class GroupCallCenterEnhancedReportingBrandingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

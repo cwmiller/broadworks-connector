@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMigratedUsersGetListRequest.
  *         
  *          Replaced by: SystemMigratedUsersGetListResponse22 in AS data mode
+ *
+ * @see SystemMigratedUsersGetListRequest
+ * @see SystemMigratedUsersGetListResponse22
  */
 class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

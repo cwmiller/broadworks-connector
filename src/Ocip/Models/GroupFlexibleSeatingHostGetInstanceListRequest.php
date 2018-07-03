@@ -9,6 +9,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupFlexibleSeatingHostGetInstanceListResponse
  * or ErrorResponse.
  *         It is possible to get the instances within a specified department.
+ *
+ * @see GroupFlexibleSeatingHostGetInstanceListResponse
+ * @see ErrorResponse
  */
 class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

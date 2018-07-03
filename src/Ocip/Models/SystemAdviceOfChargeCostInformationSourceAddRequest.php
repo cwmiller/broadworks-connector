@@ -7,6 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a cost information source. The response is either SuccessResponse or
  * ErrorResponse.
+ *
+ * @see SuccessResponse
+ * @see ErrorResponse
  */
 class SystemAdviceOfChargeCostInformationSourceAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

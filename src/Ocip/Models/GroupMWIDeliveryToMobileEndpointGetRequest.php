@@ -8,6 +8,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests group MWI custom notifications settings.
  *         The response is either a GroupMWIDeliveryToMobileEndpointGetResponse or
  * an ErrorResponse.
+ *
+ * @see GroupMWIDeliveryToMobileEndpointGetResponse
+ * @see ErrorResponse
  */
 class GroupMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

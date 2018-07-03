@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSilentAlertingGetResponse
  *
  * Response to UserSilentAlertingGetRequest.
+ *
+ * @see UserSilentAlertingGetRequest
  */
 class UserSilentAlertingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

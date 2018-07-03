@@ -12,6 +12,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Start", "Number Range End" and "Is Active".
  *         
  *         Replaced by: UserRouteListGetResponse22
+ *
+ * @see UserRouteListGetRequest
+ * @see UserRouteListGetResponse22
  */
 class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

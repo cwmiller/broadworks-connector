@@ -12,6 +12,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         The following elements are only used in AS data mode:
  *         expressMode, value "false" is returned in XS data mode.
+ *
+ * @see GroupVoiceMessagingGroupGetVoicePortalRequest21sp1
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

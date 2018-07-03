@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallCenterGetResponse16
  *
  * Response to SystemCallCenterGetRequest16.
+ *
+ * @see SystemCallCenterGetRequest16
  */
 class SystemCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

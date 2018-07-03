@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * LoginRequest13mp10/Response13mp10 is 2nd stage of the 2 stage OCI login process.
  *
- * @see LoginRequest13
+ * @see LoginRequest13mp10
  */
 class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

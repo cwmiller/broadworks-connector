@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or ErrorResponse.
  *         Replaced By: GroupCallCenterGetInstanceStatisticsRequest14sp9
  *
- * @see GroupCallCenterGetInstanceStatisticsResponse13
+ * @see GroupCallCenterGetInstanceStatisticsResponse13mp8
  * @see ErrorResponse
  * @see GroupCallCenterGetInstanceStatisticsRequest14sp9
  */

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * or an ErrorResponse.
  *         Replaced By: UserVoiceMessagingUserGetGreetingRequest16
  *
- * @see UserVoiceMessagingUserGetGreetingResponse13
+ * @see UserVoiceMessagingUserGetGreetingResponse13mp16
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetGreetingRequest16
  */

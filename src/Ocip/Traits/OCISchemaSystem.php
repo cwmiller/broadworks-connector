@@ -305,7 +305,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyModifyAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionGetRequest13mp4;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionGetResponse13mp4;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetSummaryListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetSummaryListResponse;
@@ -349,7 +349,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationGetACLListRe
 use CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationGetACLListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationModifyACLEntryRequest14sp2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersGetRequest13mp13;
-use CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersGetResponse13mp13;
 use CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersModifyRequest13mp13;
 use CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeGetListRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeGetListResponse20;
@@ -2814,7 +2814,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDigitCollectionGetRequest13mp4 $request
-     * @return SystemDigitCollectionGetResponse13|ErrorResponse
+     * @return SystemDigitCollectionGetResponse13mp4|ErrorResponse
      */
     public function systemDigitCollectionGetRequest13mp4(\CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionGetRequest13mp4 $request)
     {
@@ -3093,7 +3093,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalEmergencyRoutingParametersGetRequest13mp13 $request
-     * @return SystemExternalEmergencyRoutingParametersGetResponse13|ErrorResponse
+     * @return SystemExternalEmergencyRoutingParametersGetResponse13mp13|ErrorResponse
      */
     public function systemExternalEmergencyRoutingParametersGetRequest13mp13(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersGetRequest13mp13 $request)
     {

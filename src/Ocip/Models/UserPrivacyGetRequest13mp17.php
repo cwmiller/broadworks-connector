@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserPrivacyGetResponse13mp17
  *         or an ErrorResponse.
  *
- * @see UserPrivacyGetResponse13
+ * @see UserPrivacyGetResponse13mp17
  * @see ErrorResponse
  */
 class UserPrivacyGetRequest13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

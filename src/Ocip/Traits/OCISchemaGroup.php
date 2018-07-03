@@ -164,7 +164,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyModifyAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionGetRequest13mp4;
-use CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionGetResponse13mp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnActivateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnAssignListRequest;
@@ -1368,7 +1368,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDigitCollectionGetRequest13mp4 $request
-     * @return GroupDigitCollectionGetResponse13|ErrorResponse
+     * @return GroupDigitCollectionGetResponse13mp4|ErrorResponse
      */
     public function groupDigitCollectionGetRequest13mp4(\CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionGetRequest13mp4 $request)
     {

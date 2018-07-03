@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *         Replaced by: UserThirdPartyVoiceMailSupportGetRequest17
  *
- * @see UserThirdPartyVoiceMailSupportGetResponse13
+ * @see UserThirdPartyVoiceMailSupportGetResponse13mp16
  * @see ErrorResponse
  * @see UserThirdPartyVoiceMailSupportGetRequest17
  */

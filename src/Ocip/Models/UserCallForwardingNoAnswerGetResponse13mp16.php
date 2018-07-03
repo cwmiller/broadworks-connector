@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserCallForwardingNoAnswerGetRequest13mp16.
  *
- * @see UserCallForwardingNoAnswerGetRequest13
+ * @see UserCallForwardingNoAnswerGetRequest13mp16
  */
 class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

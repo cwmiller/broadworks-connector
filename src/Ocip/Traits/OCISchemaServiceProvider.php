@@ -128,7 +128,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyGetResponse
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyModifyAccessCodeRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDialPlanPolicyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionGetRequest13mp4;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionGetResponse13mp4;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDnDeleteListRequest;
@@ -1084,7 +1084,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderDigitCollectionGetRequest13mp4 $request
-     * @return ServiceProviderDigitCollectionGetResponse13|ErrorResponse
+     * @return ServiceProviderDigitCollectionGetResponse13mp4|ErrorResponse
      */
     public function serviceProviderDigitCollectionGetRequest13mp4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDigitCollectionGetRequest13mp4 $request)
     {

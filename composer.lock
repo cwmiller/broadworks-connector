@@ -4,22 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9ca526a4a8d79daa8bb4f72a4b9302c0",
-    "content-hash": "d8a7c08bed46bec4641493abb70cec27",
+    "hash": "e22785d29746f38bc0f342d18cfff14c",
+    "content-hash": "f5037eb082149da5fcf5863d3d79d7c5",
     "packages": [],
     "packages-dev": [
         {
             "name": "cwm/broadworks-xsd-converter",
-            "version": "1.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cwmiller/broadworks-xsd-converter.git",
-                "reference": "9d8bbf8bea5c1c6f5fb0ac4adc99f9217c90ddbe"
+                "reference": "f39829a52b53c6b4a112f74b81ab33bb7b08cff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/9d8bbf8bea5c1c6f5fb0ac4adc99f9217c90ddbe",
-                "reference": "9d8bbf8bea5c1c6f5fb0ac4adc99f9217c90ddbe",
+                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/f39829a52b53c6b4a112f74b81ab33bb7b08cff4",
+                "reference": "f39829a52b53c6b4a112f74b81ab33bb7b08cff4",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
                 }
             ],
             "description": "Converts XSD files for BroadWorks APIs into PHP classes.",
-            "time": "2018-07-02 23:55:42"
+            "time": "2018-07-03 13:34:03"
         },
         {
             "name": "zendframework/zend-code",

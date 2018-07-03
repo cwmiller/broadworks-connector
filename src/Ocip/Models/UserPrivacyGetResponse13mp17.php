@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
- * @see UserPrivacyGetRequest13
+ * @see UserPrivacyGetRequest13mp17
  */
 class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

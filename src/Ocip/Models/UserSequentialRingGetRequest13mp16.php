@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         Replaced By: UserSequentialRingGetRequest14sp4
  *
- * @see UserSequentialRingGetResponse13
+ * @see UserSequentialRingGetResponse13mp16
  * @see ErrorResponse
  * @see UserSequentialRingGetRequest14sp4
  */

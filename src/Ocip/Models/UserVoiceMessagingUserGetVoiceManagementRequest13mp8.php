@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetVoiceManagementResponse13mp8 or an ErrorResponse.
  *         Replaced by: UserVoiceMessagingUserGetVoiceManagementRequest17
  *
- * @see UserVoiceMessagingUserGetVoiceManagementResponse13
+ * @see UserVoiceMessagingUserGetVoiceManagementResponse13mp8
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetVoiceManagementRequest17
  */

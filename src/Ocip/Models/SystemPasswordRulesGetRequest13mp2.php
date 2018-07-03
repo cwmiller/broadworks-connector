@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         Replaced By : SystemPasswordRulesGetRequest16
  *
- * @see SystemPasswordRulesGetResponse13
+ * @see SystemPasswordRulesGetResponse13mp2
  * @see ErrorResponse
  * @see SystemPasswordRulesGetRequest16
  */

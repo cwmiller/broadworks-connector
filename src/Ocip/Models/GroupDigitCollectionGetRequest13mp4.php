@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupDigitCollectionGetResponse13mp4 or an
  * ErrorResponse.
  *
- * @see GroupDigitCollectionGetResponse13
+ * @see GroupDigitCollectionGetResponse13mp4
  * @see ErrorResponse
  */
 class GroupDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

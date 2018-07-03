@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupDigitCollectionGetRequest13mp4.
  *
- * @see GroupDigitCollectionGetRequest13
+ * @see GroupDigitCollectionGetRequest13mp4
  */
 class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

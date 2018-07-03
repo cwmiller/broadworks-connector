@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The signedPassword is not required for external authentication login
  * from a trusted host (ACL).
  *
- * @see LoginRequest13
+ * @see LoginRequest13mp10
  */
 class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

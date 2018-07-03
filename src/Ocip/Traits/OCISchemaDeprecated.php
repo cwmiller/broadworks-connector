@@ -155,7 +155,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsRepo
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsReportingResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsRequest13mp8;
-use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsResponse13mp8;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetSupervisorListRequest;
@@ -562,12 +562,12 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListR
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeModifyListRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest13mp2;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse13mp2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest13mp2;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetResponse13mp2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPortalPasscodeRulesGetResponse;
@@ -859,7 +859,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingParametersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetRequest13mp2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetResponse13mp2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingGetResponse;
@@ -1252,7 +1252,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest13mp16;
-use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetResponse13mp16;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetResponse14;
@@ -1283,7 +1283,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingPersonalModifyReques
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetRequest13mp16;
-use CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetResponse13mp16;
 use CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTimeScheduleGetListRequest;
@@ -1296,11 +1296,11 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVideoAddOnGetResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest13mp16;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingResponse13mp16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementRequest13mp8;
-use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementResponse13mp8;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequest;
@@ -2108,7 +2108,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupCallCenterGetInstanceStatisticsRequest13mp8 $request
-     * @return GroupCallCenterGetInstanceStatisticsResponse13|ErrorResponse
+     * @return GroupCallCenterGetInstanceStatisticsResponse13mp8|ErrorResponse
      */
     public function groupCallCenterGetInstanceStatisticsRequest13mp8(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceStatisticsRequest13mp8 $request)
     {
@@ -4466,7 +4466,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param ServiceProviderGetRequest13mp2 $request
-     * @return ServiceProviderGetResponse13|ErrorResponse
+     * @return ServiceProviderGetResponse13mp2|ErrorResponse
      */
     public function serviceProviderGetRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest13mp2 $request)
     {
@@ -4493,7 +4493,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param ServiceProviderPasswordRulesGetRequest13mp2 $request
-     * @return ServiceProviderPasswordRulesGetResponse13|ErrorResponse
+     * @return ServiceProviderPasswordRulesGetResponse13mp2|ErrorResponse
      */
     public function serviceProviderPasswordRulesGetRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest13mp2 $request)
     {
@@ -6050,7 +6050,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemPasswordRulesGetRequest13mp2 $request
-     * @return SystemPasswordRulesGetResponse13|ErrorResponse
+     * @return SystemPasswordRulesGetResponse13mp2|ErrorResponse
      */
     public function systemPasswordRulesGetRequest13mp2(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetRequest13mp2 $request)
     {
@@ -8282,7 +8282,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserSequentialRingGetRequest13mp16 $request
-     * @return UserSequentialRingGetResponse13|ErrorResponse
+     * @return UserSequentialRingGetResponse13mp16|ErrorResponse
      */
     public function userSequentialRingGetRequest13mp16(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest13mp16 $request)
     {
@@ -8471,7 +8471,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserThirdPartyVoiceMailSupportGetRequest13mp16 $request
-     * @return UserThirdPartyVoiceMailSupportGetResponse13
+     * @return UserThirdPartyVoiceMailSupportGetResponse13mp16
      */
     public function userThirdPartyVoiceMailSupportGetRequest13mp16(\CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetRequest13mp16 $request)
     {
@@ -8543,7 +8543,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserVoiceMessagingUserGetGreetingRequest13mp16 $request
-     * @return UserVoiceMessagingUserGetGreetingResponse13|ErrorResponse
+     * @return UserVoiceMessagingUserGetGreetingResponse13mp16|ErrorResponse
      */
     public function userVoiceMessagingUserGetGreetingRequest13mp16(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest13mp16 $request)
     {
@@ -8561,7 +8561,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserVoiceMessagingUserGetVoiceManagementRequest13mp8 $request
-     * @return UserVoiceMessagingUserGetVoiceManagementResponse13|ErrorResponse
+     * @return UserVoiceMessagingUserGetVoiceManagementResponse13mp8|ErrorResponse
      */
     public function userVoiceMessagingUserGetVoiceManagementRequest13mp8(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementRequest13mp8 $request)
     {

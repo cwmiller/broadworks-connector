@@ -7,7 +7,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupServiceInstancePrivacyGetResponse17
 use CWM\BroadWorksConnector\Ocip\Models\GroupServiceInstancePrivacyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetAvailableMonitorsUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest13mp17;
-use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetResponse13mp17;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
@@ -44,7 +44,7 @@ trait OCISchemaServicePrivacy
 
     /**
      * @param UserPrivacyGetRequest13mp17 $request
-     * @return UserPrivacyGetResponse13
+     * @return UserPrivacyGetResponse13mp17
      */
     public function userPrivacyGetRequest13mp17(\CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest13mp17 $request)
     {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a ServiceProviderDigitCollectionGetResponse13mp4
  * or an ErrorResponse.
  *
- * @see ServiceProviderDigitCollectionGetResponse13
+ * @see ServiceProviderDigitCollectionGetResponse13mp4
  * @see ErrorResponse
  */
 class ServiceProviderDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

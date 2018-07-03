@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either
  * SystemExternalEmergencyRoutingParametersGetResponse13mp13 or ErrorResponse.
  *
- * @see SystemExternalEmergencyRoutingParametersGetResponse13
+ * @see SystemExternalEmergencyRoutingParametersGetResponse13mp13
  * @see ErrorResponse
  */
 class SystemExternalEmergencyRoutingParametersGetRequest13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExternalEmergencyRoutingParametersGetRequest13mp13.
  *         Contains a list of system External Emergency Routing parameters.
  *
- * @see SystemExternalEmergencyRoutingParametersGetRequest13
+ * @see SystemExternalEmergencyRoutingParametersGetRequest13mp13
  */
 class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

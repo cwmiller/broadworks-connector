@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: ServiceProviderGetRequest17sp1
  *
- * @see ServiceProviderGetResponse13
+ * @see ServiceProviderGetResponse13mp2
  * @see ErrorResponse
  * @see ServiceProviderGetRequest17sp1
  */

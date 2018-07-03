@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by: ServiceProviderGetResponse17sp1
  *
- * @see ServiceProviderGetRequest13
+ * @see ServiceProviderGetRequest13mp2
  * @see ServiceProviderGetResponse17sp1
  */
 class ServiceProviderGetResponse13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

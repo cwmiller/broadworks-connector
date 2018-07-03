@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *         Replaced By: ServiceProviderPasswordRulesGetRequest16
  *
- * @see ServiceProviderPasswordRulesGetResponse13
+ * @see ServiceProviderPasswordRulesGetResponse13mp2
  * @see ErrorResponse
  * @see ServiceProviderPasswordRulesGetRequest16
  */

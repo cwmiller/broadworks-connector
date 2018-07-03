@@ -9,10 +9,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * pool.
  *         The Dns are returned in a list of DNs or DN ranges and formated in E164
  * format for display.
- *         The response is either a GroupDnGetAvailableRangeListResponse or an
+ *         The response is either a GroupDnGetAvailableRangesListResponse or an
  * ErrorResponse.
  *
- * @see GroupDnGetAvailableRangeListResponse
+ * @see GroupDnGetAvailableRangesListResponse
  * @see ErrorResponse
  */
 class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

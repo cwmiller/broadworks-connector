@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetUserListRequest21sp1
  *
  * Requests the list of users on a specified device.
- *         The response is either ServiceProviderAccessDeviceGetResponse21sp1 or
+ *         The response is either ServiceProviderAccessDeviceGetUserListResponse21sp1 or
  * ErrorResponse.
  *         The following elements are only used in XS data mode and ignored in AS
  * data mode:
  *           searchCriteriaAccessDeviceEndpointPrivateIdentity
  *
- * @see ServiceProviderAccessDeviceGetResponse21sp1
+ * @see ServiceProviderAccessDeviceGetUserListResponse21sp1
  * @see ErrorResponse
  */
 class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

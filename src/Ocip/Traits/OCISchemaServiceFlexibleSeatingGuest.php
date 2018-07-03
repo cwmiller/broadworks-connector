@@ -19,7 +19,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesG
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingHostRoutingPoliciesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestModifyRequest;
@@ -130,7 +130,7 @@ trait OCISchemaServiceFlexibleSeatingGuest
 
     /**
      * @param UserFlexibleSeatingGuestGetAvailableHostListRequest $request
-     * @return UserFlexibleSeatingGuestGetAvailableUserListResponse|ErrorResponse
+     * @return UserFlexibleSeatingGuestGetAvailableHostListResponse|ErrorResponse
      */
     public function userFlexibleSeatingGuestGetAvailableHostListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFlexibleSeatingGuestGetAvailableHostListRequest $request)
     {

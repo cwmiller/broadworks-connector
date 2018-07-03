@@ -8,13 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests a table of all the existing Call Blocking Service Mappings in the
  * system.
  *         The response is either a
- * SystemTreatmentMappingCallBlockingServicesGetListResponse
+ * SystemTreatmentMappingCallBlockingServiceGetListResponse
  *         or an ErrorResponse.
  *         
  *         Replaced by: SystemTreatmentMappingCallBlockingServiceGetListRequest22
  * in AS data mode
  *
- * @see SystemTreatmentMappingCallBlockingServicesGetListResponse
+ * @see SystemTreatmentMappingCallBlockingServiceGetListResponse
  * @see ErrorResponse
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest22
  */

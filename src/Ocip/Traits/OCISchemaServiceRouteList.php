@@ -29,7 +29,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkN
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberRangeDeactivateListRequest;
@@ -206,7 +206,7 @@ trait OCISchemaServiceRouteList
 
     /**
      * @param ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request
-     * @return ServiceProviderRouteListEnterpriseTrunkPrefixGetSummaryListResponse|ErrorResponse
+     * @return ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse|ErrorResponse
      */
     public function serviceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest $request)
     {

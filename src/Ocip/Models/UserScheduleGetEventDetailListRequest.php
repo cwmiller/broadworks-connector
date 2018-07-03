@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the list of schedules viewable by a User. The list can be filtered by
  * schedule type.
- *         The response is either a UserScheduleGetEventListForGroupResponse or an
+ *         The response is either a UserScheduleGetEventDetailListResponse or an
  * ErrorResponse.
  *
- * @see UserScheduleGetEventListForGroupResponse
+ * @see UserScheduleGetEventDetailListResponse
  * @see ErrorResponse
  */
 class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

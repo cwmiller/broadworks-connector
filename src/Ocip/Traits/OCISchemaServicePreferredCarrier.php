@@ -23,9 +23,9 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetGroupListRespon
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemPreferreredCarrierGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemPreferreredCarrierGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetResponse;
@@ -155,7 +155,7 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierGetRequest $request
-     * @return SystemPreferreredCarrierGetResponse|ErrorResponse
+     * @return SystemPreferredCarrierGetResponse|ErrorResponse
      */
     public function systemPreferredCarrierGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetRequest $request)
     {
@@ -164,7 +164,7 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierGetUserListRequest $request
-     * @return SystemPreferreredCarrierGetUserListResponse
+     * @return SystemPreferredCarrierGetUserListResponse
      */
     public function systemPreferredCarrierGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListRequest $request)
     {

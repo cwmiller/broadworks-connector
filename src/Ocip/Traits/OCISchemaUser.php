@@ -112,6 +112,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserScheduleAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteEventListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventDetailListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventDetailListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListForGroupResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListResponse;
@@ -800,7 +801,7 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleGetEventDetailListRequest $request
-     * @return UserScheduleGetEventListForGroupResponse|ErrorResponse
+     * @return UserScheduleGetEventDetailListResponse|ErrorResponse
      */
     public function userScheduleGetEventDetailListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventDetailListRequest $request)
     {

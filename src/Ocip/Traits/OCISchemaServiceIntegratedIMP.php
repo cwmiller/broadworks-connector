@@ -17,6 +17,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGeneratePasswordRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIMPGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
@@ -107,7 +108,7 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param UserIntegratedIMPGetRequest $request
-     * @return UserIMPGetResponse|ErrorResponse
+     * @return UserIntegratedIMPGetResponse|ErrorResponse
      */
     public function userIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest $request)
     {

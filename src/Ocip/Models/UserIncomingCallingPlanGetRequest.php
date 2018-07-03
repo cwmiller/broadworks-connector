@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserIncomingCallingPlanGetRequest
  *
  * Request the user's incoming calling plan settings.
- *         The response is either a UserIncomingCallingPlanGetListResponse or an
+ *         The response is either a UserIncomingCallingPlanGetResponse or an
  * ErrorResponse.
  *
- * @see UserIncomingCallingPlanGetListResponse
+ * @see UserIncomingCallingPlanGetResponse
  * @see ErrorResponse
  */
 class UserIncomingCallingPlanGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

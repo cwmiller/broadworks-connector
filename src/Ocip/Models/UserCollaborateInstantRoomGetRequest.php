@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request the collaborate room settings for an instant room.
  *         The request fails when requesting collaborate room settings for My Room
  * or project rooms.
- *         The response is either UserCollaboratInstantRoomGetResponse or 
+ *         The response is either UserCollaborateInstantRoomGetResponse or
  *         ErrorResponse.
  *
- * @see UserCollaboratInstantRoomGetResponse
+ * @see UserCollaborateInstantRoomGetResponse
  * @see ErrorResponse
  */
 class UserCollaborateInstantRoomGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

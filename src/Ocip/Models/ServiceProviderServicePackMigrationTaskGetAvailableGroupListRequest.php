@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests a list of groups to migrate.
  *         The response is either
- * ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
+ * ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
  *         or ErrorResponse.
  *
- * @see ServiceProviderServicePackMigrationTaskGetAvailabeGroupListResponse
+ * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
  * @see ErrorResponse
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

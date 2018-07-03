@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Requests a table of all the existing Network SIP Status Code Mappings in the
  * system.
  *         The response is either an
- * SystemTreatmentMappingNetworkSIPStatusCodeGetListResponse
+ * SystemTreatmentMappingNetworkSIPStatusGetListResponse
  *         or an ErrorResponse.
  *
- * @see SystemTreatmentMappingNetworkSIPStatusCodeGetListResponse
+ * @see SystemTreatmentMappingNetworkSIPStatusGetListResponse
  * @see ErrorResponse
  */
 class SystemTreatmentMappingNetworkSIPStatusGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

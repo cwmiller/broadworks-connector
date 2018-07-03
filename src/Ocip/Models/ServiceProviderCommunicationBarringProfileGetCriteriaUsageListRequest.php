@@ -7,11 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of Communication Barring profiles within a service provider that have
  * a given Communication Barring Criteria assigned.
- *         The response is either a ServiceProviderCommunicationBarring
- * ProfileGetCriteriaUsageListResponse 
+ *         The response is either a ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
  *         or an ErrorResponse.
  *
- * @see ProfileGetCriteriaUsageListResponse
+ * @see ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
  * @see ErrorResponse
  */
 class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

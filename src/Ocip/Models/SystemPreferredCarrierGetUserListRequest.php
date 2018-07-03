@@ -10,10 +10,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         number of rows returned by specifying various search criteria. Multiple
  * search criteria
  *         are logically ANDed together.
- *         The response is either a SystemPreferreredCarrierGetUserListResponse
+ *         The response is either a SystemPreferredCarrierGetUserListResponse
  *         or an ErrorResponse.
  *
- * @see SystemPreferreredCarrierGetUserListResponse
+ * @see SystemPreferredCarrierGetUserListResponse
  * @see ErrorResponse
  */
 class SystemPreferredCarrierGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

@@ -12,13 +12,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         If reseller administrator sends the request and resellerId is not
  * specified, the administrator's resellerId is used.
  *         
- *         The response is either SystemDnUtilizationGetListResponse or
+ *         The response is either SystemDnGetUtilizationListResponse or
  * ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           resellerId
  *
- * @see SystemDnUtilizationGetListResponse
+ * @see SystemDnGetUtilizationListResponse
  * @see ErrorResponse
  */
 class SystemDnGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

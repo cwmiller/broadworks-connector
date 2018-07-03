@@ -8,7 +8,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingGetDnListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingGetDnListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTwoStageDialingModifyDnRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetRequest13Mp20;
-use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetResponse13;
+use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetResponse13Mp20;
 use CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
@@ -54,7 +54,7 @@ trait OCISchemaServiceTwoStageDialing
 
     /**
      * @param UserTwoStageDialingGetRequest13Mp20 $request
-     * @return UserTwoStageDialingGetResponse13|ErrorResponse
+     * @return UserTwoStageDialingGetResponse13Mp20|ErrorResponse
      */
     public function userTwoStageDialingGetRequest13Mp20(\CWM\BroadWorksConnector\Ocip\Models\UserTwoStageDialingGetRequest13Mp20 $request)
     {

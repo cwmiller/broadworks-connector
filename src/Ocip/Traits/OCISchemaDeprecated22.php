@@ -18,7 +18,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementEventGetListRespon
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetlAvailableListResponse19;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDomainGetListRequest;
@@ -133,7 +133,7 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest19 $request
-     * @return SystemDeviceTypeGetlAvailableListResponse19|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse19|ErrorResponse
      */
     public function systemDeviceTypeGetAvailableListRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest19 $request)
     {

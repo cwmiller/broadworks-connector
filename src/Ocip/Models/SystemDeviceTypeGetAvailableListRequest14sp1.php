@@ -12,13 +12,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         to the SystemSIPDeviceTypeGetListRequest and
  * SystemMGCPDeviceTypeGetListRequest
  *         but gets both SIP and MGCP types.
- *         The response is either SystemDeviceTypeGetlAvailableListResponse14sp1 or
+ *         The response is either SystemDeviceTypeGetAvailableListResponse14sp1 or
  * ErrorResponse.
  *         Replaced By: SystemDeviceTypeGetAvailableListRequest14sp3
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetlAvailableListResponse14sp1
+ * @see SystemDeviceTypeGetAvailableListResponse14sp1
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest14sp3
  */

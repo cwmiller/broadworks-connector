@@ -25,12 +25,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * XS data mode:
  *           resellerId
  *
- *         The response is either SystemDeviceTypeGetlAvailableListResponse22 or
+ *         The response is either SystemDeviceTypeGetAvailableListResponse22 or
  * ErrorResponse.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
- * @see SystemDeviceTypeGetlAvailableListResponse22
+ * @see SystemDeviceTypeGetAvailableListResponse22
  * @see ErrorResponse
  */
 class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

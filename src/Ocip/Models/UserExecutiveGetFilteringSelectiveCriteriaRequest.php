@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a filtering criteria for an executive user.
  *         Both executive and the executive assistant can run this command.
- *         The response is either UserExecutiveGetSelectiveCriteriaResponse or
+ *         The response is either UserExecutiveGetFilteringSelectiveCriteriaResponse or
  * ErrorResponse.
  *         Replaced by: UserExecutiveGetFilteringSelectiveCriteriaRequest21
  *
- * @see UserExecutiveGetSelectiveCriteriaResponse
+ * @see UserExecutiveGetFilteringSelectiveCriteriaResponse
  * @see ErrorResponse
  * @see UserExecutiveGetFilteringSelectiveCriteriaRequest21
  */

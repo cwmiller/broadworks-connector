@@ -85,7 +85,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest18;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyResponse18;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest14;
@@ -162,7 +162,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTimeZoneGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetResponse16sp2;
@@ -701,7 +701,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderAccessDeviceGetUserListRequest $request
-     * @return ServiceProviderAccessDeviceGetResponse|ErrorResponse
+     * @return ServiceProviderAccessDeviceGetUserListResponse|ErrorResponse
      */
     public function serviceProviderAccessDeviceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest $request)
     {
@@ -1115,7 +1115,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse
      */
     public function systemTreatmentMappingCallBlockingServiceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest $request)
     {

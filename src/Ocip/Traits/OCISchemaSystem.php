@@ -2,6 +2,8 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
+use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
+use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagDeleteListRequest;
@@ -74,7 +76,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersGetResponse14sp7;
 use CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersModifyRequest14sp7;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutExportDataGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadCloudGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemBroadCloudGetResponse;
@@ -105,13 +107,13 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingModifyPolicyRequest15;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAddRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequestResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequestResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequestResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22;
@@ -284,7 +286,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceProfileAuthenticationPasswor
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeExportRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeExportResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetlAvailableListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeImportRequest;
@@ -310,7 +312,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetSummaryListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetSummaryListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDnUtilizationGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationRequest14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDomainAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDomainDeleteRequest;
@@ -447,7 +449,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupUsageListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupUsageResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMediaModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerAddRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerDeleteRequest;
@@ -548,7 +550,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingAddMessageNameListRequ
 use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingDeleteACLEntryRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingDeleteMessageNameListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingGetACLListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingACLListGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingGetACLListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingGetMessageNameListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingModifyACLEntryRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingParametersGetRequest14sp1;
@@ -640,7 +642,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleDeleteEventListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetListRequest;
@@ -774,7 +776,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingAccessSIPStatusMod
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceAddRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceDeleteRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingInternalReleaseCauseAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingInternalReleaseCauseDeleteRequest;
@@ -789,7 +791,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkServerTreat
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusGetListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusCodeGetListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingQ850CauseAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingQ850CauseDeleteRequest;
@@ -816,8 +818,6 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationD
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressDeleteListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressGetListRequest;
 
 trait OCISchemaSystem
@@ -1293,7 +1293,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAuthenticationLockoutSettingsGetRequest $request
-     * @return SystemAuthenticationLockoutSettingsResponse|ErrorResponse
+     * @return SystemAuthenticationLockoutSettingsGetResponse|ErrorResponse
      */
     public function systemAuthenticationLockoutSettingsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsGetRequest $request)
     {
@@ -1500,7 +1500,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 $request
-     * @return SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequestResponse22
+     * @return SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse22
      */
     public function systemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 $request)
     {
@@ -1518,7 +1518,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 $request
-     * @return SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequestResponse22
+     * @return SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse22
      */
     public function systemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 $request)
     {
@@ -1536,7 +1536,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22 $request
-     * @return SystemCallProcessingPolicyProfileCallCenterProfileGetRequestResponse22
+     * @return SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22
      */
     public function systemCallProcessingPolicyProfileCallCenterProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22 $request)
     {
@@ -2670,7 +2670,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest22 $request
-     * @return SystemDeviceTypeGetlAvailableListResponse22|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse22|ErrorResponse
      */
     public function systemDeviceTypeGetAvailableListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest22 $request)
     {
@@ -2841,7 +2841,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDnGetUtilizationListRequest $request
-     * @return SystemDnUtilizationGetListResponse|ErrorResponse
+     * @return SystemDnGetUtilizationListResponse|ErrorResponse
      */
     public function systemDnGetUtilizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationListRequest $request)
     {
@@ -3732,7 +3732,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupUsageListRequest $request
-     * @return SystemMediaGroupUsageResponse|ErrorResponse
+     * @return SystemMediaGroupUsageListResponse|ErrorResponse
      */
     public function systemMediaGroupUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupUsageListRequest $request)
     {
@@ -4398,7 +4398,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingGetACLListRequest $request
-     * @return SystemOCIReportingACLListGetResponse|ErrorResponse
+     * @return SystemOCIReportingGetACLListResponse|ErrorResponse
      */
     public function systemOCIReportingGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingGetACLListRequest $request)
     {
@@ -5001,7 +5001,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleGetEventListRequest $request
-     * @return SystemScheduleGetResponse|ErrorResponse
+     * @return SystemScheduleGetEventListResponse|ErrorResponse
      */
     public function systemScheduleGetEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventListRequest $request)
     {
@@ -5847,7 +5847,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest22 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse22
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse22
      */
     public function systemTreatmentMappingCallBlockingServiceGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest22 $request)
     {
@@ -5955,7 +5955,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkSIPStatusGetListRequest $request
-     * @return SystemTreatmentMappingNetworkSIPStatusCodeGetListResponse
+     * @return SystemTreatmentMappingNetworkSIPStatusGetListResponse
      */
     public function systemTreatmentMappingNetworkSIPStatusGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusGetListRequest $request)
     {

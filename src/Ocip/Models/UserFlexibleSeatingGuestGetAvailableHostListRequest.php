@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of hosts that can be assigned to flexible seating guests. 
  *         The response is either
- * UserFlexibleSeatingGuestGetAvailableUserListResponse or ErrorResponse. The
+ * UserFlexibleSeatingGuestGetAvailableHostListResponse or ErrorResponse. The
  * response will include active hosts based on the following criteria.
  * - host that has the equivalent device type as the guest, host already assigned
  * to another guest and for a guest in a Service Provider host in the user’s
  * group and for a user in an Enterprise a host within the user’s group and host
  * in the user’s enterprise that has the accessLevel set to Enterprise.
  *
- * @see UserFlexibleSeatingGuestGetAvailableUserListResponse
+ * @see UserFlexibleSeatingGuestGetAvailableHostListResponse
  * @see ErrorResponse
  */
 class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

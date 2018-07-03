@@ -74,8 +74,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest14;
-use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest16;
+use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceResponse17;
@@ -314,8 +314,8 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp1V1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp3;
+use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp1V1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp4;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp4;
@@ -689,11 +689,11 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingModifyPolicyRequest1
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAddRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequestResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequestResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequestResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest;
@@ -770,10 +770,11 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCrInterfaceGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagAddRequest21sp2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetlAvailableListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp3;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetlAvailableListResponse14sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest14sp3;
@@ -1033,7 +1034,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTimeScheduleModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1;
-use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServicesGetListResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest19sp1;
@@ -1081,7 +1082,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBasicCallLogsGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailableListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequest;
@@ -1175,7 +1176,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetSelectiveCriteriaResponse;
+use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserFaxMessagingGetRequest17;
@@ -1667,7 +1668,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupAutoAttendantGetInstanceRequest14 $request
-     * @return GroupAutoAttendantGetInstanceResponse|ErrorResponse
+     * @return GroupAutoAttendantGetInstanceResponse14|ErrorResponse
      */
     public function groupAutoAttendantGetInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest14 $request)
     {
@@ -3026,7 +3027,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupHuntGroupGetInstanceRequest17sp1V1 $request
-     * @return GroupHuntGroupGetInstanceResponse17sp1|ErrorResponse
+     * @return GroupHuntGroupGetInstanceResponse17sp1V1|ErrorResponse
      */
     public function groupHuntGroupGetInstanceRequest17sp1V1(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp1V1 $request)
     {
@@ -5132,7 +5133,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest $request
-     * @return SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequestResponse
+     * @return SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse
      */
     public function systemCallProcessingPolicyProfileAutoAttendantProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest $request)
     {
@@ -5141,7 +5142,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest $request
-     * @return SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequestResponse
+     * @return SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse
      */
     public function systemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest $request)
     {
@@ -5150,7 +5151,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemCallProcessingPolicyProfileCallCenterProfileGetRequest $request
-     * @return SystemCallProcessingPolicyProfileCallCenterProfileGetRequestResponse
+     * @return SystemCallProcessingPolicyProfileCallCenterProfileGetResponse
      */
     public function systemCallProcessingPolicyProfileCallCenterProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequest $request)
     {
@@ -5573,7 +5574,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest $request
-     * @return SystemDeviceTypeGetlAvailableListResponse|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse|ErrorResponse
      */
     public function systemDeviceTypeGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest $request)
     {
@@ -5582,7 +5583,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest14sp1 $request
-     * @return SystemDeviceTypeGetlAvailableListResponse14sp1|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse14sp1|ErrorResponse
      */
     public function systemDeviceTypeGetAvailableListRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp1 $request)
     {
@@ -5591,7 +5592,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest14sp3 $request
-     * @return SystemDeviceTypeGetlAvailableListResponse14sp1|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse14sp3|ErrorResponse
      */
     public function systemDeviceTypeGetAvailableListRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp3 $request)
     {
@@ -7076,7 +7077,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1 $request
-     * @return SystemTreatmentMappingCallBlockingServicesGetListResponse19sp1
+     * @return SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1
      */
     public function systemTreatmentMappingCallBlockingServiceGetListRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest19sp1 $request)
     {
@@ -7346,7 +7347,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserBroadWorksAnywhereGetAvailablePortalListRequest $request
-     * @return UserBroadWorksAnywhereGetAvailableListResponse|ErrorResponse
+     * @return UserBroadWorksAnywhereGetAvailablePortalListResponse|ErrorResponse
      */
     public function userBroadWorksAnywhereGetAvailablePortalListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest $request)
     {
@@ -7823,7 +7824,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserExecutiveGetFilteringSelectiveCriteriaRequest $request
-     * @return UserExecutiveGetSelectiveCriteriaResponse|ErrorResponse
+     * @return UserExecutiveGetFilteringSelectiveCriteriaResponse|ErrorResponse
      */
     public function userExecutiveGetFilteringSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaRequest $request)
     {

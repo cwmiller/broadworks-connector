@@ -18,7 +18,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereAddSelectiveCriter
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereDeletePhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereDeleteSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailableListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetPhoneNumberResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetRequest16sp2;
@@ -144,7 +144,7 @@ trait OCISchemaServiceBroadWorksAnywhere
 
     /**
      * @param UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 $request
-     * @return UserBroadWorksAnywhereGetAvailableListResponse21sp1|ErrorResponse
+     * @return UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1|ErrorResponse
      */
     public function userBroadWorksAnywhereGetAvailablePortalListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1 $request)
     {

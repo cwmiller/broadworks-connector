@@ -6,9 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemScheduleGetEventListRequest
  *
  * Get the list of events of a system schedule.
- *         The response is either a SystemScheduleGetResponse or an ErrorResponse.
+ *         The response is either a SystemScheduleGetEventListResponse or an ErrorResponse.
  *
- * @see SystemScheduleGetResponse
+ * @see SystemScheduleGetEventListResponse
  * @see ErrorResponse
  */
 class SystemScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

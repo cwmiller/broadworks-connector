@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserSilentAlertingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSilentAlertingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSilentAlertingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSilentAlerting
 {
@@ -14,6 +14,7 @@ trait OCISchemaServiceSilentAlerting
     /**
      * @param UserSilentAlertingGetRequest $request
      * @return UserSilentAlertingGetResponse
+     * @throws ErrorResponseException
      */
     public function userSilentAlertingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSilentAlertingGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceSilentAlerting
 
     /**
      * @param UserSilentAlertingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSilentAlertingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSilentAlertingModifyRequest $request)
     {

@@ -19,15 +19,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupModifyInstanceWeightedCall
 use CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupGetRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupModifyRequest21;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceHuntGroup
 {
 
     /**
      * @param GroupHuntGroupAddInstanceRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupAddInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupAddInstanceRequest20 $request)
     {
@@ -36,7 +37,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupConsolidatedAddInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupConsolidatedAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupConsolidatedAddInstanceRequest $request)
     {
@@ -45,7 +47,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupConsolidatedDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupConsolidatedDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupConsolidatedDeleteInstanceRequest $request)
     {
@@ -54,7 +57,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupConsolidatedModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupConsolidatedModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupConsolidatedModifyInstanceRequest $request)
     {
@@ -63,7 +67,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupDeleteInstanceRequest $request)
     {
@@ -72,7 +77,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupGetAvailableUserListRequest $request
-     * @return GroupHuntGroupGetAvailableUserListResponse|ErrorResponse
+     * @return GroupHuntGroupGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetAvailableUserListRequest $request)
     {
@@ -81,7 +87,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupGetInstanceListRequest $request
-     * @return GroupHuntGroupGetInstanceListResponse|ErrorResponse
+     * @return GroupHuntGroupGetInstanceListResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceListRequest $request)
     {
@@ -90,7 +97,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupGetInstanceRequest20 $request
-     * @return GroupHuntGroupGetInstanceResponse20|ErrorResponse
+     * @return GroupHuntGroupGetInstanceResponse20
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupGetInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest20 $request)
     {
@@ -99,7 +107,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupModifyActiveInstanceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupModifyActiveInstanceListRequest $request)
     {
@@ -108,7 +117,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupModifyInstanceRequest $request)
     {
@@ -117,7 +127,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param GroupHuntGroupModifyInstanceWeightedCallDistributionRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupModifyInstanceWeightedCallDistributionRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupModifyInstanceWeightedCallDistributionRequest $request)
     {
@@ -127,6 +138,7 @@ trait OCISchemaServiceHuntGroup
     /**
      * @param SystemHuntGroupGetRequest21 $request
      * @return SystemHuntGroupGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemHuntGroupGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupGetRequest21 $request)
     {
@@ -135,7 +147,8 @@ trait OCISchemaServiceHuntGroup
 
     /**
      * @param SystemHuntGroupModifyRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHuntGroupModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupModifyRequest21 $request)
     {

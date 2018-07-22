@@ -53,15 +53,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyOutgoingSMDI
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoiceManagementRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest20;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceVoiceMessaging
 {
 
     /**
      * @param GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest $request)
     {
@@ -70,7 +71,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param GroupVoiceMessagingGroupGetRequest $request
-     * @return GroupVoiceMessagingGroupGetResponse|ErrorResponse
+     * @return GroupVoiceMessagingGroupGetResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetRequest $request)
     {
@@ -79,7 +81,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20 $request
-     * @return GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20|ErrorResponse
+     * @return GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupGetVoicePortalBrandingRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20 $request)
     {
@@ -88,7 +91,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param GroupVoiceMessagingGroupGetVoicePortalRequest21sp1 $request
-     * @return GroupVoiceMessagingGroupGetVoicePortalResponse21sp1|ErrorResponse
+     * @return GroupVoiceMessagingGroupGetVoicePortalResponse21sp1
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupGetVoicePortalRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest21sp1 $request)
     {
@@ -97,7 +101,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param GroupVoiceMessagingGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyRequest $request)
     {
@@ -106,7 +111,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupModifyVoicePortalBrandingRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 $request)
     {
@@ -115,7 +121,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param GroupVoiceMessagingGroupModifyVoicePortalRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupModifyVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalRequest $request)
     {
@@ -124,7 +131,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param ServiceProviderVoiceMessagingGroupGetRequest $request
-     * @return ServiceProviderVoiceMessagingGroupGetResponse|ErrorResponse
+     * @return ServiceProviderVoiceMessagingGroupGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderVoiceMessagingGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetRequest $request)
     {
@@ -133,7 +141,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16 $request
-     * @return ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16|ErrorResponse
+     * @return ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
+     * @throws ErrorResponseException
      */
     public function serviceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16 $request)
     {
@@ -142,7 +151,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param ServiceProviderVoiceMessagingGroupGetVoicePortalRequest $request
-     * @return ServiceProviderVoiceMessagingGroupGetVoicePortalResponse|ErrorResponse
+     * @return ServiceProviderVoiceMessagingGroupGetVoicePortalResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderVoiceMessagingGroupGetVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupGetVoicePortalRequest $request)
     {
@@ -151,7 +161,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param ServiceProviderVoiceMessagingGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderVoiceMessagingGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupModifyRequest $request)
     {
@@ -160,7 +171,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 $request)
     {
@@ -169,7 +181,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderVoiceMessagingGroupModifyVoicePortalRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest $request)
     {
@@ -178,7 +191,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessageSummaryUpdateGetRequest $request
-     * @return SystemVoiceMessageSummaryUpdateGetResponse|ErrorResponse
+     * @return SystemVoiceMessageSummaryUpdateGetResponse
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessageSummaryUpdateGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetRequest $request)
     {
@@ -187,7 +201,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessageSummaryUpdateModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessageSummaryUpdateModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateModifyRequest $request)
     {
@@ -196,7 +211,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessagingGroupGetRequest22V2 $request
-     * @return SystemVoiceMessagingGroupGetResponse22|ErrorResponse
+     * @return SystemVoiceMessagingGroupGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest22V2 $request)
     {
@@ -205,7 +221,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessagingGroupGetVoicePortalMenusRequest21 $request
-     * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse21|ErrorResponse
+     * @return SystemVoiceMessagingGroupGetVoicePortalMenusResponse21
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupGetVoicePortalMenusRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest21 $request)
     {
@@ -214,7 +231,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessagingGroupModifyRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequest16 $request)
     {
@@ -223,7 +241,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupModifyVoicePortalMenusRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19 $request)
     {
@@ -232,7 +251,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserAddAliasListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserAddAliasListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserAddAliasListRequest $request)
     {
@@ -241,7 +261,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserDeleteAliasListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserDeleteAliasListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserDeleteAliasListRequest $request)
     {
@@ -250,7 +271,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3 $request
-     * @return UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3|ErrorResponse
+     * @return UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3 $request)
     {
@@ -259,7 +281,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetAliasListRequest $request
-     * @return UserVoiceMessagingUserGetAliasListResponse|ErrorResponse
+     * @return UserVoiceMessagingUserGetAliasListResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetAliasListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetAliasListRequest $request)
     {
@@ -268,7 +291,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetDistributionListRequest $request
-     * @return UserVoiceMessagingUserGetDistributionListResponse|ErrorResponse
+     * @return UserVoiceMessagingUserGetDistributionListResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetDistributionListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetDistributionListRequest $request)
     {
@@ -277,7 +301,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetGreetingRequest20 $request
-     * @return UserVoiceMessagingUserGetGreetingResponse20|ErrorResponse
+     * @return UserVoiceMessagingUserGetGreetingResponse20
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetGreetingRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest20 $request)
     {
@@ -286,7 +311,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetOutgoingSMDIMWIRequest $request
-     * @return UserVoiceMessagingUserGetOutgoingSMDIMWIResponse|ErrorResponse
+     * @return UserVoiceMessagingUserGetOutgoingSMDIMWIResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetOutgoingSMDIMWIRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetOutgoingSMDIMWIRequest $request)
     {
@@ -295,7 +321,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetVoiceManagementRequest17 $request
-     * @return UserVoiceMessagingUserGetVoiceManagementResponse17|ErrorResponse
+     * @return UserVoiceMessagingUserGetVoiceManagementResponse17
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetVoiceManagementRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoiceManagementRequest17 $request)
     {
@@ -304,7 +331,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserGetVoicePortalRequest20 $request
-     * @return UserVoiceMessagingUserGetVoicePortalResponse20|ErrorResponse
+     * @return UserVoiceMessagingUserGetVoicePortalResponse20
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetVoicePortalRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequest20 $request)
     {
@@ -313,7 +341,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyAdvancedVoiceManagementRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest $request)
     {
@@ -322,7 +351,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyDistributionListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyDistributionListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyDistributionListRequest $request)
     {
@@ -331,7 +361,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyGreetingRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyGreetingRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest20 $request)
     {
@@ -340,7 +371,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyOutgoingSMDIMWIRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest $request)
     {
@@ -349,7 +381,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyRequest $request)
     {
@@ -358,7 +391,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyVoiceManagementRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyVoiceManagementRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoiceManagementRequest $request)
     {
@@ -367,7 +401,8 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param UserVoiceMessagingUserModifyVoicePortalRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyVoicePortalRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest20 $request)
     {

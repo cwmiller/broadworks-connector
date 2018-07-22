@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceAuthentication
 {
 
     /**
      * @param UserAuthenticationGetRequest $request
-     * @return UserAuthenticationGetResponse|ErrorResponse
+     * @return UserAuthenticationGetResponse
+     * @throws ErrorResponseException
      */
     public function userAuthenticationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceAuthentication
 
     /**
      * @param UserAuthenticationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAuthenticationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequest $request)
     {

@@ -6,15 +6,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetAvailableU
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceDirectoryNumberHunting
 {
 
     /**
      * @param GroupDirectoryNumberHuntingGetAvailableUserListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupDirectoryNumberHuntingGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetAvailableUserListRequest $request)
     {
@@ -23,7 +24,8 @@ trait OCISchemaServiceDirectoryNumberHunting
 
     /**
      * @param GroupDirectoryNumberHuntingGetRequest17sp1 $request
-     * @return GroupDirectoryNumberHuntingGetResponse|ErrorResponse
+     * @return GroupDirectoryNumberHuntingGetResponse
+     * @throws ErrorResponseException
      */
     public function groupDirectoryNumberHuntingGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingGetRequest17sp1 $request)
     {
@@ -32,7 +34,8 @@ trait OCISchemaServiceDirectoryNumberHunting
 
     /**
      * @param GroupDirectoryNumberHuntingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDirectoryNumberHuntingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDirectoryNumberHuntingModifyRequest $request)
     {

@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoicePortalCallingGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoicePortalCallingGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoicePortalCallingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceVoicePortalCalling
 {
@@ -14,6 +14,7 @@ trait OCISchemaServiceVoicePortalCalling
     /**
      * @param UserVoicePortalCallingGetRequest $request
      * @return UserVoicePortalCallingGetResponse
+     * @throws ErrorResponseException
      */
     public function userVoicePortalCallingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoicePortalCallingGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceVoicePortalCalling
 
     /**
      * @param UserVoicePortalCallingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoicePortalCallingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserVoicePortalCallingModifyRequest $request)
     {

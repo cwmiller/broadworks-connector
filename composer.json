@@ -21,6 +21,6 @@
         "ext-dom": "*"
     },
     "require-dev": {
-        "cwm/broadworks-xsd-converter": "1.1.1"
+        "cwm/broadworks-xsd-converter": "2.0"
     }
 }

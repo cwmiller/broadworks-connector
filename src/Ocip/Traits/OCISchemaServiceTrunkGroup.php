@@ -67,15 +67,16 @@ use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListRequest14sp4;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListResponse14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceTrunkGroup
 {
 
     /**
      * @param EnterpriseEnterpriseTrunkAddRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkAddRequest21(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddRequest21 $request)
     {
@@ -84,7 +85,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkAddUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkAddUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkAddUserListRequest $request)
     {
@@ -93,7 +95,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkDeleteRequest $request)
     {
@@ -102,7 +105,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkDeleteUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkDeleteUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkDeleteUserListRequest $request)
     {
@@ -111,7 +115,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkForceAssignUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkForceAssignUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkForceAssignUserListRequest $request)
     {
@@ -120,7 +125,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest $request
-     * @return EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse|ErrorResponse
+     * @return EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest $request)
     {
@@ -129,7 +135,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkGetAvailableUserListRequest $request
-     * @return EnterpriseEnterpriseTrunkGetAvailableUserListResponse|ErrorResponse
+     * @return EnterpriseEnterpriseTrunkGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetAvailableUserListRequest $request)
     {
@@ -138,7 +145,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkGetListRequest $request
-     * @return EnterpriseEnterpriseTrunkGetListResponse|ErrorResponse
+     * @return EnterpriseEnterpriseTrunkGetListResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetListRequest $request)
     {
@@ -147,7 +155,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkGetRequest21 $request
-     * @return EnterpriseEnterpriseTrunkGetResponse21|ErrorResponse
+     * @return EnterpriseEnterpriseTrunkGetResponse21
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetRequest21 $request)
     {
@@ -156,7 +165,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkGetUserListRequest $request
-     * @return EnterpriseEnterpriseTrunkGetUserListResponse|ErrorResponse
+     * @return EnterpriseEnterpriseTrunkGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetUserListRequest $request)
     {
@@ -165,7 +175,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param EnterpriseEnterpriseTrunkModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseEnterpriseTrunkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequest $request)
     {
@@ -174,7 +185,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkAddRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkAddRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddRequest21 $request)
     {
@@ -183,7 +195,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkAddUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkAddUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkAddUserListRequest $request)
     {
@@ -192,7 +205,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkDeleteRequest $request)
     {
@@ -201,7 +215,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkDeleteUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkDeleteUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkDeleteUserListRequest $request)
     {
@@ -210,7 +225,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkForceAssignUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkForceAssignUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkForceAssignUserListRequest $request)
     {
@@ -219,7 +235,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest $request
-     * @return GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse|ErrorResponse
+     * @return GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkGetAvailableTrunkGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest $request)
     {
@@ -228,7 +245,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkGetAvailableUserListRequest $request
-     * @return GroupEnterpriseTrunkGetAvailableUserListResponse|ErrorResponse
+     * @return GroupEnterpriseTrunkGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetAvailableUserListRequest $request)
     {
@@ -237,7 +255,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkGetListRequest $request
-     * @return GroupEnterpriseTrunkGetListResponse|ErrorResponse
+     * @return GroupEnterpriseTrunkGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetListRequest $request)
     {
@@ -246,7 +265,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkGetRequest21 $request
-     * @return GroupEnterpriseTrunkGetResponse21|ErrorResponse
+     * @return GroupEnterpriseTrunkGetResponse21
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetRequest21 $request)
     {
@@ -255,7 +275,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkGetUserListRequest $request
-     * @return GroupEnterpriseTrunkGetUserListResponse|ErrorResponse
+     * @return GroupEnterpriseTrunkGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkGetUserListRequest $request)
     {
@@ -264,7 +285,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupEnterpriseTrunkModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEnterpriseTrunkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest $request)
     {
@@ -273,7 +295,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupAddInstanceRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupAddInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupAddInstanceRequest21 $request)
     {
@@ -282,7 +305,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupDeleteInstanceRequest14sp4 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupDeleteInstanceRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupDeleteInstanceRequest14sp4 $request)
     {
@@ -291,7 +315,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupGetAvailableHostedUserListRequest $request
-     * @return GroupTrunkGroupGetAvailableHostedUserListResponse|ErrorResponse
+     * @return GroupTrunkGroupGetAvailableHostedUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetAvailableHostedUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableHostedUserListRequest $request)
     {
@@ -300,7 +325,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupGetInstanceListRequest14sp4 $request
-     * @return GroupTrunkGroupGetInstanceListResponse14sp4|ErrorResponse
+     * @return GroupTrunkGroupGetInstanceListResponse14sp4
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetInstanceListRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceListRequest14sp4 $request)
     {
@@ -309,7 +335,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupGetInstanceRequest21 $request
-     * @return GroupTrunkGroupGetInstanceResponse21|ErrorResponse
+     * @return GroupTrunkGroupGetInstanceResponse21
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest21 $request)
     {
@@ -318,7 +345,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupGetInstanceUserListRequest14sp4 $request
-     * @return GroupTrunkGroupGetInstanceUserListResponse14sp4|ErrorResponse
+     * @return GroupTrunkGroupGetInstanceUserListResponse14sp4
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetInstanceUserListRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListRequest14sp4 $request)
     {
@@ -327,7 +355,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupGetRequest14sp9 $request
-     * @return GroupTrunkGroupGetResponse14sp9|ErrorResponse
+     * @return GroupTrunkGroupGetResponse14sp9
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetRequest14sp9 $request)
     {
@@ -336,7 +365,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupModifyInstanceRequest20sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupModifyInstanceRequest20sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyInstanceRequest20sp1 $request)
     {
@@ -345,7 +375,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupModifyRequest14sp9 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupModifyRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupModifyRequest14sp9 $request)
     {
@@ -354,7 +385,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest $request)
     {
@@ -363,7 +395,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupUserCreationTaskAddRequest14sp4 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupUserCreationTaskAddRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest14sp4 $request)
     {
@@ -372,7 +405,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupUserCreationTaskDeleteRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 $request)
     {
@@ -381,7 +415,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupUserCreationTaskGetListRequest14sp4 $request
-     * @return GroupTrunkGroupUserCreationTaskGetListResponse14sp4|ErrorResponse
+     * @return GroupTrunkGroupUserCreationTaskGetListResponse14sp4
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupUserCreationTaskGetListRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskGetListRequest14sp4 $request)
     {
@@ -390,7 +425,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param GroupTrunkGroupUserCreationTaskGetRequest14sp4 $request
-     * @return GroupTrunkGroupUserCreationTaskGetResponse14sp4|ErrorResponse
+     * @return GroupTrunkGroupUserCreationTaskGetResponse14sp4
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupUserCreationTaskGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskGetRequest14sp4 $request)
     {
@@ -399,7 +435,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param ServiceProviderTrunkGroupGetRequest14sp1 $request
-     * @return ServiceProviderTrunkGroupGetResponse14sp1|ErrorResponse
+     * @return ServiceProviderTrunkGroupGetResponse14sp1
+     * @throws ErrorResponseException
      */
     public function serviceProviderTrunkGroupGetRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupGetRequest14sp1 $request)
     {
@@ -408,7 +445,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param ServiceProviderTrunkGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderTrunkGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderTrunkGroupModifyRequest $request)
     {
@@ -417,7 +455,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param SystemTrunkGroupGetRequest22 $request
-     * @return SystemTrunkGroupGetResponse22|ErrorResponse
+     * @return SystemTrunkGroupGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest22 $request)
     {
@@ -426,7 +465,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param SystemTrunkGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupModifyRequest $request)
     {
@@ -435,7 +475,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest $request)
     {
@@ -444,7 +485,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeDeleteListRequest $request)
     {
@@ -453,7 +495,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest $request
-     * @return SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse|ErrorResponse
+     * @return SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest $request)
     {
@@ -462,7 +505,8 @@ trait OCISchemaServiceTrunkGroup
 
     /**
      * @param SystemTrunkGroupUserCreationTaskGetListRequest14sp4 $request
-     * @return SystemTrunkGroupUserCreationTaskGetListResponse14sp4|ErrorResponse
+     * @return SystemTrunkGroupUserCreationTaskGetListResponse14sp4
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupUserCreationTaskGetListRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupUserCreationTaskGetListRequest14sp4 $request)
     {

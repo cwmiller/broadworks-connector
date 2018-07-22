@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetPrimaryEndpoi
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServicePolycomPhoneServices
 {
 
     /**
      * @param GroupPolycomPhoneServicesGetRequest $request
-     * @return GroupPolycomPhoneServicesGetResponse|ErrorResponse
+     * @return GroupPolycomPhoneServicesGetResponse
+     * @throws ErrorResponseException
      */
     public function groupPolycomPhoneServicesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPolycomPhoneServicesGetRequest $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServicePolycomPhoneServices
 
     /**
      * @param GroupPolycomPhoneServicesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPolycomPhoneServicesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPolycomPhoneServicesModifyRequest $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServicePolycomPhoneServices
 
     /**
      * @param UserPolycomPhoneServicesGetPrimaryEndpointListRequest $request
-     * @return UserPolycomPhoneServicesGetPrimaryEndpointListResponse|ErrorResponse
+     * @return UserPolycomPhoneServicesGetPrimaryEndpointListResponse
+     * @throws ErrorResponseException
      */
     public function userPolycomPhoneServicesGetPrimaryEndpointListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetPrimaryEndpointListRequest $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServicePolycomPhoneServices
 
     /**
      * @param UserPolycomPhoneServicesGetRequest $request
-     * @return UserPolycomPhoneServicesGetResponse|ErrorResponse
+     * @return UserPolycomPhoneServicesGetResponse
+     * @throws ErrorResponseException
      */
     public function userPolycomPhoneServicesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesGetRequest $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServicePolycomPhoneServices
 
     /**
      * @param UserPolycomPhoneServicesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPolycomPhoneServicesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPolycomPhoneServicesModifyRequest $request)
     {

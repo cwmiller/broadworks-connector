@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserDirectRouteGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserDirectRouteGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserDirectRouteModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceDirectRoute
 {
 
     /**
      * @param UserDirectRouteGetRequest $request
-     * @return UserDirectRouteGetResponse|ErrorResponse
+     * @return UserDirectRouteGetResponse
+     * @throws ErrorResponseException
      */
     public function userDirectRouteGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDirectRouteGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceDirectRoute
 
     /**
      * @param UserDirectRouteModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userDirectRouteModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDirectRouteModifyRequest $request)
     {

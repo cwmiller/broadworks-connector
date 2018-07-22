@@ -8,15 +8,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest2
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallingNameRetrieval
 {
 
     /**
      * @param SystemCallingNameRetrievalGetRequest20 $request
-     * @return SystemCallingNameRetrievalGetResponse20|ErrorResponse
+     * @return SystemCallingNameRetrievalGetResponse20
+     * @throws ErrorResponseException
      */
     public function systemCallingNameRetrievalGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalGetRequest20 $request)
     {
@@ -25,7 +26,8 @@ trait OCISchemaServiceCallingNameRetrieval
 
     /**
      * @param SystemCallingNameRetrievalModifyRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallingNameRetrievalModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingNameRetrievalModifyRequest20 $request)
     {
@@ -35,6 +37,7 @@ trait OCISchemaServiceCallingNameRetrieval
     /**
      * @param UserCallingNameRetrievalGetRequest $request
      * @return UserCallingNameRetrievalGetResponse
+     * @throws ErrorResponseException
      */
     public function userCallingNameRetrievalGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalGetRequest $request)
     {
@@ -43,7 +46,8 @@ trait OCISchemaServiceCallingNameRetrieval
 
     /**
      * @param UserCallingNameRetrievalModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallingNameRetrievalModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallingNameRetrievalModifyRequest $request)
     {

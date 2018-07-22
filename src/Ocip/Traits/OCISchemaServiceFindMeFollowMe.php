@@ -25,15 +25,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupLi
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyInstanceRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceFindMeFollowMe
 {
 
     /**
      * @param GroupFindMeFollowMeAddAlertingGroupRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeAddAlertingGroupRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupRequest $request)
     {
@@ -42,7 +43,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest $request)
     {
@@ -51,7 +53,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeAddInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAddInstanceRequest $request)
     {
@@ -60,7 +63,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest $request
-     * @return GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse|ErrorResponse
+     * @return GroupFindMeFollowMeAlertingGroupGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeAlertingGroupGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeAlertingGroupGetAvailableUserListRequest $request)
     {
@@ -69,7 +73,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeDeleteAlertingGroupRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeDeleteAlertingGroupRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeDeleteAlertingGroupRequest $request)
     {
@@ -78,7 +83,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeDeleteAlertingGroupSelectiveCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeDeleteAlertingGroupSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeDeleteAlertingGroupSelectiveCriteriaRequest $request)
     {
@@ -87,7 +93,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeDeleteInstanceRequest $request)
     {
@@ -96,7 +103,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeGetAlertingGroupListRequest $request
-     * @return GroupFindMeFollowMeGetAlertingGroupListResponse|ErrorResponse
+     * @return GroupFindMeFollowMeGetAlertingGroupListResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeGetAlertingGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupListRequest $request)
     {
@@ -105,7 +113,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeGetAlertingGroupRequest $request
-     * @return GroupFindMeFollowMeGetAlertingGroupResponse|ErrorResponse
+     * @return GroupFindMeFollowMeGetAlertingGroupResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeGetAlertingGroupRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupRequest $request)
     {
@@ -114,7 +123,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 $request
-     * @return GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21|ErrorResponse
+     * @return GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaRequest21 $request)
     {
@@ -123,7 +133,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeGetInstanceListRequest $request
-     * @return GroupFindMeFollowMeGetInstanceListResponse|ErrorResponse
+     * @return GroupFindMeFollowMeGetInstanceListResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceListRequest $request)
     {
@@ -132,7 +143,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeGetInstanceRequest19sp1 $request
-     * @return GroupFindMeFollowMeGetInstanceResponse19sp1|ErrorResponse
+     * @return GroupFindMeFollowMeGetInstanceResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeGetInstanceRequest19sp1 $request)
     {
@@ -141,7 +153,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeModifyActiveInstanceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyActiveInstanceListRequest $request)
     {
@@ -150,7 +163,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeModifyAlertingGroupListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeModifyAlertingGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupListRequest $request)
     {
@@ -159,7 +173,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeModifyAlertingGroupRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeModifyAlertingGroupRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupRequest $request)
     {
@@ -168,7 +183,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest $request)
     {
@@ -177,7 +193,8 @@ trait OCISchemaServiceFindMeFollowMe
 
     /**
      * @param GroupFindMeFollowMeModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFindMeFollowMeModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFindMeFollowMeModifyInstanceRequest $request)
     {

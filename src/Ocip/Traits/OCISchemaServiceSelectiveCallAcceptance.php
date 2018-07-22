@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceGetCriteriaRe
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceGetCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceModifyCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSelectiveCallAcceptance
 {
 
     /**
      * @param UserSelectiveCallAcceptanceAddCriteriaRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceAddCriteriaRequest16 $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServiceSelectiveCallAcceptance
 
     /**
      * @param UserSelectiveCallAcceptanceDeleteCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceDeleteCriteriaRequest $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServiceSelectiveCallAcceptance
 
     /**
      * @param UserSelectiveCallAcceptanceGetCriteriaListRequest $request
-     * @return UserSelectiveCallAcceptanceGetCriteriaListResponse|ErrorResponse
+     * @return UserSelectiveCallAcceptanceGetCriteriaListResponse
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceGetCriteriaListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceGetCriteriaListRequest $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServiceSelectiveCallAcceptance
 
     /**
      * @param UserSelectiveCallAcceptanceGetCriteriaRequest21 $request
-     * @return UserSelectiveCallAcceptanceGetCriteriaResponse21|ErrorResponse
+     * @return UserSelectiveCallAcceptanceGetCriteriaResponse21
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceGetCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceGetCriteriaRequest21 $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServiceSelectiveCallAcceptance
 
     /**
      * @param UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceModifyActiveCriteriaListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest $request)
     {
@@ -63,7 +68,8 @@ trait OCISchemaServiceSelectiveCallAcceptance
 
     /**
      * @param UserSelectiveCallAcceptanceModifyCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceModifyCriteriaRequest $request)
     {

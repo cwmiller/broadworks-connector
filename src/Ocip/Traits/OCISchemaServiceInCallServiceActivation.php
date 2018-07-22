@@ -11,15 +11,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemInCallServiceActivationModifyReque
 use CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceInCallServiceActivation
 {
 
     /**
      * @param ServiceProviderInCallServiceActivationGetRequest17 $request
-     * @return ServiceProviderInCallServiceActivationGetResponse17|ErrorResponse
+     * @return ServiceProviderInCallServiceActivationGetResponse17
+     * @throws ErrorResponseException
      */
     public function serviceProviderInCallServiceActivationGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationGetRequest17 $request)
     {
@@ -28,7 +29,8 @@ trait OCISchemaServiceInCallServiceActivation
 
     /**
      * @param ServiceProviderInCallServiceActivationModifyRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderInCallServiceActivationModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInCallServiceActivationModifyRequest17 $request)
     {
@@ -37,7 +39,8 @@ trait OCISchemaServiceInCallServiceActivation
 
     /**
      * @param SystemInCallServiceActivationGetRequest17 $request
-     * @return SystemInCallServiceActivationGetResponse17|ErrorResponse
+     * @return SystemInCallServiceActivationGetResponse17
+     * @throws ErrorResponseException
      */
     public function systemInCallServiceActivationGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemInCallServiceActivationGetRequest17 $request)
     {
@@ -46,7 +49,8 @@ trait OCISchemaServiceInCallServiceActivation
 
     /**
      * @param SystemInCallServiceActivationModifyRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemInCallServiceActivationModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemInCallServiceActivationModifyRequest17 $request)
     {
@@ -56,6 +60,7 @@ trait OCISchemaServiceInCallServiceActivation
     /**
      * @param UserInCallServiceActivationGetRequest $request
      * @return UserInCallServiceActivationGetResponse
+     * @throws ErrorResponseException
      */
     public function userInCallServiceActivationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationGetRequest $request)
     {
@@ -64,7 +69,8 @@ trait OCISchemaServiceInCallServiceActivation
 
     /**
      * @param UserInCallServiceActivationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userInCallServiceActivationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserInCallServiceActivationModifyRequest $request)
     {

@@ -2,8 +2,6 @@
 
 namespace CWM\BroadWorksConnector\Ocip\Traits;
 
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagAddRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagDeleteListRequest;
@@ -818,14 +816,17 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationD
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressAddListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressDeleteListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressGetListRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 
 trait OCISchemaSystem
 {
 
     /**
      * @param SystemAccessDeviceAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceAddRequest $request)
     {
@@ -834,7 +835,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceCustomTagAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceCustomTagAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagAddRequest $request)
     {
@@ -843,7 +845,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceCustomTagDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceCustomTagDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagDeleteListRequest $request)
     {
@@ -852,7 +855,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceCustomTagGetListRequest $request
-     * @return SystemAccessDeviceCustomTagGetListResponse|ErrorResponse
+     * @return SystemAccessDeviceCustomTagGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceCustomTagGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagGetListRequest $request)
     {
@@ -861,7 +865,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceCustomTagModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceCustomTagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceCustomTagModifyRequest $request)
     {
@@ -870,7 +875,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceDeleteRequest $request)
     {
@@ -879,7 +885,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceFileGetListRequest14sp8 $request
-     * @return SystemAccessDeviceFileGetListResponse14sp8|ErrorResponse
+     * @return SystemAccessDeviceFileGetListResponse14sp8
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceFileGetListRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetListRequest14sp8 $request)
     {
@@ -888,7 +895,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceFileGetRequest20 $request
-     * @return SystemAccessDeviceFileGetResponse20|ErrorResponse
+     * @return SystemAccessDeviceFileGetResponse20
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceFileGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileGetRequest20 $request)
     {
@@ -897,7 +905,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceFileModifyRequest14sp8 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceFileModifyRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceFileModifyRequest14sp8 $request)
     {
@@ -906,7 +915,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceGetAllRequest $request
-     * @return SystemAccessDeviceGetAllResponse|ErrorResponse
+     * @return SystemAccessDeviceGetAllResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceGetAllRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetAllRequest $request)
     {
@@ -915,7 +925,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceGetListRequest14 $request
-     * @return SystemAccessDeviceGetListResponse14|ErrorResponse
+     * @return SystemAccessDeviceGetListResponse14
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceGetListRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetListRequest14 $request)
     {
@@ -924,7 +935,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceGetRequest18sp1 $request
-     * @return SystemAccessDeviceGetResponse18sp1|ErrorResponse
+     * @return SystemAccessDeviceGetResponse18sp1
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetRequest18sp1 $request)
     {
@@ -933,7 +945,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceGetUserListRequest21sp1 $request
-     * @return SystemAccessDeviceGetUserListResponse21sp1|ErrorResponse
+     * @return SystemAccessDeviceGetUserListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceGetUserListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetUserListRequest21sp1 $request)
     {
@@ -942,7 +955,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceModifyRequest $request)
     {
@@ -951,7 +965,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceModifyUserRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceModifyUserRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceModifyUserRequest $request)
     {
@@ -960,7 +975,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceMonitorAddDeviceTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceMonitorAddDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceMonitorAddDeviceTypeRequest $request)
     {
@@ -969,7 +985,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceMonitorDeleteDeviceTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceMonitorDeleteDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceMonitorDeleteDeviceTypeRequest $request)
     {
@@ -978,7 +995,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceMonitorGetDeviceTypeListRequest $request
-     * @return SystemAccessDeviceMonitorGetDeviceTypeListResponse|ErrorResponse
+     * @return SystemAccessDeviceMonitorGetDeviceTypeListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceMonitorGetDeviceTypeListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceMonitorGetDeviceTypeListRequest $request)
     {
@@ -987,7 +1005,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceMonitorParametersGetRequest $request
-     * @return SystemAccessDeviceMonitorParametersGetResponse|ErrorResponse
+     * @return SystemAccessDeviceMonitorParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceMonitorParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceMonitorParametersGetRequest $request)
     {
@@ -996,7 +1015,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceMonitorParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceMonitorParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceMonitorParametersModifyRequest $request)
     {
@@ -1005,7 +1025,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceResetRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceResetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceResetRequest $request)
     {
@@ -1014,7 +1035,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceTagSetGetRequest $request
-     * @return SystemAccessDeviceTagSetGetResponse|ErrorResponse
+     * @return SystemAccessDeviceTagSetGetResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceTagSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceTagSetGetRequest $request)
     {
@@ -1023,7 +1045,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceTagSetModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceTagSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceTagSetModifyRequest $request)
     {
@@ -1033,6 +1056,7 @@ trait OCISchemaSystem
     /**
      * @param SystemAccessDeviceTypeGetEnhancedConfigurableListRequest $request
      * @return SystemAccessDeviceTypeGetEnhancedConfigurableListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceTypeGetEnhancedConfigurableListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceTypeGetEnhancedConfigurableListRequest $request)
     {
@@ -1041,7 +1065,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccessDeviceTypeGetListRequest $request
-     * @return SystemAccessDeviceTypeGetListResponse|ErrorResponse
+     * @return SystemAccessDeviceTypeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceTypeGetListRequest $request)
     {
@@ -1050,7 +1075,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingAddChargingFunctionElementServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingAddChargingFunctionElementServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingAddChargingFunctionElementServerRequest $request)
     {
@@ -1059,7 +1085,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingAddRadiusServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingAddRadiusServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingAddRadiusServerRequest $request)
     {
@@ -1068,7 +1095,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingDeleteChargingFunctionElementServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingDeleteChargingFunctionElementServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingDeleteChargingFunctionElementServerRequest $request)
     {
@@ -1077,7 +1105,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingDeleteRadiusServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingDeleteRadiusServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingDeleteRadiusServerRequest $request)
     {
@@ -1087,6 +1116,7 @@ trait OCISchemaSystem
     /**
      * @param SystemAccountingGetChargingFunctionElementServerListRequest $request
      * @return SystemAccountingGetChargingFunctionElementServerListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingGetChargingFunctionElementServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingGetChargingFunctionElementServerListRequest $request)
     {
@@ -1096,6 +1126,7 @@ trait OCISchemaSystem
     /**
      * @param SystemAccountingGetRadiusServerListRequest $request
      * @return SystemAccountingGetRadiusServerListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingGetRadiusServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingGetRadiusServerListRequest $request)
     {
@@ -1104,7 +1135,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingInhibitedAttributeValuePairCodeAddRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemAccountingInhibitedAttributeValuePairCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingInhibitedAttributeValuePairCodeAddRequest $request)
     {
@@ -1113,7 +1145,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingInhibitedAttributeValuePairCodeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingInhibitedAttributeValuePairCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingInhibitedAttributeValuePairCodeDeleteRequest $request)
     {
@@ -1122,7 +1155,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingInhibitedAttributeValuePairCodeGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemAccountingInhibitedAttributeValuePairCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingInhibitedAttributeValuePairCodeGetListRequest $request)
     {
@@ -1131,7 +1165,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingModifyChargingFunctionElementServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingModifyChargingFunctionElementServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingModifyChargingFunctionElementServerRequest $request)
     {
@@ -1140,7 +1175,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingModifyRadiusServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingModifyRadiusServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingModifyRadiusServerRequest $request)
     {
@@ -1149,7 +1185,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAccountingReorderChargingFunctionElementServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAccountingReorderChargingFunctionElementServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccountingReorderChargingFunctionElementServerRequest $request)
     {
@@ -1158,7 +1195,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAdminAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdminAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminAddRequest $request)
     {
@@ -1167,7 +1205,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAdminDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdminDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminDeleteRequest $request)
     {
@@ -1176,7 +1215,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAdminGetListRequest $request
-     * @return SystemAdminGetResponse|ErrorResponse
+     * @return SystemAdminGetResponse
+     * @throws ErrorResponseException
      */
     public function systemAdminGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminGetListRequest $request)
     {
@@ -1185,7 +1225,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAdminGetRequest $request
-     * @return SystemAdminGetResponse|ErrorResponse
+     * @return SystemAdminGetResponse
+     * @throws ErrorResponseException
      */
     public function systemAdminGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminGetRequest $request)
     {
@@ -1194,7 +1235,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAdminModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdminModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminModifyRequest $request)
     {
@@ -1203,7 +1245,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAliasAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAliasAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAliasAddRequest $request)
     {
@@ -1212,7 +1255,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAliasDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAliasDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAliasDeleteRequest $request)
     {
@@ -1221,7 +1265,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAliasGetListRequest $request
-     * @return SystemAliasGetListResponse|ErrorResponse
+     * @return SystemAliasGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemAliasGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAliasGetListRequest $request)
     {
@@ -1230,7 +1275,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAlternateUserIdGetListRequest $request
-     * @return SystemAlternateUserIdGetListResponse|ErrorResponse
+     * @return SystemAlternateUserIdGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemAlternateUserIdGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAlternateUserIdGetListRequest $request)
     {
@@ -1239,7 +1285,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemApplicationControllerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemApplicationControllerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemApplicationControllerAddRequest $request)
     {
@@ -1248,7 +1295,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemApplicationControllerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemApplicationControllerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemApplicationControllerDeleteRequest $request)
     {
@@ -1257,7 +1305,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemApplicationControllerGetListRequest $request
-     * @return SystemApplicationControllerGetListResponse|ErrorResponse
+     * @return SystemApplicationControllerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemApplicationControllerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemApplicationControllerGetListRequest $request)
     {
@@ -1266,7 +1315,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemASRParametersGetRequest14sp7 $request
-     * @return SystemASRParametersGetResponse14sp7|ErrorResponse
+     * @return SystemASRParametersGetResponse14sp7
+     * @throws ErrorResponseException
      */
     public function systemASRParametersGetRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersGetRequest14sp7 $request)
     {
@@ -1275,7 +1325,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemASRParametersModifyRequest14sp7 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemASRParametersModifyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\SystemASRParametersModifyRequest14sp7 $request)
     {
@@ -1284,7 +1335,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAuthenticationLockoutExportDataGetRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAuthenticationLockoutExportDataGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutExportDataGetRequest $request)
     {
@@ -1293,7 +1345,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAuthenticationLockoutSettingsGetRequest $request
-     * @return SystemAuthenticationLockoutSettingsGetResponse|ErrorResponse
+     * @return SystemAuthenticationLockoutSettingsGetResponse
+     * @throws ErrorResponseException
      */
     public function systemAuthenticationLockoutSettingsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsGetRequest $request)
     {
@@ -1302,7 +1355,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemAuthenticationLockoutSettingsModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAuthenticationLockoutSettingsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAuthenticationLockoutSettingsModifyRequest $request)
     {
@@ -1311,7 +1365,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBroadCloudGetRequest $request
-     * @return SystemBroadCloudGetResponse|ErrorResponse
+     * @return SystemBroadCloudGetResponse
+     * @throws ErrorResponseException
      */
     public function systemBroadCloudGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadCloudGetRequest $request)
     {
@@ -1320,7 +1375,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBroadCloudModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBroadCloudModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadCloudModifyRequest $request)
     {
@@ -1329,7 +1385,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBroadWorksMobileManagerGetRequest $request
-     * @return SystemBroadWorksMobileManagerGetResponse|ErrorResponse
+     * @return SystemBroadWorksMobileManagerGetResponse
+     * @throws ErrorResponseException
      */
     public function systemBroadWorksMobileManagerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobileManagerGetRequest $request)
     {
@@ -1338,7 +1395,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBroadWorksMobileManagerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBroadWorksMobileManagerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksMobileManagerModifyRequest $request)
     {
@@ -1347,7 +1405,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterBaseDataGetRequest17sp3 $request
-     * @return SystemBwDiameterBaseDataGetResponse17sp3|ErrorResponse
+     * @return SystemBwDiameterBaseDataGetResponse17sp3
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterBaseDataGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterBaseDataGetRequest17sp3 $request)
     {
@@ -1356,7 +1415,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterBaseDataModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterBaseDataModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterBaseDataModifyRequest $request)
     {
@@ -1365,7 +1425,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterPeerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterPeerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterPeerAddRequest $request)
     {
@@ -1374,7 +1435,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterPeerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterPeerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterPeerDeleteRequest $request)
     {
@@ -1383,7 +1445,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterPeerGetListRequest $request
-     * @return SystemBwDiameterPeerGetListResponse|ErrorResponse
+     * @return SystemBwDiameterPeerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterPeerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterPeerGetListRequest $request)
     {
@@ -1392,7 +1455,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterPeerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterPeerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterPeerModifyRequest $request)
     {
@@ -1401,7 +1465,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingPeerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingPeerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingPeerAddRequest $request)
     {
@@ -1410,7 +1475,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingPeerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingPeerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingPeerDeleteRequest $request)
     {
@@ -1419,7 +1485,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingPeerGetListRequest $request
-     * @return SystemBwDiameterRoutingPeerGetListResponse|ErrorResponse
+     * @return SystemBwDiameterRoutingPeerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingPeerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingPeerGetListRequest $request)
     {
@@ -1428,7 +1495,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingPeerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingPeerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingPeerModifyRequest $request)
     {
@@ -1437,7 +1505,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingRealmAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingRealmAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingRealmAddRequest $request)
     {
@@ -1446,7 +1515,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingRealmDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingRealmDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingRealmDeleteRequest $request)
     {
@@ -1455,7 +1525,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingRealmGetListRequest $request
-     * @return SystemBwDiameterRoutingRealmGetListResponse|ErrorResponse
+     * @return SystemBwDiameterRoutingRealmGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingRealmGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingRealmGetListRequest $request)
     {
@@ -1464,7 +1535,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemBwDiameterRoutingRealmModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBwDiameterRoutingRealmModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBwDiameterRoutingRealmModifyRequest $request)
     {
@@ -1474,6 +1546,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingGetPolicyRequest22 $request
      * @return SystemCallProcessingGetPolicyResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingGetPolicyRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest22 $request)
     {
@@ -1482,7 +1555,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingModifyPolicyRequest15 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingModifyPolicyRequest15(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingModifyPolicyRequest15 $request)
     {
@@ -1491,7 +1565,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileAddRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileAddRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAddRequest21 $request)
     {
@@ -1501,6 +1576,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 $request)
     {
@@ -1509,7 +1585,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileAutoAttendantProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileAutoAttendantProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileAutoAttendantProfileModifyRequest $request)
     {
@@ -1519,6 +1596,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22 $request)
     {
@@ -1527,7 +1605,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileBroadWorksAnywhereProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileModifyRequest $request)
     {
@@ -1537,6 +1616,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileCallCenterProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileCallCenterProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22 $request)
     {
@@ -1545,7 +1625,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileCallCenterProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCallCenterProfileModifyRequest $request)
     {
@@ -1555,6 +1636,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileCollaborateProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileCollaborateProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileGetRequest22 $request)
     {
@@ -1563,7 +1645,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileCollaborateProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileCollaborateProfileModifyRequest $request)
     {
@@ -1572,7 +1655,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileDeleteRequest $request)
     {
@@ -1582,6 +1666,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22 $request)
     {
@@ -1590,7 +1675,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileFindMeFollowMeProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileFindMeFollowMeProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFindMeFollowMeProfileModifyRequest $request)
     {
@@ -1600,6 +1686,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileGetRequest22 $request)
     {
@@ -1608,7 +1695,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileFlexibleSeatingHostProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileFlexibleSeatingHostProfileModifyRequest $request)
     {
@@ -1617,7 +1705,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileGetAssignedNCOSListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest $request)
     {
@@ -1627,6 +1716,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileGetListRequest $request
      * @return SystemCallProcessingPolicyProfileGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetListRequest $request)
     {
@@ -1635,7 +1725,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileGetRequest21 $request
-     * @return SystemCallProcessingPolicyProfileGetResponse21|ErrorResponse
+     * @return SystemCallProcessingPolicyProfileGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGetRequest21 $request)
     {
@@ -1645,6 +1736,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileGroupPagingProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileGroupPagingProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGroupPagingProfileGetRequest22 $request)
     {
@@ -1653,7 +1745,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileGroupPagingProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileGroupPagingProfileModifyRequest $request)
     {
@@ -1663,6 +1756,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileHuntGroupProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileHuntGroupProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileHuntGroupProfileGetRequest22 $request)
     {
@@ -1671,7 +1765,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileHuntGroupProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileHuntGroupProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileHuntGroupProfileModifyRequest $request)
     {
@@ -1681,6 +1776,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22 $request)
     {
@@ -1689,7 +1785,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileInstantGroupCallProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileInstantGroupCallProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileInstantGroupCallProfileModifyRequest $request)
     {
@@ -1699,6 +1796,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22 $request)
     {
@@ -1707,7 +1805,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest $request)
     {
@@ -1716,7 +1815,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileModifyRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileModifyRequest21 $request)
     {
@@ -1726,6 +1826,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileRoutePointProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileRoutePointProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileRoutePointProfileGetRequest22 $request)
     {
@@ -1734,7 +1835,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileRoutePointProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileRoutePointProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileRoutePointProfileModifyRequest $request)
     {
@@ -1744,6 +1846,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileTrunkGroupPilotProfileGetRequest22 $request)
     {
@@ -1752,7 +1855,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileTrunkGroupPilotProfileModifyRequest $request)
     {
@@ -1761,7 +1865,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileUserProfileGetRequest22 $request
-     * @return SystemCallProcessingPolicyProfileUserProfileGetResponse22|ErrorResponse
+     * @return SystemCallProcessingPolicyProfileUserProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileUserProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileUserProfileGetRequest22 $request)
     {
@@ -1770,7 +1875,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileUserProfileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileUserProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileUserProfileModifyRequest $request)
     {
@@ -1780,6 +1886,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileVoicePortalProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileVoicePortalProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoicePortalProfileGetRequest22 $request)
     {
@@ -1788,7 +1895,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileVoicePortalProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileVoicePortalProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoicePortalProfileModifyRequest $request)
     {
@@ -1798,6 +1906,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22 $request
      * @return SystemCallProcessingPolicyProfileVoiceXMLProfileGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileGetRequest22 $request)
     {
@@ -1806,7 +1915,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallProcessingPolicyProfileVoiceXMLProfileModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingPolicyProfileVoiceXMLProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingPolicyProfileVoiceXMLProfileModifyRequest $request)
     {
@@ -1815,7 +1925,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallTypeAddMappingRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallTypeAddMappingRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallTypeAddMappingRequest $request)
     {
@@ -1824,7 +1935,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallTypeDeleteMappingRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallTypeDeleteMappingRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallTypeDeleteMappingRequest $request)
     {
@@ -1833,7 +1945,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallTypeGetListRequest $request
-     * @return SystemCallTypeGetListResponse|ErrorResponse
+     * @return SystemCallTypeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCallTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallTypeGetListRequest $request)
     {
@@ -1842,7 +1955,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCallTypeGetMappingListRequest $request
-     * @return SystemCallTypeGetMappingListResponse|ErrorResponse
+     * @return SystemCallTypeGetMappingListResponse
+     * @throws ErrorResponseException
      */
     public function systemCallTypeGetMappingListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallTypeGetMappingListRequest $request)
     {
@@ -1851,7 +1965,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCLIDDeliveryPrefixAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCLIDDeliveryPrefixAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCLIDDeliveryPrefixAddListRequest $request)
     {
@@ -1860,7 +1975,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCLIDDeliveryPrefixDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCLIDDeliveryPrefixDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCLIDDeliveryPrefixDeleteListRequest $request)
     {
@@ -1869,7 +1985,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCLIDDeliveryPrefixGetListRequest $request
-     * @return SystemCLIDDeliveryPrefixGetListResponse|ErrorResponse
+     * @return SystemCLIDDeliveryPrefixGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCLIDDeliveryPrefixGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCLIDDeliveryPrefixGetListRequest $request)
     {
@@ -1878,7 +1995,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemClientSessionParametersGetRequest $request
-     * @return SystemClientSessionParametersGetResponse|ErrorResponse
+     * @return SystemClientSessionParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemClientSessionParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClientSessionParametersGetRequest $request)
     {
@@ -1887,7 +2005,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemClientSessionParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemClientSessionParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClientSessionParametersModifyRequest $request)
     {
@@ -1896,7 +2015,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCodecAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCodecAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCodecAddRequest $request)
     {
@@ -1905,7 +2025,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCodecDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCodecDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCodecDeleteRequest $request)
     {
@@ -1914,7 +2035,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCodecGetListRequest $request
-     * @return SystemCodecGetListResponse|ErrorResponse
+     * @return SystemCodecGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCodecGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCodecGetListRequest $request)
     {
@@ -1923,7 +2045,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringAlternateCallIndicatorAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringAlternateCallIndicatorAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringAlternateCallIndicatorAddRequest $request)
     {
@@ -1932,7 +2055,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringAlternateCallIndicatorDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringAlternateCallIndicatorDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringAlternateCallIndicatorDeleteRequest $request)
     {
@@ -1941,7 +2065,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringAlternateCallIndicatorGetListRequest $request
-     * @return SystemCommunicationBarringAlternateCallIndicatorGetListResponse|ErrorResponse
+     * @return SystemCommunicationBarringAlternateCallIndicatorGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringAlternateCallIndicatorGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringAlternateCallIndicatorGetListRequest $request)
     {
@@ -1950,7 +2075,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringAlternateCallIndicatorModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringAlternateCallIndicatorModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringAlternateCallIndicatorModifyRequest $request)
     {
@@ -1959,7 +2085,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCallTypeAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCallTypeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCallTypeAddRequest $request)
     {
@@ -1968,7 +2095,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCallTypeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCallTypeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCallTypeDeleteRequest $request)
     {
@@ -1977,7 +2105,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCallTypeGetListRequest $request
-     * @return SystemCommunicationBarringCallTypeGetListResponse|ErrorResponse
+     * @return SystemCommunicationBarringCallTypeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCallTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCallTypeGetListRequest $request)
     {
@@ -1986,7 +2115,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCallTypeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCallTypeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCallTypeModifyRequest $request)
     {
@@ -1995,7 +2125,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCriteriaAddRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCriteriaAddRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaAddRequest17 $request)
     {
@@ -2004,7 +2135,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCriteriaDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaDeleteRequest $request)
     {
@@ -2013,7 +2145,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCriteriaGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCriteriaGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaGetListRequest $request)
     {
@@ -2022,7 +2155,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCriteriaGetRequest19sp1 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCriteriaGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaGetRequest19sp1 $request)
     {
@@ -2031,7 +2165,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringCriteriaModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringCriteriaModifyRequest $request)
     {
@@ -2040,7 +2175,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringDigitPatternCriteriaAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringDigitPatternCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringDigitPatternCriteriaAddRequest $request)
     {
@@ -2049,7 +2185,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringDigitPatternCriteriaDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringDigitPatternCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringDigitPatternCriteriaDeleteRequest $request)
     {
@@ -2058,7 +2195,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringDigitPatternCriteriaGetListRequest $request
-     * @return SystemCommunicationBarringDigitPatternCriteriaGetListResponse|ErrorResponse
+     * @return SystemCommunicationBarringDigitPatternCriteriaGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringDigitPatternCriteriaGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringDigitPatternCriteriaGetListRequest $request)
     {
@@ -2067,7 +2205,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest $request
-     * @return SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse|ErrorResponse
+     * @return SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringDigitPatternCriteriaGetPatternListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest $request)
     {
@@ -2076,7 +2215,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringDigitPatternCriteriaGetRequest $request
-     * @return SystemCommunicationBarringDigitPatternCriteriaGetResponse|ErrorResponse
+     * @return SystemCommunicationBarringDigitPatternCriteriaGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringDigitPatternCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringDigitPatternCriteriaGetRequest $request)
     {
@@ -2085,7 +2225,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringDigitPatternCriteriaModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringDigitPatternCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringDigitPatternCriteriaModifyRequest $request)
     {
@@ -2094,7 +2235,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringGetRequest21sp1 $request
-     * @return SystemCommunicationBarringGetResponse21sp1|ErrorResponse
+     * @return SystemCommunicationBarringGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringGetRequest21sp1 $request)
     {
@@ -2103,7 +2245,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringIncomingCriteriaAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringIncomingCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringIncomingCriteriaAddRequest $request)
     {
@@ -2112,7 +2255,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringIncomingCriteriaDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringIncomingCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringIncomingCriteriaDeleteRequest $request)
     {
@@ -2121,7 +2265,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringIncomingCriteriaGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringIncomingCriteriaGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringIncomingCriteriaGetListRequest $request)
     {
@@ -2130,7 +2275,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringIncomingCriteriaGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringIncomingCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringIncomingCriteriaGetRequest $request)
     {
@@ -2139,7 +2285,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringIncomingCriteriaModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringIncomingCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringIncomingCriteriaModifyRequest $request)
     {
@@ -2148,7 +2295,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringModifyRequest $request)
     {
@@ -2157,7 +2305,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringProfileAddRequest19sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileAddRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileAddRequest19sp1 $request)
     {
@@ -2166,7 +2315,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringProfileDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileDeleteRequest $request)
     {
@@ -2176,6 +2326,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCommunicationBarringProfileGetCriteriaUsageListRequest $request
      * @return SystemCommunicationBarringProfileGetCriteriaUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetCriteriaUsageListRequest $request)
     {
@@ -2184,7 +2335,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest $request)
     {
@@ -2194,6 +2346,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request
      * @return SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest $request)
     {
@@ -2202,7 +2355,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringProfileGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetListRequest $request)
     {
@@ -2212,6 +2366,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCommunicationBarringProfileGetRequest19sp1V2 $request
      * @return SystemCommunicationBarringProfileGetResponse19sp1
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetRequest19sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest19sp1V2 $request)
     {
@@ -2220,7 +2375,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringProfileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileModifyRequest $request)
     {
@@ -2230,6 +2386,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest $request
      * @return SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringServiceProviderGetCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest $request)
     {
@@ -2239,6 +2396,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListRequest $request
      * @return SystemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringServiceProviderGetIncomingCriteriaUsageListRequest $request)
     {
@@ -2247,7 +2405,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableFileSystemGetRequest $request
-     * @return SystemConfigurableFileSystemGetResponse|ErrorResponse
+     * @return SystemConfigurableFileSystemGetResponse
+     * @throws ErrorResponseException
      */
     public function systemConfigurableFileSystemGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetRequest $request)
     {
@@ -2256,7 +2415,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableFileSystemModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemConfigurableFileSystemModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequest $request)
     {
@@ -2265,7 +2425,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableTreatmentAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemConfigurableTreatmentAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableTreatmentAddRequest $request)
     {
@@ -2274,7 +2435,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableTreatmentDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemConfigurableTreatmentDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableTreatmentDeleteRequest $request)
     {
@@ -2283,7 +2445,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableTreatmentGetListRequest $request
-     * @return SystemConfigurableTreatmentGetListResponse|ErrorResponse
+     * @return SystemConfigurableTreatmentGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemConfigurableTreatmentGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableTreatmentGetListRequest $request)
     {
@@ -2292,7 +2455,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableTreatmentGetRequest16 $request
-     * @return SystemConfigurableTreatmentGetResponse16|ErrorResponse
+     * @return SystemConfigurableTreatmentGetResponse16
+     * @throws ErrorResponseException
      */
     public function systemConfigurableTreatmentGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableTreatmentGetRequest16 $request)
     {
@@ -2301,7 +2465,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemConfigurableTreatmentModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemConfigurableTreatmentModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableTreatmentModifyRequest $request)
     {
@@ -2310,7 +2475,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCountryCodeAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCountryCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCountryCodeAddRequest $request)
     {
@@ -2319,7 +2485,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCountryCodeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCountryCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCountryCodeDeleteRequest $request)
     {
@@ -2329,6 +2496,7 @@ trait OCISchemaSystem
     /**
      * @param SystemCountryCodeGetListRequest $request
      * @return SystemCountryCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCountryCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCountryCodeGetListRequest $request)
     {
@@ -2337,7 +2505,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCountryCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCountryCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCountryCodeModifyRequest $request)
     {
@@ -2346,7 +2515,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigAddFileServerRequest14sp6 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigAddFileServerRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigAddFileServerRequest14sp6 $request)
     {
@@ -2355,7 +2525,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigDeleteFileServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigDeleteFileServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigDeleteFileServerRequest $request)
     {
@@ -2364,7 +2535,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigGetFileServerListRequest14sp6 $request
-     * @return SystemCPEConfigGetFileServerListResponse14sp6|ErrorResponse
+     * @return SystemCPEConfigGetFileServerListResponse14sp6
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigGetFileServerListRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigGetFileServerListRequest14sp6 $request)
     {
@@ -2373,7 +2545,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigModifyFileServerRequest14sp6 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigModifyFileServerRequest14sp6(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigModifyFileServerRequest14sp6 $request)
     {
@@ -2382,7 +2555,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigParametersGetRequest21 $request
-     * @return SystemCPEConfigParametersGetResponse21|ErrorResponse
+     * @return SystemCPEConfigParametersGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigParametersGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersGetRequest21 $request)
     {
@@ -2391,7 +2565,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigParametersModifyRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigParametersModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest21 $request)
     {
@@ -2400,7 +2575,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigRebuildConfigFileRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigRebuildConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigRebuildConfigFileRequest $request)
     {
@@ -2409,7 +2585,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigRebuildDeviceConfigFileRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigRebuildDeviceConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigRebuildDeviceConfigFileRequest $request)
     {
@@ -2418,7 +2595,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigReorderDeviceLinePortsRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigReorderDeviceLinePortsRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigReorderDeviceLinePortsRequest $request)
     {
@@ -2427,7 +2605,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigResetDeviceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigResetDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigResetDeviceRequest $request)
     {
@@ -2436,7 +2615,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigResetDeviceTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigResetDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigResetDeviceTypeRequest $request)
     {
@@ -2445,7 +2625,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCPEConfigSetConfigFileRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCPEConfigSetConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigSetConfigFileRequest $request)
     {
@@ -2454,7 +2635,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCrInterfaceGetRequest22 $request
-     * @return SystemCrInterfaceGetResponse|ErrorResponse
+     * @return SystemCrInterfaceGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCrInterfaceGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemCrInterfaceGetRequest22 $request)
     {
@@ -2463,7 +2645,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCrInterfaceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCrInterfaceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCrInterfaceModifyRequest $request)
     {
@@ -2472,7 +2655,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementAutoRebuildConfigGetListRequest $request
-     * @return SystemDeviceManagementAutoRebuildConfigGetListResponse|ErrorResponse
+     * @return SystemDeviceManagementAutoRebuildConfigGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementAutoRebuildConfigGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementAutoRebuildConfigGetListRequest $request)
     {
@@ -2481,7 +2665,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementAutoRebuildConfigModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementAutoRebuildConfigModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementAutoRebuildConfigModifyListRequest $request)
     {
@@ -2490,7 +2675,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementEventGetListRequest22 $request
-     * @return SystemDeviceManagementEventGetListResponse22|ErrorResponse
+     * @return SystemDeviceManagementEventGetListResponse22
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementEventGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementEventGetListRequest22 $request)
     {
@@ -2499,7 +2685,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest $request
-     * @return SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse|ErrorResponse
+     * @return SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest $request)
     {
@@ -2508,7 +2695,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementGetEventStatusSummaryCountRequest $request
-     * @return SystemDeviceManagementGetEventStatusSummaryCountResponse|ErrorResponse
+     * @return SystemDeviceManagementGetEventStatusSummaryCountResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementGetEventStatusSummaryCountRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementGetEventStatusSummaryCountRequest $request)
     {
@@ -2517,7 +2705,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementInProgressAndPendingEventCancelRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementInProgressAndPendingEventCancelRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequest $request)
     {
@@ -2526,7 +2715,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementSwitchDeviceTypeDeviceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementSwitchDeviceTypeDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementSwitchDeviceTypeDeviceRequest $request)
     {
@@ -2535,7 +2725,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementSwitchDeviceTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementSwitchDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementSwitchDeviceTypeRequest $request)
     {
@@ -2544,7 +2735,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagAddRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagAddRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagAddRequest22 $request)
     {
@@ -2553,7 +2745,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagDeleteListRequest $request)
     {
@@ -2562,7 +2755,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagGetListRequest $request
-     * @return SystemDeviceManagementTagGetListResponse|ErrorResponse
+     * @return SystemDeviceManagementTagGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagGetListRequest $request)
     {
@@ -2571,7 +2765,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagModifyRequest $request)
     {
@@ -2580,7 +2775,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagSetAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagSetAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetAddRequest $request)
     {
@@ -2589,7 +2785,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagSetDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagSetDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetDeleteRequest $request)
     {
@@ -2598,7 +2795,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagSetGetListRequest22 $request
-     * @return SystemDeviceManagementTagSetGetListResponse22|ErrorResponse
+     * @return SystemDeviceManagementTagSetGetListResponse22
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagSetGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetGetListRequest22 $request)
     {
@@ -2607,7 +2805,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceManagementTagSetModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetModifyRequest $request)
     {
@@ -2616,7 +2815,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceProfileAuthenticationLockoutClearAllRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceProfileAuthenticationLockoutClearAllRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceProfileAuthenticationLockoutClearAllRequest $request)
     {
@@ -2625,7 +2825,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceProfileAuthenticationLockoutClearRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceProfileAuthenticationLockoutClearRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceProfileAuthenticationLockoutClearRequest $request)
     {
@@ -2634,7 +2835,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceProfileAuthenticationLockoutGetRequest $request
-     * @return SystemDeviceProfileAuthenticationLockoutGetResponse|ErrorResponse
+     * @return SystemDeviceProfileAuthenticationLockoutGetResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceProfileAuthenticationLockoutGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceProfileAuthenticationLockoutGetRequest $request)
     {
@@ -2643,7 +2845,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceProfileAuthenticationPasswordRulesGetRequest $request
-     * @return SystemDeviceProfileAuthenticationPasswordRulesGetResponse|ErrorResponse
+     * @return SystemDeviceProfileAuthenticationPasswordRulesGetResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceProfileAuthenticationPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceProfileAuthenticationPasswordRulesGetRequest $request)
     {
@@ -2652,7 +2855,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceProfileAuthenticationPasswordRulesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceProfileAuthenticationPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceProfileAuthenticationPasswordRulesModifyRequest $request)
     {
@@ -2661,7 +2865,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceTypeExportRequest $request
-     * @return SystemDeviceTypeExportResponse|ErrorResponse
+     * @return SystemDeviceTypeExportResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceTypeExportRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeExportRequest $request)
     {
@@ -2670,7 +2875,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest22 $request
-     * @return SystemDeviceTypeGetAvailableListResponse22|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse22
+     * @throws ErrorResponseException
      */
     public function systemDeviceTypeGetAvailableListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest22 $request)
     {
@@ -2679,7 +2885,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceTypeGetRequest22 $request
-     * @return SystemDeviceTypeGetResponse22|ErrorResponse
+     * @return SystemDeviceTypeGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemDeviceTypeGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest22 $request)
     {
@@ -2688,7 +2895,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDeviceTypeImportRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceTypeImportRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeImportRequest $request)
     {
@@ -2697,7 +2905,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialableCallerIDCriteriaAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialableCallerIDCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialableCallerIDCriteriaAddRequest $request)
     {
@@ -2706,7 +2915,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialableCallerIDCriteriaDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialableCallerIDCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialableCallerIDCriteriaDeleteRequest $request)
     {
@@ -2715,7 +2925,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialableCallerIDCriteriaGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemDialableCallerIDCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialableCallerIDCriteriaGetRequest $request)
     {
@@ -2724,7 +2935,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialableCallerIDCriteriaModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialableCallerIDCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialableCallerIDCriteriaModifyRequest $request)
     {
@@ -2733,7 +2945,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialableCallerIDGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemDialableCallerIDGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialableCallerIDGetRequest $request)
     {
@@ -2742,7 +2955,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialableCallerIDModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialableCallerIDModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialableCallerIDModifyRequest $request)
     {
@@ -2751,7 +2965,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialPlanPolicyAddAccessCodeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyAddAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyAddAccessCodeRequest $request)
     {
@@ -2760,7 +2975,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialPlanPolicyDeleteAccessCodeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyDeleteAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyDeleteAccessCodeRequest $request)
     {
@@ -2770,6 +2986,7 @@ trait OCISchemaSystem
     /**
      * @param SystemDialPlanPolicyGetAccessCodeListRequest $request
      * @return SystemDialPlanPolicyGetAccessCodeListResponse
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyGetAccessCodeListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyGetAccessCodeListRequest $request)
     {
@@ -2778,7 +2995,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialPlanPolicyGetAccessCodeRequest $request
-     * @return SystemDialPlanPolicyGetAccessCodeResponse|ErrorResponse
+     * @return SystemDialPlanPolicyGetAccessCodeResponse
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyGetAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyGetAccessCodeRequest $request)
     {
@@ -2788,6 +3006,7 @@ trait OCISchemaSystem
     /**
      * @param SystemDialPlanPolicyGetRequest17 $request
      * @return SystemDialPlanPolicyGetResponse17
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyGetRequest17 $request)
     {
@@ -2796,7 +3015,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialPlanPolicyModifyAccessCodeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyModifyAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyModifyAccessCodeRequest $request)
     {
@@ -2805,7 +3025,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDialPlanPolicyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDialPlanPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDialPlanPolicyModifyRequest $request)
     {
@@ -2814,7 +3035,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDigitCollectionGetRequest13mp4 $request
-     * @return SystemDigitCollectionGetResponse13mp4|ErrorResponse
+     * @return SystemDigitCollectionGetResponse13mp4
+     * @throws ErrorResponseException
      */
     public function systemDigitCollectionGetRequest13mp4(\CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionGetRequest13mp4 $request)
     {
@@ -2823,7 +3045,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDigitCollectionModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDigitCollectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDigitCollectionModifyRequest $request)
     {
@@ -2832,7 +3055,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDnGetSummaryListRequest $request
-     * @return SystemDnGetSummaryListResponse|ErrorResponse
+     * @return SystemDnGetSummaryListResponse
+     * @throws ErrorResponseException
      */
     public function systemDnGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDnGetSummaryListRequest $request)
     {
@@ -2841,7 +3065,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDnGetUtilizationListRequest $request
-     * @return SystemDnGetUtilizationListResponse|ErrorResponse
+     * @return SystemDnGetUtilizationListResponse
+     * @throws ErrorResponseException
      */
     public function systemDnGetUtilizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationListRequest $request)
     {
@@ -2850,7 +3075,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDnGetUtilizationRequest14sp3 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemDnGetUtilizationRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemDnGetUtilizationRequest14sp3 $request)
     {
@@ -2859,7 +3085,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDomainAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDomainAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainAddRequest $request)
     {
@@ -2868,7 +3095,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDomainDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDomainDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainDeleteRequest $request)
     {
@@ -2877,7 +3105,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDomainGetAssignedServiceProviderListRequest $request
-     * @return SystemDomainGetAssignedServiceProviderListResponse|ErrorResponse
+     * @return SystemDomainGetAssignedServiceProviderListResponse
+     * @throws ErrorResponseException
      */
     public function systemDomainGetAssignedServiceProviderListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainGetAssignedServiceProviderListRequest $request)
     {
@@ -2886,7 +3115,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDomainGetListRequest22 $request
-     * @return SystemDomainGetListResponse22|ErrorResponse
+     * @return SystemDomainGetListResponse22
+     * @throws ErrorResponseException
      */
     public function systemDomainGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainGetListRequest22 $request)
     {
@@ -2895,7 +3125,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDomainParametersGetRequest $request
-     * @return SystemDomainParametersGetResponse|ErrorResponse
+     * @return SystemDomainParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemDomainParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainParametersGetRequest $request)
     {
@@ -2904,7 +3135,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDomainParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDomainParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainParametersModifyRequest $request)
     {
@@ -2913,7 +3145,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDTMFTransmissionGetRequest $request
-     * @return SystemDTMFTransmissionGetResponse|ErrorResponse
+     * @return SystemDTMFTransmissionGetResponse
+     * @throws ErrorResponseException
      */
     public function systemDTMFTransmissionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDTMFTransmissionGetRequest $request)
     {
@@ -2922,7 +3155,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemDTMFTransmissionModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemDTMFTransmissionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDTMFTransmissionModifyRequest $request)
     {
@@ -2931,7 +3165,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemEmergencyCallDDoSProtectionGetRequest $request
-     * @return SystemEmergencyCallDDoSProtectionGetResponse|ErrorResponse
+     * @return SystemEmergencyCallDDoSProtectionGetResponse
+     * @throws ErrorResponseException
      */
     public function systemEmergencyCallDDoSProtectionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyCallDDoSProtectionGetRequest $request)
     {
@@ -2940,7 +3175,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemEmergencyCallDDoSProtectionModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemEmergencyCallDDoSProtectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyCallDDoSProtectionModifyRequest $request)
     {
@@ -2949,7 +3185,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemEndpointGetListRequest $request
-     * @return SystemEndpointGetListResponse|ErrorResponse
+     * @return SystemEndpointGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemEndpointGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEndpointGetListRequest $request)
     {
@@ -2958,7 +3195,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExpensiveCallNotificationGetRequest $request
-     * @return SystemExpensiveCallNotificationGetResponse|ErrorResponse
+     * @return SystemExpensiveCallNotificationGetResponse
+     * @throws ErrorResponseException
      */
     public function systemExpensiveCallNotificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallNotificationGetRequest $request)
     {
@@ -2967,7 +3205,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExpensiveCallNotificationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExpensiveCallNotificationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallNotificationModifyRequest $request)
     {
@@ -2976,7 +3215,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExpensiveCallTypeAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExpensiveCallTypeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallTypeAddRequest $request)
     {
@@ -2985,7 +3225,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExpensiveCallTypeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExpensiveCallTypeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallTypeDeleteRequest $request)
     {
@@ -2995,6 +3236,7 @@ trait OCISchemaSystem
     /**
      * @param SystemExpensiveCallTypeGetListRequest16sp1 $request
      * @return SystemExpensiveCallTypeGetListResponse16sp1
+     * @throws ErrorResponseException
      */
     public function systemExpensiveCallTypeGetListRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallTypeGetListRequest16sp1 $request)
     {
@@ -3003,7 +3245,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExpensiveCallTypeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExpensiveCallTypeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExpensiveCallTypeModifyRequest $request)
     {
@@ -3012,7 +3255,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExportAddressingDataRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExportAddressingDataRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExportAddressingDataRequest $request)
     {
@@ -3021,7 +3265,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExportBroadCloudDataRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExportBroadCloudDataRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExportBroadCloudDataRequest $request)
     {
@@ -3031,6 +3276,7 @@ trait OCISchemaSystem
     /**
      * @param SystemExportSubscriberRequest $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExportSubscriberRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExportSubscriberRequest $request)
     {
@@ -3039,7 +3285,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExtensionLengthGetRequest $request
-     * @return SystemExtensionLengthGetResponse|ErrorResponse
+     * @return SystemExtensionLengthGetResponse
+     * @throws ErrorResponseException
      */
     public function systemExtensionLengthGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExtensionLengthGetRequest $request)
     {
@@ -3048,7 +3295,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExtensionLengthModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExtensionLengthModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExtensionLengthModifyRequest $request)
     {
@@ -3057,7 +3305,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalAuthenticationAddACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExternalAuthenticationAddACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationAddACLEntryRequest14sp2 $request)
     {
@@ -3066,7 +3315,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalAuthenticationDeleteACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExternalAuthenticationDeleteACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationDeleteACLEntryRequest14sp2 $request)
     {
@@ -3075,7 +3325,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalAuthenticationGetACLListRequest $request
-     * @return SystemExternalAuthenticationGetACLListResponse|ErrorResponse
+     * @return SystemExternalAuthenticationGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemExternalAuthenticationGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationGetACLListRequest $request)
     {
@@ -3084,7 +3335,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalAuthenticationModifyACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExternalAuthenticationModifyACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalAuthenticationModifyACLEntryRequest14sp2 $request)
     {
@@ -3093,7 +3345,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalEmergencyRoutingParametersGetRequest13mp13 $request
-     * @return SystemExternalEmergencyRoutingParametersGetResponse13mp13|ErrorResponse
+     * @return SystemExternalEmergencyRoutingParametersGetResponse13mp13
+     * @throws ErrorResponseException
      */
     public function systemExternalEmergencyRoutingParametersGetRequest13mp13(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersGetRequest13mp13 $request)
     {
@@ -3102,7 +3355,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemExternalEmergencyRoutingParametersModifyRequest13mp13 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemExternalEmergencyRoutingParametersModifyRequest13mp13(\CWM\BroadWorksConnector\Ocip\Models\SystemExternalEmergencyRoutingParametersModifyRequest13mp13 $request)
     {
@@ -3112,6 +3366,7 @@ trait OCISchemaSystem
     /**
      * @param SystemFeatureAccessCodeGetListRequest21 $request
      * @return SystemFeatureAccessCodeGetListResponse20
+     * @throws ErrorResponseException
      */
     public function systemFeatureAccessCodeGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeGetListRequest21 $request)
     {
@@ -3120,7 +3375,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFeatureAccessCodeModifyListRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFeatureAccessCodeModifyListRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeModifyListRequest21 $request)
     {
@@ -3129,7 +3385,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileGetContentRequest $request
-     * @return SystemFileGetContentResponse|ErrorResponse
+     * @return SystemFileGetContentResponse
+     * @throws ErrorResponseException
      */
     public function systemFileGetContentRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileGetContentRequest $request)
     {
@@ -3138,7 +3395,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceAddRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceAddRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceAddRequest20 $request)
     {
@@ -3147,7 +3405,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceDeleteRequest $request)
     {
@@ -3156,7 +3415,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceGetListRequest $request
-     * @return SystemFileRepositoryDeviceGetListResponse|ErrorResponse
+     * @return SystemFileRepositoryDeviceGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceGetListRequest $request)
     {
@@ -3165,7 +3425,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceGetRequest20 $request
-     * @return SystemFileRepositoryDeviceGetResponse20|ErrorResponse
+     * @return SystemFileRepositoryDeviceGetResponse20
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceGetRequest20 $request)
     {
@@ -3174,7 +3435,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceModifyRequest $request)
     {
@@ -3183,7 +3445,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceUserAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceUserAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceUserAddRequest $request)
     {
@@ -3192,7 +3455,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceUserDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceUserDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceUserDeleteRequest $request)
     {
@@ -3201,7 +3465,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceUserGetListRequest $request
-     * @return SystemFileRepositoryDeviceUserGetListResponse|ErrorResponse
+     * @return SystemFileRepositoryDeviceUserGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceUserGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceUserGetListRequest $request)
     {
@@ -3210,7 +3475,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceUserGetRequest $request
-     * @return SystemFileRepositoryDeviceUserGetResponse|ErrorResponse
+     * @return SystemFileRepositoryDeviceUserGetResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceUserGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceUserGetRequest $request)
     {
@@ -3219,7 +3485,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemFileRepositoryDeviceUserModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFileRepositoryDeviceUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFileRepositoryDeviceUserModifyRequest $request)
     {
@@ -3229,6 +3496,7 @@ trait OCISchemaSystem
     /**
      * @param SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest $request
      * @return SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse
+     * @throws ErrorResponseException
      */
     public function systemGeographicRedundancyPeerSipConnectionMonitoringGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest $request)
     {
@@ -3237,7 +3505,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyPeerSipConnectionMonitoringModifyRequest $request)
     {
@@ -3247,6 +3516,7 @@ trait OCISchemaSystem
     /**
      * @param SystemGeographicRedundancyProxyGetRequest $request
      * @return SystemGeographicRedundancyProxyGetResponse
+     * @throws ErrorResponseException
      */
     public function systemGeographicRedundancyProxyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyProxyGetRequest $request)
     {
@@ -3255,7 +3525,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGeographicRedundancyProxyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGeographicRedundancyProxyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyProxyModifyRequest $request)
     {
@@ -3264,7 +3535,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 $request
-     * @return SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22|ErrorResponse
+     * @return SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22
+     * @throws ErrorResponseException
      */
     public function systemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 $request)
     {
@@ -3273,7 +3545,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGetRegistrationContactListRequest21sp1 $request
-     * @return SystemGetRegistrationContactListResponse21sp1|ErrorResponse
+     * @return SystemGetRegistrationContactListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemGetRegistrationContactListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest21sp1 $request)
     {
@@ -3282,7 +3555,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSAvpCodeMapAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSAvpCodeMapAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSAvpCodeMapAddRequest $request)
     {
@@ -3291,7 +3565,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSAvpCodeMapDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSAvpCodeMapDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSAvpCodeMapDeleteRequest $request)
     {
@@ -3300,7 +3575,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSAvpCodeMapGetListRequest $request
-     * @return SystemGETSAvpCodeMapGetListResponse|ErrorResponse
+     * @return SystemGETSAvpCodeMapGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSAvpCodeMapGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSAvpCodeMapGetListRequest $request)
     {
@@ -3309,7 +3585,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSGetRequest $request
-     * @return SystemGETSGetResponse|ErrorResponse
+     * @return SystemGETSGetResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSGetRequest $request)
     {
@@ -3318,7 +3595,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSModifyRequest $request)
     {
@@ -3327,7 +3605,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSNumberAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSNumberAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSNumberAddRequest $request)
     {
@@ -3336,7 +3615,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSNumberDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSNumberDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSNumberDeleteRequest $request)
     {
@@ -3345,7 +3625,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSNumberGetListRequest $request
-     * @return SystemGETSNumberGetListResponse|ErrorResponse
+     * @return SystemGETSNumberGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSNumberGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSNumberGetListRequest $request)
     {
@@ -3354,7 +3635,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSNumberModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSNumberModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSNumberModifyRequest $request)
     {
@@ -3363,7 +3645,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSReservedFeatureAccessCodeAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSReservedFeatureAccessCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSReservedFeatureAccessCodeAddRequest $request)
     {
@@ -3372,7 +3655,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSReservedFeatureAccessCodeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSReservedFeatureAccessCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSReservedFeatureAccessCodeDeleteRequest $request)
     {
@@ -3381,7 +3665,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSReservedFeatureAccessCodeGetListRequest $request
-     * @return SystemGETSReservedFeatureAccessCodeGetListResponse|ErrorResponse
+     * @return SystemGETSReservedFeatureAccessCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSReservedFeatureAccessCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSReservedFeatureAccessCodeGetListRequest $request)
     {
@@ -3390,7 +3675,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSReservedFeatureAccessCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSReservedFeatureAccessCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSReservedFeatureAccessCodeModifyRequest $request)
     {
@@ -3399,7 +3685,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSResourcePriorityAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSResourcePriorityAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSResourcePriorityAddRequest $request)
     {
@@ -3408,7 +3695,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSResourcePriorityDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSResourcePriorityDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSResourcePriorityDeleteRequest $request)
     {
@@ -3417,7 +3705,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSResourcePriorityGetListRequest $request
-     * @return SystemGETSResourcePriorityGetListResponse|ErrorResponse
+     * @return SystemGETSResourcePriorityGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSResourcePriorityGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSResourcePriorityGetListRequest $request)
     {
@@ -3426,7 +3715,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSResourcePriorityModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSResourcePriorityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSResourcePriorityModifyRequest $request)
     {
@@ -3435,7 +3725,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSSessionPriorityMapAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSSessionPriorityMapAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSSessionPriorityMapAddRequest $request)
     {
@@ -3444,7 +3735,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSSessionPriorityMapDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSSessionPriorityMapDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSSessionPriorityMapDeleteRequest $request)
     {
@@ -3453,7 +3745,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSSessionPriorityMapGetListRequest $request
-     * @return SystemGETSSessionPriorityMapGetListResponse|ErrorResponse
+     * @return SystemGETSSessionPriorityMapGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSSessionPriorityMapGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSSessionPriorityMapGetListRequest $request)
     {
@@ -3462,7 +3755,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemGETSSessionPriorityMapModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemGETSSessionPriorityMapModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGETSSessionPriorityMapModifyRequest $request)
     {
@@ -3471,7 +3765,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHomeNetworkAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHomeNetworkAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHomeNetworkAddRequest $request)
     {
@@ -3480,7 +3775,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHomeNetworkDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHomeNetworkDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHomeNetworkDeleteRequest $request)
     {
@@ -3489,7 +3785,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHomeNetworkGetListRequest $request
-     * @return SystemHomeNetworkGetListResponse|ErrorResponse
+     * @return SystemHomeNetworkGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemHomeNetworkGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHomeNetworkGetListRequest $request)
     {
@@ -3498,7 +3795,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHPBXAlternateCarrierSelectionAddCarrierRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHPBXAlternateCarrierSelectionAddCarrierRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHPBXAlternateCarrierSelectionAddCarrierRequest $request)
     {
@@ -3507,7 +3805,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHPBXAlternateCarrierSelectionDeleteCarrierRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHPBXAlternateCarrierSelectionDeleteCarrierRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHPBXAlternateCarrierSelectionDeleteCarrierRequest $request)
     {
@@ -3516,7 +3815,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHPBXAlternateCarrierSelectionGetCarrierListRequest $request
-     * @return SystemHPBXAlternateCarrierSelectionGetCarrierListResponse|ErrorResponse
+     * @return SystemHPBXAlternateCarrierSelectionGetCarrierListResponse
+     * @throws ErrorResponseException
      */
     public function systemHPBXAlternateCarrierSelectionGetCarrierListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHPBXAlternateCarrierSelectionGetCarrierListRequest $request)
     {
@@ -3525,7 +3825,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHPBXAlternateCarrierSelectionModifyCarrierRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHPBXAlternateCarrierSelectionModifyCarrierRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHPBXAlternateCarrierSelectionModifyCarrierRequest $request)
     {
@@ -3534,7 +3835,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHPBXMobileTerminationGetRequest $request
-     * @return SystemHPBXMobileTerminationGetResponse|ErrorResponse
+     * @return SystemHPBXMobileTerminationGetResponse
+     * @throws ErrorResponseException
      */
     public function systemHPBXMobileTerminationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHPBXMobileTerminationGetRequest $request)
     {
@@ -3543,7 +3845,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemHPBXMobileTerminationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHPBXMobileTerminationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHPBXMobileTerminationModifyRequest $request)
     {
@@ -3552,7 +3855,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLanguageAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemLanguageAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLanguageAddRequest $request)
     {
@@ -3561,7 +3865,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLanguageDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemLanguageDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLanguageDeleteRequest $request)
     {
@@ -3570,7 +3875,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLanguageGetListRequest $request
-     * @return SystemLanguageGetListResponse|ErrorResponse
+     * @return SystemLanguageGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemLanguageGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLanguageGetListRequest $request)
     {
@@ -3579,7 +3885,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLanguageModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemLanguageModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLanguageModifyRequest $request)
     {
@@ -3588,7 +3895,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLicensingGetRequest14sp3 $request
-     * @return SystemLicensingGetResponse14sp3|ErrorResponse
+     * @return SystemLicensingGetResponse14sp3
+     * @throws ErrorResponseException
      */
     public function systemLicensingGetRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetRequest14sp3 $request)
     {
@@ -3597,7 +3905,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLicensingGetSystemLicenseListRequest21sp1 $request
-     * @return SystemLicensingGetSystemLicenseListResponse21sp1|ErrorResponse
+     * @return SystemLicensingGetSystemLicenseListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemLicensingGetSystemLicenseListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetSystemLicenseListRequest21sp1 $request)
     {
@@ -3606,7 +3915,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemLicensingReloadRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemLicensingReloadRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingReloadRequest $request)
     {
@@ -3615,7 +3925,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMailParametersGetRequest22 $request
-     * @return SystemMailParametersGetResponse22|ErrorResponse
+     * @return SystemMailParametersGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemMailParametersGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemMailParametersGetRequest22 $request)
     {
@@ -3624,7 +3935,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMailParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMailParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMailParametersModifyRequest $request)
     {
@@ -3633,7 +3945,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaAddRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaAddRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaAddRequest16 $request)
     {
@@ -3642,7 +3955,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaDeleteRequest $request)
     {
@@ -3652,6 +3966,7 @@ trait OCISchemaSystem
     /**
      * @param SystemMediaGetListRequest $request
      * @return SystemMediaGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGetListRequest $request)
     {
@@ -3660,7 +3975,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupAddRequest $request)
     {
@@ -3669,7 +3985,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupCodecAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupCodecAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupCodecAddRequest $request)
     {
@@ -3678,7 +3995,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupCodecDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupCodecDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupCodecDeleteRequest $request)
     {
@@ -3687,7 +4005,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupCodecGetListRequest $request
-     * @return SystemMediaGroupCodecGetListResponse|ErrorResponse
+     * @return SystemMediaGroupCodecGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupCodecGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupCodecGetListRequest $request)
     {
@@ -3696,7 +4015,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupCodecModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupCodecModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupCodecModifyRequest $request)
     {
@@ -3705,7 +4025,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupDeleteRequest $request)
     {
@@ -3714,7 +4035,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupGetListRequest $request
-     * @return SystemMediaGroupGetListResponse|ErrorResponse
+     * @return SystemMediaGroupGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupGetListRequest $request)
     {
@@ -3723,7 +4045,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupModifyRequest $request)
     {
@@ -3732,7 +4055,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaGroupUsageListRequest $request
-     * @return SystemMediaGroupUsageListResponse|ErrorResponse
+     * @return SystemMediaGroupUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaGroupUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaGroupUsageListRequest $request)
     {
@@ -3741,7 +4065,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaModifyRequest $request)
     {
@@ -3750,7 +4075,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaServerAddRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaServerAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerAddRequest14 $request)
     {
@@ -3759,7 +4085,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaServerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaServerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerDeleteRequest $request)
     {
@@ -3768,7 +4095,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaServerGetListRequest $request
-     * @return SystemMediaServerGetListResponse|ErrorResponse
+     * @return SystemMediaServerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaServerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerGetListRequest $request)
     {
@@ -3777,7 +4105,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaServerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaServerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerModifyRequest $request)
     {
@@ -3786,7 +4115,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaServerParametersGetRequest $request
-     * @return SystemMediaServerParametersGetResponse|ErrorResponse
+     * @return SystemMediaServerParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaServerParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerParametersGetRequest $request)
     {
@@ -3795,7 +4125,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaServerParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaServerParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaServerParametersModifyRequest $request)
     {
@@ -3804,7 +4135,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaSetAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaSetAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaSetAddRequest $request)
     {
@@ -3813,7 +4145,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaSetDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaSetDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaSetDeleteRequest $request)
     {
@@ -3822,7 +4155,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaSetGetListRequest $request
-     * @return SystemMediaSetGetListResponse|ErrorResponse
+     * @return SystemMediaSetGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaSetGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaSetGetListRequest $request)
     {
@@ -3831,7 +4165,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaSetGetRequest $request
-     * @return SystemMediaSetGetResponse|ErrorResponse
+     * @return SystemMediaSetGetResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaSetGetRequest $request)
     {
@@ -3840,7 +4175,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMediaSetModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMediaSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMediaSetModifyRequest $request)
     {
@@ -3849,7 +4185,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMGCPDeviceTypeGetListRequest $request
-     * @return SystemMGCPDeviceTypeGetListResponse|ErrorResponse
+     * @return SystemMGCPDeviceTypeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMGCPDeviceTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMGCPDeviceTypeGetListRequest $request)
     {
@@ -3858,7 +4195,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMGCPDeviceTypeGetRequest $request
-     * @return SystemMGCPDeviceTypeGetResponse|ErrorResponse
+     * @return SystemMGCPDeviceTypeGetResponse
+     * @throws ErrorResponseException
      */
     public function systemMGCPDeviceTypeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMGCPDeviceTypeGetRequest $request)
     {
@@ -3867,7 +4205,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMGCPDeviceTypeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMGCPDeviceTypeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMGCPDeviceTypeModifyRequest $request)
     {
@@ -3876,7 +4215,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMigratedUsersGetListRequest22 $request
-     * @return SystemMigratedUsersGetListResponse22|ErrorResponse
+     * @return SystemMigratedUsersGetListResponse22
+     * @throws ErrorResponseException
      */
     public function systemMigratedUsersGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemMigratedUsersGetListRequest22 $request)
     {
@@ -3886,6 +4226,7 @@ trait OCISchemaSystem
     /**
      * @param SystemMultimediaPolicyGetRequest $request
      * @return SystemMultimediaPolicyGetResponse
+     * @throws ErrorResponseException
      */
     public function systemMultimediaPolicyGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMultimediaPolicyGetRequest $request)
     {
@@ -3894,7 +4235,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemMultimediaPolicyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMultimediaPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMultimediaPolicyModifyRequest $request)
     {
@@ -3903,7 +4245,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkClassOfServiceAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceAddRequest $request)
     {
@@ -3912,7 +4255,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkClassOfServiceDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceDeleteRequest $request)
     {
@@ -3921,7 +4265,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkClassOfServiceGetAssignedServiceProviderListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceGetAssignedServiceProviderListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceGetAssignedServiceProviderListRequest $request)
     {
@@ -3931,6 +4276,7 @@ trait OCISchemaSystem
     /**
      * @param SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest $request
      * @return SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest $request)
     {
@@ -3940,6 +4286,7 @@ trait OCISchemaSystem
     /**
      * @param SystemNetworkClassOfServiceGetListRequest $request
      * @return SystemNetworkClassOfServiceGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceGetListRequest $request)
     {
@@ -3949,6 +4296,7 @@ trait OCISchemaSystem
     /**
      * @param SystemNetworkClassOfServiceGetRequest19sp1 $request
      * @return SystemNetworkClassOfServiceGetResponse19sp1
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceGetRequest19sp1 $request)
     {
@@ -3957,7 +4305,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkClassOfServiceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceModifyRequest $request)
     {
@@ -3966,7 +4315,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkDeviceMonitorParametersGetRequest $request
-     * @return SystemNetworkDeviceMonitorParametersGetResponse|ErrorResponse
+     * @return SystemNetworkDeviceMonitorParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkDeviceMonitorParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkDeviceMonitorParametersGetRequest $request)
     {
@@ -3975,7 +4325,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkDeviceMonitorParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkDeviceMonitorParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkDeviceMonitorParametersModifyRequest $request)
     {
@@ -3985,6 +4336,7 @@ trait OCISchemaSystem
     /**
      * @param SystemNetworkProgressionGetRequest $request
      * @return SystemNetworkProgressionGetResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkProgressionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkProgressionGetRequest $request)
     {
@@ -3993,7 +4345,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkProgressionModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkProgressionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkProgressionModifyRequest $request)
     {
@@ -4002,7 +4355,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkRoutingServerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkRoutingServerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkRoutingServerAddRequest $request)
     {
@@ -4011,7 +4365,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkRoutingServerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkRoutingServerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkRoutingServerDeleteRequest $request)
     {
@@ -4020,7 +4375,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkRoutingServerGetListRequest $request
-     * @return SystemNetworkRoutingServerGetListResponse|ErrorResponse
+     * @return SystemNetworkRoutingServerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkRoutingServerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkRoutingServerGetListRequest $request)
     {
@@ -4029,7 +4385,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkRoutingServerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkRoutingServerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkRoutingServerModifyRequest $request)
     {
@@ -4038,7 +4395,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkServerSyncParametersGetRequest17sp4 $request
-     * @return SystemNetworkServerSyncParametersGetResponse17sp4|ErrorResponse
+     * @return SystemNetworkServerSyncParametersGetResponse17sp4
+     * @throws ErrorResponseException
      */
     public function systemNetworkServerSyncParametersGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkServerSyncParametersGetRequest17sp4 $request)
     {
@@ -4047,7 +4405,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkServerSyncParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkServerSyncParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkServerSyncParametersModifyRequest $request)
     {
@@ -4056,7 +4415,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkSynchingServerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkSynchingServerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkSynchingServerAddRequest $request)
     {
@@ -4065,7 +4425,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkSynchingServerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkSynchingServerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkSynchingServerDeleteRequest $request)
     {
@@ -4074,7 +4435,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkSynchingServerGetListRequest $request
-     * @return SystemNetworkSynchingServerGetListResponse|ErrorResponse
+     * @return SystemNetworkSynchingServerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkSynchingServerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkSynchingServerGetListRequest $request)
     {
@@ -4083,7 +4445,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNetworkSynchingServerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNetworkSynchingServerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkSynchingServerModifyRequest $request)
     {
@@ -4092,7 +4455,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberActivationGetRequest21 $request
-     * @return SystemNumberActivationGetResponse21|ErrorResponse
+     * @return SystemNumberActivationGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemNumberActivationGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberActivationGetRequest21 $request)
     {
@@ -4101,7 +4465,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberActivationModifyRequest18sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberActivationModifyRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberActivationModifyRequest18sp1 $request)
     {
@@ -4110,7 +4475,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryDigitPatternAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryDigitPatternAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryDigitPatternAddRequest $request)
     {
@@ -4119,7 +4485,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryDigitPatternDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryDigitPatternDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryDigitPatternDeleteListRequest $request)
     {
@@ -4128,7 +4495,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryDigitPatternGetListRequest $request
-     * @return SystemNumberPortabilityQueryDigitPatternGetListResponse|ErrorResponse
+     * @return SystemNumberPortabilityQueryDigitPatternGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryDigitPatternGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryDigitPatternGetListRequest $request)
     {
@@ -4137,7 +4505,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryDigitPatternGetRequest $request
-     * @return SystemNumberPortabilityQueryDigitPatternGetResponse|ErrorResponse
+     * @return SystemNumberPortabilityQueryDigitPatternGetResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryDigitPatternGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryDigitPatternGetRequest $request)
     {
@@ -4146,7 +4515,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryDigitPatternModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryDigitPatternModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryDigitPatternModifyRequest $request)
     {
@@ -4155,7 +4525,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryGetRequest $request
-     * @return SystemNumberPortabilityQueryGetResponse|ErrorResponse
+     * @return SystemNumberPortabilityQueryGetResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryGetRequest $request)
     {
@@ -4164,7 +4535,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryModifyRequest $request)
     {
@@ -4173,7 +4545,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryStatusAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryStatusAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryStatusAddRequest $request)
     {
@@ -4182,7 +4555,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryStatusDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryStatusDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryStatusDeleteListRequest $request)
     {
@@ -4191,7 +4565,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryStatusGetListRequest $request
-     * @return SystemNumberPortabilityQueryStatusGetListResponse|ErrorResponse
+     * @return SystemNumberPortabilityQueryStatusGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryStatusGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryStatusGetListRequest $request)
     {
@@ -4200,7 +4575,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryStatusGetRequest $request
-     * @return SystemNumberPortabilityQueryStatusGetResponse|ErrorResponse
+     * @return SystemNumberPortabilityQueryStatusGetResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryStatusGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryStatusGetRequest $request)
     {
@@ -4209,7 +4585,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemNumberPortabilityQueryStatusModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemNumberPortabilityQueryStatusModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberPortabilityQueryStatusModifyRequest $request)
     {
@@ -4218,7 +4595,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIAddACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIAddACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIAddACLEntryRequest $request)
     {
@@ -4227,7 +4605,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlAddACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlAddACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlAddACLEntryRequest $request)
     {
@@ -4236,7 +4615,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationAddACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationAddACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationAddACLEntryRequest $request)
     {
@@ -4245,7 +4625,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationAddRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationAddRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationAddRequest22 $request)
     {
@@ -4254,7 +4635,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationDeleteACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationDeleteACLEntryRequest $request)
     {
@@ -4263,7 +4645,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationDeleteRequest $request)
     {
@@ -4272,7 +4655,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationGetACLListRequest $request
-     * @return SystemOCICallControlApplicationGetACLListResponse|ErrorResponse
+     * @return SystemOCICallControlApplicationGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationGetACLListRequest $request)
     {
@@ -4281,7 +4665,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationGetListRequest $request
-     * @return SystemOCICallControlApplicationGetListResponse|ErrorResponse
+     * @return SystemOCICallControlApplicationGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationGetListRequest $request)
     {
@@ -4290,7 +4675,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationModifyACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationModifyACLEntryRequest $request)
     {
@@ -4299,7 +4685,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlApplicationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationModifyRequest $request)
     {
@@ -4308,7 +4695,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlDeleteACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlDeleteACLEntryRequest $request)
     {
@@ -4317,7 +4705,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlGetACLListRequest $request
-     * @return SystemOCICallControlGetACLListResponse|ErrorResponse
+     * @return SystemOCICallControlGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlGetACLListRequest $request)
     {
@@ -4326,7 +4715,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCICallControlModifyACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlModifyACLEntryRequest $request)
     {
@@ -4335,7 +4725,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIDeleteACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIDeleteACLEntryRequest $request)
     {
@@ -4344,7 +4735,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIGetACLListRequest $request
-     * @return SystemOCIGetACLListResponse|ErrorResponse
+     * @return SystemOCIGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIGetACLListRequest $request)
     {
@@ -4353,7 +4745,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIModifyACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIModifyACLEntryRequest $request)
     {
@@ -4362,7 +4755,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingAddACLEntryRequest13mp9 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingAddACLEntryRequest13mp9(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingAddACLEntryRequest13mp9 $request)
     {
@@ -4372,6 +4766,7 @@ trait OCISchemaSystem
     /**
      * @param SystemOCIReportingAddMessageNameListRequest $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingAddMessageNameListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingAddMessageNameListRequest $request)
     {
@@ -4380,7 +4775,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingDeleteACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingDeleteACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingDeleteACLEntryRequest $request)
     {
@@ -4390,6 +4786,7 @@ trait OCISchemaSystem
     /**
      * @param SystemOCIReportingDeleteMessageNameListRequest $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingDeleteMessageNameListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingDeleteMessageNameListRequest $request)
     {
@@ -4398,7 +4795,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingGetACLListRequest $request
-     * @return SystemOCIReportingGetACLListResponse|ErrorResponse
+     * @return SystemOCIReportingGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingGetACLListRequest $request)
     {
@@ -4407,7 +4805,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingGetMessageNameListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingGetMessageNameListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingGetMessageNameListRequest $request)
     {
@@ -4416,7 +4815,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingModifyACLEntryRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingModifyACLEntryRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingModifyACLEntryRequest $request)
     {
@@ -4426,6 +4826,7 @@ trait OCISchemaSystem
     /**
      * @param SystemOCIReportingParametersGetRequest14sp1 $request
      * @return SystemOCIReportingParametersGetResponse14sp1
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingParametersGetRequest14sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingParametersGetRequest14sp1 $request)
     {
@@ -4434,7 +4835,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOCIReportingParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCIReportingParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOCIReportingParametersModifyRequest $request)
     {
@@ -4443,7 +4845,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOfficeZoneAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneAddRequest $request)
     {
@@ -4452,7 +4855,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOfficeZoneDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneDeleteRequest $request)
     {
@@ -4461,7 +4865,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOfficeZoneGetAssignedServiceProviderListRequest $request
-     * @return SystemOfficeZoneGetAssignedServiceProviderListResponse|ErrorResponse
+     * @return SystemOfficeZoneGetAssignedServiceProviderListResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneGetAssignedServiceProviderListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneGetAssignedServiceProviderListRequest $request)
     {
@@ -4471,6 +4876,7 @@ trait OCISchemaSystem
     /**
      * @param SystemOfficeZoneGetListRequest $request
      * @return SystemOfficeZoneGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneGetListRequest $request)
     {
@@ -4480,6 +4886,7 @@ trait OCISchemaSystem
     /**
      * @param SystemOfficeZoneGetRequest $request
      * @return SystemOfficeZoneGetResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneGetRequest $request)
     {
@@ -4489,6 +4896,7 @@ trait OCISchemaSystem
     /**
      * @param SystemOfficeZoneGetZoneUsageListRequest $request
      * @return SystemOfficeZoneGetZoneUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneGetZoneUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneGetZoneUsageListRequest $request)
     {
@@ -4497,7 +4905,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemOfficeZoneModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOfficeZoneModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOfficeZoneModifyRequest $request)
     {
@@ -4506,7 +4915,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPasswordRulesGetRequest22 $request
-     * @return SystemPasswordRulesGetResponse22|ErrorResponse
+     * @return SystemPasswordRulesGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemPasswordRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetRequest22 $request)
     {
@@ -4515,7 +4925,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPasswordRulesModifyRequest14sp3 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPasswordRulesModifyRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesModifyRequest14sp3 $request)
     {
@@ -4524,7 +4935,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPasswordSecurityParametersGetRequest $request
-     * @return SystemPasswordSecurityParametersGetResponse|ErrorResponse
+     * @return SystemPasswordSecurityParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemPasswordSecurityParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordSecurityParametersGetRequest $request)
     {
@@ -4533,7 +4945,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPasswordSecurityParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPasswordSecurityParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordSecurityParametersModifyRequest $request)
     {
@@ -4542,7 +4955,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementGenerateReportRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementGenerateReportRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementGenerateReportRequest $request)
     {
@@ -4551,7 +4965,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementReportingAddFileServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementReportingAddFileServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingAddFileServerRequest $request)
     {
@@ -4560,7 +4975,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementReportingDeleteFileServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementReportingDeleteFileServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingDeleteFileServerRequest $request)
     {
@@ -4569,7 +4985,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementReportingGetFileServerListRequest $request
-     * @return SystemPerformanceMeasurementReportingGetFileServerListResponse|ErrorResponse
+     * @return SystemPerformanceMeasurementReportingGetFileServerListResponse
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementReportingGetFileServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingGetFileServerListRequest $request)
     {
@@ -4578,7 +4995,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementReportingGetRequest22 $request
-     * @return SystemPerformanceMeasurementReportingGetResponse22|ErrorResponse
+     * @return SystemPerformanceMeasurementReportingGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementReportingGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingGetRequest22 $request)
     {
@@ -4587,7 +5005,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementReportingModifyFileServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementReportingModifyFileServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingModifyFileServerRequest $request)
     {
@@ -4596,7 +5015,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPerformanceMeasurementReportingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPerformanceMeasurementReportingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPerformanceMeasurementReportingModifyRequest $request)
     {
@@ -4605,7 +5025,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPolicyGetDefaultRequest22 $request
-     * @return SystemPolicyGetDefaultResponse22|ErrorResponse
+     * @return SystemPolicyGetDefaultResponse22
+     * @throws ErrorResponseException
      */
     public function systemPolicyGetDefaultRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest22 $request)
     {
@@ -4614,7 +5035,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPolicyModifyDefaultRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPolicyModifyDefaultRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyModifyDefaultRequest22 $request)
     {
@@ -4623,7 +5045,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPortalPasscodeRulesGetRequest19 $request
-     * @return SystemPortalPasscodeRulesGetResponse19|ErrorResponse
+     * @return SystemPortalPasscodeRulesGetResponse19
+     * @throws ErrorResponseException
      */
     public function systemPortalPasscodeRulesGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemPortalPasscodeRulesGetRequest19 $request)
     {
@@ -4632,7 +5055,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPortalPasscodeRulesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPortalPasscodeRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPortalPasscodeRulesModifyRequest $request)
     {
@@ -4641,7 +5065,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemProvisioningValidationGetRequest22 $request
-     * @return SystemProvisioningValidationGetResponse22|ErrorResponse
+     * @return SystemProvisioningValidationGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemProvisioningValidationGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemProvisioningValidationGetRequest22 $request)
     {
@@ -4650,7 +5075,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemProvisioningValidationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemProvisioningValidationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemProvisioningValidationModifyRequest $request)
     {
@@ -4659,7 +5085,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPushNotificationAllowedApplicationAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPushNotificationAllowedApplicationAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPushNotificationAllowedApplicationAddRequest $request)
     {
@@ -4668,7 +5095,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPushNotificationAllowedApplicationDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPushNotificationAllowedApplicationDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPushNotificationAllowedApplicationDeleteRequest $request)
     {
@@ -4678,6 +5106,7 @@ trait OCISchemaSystem
     /**
      * @param SystemPushNotificationAllowedApplicationGetListRequest $request
      * @return SystemPushNotificationAllowedApplicationGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemPushNotificationAllowedApplicationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPushNotificationAllowedApplicationGetListRequest $request)
     {
@@ -4686,7 +5115,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPushNotificationAllowedApplicationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPushNotificationAllowedApplicationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPushNotificationAllowedApplicationModifyRequest $request)
     {
@@ -4695,7 +5125,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPushNotificationParametersGetRequest $request
-     * @return SystemPushNotificationParametersGetResponse|ErrorResponse
+     * @return SystemPushNotificationParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemPushNotificationParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPushNotificationParametersGetRequest $request)
     {
@@ -4704,7 +5135,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemPushNotificationParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPushNotificationParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPushNotificationParametersModifyRequest $request)
     {
@@ -4713,7 +5145,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRedundancyParametersGetRequest16sp2 $request
-     * @return SystemRedundancyParametersGetResponse16sp2|ErrorResponse
+     * @return SystemRedundancyParametersGetResponse16sp2
+     * @throws ErrorResponseException
      */
     public function systemRedundancyParametersGetRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemRedundancyParametersGetRequest16sp2 $request)
     {
@@ -4722,7 +5155,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRedundancyParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRedundancyParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRedundancyParametersModifyRequest $request)
     {
@@ -4731,7 +5165,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoamingNetworkAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoamingNetworkAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoamingNetworkAddRequest $request)
     {
@@ -4740,7 +5175,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoamingNetworkDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoamingNetworkDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoamingNetworkDeleteRequest $request)
     {
@@ -4749,7 +5185,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoamingNetworkGetListRequest $request
-     * @return SystemRoamingNetworkGetListResponse|ErrorResponse
+     * @return SystemRoamingNetworkGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoamingNetworkGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoamingNetworkGetListRequest $request)
     {
@@ -4758,7 +5195,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoamingNetworkModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoamingNetworkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoamingNetworkModifyRequest $request)
     {
@@ -4767,7 +5205,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemAddRequest $request)
     {
@@ -4776,7 +5215,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemApplicationControllerAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemApplicationControllerAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemApplicationControllerAddListRequest $request)
     {
@@ -4785,7 +5225,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemApplicationControllerDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemApplicationControllerDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemApplicationControllerDeleteListRequest $request)
     {
@@ -4794,7 +5235,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemApplicationControllerGetRequest $request
-     * @return SystemRoutePointExternalSystemApplicationControllerGetResponse|ErrorResponse
+     * @return SystemRoutePointExternalSystemApplicationControllerGetResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemApplicationControllerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemApplicationControllerGetRequest $request)
     {
@@ -4803,7 +5245,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemDeleteRequest $request)
     {
@@ -4812,7 +5255,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemGetListRequest $request
-     * @return SystemRoutePointExternalSystemGetListResponse|ErrorResponse
+     * @return SystemRoutePointExternalSystemGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemGetListRequest $request)
     {
@@ -4822,6 +5266,7 @@ trait OCISchemaSystem
     /**
      * @param SystemRoutePointExternalSystemGetRoutePointListRequest $request
      * @return SystemRoutePointExternalSystemGetRoutePointListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemGetRoutePointListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemGetRoutePointListRequest $request)
     {
@@ -4830,7 +5275,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutePointExternalSystemModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutePointExternalSystemModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutePointExternalSystemModifyRequest $request)
     {
@@ -4839,7 +5285,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingAddRouteDeviceRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingAddRouteDeviceRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingAddRouteDeviceRequest14 $request)
     {
@@ -4848,7 +5295,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingAddRouteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingAddRouteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingAddRouteRequest $request)
     {
@@ -4857,7 +5305,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingAddTranslationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingAddTranslationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingAddTranslationRequest $request)
     {
@@ -4866,7 +5315,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingDeleteRouteDeviceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingDeleteRouteDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingDeleteRouteDeviceRequest $request)
     {
@@ -4875,7 +5325,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingDeleteRouteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingDeleteRouteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingDeleteRouteRequest $request)
     {
@@ -4884,7 +5335,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingDeleteTranslationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingDeleteTranslationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingDeleteTranslationRequest $request)
     {
@@ -4893,7 +5345,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingGetRequest $request
-     * @return SystemRoutingGetResponse|ErrorResponse
+     * @return SystemRoutingGetResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingGetRequest $request)
     {
@@ -4902,7 +5355,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingGetRouteDeviceListRequest $request
-     * @return SystemRoutingGetRouteDeviceListResponse|ErrorResponse
+     * @return SystemRoutingGetRouteDeviceListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingGetRouteDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingGetRouteDeviceListRequest $request)
     {
@@ -4911,7 +5365,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingGetRouteListRequest $request
-     * @return SystemRoutingGetRouteListResponse|ErrorResponse
+     * @return SystemRoutingGetRouteListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingGetRouteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingGetRouteListRequest $request)
     {
@@ -4920,7 +5375,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingGetTranslationListRequest $request
-     * @return SystemRoutingGetTranslationListResponse|ErrorResponse
+     * @return SystemRoutingGetTranslationListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingGetTranslationListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingGetTranslationListRequest $request)
     {
@@ -4929,7 +5385,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingModifyRequest $request)
     {
@@ -4938,7 +5395,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingModifyRouteDeviceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingModifyRouteDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingModifyRouteDeviceRequest $request)
     {
@@ -4947,7 +5405,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingModifyTranslationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingModifyTranslationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingModifyTranslationRequest $request)
     {
@@ -4956,7 +5415,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemRoutingProfileGetListRequest $request
-     * @return SystemRoutingProfileGetListResponse|ErrorResponse
+     * @return SystemRoutingProfileGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemRoutingProfileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemRoutingProfileGetListRequest $request)
     {
@@ -4965,7 +5425,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleAddEventRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleAddEventRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleAddEventRequest $request)
     {
@@ -4974,7 +5435,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleAddRequest $request)
     {
@@ -4983,7 +5445,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleDeleteEventListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleDeleteEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleDeleteEventListRequest $request)
     {
@@ -4992,7 +5455,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleDeleteListRequest $request)
     {
@@ -5001,7 +5465,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleGetEventListRequest $request
-     * @return SystemScheduleGetEventListResponse|ErrorResponse
+     * @return SystemScheduleGetEventListResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleGetEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventListRequest $request)
     {
@@ -5010,7 +5475,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleGetEventRequest $request
-     * @return SystemScheduleGetEventResponse|ErrorResponse
+     * @return SystemScheduleGetEventResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleGetEventRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetEventRequest $request)
     {
@@ -5019,7 +5485,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleGetListRequest $request
-     * @return SystemScheduleGetListResponse|ErrorResponse
+     * @return SystemScheduleGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleGetListRequest $request)
     {
@@ -5028,7 +5495,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleModifyEventRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleModifyEventRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleModifyEventRequest $request)
     {
@@ -5037,7 +5505,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemScheduleModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemScheduleModifyRequest $request)
     {
@@ -5047,6 +5516,7 @@ trait OCISchemaSystem
     /**
      * @param SystemSelectiveServicesGetRequest22 $request
      * @return SystemSelectiveServicesGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemSelectiveServicesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemSelectiveServicesGetRequest22 $request)
     {
@@ -5055,7 +5525,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSelectiveServicesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSelectiveServicesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSelectiveServicesModifyRequest $request)
     {
@@ -5064,7 +5535,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServerAddressesGetRequest $request
-     * @return SystemServerAddressesGetResponse|ErrorResponse
+     * @return SystemServerAddressesGetResponse
+     * @throws ErrorResponseException
      */
     public function systemServerAddressesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServerAddressesGetRequest $request)
     {
@@ -5073,7 +5545,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServerAddressesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemServerAddressesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServerAddressesModifyRequest $request)
     {
@@ -5082,7 +5555,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServiceActivationAccessCodeGetRequest $request
-     * @return SystemServiceActivationAccessCodeGetResponse|ErrorResponse
+     * @return SystemServiceActivationAccessCodeGetResponse
+     * @throws ErrorResponseException
      */
     public function systemServiceActivationAccessCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServiceActivationAccessCodeGetRequest $request)
     {
@@ -5091,7 +5565,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServiceActivationAccessCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemServiceActivationAccessCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServiceActivationAccessCodeModifyRequest $request)
     {
@@ -5100,7 +5575,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServiceCodeAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemServiceCodeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServiceCodeAddRequest $request)
     {
@@ -5109,7 +5585,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServiceCodeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemServiceCodeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServiceCodeDeleteRequest $request)
     {
@@ -5118,7 +5595,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServiceCodeGetListRequest $request
-     * @return SystemServiceCodeGetListResponse|ErrorResponse
+     * @return SystemServiceCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemServiceCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServiceCodeGetListRequest $request)
     {
@@ -5127,7 +5605,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServiceCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemServiceCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServiceCodeModifyRequest $request)
     {
@@ -5136,7 +5615,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServicePackMigrationGetRequest $request
-     * @return SystemServicePackMigrationGetResponse|ErrorResponse
+     * @return SystemServicePackMigrationGetResponse
+     * @throws ErrorResponseException
      */
     public function systemServicePackMigrationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServicePackMigrationGetRequest $request)
     {
@@ -5145,7 +5625,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemServicePackMigrationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemServicePackMigrationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServicePackMigrationModifyRequest $request)
     {
@@ -5155,6 +5636,7 @@ trait OCISchemaSystem
     /**
      * @param SystemServicePhoneNumberLookupRequest $request
      * @return SystemServicePhoneNumberLookupResponse
+     * @throws ErrorResponseException
      */
     public function systemServicePhoneNumberLookupRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemServicePhoneNumberLookupRequest $request)
     {
@@ -5163,7 +5645,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSessionAdmissionControlGetRequest22 $request
-     * @return SystemSessionAdmissionControlGetResponse22|ErrorResponse
+     * @return SystemSessionAdmissionControlGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemSessionAdmissionControlGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlGetRequest22 $request)
     {
@@ -5172,7 +5655,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSessionAdmissionControlModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSessionAdmissionControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAdmissionControlModifyRequest $request)
     {
@@ -5182,6 +5666,7 @@ trait OCISchemaSystem
     /**
      * @param SystemSessionAuditGetRequest17sp3 $request
      * @return SystemSessionAuditGetResponse17sp3
+     * @throws ErrorResponseException
      */
     public function systemSessionAuditGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditGetRequest17sp3 $request)
     {
@@ -5190,7 +5675,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSessionAuditModifyRequest14sp3 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSessionAuditModifyRequest14sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemSessionAuditModifyRequest14sp3 $request)
     {
@@ -5199,7 +5685,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemShInterfaceParametersGetRequest17 $request
-     * @return SystemShInterfaceParametersGetResponse|ErrorResponse
+     * @return SystemShInterfaceParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemShInterfaceParametersGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceParametersGetRequest17 $request)
     {
@@ -5208,7 +5695,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemShInterfaceParametersModifyRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemShInterfaceParametersModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceParametersModifyRequest17 $request)
     {
@@ -5217,7 +5705,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemShInterfaceRefreshTaskGetRequest $request
-     * @return SystemShInterfaceRefreshTaskGetResponse|ErrorResponse
+     * @return SystemShInterfaceRefreshTaskGetResponse
+     * @throws ErrorResponseException
      */
     public function systemShInterfaceRefreshTaskGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceRefreshTaskGetRequest $request)
     {
@@ -5226,7 +5715,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemShInterfaceRefreshTaskStartRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemShInterfaceRefreshTaskStartRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceRefreshTaskStartRequest $request)
     {
@@ -5235,7 +5725,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemShInterfaceRefreshTaskTerminateRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemShInterfaceRefreshTaskTerminateRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemShInterfaceRefreshTaskTerminateRequest $request)
     {
@@ -5244,7 +5735,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAddACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAddACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAddACLEntryRequest14sp2 $request)
     {
@@ -5253,7 +5745,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAddContentTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAddContentTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAddContentTypeRequest $request)
     {
@@ -5262,7 +5755,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationEndpointLockoutClearRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationEndpointLockoutClearRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationEndpointLockoutClearRequest $request)
     {
@@ -5271,7 +5765,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationEndpointLockoutGetRequest $request
-     * @return SystemSIPAuthenticationEndpointLockoutGetResponse|ErrorResponse
+     * @return SystemSIPAuthenticationEndpointLockoutGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationEndpointLockoutGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationEndpointLockoutGetRequest $request)
     {
@@ -5280,7 +5775,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationLockoutClearAllRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationLockoutClearAllRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationLockoutClearAllRequest $request)
     {
@@ -5289,7 +5785,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationPasswordRulesGetRequest $request
-     * @return SystemSIPAuthenticationPasswordRulesGetResponse|ErrorResponse
+     * @return SystemSIPAuthenticationPasswordRulesGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationPasswordRulesGetRequest $request)
     {
@@ -5298,7 +5795,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationPasswordRulesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationPasswordRulesModifyRequest $request)
     {
@@ -5307,7 +5805,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationTrunkGroupLockoutClearRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationTrunkGroupLockoutClearRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationTrunkGroupLockoutClearRequest $request)
     {
@@ -5316,7 +5815,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPAuthenticationTrunkGroupLockoutGetRequest $request
-     * @return SystemSIPAuthenticationTrunkGroupLockoutGetResponse|ErrorResponse
+     * @return SystemSIPAuthenticationTrunkGroupLockoutGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPAuthenticationTrunkGroupLockoutGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPAuthenticationTrunkGroupLockoutGetRequest $request)
     {
@@ -5325,7 +5825,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeleteACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeleteACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeleteACLEntryRequest14sp2 $request)
     {
@@ -5334,7 +5835,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeleteContentTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeleteContentTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeleteContentTypeRequest $request)
     {
@@ -5343,7 +5845,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest $request)
     {
@@ -5352,7 +5855,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeAddRequest22V3 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeAddRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest22V3 $request)
     {
@@ -5361,7 +5865,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeDeleteRequest $request)
     {
@@ -5370,7 +5875,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeFileAddRequest21sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeFileAddRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileAddRequest21sp1 $request)
     {
@@ -5379,7 +5885,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeFileDeleteRequest14sp8 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeFileDeleteRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileDeleteRequest14sp8 $request)
     {
@@ -5388,7 +5895,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeFileGetListRequest14sp8 $request
-     * @return SystemSIPDeviceTypeFileGetListResponse14sp8|ErrorResponse
+     * @return SystemSIPDeviceTypeFileGetListResponse14sp8
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeFileGetListRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetListRequest14sp8 $request)
     {
@@ -5397,7 +5905,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeFileGetRequest21sp1 $request
-     * @return SystemSIPDeviceTypeFileGetResponse21sp1|ErrorResponse
+     * @return SystemSIPDeviceTypeFileGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeFileGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileGetRequest21sp1 $request)
     {
@@ -5406,7 +5915,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeFileModifyRequest16sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeFileModifyRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileModifyRequest16sp1 $request)
     {
@@ -5415,7 +5925,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeGetListRequest $request
-     * @return SystemSIPDeviceTypeGetListResponse|ErrorResponse
+     * @return SystemSIPDeviceTypeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetListRequest $request)
     {
@@ -5424,7 +5935,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22V4 $request
-     * @return SystemSIPDeviceTypeGetResponse22|ErrorResponse
+     * @return SystemSIPDeviceTypeGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V4 $request)
     {
@@ -5433,7 +5945,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeLanguageMappingGetListRequest $request
-     * @return SystemSIPDeviceTypeLanguageMappingGetListResponse|ErrorResponse
+     * @return SystemSIPDeviceTypeLanguageMappingGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeLanguageMappingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeLanguageMappingGetListRequest $request)
     {
@@ -5442,7 +5955,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeLanguageMappingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeLanguageMappingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeLanguageMappingModifyRequest $request)
     {
@@ -5451,7 +5965,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeModifyRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest22 $request)
     {
@@ -5460,7 +5975,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeServiceGetRequest $request
-     * @return SystemSIPDeviceTypeServiceGetResponse|ErrorResponse
+     * @return SystemSIPDeviceTypeServiceGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeServiceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeServiceGetRequest $request)
     {
@@ -5469,7 +5985,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeServiceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeServiceModifyRequest $request)
     {
@@ -5478,7 +5995,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDiversionReasonGetRequest $request
-     * @return SystemSIPDiversionReasonGetResponse|ErrorResponse
+     * @return SystemSIPDiversionReasonGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDiversionReasonGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDiversionReasonGetRequest $request)
     {
@@ -5487,7 +6005,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDiversionReasonModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDiversionReasonModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDiversionReasonModifyRequest $request)
     {
@@ -5496,7 +6015,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPGetACLListRequest $request
-     * @return SystemSIPGetACLListResponse|ErrorResponse
+     * @return SystemSIPGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPGetACLListRequest $request)
     {
@@ -5505,7 +6025,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPGetContentTypeListRequest $request
-     * @return SystemSIPGetContentTypeListResponse|ErrorResponse
+     * @return SystemSIPGetContentTypeListResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPGetContentTypeListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPGetContentTypeListRequest $request)
     {
@@ -5514,7 +6035,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPModifyACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPModifyACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPModifyACLEntryRequest14sp2 $request)
     {
@@ -5523,7 +6045,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPModifyContentTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPModifyContentTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPModifyContentTypeRequest $request)
     {
@@ -5532,7 +6055,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMDIAddACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIAddACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIAddACLEntryRequest14sp2 $request)
     {
@@ -5541,7 +6065,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMDIDeleteACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIDeleteACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIDeleteACLEntryRequest14sp2 $request)
     {
@@ -5550,7 +6075,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMDIGetACLListRequest $request
-     * @return SystemSMDIGetACLListResponse|ErrorResponse
+     * @return SystemSMDIGetACLListResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIGetACLListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIGetACLListRequest $request)
     {
@@ -5559,7 +6085,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMDIModifyACLEntryRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIModifyACLEntryRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIModifyACLEntryRequest14sp2 $request)
     {
@@ -5568,7 +6095,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMDIParametersGetRequest $request
-     * @return SystemSMDIParametersGetResponse|ErrorResponse
+     * @return SystemSMDIParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIParametersGetRequest $request)
     {
@@ -5577,7 +6105,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMDIParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIParametersModifyRequest $request)
     {
@@ -5586,7 +6115,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMPPGetRequest21 $request
-     * @return SystemSMPPGetResponse21|ErrorResponse
+     * @return SystemSMPPGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemSMPPGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemSMPPGetRequest21 $request)
     {
@@ -5595,7 +6125,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSMPPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMPPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMPPModifyRequest $request)
     {
@@ -5604,7 +6135,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSoftwareVersionGetRequest $request
-     * @return SystemSoftwareVersionGetResponse|ErrorResponse
+     * @return SystemSoftwareVersionGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSoftwareVersionGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSoftwareVersionGetRequest $request)
     {
@@ -5613,7 +6145,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemStateOrProvinceGetListRequest $request
-     * @return SystemStateOrProvinceGetListResponse|ErrorResponse
+     * @return SystemStateOrProvinceGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemStateOrProvinceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemStateOrProvinceGetListRequest $request)
     {
@@ -5623,6 +6156,7 @@ trait OCISchemaSystem
     /**
      * @param SystemSubscriberGetCallProcessingParametersRequest18sp1 $request
      * @return SystemSubscriberGetCallProcessingParametersResponse18sp1
+     * @throws ErrorResponseException
      */
     public function systemSubscriberGetCallProcessingParametersRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetCallProcessingParametersRequest18sp1 $request)
     {
@@ -5631,7 +6165,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSubscriberGetLoginParametersRequest $request
-     * @return SystemSubscriberGetLoginParametersResponse|ErrorResponse
+     * @return SystemSubscriberGetLoginParametersResponse
+     * @throws ErrorResponseException
      */
     public function systemSubscriberGetLoginParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetLoginParametersRequest $request)
     {
@@ -5641,6 +6176,7 @@ trait OCISchemaSystem
     /**
      * @param SystemSubscriberGetProvisioningParametersRequest $request
      * @return SystemSubscriberGetProvisioningParametersResponse
+     * @throws ErrorResponseException
      */
     public function systemSubscriberGetProvisioningParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberGetProvisioningParametersRequest $request)
     {
@@ -5649,7 +6185,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSubscriberModifyCallProcessingParametersRequest14sp7 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSubscriberModifyCallProcessingParametersRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberModifyCallProcessingParametersRequest14sp7 $request)
     {
@@ -5658,7 +6195,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSubscriberModifyLoginParametersRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSubscriberModifyLoginParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberModifyLoginParametersRequest $request)
     {
@@ -5667,7 +6205,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSubscriberModifyProvisioningParametersRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSubscriberModifyProvisioningParametersRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSubscriberModifyProvisioningParametersRequest $request)
     {
@@ -5676,7 +6215,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceCallProcessingPoliciesGetRequest $request
-     * @return SystemSystemServiceCallProcessingPoliciesGetResponse|ErrorResponse
+     * @return SystemSystemServiceCallProcessingPoliciesGetResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceCallProcessingPoliciesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceCallProcessingPoliciesGetRequest $request)
     {
@@ -5685,7 +6225,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceCallProcessingPoliciesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceCallProcessingPoliciesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceCallProcessingPoliciesModifyRequest $request)
     {
@@ -5694,7 +6235,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceDnAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceDnAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceDnAddListRequest $request)
     {
@@ -5703,7 +6245,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceDnDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceDnDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceDnDeleteListRequest $request)
     {
@@ -5712,7 +6255,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceDnGetAvailableListRequest $request
-     * @return SystemSystemServiceDnGetAvailableListResponse|ErrorResponse
+     * @return SystemSystemServiceDnGetAvailableListResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceDnGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceDnGetAvailableListRequest $request)
     {
@@ -5721,7 +6265,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceDnGetSummaryListRequest $request
-     * @return SystemSystemServiceDnGetSummaryListResponse|ErrorResponse
+     * @return SystemSystemServiceDnGetSummaryListResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceDnGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceDnGetSummaryListRequest $request)
     {
@@ -5730,7 +6275,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemServiceDnGetUsageListRequest $request
-     * @return SystemSystemServiceDnGetUsageListResponse|ErrorResponse
+     * @return SystemSystemServiceDnGetUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemServiceDnGetUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemServiceDnGetUsageListRequest $request)
     {
@@ -5739,7 +6285,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemVoicePortalAddRequest21sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemVoicePortalAddRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalAddRequest21sp1 $request)
     {
@@ -5748,7 +6295,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemVoicePortalDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemVoicePortalDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalDeleteRequest $request)
     {
@@ -5757,7 +6305,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemVoicePortalGetListRequest $request
-     * @return ErrorResponse
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemSystemVoicePortalGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalGetListRequest $request)
     {
@@ -5766,7 +6315,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemVoicePortalGetRequest21sp1 $request
-     * @return SystemSystemVoicePortalGetResponse21sp1|ErrorResponse
+     * @return SystemSystemVoicePortalGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemSystemVoicePortalGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalGetRequest21sp1 $request)
     {
@@ -5775,7 +6325,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSystemVoicePortalModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSystemVoicePortalModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSystemVoicePortalModifyRequest $request)
     {
@@ -5784,7 +6335,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTimeZoneGetListRequest20 $request
-     * @return SystemTimeZoneGetListResponse20|ErrorResponse
+     * @return SystemTimeZoneGetListResponse20
+     * @throws ErrorResponseException
      */
     public function systemTimeZoneGetListRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeZoneGetListRequest20 $request)
     {
@@ -5793,7 +6345,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingAccessSIPStatusAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingAccessSIPStatusAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingAccessSIPStatusAddRequest $request)
     {
@@ -5802,7 +6355,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingAccessSIPStatusDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingAccessSIPStatusDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingAccessSIPStatusDeleteRequest $request)
     {
@@ -5812,6 +6366,7 @@ trait OCISchemaSystem
     /**
      * @param SystemTreatmentMappingAccessSIPStatusGetListRequest $request
      * @return SystemTreatmentMappingAccessSIPStatusGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingAccessSIPStatusGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingAccessSIPStatusGetListRequest $request)
     {
@@ -5820,7 +6375,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingAccessSIPStatusModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingAccessSIPStatusModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingAccessSIPStatusModifyRequest $request)
     {
@@ -5829,7 +6385,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceAddRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceAddRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceAddRequest22 $request)
     {
@@ -5838,7 +6395,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceDeleteRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceDeleteRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceDeleteRequest22 $request)
     {
@@ -5848,6 +6406,7 @@ trait OCISchemaSystem
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest22 $request
      * @return SystemTreatmentMappingCallBlockingServiceGetListResponse22
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest22 $request)
     {
@@ -5856,7 +6415,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceModifyRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest22 $request)
     {
@@ -5865,7 +6425,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingInternalReleaseCauseAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingInternalReleaseCauseAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingInternalReleaseCauseAddRequest $request)
     {
@@ -5874,7 +6435,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingInternalReleaseCauseDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingInternalReleaseCauseDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingInternalReleaseCauseDeleteRequest $request)
     {
@@ -5884,6 +6446,7 @@ trait OCISchemaSystem
     /**
      * @param SystemTreatmentMappingInternalReleaseCauseGetListRequest $request
      * @return SystemTreatmentMappingInternalReleaseCauseGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingInternalReleaseCauseGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingInternalReleaseCauseGetListRequest $request)
     {
@@ -5892,7 +6455,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingInternalReleaseCauseModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingInternalReleaseCauseModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingInternalReleaseCauseModifyRequest $request)
     {
@@ -5901,7 +6465,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkServerTreatmentAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkServerTreatmentAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkServerTreatmentAddRequest $request)
     {
@@ -5910,7 +6475,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkServerTreatmentDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkServerTreatmentDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkServerTreatmentDeleteRequest $request)
     {
@@ -5920,6 +6486,7 @@ trait OCISchemaSystem
     /**
      * @param SystemTreatmentMappingNetworkServerTreatmentGetListRequest $request
      * @return SystemTreatmentMappingNetworkServerTreatmentGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkServerTreatmentGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkServerTreatmentGetListRequest $request)
     {
@@ -5928,7 +6495,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkServerTreatmentModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkServerTreatmentModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkServerTreatmentModifyRequest $request)
     {
@@ -5937,7 +6505,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkSIPStatusAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkSIPStatusAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusAddRequest $request)
     {
@@ -5946,7 +6515,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkSIPStatusDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkSIPStatusDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusDeleteRequest $request)
     {
@@ -5956,6 +6526,7 @@ trait OCISchemaSystem
     /**
      * @param SystemTreatmentMappingNetworkSIPStatusGetListRequest $request
      * @return SystemTreatmentMappingNetworkSIPStatusGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkSIPStatusGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusGetListRequest $request)
     {
@@ -5964,7 +6535,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingNetworkSIPStatusModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingNetworkSIPStatusModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingNetworkSIPStatusModifyRequest $request)
     {
@@ -5973,7 +6545,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingQ850CauseAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingQ850CauseAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingQ850CauseAddRequest $request)
     {
@@ -5982,7 +6555,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingQ850CauseDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingQ850CauseDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingQ850CauseDeleteRequest $request)
     {
@@ -5992,6 +6566,7 @@ trait OCISchemaSystem
     /**
      * @param SystemTreatmentMappingQ850CauseGetListRequest $request
      * @return SystemTreatmentMappingQ850CauseGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingQ850CauseGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingQ850CauseGetListRequest $request)
     {
@@ -6000,7 +6575,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemTreatmentMappingQ850CauseModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingQ850CauseModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingQ850CauseModifyRequest $request)
     {
@@ -6009,7 +6585,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVerifyTranslationAndRoutingRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemVerifyTranslationAndRoutingRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVerifyTranslationAndRoutingRequest $request)
     {
@@ -6018,7 +6595,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVideoServerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVideoServerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVideoServerAddRequest $request)
     {
@@ -6027,7 +6605,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVideoServerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVideoServerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVideoServerDeleteRequest $request)
     {
@@ -6036,7 +6615,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVideoServerGetListRequest $request
-     * @return SystemVideoServerGetListResponse|ErrorResponse
+     * @return SystemVideoServerGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemVideoServerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVideoServerGetListRequest $request)
     {
@@ -6045,7 +6625,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVideoServerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVideoServerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVideoServerModifyRequest $request)
     {
@@ -6054,7 +6635,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVideoServerParametersGetRequest $request
-     * @return SystemVideoServerParametersGetResponse|ErrorResponse
+     * @return SystemVideoServerParametersGetResponse
+     * @throws ErrorResponseException
      */
     public function systemVideoServerParametersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVideoServerParametersGetRequest $request)
     {
@@ -6063,7 +6645,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemVideoServerParametersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVideoServerParametersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVideoServerParametersModifyRequest $request)
     {
@@ -6072,7 +6655,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneAddRequest $request)
     {
@@ -6081,7 +6665,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneCallingZonePhysicalLocationGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemZoneCallingZonePhysicalLocationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingZonePhysicalLocationGetRequest $request)
     {
@@ -6090,7 +6675,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneCallingZonePhysicalLocationModifyRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemZoneCallingZonePhysicalLocationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneCallingZonePhysicalLocationModifyRequest $request)
     {
@@ -6099,7 +6685,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneDeleteRequest $request)
     {
@@ -6108,7 +6695,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneGetListRequest $request
-     * @return SystemZoneGetListResponse|ErrorResponse
+     * @return SystemZoneGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneGetListRequest $request)
     {
@@ -6117,7 +6705,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneLocationBasedPhysicalLocationAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneLocationBasedPhysicalLocationAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationAddListRequest $request)
     {
@@ -6126,7 +6715,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneLocationBasedPhysicalLocationDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneLocationBasedPhysicalLocationDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationDeleteListRequest $request)
     {
@@ -6135,7 +6725,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneLocationBasedPhysicalLocationGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemZoneLocationBasedPhysicalLocationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneLocationBasedPhysicalLocationGetListRequest $request)
     {
@@ -6144,7 +6735,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneNetAddressAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneNetAddressAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressAddListRequest $request)
     {
@@ -6153,7 +6745,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneNetAddressDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemZoneNetAddressDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressDeleteListRequest $request)
     {
@@ -6162,7 +6755,8 @@ trait OCISchemaSystem
 
     /**
      * @param SystemZoneNetAddressGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemZoneNetAddressGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemZoneNetAddressGetListRequest $request)
     {

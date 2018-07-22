@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallTransferModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallTransfer
 {
@@ -14,6 +14,7 @@ trait OCISchemaServiceCallTransfer
     /**
      * @param UserCallTransferGetRequest14sp4 $request
      * @return UserCallTransferGetResponse14sp4
+     * @throws ErrorResponseException
      */
     public function userCallTransferGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserCallTransferGetRequest14sp4 $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceCallTransfer
 
     /**
      * @param UserCallTransferModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallTransferModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallTransferModifyRequest $request)
     {

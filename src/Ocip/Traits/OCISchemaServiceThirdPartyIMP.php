@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyIMPGetRequest19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyIMPGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyIMPModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceThirdPartyIMP
 {
 
     /**
      * @param SystemThirdPartyIMPGetRequest19 $request
-     * @return SystemThirdPartyIMPGetResponse19|ErrorResponse
+     * @return SystemThirdPartyIMPGetResponse19
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyIMPGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyIMPGetRequest19 $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceThirdPartyIMP
 
     /**
      * @param SystemThirdPartyIMPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyIMPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyIMPModifyRequest $request)
     {

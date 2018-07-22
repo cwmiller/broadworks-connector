@@ -7,15 +7,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetAvail
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceReceptionistOffice
 {
 
     /**
      * @param UserBroadWorksReceptionistOfficeGetAvailableUserListRequest $request
-     * @return UserBroadWorksReceptionistOfficeGetAvailableUserListResponse|ErrorResponse
+     * @return UserBroadWorksReceptionistOfficeGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistOfficeGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetAvailableUserListRequest $request)
     {
@@ -24,7 +25,8 @@ trait OCISchemaServiceReceptionistOffice
 
     /**
      * @param UserBroadWorksReceptionistOfficeGetRequest $request
-     * @return UserBroadWorksReceptionistOfficeGetResponse|ErrorResponse
+     * @return UserBroadWorksReceptionistOfficeGetResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistOfficeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeGetRequest $request)
     {
@@ -33,7 +35,8 @@ trait OCISchemaServiceReceptionistOffice
 
     /**
      * @param UserBroadWorksReceptionistOfficeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistOfficeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistOfficeModifyRequest $request)
     {

@@ -5,7 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip;
 /**
  * Thrown when a response from the OCIP API has unexpected contents.
  */
-class OcipLoginException extends \RuntimeException
+class BadResponseException extends \RuntimeException
 {
 
     /**

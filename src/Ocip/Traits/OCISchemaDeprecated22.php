@@ -43,16 +43,17 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetR
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 
 trait OCISchemaDeprecated22
 {
 
     /**
      * @param AuthenticationVerificationRequest22 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function authenticationVerificationRequest22(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22 $request)
     {
@@ -61,7 +62,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param AuthenticationVerifyRequest14sp8 $request
-     * @return AuthenticationVerifyResponse14sp8|ErrorResponse
+     * @return AuthenticationVerifyResponse14sp8
+     * @throws ErrorResponseException
      */
     public function authenticationVerifyRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest14sp8 $request)
     {
@@ -70,7 +72,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param GroupGetRequest22 $request
-     * @return GroupGetResponse22|ErrorResponse
+     * @return GroupGetResponse22
+     * @throws ErrorResponseException
      */
     public function groupGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest22 $request)
     {
@@ -79,7 +82,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param LoginRequest22 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function loginRequest22(\CWM\BroadWorksConnector\Ocip\Models\LoginRequest22 $request)
     {
@@ -88,7 +92,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param ServiceProviderDeviceManagementEventGetListRequest $request
-     * @return ServiceProviderDeviceManagementEventGetListResponse|ErrorResponse
+     * @return ServiceProviderDeviceManagementEventGetListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderDeviceManagementEventGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderDeviceManagementEventGetListRequest $request)
     {
@@ -97,7 +102,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param ServiceProviderGetRequest22 $request
-     * @return ServiceProviderGetResponse22|ErrorResponse
+     * @return ServiceProviderGetResponse22
+     * @throws ErrorResponseException
      */
     public function serviceProviderGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22 $request)
     {
@@ -106,7 +112,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SessionStartRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function sessionStartRequest(\CWM\BroadWorksConnector\Ocip\Models\SessionStartRequest $request)
     {
@@ -115,7 +122,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemDeviceManagementEventGetListRequest $request
-     * @return SystemDeviceManagementEventGetListResponse|ErrorResponse
+     * @return SystemDeviceManagementEventGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementEventGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementEventGetListRequest $request)
     {
@@ -124,7 +132,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemDeviceManagementTagSetGetListRequest $request
-     * @return SystemDeviceManagementTagSetGetListResponse|ErrorResponse
+     * @return SystemDeviceManagementTagSetGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemDeviceManagementTagSetGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagSetGetListRequest $request)
     {
@@ -133,7 +142,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemDeviceTypeGetAvailableListRequest19 $request
-     * @return SystemDeviceTypeGetAvailableListResponse19|ErrorResponse
+     * @return SystemDeviceTypeGetAvailableListResponse19
+     * @throws ErrorResponseException
      */
     public function systemDeviceTypeGetAvailableListRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest19 $request)
     {
@@ -142,7 +152,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemDeviceTypeGetRequest21sp1 $request
-     * @return SystemDeviceTypeGetResponse21sp1|ErrorResponse
+     * @return SystemDeviceTypeGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function systemDeviceTypeGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest21sp1 $request)
     {
@@ -151,7 +162,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemDomainGetListRequest $request
-     * @return SystemDomainGetListResponse|ErrorResponse
+     * @return SystemDomainGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemDomainGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemDomainGetListRequest $request)
     {
@@ -160,7 +172,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemGetRegistrationContactListRequest $request
-     * @return SystemGetRegistrationContactListResponse|ErrorResponse
+     * @return SystemGetRegistrationContactListResponse
+     * @throws ErrorResponseException
      */
     public function systemGetRegistrationContactListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListRequest $request)
     {
@@ -169,7 +182,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeAddRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeAddRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest22 $request)
     {
@@ -178,7 +192,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeAddRequest22V2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeAddRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest22V2 $request)
     {
@@ -187,7 +202,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22 $request
-     * @return SystemSIPDeviceTypeGetResponse22|ErrorResponse
+     * @return SystemSIPDeviceTypeGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22 $request)
     {
@@ -196,7 +212,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22V2 $request
-     * @return SystemSIPDeviceTypeGetResponse22|ErrorResponse
+     * @return SystemSIPDeviceTypeGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V2 $request)
     {
@@ -205,7 +222,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22V3 $request
-     * @return SystemSIPDeviceTypeGetResponse22|ErrorResponse
+     * @return SystemSIPDeviceTypeGetResponse22
+     * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V3 $request)
     {
@@ -214,7 +232,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemTrunkGroupGetRequest21 $request
-     * @return SystemTrunkGroupGetResponse21|ErrorResponse
+     * @return SystemTrunkGroupGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemTrunkGroupGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest21 $request)
     {
@@ -223,7 +242,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserBroadWorksMobilityGetRequest21 $request
-     * @return UserBroadWorksMobilityGetResponse21|ErrorResponse
+     * @return UserBroadWorksMobilityGetResponse21
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest21 $request)
     {
@@ -232,7 +252,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserBroadWorksMobilityMobileIdentityAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityMobileIdentityAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest $request)
     {
@@ -241,7 +262,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserBroadWorksMobilityMobileIdentityGetRequest $request
-     * @return UserBroadWorksMobilityMobileIdentityGetResponse|ErrorResponse
+     * @return UserBroadWorksMobilityMobileIdentityGetResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityMobileIdentityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest $request)
     {
@@ -250,7 +272,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserBroadWorksMobilityMobileIdentityGetRequest21sp1 $request
-     * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1|ErrorResponse
+     * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityMobileIdentityGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1 $request)
     {
@@ -259,7 +282,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserGetLoginInfoRequest $request
-     * @return UserGetLoginInfoResponse|ErrorResponse
+     * @return UserGetLoginInfoResponse
+     * @throws ErrorResponseException
      */
     public function userGetLoginInfoRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest $request)
     {
@@ -268,7 +292,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserGetRequest22 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22 $request)
     {
@@ -277,7 +302,8 @@ trait OCISchemaDeprecated22
 
     /**
      * @param UserGetRequest22V2 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V2 $request)
     {

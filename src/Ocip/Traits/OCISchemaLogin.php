@@ -27,15 +27,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenResponse;
 use CWM\BroadWorksConnector\Ocip\Models\VerifySessionIsValidRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaLogin
 {
 
     /**
      * @param AuthenticationVerifyRequest22 $request
-     * @return AuthenticationVerifyResponse22|ErrorResponse
+     * @return AuthenticationVerifyResponse22
+     * @throws ErrorResponseException
      */
     public function authenticationVerifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerifyRequest22 $request)
     {
@@ -44,7 +45,8 @@ trait OCISchemaLogin
 
     /**
      * @param AvailabilityTestRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function availabilityTestRequest(\CWM\BroadWorksConnector\Ocip\Models\AvailabilityTestRequest $request)
     {
@@ -53,7 +55,8 @@ trait OCISchemaLogin
 
     /**
      * @param DeviceManagementFileAuthLocationGetRequest21sp1 $request
-     * @return DeviceManagementFileAuthLocationGetResponse21sp1|ErrorResponse
+     * @return DeviceManagementFileAuthLocationGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function deviceManagementFileAuthLocationGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthLocationGetRequest21sp1 $request)
     {
@@ -63,6 +66,7 @@ trait OCISchemaLogin
     /**
      * @param DeviceManagementPutFileRequest $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function deviceManagementPutFileRequest(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementPutFileRequest $request)
     {
@@ -71,7 +75,8 @@ trait OCISchemaLogin
 
     /**
      * @param ExternalAuthenticationAuthorizeTokenRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function externalAuthenticationAuthorizeTokenRequest22(\CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationAuthorizeTokenRequest22 $request)
     {
@@ -81,6 +86,7 @@ trait OCISchemaLogin
     /**
      * @param ExternalAuthenticationCreateLoginTokenRequest $request
      * @return ExternalAuthenticationCreateLoginTokenResponse
+     * @throws ErrorResponseException
      */
     public function externalAuthenticationCreateLoginTokenRequest(\CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationCreateLoginTokenRequest $request)
     {
@@ -89,7 +95,8 @@ trait OCISchemaLogin
 
     /**
      * @param LoginRequest22V2 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function loginRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V2 $request)
     {
@@ -98,7 +105,8 @@ trait OCISchemaLogin
 
     /**
      * @param LogoutRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function logoutRequest(\CWM\BroadWorksConnector\Ocip\Models\LogoutRequest $request)
     {
@@ -107,7 +115,8 @@ trait OCISchemaLogin
 
     /**
      * @param PasswordGenerateRequest $request
-     * @return PasswordGenerateResponse|ErrorResponse
+     * @return PasswordGenerateResponse
+     * @throws ErrorResponseException
      */
     public function passwordGenerateRequest(\CWM\BroadWorksConnector\Ocip\Models\PasswordGenerateRequest $request)
     {
@@ -116,7 +125,8 @@ trait OCISchemaLogin
 
     /**
      * @param PasswordModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function passwordModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\PasswordModifyRequest $request)
     {
@@ -125,7 +135,8 @@ trait OCISchemaLogin
 
     /**
      * @param PrimaryInfoGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function primaryInfoGetRequest(\CWM\BroadWorksConnector\Ocip\Models\PrimaryInfoGetRequest $request)
     {
@@ -135,6 +146,7 @@ trait OCISchemaLogin
     /**
      * @param PublicClusterGetFullyQualifiedDomainNameRequest $request
      * @return PublicClusterGetFullyQualifiedDomainNameResponse
+     * @throws ErrorResponseException
      */
     public function publicClusterGetFullyQualifiedDomainNameRequest(\CWM\BroadWorksConnector\Ocip\Models\PublicClusterGetFullyQualifiedDomainNameRequest $request)
     {
@@ -143,7 +155,8 @@ trait OCISchemaLogin
 
     /**
      * @param TutorialFlagGetRequest $request
-     * @return TutorialFlagGetResponse|ErrorResponse
+     * @return TutorialFlagGetResponse
+     * @throws ErrorResponseException
      */
     public function tutorialFlagGetRequest(\CWM\BroadWorksConnector\Ocip\Models\TutorialFlagGetRequest $request)
     {
@@ -152,7 +165,8 @@ trait OCISchemaLogin
 
     /**
      * @param TutorialFlagModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function tutorialFlagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\TutorialFlagModifyRequest $request)
     {
@@ -161,7 +175,8 @@ trait OCISchemaLogin
 
     /**
      * @param UserGetLoginInfoRequest22 $request
-     * @return UserGetLoginInfoResponse22|ErrorResponse
+     * @return UserGetLoginInfoResponse22
+     * @throws ErrorResponseException
      */
     public function userGetLoginInfoRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserGetLoginInfoRequest22 $request)
     {
@@ -171,6 +186,7 @@ trait OCISchemaLogin
     /**
      * @param UserSingleSignOnCreateDeviceTokenRequest $request
      * @return UserSingleSignOnCreateDeviceTokenResponse
+     * @throws ErrorResponseException
      */
     public function userSingleSignOnCreateDeviceTokenRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSingleSignOnCreateDeviceTokenRequest $request)
     {
@@ -179,7 +195,8 @@ trait OCISchemaLogin
 
     /**
      * @param VerifySessionIsValidRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function verifySessionIsValidRequest(\CWM\BroadWorksConnector\Ocip\Models\VerifySessionIsValidRequest $request)
     {

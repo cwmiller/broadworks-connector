@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest1
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceResponse19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallModifyActiveInstanceListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallModifyInstanceRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceInstantGroupCall
 {
 
     /**
      * @param GroupInstantGroupCallAddInstanceRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupInstantGroupCallAddInstanceRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallAddInstanceRequest14 $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServiceInstantGroupCall
 
     /**
      * @param GroupInstantGroupCallDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupInstantGroupCallDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallDeleteInstanceRequest $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServiceInstantGroupCall
 
     /**
      * @param GroupInstantGroupCallGetInstanceListRequest $request
-     * @return GroupInstantGroupCallGetInstanceListResponse|ErrorResponse
+     * @return GroupInstantGroupCallGetInstanceListResponse
+     * @throws ErrorResponseException
      */
     public function groupInstantGroupCallGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceListRequest $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServiceInstantGroupCall
 
     /**
      * @param GroupInstantGroupCallGetInstanceRequest19sp1 $request
-     * @return GroupInstantGroupCallGetInstanceResponse19sp1|ErrorResponse
+     * @return GroupInstantGroupCallGetInstanceResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupInstantGroupCallGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallGetInstanceRequest19sp1 $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServiceInstantGroupCall
 
     /**
      * @param GroupInstantGroupCallModifyActiveInstanceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupInstantGroupCallModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallModifyActiveInstanceListRequest $request)
     {
@@ -63,7 +68,8 @@ trait OCISchemaServiceInstantGroupCall
 
     /**
      * @param GroupInstantGroupCallModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupInstantGroupCallModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupInstantGroupCallModifyInstanceRequest $request)
     {

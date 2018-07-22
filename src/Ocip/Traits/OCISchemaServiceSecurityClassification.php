@@ -20,15 +20,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationModifyReques
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetResponse22;
 use CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSecurityClassification
 {
 
     /**
      * @param GroupTrunkGroupSecurityClassificationGetRequest $request
-     * @return GroupTrunkGroupSecurityClassificationGetResponse|ErrorResponse
+     * @return GroupTrunkGroupSecurityClassificationGetResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupSecurityClassificationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupSecurityClassificationGetRequest $request)
     {
@@ -37,7 +38,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param GroupTrunkGroupSecurityClassificationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupSecurityClassificationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupSecurityClassificationModifyRequest $request)
     {
@@ -46,7 +48,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationAddClassificationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationAddClassificationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationAddClassificationRequest $request)
     {
@@ -55,7 +58,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationDeleteClassificationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationDeleteClassificationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationDeleteClassificationRequest $request)
     {
@@ -64,7 +68,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationGetClassificationRequest $request
-     * @return SystemSecurityClassificationGetClassificationResponse|ErrorResponse
+     * @return SystemSecurityClassificationGetClassificationResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationGetClassificationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationGetClassificationRequest $request)
     {
@@ -73,7 +78,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest $request
-     * @return SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse|ErrorResponse
+     * @return SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationGetClassificationTrunkGroupUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest $request)
     {
@@ -82,7 +88,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationGetClassificationUserUsageListRequest $request
-     * @return SystemSecurityClassificationGetClassificationUserUsageListResponse|ErrorResponse
+     * @return SystemSecurityClassificationGetClassificationUserUsageListResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationGetClassificationUserUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationGetClassificationUserUsageListRequest $request)
     {
@@ -91,7 +98,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationGetRequest21 $request
-     * @return SystemSecurityClassificationGetResponse21|ErrorResponse
+     * @return SystemSecurityClassificationGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationGetRequest21 $request)
     {
@@ -100,7 +108,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationModifyClassificationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationModifyClassificationRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationModifyClassificationRequest $request)
     {
@@ -109,7 +118,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param SystemSecurityClassificationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSecurityClassificationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSecurityClassificationModifyRequest $request)
     {
@@ -118,7 +128,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param UserSecurityClassificationGetRequest22 $request
-     * @return UserSecurityClassificationGetResponse22|ErrorResponse
+     * @return UserSecurityClassificationGetResponse22
+     * @throws ErrorResponseException
      */
     public function userSecurityClassificationGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationGetRequest22 $request)
     {
@@ -127,7 +138,8 @@ trait OCISchemaServiceSecurityClassification
 
     /**
      * @param UserSecurityClassificationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSecurityClassificationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSecurityClassificationModifyRequest $request)
     {

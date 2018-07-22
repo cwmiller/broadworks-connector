@@ -19,15 +19,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest19sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceAdviceOfCharge
 {
 
     /**
      * @param GroupAdviceOfChargeGetRequest $request
-     * @return GroupAdviceOfChargeGetResponse|ErrorResponse
+     * @return GroupAdviceOfChargeGetResponse
+     * @throws ErrorResponseException
      */
     public function groupAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdviceOfChargeGetRequest $request)
     {
@@ -36,7 +37,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param GroupAdviceOfChargeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdviceOfChargeModifyRequest $request)
     {
@@ -45,7 +47,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param ServiceProviderAdviceOfChargeGetRequest $request
-     * @return ServiceProviderAdviceOfChargeGetResponse|ErrorResponse
+     * @return ServiceProviderAdviceOfChargeGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdviceOfChargeGetRequest $request)
     {
@@ -54,7 +57,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param ServiceProviderAdviceOfChargeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdviceOfChargeModifyRequest $request)
     {
@@ -63,7 +67,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param SystemAdviceOfChargeCostInformationSourceAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdviceOfChargeCostInformationSourceAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceAddRequest $request)
     {
@@ -72,7 +77,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param SystemAdviceOfChargeCostInformationSourceDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdviceOfChargeCostInformationSourceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceDeleteRequest $request)
     {
@@ -81,7 +87,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param SystemAdviceOfChargeCostInformationSourceGetListRequest $request
-     * @return SystemAdviceOfChargeCostInformationSourceGetListResponse|ErrorResponse
+     * @return SystemAdviceOfChargeCostInformationSourceGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemAdviceOfChargeCostInformationSourceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceGetListRequest $request)
     {
@@ -90,7 +97,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param SystemAdviceOfChargeCostInformationSourceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdviceOfChargeCostInformationSourceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeCostInformationSourceModifyRequest $request)
     {
@@ -99,7 +107,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param SystemAdviceOfChargeGetRequest19sp1 $request
-     * @return SystemAdviceOfChargeGetResponse19sp1|ErrorResponse
+     * @return SystemAdviceOfChargeGetResponse19sp1
+     * @throws ErrorResponseException
      */
     public function systemAdviceOfChargeGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeGetRequest19sp1 $request)
     {
@@ -108,7 +117,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param SystemAdviceOfChargeModifyRequest19sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemAdviceOfChargeModifyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemAdviceOfChargeModifyRequest19sp1 $request)
     {
@@ -118,6 +128,7 @@ trait OCISchemaServiceAdviceOfCharge
     /**
      * @param UserAdviceOfChargeGetRequest $request
      * @return UserAdviceOfChargeGetResponse
+     * @throws ErrorResponseException
      */
     public function userAdviceOfChargeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeGetRequest $request)
     {
@@ -126,7 +137,8 @@ trait OCISchemaServiceAdviceOfCharge
 
     /**
      * @param UserAdviceOfChargeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAdviceOfChargeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAdviceOfChargeModifyRequest $request)
     {

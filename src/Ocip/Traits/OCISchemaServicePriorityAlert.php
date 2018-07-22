@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertModifyActiveCriteriaListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertModifyCriteriaRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServicePriorityAlert
 {
 
     /**
      * @param UserPriorityAlertAddCriteriaRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertAddCriteriaRequest16 $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServicePriorityAlert
 
     /**
      * @param UserPriorityAlertDeleteCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertDeleteCriteriaRequest $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServicePriorityAlert
 
     /**
      * @param UserPriorityAlertGetCriteriaListRequest $request
-     * @return UserPriorityAlertGetCriteriaListResponse|ErrorResponse
+     * @return UserPriorityAlertGetCriteriaListResponse
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertGetCriteriaListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaListRequest $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServicePriorityAlert
 
     /**
      * @param UserPriorityAlertGetCriteriaRequest21 $request
-     * @return UserPriorityAlertGetCriteriaResponse21|ErrorResponse
+     * @return UserPriorityAlertGetCriteriaResponse21
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertGetCriteriaRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaRequest21 $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServicePriorityAlert
 
     /**
      * @param UserPriorityAlertModifyActiveCriteriaListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertModifyActiveCriteriaListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertModifyActiveCriteriaListRequest $request)
     {
@@ -63,7 +68,8 @@ trait OCISchemaServicePriorityAlert
 
     /**
      * @param UserPriorityAlertModifyCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertModifyCriteriaRequest $request)
     {

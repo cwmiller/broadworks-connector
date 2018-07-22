@@ -9,15 +9,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetAvailableUserListRes
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetRequest16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetResponse16sp2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceBusyLampField
 {
 
     /**
      * @param SystemBusyLampFieldGetRequest18 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemBusyLampFieldGetRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldGetRequest18 $request)
     {
@@ -27,6 +28,7 @@ trait OCISchemaServiceBusyLampField
     /**
      * @param SystemBusyLampFieldModifyRequest $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBusyLampFieldModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBusyLampFieldModifyRequest $request)
     {
@@ -35,7 +37,8 @@ trait OCISchemaServiceBusyLampField
 
     /**
      * @param UserBusyLampFieldGetAvailableUserListRequest $request
-     * @return UserBusyLampFieldGetAvailableUserListResponse|ErrorResponse
+     * @return UserBusyLampFieldGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function userBusyLampFieldGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetAvailableUserListRequest $request)
     {
@@ -44,7 +47,8 @@ trait OCISchemaServiceBusyLampField
 
     /**
      * @param UserBusyLampFieldGetRequest16sp2 $request
-     * @return UserBusyLampFieldGetResponse16sp2|ErrorResponse
+     * @return UserBusyLampFieldGetResponse16sp2
+     * @throws ErrorResponseException
      */
     public function userBusyLampFieldGetRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldGetRequest16sp2 $request)
     {
@@ -53,7 +57,8 @@ trait OCISchemaServiceBusyLampField
 
     /**
      * @param UserBusyLampFieldModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBusyLampFieldModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBusyLampFieldModifyRequest $request)
     {

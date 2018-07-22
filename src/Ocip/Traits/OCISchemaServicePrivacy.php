@@ -9,8 +9,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetAvailableMonitorsUserListR
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest13mp17;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetResponse13mp17;
 use CWM\BroadWorksConnector\Ocip\Models\UserPrivacyModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServicePrivacy
 {
@@ -18,6 +18,7 @@ trait OCISchemaServicePrivacy
     /**
      * @param GroupServiceInstancePrivacyGetRequest17sp4 $request
      * @return GroupServiceInstancePrivacyGetResponse17sp4
+     * @throws ErrorResponseException
      */
     public function groupServiceInstancePrivacyGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceInstancePrivacyGetRequest17sp4 $request)
     {
@@ -26,7 +27,8 @@ trait OCISchemaServicePrivacy
 
     /**
      * @param GroupServiceInstancePrivacyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceInstancePrivacyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceInstancePrivacyModifyRequest $request)
     {
@@ -35,7 +37,8 @@ trait OCISchemaServicePrivacy
 
     /**
      * @param UserPrivacyGetAvailableMonitorsUserListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userPrivacyGetAvailableMonitorsUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetAvailableMonitorsUserListRequest $request)
     {
@@ -45,6 +48,7 @@ trait OCISchemaServicePrivacy
     /**
      * @param UserPrivacyGetRequest13mp17 $request
      * @return UserPrivacyGetResponse13mp17
+     * @throws ErrorResponseException
      */
     public function userPrivacyGetRequest13mp17(\CWM\BroadWorksConnector\Ocip\Models\UserPrivacyGetRequest13mp17 $request)
     {
@@ -53,7 +57,8 @@ trait OCISchemaServicePrivacy
 
     /**
      * @param UserPrivacyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPrivacyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPrivacyModifyRequest $request)
     {

@@ -14,15 +14,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListRequest17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListResponse17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100ModifyListRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSpeedDial100
 {
 
     /**
      * @param GroupSpeedDial100GetRequest17sp1 $request
-     * @return GroupSpeedDial100GetResponse17sp1|ErrorResponse
+     * @return GroupSpeedDial100GetResponse17sp1
+     * @throws ErrorResponseException
      */
     public function groupSpeedDial100GetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupSpeedDial100GetRequest17sp1 $request)
     {
@@ -31,7 +32,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param GroupSpeedDial100ModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSpeedDial100ModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSpeedDial100ModifyRequest $request)
     {
@@ -40,7 +42,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param SystemSpeedDial100GetRequest17sp1 $request
-     * @return SystemSpeedDial100GetResponse17sp1|ErrorResponse
+     * @return SystemSpeedDial100GetResponse17sp1
+     * @throws ErrorResponseException
      */
     public function systemSpeedDial100GetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemSpeedDial100GetRequest17sp1 $request)
     {
@@ -49,7 +52,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param SystemSpeedDial100ModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSpeedDial100ModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSpeedDial100ModifyRequest $request)
     {
@@ -58,7 +62,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param UserSpeedDial100AddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSpeedDial100AddListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100AddListRequest $request)
     {
@@ -67,7 +72,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param UserSpeedDial100DeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSpeedDial100DeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100DeleteListRequest $request)
     {
@@ -76,7 +82,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param UserSpeedDial100GetListRequest17sp1 $request
-     * @return UserSpeedDial100GetListResponse17sp1|ErrorResponse
+     * @return UserSpeedDial100GetListResponse17sp1
+     * @throws ErrorResponseException
      */
     public function userSpeedDial100GetListRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetListRequest17sp1 $request)
     {
@@ -85,7 +92,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param UserSpeedDial100GetRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSpeedDial100GetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100GetRequest $request)
     {
@@ -94,7 +102,8 @@ trait OCISchemaServiceSpeedDial100
 
     /**
      * @param UserSpeedDial100ModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSpeedDial100ModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial100ModifyListRequest $request)
     {

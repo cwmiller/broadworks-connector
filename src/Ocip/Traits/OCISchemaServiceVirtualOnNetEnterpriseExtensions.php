@@ -14,8 +14,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 {
@@ -23,6 +23,7 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
     /**
      * @param EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest $request
      * @return EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function enterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest $request)
     {
@@ -31,7 +32,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsAddUserRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVirtualOnNetEnterpriseExtensionsAddUserRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsAddUserRequest $request)
     {
@@ -40,7 +42,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVirtualOnNetEnterpriseExtensionsDeleteUserRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsDeleteUserRequest $request)
     {
@@ -49,7 +52,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupVirtualOnNetEnterpriseExtensionsGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest $request)
     {
@@ -58,7 +62,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsGetUserRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupVirtualOnNetEnterpriseExtensionsGetUserRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsGetUserRequest $request)
     {
@@ -67,7 +72,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVirtualOnNetEnterpriseExtensionsModifyUserRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest $request)
     {
@@ -76,7 +82,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param SystemVirtualOnNetCallTypeAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVirtualOnNetCallTypeAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeAddRequest $request)
     {
@@ -85,7 +92,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param SystemVirtualOnNetCallTypeDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVirtualOnNetCallTypeDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeDeleteRequest $request)
     {
@@ -95,6 +103,7 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
     /**
      * @param SystemVirtualOnNetCallTypeGetListRequest $request
      * @return SystemVirtualOnNetCallTypeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemVirtualOnNetCallTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeGetListRequest $request)
     {
@@ -103,7 +112,8 @@ trait OCISchemaServiceVirtualOnNetEnterpriseExtensions
 
     /**
      * @param SystemVirtualOnNetCallTypeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemVirtualOnNetCallTypeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemVirtualOnNetCallTypeModifyRequest $request)
     {

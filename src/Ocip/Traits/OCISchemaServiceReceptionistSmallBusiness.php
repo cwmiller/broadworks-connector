@@ -7,15 +7,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessG
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceReceptionistSmallBusiness
 {
 
     /**
      * @param UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest $request
-     * @return UserBroadWorksReceptionistSmallBusinessGetAvailableUserListResponse|ErrorResponse
+     * @return UserBroadWorksReceptionistSmallBusinessGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessGetAvailableUserListRequest $request)
     {
@@ -24,7 +25,8 @@ trait OCISchemaServiceReceptionistSmallBusiness
 
     /**
      * @param UserBroadWorksReceptionistSmallBusinessGetRequest $request
-     * @return UserBroadWorksReceptionistSmallBusinessGetResponse|ErrorResponse
+     * @return UserBroadWorksReceptionistSmallBusinessGetResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistSmallBusinessGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessGetRequest $request)
     {
@@ -33,7 +35,8 @@ trait OCISchemaServiceReceptionistSmallBusiness
 
     /**
      * @param UserBroadWorksReceptionistSmallBusinessModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistSmallBusinessModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistSmallBusinessModifyRequest $request)
     {

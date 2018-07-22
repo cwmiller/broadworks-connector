@@ -16,18 +16,18 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetResponse19;
 use CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGeneratePasswordRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserIMPGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceIntegratedIMP
 {
 
     /**
      * @param GroupIntegratedIMPGetRequest $request
-     * @return GroupIntegratedIMPGetResponse|ErrorResponse
+     * @return GroupIntegratedIMPGetResponse
+     * @throws ErrorResponseException
      */
     public function groupIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPGetRequest $request)
     {
@@ -36,7 +36,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param GroupIntegratedIMPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupIntegratedIMPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIntegratedIMPModifyRequest $request)
     {
@@ -45,7 +46,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param ResellerIntegratedIMPGetRequest $request
-     * @return ResellerIntegratedIMPGetResponse|ErrorResponse
+     * @return ResellerIntegratedIMPGetResponse
+     * @throws ErrorResponseException
      */
     public function resellerIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPGetRequest $request)
     {
@@ -54,7 +56,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param ResellerIntegratedIMPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerIntegratedIMPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerIntegratedIMPModifyRequest $request)
     {
@@ -63,7 +66,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param ServiceProviderIntegratedIMPGetRequest21 $request
-     * @return ServiceProviderIntegratedIMPGetResponse21|ErrorResponse
+     * @return ServiceProviderIntegratedIMPGetResponse21
+     * @throws ErrorResponseException
      */
     public function serviceProviderIntegratedIMPGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetRequest21 $request)
     {
@@ -72,7 +76,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param ServiceProviderIntegratedIMPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderIntegratedIMPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPModifyRequest $request)
     {
@@ -81,7 +86,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param SystemIntegratedIMPGetRequest21 $request
-     * @return SystemIntegratedIMPGetResponse19|ErrorResponse
+     * @return SystemIntegratedIMPGetResponse19
+     * @throws ErrorResponseException
      */
     public function systemIntegratedIMPGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetRequest21 $request)
     {
@@ -90,7 +96,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param SystemIntegratedIMPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemIntegratedIMPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPModifyRequest $request)
     {
@@ -99,7 +106,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param UserIntegratedIMPGeneratePasswordRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userIntegratedIMPGeneratePasswordRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGeneratePasswordRequest $request)
     {
@@ -108,7 +116,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param UserIntegratedIMPGetRequest $request
-     * @return UserIntegratedIMPGetResponse|ErrorResponse
+     * @return UserIntegratedIMPGetResponse
+     * @throws ErrorResponseException
      */
     public function userIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPGetRequest $request)
     {
@@ -117,7 +126,8 @@ trait OCISchemaServiceIntegratedIMP
 
     /**
      * @param UserIntegratedIMPModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userIntegratedIMPModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIntegratedIMPModifyRequest $request)
     {

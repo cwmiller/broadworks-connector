@@ -7,15 +7,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanDeleteDigitPatternListRe
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanGetDigitPatternListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanGetDigitPatternListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanModifyDigitPatternRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallingPlan
 {
 
     /**
      * @param GroupCallingPlanAddDigitPatternRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallingPlanAddDigitPatternRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAddDigitPatternRequest $request)
     {
@@ -24,7 +25,8 @@ trait OCISchemaServiceCallingPlan
 
     /**
      * @param GroupCallingPlanDeleteDigitPatternListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallingPlanDeleteDigitPatternListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanDeleteDigitPatternListRequest $request)
     {
@@ -33,7 +35,8 @@ trait OCISchemaServiceCallingPlan
 
     /**
      * @param GroupCallingPlanGetDigitPatternListRequest $request
-     * @return GroupCallingPlanGetDigitPatternListResponse|ErrorResponse
+     * @return GroupCallingPlanGetDigitPatternListResponse
+     * @throws ErrorResponseException
      */
     public function groupCallingPlanGetDigitPatternListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanGetDigitPatternListRequest $request)
     {
@@ -42,7 +45,8 @@ trait OCISchemaServiceCallingPlan
 
     /**
      * @param GroupCallingPlanModifyDigitPatternRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallingPlanModifyDigitPatternRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanModifyDigitPatternRequest $request)
     {

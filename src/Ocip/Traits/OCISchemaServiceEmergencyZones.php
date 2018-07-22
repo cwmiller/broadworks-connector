@@ -12,15 +12,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceEmergencyZones
 {
 
     /**
      * @param GroupEmergencyZonesAddHomeZoneListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEmergencyZonesAddHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesAddHomeZoneListRequest $request)
     {
@@ -29,7 +30,8 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param GroupEmergencyZonesDeleteHomeZoneListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEmergencyZonesDeleteHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesDeleteHomeZoneListRequest $request)
     {
@@ -38,7 +40,8 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param GroupEmergencyZonesGetHomeZoneListRequest $request
-     * @return GroupEmergencyZonesGetResponse|ErrorResponse
+     * @return GroupEmergencyZonesGetResponse
+     * @throws ErrorResponseException
      */
     public function groupEmergencyZonesGetHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetHomeZoneListRequest $request)
     {
@@ -47,7 +50,8 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param GroupEmergencyZonesGetRequest $request
-     * @return GroupEmergencyZonesGetResponse|ErrorResponse
+     * @return GroupEmergencyZonesGetResponse
+     * @throws ErrorResponseException
      */
     public function groupEmergencyZonesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesGetRequest $request)
     {
@@ -56,7 +60,8 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param GroupEmergencyZonesModifyHomeZoneListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEmergencyZonesModifyHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest $request)
     {
@@ -65,7 +70,8 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param GroupEmergencyZonesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupEmergencyZonesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyRequest $request)
     {
@@ -75,6 +81,7 @@ trait OCISchemaServiceEmergencyZones
     /**
      * @param SystemEmergencyZonesGetRequest $request
      * @return SystemEmergencyZonesGetResponse
+     * @throws ErrorResponseException
      */
     public function systemEmergencyZonesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesGetRequest $request)
     {
@@ -83,7 +90,8 @@ trait OCISchemaServiceEmergencyZones
 
     /**
      * @param SystemEmergencyZonesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemEmergencyZonesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemEmergencyZonesModifyRequest $request)
     {

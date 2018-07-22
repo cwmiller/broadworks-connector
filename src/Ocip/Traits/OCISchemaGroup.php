@@ -176,7 +176,6 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentListResponse18;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangeListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListResponse;
@@ -317,15 +316,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallingPlanSettingsGetListRespo
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallWaitingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserCallWaitingSettingsGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserHotelingGuestSettingsGetListRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\GroupUserHotelingGuestSettingsGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaGroup
 {
 
     /**
      * @param GroupAccessDeviceAddRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceAddRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceAddRequest14 $request)
     {
@@ -334,7 +334,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceAvailablePortGetListRequest $request
-     * @return GroupAccessDeviceAvailablePortGetListResponse|ErrorResponse
+     * @return GroupAccessDeviceAvailablePortGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceAvailablePortGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceAvailablePortGetListRequest $request)
     {
@@ -343,7 +344,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceCustomTagAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceCustomTagAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceCustomTagAddRequest $request)
     {
@@ -352,7 +354,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceCustomTagDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceCustomTagDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceCustomTagDeleteListRequest $request)
     {
@@ -361,7 +364,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceCustomTagGetListRequest $request
-     * @return GroupAccessDeviceCustomTagGetListResponse|ErrorResponse
+     * @return GroupAccessDeviceCustomTagGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceCustomTagGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceCustomTagGetListRequest $request)
     {
@@ -370,7 +374,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceCustomTagModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceCustomTagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceCustomTagModifyRequest $request)
     {
@@ -379,7 +384,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceDeleteRequest $request)
     {
@@ -388,7 +394,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceFileGetListRequest14sp8 $request
-     * @return GroupAccessDeviceFileGetListResponse14sp8|ErrorResponse
+     * @return GroupAccessDeviceFileGetListResponse14sp8
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceFileGetListRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetListRequest14sp8 $request)
     {
@@ -397,7 +404,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceFileGetRequest20 $request
-     * @return GroupAccessDeviceFileGetResponse20|ErrorResponse
+     * @return GroupAccessDeviceFileGetResponse20
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceFileGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileGetRequest20 $request)
     {
@@ -406,7 +414,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceFileModifyRequest14sp8 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceFileModifyRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceFileModifyRequest14sp8 $request)
     {
@@ -416,6 +425,7 @@ trait OCISchemaGroup
     /**
      * @param GroupAccessDeviceGetAvailableDetailListRequest19 $request
      * @return GroupAccessDeviceGetAvailableDetailListResponse19
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetAvailableDetailListRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetAvailableDetailListRequest19 $request)
     {
@@ -425,6 +435,7 @@ trait OCISchemaGroup
     /**
      * @param GroupAccessDeviceGetEnhancedConfigurationTypeListRequest $request
      * @return GroupAccessDeviceGetEnhancedConfigurationTypeListResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetEnhancedConfigurationTypeListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetEnhancedConfigurationTypeListRequest $request)
     {
@@ -434,6 +445,7 @@ trait OCISchemaGroup
     /**
      * @param GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 $request
      * @return GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetEnhancedConfigurationTypeRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 $request)
     {
@@ -442,7 +454,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceGetListRequest $request
-     * @return GroupAccessDeviceGetListResponse|ErrorResponse
+     * @return GroupAccessDeviceGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetListRequest $request)
     {
@@ -451,7 +464,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceGetRequest18sp1 $request
-     * @return GroupAccessDeviceGetResponse18sp1|ErrorResponse
+     * @return GroupAccessDeviceGetResponse18sp1
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetRequest18sp1 $request)
     {
@@ -460,7 +474,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceGetUserListRequest21sp1 $request
-     * @return GroupAccessDeviceGetUserListResponse21sp1|ErrorResponse
+     * @return GroupAccessDeviceGetUserListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetUserListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetUserListRequest21sp1 $request)
     {
@@ -469,7 +484,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceModifyRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceModifyRequest14(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceModifyRequest14 $request)
     {
@@ -478,7 +494,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceModifyUserRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceModifyUserRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceModifyUserRequest $request)
     {
@@ -487,7 +504,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceResetRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceResetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceResetRequest $request)
     {
@@ -496,7 +514,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceTagSetGetRequest $request
-     * @return GroupAccessDeviceTagSetGetResponse|ErrorResponse
+     * @return GroupAccessDeviceTagSetGetResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceTagSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceTagSetGetRequest $request)
     {
@@ -505,7 +524,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAccessDeviceTagSetModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceTagSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceTagSetModifyRequest $request)
     {
@@ -514,7 +534,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAddRequest $request)
     {
@@ -523,7 +544,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAdminAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminAddRequest $request)
     {
@@ -532,7 +554,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAdminDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminDeleteRequest $request)
     {
@@ -541,7 +564,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminGetListRequest $request
-     * @return GroupAdminGetListResponse|ErrorResponse
+     * @return GroupAdminGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupAdminGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetListRequest $request)
     {
@@ -550,7 +574,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminGetPolicyRequest20 $request
-     * @return GroupAdminGetPolicyResponse20|ErrorResponse
+     * @return GroupAdminGetPolicyResponse20
+     * @throws ErrorResponseException
      */
     public function groupAdminGetPolicyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest20 $request)
     {
@@ -559,7 +584,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminGetRequest21sp1 $request
-     * @return GroupAdminGetResponse21sp1|ErrorResponse
+     * @return GroupAdminGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function groupAdminGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest21sp1 $request)
     {
@@ -569,6 +595,7 @@ trait OCISchemaGroup
     /**
      * @param GroupAdministratorPasswordRulesGetRequest $request
      * @return GroupAdministratorPasswordRulesGetResponse
+     * @throws ErrorResponseException
      */
     public function groupAdministratorPasswordRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdministratorPasswordRulesGetRequest $request)
     {
@@ -577,7 +604,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminModifyPolicyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAdminModifyPolicyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminModifyPolicyRequest $request)
     {
@@ -586,7 +614,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAdminModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAdminModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminModifyRequest $request)
     {
@@ -595,7 +624,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementFileAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAnnouncementFileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileAddRequest $request)
     {
@@ -604,7 +634,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementFileDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAnnouncementFileDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileDeleteListRequest $request)
     {
@@ -613,7 +644,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementFileGetListRequest $request
-     * @return GroupAnnouncementFileGetListResponse|ErrorResponse
+     * @return GroupAnnouncementFileGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupAnnouncementFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetListRequest $request)
     {
@@ -622,7 +654,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementFileGetRequest $request
-     * @return GroupAnnouncementFileGetResponse|ErrorResponse
+     * @return GroupAnnouncementFileGetResponse
+     * @throws ErrorResponseException
      */
     public function groupAnnouncementFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileGetRequest $request)
     {
@@ -631,7 +664,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementFileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAnnouncementFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementFileModifyRequest $request)
     {
@@ -640,7 +674,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupAnnouncementRepositoryGetSettingsRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupAnnouncementRepositoryGetSettingsRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAnnouncementRepositoryGetSettingsRequest $request)
     {
@@ -649,7 +684,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupApplicationServerSetGetRequest $request
-     * @return GroupApplicationServerSetGetResponse|ErrorResponse
+     * @return GroupApplicationServerSetGetResponse
+     * @throws ErrorResponseException
      */
     public function groupApplicationServerSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetGetRequest $request)
     {
@@ -658,7 +694,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupApplicationServerSetModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupApplicationServerSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupApplicationServerSetModifyRequest $request)
     {
@@ -667,7 +704,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerActivationRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerActivationRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerActivationRequest $request)
     {
@@ -676,7 +714,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerAddHomeZoneRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerAddHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerAddHomeZoneRequest $request)
     {
@@ -685,7 +724,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerAddRequest $request)
     {
@@ -694,7 +734,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerDeleteHomeZoneListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerDeleteHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteHomeZoneListRequest $request)
     {
@@ -703,7 +744,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerDeleteHomeZoneRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerDeleteHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteHomeZoneRequest $request)
     {
@@ -712,7 +754,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerDeleteRequest $request)
     {
@@ -721,7 +764,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerGetDomainListRequest $request
-     * @return GroupBroadWorksMobileManagerGetDomainListResponse|ErrorResponse
+     * @return GroupBroadWorksMobileManagerGetDomainListResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerGetDomainListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetDomainListRequest $request)
     {
@@ -730,7 +774,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerGetHomeZoneListRequest $request
-     * @return GroupBroadWorksMobileManagerGetHomeZoneListResponse|ErrorResponse
+     * @return GroupBroadWorksMobileManagerGetHomeZoneListResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerGetHomeZoneListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneListRequest $request)
     {
@@ -739,7 +784,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerGetHomeZoneRequest $request
-     * @return GroupBroadWorksMobileManagerGetHomeZoneResponse|ErrorResponse
+     * @return GroupBroadWorksMobileManagerGetHomeZoneResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerGetHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetHomeZoneRequest $request)
     {
@@ -748,7 +794,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerGetRequest $request
-     * @return GroupBroadWorksMobileManagerGetResponse|ErrorResponse
+     * @return GroupBroadWorksMobileManagerGetResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerGetRequest $request)
     {
@@ -757,7 +804,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerModifyHomeZoneRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerModifyHomeZoneRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerModifyHomeZoneRequest $request)
     {
@@ -766,7 +814,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerModifyRequest $request)
     {
@@ -775,7 +824,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupBroadWorksMobileManagerSendCarrierFilesRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksMobileManagerSendCarrierFilesRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksMobileManagerSendCarrierFilesRequest $request)
     {
@@ -785,6 +835,7 @@ trait OCISchemaGroup
     /**
      * @param GroupCallProcessingGetPolicyRequest22 $request
      * @return GroupCallProcessingGetPolicyResponse22
+     * @throws ErrorResponseException
      */
     public function groupCallProcessingGetPolicyRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest22 $request)
     {
@@ -793,7 +844,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCallProcessingModifyPolicyRequest15sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallProcessingModifyPolicyRequest15sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingModifyPolicyRequest15sp2 $request)
     {
@@ -802,7 +854,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommonPhoneListAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommonPhoneListAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListAddListRequest $request)
     {
@@ -811,7 +864,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommonPhoneListDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommonPhoneListDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListDeleteListRequest $request)
     {
@@ -820,7 +874,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommonPhoneListGetListRequest $request
-     * @return GroupCommonPhoneListGetListResponse|ErrorResponse
+     * @return GroupCommonPhoneListGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupCommonPhoneListGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListGetListRequest $request)
     {
@@ -829,7 +884,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommonPhoneListModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommonPhoneListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommonPhoneListModifyRequest $request)
     {
@@ -838,7 +894,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeAddListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 $request)
     {
@@ -847,7 +904,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringAuthorizationCodeDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeDeleteListRequest $request)
     {
@@ -856,7 +914,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 $request
-     * @return GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1|ErrorResponse
+     * @return GroupCommunicationBarringAuthorizationCodeGetListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeGetListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 $request)
     {
@@ -865,7 +924,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringAuthorizationCodeGetRequest $request
-     * @return GroupCommunicationBarringAuthorizationCodeGetResponse|ErrorResponse
+     * @return GroupCommunicationBarringAuthorizationCodeGetResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeGetRequest $request)
     {
@@ -874,7 +934,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringAuthorizationCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeModifyRequest $request)
     {
@@ -883,7 +944,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringGetRequest $request
-     * @return GroupCommunicationBarringGetResponse|ErrorResponse
+     * @return GroupCommunicationBarringGetResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringGetRequest $request)
     {
@@ -892,7 +954,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringModifyRequest $request)
     {
@@ -901,7 +964,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringProfileGetAssignedListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringProfileGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringProfileGetAssignedListRequest $request)
     {
@@ -910,7 +974,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCommunicationBarringProfileModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringProfileModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringProfileModifyListRequest $request)
     {
@@ -919,7 +984,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCPEConfigRebuildConfigFileRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCPEConfigRebuildConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigRebuildConfigFileRequest $request)
     {
@@ -928,7 +994,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCPEConfigRebuildDeviceConfigFileRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCPEConfigRebuildDeviceConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigRebuildDeviceConfigFileRequest $request)
     {
@@ -937,7 +1004,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCPEConfigReorderDeviceLinePortsRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCPEConfigReorderDeviceLinePortsRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigReorderDeviceLinePortsRequest $request)
     {
@@ -946,7 +1014,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCPEConfigResetDeviceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCPEConfigResetDeviceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigResetDeviceRequest $request)
     {
@@ -955,7 +1024,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCPEConfigResetDeviceTypeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCPEConfigResetDeviceTypeRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigResetDeviceTypeRequest $request)
     {
@@ -964,7 +1034,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCPEConfigSetConfigFileRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCPEConfigSetConfigFileRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCPEConfigSetConfigFileRequest $request)
     {
@@ -973,7 +1044,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCustomContactDirectoryAddRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCustomContactDirectoryAddRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryAddRequest17 $request)
     {
@@ -982,7 +1054,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCustomContactDirectoryDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCustomContactDirectoryDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryDeleteRequest $request)
     {
@@ -991,7 +1064,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCustomContactDirectoryGetAvailableUserListRequest17 $request
-     * @return GroupCustomContactDirectoryGetAvailableUserListResponse17|ErrorResponse
+     * @return GroupCustomContactDirectoryGetAvailableUserListResponse17
+     * @throws ErrorResponseException
      */
     public function groupCustomContactDirectoryGetAvailableUserListRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryGetAvailableUserListRequest17 $request)
     {
@@ -1000,7 +1074,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCustomContactDirectoryGetListRequest $request
-     * @return GroupCustomContactDirectoryGetListResponse|ErrorResponse
+     * @return GroupCustomContactDirectoryGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupCustomContactDirectoryGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryGetListRequest $request)
     {
@@ -1010,6 +1085,7 @@ trait OCISchemaGroup
     /**
      * @param GroupCustomContactDirectoryGetRequest17 $request
      * @return GroupCustomContactDirectoryGetResponse17
+     * @throws ErrorResponseException
      */
     public function groupCustomContactDirectoryGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryGetRequest17 $request)
     {
@@ -1018,7 +1094,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupCustomContactDirectoryModifyRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCustomContactDirectoryModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomContactDirectoryModifyRequest17 $request)
     {
@@ -1027,7 +1104,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeleteRequest $request)
     {
@@ -1036,7 +1114,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAddRequest $request)
     {
@@ -1045,7 +1124,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentAdminAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentAdminAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminAddRequest $request)
     {
@@ -1054,7 +1134,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentAdminDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentAdminDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminDeleteRequest $request)
     {
@@ -1063,7 +1144,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentAdminGetListRequest $request
-     * @return GroupDepartmentAdminGetListResponse|ErrorResponse
+     * @return GroupDepartmentAdminGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentAdminGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetListRequest $request)
     {
@@ -1072,7 +1154,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentAdminGetRequest $request
-     * @return GroupDepartmentAdminGetResponse|ErrorResponse
+     * @return GroupDepartmentAdminGetResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentAdminGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminGetRequest $request)
     {
@@ -1081,7 +1164,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentAdminModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentAdminModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminModifyRequest $request)
     {
@@ -1090,7 +1174,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentDeleteRequest $request)
     {
@@ -1099,7 +1184,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentGetAvailableParentListRequest $request
-     * @return GroupDepartmentGetAvailableParentListResponse|ErrorResponse
+     * @return GroupDepartmentGetAvailableParentListResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentGetAvailableParentListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentGetAvailableParentListRequest $request)
     {
@@ -1108,7 +1194,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentGetListRequest18 $request
-     * @return GroupDepartmentGetListResponse18|ErrorResponse
+     * @return GroupDepartmentGetListResponse18
+     * @throws ErrorResponseException
      */
     public function groupDepartmentGetListRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentGetListRequest18 $request)
     {
@@ -1117,7 +1204,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentGetRequest $request
-     * @return GroupDepartmentGetResponse|ErrorResponse
+     * @return GroupDepartmentGetResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentGetRequest $request)
     {
@@ -1126,7 +1214,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDepartmentModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDepartmentModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentModifyRequest $request)
     {
@@ -1135,7 +1224,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceManagementEventGetListRequest $request
-     * @return GroupDeviceManagementEventGetListResponse|ErrorResponse
+     * @return GroupDeviceManagementEventGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceManagementEventGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceManagementEventGetListRequest $request)
     {
@@ -1144,7 +1234,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceManagementEventGetListRequest22 $request
-     * @return GroupDeviceManagementEventGetListResponse22|ErrorResponse
+     * @return GroupDeviceManagementEventGetListResponse22
+     * @throws ErrorResponseException
      */
     public function groupDeviceManagementEventGetListRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceManagementEventGetListRequest22 $request)
     {
@@ -1153,7 +1244,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest $request
-     * @return GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse|ErrorResponse
+     * @return GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest $request)
     {
@@ -1162,7 +1254,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceManagementInProgressAndPendingEventCancelRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceManagementInProgressAndPendingEventCancelRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceManagementInProgressAndPendingEventCancelRequest $request)
     {
@@ -1171,7 +1264,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeCustomTagAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeCustomTagAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeCustomTagAddRequest $request)
     {
@@ -1180,7 +1274,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeCustomTagDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeCustomTagDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeCustomTagDeleteListRequest $request)
     {
@@ -1189,7 +1284,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeCustomTagGetListRequest $request
-     * @return GroupDeviceTypeCustomTagGetListResponse|ErrorResponse
+     * @return GroupDeviceTypeCustomTagGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeCustomTagGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeCustomTagGetListRequest $request)
     {
@@ -1198,7 +1294,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeCustomTagModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeCustomTagModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeCustomTagModifyRequest $request)
     {
@@ -1207,7 +1304,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeFileGetListRequest21 $request
-     * @return GroupDeviceTypeFileGetListResponse21|ErrorResponse
+     * @return GroupDeviceTypeFileGetListResponse21
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeFileGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileGetListRequest21 $request)
     {
@@ -1216,7 +1314,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeFileGetRequest16sp1 $request
-     * @return GroupDeviceTypeFileGetResponse16sp1|ErrorResponse
+     * @return GroupDeviceTypeFileGetResponse16sp1
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeFileGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileGetRequest16sp1 $request)
     {
@@ -1225,7 +1324,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeFileModifyRequest14sp8 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeFileModifyRequest14sp8(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeFileModifyRequest14sp8 $request)
     {
@@ -1234,7 +1334,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeTagSetGetRequest $request
-     * @return GroupDeviceTypeTagSetGetResponse|ErrorResponse
+     * @return GroupDeviceTypeTagSetGetResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeTagSetGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeTagSetGetRequest $request)
     {
@@ -1243,7 +1344,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDeviceTypeTagSetModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDeviceTypeTagSetModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDeviceTypeTagSetModifyRequest $request)
     {
@@ -1252,7 +1354,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDCriteriaAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialableCallerIDCriteriaAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaAddRequest $request)
     {
@@ -1261,7 +1364,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDCriteriaDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialableCallerIDCriteriaDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaDeleteRequest $request)
     {
@@ -1270,7 +1374,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDCriteriaGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupDialableCallerIDCriteriaGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaGetRequest $request)
     {
@@ -1279,7 +1384,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDCriteriaModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialableCallerIDCriteriaModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDCriteriaModifyRequest $request)
     {
@@ -1288,7 +1394,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDGetRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupDialableCallerIDGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDGetRequest $request)
     {
@@ -1297,7 +1404,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialableCallerIDModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialableCallerIDModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialableCallerIDModifyRequest $request)
     {
@@ -1306,7 +1414,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialPlanPolicyAddAccessCodeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyAddAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyAddAccessCodeRequest $request)
     {
@@ -1315,7 +1424,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialPlanPolicyDeleteAccessCodeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyDeleteAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyDeleteAccessCodeRequest $request)
     {
@@ -1325,6 +1435,7 @@ trait OCISchemaGroup
     /**
      * @param GroupDialPlanPolicyGetAccessCodeListRequest $request
      * @return GroupDialPlanPolicyGetAccessCodeListResponse
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyGetAccessCodeListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyGetAccessCodeListRequest $request)
     {
@@ -1333,7 +1444,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialPlanPolicyGetAccessCodeRequest $request
-     * @return GroupDialPlanPolicyGetAccessCodeResponse|ErrorResponse
+     * @return GroupDialPlanPolicyGetAccessCodeResponse
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyGetAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyGetAccessCodeRequest $request)
     {
@@ -1342,7 +1454,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialPlanPolicyGetRequest17 $request
-     * @return GroupDialPlanPolicyGetResponse17|ErrorResponse
+     * @return GroupDialPlanPolicyGetResponse17
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyGetRequest17 $request)
     {
@@ -1351,7 +1464,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialPlanPolicyModifyAccessCodeRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyModifyAccessCodeRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyModifyAccessCodeRequest $request)
     {
@@ -1360,7 +1474,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDialPlanPolicyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDialPlanPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicyModifyRequest $request)
     {
@@ -1369,7 +1484,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDigitCollectionGetRequest13mp4 $request
-     * @return GroupDigitCollectionGetResponse13mp4|ErrorResponse
+     * @return GroupDigitCollectionGetResponse13mp4
+     * @throws ErrorResponseException
      */
     public function groupDigitCollectionGetRequest13mp4(\CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionGetRequest13mp4 $request)
     {
@@ -1378,7 +1494,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDigitCollectionModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDigitCollectionModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionModifyRequest $request)
     {
@@ -1387,7 +1504,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnActivateListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDnActivateListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnActivateListRequest $request)
     {
@@ -1396,7 +1514,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDnAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnAssignListRequest $request)
     {
@@ -1405,7 +1524,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnDeactivateListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDnDeactivateListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnDeactivateListRequest $request)
     {
@@ -1414,7 +1534,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetActivationListRequest $request
-     * @return GroupDnGetActivationListResponse|ErrorResponse
+     * @return GroupDnGetActivationListResponse
+     * @throws ErrorResponseException
      */
     public function groupDnGetActivationListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetActivationListRequest $request)
     {
@@ -1423,7 +1544,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetAssignmentListRequest18 $request
-     * @return GroupDnGetAssignmentListResponse18|ErrorResponse
+     * @return GroupDnGetAssignmentListResponse18
+     * @throws ErrorResponseException
      */
     public function groupDnGetAssignmentListRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAssignmentListRequest18 $request)
     {
@@ -1432,7 +1554,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetAvailableListRequest $request
-     * @return GroupDnGetAvailableListResponse|ErrorResponse
+     * @return GroupDnGetAvailableListResponse
+     * @throws ErrorResponseException
      */
     public function groupDnGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableListRequest $request)
     {
@@ -1441,7 +1564,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetAvailableRangesListRequest $request
-     * @return GroupDnGetAvailableRangesListResponse|ErrorResponse
+     * @return GroupDnGetAvailableRangesListResponse
+     * @throws ErrorResponseException
      */
     public function groupDnGetAvailableRangesListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetAvailableRangesListRequest $request)
     {
@@ -1450,7 +1574,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetDetailedAvailableListRequest $request
-     * @return GroupDnGetDetailedAvailableListResponse|ErrorResponse
+     * @return GroupDnGetDetailedAvailableListResponse
+     * @throws ErrorResponseException
      */
     public function groupDnGetDetailedAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetDetailedAvailableListRequest $request)
     {
@@ -1459,7 +1584,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetListRequest $request
-     * @return GroupDnGetListResponse|ErrorResponse
+     * @return GroupDnGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupDnGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetListRequest $request)
     {
@@ -1468,7 +1594,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnGetSummaryListRequest $request
-     * @return GroupDnGetSummaryListResponse|ErrorResponse
+     * @return GroupDnGetSummaryListResponse
+     * @throws ErrorResponseException
      */
     public function groupDnGetSummaryListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnGetSummaryListRequest $request)
     {
@@ -1477,7 +1604,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnListAssignDepartmentRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDnListAssignDepartmentRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnListAssignDepartmentRequest $request)
     {
@@ -1486,7 +1614,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDnUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDnUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDnUnassignListRequest $request)
     {
@@ -1495,7 +1624,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDomainAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDomainAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDomainAssignListRequest $request)
     {
@@ -1504,7 +1634,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDomainGetAssignedListRequest $request
-     * @return GroupDomainGetAssignedListResponse|ErrorResponse
+     * @return GroupDomainGetAssignedListResponse
+     * @throws ErrorResponseException
      */
     public function groupDomainGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDomainGetAssignedListRequest $request)
     {
@@ -1513,7 +1644,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDomainGetAssignedUserListRequest $request
-     * @return GroupDomainGetAssignedUserListResponse|ErrorResponse
+     * @return GroupDomainGetAssignedUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupDomainGetAssignedUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDomainGetAssignedUserListRequest $request)
     {
@@ -1522,7 +1654,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupDomainUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupDomainUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupDomainUnassignListRequest $request)
     {
@@ -1531,7 +1664,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupEndpointGetListRequest $request
-     * @return GroupEndpointGetListResponse|ErrorResponse
+     * @return GroupEndpointGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupEndpointGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupEndpointGetListRequest $request)
     {
@@ -1540,7 +1674,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupExchangeIntegrationGetRequest $request
-     * @return GroupExchangeIntegrationGetResponse|ErrorResponse
+     * @return GroupExchangeIntegrationGetResponse
+     * @throws ErrorResponseException
      */
     public function groupExchangeIntegrationGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupExchangeIntegrationGetRequest $request)
     {
@@ -1549,7 +1684,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupExchangeIntegrationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupExchangeIntegrationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupExchangeIntegrationModifyRequest $request)
     {
@@ -1558,7 +1694,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupExistingUsersAssignUserServiceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupExistingUsersAssignUserServiceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupExistingUsersAssignUserServiceListRequest $request)
     {
@@ -1567,7 +1704,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupExistingUsersUnassignUserServiceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupExistingUsersUnassignUserServiceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupExistingUsersUnassignUserServiceListRequest $request)
     {
@@ -1576,7 +1714,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupExtensionLengthGetRequest17 $request
-     * @return GroupExtensionLengthGetResponse17|ErrorResponse
+     * @return GroupExtensionLengthGetResponse17
+     * @throws ErrorResponseException
      */
     public function groupExtensionLengthGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthGetRequest17 $request)
     {
@@ -1585,7 +1724,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupExtensionLengthModifyRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupExtensionLengthModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupExtensionLengthModifyRequest17 $request)
     {
@@ -1595,6 +1735,7 @@ trait OCISchemaGroup
     /**
      * @param GroupFeatureAccessCodeGetRequest21 $request
      * @return GroupFeatureAccessCodeGetResponse21
+     * @throws ErrorResponseException
      */
     public function groupFeatureAccessCodeGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeGetRequest21 $request)
     {
@@ -1603,7 +1744,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupFeatureAccessCodeModifyRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFeatureAccessCodeModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeModifyRequest21 $request)
     {
@@ -1612,7 +1754,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupFileRepositoryDeviceUserAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFileRepositoryDeviceUserAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserAddRequest $request)
     {
@@ -1621,7 +1764,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupFileRepositoryDeviceUserDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFileRepositoryDeviceUserDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserDeleteRequest $request)
     {
@@ -1630,7 +1774,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupFileRepositoryDeviceUserGetListRequest $request
-     * @return GroupFileRepositoryDeviceUserGetListResponse|ErrorResponse
+     * @return GroupFileRepositoryDeviceUserGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupFileRepositoryDeviceUserGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserGetListRequest $request)
     {
@@ -1639,7 +1784,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupFileRepositoryDeviceUserModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFileRepositoryDeviceUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFileRepositoryDeviceUserModifyRequest $request)
     {
@@ -1648,7 +1794,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupGetDefaultRequest $request
-     * @return GroupGetDefaultResponse|ErrorResponse
+     * @return GroupGetDefaultResponse
+     * @throws ErrorResponseException
      */
     public function groupGetDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetDefaultRequest $request)
     {
@@ -1657,7 +1804,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupGetListInServiceProviderRequest $request
-     * @return GroupGetListInServiceProviderResponse|ErrorResponse
+     * @return GroupGetListInServiceProviderResponse
+     * @throws ErrorResponseException
      */
     public function groupGetListInServiceProviderRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetListInServiceProviderRequest $request)
     {
@@ -1666,7 +1814,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupGetListInSystemRequest $request
-     * @return GroupGetListInSystemResponse|ErrorResponse
+     * @return GroupGetListInSystemResponse
+     * @throws ErrorResponseException
      */
     public function groupGetListInSystemRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetListInSystemRequest $request)
     {
@@ -1675,7 +1824,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupGetRequest22V2 $request
-     * @return GroupGetResponse22|ErrorResponse
+     * @return GroupGetResponse22
+     * @throws ErrorResponseException
      */
     public function groupGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest22V2 $request)
     {
@@ -1684,7 +1834,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupGetUserServiceAssignedUserListRequest $request
-     * @return GroupGetUserServiceAssignedUserListResponse|ErrorResponse
+     * @return GroupGetUserServiceAssignedUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupGetUserServiceAssignedUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGetUserServiceAssignedUserListRequest $request)
     {
@@ -1693,7 +1844,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupIMRNAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupIMRNAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIMRNAssignListRequest $request)
     {
@@ -1702,7 +1854,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupIMRNGetListRequest $request
-     * @return GroupIMRNGetListResponse|ErrorResponse
+     * @return GroupIMRNGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupIMRNGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIMRNGetListRequest $request)
     {
@@ -1711,7 +1864,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupIMRNUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupIMRNUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIMRNUnassignListRequest $request)
     {
@@ -1720,7 +1874,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupModifyRequest $request)
     {
@@ -1729,7 +1884,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupNetworkClassOfServiceAssignListRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceAssignListRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceAssignListRequest21 $request)
     {
@@ -1739,6 +1895,7 @@ trait OCISchemaGroup
     /**
      * @param GroupNetworkClassOfServiceAssignToAllUsersRequest $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceAssignToAllUsersRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceAssignToAllUsersRequest $request)
     {
@@ -1748,6 +1905,7 @@ trait OCISchemaGroup
     /**
      * @param GroupNetworkClassOfServiceGetAssignedListRequest $request
      * @return GroupNetworkClassOfServiceGetAssignedListResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceGetAssignedListRequest $request)
     {
@@ -1757,6 +1915,7 @@ trait OCISchemaGroup
     /**
      * @param GroupNetworkClassOfServiceGetAssignedUserListRequest21 $request
      * @return GroupNetworkClassOfServiceGetAssignedUserListResponse21
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceGetAssignedUserListRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceGetAssignedUserListRequest21 $request)
     {
@@ -1765,7 +1924,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupNetworkClassOfServiceModifyDefaultRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceModifyDefaultRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceModifyDefaultRequest $request)
     {
@@ -1774,7 +1934,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupNetworkClassOfServiceUnassignListRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceUnassignListRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceUnassignListRequest21 $request)
     {
@@ -1783,7 +1944,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupNewUserTemplateAssignUserServiceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNewUserTemplateAssignUserServiceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNewUserTemplateAssignUserServiceListRequest $request)
     {
@@ -1792,7 +1954,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupNewUserTemplateUnassignUserServiceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNewUserTemplateUnassignUserServiceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNewUserTemplateUnassignUserServiceListRequest $request)
     {
@@ -1801,7 +1964,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupOfficeZoneAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOfficeZoneAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneAssignListRequest $request)
     {
@@ -1811,6 +1975,7 @@ trait OCISchemaGroup
     /**
      * @param GroupOfficeZoneGetAssignedListRequest $request
      * @return GroupOfficeZoneGetAssignedListResponse
+     * @throws ErrorResponseException
      */
     public function groupOfficeZoneGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneGetAssignedListRequest $request)
     {
@@ -1820,6 +1985,7 @@ trait OCISchemaGroup
     /**
      * @param GroupOfficeZoneGetAssignedUserListRequest $request
      * @return GroupOfficeZoneGetAssignedUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupOfficeZoneGetAssignedUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneGetAssignedUserListRequest $request)
     {
@@ -1828,7 +1994,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupOfficeZoneUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOfficeZoneUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOfficeZoneUnassignListRequest $request)
     {
@@ -1837,7 +2004,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPasswordRulesGetRequest22 $request
-     * @return GroupPasswordRulesGetResponse22|ErrorResponse
+     * @return GroupPasswordRulesGetResponse22
+     * @throws ErrorResponseException
      */
     public function groupPasswordRulesGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequest22 $request)
     {
@@ -1846,7 +2014,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPasswordRulesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPasswordRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesModifyRequest $request)
     {
@@ -1856,6 +2025,7 @@ trait OCISchemaGroup
     /**
      * @param GroupPhoneDirectoryGetListRequest18 $request
      * @return GroupPhoneDirectoryGetListResponse18
+     * @throws ErrorResponseException
      */
     public function groupPhoneDirectoryGetListRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetListRequest18 $request)
     {
@@ -1865,6 +2035,7 @@ trait OCISchemaGroup
     /**
      * @param GroupPhoneDirectoryGetPagedListRequest $request
      * @return GroupPhoneDirectoryGetPagedListResponse
+     * @throws ErrorResponseException
      */
     public function groupPhoneDirectoryGetPagedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPhoneDirectoryGetPagedListRequest $request)
     {
@@ -1873,7 +2044,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPolicyGetRequest22 $request
-     * @return GroupPolicyGetResponse22|ErrorResponse
+     * @return GroupPolicyGetResponse22
+     * @throws ErrorResponseException
      */
     public function groupPolicyGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest22 $request)
     {
@@ -1882,7 +2054,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPolicyModifyRequest22 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPolicyModifyRequest22(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyModifyRequest22 $request)
     {
@@ -1891,7 +2064,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPortalPasscodeRulesGetRequest19 $request
-     * @return GroupPortalPasscodeRulesGetResponse|ErrorResponse
+     * @return GroupPortalPasscodeRulesGetResponse
+     * @throws ErrorResponseException
      */
     public function groupPortalPasscodeRulesGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesGetRequest19 $request)
     {
@@ -1900,7 +2074,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupPortalPasscodeRulesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPortalPasscodeRulesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPortalPasscodeRulesModifyRequest $request)
     {
@@ -1909,7 +2084,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupRoutePointExternalSystemAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutePointExternalSystemAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemAssignListRequest $request)
     {
@@ -1918,7 +2094,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupRoutePointExternalSystemGetAssignedListRequest $request
-     * @return GroupRoutePointExternalSystemGetAssignedListResponse|ErrorResponse
+     * @return GroupRoutePointExternalSystemGetAssignedListResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutePointExternalSystemGetAssignedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemGetAssignedListRequest $request)
     {
@@ -1927,7 +2104,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupRoutePointExternalSystemGetAssignedRoutePointListRequest $request
-     * @return GroupRoutePointExternalSystemGetAssignedRoutePointListResponse|ErrorResponse
+     * @return GroupRoutePointExternalSystemGetAssignedRoutePointListResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutePointExternalSystemGetAssignedRoutePointListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemGetAssignedRoutePointListRequest $request)
     {
@@ -1936,7 +2114,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupRoutePointExternalSystemUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutePointExternalSystemUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointExternalSystemUnassignListRequest $request)
     {
@@ -1945,7 +2124,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupRoutingProfileGetRequest $request
-     * @return GroupRoutingProfileGetResponse|ErrorResponse
+     * @return GroupRoutingProfileGetResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutingProfileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutingProfileGetRequest $request)
     {
@@ -1954,7 +2134,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupRoutingProfileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutingProfileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutingProfileModifyRequest $request)
     {
@@ -1963,7 +2144,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleAddEventRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleAddEventRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleAddEventRequest $request)
     {
@@ -1972,7 +2154,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleAddRequest $request)
     {
@@ -1981,7 +2164,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleDeleteEventListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleDeleteEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleDeleteEventListRequest $request)
     {
@@ -1990,7 +2174,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleDeleteListRequest $request)
     {
@@ -1999,7 +2184,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleGetEventDetailListRequest $request
-     * @return GroupScheduleGetEventDetailListResponse|ErrorResponse
+     * @return GroupScheduleGetEventDetailListResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleGetEventDetailListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleGetEventDetailListRequest $request)
     {
@@ -2008,7 +2194,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleGetEventListRequest $request
-     * @return GroupScheduleGetEventListResponse|ErrorResponse
+     * @return GroupScheduleGetEventListResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleGetEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleGetEventListRequest $request)
     {
@@ -2017,7 +2204,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleGetEventRequest $request
-     * @return GroupScheduleGetEventResponse|ErrorResponse
+     * @return GroupScheduleGetEventResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleGetEventRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleGetEventRequest $request)
     {
@@ -2026,7 +2214,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleGetListRequest17sp1 $request
-     * @return GroupScheduleGetListResponse17sp1|ErrorResponse
+     * @return GroupScheduleGetListResponse17sp1
+     * @throws ErrorResponseException
      */
     public function groupScheduleGetListRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleGetListRequest17sp1 $request)
     {
@@ -2035,7 +2224,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleModifyEventRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleModifyEventRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleModifyEventRequest $request)
     {
@@ -2044,7 +2234,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupScheduleModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupScheduleModifyRequest $request)
     {
@@ -2053,7 +2244,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSecurityClassificationCustomizationGetAvailableListRequest $request
-     * @return GroupSecurityClassificationCustomizationGetAvailableListResponse|ErrorResponse
+     * @return GroupSecurityClassificationCustomizationGetAvailableListResponse
+     * @throws ErrorResponseException
      */
     public function groupSecurityClassificationCustomizationGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSecurityClassificationCustomizationGetAvailableListRequest $request)
     {
@@ -2062,7 +2254,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceAssignListRequest $request)
     {
@@ -2071,7 +2264,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceGetAuthorizationListRequest $request
-     * @return GroupServiceGetAuthorizationListResponse|ErrorResponse
+     * @return GroupServiceGetAuthorizationListResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceGetAuthorizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceGetAuthorizationListRequest $request)
     {
@@ -2080,7 +2274,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceGetAuthorizationRequest $request
-     * @return GroupServiceGetAuthorizationResponse|ErrorResponse
+     * @return GroupServiceGetAuthorizationResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceGetAuthorizationRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceGetAuthorizationRequest $request)
     {
@@ -2089,7 +2284,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceGetAuthorizedListRequest $request
-     * @return GroupServiceGetAuthorizedListResponse|ErrorResponse
+     * @return GroupServiceGetAuthorizedListResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceGetAuthorizedListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceGetAuthorizedListRequest $request)
     {
@@ -2098,7 +2294,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceIsAssignedRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupServiceIsAssignedRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceIsAssignedRequest $request)
     {
@@ -2107,7 +2304,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceModifyAuthorizationListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceModifyAuthorizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceModifyAuthorizationListRequest $request)
     {
@@ -2117,6 +2315,7 @@ trait OCISchemaGroup
     /**
      * @param GroupServicePhoneNumberLookupRequest $request
      * @return GroupServicePhoneNumberLookupResponse
+     * @throws ErrorResponseException
      */
     public function groupServicePhoneNumberLookupRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServicePhoneNumberLookupRequest $request)
     {
@@ -2125,7 +2324,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupServiceUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupServiceUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupServiceUnassignListRequest $request)
     {
@@ -2134,7 +2334,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGetAvailableDeviceListRequest $request
-     * @return GroupSessionAdmissionControlGetAvailableDeviceListResponse|ErrorResponse
+     * @return GroupSessionAdmissionControlGetAvailableDeviceListResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGetAvailableDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGetAvailableDeviceListRequest $request)
     {
@@ -2143,7 +2344,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGetRequest $request
-     * @return GroupSessionAdmissionControlGetResponse|ErrorResponse
+     * @return GroupSessionAdmissionControlGetResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGetRequest $request)
     {
@@ -2152,7 +2354,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupAddDeviceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupAddDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupAddDeviceListRequest $request)
     {
@@ -2161,7 +2364,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupAddRequest19sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupAddRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupAddRequest19sp1 $request)
     {
@@ -2170,7 +2374,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupDeleteDeviceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupDeleteDeviceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupDeleteDeviceListRequest $request)
     {
@@ -2179,7 +2384,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupDeleteListRequest $request)
     {
@@ -2188,7 +2394,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupGetListRequest $request
-     * @return GroupSessionAdmissionControlGroupGetListResponse|ErrorResponse
+     * @return GroupSessionAdmissionControlGroupGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetListRequest $request)
     {
@@ -2197,7 +2404,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupGetRequest21sp1V2 $request
-     * @return GroupSessionAdmissionControlGroupGetResponse21sp1|ErrorResponse
+     * @return GroupSessionAdmissionControlGroupGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequest21sp1V2 $request)
     {
@@ -2206,7 +2414,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupModifyRequest $request)
     {
@@ -2215,7 +2424,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlModifyRequest $request)
     {
@@ -2224,7 +2434,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupShInterfaceGetUserListRequest21sp1 $request
-     * @return GroupShInterfaceGetUserListResponse21sp1|ErrorResponse
+     * @return GroupShInterfaceGetUserListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function groupShInterfaceGetUserListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListRequest21sp1 $request)
     {
@@ -2234,6 +2445,7 @@ trait OCISchemaGroup
     /**
      * @param GroupTrunkGroupGetAvailableDetailListRequest $request
      * @return GroupTrunkGroupGetAvailableDetailListResponse
+     * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetAvailableDetailListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListRequest $request)
     {
@@ -2242,7 +2454,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupUserCallForwardingSettingsGetListRequest $request
-     * @return GroupUserCallForwardingSettingsGetListResponse|ErrorResponse
+     * @return GroupUserCallForwardingSettingsGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupUserCallForwardingSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupUserCallForwardingSettingsGetListRequest $request)
     {
@@ -2251,7 +2464,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupUserCallingPlanSettingsGetListRequest $request
-     * @return GroupUserCallingPlanSettingsGetListResponse|ErrorResponse
+     * @return GroupUserCallingPlanSettingsGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupUserCallingPlanSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupUserCallingPlanSettingsGetListRequest $request)
     {
@@ -2260,7 +2474,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupUserCallWaitingSettingsGetListRequest $request
-     * @return GroupUserCallWaitingSettingsGetListResponse|ErrorResponse
+     * @return GroupUserCallWaitingSettingsGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupUserCallWaitingSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupUserCallWaitingSettingsGetListRequest $request)
     {
@@ -2269,7 +2484,8 @@ trait OCISchemaGroup
 
     /**
      * @param GroupUserHotelingGuestSettingsGetListRequest $request
-     * @return GroupUserHotelingGuestSettingsGetListResponse|ErrorResponse
+     * @return GroupUserHotelingGuestSettingsGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupUserHotelingGuestSettingsGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupUserHotelingGuestSettingsGetListRequest $request)
     {

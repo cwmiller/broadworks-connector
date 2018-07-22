@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceHotelingHost
 {
 
     /**
      * @param UserHotelingHostGetRequest17 $request
-     * @return UserHotelingHostGetResponse17|ErrorResponse
+     * @return UserHotelingHostGetResponse17
+     * @throws ErrorResponseException
      */
     public function userHotelingHostGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostGetRequest17 $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceHotelingHost
 
     /**
      * @param UserHotelingHostModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userHotelingHostModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingHostModifyRequest $request)
     {

@@ -12,15 +12,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemClassmarkModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserClassmarkGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserClassmarkGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserClassmarkModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceClassMark
 {
 
     /**
      * @param SystemClassmarkAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemClassmarkAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClassmarkAddRequest $request)
     {
@@ -29,7 +30,8 @@ trait OCISchemaServiceClassMark
 
     /**
      * @param SystemClassmarkDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemClassmarkDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClassmarkDeleteRequest $request)
     {
@@ -38,7 +40,8 @@ trait OCISchemaServiceClassMark
 
     /**
      * @param SystemClassmarkGetListRequest $request
-     * @return SystemClassmarkGetListResponse|ErrorResponse
+     * @return SystemClassmarkGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemClassmarkGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClassmarkGetListRequest $request)
     {
@@ -47,7 +50,8 @@ trait OCISchemaServiceClassMark
 
     /**
      * @param SystemClassmarkGetUtilizationListRequest $request
-     * @return SystemClassmarkGetUtilizationListResponse|ErrorResponse
+     * @return SystemClassmarkGetUtilizationListResponse
+     * @throws ErrorResponseException
      */
     public function systemClassmarkGetUtilizationListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClassmarkGetUtilizationListRequest $request)
     {
@@ -56,7 +60,8 @@ trait OCISchemaServiceClassMark
 
     /**
      * @param SystemClassmarkModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemClassmarkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemClassmarkModifyRequest $request)
     {
@@ -65,7 +70,8 @@ trait OCISchemaServiceClassMark
 
     /**
      * @param UserClassmarkGetRequest $request
-     * @return UserClassmarkGetResponse|ErrorResponse
+     * @return UserClassmarkGetResponse
+     * @throws ErrorResponseException
      */
     public function userClassmarkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserClassmarkGetRequest $request)
     {
@@ -74,7 +80,8 @@ trait OCISchemaServiceClassMark
 
     /**
      * @param UserClassmarkModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userClassmarkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserClassmarkModifyRequest $request)
     {

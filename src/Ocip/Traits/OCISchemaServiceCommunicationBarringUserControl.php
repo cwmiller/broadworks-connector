@@ -8,15 +8,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlMod
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCommunicationBarringUserControl
 {
 
     /**
      * @param SystemCommunicationBarringUserControlGetRequest $request
-     * @return SystemCommunicationBarringUserControlGetResponse|ErrorResponse
+     * @return SystemCommunicationBarringUserControlGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringUserControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlGetRequest $request)
     {
@@ -25,7 +26,8 @@ trait OCISchemaServiceCommunicationBarringUserControl
 
     /**
      * @param SystemCommunicationBarringUserControlModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringUserControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringUserControlModifyRequest $request)
     {
@@ -34,7 +36,8 @@ trait OCISchemaServiceCommunicationBarringUserControl
 
     /**
      * @param UserCommunicationBarringUserControlGetRequest $request
-     * @return UserCommunicationBarringUserControlGetResponse|ErrorResponse
+     * @return UserCommunicationBarringUserControlGetResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringUserControlGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlGetRequest $request)
     {
@@ -43,7 +46,8 @@ trait OCISchemaServiceCommunicationBarringUserControl
 
     /**
      * @param UserCommunicationBarringUserControlModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringUserControlModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringUserControlModifyRequest $request)
     {

@@ -8,8 +8,8 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExternalCustomRingbackMod
 use CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceExternalCustomRingback
 {
@@ -17,6 +17,7 @@ trait OCISchemaServiceExternalCustomRingback
     /**
      * @param ServiceProviderExternalCustomRingbackGetRequest $request
      * @return ServiceProviderExternalCustomRingbackGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderExternalCustomRingbackGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExternalCustomRingbackGetRequest $request)
     {
@@ -25,7 +26,8 @@ trait OCISchemaServiceExternalCustomRingback
 
     /**
      * @param ServiceProviderExternalCustomRingbackModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderExternalCustomRingbackModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderExternalCustomRingbackModifyRequest $request)
     {
@@ -35,6 +37,7 @@ trait OCISchemaServiceExternalCustomRingback
     /**
      * @param UserExternalCustomRingbackGetRequest $request
      * @return UserExternalCustomRingbackGetResponse
+     * @throws ErrorResponseException
      */
     public function userExternalCustomRingbackGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackGetRequest $request)
     {
@@ -43,7 +46,8 @@ trait OCISchemaServiceExternalCustomRingback
 
     /**
      * @param UserExternalCustomRingbackModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userExternalCustomRingbackModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserExternalCustomRingbackModifyRequest $request)
     {

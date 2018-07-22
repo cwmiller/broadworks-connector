@@ -16,8 +16,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportModifyRe
 use CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceThirdPartyVoiceMailSupport
 {
@@ -25,6 +25,7 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
     /**
      * @param GroupThirdPartyVoiceMailSupportGetRequest $request
      * @return GroupThirdPartyVoiceMailSupportGetResponse
+     * @throws ErrorResponseException
      */
     public function groupThirdPartyVoiceMailSupportGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyVoiceMailSupportGetRequest $request)
     {
@@ -33,7 +34,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param GroupThirdPartyVoiceMailSupportModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupThirdPartyVoiceMailSupportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupThirdPartyVoiceMailSupportModifyRequest $request)
     {
@@ -42,7 +44,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param SystemThirdPartyVoiceMailSupportAddDnRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyVoiceMailSupportAddDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportAddDnRequest $request)
     {
@@ -51,7 +54,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param SystemThirdPartyVoiceMailSupportDeleteDnRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyVoiceMailSupportDeleteDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportDeleteDnRequest $request)
     {
@@ -60,7 +64,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param SystemThirdPartyVoiceMailSupportGetDnListRequest $request
-     * @return SystemThirdPartyVoiceMailSupportGetDnListResponse|ErrorResponse
+     * @return SystemThirdPartyVoiceMailSupportGetDnListResponse
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyVoiceMailSupportGetDnListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportGetDnListRequest $request)
     {
@@ -70,6 +75,7 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
     /**
      * @param SystemThirdPartyVoiceMailSupportGetRequest17sp4 $request
      * @return SystemThirdPartyVoiceMailSupportGetResponse17sp4
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyVoiceMailSupportGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportGetRequest17sp4 $request)
     {
@@ -78,7 +84,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param SystemThirdPartyVoiceMailSupportModifyDnRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyVoiceMailSupportModifyDnRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportModifyDnRequest $request)
     {
@@ -87,7 +94,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param SystemThirdPartyVoiceMailSupportModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemThirdPartyVoiceMailSupportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemThirdPartyVoiceMailSupportModifyRequest $request)
     {
@@ -97,6 +105,7 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
     /**
      * @param UserThirdPartyVoiceMailSupportGetRequest17 $request
      * @return UserThirdPartyVoiceMailSupportGetResponse17
+     * @throws ErrorResponseException
      */
     public function userThirdPartyVoiceMailSupportGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportGetRequest17 $request)
     {
@@ -105,7 +114,8 @@ trait OCISchemaServiceThirdPartyVoiceMailSupport
 
     /**
      * @param UserThirdPartyVoiceMailSupportModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userThirdPartyVoiceMailSupportModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserThirdPartyVoiceMailSupportModifyRequest $request)
     {

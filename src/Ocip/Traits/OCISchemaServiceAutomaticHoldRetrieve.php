@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticHoldRetrieveGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticHoldRetrieveGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserAutomaticHoldRetrieveModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceAutomaticHoldRetrieve
 {
@@ -14,6 +14,7 @@ trait OCISchemaServiceAutomaticHoldRetrieve
     /**
      * @param UserAutomaticHoldRetrieveGetRequest $request
      * @return UserAutomaticHoldRetrieveGetResponse
+     * @throws ErrorResponseException
      */
     public function userAutomaticHoldRetrieveGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAutomaticHoldRetrieveGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceAutomaticHoldRetrieve
 
     /**
      * @param UserAutomaticHoldRetrieveModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAutomaticHoldRetrieveModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAutomaticHoldRetrieveModifyRequest $request)
     {

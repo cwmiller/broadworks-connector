@@ -24,21 +24,22 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetResponse;
-use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListRequest;
+use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServicePreferredCarrier
 {
 
     /**
      * @param GroupPreferredCarrierGroupGetRequest $request
-     * @return GroupPreferredCarrierGroupGetResponse|ErrorResponse
+     * @return GroupPreferredCarrierGroupGetResponse
+     * @throws ErrorResponseException
      */
     public function groupPreferredCarrierGroupGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierGroupGetRequest $request)
     {
@@ -47,7 +48,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param GroupPreferredCarrierGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPreferredCarrierGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierGroupModifyRequest $request)
     {
@@ -56,7 +58,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierAddRequest $request)
     {
@@ -65,7 +68,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierDeleteRequest $request)
     {
@@ -74,7 +78,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest $request
-     * @return ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse|ErrorResponse
+     * @return ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierGetAvailableCountryCodeListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierGetAvailableCountryCodeListRequest $request)
     {
@@ -83,7 +88,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierGetCarrierListRequest $request
-     * @return ServiceProviderPreferredCarrierGetCarrierListResponse|ErrorResponse
+     * @return ServiceProviderPreferredCarrierGetCarrierListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierGetCarrierListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierGetCarrierListRequest $request)
     {
@@ -92,7 +98,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierGetListRequest $request
-     * @return ServiceProviderPreferredCarrierGetListResponse|ErrorResponse
+     * @return ServiceProviderPreferredCarrierGetListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierGetListRequest $request)
     {
@@ -101,7 +108,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierGetRequest $request
-     * @return ServiceProviderPreferredCarrierGetResponse|ErrorResponse
+     * @return ServiceProviderPreferredCarrierGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierGetRequest $request)
     {
@@ -110,7 +118,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param ServiceProviderPreferredCarrierModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderPreferredCarrierModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPreferredCarrierModifyRequest $request)
     {
@@ -119,7 +128,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierAddRequest $request)
     {
@@ -128,7 +138,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierDeleteRequest $request)
     {
@@ -137,7 +148,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierGetGroupListRequest $request
-     * @return SystemPreferredCarrierGetGroupListResponse|ErrorResponse
+     * @return SystemPreferredCarrierGetGroupListResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierGetGroupListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetGroupListRequest $request)
     {
@@ -147,6 +159,7 @@ trait OCISchemaServicePreferredCarrier
     /**
      * @param SystemPreferredCarrierGetListRequest $request
      * @return SystemPreferredCarrierGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetListRequest $request)
     {
@@ -155,7 +168,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierGetRequest $request
-     * @return SystemPreferredCarrierGetResponse|ErrorResponse
+     * @return SystemPreferredCarrierGetResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetRequest $request)
     {
@@ -165,6 +179,7 @@ trait OCISchemaServicePreferredCarrier
     /**
      * @param SystemPreferredCarrierGetUserListRequest $request
      * @return SystemPreferredCarrierGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierGetUserListRequest $request)
     {
@@ -173,7 +188,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param SystemPreferredCarrierModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPreferredCarrierModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemPreferredCarrierModifyRequest $request)
     {
@@ -182,7 +198,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param UserPreferredCarrierUserGetRequest $request
-     * @return UserPreferredCarrierUserGetResponse|ErrorResponse
+     * @return UserPreferredCarrierUserGetResponse
+     * @throws ErrorResponseException
      */
     public function userPreferredCarrierUserGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserGetRequest $request)
     {
@@ -191,7 +208,8 @@ trait OCISchemaServicePreferredCarrier
 
     /**
      * @param UserPreferredCarrierUserModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPreferredCarrierUserModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierUserModifyRequest $request)
     {

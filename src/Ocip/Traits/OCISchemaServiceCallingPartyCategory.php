@@ -12,15 +12,16 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryGetRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryGetResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryModifyRequest16;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallingPartyCategory
 {
 
     /**
      * @param SystemCallingPartyCategoryAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallingPartyCategoryAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryAddRequest $request)
     {
@@ -29,7 +30,8 @@ trait OCISchemaServiceCallingPartyCategory
 
     /**
      * @param SystemCallingPartyCategoryDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallingPartyCategoryDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryDeleteRequest $request)
     {
@@ -38,7 +40,8 @@ trait OCISchemaServiceCallingPartyCategory
 
     /**
      * @param SystemCallingPartyCategoryGetListRequest $request
-     * @return SystemCallingPartyCategoryGetListResponse|ErrorResponse
+     * @return SystemCallingPartyCategoryGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemCallingPartyCategoryGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryGetListRequest $request)
     {
@@ -47,7 +50,8 @@ trait OCISchemaServiceCallingPartyCategory
 
     /**
      * @param SystemCallingPartyCategoryGetRequest $request
-     * @return SystemCallingPartyCategoryGetResponse|ErrorResponse
+     * @return SystemCallingPartyCategoryGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCallingPartyCategoryGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryGetRequest $request)
     {
@@ -56,7 +60,8 @@ trait OCISchemaServiceCallingPartyCategory
 
     /**
      * @param SystemCallingPartyCategoryModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallingPartyCategoryModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallingPartyCategoryModifyRequest $request)
     {
@@ -66,6 +71,7 @@ trait OCISchemaServiceCallingPartyCategory
     /**
      * @param UserCallingPartyCategoryGetRequest16 $request
      * @return UserCallingPartyCategoryGetResponse16
+     * @throws ErrorResponseException
      */
     public function userCallingPartyCategoryGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryGetRequest16 $request)
     {
@@ -74,7 +80,8 @@ trait OCISchemaServiceCallingPartyCategory
 
     /**
      * @param UserCallingPartyCategoryModifyRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallingPartyCategoryModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallingPartyCategoryModifyRequest16 $request)
     {

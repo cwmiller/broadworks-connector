@@ -7,15 +7,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetAvailableUserListRespon
 use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServicePushToTalk
 {
 
     /**
      * @param UserPushToTalkGetAvailableUserListRequest $request
-     * @return UserPushToTalkGetAvailableUserListResponse|ErrorResponse
+     * @return UserPushToTalkGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function userPushToTalkGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetAvailableUserListRequest $request)
     {
@@ -24,7 +25,8 @@ trait OCISchemaServicePushToTalk
 
     /**
      * @param UserPushToTalkGetRequest $request
-     * @return UserPushToTalkGetResponse|ErrorResponse
+     * @return UserPushToTalkGetResponse
+     * @throws ErrorResponseException
      */
     public function userPushToTalkGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkGetRequest $request)
     {
@@ -33,7 +35,8 @@ trait OCISchemaServicePushToTalk
 
     /**
      * @param UserPushToTalkModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPushToTalkModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushToTalkModifyRequest $request)
     {

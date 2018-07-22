@@ -15,15 +15,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseModi
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseNoteGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseNoteGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseNoteModifyListRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceReceptionistEnterprise
 {
 
     /**
      * @param SystemBroadWorksReceptionistEnterpriseGetRequest $request
-     * @return SystemBroadWorksReceptionistEnterpriseGetResponse|ErrorResponse
+     * @return SystemBroadWorksReceptionistEnterpriseGetResponse
+     * @throws ErrorResponseException
      */
     public function systemBroadWorksReceptionistEnterpriseGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksReceptionistEnterpriseGetRequest $request)
     {
@@ -32,7 +33,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param SystemBroadWorksReceptionistEnterpriseModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemBroadWorksReceptionistEnterpriseModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemBroadWorksReceptionistEnterpriseModifyRequest $request)
     {
@@ -41,7 +43,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param UserBroadWorksReceptionistEnterpriseAddUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseAddUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseAddUserListRequest $request)
     {
@@ -50,7 +53,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param UserBroadWorksReceptionistEnterpriseDeleteUserListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseDeleteUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseDeleteUserListRequest $request)
     {
@@ -59,7 +63,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest $request
-     * @return UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse|ErrorResponse
+     * @return UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest $request)
     {
@@ -68,7 +73,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param UserBroadWorksReceptionistEnterpriseGetRequest $request
-     * @return UserBroadWorksReceptionistEnterpriseGetResponse|ErrorResponse
+     * @return UserBroadWorksReceptionistEnterpriseGetResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseGetRequest $request)
     {
@@ -77,7 +83,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param UserBroadWorksReceptionistEnterpriseModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseModifyRequest $request)
     {
@@ -87,6 +94,7 @@ trait OCISchemaServiceReceptionistEnterprise
     /**
      * @param UserBroadWorksReceptionistEnterpriseNoteGetRequest $request
      * @return UserBroadWorksReceptionistEnterpriseNoteGetResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseNoteGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseNoteGetRequest $request)
     {
@@ -95,7 +103,8 @@ trait OCISchemaServiceReceptionistEnterprise
 
     /**
      * @param UserBroadWorksReceptionistEnterpriseNoteModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksReceptionistEnterpriseNoteModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksReceptionistEnterpriseNoteModifyListRequest $request)
     {

@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallReturn
 {
@@ -14,6 +14,7 @@ trait OCISchemaServiceCallReturn
     /**
      * @param SystemCallReturnGetRequest $request
      * @return SystemCallReturnGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCallReturnGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceCallReturn
 
     /**
      * @param SystemCallReturnModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallReturnModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallReturnModifyRequest $request)
     {

@@ -113,7 +113,6 @@ use CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteEventListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventDetailListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventDetailListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListForGroupResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventRequest;
@@ -136,15 +135,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserShInterfacePublicIdentityRefreshTask
 use CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaUser
 {
 
     /**
      * @param UserAccessDeviceFileGetListRequest $request
-     * @return UserAccessDeviceFileGetListResponse|ErrorResponse
+     * @return UserAccessDeviceFileGetListResponse
+     * @throws ErrorResponseException
      */
     public function userAccessDeviceFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAccessDeviceFileGetListRequest $request)
     {
@@ -153,7 +153,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAccessDeviceFileGetRequest $request
-     * @return UserAccessDeviceFileGetResponse|ErrorResponse
+     * @return UserAccessDeviceFileGetResponse
+     * @throws ErrorResponseException
      */
     public function userAccessDeviceFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAccessDeviceFileGetRequest $request)
     {
@@ -162,7 +163,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAccessDeviceFileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAccessDeviceFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAccessDeviceFileModifyRequest $request)
     {
@@ -171,7 +173,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAccessDeviceResetRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAccessDeviceResetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAccessDeviceResetRequest $request)
     {
@@ -180,7 +183,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAccessDeviceTagsGetRequest $request
-     * @return UserAccessDeviceTagsGetResponse|ErrorResponse
+     * @return UserAccessDeviceTagsGetResponse
+     * @throws ErrorResponseException
      */
     public function userAccessDeviceTagsGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAccessDeviceTagsGetRequest $request)
     {
@@ -189,7 +193,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAddRequest17sp4 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAddRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserAddRequest17sp4 $request)
     {
@@ -198,7 +203,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAlternateUserIdAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAlternateUserIdAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAlternateUserIdAddRequest $request)
     {
@@ -207,7 +213,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAlternateUserIdDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAlternateUserIdDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAlternateUserIdDeleteRequest $request)
     {
@@ -216,7 +223,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAlternateUserIdGetListRequest $request
-     * @return UserAlternateUserIdGetListResponse|ErrorResponse
+     * @return UserAlternateUserIdGetListResponse
+     * @throws ErrorResponseException
      */
     public function userAlternateUserIdGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAlternateUserIdGetListRequest $request)
     {
@@ -225,7 +233,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAlternateUserIdModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAlternateUserIdModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAlternateUserIdModifyRequest $request)
     {
@@ -234,7 +243,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementFileAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAnnouncementFileAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileAddRequest $request)
     {
@@ -243,7 +253,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementFileDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAnnouncementFileDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileDeleteListRequest $request)
     {
@@ -252,7 +263,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementFileGetAvailableListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userAnnouncementFileGetAvailableListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetAvailableListRequest $request)
     {
@@ -261,7 +273,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementFileGetListRequest $request
-     * @return UserAnnouncementFileGetListResponse|ErrorResponse
+     * @return UserAnnouncementFileGetListResponse
+     * @throws ErrorResponseException
      */
     public function userAnnouncementFileGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetListRequest $request)
     {
@@ -270,7 +283,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementFileGetRequest $request
-     * @return UserAnnouncementFileGetResponse|ErrorResponse
+     * @return UserAnnouncementFileGetResponse
+     * @throws ErrorResponseException
      */
     public function userAnnouncementFileGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileGetRequest $request)
     {
@@ -279,7 +293,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementFileModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userAnnouncementFileModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementFileModifyRequest $request)
     {
@@ -288,7 +303,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAnnouncementRepositoryGetSettingsRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userAnnouncementRepositoryGetSettingsRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAnnouncementRepositoryGetSettingsRequest $request)
     {
@@ -297,7 +313,8 @@ trait OCISchemaUser
 
     /**
      * @param UserAssignedServicesGetListRequest $request
-     * @return UserAssignedServicesGetListResponse|ErrorResponse
+     * @return UserAssignedServicesGetListResponse
+     * @throws ErrorResponseException
      */
     public function userAssignedServicesGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserAssignedServicesGetListRequest $request)
     {
@@ -306,7 +323,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCallLogsClearRequest14sp4 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallLogsClearRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4 $request)
     {
@@ -316,6 +334,7 @@ trait OCISchemaUser
     /**
      * @param UserCallPoliciesGetRequest19sp1 $request
      * @return UserCallPoliciesGetResponse19sp1
+     * @throws ErrorResponseException
      */
     public function userCallPoliciesGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesGetRequest19sp1 $request)
     {
@@ -324,7 +343,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCallPoliciesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallPoliciesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesModifyRequest $request)
     {
@@ -334,6 +354,7 @@ trait OCISchemaUser
     /**
      * @param UserCallProcessingGetPolicyRequest22 $request
      * @return UserCallProcessingGetPolicyResponse22
+     * @throws ErrorResponseException
      */
     public function userCallProcessingGetPolicyRequest22(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest22 $request)
     {
@@ -342,7 +363,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCallProcessingModifyPolicyRequest14sp7 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallProcessingModifyPolicyRequest14sp7(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingModifyPolicyRequest14sp7 $request)
     {
@@ -351,7 +373,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCommunicationBarringAuthorizationCodeAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringAuthorizationCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringAuthorizationCodeAddListRequest $request)
     {
@@ -360,7 +383,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCommunicationBarringAuthorizationCodeDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringAuthorizationCodeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringAuthorizationCodeDeleteListRequest $request)
     {
@@ -370,6 +394,7 @@ trait OCISchemaUser
     /**
      * @param UserCommunicationBarringAuthorizationCodeGetListRequest $request
      * @return UserCommunicationBarringAuthorizationCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringAuthorizationCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringAuthorizationCodeGetListRequest $request)
     {
@@ -378,7 +403,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCommunicationBarringGetRequest $request
-     * @return UserCommunicationBarringGetResponse|ErrorResponse
+     * @return UserCommunicationBarringGetResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringGetRequest $request)
     {
@@ -387,7 +413,8 @@ trait OCISchemaUser
 
     /**
      * @param UserCommunicationBarringModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCommunicationBarringModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCommunicationBarringModifyRequest $request)
     {
@@ -396,7 +423,8 @@ trait OCISchemaUser
 
     /**
      * @param UserConsolidatedAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userConsolidatedAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserConsolidatedAddRequest $request)
     {
@@ -405,7 +433,8 @@ trait OCISchemaUser
 
     /**
      * @param UserConsolidatedDeleteRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userConsolidatedDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserConsolidatedDeleteRequest $request)
     {
@@ -414,7 +443,8 @@ trait OCISchemaUser
 
     /**
      * @param UserDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDeleteRequest $request)
     {
@@ -424,6 +454,7 @@ trait OCISchemaUser
     /**
      * @param UserDevicePoliciesGetRequest21 $request
      * @return UserDevicePoliciesGetResponse21
+     * @throws ErrorResponseException
      */
     public function userDevicePoliciesGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePoliciesGetRequest21 $request)
     {
@@ -432,7 +463,8 @@ trait OCISchemaUser
 
     /**
      * @param UserDevicePoliciesModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userDevicePoliciesModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePoliciesModifyRequest $request)
     {
@@ -441,7 +473,8 @@ trait OCISchemaUser
 
     /**
      * @param UserDnGetActivationListRequest $request
-     * @return UserDnGetActivationListResponse|ErrorResponse
+     * @return UserDnGetActivationListResponse
+     * @throws ErrorResponseException
      */
     public function userDnGetActivationListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserDnGetActivationListRequest $request)
     {
@@ -451,6 +484,7 @@ trait OCISchemaUser
     /**
      * @param UserEnterpriseCommonPhoneListGetPagedSortedListRequest $request
      * @return UserEnterpriseCommonPhoneListGetPagedSortedListResponse
+     * @throws ErrorResponseException
      */
     public function userEnterpriseCommonPhoneListGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserEnterpriseCommonPhoneListGetPagedSortedListRequest $request)
     {
@@ -459,7 +493,8 @@ trait OCISchemaUser
 
     /**
      * @param UserFeatureAccessCodeGetListRequest21 $request
-     * @return UserFeatureAccessCodeGetListResponse20|ErrorResponse
+     * @return UserFeatureAccessCodeGetListResponse20
+     * @throws ErrorResponseException
      */
     public function userFeatureAccessCodeGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListRequest21 $request)
     {
@@ -468,7 +503,8 @@ trait OCISchemaUser
 
     /**
      * @param UserFeatureAccessCodeModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userFeatureAccessCodeModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyListRequest $request)
     {
@@ -477,7 +513,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetListInGroupRequest $request
-     * @return UserGetListInGroupResponse|ErrorResponse
+     * @return UserGetListInGroupResponse
+     * @throws ErrorResponseException
      */
     public function userGetListInGroupRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetListInGroupRequest $request)
     {
@@ -486,7 +523,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetListInServiceProviderRequest $request
-     * @return UserGetListInServiceProviderResponse|ErrorResponse
+     * @return UserGetListInServiceProviderResponse
+     * @throws ErrorResponseException
      */
     public function userGetListInServiceProviderRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetListInServiceProviderRequest $request)
     {
@@ -495,7 +533,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetListInSystemRequest $request
-     * @return UserGetListInSystemResponse|ErrorResponse
+     * @return UserGetListInSystemResponse
+     * @throws ErrorResponseException
      */
     public function userGetListInSystemRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetListInSystemRequest $request)
     {
@@ -504,7 +543,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetRegistrationListRequest $request
-     * @return UserGetRegistrationListResponse|ErrorResponse
+     * @return UserGetRegistrationListResponse
+     * @throws ErrorResponseException
      */
     public function userGetRegistrationListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetRegistrationListRequest $request)
     {
@@ -513,7 +553,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetRequest22V3 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\UserGetRequest22V3 $request)
     {
@@ -522,7 +563,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetServiceInstanceListInServiceProviderRequest $request
-     * @return UserGetServiceInstanceListInServiceProviderResponse|ErrorResponse
+     * @return UserGetServiceInstanceListInServiceProviderResponse
+     * @throws ErrorResponseException
      */
     public function userGetServiceInstanceListInServiceProviderRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInServiceProviderRequest $request)
     {
@@ -531,7 +573,8 @@ trait OCISchemaUser
 
     /**
      * @param UserGetServiceInstanceListInSystemRequest $request
-     * @return UserGetServiceInstanceListInSystemResponse|ErrorResponse
+     * @return UserGetServiceInstanceListInSystemResponse
+     * @throws ErrorResponseException
      */
     public function userGetServiceInstanceListInSystemRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGetServiceInstanceListInSystemRequest $request)
     {
@@ -541,6 +584,7 @@ trait OCISchemaUser
     /**
      * @param UserGroupCommonPhoneListGetPagedSortedListRequest $request
      * @return UserGroupCommonPhoneListGetPagedSortedListResponse
+     * @throws ErrorResponseException
      */
     public function userGroupCommonPhoneListGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGroupCommonPhoneListGetPagedSortedListRequest $request)
     {
@@ -550,6 +594,7 @@ trait OCISchemaUser
     /**
      * @param UserGroupCustomContactDirectoryGetPagedSortedListRequest $request
      * @return UserGroupCustomContactDirectoryGetPagedSortedListResponse
+     * @throws ErrorResponseException
      */
     public function userGroupCustomContactDirectoryGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGroupCustomContactDirectoryGetPagedSortedListRequest $request)
     {
@@ -558,7 +603,8 @@ trait OCISchemaUser
 
     /**
      * @param UserLinePortGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userLinePortGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserLinePortGetListRequest $request)
     {
@@ -567,7 +613,8 @@ trait OCISchemaUser
 
     /**
      * @param UserModifyRequest17sp4 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userModifyRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest17sp4 $request)
     {
@@ -576,7 +623,8 @@ trait OCISchemaUser
 
     /**
      * @param UserModifyUserIdRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userModifyUserIdRequest(\CWM\BroadWorksConnector\Ocip\Models\UserModifyUserIdRequest $request)
     {
@@ -585,7 +633,8 @@ trait OCISchemaUser
 
     /**
      * @param UserNetworkConferencingGetRequest $request
-     * @return UserNetworkConferencingGetResponse|ErrorResponse
+     * @return UserNetworkConferencingGetResponse
+     * @throws ErrorResponseException
      */
     public function userNetworkConferencingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserNetworkConferencingGetRequest $request)
     {
@@ -594,7 +643,8 @@ trait OCISchemaUser
 
     /**
      * @param UserOCICallControlApplicationGetListRequest $request
-     * @return UserOCICallControlApplicationGetListResponse|ErrorResponse
+     * @return UserOCICallControlApplicationGetListResponse
+     * @throws ErrorResponseException
      */
     public function userOCICallControlApplicationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOCICallControlApplicationGetListRequest $request)
     {
@@ -603,7 +653,8 @@ trait OCISchemaUser
 
     /**
      * @param UserOCICallControlApplicationModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOCICallControlApplicationModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOCICallControlApplicationModifyRequest $request)
     {
@@ -612,7 +663,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPasswordInfoGetRequest $request
-     * @return UserPasswordInfoGetResponse|ErrorResponse
+     * @return UserPasswordInfoGetResponse
+     * @throws ErrorResponseException
      */
     public function userPasswordInfoGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPasswordInfoGetRequest $request)
     {
@@ -621,7 +673,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPersonalPhoneListAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPersonalPhoneListAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalPhoneListAddListRequest $request)
     {
@@ -630,7 +683,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPersonalPhoneListDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPersonalPhoneListDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalPhoneListDeleteListRequest $request)
     {
@@ -639,7 +693,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPersonalPhoneListGetListRequest $request
-     * @return UserPersonalPhoneListGetListResponse|ErrorResponse
+     * @return UserPersonalPhoneListGetListResponse
+     * @throws ErrorResponseException
      */
     public function userPersonalPhoneListGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalPhoneListGetListRequest $request)
     {
@@ -649,6 +704,7 @@ trait OCISchemaUser
     /**
      * @param UserPersonalPhoneListGetPagedSortedListRequest $request
      * @return UserPersonalPhoneListGetPagedSortedListResponse
+     * @throws ErrorResponseException
      */
     public function userPersonalPhoneListGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalPhoneListGetPagedSortedListRequest $request)
     {
@@ -657,7 +713,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPersonalPhoneListModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPersonalPhoneListModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPersonalPhoneListModifyRequest $request)
     {
@@ -666,7 +723,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPhoneDirectoryGetListRequest $request
-     * @return UserPhoneDirectoryGetListResponse|ErrorResponse
+     * @return UserPhoneDirectoryGetListResponse
+     * @throws ErrorResponseException
      */
     public function userPhoneDirectoryGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPhoneDirectoryGetListRequest $request)
     {
@@ -676,6 +734,7 @@ trait OCISchemaUser
     /**
      * @param UserPhoneDirectoryGetPagedListRequest $request
      * @return UserPhoneDirectoryGetPagedListResponse
+     * @throws ErrorResponseException
      */
     public function userPhoneDirectoryGetPagedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPhoneDirectoryGetPagedListRequest $request)
     {
@@ -684,7 +743,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPhoneDirectoryGetPagedSortedListRequest $request
-     * @return UserPhoneDirectoryGetPagedSortedListResponse|ErrorResponse
+     * @return UserPhoneDirectoryGetPagedSortedListResponse
+     * @throws ErrorResponseException
      */
     public function userPhoneDirectoryGetPagedSortedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPhoneDirectoryGetPagedSortedListRequest $request)
     {
@@ -693,7 +753,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPhoneDirectoryGetSearchedListRequest $request
-     * @return UserPhoneDirectoryGetSearchedListResponse|ErrorResponse
+     * @return UserPhoneDirectoryGetSearchedListResponse
+     * @throws ErrorResponseException
      */
     public function userPhoneDirectoryGetSearchedListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPhoneDirectoryGetSearchedListRequest $request)
     {
@@ -702,7 +763,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPortalPasscodeGetInfoRequest $request
-     * @return UserPortalPasscodeGetInfoResponse|ErrorResponse
+     * @return UserPortalPasscodeGetInfoResponse
+     * @throws ErrorResponseException
      */
     public function userPortalPasscodeGetInfoRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeGetInfoRequest $request)
     {
@@ -711,7 +773,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPortalPasscodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPortalPasscodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeModifyRequest $request)
     {
@@ -720,7 +783,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPortalPasscodeRulesGetRequest $request
-     * @return UserPortalPasscodeRulesGetResponse|ErrorResponse
+     * @return UserPortalPasscodeRulesGetResponse
+     * @throws ErrorResponseException
      */
     public function userPortalPasscodeRulesGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPortalPasscodeRulesGetRequest $request)
     {
@@ -729,7 +793,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPrimaryEndpointAdvancedSettingGetRequest $request
-     * @return UserPrimaryEndpointAdvancedSettingGetResponse|ErrorResponse
+     * @return UserPrimaryEndpointAdvancedSettingGetResponse
+     * @throws ErrorResponseException
      */
     public function userPrimaryEndpointAdvancedSettingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPrimaryEndpointAdvancedSettingGetRequest $request)
     {
@@ -738,7 +803,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPrimaryEndpointAdvancedSettingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPrimaryEndpointAdvancedSettingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPrimaryEndpointAdvancedSettingModifyRequest $request)
     {
@@ -747,7 +813,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPushNotificationRegistrationDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPushNotificationRegistrationDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationDeleteRequest $request)
     {
@@ -756,7 +823,8 @@ trait OCISchemaUser
 
     /**
      * @param UserPushNotificationRegistrationGetListRequest $request
-     * @return UserPushNotificationRegistrationGetListResponse|ErrorResponse
+     * @return UserPushNotificationRegistrationGetListResponse
+     * @throws ErrorResponseException
      */
     public function userPushNotificationRegistrationGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPushNotificationRegistrationGetListRequest $request)
     {
@@ -765,7 +833,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleAddEventRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleAddEventRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleAddEventRequest $request)
     {
@@ -774,7 +843,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleAddRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleAddRequest $request)
     {
@@ -783,7 +853,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleDeleteEventListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleDeleteEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteEventListRequest $request)
     {
@@ -792,7 +863,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleDeleteListRequest $request)
     {
@@ -801,7 +873,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleGetEventDetailListRequest $request
-     * @return UserScheduleGetEventDetailListResponse|ErrorResponse
+     * @return UserScheduleGetEventDetailListResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleGetEventDetailListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventDetailListRequest $request)
     {
@@ -810,7 +883,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleGetEventListRequest $request
-     * @return UserScheduleGetEventListResponse|ErrorResponse
+     * @return UserScheduleGetEventListResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleGetEventListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventListRequest $request)
     {
@@ -819,7 +893,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleGetEventRequest $request
-     * @return UserScheduleGetEventResponse|ErrorResponse
+     * @return UserScheduleGetEventResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleGetEventRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetEventRequest $request)
     {
@@ -828,7 +903,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleGetListRequest17sp1 $request
-     * @return UserScheduleGetListResponse17sp1|ErrorResponse
+     * @return UserScheduleGetListResponse17sp1
+     * @throws ErrorResponseException
      */
     public function userScheduleGetListRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleGetListRequest17sp1 $request)
     {
@@ -837,7 +913,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleModifyEventRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleModifyEventRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleModifyEventRequest $request)
     {
@@ -846,7 +923,8 @@ trait OCISchemaUser
 
     /**
      * @param UserScheduleModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userScheduleModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserScheduleModifyRequest $request)
     {
@@ -855,7 +933,8 @@ trait OCISchemaUser
 
     /**
      * @param UserServiceAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userServiceAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserServiceAssignListRequest $request)
     {
@@ -864,7 +943,8 @@ trait OCISchemaUser
 
     /**
      * @param UserServiceGetAssignmentListRequest $request
-     * @return UserServiceGetAssignmentListResponse|ErrorResponse
+     * @return UserServiceGetAssignmentListResponse
+     * @throws ErrorResponseException
      */
     public function userServiceGetAssignmentListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserServiceGetAssignmentListRequest $request)
     {
@@ -873,7 +953,8 @@ trait OCISchemaUser
 
     /**
      * @param UserServiceIsAssignedRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function userServiceIsAssignedRequest(\CWM\BroadWorksConnector\Ocip\Models\UserServiceIsAssignedRequest $request)
     {
@@ -882,7 +963,8 @@ trait OCISchemaUser
 
     /**
      * @param UserServiceUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userServiceUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserServiceUnassignListRequest $request)
     {
@@ -891,7 +973,8 @@ trait OCISchemaUser
 
     /**
      * @param UserShInterfaceGetPublicIdDataRequest21sp1 $request
-     * @return UserShInterfaceGetPublicIdDataResponse21sp1|ErrorResponse
+     * @return UserShInterfaceGetPublicIdDataResponse21sp1
+     * @throws ErrorResponseException
      */
     public function userShInterfaceGetPublicIdDataRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetPublicIdDataRequest21sp1 $request)
     {
@@ -900,7 +983,8 @@ trait OCISchemaUser
 
     /**
      * @param UserShInterfaceGetUserIdDataRequest21sp1 $request
-     * @return UserShInterfaceGetUserIdDataResponse21sp1|ErrorResponse
+     * @return UserShInterfaceGetUserIdDataResponse21sp1
+     * @throws ErrorResponseException
      */
     public function userShInterfaceGetUserIdDataRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetUserIdDataRequest21sp1 $request)
     {
@@ -909,7 +993,8 @@ trait OCISchemaUser
 
     /**
      * @param UserShInterfaceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userShInterfaceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceModifyRequest $request)
     {
@@ -918,7 +1003,8 @@ trait OCISchemaUser
 
     /**
      * @param UserShInterfacePublicIdentityRefreshTaskStartRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userShInterfacePublicIdentityRefreshTaskStartRequest(\CWM\BroadWorksConnector\Ocip\Models\UserShInterfacePublicIdentityRefreshTaskStartRequest $request)
     {
@@ -928,6 +1014,7 @@ trait OCISchemaUser
     /**
      * @param UserTerminatingAlternateTrunkIdentityGetRequest $request
      * @return UserTerminatingAlternateTrunkIdentityGetResponse
+     * @throws ErrorResponseException
      */
     public function userTerminatingAlternateTrunkIdentityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityGetRequest $request)
     {
@@ -936,7 +1023,8 @@ trait OCISchemaUser
 
     /**
      * @param UserTerminatingAlternateTrunkIdentityModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userTerminatingAlternateTrunkIdentityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserTerminatingAlternateTrunkIdentityModifyRequest $request)
     {

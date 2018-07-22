@@ -216,15 +216,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetPublicIdDataResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetUserIdDataRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetUserIdDataResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest18;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingResponse18;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaDeprecatedAS
 {
 
     /**
      * @param AuthenticationRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function authenticationRequest(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationRequest $request)
     {
@@ -233,7 +234,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAccessDeviceGetUserListRequest $request
-     * @return GroupAccessDeviceGetUserListResponse|ErrorResponse
+     * @return GroupAccessDeviceGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupAccessDeviceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAccessDeviceGetUserListRequest $request)
     {
@@ -242,7 +244,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAdminGetPolicyRequest18 $request
-     * @return GroupAdminGetPolicyResponse18|ErrorResponse
+     * @return GroupAdminGetPolicyResponse18
+     * @throws ErrorResponseException
      */
     public function groupAdminGetPolicyRequest18(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest18 $request)
     {
@@ -251,7 +254,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAdminGetPolicyRequest19sp1 $request
-     * @return GroupAdminGetPolicyResponse19sp1|ErrorResponse
+     * @return GroupAdminGetPolicyResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupAdminGetPolicyRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetPolicyRequest19sp1 $request)
     {
@@ -260,7 +264,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAdminGetRequest $request
-     * @return GroupAdminGetResponse|ErrorResponse
+     * @return GroupAdminGetResponse
+     * @throws ErrorResponseException
      */
     public function groupAdminGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminGetRequest $request)
     {
@@ -269,7 +274,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantAddInstanceRequest19 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantAddInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest19 $request)
     {
@@ -278,7 +284,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantGetInstanceRequest19 $request
-     * @return GroupAutoAttendantGetInstanceResponse19|ErrorResponse
+     * @return GroupAutoAttendantGetInstanceResponse19
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantGetInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest19 $request)
     {
@@ -287,7 +294,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantGetInstanceRequest19sp1 $request
-     * @return GroupAutoAttendantGetInstanceResponse19sp1|ErrorResponse
+     * @return GroupAutoAttendantGetInstanceResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest19sp1 $request)
     {
@@ -296,7 +304,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantModifyInstanceRequest17sp1 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantModifyInstanceRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyInstanceRequest17sp1 $request)
     {
@@ -305,7 +314,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantSubmenuAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuAddRequest $request)
     {
@@ -314,7 +324,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantSubmenuGetRequest $request
-     * @return GroupAutoAttendantSubmenuGetResponse|ErrorResponse
+     * @return GroupAutoAttendantSubmenuGetResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetRequest $request)
     {
@@ -323,7 +334,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupAutoAttendantSubmenuModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuModifyRequest $request)
     {
@@ -332,7 +344,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupBroadWorksAnywhereGetInstanceRequest17 $request
-     * @return GroupBroadWorksAnywhereGetInstanceResponse17|ErrorResponse
+     * @return GroupBroadWorksAnywhereGetInstanceResponse17
+     * @throws ErrorResponseException
      */
     public function groupBroadWorksAnywhereGetInstanceRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupBroadWorksAnywhereGetInstanceRequest17 $request)
     {
@@ -341,7 +354,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupCallCenterAddInstanceRequest19 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallCenterAddInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterAddInstanceRequest19 $request)
     {
@@ -350,7 +364,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupCallCenterGetInstanceRequest19sp1 $request
-     * @return GroupCallCenterGetInstanceResponse19sp1|ErrorResponse
+     * @return GroupCallCenterGetInstanceResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupCallCenterGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterGetInstanceRequest19sp1 $request)
     {
@@ -359,7 +374,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupCallCenterModifyInstanceRequest19 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallCenterModifyInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterModifyInstanceRequest19 $request)
     {
@@ -369,6 +385,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param GroupCallProcessingGetPolicyRequest21sp2 $request
      * @return GroupCallProcessingGetPolicyResponse21sp2
+     * @throws ErrorResponseException
      */
     public function groupCallProcessingGetPolicyRequest21sp2(\CWM\BroadWorksConnector\Ocip\Models\GroupCallProcessingGetPolicyRequest21sp2 $request)
     {
@@ -377,7 +394,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupCommunicationBarringAuthorizationCodeAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeAddListRequest $request)
     {
@@ -387,6 +405,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param GroupCommunicationBarringAuthorizationCodeGetListRequest $request
      * @return GroupCommunicationBarringAuthorizationCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupCommunicationBarringAuthorizationCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupCommunicationBarringAuthorizationCodeGetListRequest $request)
     {
@@ -395,7 +414,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupCustomRingbackGroupGetRequest16 $request
-     * @return GroupCustomRingbackGroupGetResponse16|ErrorResponse
+     * @return GroupCustomRingbackGroupGetResponse16
+     * @throws ErrorResponseException
      */
     public function groupCustomRingbackGroupGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomRingbackGroupGetRequest16 $request)
     {
@@ -404,7 +424,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupCustomRingbackGroupModifyRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCustomRingbackGroupModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupCustomRingbackGroupModifyRequest16 $request)
     {
@@ -413,7 +434,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupFeatureAccessCodeGetRequest $request
-     * @return GroupFeatureAccessCodeGetResponse|ErrorResponse
+     * @return GroupFeatureAccessCodeGetResponse
+     * @throws ErrorResponseException
      */
     public function groupFeatureAccessCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeGetRequest $request)
     {
@@ -422,7 +444,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupFeatureAccessCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupFeatureAccessCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeModifyRequest $request)
     {
@@ -431,7 +454,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupHuntGroupAddInstanceRequest19 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupAddInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupAddInstanceRequest19 $request)
     {
@@ -440,7 +464,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupHuntGroupGetInstanceRequest19 $request
-     * @return GroupHuntGroupGetInstanceResponse19|ErrorResponse
+     * @return GroupHuntGroupGetInstanceResponse19
+     * @throws ErrorResponseException
      */
     public function groupHuntGroupGetInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest19 $request)
     {
@@ -449,7 +474,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupInterceptGroupGetRequest16sp1 $request
-     * @return GroupInterceptGroupGetResponse16sp1|ErrorResponse
+     * @return GroupInterceptGroupGetResponse16sp1
+     * @throws ErrorResponseException
      */
     public function groupInterceptGroupGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupGetRequest16sp1 $request)
     {
@@ -458,7 +484,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupInterceptGroupModifyRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupInterceptGroupModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupInterceptGroupModifyRequest16 $request)
     {
@@ -467,7 +494,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldAddInstanceRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldAddInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest20 $request)
     {
@@ -476,7 +504,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldAddInstanceRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldAddInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldAddInstanceRequest21 $request)
     {
@@ -485,7 +514,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldGetInstanceRequest19 $request
-     * @return GroupMusicOnHoldGetInstanceResponse19|ErrorResponse
+     * @return GroupMusicOnHoldGetInstanceResponse19
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldGetInstanceRequest19(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest19 $request)
     {
@@ -494,7 +524,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldGetInstanceRequest20 $request
-     * @return GroupMusicOnHoldGetInstanceResponse20|ErrorResponse
+     * @return GroupMusicOnHoldGetInstanceResponse20
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldGetInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest20 $request)
     {
@@ -503,7 +534,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldGetInstanceRequest21 $request
-     * @return GroupMusicOnHoldGetInstanceResponse21|ErrorResponse
+     * @return GroupMusicOnHoldGetInstanceResponse21
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldGetInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldGetInstanceRequest21 $request)
     {
@@ -512,7 +544,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldModifyInstanceRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldModifyInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest20 $request)
     {
@@ -521,7 +554,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupMusicOnHoldModifyInstanceRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupMusicOnHoldModifyInstanceRequest21(\CWM\BroadWorksConnector\Ocip\Models\GroupMusicOnHoldModifyInstanceRequest21 $request)
     {
@@ -530,7 +564,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupNetworkClassOfServiceAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceAssignListRequest $request)
     {
@@ -540,6 +575,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param GroupNetworkClassOfServiceGetAssignedUserListRequest $request
      * @return GroupNetworkClassOfServiceGetAssignedUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceGetAssignedUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceGetAssignedUserListRequest $request)
     {
@@ -548,7 +584,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupNetworkClassOfServiceUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupNetworkClassOfServiceUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupNetworkClassOfServiceUnassignListRequest $request)
     {
@@ -557,7 +594,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupPasswordRulesGetRequest16 $request
-     * @return GroupPasswordRulesGetResponse16|ErrorResponse
+     * @return GroupPasswordRulesGetResponse16
+     * @throws ErrorResponseException
      */
     public function groupPasswordRulesGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupPasswordRulesGetRequest16 $request)
     {
@@ -566,7 +604,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupPolicyGetRequest17 $request
-     * @return GroupPolicyGetResponse17|ErrorResponse
+     * @return GroupPolicyGetResponse17
+     * @throws ErrorResponseException
      */
     public function groupPolicyGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest17 $request)
     {
@@ -575,7 +614,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupPolicyGetRequest20 $request
-     * @return GroupPolicyGetResponse20|ErrorResponse
+     * @return GroupPolicyGetResponse20
+     * @throws ErrorResponseException
      */
     public function groupPolicyGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyGetRequest20 $request)
     {
@@ -584,7 +624,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupPolicyModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPolicyModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPolicyModifyRequest $request)
     {
@@ -593,7 +634,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupPreAlertingAnnouncementGetRequest $request
-     * @return GroupPreAlertingAnnouncementGetResponse|ErrorResponse
+     * @return GroupPreAlertingAnnouncementGetResponse
+     * @throws ErrorResponseException
      */
     public function groupPreAlertingAnnouncementGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPreAlertingAnnouncementGetRequest $request)
     {
@@ -602,7 +644,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupPreAlertingAnnouncementModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupPreAlertingAnnouncementModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupPreAlertingAnnouncementModifyRequest $request)
     {
@@ -611,7 +654,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupRoutePointAddInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutePointAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointAddInstanceRequest $request)
     {
@@ -620,7 +664,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupRoutePointGetInstanceRequest19sp1 $request
-     * @return GroupRoutePointGetInstanceResponse19sp1|ErrorResponse
+     * @return GroupRoutePointGetInstanceResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupRoutePointGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointGetInstanceRequest19sp1 $request)
     {
@@ -629,7 +674,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupRoutePointModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupRoutePointModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupRoutePointModifyInstanceRequest $request)
     {
@@ -638,7 +684,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupShInterfaceGetUserListRequest $request
-     * @return GroupShInterfaceGetUserListResponse|ErrorResponse
+     * @return GroupShInterfaceGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function groupShInterfaceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupShInterfaceGetUserListRequest $request)
     {
@@ -647,7 +694,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16 $request
-     * @return GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16|ErrorResponse
+     * @return GroupVoiceMessagingGroupGetVoicePortalBrandingResponse16
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupGetVoicePortalBrandingRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalBrandingRequest16 $request)
     {
@@ -656,7 +704,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupVoiceMessagingGroupGetVoicePortalRequest17sp4 $request
-     * @return GroupVoiceMessagingGroupGetVoicePortalResponse17sp4|ErrorResponse
+     * @return GroupVoiceMessagingGroupGetVoicePortalResponse17sp4
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupGetVoicePortalRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest17sp4 $request)
     {
@@ -665,7 +714,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupVoiceMessagingGroupGetVoicePortalRequest19sp1 $request
-     * @return GroupVoiceMessagingGroupGetVoicePortalResponse19sp1|ErrorResponse
+     * @return GroupVoiceMessagingGroupGetVoicePortalResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupGetVoicePortalRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupGetVoicePortalRequest19sp1 $request)
     {
@@ -674,7 +724,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceMessagingGroupModifyVoicePortalBrandingRequest16(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 $request)
     {
@@ -683,7 +734,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param GroupVoiceXmlGetInstanceRequest $request
-     * @return GroupVoiceXmlGetInstanceResponse|ErrorResponse
+     * @return GroupVoiceXmlGetInstanceResponse
+     * @throws ErrorResponseException
      */
     public function groupVoiceXmlGetInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest $request)
     {
@@ -692,7 +744,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param LoginRequest14sp4 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function loginRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4 $request)
     {
@@ -701,7 +754,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderAccessDeviceGetUserListRequest $request
-     * @return ServiceProviderAccessDeviceGetUserListResponse|ErrorResponse
+     * @return ServiceProviderAccessDeviceGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderAccessDeviceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest $request)
     {
@@ -710,7 +764,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderAdminGetPolicyRequest18 $request
-     * @return ServiceProviderAdminGetPolicyResponse18|ErrorResponse
+     * @return ServiceProviderAdminGetPolicyResponse18
+     * @throws ErrorResponseException
      */
     public function serviceProviderAdminGetPolicyRequest18(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest18 $request)
     {
@@ -719,7 +774,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderAdminGetRequest14 $request
-     * @return ServiceProviderAdminGetResponse14|ErrorResponse
+     * @return ServiceProviderAdminGetResponse14
+     * @throws ErrorResponseException
      */
     public function serviceProviderAdminGetRequest14(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest14 $request)
     {
@@ -728,7 +784,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderCallProcessingGetPolicyRequest21sp2 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function serviceProviderCallProcessingGetPolicyRequest21sp2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCallProcessingGetPolicyRequest21sp2 $request)
     {
@@ -737,7 +794,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderCommunicationBarringProfileAddRequest17sp3 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderCommunicationBarringProfileAddRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileAddRequest17sp3 $request)
     {
@@ -747,6 +805,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param ServiceProviderCommunicationBarringProfileGetRequest17sp3 $request
      * @return ServiceProviderCommunicationBarringProfileGetResponse17sp3
+     * @throws ErrorResponseException
      */
     public function serviceProviderCommunicationBarringProfileGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest17sp3 $request)
     {
@@ -756,6 +815,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param ServiceProviderCommunicationBarringProfileGetRequest19sp1 $request
      * @return ServiceProviderCommunicationBarringProfileGetResponse19sp1
+     * @throws ErrorResponseException
      */
     public function serviceProviderCommunicationBarringProfileGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1 $request)
     {
@@ -764,7 +824,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderFeatureAccessCodeGetListRequest $request
-     * @return ServiceProviderFeatureAccessCodeGetListResponse|ErrorResponse
+     * @return ServiceProviderFeatureAccessCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderFeatureAccessCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeGetListRequest $request)
     {
@@ -773,7 +834,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderFeatureAccessCodeModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderFeatureAccessCodeModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderFeatureAccessCodeModifyListRequest $request)
     {
@@ -782,7 +844,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderGetRequest17sp1 $request
-     * @return ServiceProviderGetResponse17sp1|ErrorResponse
+     * @return ServiceProviderGetResponse17sp1
+     * @throws ErrorResponseException
      */
     public function serviceProviderGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest17sp1 $request)
     {
@@ -791,7 +854,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderIntegratedIMPGetRequest $request
-     * @return ServiceProviderIntegratedIMPGetResponse|ErrorResponse
+     * @return ServiceProviderIntegratedIMPGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderIntegratedIMPGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderIntegratedIMPGetRequest $request)
     {
@@ -800,7 +864,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderNetworkClassOfServiceAssignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderNetworkClassOfServiceAssignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceAssignListRequest $request)
     {
@@ -809,7 +874,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderNetworkClassOfServiceUnassignListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderNetworkClassOfServiceUnassignListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderNetworkClassOfServiceUnassignListRequest $request)
     {
@@ -818,7 +884,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderPasswordRulesGetRequest16 $request
-     * @return ServiceProviderPasswordRulesGetResponse16|ErrorResponse
+     * @return ServiceProviderPasswordRulesGetResponse16
+     * @throws ErrorResponseException
      */
     public function serviceProviderPasswordRulesGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesGetRequest16 $request)
     {
@@ -827,7 +894,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderServicePackMigrationTaskAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderServicePackMigrationTaskAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskAddRequest $request)
     {
@@ -837,6 +905,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param ServiceProviderServicePackMigrationTaskGetListRequest $request
      * @return ServiceProviderServicePackMigrationTaskGetListResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderServicePackMigrationTaskGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetListRequest $request)
     {
@@ -846,6 +915,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param ServiceProviderServicePackMigrationTaskGetRequest14sp4 $request
      * @return ServiceProviderServicePackMigrationTaskGetResponse14sp4
+     * @throws ErrorResponseException
      */
     public function serviceProviderServicePackMigrationTaskGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskGetRequest14sp4 $request)
     {
@@ -854,7 +924,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemAccessDeviceGetUserListRequest $request
-     * @return SystemAccessDeviceGetUserListResponse|ErrorResponse
+     * @return SystemAccessDeviceGetUserListResponse
+     * @throws ErrorResponseException
      */
     public function systemAccessDeviceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemAccessDeviceGetUserListRequest $request)
     {
@@ -864,6 +935,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param SystemCallProcessingGetPolicyRequest21sp2 $request
      * @return SystemCallProcessingGetPolicyResponse21sp2
+     * @throws ErrorResponseException
      */
     public function systemCallProcessingGetPolicyRequest21sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemCallProcessingGetPolicyRequest21sp2 $request)
     {
@@ -872,7 +944,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemCommunicationBarringGetRequest $request
-     * @return SystemCommunicationBarringGetResponse|ErrorResponse
+     * @return SystemCommunicationBarringGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringGetRequest $request)
     {
@@ -881,7 +954,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemCommunicationBarringProfileAddRequest17sp3 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileAddRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileAddRequest17sp3 $request)
     {
@@ -891,6 +965,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param SystemCommunicationBarringProfileGetRequest17sp3 $request
      * @return SystemCommunicationBarringProfileGetResponse17sp3
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest17sp3 $request)
     {
@@ -900,6 +975,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param SystemCommunicationBarringProfileGetRequest19sp1 $request
      * @return SystemCommunicationBarringProfileGetResponse19sp1
+     * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest19sp1 $request)
     {
@@ -908,7 +984,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemEnhancedCallLogsGetRequest17sp4 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemEnhancedCallLogsGetRequest17sp4(\CWM\BroadWorksConnector\Ocip\Models\SystemEnhancedCallLogsGetRequest17sp4 $request)
     {
@@ -917,7 +994,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemFeatureAccessCodeGetListRequest $request
-     * @return SystemFeatureAccessCodeGetListResponse|ErrorResponse
+     * @return SystemFeatureAccessCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemFeatureAccessCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeGetListRequest $request)
     {
@@ -926,7 +1004,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemFeatureAccessCodeModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemFeatureAccessCodeModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemFeatureAccessCodeModifyListRequest $request)
     {
@@ -936,6 +1015,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param SystemHuntGroupGetRequest17 $request
      * @return SystemHuntGroupGetResponse
+     * @throws ErrorResponseException
      */
     public function systemHuntGroupGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupGetRequest17 $request)
     {
@@ -944,7 +1024,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemHuntGroupModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemHuntGroupModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemHuntGroupModifyRequest $request)
     {
@@ -953,7 +1034,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemIntegratedIMPGetRequest19 $request
-     * @return SystemIntegratedIMPGetResponse19|ErrorResponse
+     * @return SystemIntegratedIMPGetResponse19
+     * @throws ErrorResponseException
      */
     public function systemIntegratedIMPGetRequest19(\CWM\BroadWorksConnector\Ocip\Models\SystemIntegratedIMPGetRequest19 $request)
     {
@@ -962,7 +1044,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemLicensingGetSystemLicenseListRequest $request
-     * @return SystemLicensingGetSystemLicenseListResponse|ErrorResponse
+     * @return SystemLicensingGetSystemLicenseListResponse
+     * @throws ErrorResponseException
      */
     public function systemLicensingGetSystemLicenseListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetSystemLicenseListRequest $request)
     {
@@ -971,7 +1054,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemLicensingGetSystemLicenseListRequest19sp1 $request
-     * @return SystemLicensingGetSystemLicenseListResponse21|ErrorResponse
+     * @return SystemLicensingGetSystemLicenseListResponse21
+     * @throws ErrorResponseException
      */
     public function systemLicensingGetSystemLicenseListRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetSystemLicenseListRequest19sp1 $request)
     {
@@ -980,7 +1064,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemLicensingGetSystemLicenseListRequest21 $request
-     * @return SystemLicensingGetSystemLicenseListResponse21|ErrorResponse
+     * @return SystemLicensingGetSystemLicenseListResponse21
+     * @throws ErrorResponseException
      */
     public function systemLicensingGetSystemLicenseListRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemLicensingGetSystemLicenseListRequest21 $request)
     {
@@ -989,7 +1074,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemMigratedUsersGetListRequest $request
-     * @return SystemMigratedUsersGetListResponse|ErrorResponse
+     * @return SystemMigratedUsersGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemMigratedUsersGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMigratedUsersGetListRequest $request)
     {
@@ -999,6 +1085,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param SystemNetworkClassOfServiceGetRequest17 $request
      * @return SystemNetworkClassOfServiceGetResponse17
+     * @throws ErrorResponseException
      */
     public function systemNetworkClassOfServiceGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemNetworkClassOfServiceGetRequest17 $request)
     {
@@ -1007,7 +1094,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemNumberActivationGetRequest18sp1 $request
-     * @return SystemNumberActivationGetResponse18sp1|ErrorResponse
+     * @return SystemNumberActivationGetResponse18sp1
+     * @throws ErrorResponseException
      */
     public function systemNumberActivationGetRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemNumberActivationGetRequest18sp1 $request)
     {
@@ -1016,7 +1104,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemOCICallControlApplicationAddRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOCICallControlApplicationAddRequest17(\CWM\BroadWorksConnector\Ocip\Models\SystemOCICallControlApplicationAddRequest17 $request)
     {
@@ -1025,7 +1114,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemPasswordRulesGetRequest16 $request
-     * @return SystemPasswordRulesGetResponse16|ErrorResponse
+     * @return SystemPasswordRulesGetResponse16
+     * @throws ErrorResponseException
      */
     public function systemPasswordRulesGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesGetRequest16 $request)
     {
@@ -1034,7 +1124,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemPolicyGetDefaultRequest18 $request
-     * @return SystemPolicyGetDefaultResponse18|ErrorResponse
+     * @return SystemPolicyGetDefaultResponse18
+     * @throws ErrorResponseException
      */
     public function systemPolicyGetDefaultRequest18(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest18 $request)
     {
@@ -1043,7 +1134,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemPolicyGetDefaultRequest19sp1 $request
-     * @return SystemPolicyGetDefaultResponse19sp1|ErrorResponse
+     * @return SystemPolicyGetDefaultResponse19sp1
+     * @throws ErrorResponseException
      */
     public function systemPolicyGetDefaultRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest19sp1 $request)
     {
@@ -1052,7 +1144,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemPolicyGetDefaultRequest20 $request
-     * @return SystemPolicyGetDefaultResponse20|ErrorResponse
+     * @return SystemPolicyGetDefaultResponse20
+     * @throws ErrorResponseException
      */
     public function systemPolicyGetDefaultRequest20(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyGetDefaultRequest20 $request)
     {
@@ -1061,7 +1154,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemPolicyModifyDefaultRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemPolicyModifyDefaultRequest14(\CWM\BroadWorksConnector\Ocip\Models\SystemPolicyModifyDefaultRequest14 $request)
     {
@@ -1070,7 +1164,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemProvisioningValidationGetRequest14sp2 $request
-     * @return SystemProvisioningValidationGetResponse14sp2|ErrorResponse
+     * @return SystemProvisioningValidationGetResponse14sp2
+     * @throws ErrorResponseException
      */
     public function systemProvisioningValidationGetRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemProvisioningValidationGetRequest14sp2 $request)
     {
@@ -1079,7 +1174,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemSMPPGetRequest14sp5 $request
-     * @return SystemSMPPGetResponse14sp5|ErrorResponse
+     * @return SystemSMPPGetResponse14sp5
+     * @throws ErrorResponseException
      */
     public function systemSMPPGetRequest14sp5(\CWM\BroadWorksConnector\Ocip\Models\SystemSMPPGetRequest14sp5 $request)
     {
@@ -1088,7 +1184,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTimeZoneGetListRequest $request
-     * @return SystemTimeZoneGetListResponse|ErrorResponse
+     * @return SystemTimeZoneGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTimeZoneGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTimeZoneGetListRequest $request)
     {
@@ -1097,7 +1194,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceAddRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceAddRequest $request)
     {
@@ -1106,7 +1204,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceDeleteRequest $request)
     {
@@ -1116,6 +1215,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param SystemTreatmentMappingCallBlockingServiceGetListRequest $request
      * @return SystemTreatmentMappingCallBlockingServiceGetListResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceGetListRequest $request)
     {
@@ -1124,7 +1224,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemTreatmentMappingCallBlockingServiceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemTreatmentMappingCallBlockingServiceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemTreatmentMappingCallBlockingServiceModifyRequest $request)
     {
@@ -1133,7 +1234,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemVoiceMessagingGroupGetRequest16sp2 $request
-     * @return SystemVoiceMessagingGroupGetResponse16sp2|ErrorResponse
+     * @return SystemVoiceMessagingGroupGetResponse16sp2
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupGetRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest16sp2 $request)
     {
@@ -1142,7 +1244,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemVoiceMessagingGroupGetRequest21 $request
-     * @return SystemVoiceMessagingGroupGetResponse21|ErrorResponse
+     * @return SystemVoiceMessagingGroupGetResponse21
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupGetRequest21(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest21 $request)
     {
@@ -1151,7 +1254,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param SystemVoiceMessagingGroupGetRequest22 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupGetRequest22(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest22 $request)
     {
@@ -1160,7 +1264,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserAlternateNumbersGetRequest17 $request
-     * @return UserAlternateNumbersGetResponse17|ErrorResponse
+     * @return UserAlternateNumbersGetResponse17
+     * @throws ErrorResponseException
      */
     public function userAlternateNumbersGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserAlternateNumbersGetRequest17 $request)
     {
@@ -1169,7 +1274,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 $request
-     * @return UserBroadWorksAnywhereGetSelectiveCriteriaResponse16|ErrorResponse
+     * @return UserBroadWorksAnywhereGetSelectiveCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userBroadWorksAnywhereGetSelectiveCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksAnywhereGetSelectiveCriteriaRequest16 $request)
     {
@@ -1178,7 +1284,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserCallForwardingSelectiveGetCriteriaRequest16 $request
-     * @return UserCallForwardingSelectiveGetCriteriaResponse16|ErrorResponse
+     * @return UserCallForwardingSelectiveGetCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userCallForwardingSelectiveGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallForwardingSelectiveGetCriteriaRequest16 $request)
     {
@@ -1187,7 +1294,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserCallNotifyGetCriteriaRequest16 $request
-     * @return UserCallNotifyGetCriteriaResponse16|ErrorResponse
+     * @return UserCallNotifyGetCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userCallNotifyGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCallNotifyGetCriteriaRequest16 $request)
     {
@@ -1197,6 +1305,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param UserCallPoliciesGetRequest17 $request
      * @return UserCallPoliciesGetResponse17
+     * @throws ErrorResponseException
      */
     public function userCallPoliciesGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserCallPoliciesGetRequest17 $request)
     {
@@ -1206,6 +1315,7 @@ trait OCISchemaDeprecatedAS
     /**
      * @param UserCallProcessingGetPolicyRequest21sp2 $request
      * @return UserCallProcessingGetPolicyResponse21sp2
+     * @throws ErrorResponseException
      */
     public function userCallProcessingGetPolicyRequest21sp2(\CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyRequest21sp2 $request)
     {
@@ -1214,7 +1324,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserEnhancedCallLogsGetListRequest21 $request
-     * @return UserEnhancedCallLogsGetListResponse21|ErrorResponse
+     * @return UserEnhancedCallLogsGetListResponse21
+     * @throws ErrorResponseException
      */
     public function userEnhancedCallLogsGetListRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21 $request)
     {
@@ -1223,7 +1334,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserEnhancedCallLogsGetListRequest21sp1 $request
-     * @return UserEnhancedCallLogsGetListResponse21sp1|ErrorResponse
+     * @return UserEnhancedCallLogsGetListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function userEnhancedCallLogsGetListRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21sp1 $request)
     {
@@ -1232,7 +1344,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserEnhancedCallLogsGetListRequest21sp1V2 $request
-     * @return UserEnhancedCallLogsGetListResponse21sp1|ErrorResponse
+     * @return UserEnhancedCallLogsGetListResponse21sp1
+     * @throws ErrorResponseException
      */
     public function userEnhancedCallLogsGetListRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21sp1V2 $request)
     {
@@ -1241,7 +1354,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserFeatureAccessCodeGetListRequest $request
-     * @return UserFeatureAccessCodeGetListResponse|ErrorResponse
+     * @return UserFeatureAccessCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function userFeatureAccessCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListRequest $request)
     {
@@ -1250,7 +1364,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserHotelingGuestModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userHotelingGuestModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestModifyRequest $request)
     {
@@ -1259,7 +1374,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserInterceptUserGetRequest16sp1 $request
-     * @return UserInterceptUserGetResponse16sp1|ErrorResponse
+     * @return UserInterceptUserGetResponse16sp1
+     * @throws ErrorResponseException
      */
     public function userInterceptUserGetRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserGetRequest16sp1 $request)
     {
@@ -1268,7 +1384,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserInterceptUserModifyRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userInterceptUserModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserInterceptUserModifyRequest16 $request)
     {
@@ -1277,7 +1394,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserMusicOnHoldUserGetRequest16 $request
-     * @return UserMusicOnHoldUserGetResponse16|ErrorResponse
+     * @return UserMusicOnHoldUserGetResponse16
+     * @throws ErrorResponseException
      */
     public function userMusicOnHoldUserGetRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserGetRequest16 $request)
     {
@@ -1286,7 +1404,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserMusicOnHoldUserModifyRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userMusicOnHoldUserModifyRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserMusicOnHoldUserModifyRequest16 $request)
     {
@@ -1295,7 +1414,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserPreAlertingAnnouncementGetCriteriaRequest $request
-     * @return UserPreAlertingAnnouncementGetCriteriaResponse|ErrorResponse
+     * @return UserPreAlertingAnnouncementGetCriteriaResponse
+     * @throws ErrorResponseException
      */
     public function userPreAlertingAnnouncementGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetCriteriaRequest $request)
     {
@@ -1304,7 +1424,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserPreAlertingAnnouncementGetRequest $request
-     * @return UserPreAlertingAnnouncementGetResponse|ErrorResponse
+     * @return UserPreAlertingAnnouncementGetResponse
+     * @throws ErrorResponseException
      */
     public function userPreAlertingAnnouncementGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementGetRequest $request)
     {
@@ -1313,7 +1434,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserPreAlertingAnnouncementModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userPreAlertingAnnouncementModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserPreAlertingAnnouncementModifyRequest $request)
     {
@@ -1322,7 +1444,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserPriorityAlertGetCriteriaRequest16 $request
-     * @return UserPriorityAlertGetCriteriaResponse16|ErrorResponse
+     * @return UserPriorityAlertGetCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userPriorityAlertGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserPriorityAlertGetCriteriaRequest16 $request)
     {
@@ -1331,7 +1454,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserRouteListGetRequest $request
-     * @return UserRouteListGetResponse|ErrorResponse
+     * @return UserRouteListGetResponse
+     * @throws ErrorResponseException
      */
     public function userRouteListGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserRouteListGetRequest $request)
     {
@@ -1340,7 +1464,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserSelectiveCallAcceptanceGetCriteriaRequest16 $request
-     * @return UserSelectiveCallAcceptanceGetCriteriaResponse16|ErrorResponse
+     * @return UserSelectiveCallAcceptanceGetCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallAcceptanceGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallAcceptanceGetCriteriaRequest16 $request)
     {
@@ -1349,7 +1474,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserSelectiveCallRejectionGetCriteriaRequest16sp1 $request
-     * @return UserSelectiveCallRejectionGetCriteriaResponse16sp1|ErrorResponse
+     * @return UserSelectiveCallRejectionGetCriteriaResponse16sp1
+     * @throws ErrorResponseException
      */
     public function userSelectiveCallRejectionGetCriteriaRequest16sp1(\CWM\BroadWorksConnector\Ocip\Models\UserSelectiveCallRejectionGetCriteriaRequest16sp1 $request)
     {
@@ -1358,7 +1484,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserSharedCallAppearanceGetRequest16sp2 $request
-     * @return UserSharedCallAppearanceGetResponse16sp2|ErrorResponse
+     * @return UserSharedCallAppearanceGetResponse16sp2
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceGetRequest16sp2(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest16sp2 $request)
     {
@@ -1367,7 +1494,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserShInterfaceGetPublicIdDataRequest $request
-     * @return UserShInterfaceGetPublicIdDataResponse|ErrorResponse
+     * @return UserShInterfaceGetPublicIdDataResponse
+     * @throws ErrorResponseException
      */
     public function userShInterfaceGetPublicIdDataRequest(\CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetPublicIdDataRequest $request)
     {
@@ -1376,7 +1504,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserShInterfaceGetUserIdDataRequest $request
-     * @return UserShInterfaceGetUserIdDataResponse|ErrorResponse
+     * @return UserShInterfaceGetUserIdDataResponse
+     * @throws ErrorResponseException
      */
     public function userShInterfaceGetUserIdDataRequest(\CWM\BroadWorksConnector\Ocip\Models\UserShInterfaceGetUserIdDataRequest $request)
     {
@@ -1385,7 +1514,8 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserVoiceMessagingUserGetGreetingRequest18 $request
-     * @return UserVoiceMessagingUserGetGreetingResponse18|ErrorResponse
+     * @return UserVoiceMessagingUserGetGreetingResponse18
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetGreetingRequest18(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest18 $request)
     {

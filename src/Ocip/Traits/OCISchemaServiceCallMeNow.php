@@ -13,15 +13,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallMeNow
 {
 
     /**
      * @param SystemCallMeNowGetRequest $request
-     * @return SystemCallMeNowGetResponse|ErrorResponse
+     * @return SystemCallMeNowGetResponse
+     * @throws ErrorResponseException
      */
     public function systemCallMeNowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallMeNowGetRequest $request)
     {
@@ -30,7 +31,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param SystemCallMeNowModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemCallMeNowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemCallMeNowModifyRequest $request)
     {
@@ -39,7 +41,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param UserCallMeNowAddCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallMeNowAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowAddCriteriaRequest $request)
     {
@@ -48,7 +51,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param UserCallMeNowDeleteCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallMeNowDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowDeleteCriteriaRequest $request)
     {
@@ -57,7 +61,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param UserCallMeNowGetCriteriaRequest $request
-     * @return UserCallMeNowGetCriteriaResponse|ErrorResponse
+     * @return UserCallMeNowGetCriteriaResponse
+     * @throws ErrorResponseException
      */
     public function userCallMeNowGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowGetCriteriaRequest $request)
     {
@@ -66,7 +71,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param UserCallMeNowGetRequest $request
-     * @return UserCallMeNowGetResponse|ErrorResponse
+     * @return UserCallMeNowGetResponse
+     * @throws ErrorResponseException
      */
     public function userCallMeNowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowGetRequest $request)
     {
@@ -75,7 +81,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param UserCallMeNowModifyCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallMeNowModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowModifyCriteriaRequest $request)
     {
@@ -84,7 +91,8 @@ trait OCISchemaServiceCallMeNow
 
     /**
      * @param UserCallMeNowModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallMeNowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallMeNowModifyRequest $request)
     {

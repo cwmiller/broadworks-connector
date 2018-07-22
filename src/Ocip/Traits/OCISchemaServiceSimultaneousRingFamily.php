@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyRequest17;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSimultaneousRingFamily
 {
 
     /**
      * @param UserSimultaneousRingFamilyAddCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSimultaneousRingFamilyAddCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyAddCriteriaRequest $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServiceSimultaneousRingFamily
 
     /**
      * @param UserSimultaneousRingFamilyDeleteCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSimultaneousRingFamilyDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyDeleteCriteriaRequest $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServiceSimultaneousRingFamily
 
     /**
      * @param UserSimultaneousRingFamilyGetCriteriaRequest $request
-     * @return UserSimultaneousRingFamilyGetCriteriaResponse|ErrorResponse
+     * @return UserSimultaneousRingFamilyGetCriteriaResponse
+     * @throws ErrorResponseException
      */
     public function userSimultaneousRingFamilyGetCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetCriteriaRequest $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServiceSimultaneousRingFamily
 
     /**
      * @param UserSimultaneousRingFamilyGetRequest17 $request
-     * @return UserSimultaneousRingFamilyGetResponse17|ErrorResponse
+     * @return UserSimultaneousRingFamilyGetResponse17
+     * @throws ErrorResponseException
      */
     public function userSimultaneousRingFamilyGetRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyGetRequest17 $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServiceSimultaneousRingFamily
 
     /**
      * @param UserSimultaneousRingFamilyModifyCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSimultaneousRingFamilyModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyCriteriaRequest $request)
     {
@@ -63,7 +68,8 @@ trait OCISchemaServiceSimultaneousRingFamily
 
     /**
      * @param UserSimultaneousRingFamilyModifyRequest17 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSimultaneousRingFamilyModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\UserSimultaneousRingFamilyModifyRequest17 $request)
     {

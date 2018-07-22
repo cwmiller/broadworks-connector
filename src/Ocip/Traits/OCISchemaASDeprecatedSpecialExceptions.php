@@ -20,8 +20,8 @@ use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRespons
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest16;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest16;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 
 trait OCISchemaASDeprecatedSpecialExceptions
@@ -29,7 +29,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param ExternalAuthenticationAuthorizeTokenRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function externalAuthenticationAuthorizeTokenRequest(\CWM\BroadWorksConnector\Ocip\Models\ExternalAuthenticationAuthorizeTokenRequest $request)
     {
@@ -39,6 +40,7 @@ trait OCISchemaASDeprecatedSpecialExceptions
     /**
      * @param GroupCallCenterForcedForwardingModifyRequest17 $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupCallCenterForcedForwardingModifyRequest17(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterForcedForwardingModifyRequest17 $request)
     {
@@ -47,7 +49,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param GroupCallCenterNightServiceGetRequest17sp1 $request
-     * @return GroupCallCenterNightServiceGetResponse17sp1|ErrorResponse
+     * @return GroupCallCenterNightServiceGetResponse17sp1
+     * @throws ErrorResponseException
      */
     public function groupCallCenterNightServiceGetRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceGetRequest17sp1 $request)
     {
@@ -56,7 +59,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param GroupCallCenterNightServiceModifyRequest17sp1 $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupCallCenterNightServiceModifyRequest17sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupCallCenterNightServiceModifyRequest17sp1 $request)
     {
@@ -65,7 +69,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserBroadWorksMobilityGetRequest $request
-     * @return UserBroadWorksMobilityGetResponse|ErrorResponse
+     * @return UserBroadWorksMobilityGetResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest $request)
     {
@@ -74,7 +79,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserBroadWorksMobilityModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest $request)
     {
@@ -83,7 +89,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserBroadWorksMobilityModifyRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest20 $request)
     {
@@ -93,6 +100,7 @@ trait OCISchemaASDeprecatedSpecialExceptions
     /**
      * @param UserCustomRingbackUserAddCriteriaRequest16 $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCustomRingbackUserAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserAddCriteriaRequest16 $request)
     {
@@ -101,7 +109,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserCustomRingbackUserGetCriteriaRequest16 $request
-     * @return UserCustomRingbackUserGetCriteriaResponse16|ErrorResponse
+     * @return UserCustomRingbackUserGetCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userCustomRingbackUserGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserGetCriteriaRequest16 $request)
     {
@@ -111,6 +120,7 @@ trait OCISchemaASDeprecatedSpecialExceptions
     /**
      * @param UserCustomRingbackUserModifyCriteriaRequest16 $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCustomRingbackUserModifyCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserCustomRingbackUserModifyCriteriaRequest16 $request)
     {
@@ -119,7 +129,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserVoiceMessagingUserGetGreetingRequest18sp1 $request
-     * @return UserVoiceMessagingUserGetGreetingResponse18sp1|ErrorResponse
+     * @return UserVoiceMessagingUserGetGreetingResponse18sp1
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetGreetingRequest18sp1(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetGreetingRequest18sp1 $request)
     {
@@ -128,7 +139,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserVoiceMessagingUserGetVoicePortalRequest16 $request
-     * @return UserVoiceMessagingUserGetVoicePortalResponse16|ErrorResponse
+     * @return UserVoiceMessagingUserGetVoicePortalResponse16
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserGetVoicePortalRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserGetVoicePortalRequest16 $request)
     {
@@ -137,7 +149,8 @@ trait OCISchemaASDeprecatedSpecialExceptions
 
     /**
      * @param UserVoiceMessagingUserModifyGreetingRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyGreetingRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyGreetingRequest16 $request)
     {
@@ -147,6 +160,7 @@ trait OCISchemaASDeprecatedSpecialExceptions
     /**
      * @param UserVoiceMessagingUserModifyVoicePortalRequest16 $request
      * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userVoiceMessagingUserModifyVoicePortalRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserVoiceMessagingUserModifyVoicePortalRequest16 $request)
     {

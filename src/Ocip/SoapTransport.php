@@ -20,14 +20,14 @@ class SoapTransport implements ITransport
     /**
      * @param string $request
      * @return string
-     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
      */
     public function send($request)
     {
         $response = $this->client->processOCIMessage(['in0' => $request]);
 
         if (!isset($response->processOCIMessageReturn)) {
-            throw new OcipBadResponseException('No processOCIMessageReturn in response.');
+            throw new BadResponseException('No processOCIMessageReturn in response.');
         }
 
         return $response->processOCIMessageReturn;

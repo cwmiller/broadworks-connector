@@ -2,6 +2,7 @@
 
 namespace CWM\BroadWorksConnector;
 
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\ITransport;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationRequest;
 use CWM\BroadWorksConnector\Ocip\Models\AuthenticationResponse;
@@ -11,8 +12,8 @@ use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
-use CWM\BroadWorksConnector\Ocip\OcipBadResponseException;
-use CWM\BroadWorksConnector\Ocip\OcipLoginException;
+use CWM\BroadWorksConnector\Ocip\BadResponseException;
+use CWM\BroadWorksConnector\Ocip\LoginException;
 use CWM\BroadWorksConnector\Ocip\SoapTransport;
 use CWM\BroadWorksConnector\Ocip\TcpTransport;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaASDeprecatedSpecialExceptions;
@@ -337,7 +338,8 @@ class OcipClient
     /**
      * @param OCICommand $command
      * @return OCIResponse
-     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
      */
     public function call(OCICommand $command)
     {
@@ -351,7 +353,8 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
      */
     public function callAll(array $commands)
     {
@@ -388,7 +391,7 @@ class OcipClient
             $authResponse = $this->executeCommands([$authRequest])[0];
 
             if ($authResponse instanceof ErrorResponse) {
-                throw new OcipLoginException($authResponse->getSummary());
+                throw new LoginException($authResponse->getSummary());
             }
 
             $loginRequest = (new LoginRequest14sp4())
@@ -399,7 +402,7 @@ class OcipClient
             $loginResponse = $this->executeCommands([$loginRequest])[0];
 
             if ($loginResponse instanceof ErrorResponse) {
-                throw new OcipLoginException($loginResponse->getSummary());
+                throw new LoginException($loginResponse->getSummary());
             }
 
             $this->loggedIn = true;
@@ -409,7 +412,9 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws \CWM\BroadWorksConnector\Ocip\OcipBadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
+     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
+     * @throws \ReflectionException
      */
     private function executeCommands(array $commands)
     {
@@ -423,7 +428,7 @@ class OcipClient
         $broadsoftDocumentElement = $document->firstChild;
 
         if (!$broadsoftDocumentElement instanceof DOMElement || $broadsoftDocumentElement->localName !== 'BroadsoftDocument') {
-            throw new OcipBadResponseException('Response doesn\'t begin with a BroadsoftDocument element.');
+            throw new BadResponseException('Response doesn\'t begin with a BroadsoftDocument element.');
         }
 
         /** @var OCIMessage $broadsoftDocument */
@@ -431,13 +436,19 @@ class OcipClient
             '\\CWM\\BroadWorksConnector\\Ocip\\Models\\C\\OCIMessage', '\\CWM\\BroadWorksConnector\\Ocip\\Models\\');
 
         if ($broadsoftDocument === null) {
-            throw new OcipBadResponseException('Unable to serialize response object.');
+            throw new BadResponseException('Unable to serialize response object.');
         }
 
         $commandResults = $broadsoftDocument->getCommand();
 
         if (count($commandResults) === 0) {
-            throw new OcipBadResponseException('Response doesn\'t contain any commands.');
+            throw new BadResponseException('Response doesn\'t contain any commands.');
+        }
+
+        foreach ($commandResults as $commandResult) {
+            if ($commandResult instanceof ErrorResponse) {
+                throw new ErrorResponseException($commandResult);
+            }
         }
 
         return $commandResults;
@@ -446,6 +457,7 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return DOMDocument
+     * @throws \ReflectionException
      */
     private function buildCommandXml(array $commands)
     {

@@ -7,15 +7,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetAvailableUserListRes
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestModifyRequest21;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceHotelingGuest
 {
 
     /**
      * @param UserHotelingGuestGetAvailableUserListRequest $request
-     * @return UserHotelingGuestGetAvailableUserListResponse|ErrorResponse
+     * @return UserHotelingGuestGetAvailableUserListResponse
+     * @throws ErrorResponseException
      */
     public function userHotelingGuestGetAvailableUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetAvailableUserListRequest $request)
     {
@@ -24,7 +25,8 @@ trait OCISchemaServiceHotelingGuest
 
     /**
      * @param UserHotelingGuestGetRequest14sp4 $request
-     * @return UserHotelingGuestGetResponse14sp4|ErrorResponse
+     * @return UserHotelingGuestGetResponse14sp4
+     * @throws ErrorResponseException
      */
     public function userHotelingGuestGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestGetRequest14sp4 $request)
     {
@@ -33,7 +35,8 @@ trait OCISchemaServiceHotelingGuest
 
     /**
      * @param UserHotelingGuestModifyRequest21 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userHotelingGuestModifyRequest21(\CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestModifyRequest21 $request)
     {

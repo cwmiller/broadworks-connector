@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceLocationBasedCallingRestrictions
 {
 
     /**
      * @param SystemLocationBasedCallingRestrictionsGetRequest17sp3 $request
-     * @return SystemLocationBasedCallingRestrictionsGetResponse17sp3|ErrorResponse
+     * @return SystemLocationBasedCallingRestrictionsGetResponse17sp3
+     * @throws ErrorResponseException
      */
     public function systemLocationBasedCallingRestrictionsGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsGetRequest17sp3 $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceLocationBasedCallingRestrictions
 
     /**
      * @param SystemLocationBasedCallingRestrictionsModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemLocationBasedCallingRestrictionsModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemLocationBasedCallingRestrictionsModifyRequest $request)
     {

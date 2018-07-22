@@ -16,15 +16,16 @@ use CWM\BroadWorksConnector\Ocip\Models\ResellerGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ResellerModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaReseller
 {
 
     /**
      * @param ResellerAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAddRequest $request)
     {
@@ -33,7 +34,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerAdminAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerAdminAddRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminAddRequest $request)
     {
@@ -42,7 +44,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerAdminDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerAdminDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminDeleteRequest $request)
     {
@@ -51,7 +54,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerAdminGetListRequest $request
-     * @return ResellerAdminGetListResponse|ErrorResponse
+     * @return ResellerAdminGetListResponse
+     * @throws ErrorResponseException
      */
     public function resellerAdminGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetListRequest $request)
     {
@@ -60,7 +64,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerAdminGetRequest $request
-     * @return ResellerAdminGetResponse|ErrorResponse
+     * @return ResellerAdminGetResponse
+     * @throws ErrorResponseException
      */
     public function resellerAdminGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminGetRequest $request)
     {
@@ -69,7 +74,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerAdminModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerAdminModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerAdminModifyRequest $request)
     {
@@ -78,7 +84,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerDeleteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerDeleteRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerDeleteRequest $request)
     {
@@ -87,7 +94,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerGetListRequest $request
-     * @return ResellerGetListResponse|ErrorResponse
+     * @return ResellerGetListResponse
+     * @throws ErrorResponseException
      */
     public function resellerGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerGetListRequest $request)
     {
@@ -96,7 +104,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerGetRequest $request
-     * @return ResellerGetResponse|ErrorResponse
+     * @return ResellerGetResponse
+     * @throws ErrorResponseException
      */
     public function resellerGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerGetRequest $request)
     {
@@ -105,7 +114,8 @@ trait OCISchemaReseller
 
     /**
      * @param ResellerModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function resellerModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ResellerModifyRequest $request)
     {

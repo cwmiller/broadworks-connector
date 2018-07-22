@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterMonitoringGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterMonitoringGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserCallCenterMonitoringModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceCallCenterMonitoring
 {
 
     /**
      * @param UserCallCenterMonitoringGetRequest $request
-     * @return UserCallCenterMonitoringGetResponse|ErrorResponse
+     * @return UserCallCenterMonitoringGetResponse
+     * @throws ErrorResponseException
      */
     public function userCallCenterMonitoringGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterMonitoringGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceCallCenterMonitoring
 
     /**
      * @param UserCallCenterMonitoringModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userCallCenterMonitoringModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserCallCenterMonitoringModifyRequest $request)
     {

@@ -22,15 +22,16 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuModifyRequest20;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceAutoAttendant
 {
 
     /**
      * @param GroupAutoAttendantAddInstanceRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantAddInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantAddInstanceRequest20 $request)
     {
@@ -39,7 +40,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantConsolidatedAddInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantConsolidatedAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantConsolidatedAddInstanceRequest $request)
     {
@@ -48,7 +50,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantConsolidatedDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantConsolidatedDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantConsolidatedDeleteInstanceRequest $request)
     {
@@ -57,7 +60,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantConsolidatedModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantConsolidatedModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantConsolidatedModifyInstanceRequest $request)
     {
@@ -66,7 +70,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantDeleteInstanceRequest $request)
     {
@@ -75,7 +80,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantGetInstanceListRequest $request
-     * @return GroupAutoAttendantGetInstanceListResponse|ErrorResponse
+     * @return GroupAutoAttendantGetInstanceListResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceListRequest $request)
     {
@@ -84,7 +90,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantGetInstanceRequest20 $request
-     * @return GroupAutoAttendantGetInstanceResponse20|ErrorResponse
+     * @return GroupAutoAttendantGetInstanceResponse20
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantGetInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantGetInstanceRequest20 $request)
     {
@@ -93,7 +100,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantModifyActiveInstanceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyActiveInstanceListRequest $request)
     {
@@ -102,7 +110,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantModifyInstanceRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantModifyInstanceRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantModifyInstanceRequest20 $request)
     {
@@ -111,7 +120,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantSubmenuAddRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuAddRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuAddRequest20 $request)
     {
@@ -120,7 +130,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantSubmenuDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuDeleteListRequest $request)
     {
@@ -129,7 +140,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantSubmenuGetListRequest $request
-     * @return GroupAutoAttendantSubmenuGetListResponse|ErrorResponse
+     * @return GroupAutoAttendantSubmenuGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetListRequest $request)
     {
@@ -138,7 +150,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantSubmenuGetRequest20 $request
-     * @return GroupAutoAttendantSubmenuGetResponse20|ErrorResponse
+     * @return GroupAutoAttendantSubmenuGetResponse20
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuGetRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetRequest20 $request)
     {
@@ -147,7 +160,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantSubmenuGetUsageListRequest $request
-     * @return GroupAutoAttendantSubmenuGetUsageListResponse|ErrorResponse
+     * @return GroupAutoAttendantSubmenuGetUsageListResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuGetUsageListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuGetUsageListRequest $request)
     {
@@ -156,7 +170,8 @@ trait OCISchemaServiceAutoAttendant
 
     /**
      * @param GroupAutoAttendantSubmenuModifyRequest20 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupAutoAttendantSubmenuModifyRequest20(\CWM\BroadWorksConnector\Ocip\Models\GroupAutoAttendantSubmenuModifyRequest20 $request)
     {

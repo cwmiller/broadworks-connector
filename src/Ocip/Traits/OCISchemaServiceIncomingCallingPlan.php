@@ -6,18 +6,18 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanModifyListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetRequest;
-use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceIncomingCallingPlan
 {
 
     /**
      * @param GroupIncomingCallingPlanGetListRequest $request
-     * @return GroupIncomingCallingPlanGetListResponse|ErrorResponse
+     * @return GroupIncomingCallingPlanGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupIncomingCallingPlanGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanGetListRequest $request)
     {
@@ -26,7 +26,8 @@ trait OCISchemaServiceIncomingCallingPlan
 
     /**
      * @param GroupIncomingCallingPlanModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupIncomingCallingPlanModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupIncomingCallingPlanModifyListRequest $request)
     {
@@ -35,7 +36,8 @@ trait OCISchemaServiceIncomingCallingPlan
 
     /**
      * @param UserIncomingCallingPlanGetRequest $request
-     * @return UserIncomingCallingPlanGetResponse|ErrorResponse
+     * @return UserIncomingCallingPlanGetResponse
+     * @throws ErrorResponseException
      */
     public function userIncomingCallingPlanGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanGetRequest $request)
     {
@@ -44,7 +46,8 @@ trait OCISchemaServiceIncomingCallingPlan
 
     /**
      * @param UserIncomingCallingPlanModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userIncomingCallingPlanModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserIncomingCallingPlanModifyRequest $request)
     {

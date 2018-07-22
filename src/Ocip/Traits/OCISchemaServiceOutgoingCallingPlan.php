@@ -97,15 +97,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanSustainedAuthoriz
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceOutgoingCallingPlan
 {
 
     /**
      * @param GroupOutgoingCallingPlanAuthorizationCodeGetListRequest $request
-     * @return GroupOutgoingCallingPlanAuthorizationCodeGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanAuthorizationCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanAuthorizationCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanAuthorizationCodeGetListRequest $request)
     {
@@ -114,7 +115,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanCallMeNowGetListRequest $request
-     * @return GroupOutgoingCallingPlanCallMeNowGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanCallMeNowGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanCallMeNowGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanCallMeNowGetListRequest $request)
     {
@@ -123,7 +125,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanCallMeNowModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanCallMeNowModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanCallMeNowModifyListRequest $request)
     {
@@ -132,7 +135,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest $request)
     {
@@ -141,7 +145,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest $request)
     {
@@ -150,7 +155,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest $request
-     * @return GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest $request)
     {
@@ -159,7 +165,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest $request
-     * @return GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest $request)
     {
@@ -168,7 +175,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest $request)
     {
@@ -177,7 +185,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDigitPlanOriginatingGetListRequest $request
-     * @return GroupOutgoingCallingPlanDigitPlanOriginatingGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanDigitPlanOriginatingGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDigitPlanOriginatingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDigitPlanOriginatingGetListRequest $request)
     {
@@ -186,7 +195,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDigitPlanOriginatingModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDigitPlanOriginatingModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDigitPlanOriginatingModifyListRequest $request)
     {
@@ -195,7 +205,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest $request
-     * @return GroupOutgoingCallingPlanDigitPlanRedirectingGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanDigitPlanRedirectingGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDigitPlanRedirectingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDigitPlanRedirectingGetListRequest $request)
     {
@@ -204,7 +215,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanDigitPlanRedirectingModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanDigitPlanRedirectingModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanDigitPlanRedirectingModifyListRequest $request)
     {
@@ -213,7 +225,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanOriginatingGetListRequest $request
-     * @return GroupOutgoingCallingPlanOriginatingGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanOriginatingGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanOriginatingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanOriginatingGetListRequest $request)
     {
@@ -222,7 +235,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanOriginatingModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanOriginatingModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanOriginatingModifyListRequest $request)
     {
@@ -231,7 +245,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPatternAddRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPatternAddRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPatternAddRequest $request)
     {
@@ -240,7 +255,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest $request)
     {
@@ -249,7 +265,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPatternGetListRequest $request
-     * @return GroupOutgoingCallingPlanPinholeDigitPatternGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanPinholeDigitPatternGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPatternGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPatternGetListRequest $request)
     {
@@ -258,7 +275,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPatternModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest $request)
     {
@@ -267,7 +285,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest $request
-     * @return GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest $request)
     {
@@ -276,7 +295,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyListRequest $request)
     {
@@ -285,7 +305,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListRequest $request
-     * @return GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPlanOriginatingGetListRequest $request)
     {
@@ -294,7 +315,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest $request)
     {
@@ -303,7 +325,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest $request
-     * @return GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest $request)
     {
@@ -312,7 +335,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest $request)
     {
@@ -321,7 +345,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanRedirectedGetListRequest $request
-     * @return GroupOutgoingCallingPlanRedirectedGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanRedirectedGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanRedirectedGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanRedirectedGetListRequest $request)
     {
@@ -330,7 +355,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanRedirectedModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanRedirectedModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanRedirectedModifyListRequest $request)
     {
@@ -339,7 +365,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanRedirectingGetListRequest $request
-     * @return GroupOutgoingCallingPlanRedirectingGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanRedirectingGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanRedirectingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanRedirectingGetListRequest $request)
     {
@@ -348,7 +375,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanRedirectingModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanRedirectingModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanRedirectingModifyListRequest $request)
     {
@@ -357,7 +385,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanTransferNumbersGetListRequest $request
-     * @return GroupOutgoingCallingPlanTransferNumbersGetListResponse|ErrorResponse
+     * @return GroupOutgoingCallingPlanTransferNumbersGetListResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanTransferNumbersGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanTransferNumbersGetListRequest $request)
     {
@@ -366,7 +395,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param GroupOutgoingCallingPlanTransferNumbersModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupOutgoingCallingPlanTransferNumbersModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupOutgoingCallingPlanTransferNumbersModifyListRequest $request)
     {
@@ -375,7 +405,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanCallTypeAddMappingRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOutgoingCallingPlanCallTypeAddMappingRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeAddMappingRequest $request)
     {
@@ -384,7 +415,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanCallTypeDeleteMappingRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOutgoingCallingPlanCallTypeDeleteMappingRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeDeleteMappingRequest $request)
     {
@@ -393,7 +425,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanCallTypeGetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function systemOutgoingCallingPlanCallTypeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeGetListRequest $request)
     {
@@ -402,7 +435,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanCallTypeGetMappingListRequest $request
-     * @return SystemOutgoingCallingPlanCallTypeGetMappingListResponse|ErrorResponse
+     * @return SystemOutgoingCallingPlanCallTypeGetMappingListResponse
+     * @throws ErrorResponseException
      */
     public function systemOutgoingCallingPlanCallTypeGetMappingListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanCallTypeGetMappingListRequest $request)
     {
@@ -411,7 +445,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanGetRequest17sp3 $request
-     * @return SystemOutgoingCallingPlanGetResponse17sp3|ErrorResponse
+     * @return SystemOutgoingCallingPlanGetResponse17sp3
+     * @throws ErrorResponseException
      */
     public function systemOutgoingCallingPlanGetRequest17sp3(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanGetRequest17sp3 $request)
     {
@@ -420,7 +455,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param SystemOutgoingCallingPlanModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemOutgoingCallingPlanModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemOutgoingCallingPlanModifyRequest $request)
     {
@@ -429,7 +465,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanAuthorizationCodeAddListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanAuthorizationCodeAddListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanAuthorizationCodeAddListRequest $request)
     {
@@ -438,7 +475,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanAuthorizationCodeDeleteListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest $request)
     {
@@ -447,7 +485,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanAuthorizationCodeGetListRequest $request
-     * @return UserOutgoingCallingPlanAuthorizationCodeGetListResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanAuthorizationCodeGetListResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanAuthorizationCodeGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanAuthorizationCodeGetListRequest $request)
     {
@@ -456,7 +495,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanAuthorizationCodeGetRequest $request
-     * @return UserOutgoingCallingPlanAuthorizationCodeGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanAuthorizationCodeGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanAuthorizationCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanAuthorizationCodeGetRequest $request)
     {
@@ -465,7 +505,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanAuthorizationCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanAuthorizationCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanAuthorizationCodeModifyRequest $request)
     {
@@ -474,7 +515,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanCallMeNowGetRequest $request
-     * @return UserOutgoingCallingPlanCallMeNowGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanCallMeNowGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanCallMeNowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanCallMeNowGetRequest $request)
     {
@@ -483,7 +525,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanCallMeNowModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanCallMeNowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanCallMeNowModifyRequest $request)
     {
@@ -492,7 +535,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanDigitPlanCallMeNowGetRequest $request
-     * @return UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanDigitPlanCallMeNowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanDigitPlanCallMeNowGetRequest $request)
     {
@@ -501,7 +545,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanDigitPlanCallMeNowModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanDigitPlanCallMeNowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanDigitPlanCallMeNowModifyRequest $request)
     {
@@ -510,7 +555,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanDigitPlanOriginatingGetRequest $request
-     * @return UserOutgoingCallingPlanDigitPlanOriginatingGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanDigitPlanOriginatingGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanDigitPlanOriginatingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanDigitPlanOriginatingGetRequest $request)
     {
@@ -519,7 +565,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanDigitPlanOriginatingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest $request)
     {
@@ -528,7 +575,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanDigitPlanRedirectingGetRequest $request
-     * @return UserOutgoingCallingPlanDigitPlanRedirectingGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanDigitPlanRedirectingGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanDigitPlanRedirectingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanDigitPlanRedirectingGetRequest $request)
     {
@@ -537,7 +585,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanDigitPlanRedirectingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanDigitPlanRedirectingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanDigitPlanRedirectingModifyRequest $request)
     {
@@ -546,7 +595,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanOriginatingGetRequest $request
-     * @return UserOutgoingCallingPlanOriginatingGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanOriginatingGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanOriginatingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanOriginatingGetRequest $request)
     {
@@ -555,7 +605,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanOriginatingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanOriginatingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanOriginatingModifyRequest $request)
     {
@@ -564,7 +615,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest $request
-     * @return UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanCallMeNowGetRequest $request)
     {
@@ -573,7 +625,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyRequest $request)
     {
@@ -582,7 +635,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest $request
-     * @return UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest $request)
     {
@@ -591,7 +645,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanOriginatingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanPinholeDigitPlanOriginatingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanOriginatingModifyRequest $request)
     {
@@ -600,7 +655,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetRequest $request
-     * @return UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanPinholeDigitPlanRedirectingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetRequest $request)
     {
@@ -609,7 +665,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanPinholeDigitPlanRedirectingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanPinholeDigitPlanRedirectingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanPinholeDigitPlanRedirectingModifyRequest $request)
     {
@@ -618,7 +675,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanRedirectedGetRequest $request
-     * @return UserOutgoingCallingPlanRedirectedGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanRedirectedGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanRedirectedGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanRedirectedGetRequest $request)
     {
@@ -627,7 +685,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanRedirectedModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanRedirectedModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanRedirectedModifyRequest $request)
     {
@@ -636,7 +695,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanRedirectingGetRequest $request
-     * @return UserOutgoingCallingPlanRedirectingGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanRedirectingGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanRedirectingGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanRedirectingGetRequest $request)
     {
@@ -645,7 +705,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanRedirectingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanRedirectingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanRedirectingModifyRequest $request)
     {
@@ -654,7 +715,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest $request
-     * @return UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanSustainedAuthorizationCodeGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest $request)
     {
@@ -663,7 +725,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest $request)
     {
@@ -672,7 +735,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanTransferNumbersGetRequest $request
-     * @return UserOutgoingCallingPlanTransferNumbersGetResponse|ErrorResponse
+     * @return UserOutgoingCallingPlanTransferNumbersGetResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanTransferNumbersGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersGetRequest $request)
     {
@@ -681,7 +745,8 @@ trait OCISchemaServiceOutgoingCallingPlan
 
     /**
      * @param UserOutgoingCallingPlanTransferNumbersModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userOutgoingCallingPlanTransferNumbersModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserOutgoingCallingPlanTransferNumbersModifyRequest $request)
     {

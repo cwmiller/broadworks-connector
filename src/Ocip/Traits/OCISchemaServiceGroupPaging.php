@@ -30,15 +30,16 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacit
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceGroupPaging
 {
 
     /**
      * @param GroupGroupPagingAddInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingAddInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingAddInstanceRequest $request)
     {
@@ -47,7 +48,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingAddOriginatorListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingAddOriginatorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingAddOriginatorListRequest $request)
     {
@@ -56,7 +58,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingAddTargetListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingAddTargetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingAddTargetListRequest $request)
     {
@@ -65,7 +68,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingDeleteInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingDeleteInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingDeleteInstanceRequest $request)
     {
@@ -74,7 +78,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingDeleteOriginatorListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingDeleteOriginatorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingDeleteOriginatorListRequest $request)
     {
@@ -83,7 +88,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingDeleteTargetListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingDeleteTargetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingDeleteTargetListRequest $request)
     {
@@ -92,7 +98,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetAvailableOriginatorListRequest $request
-     * @return GroupGroupPagingGetAvailableOriginatorListResponse|ErrorResponse
+     * @return GroupGroupPagingGetAvailableOriginatorListResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingGetAvailableOriginatorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetAvailableOriginatorListRequest $request)
     {
@@ -101,7 +108,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetAvailableTargetListRequest $request
-     * @return GroupGroupPagingGetAvailableTargetListResponse|ErrorResponse
+     * @return GroupGroupPagingGetAvailableTargetListResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingGetAvailableTargetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetAvailableTargetListRequest $request)
     {
@@ -110,7 +118,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetInstanceListRequest $request
-     * @return GroupGroupPagingGetInstanceListResponse|ErrorResponse
+     * @return GroupGroupPagingGetInstanceListResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingGetInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceListRequest $request)
     {
@@ -119,7 +128,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetInstanceRequest19sp1 $request
-     * @return GroupGroupPagingGetInstanceResponse19sp1|ErrorResponse
+     * @return GroupGroupPagingGetInstanceResponse19sp1
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingGetInstanceRequest19sp1(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetInstanceRequest19sp1 $request)
     {
@@ -128,7 +138,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetOriginatorListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingGetOriginatorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetOriginatorListRequest $request)
     {
@@ -137,7 +148,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingGetTargetListRequest $request
-     * @return
+     * @return 
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingGetTargetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingGetTargetListRequest $request)
     {
@@ -146,7 +158,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingModifyActiveInstanceListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingModifyActiveInstanceListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyActiveInstanceListRequest $request)
     {
@@ -155,7 +168,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingModifyInstanceRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingModifyInstanceRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyInstanceRequest $request)
     {
@@ -164,7 +178,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingModifyOriginatorListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingModifyOriginatorListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyOriginatorListRequest $request)
     {
@@ -173,7 +188,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingModifyTargetListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingModifyTargetListRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingModifyTargetListRequest $request)
     {
@@ -183,6 +199,7 @@ trait OCISchemaServiceGroupPaging
     /**
      * @param GroupGroupPagingTargetsCapacityGetRequest $request
      * @return GroupGroupPagingTargetsCapacityGetResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingTargetsCapacityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityGetRequest $request)
     {
@@ -191,7 +208,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param GroupGroupPagingTargetsCapacityModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function groupGroupPagingTargetsCapacityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\GroupGroupPagingTargetsCapacityModifyRequest $request)
     {
@@ -201,6 +219,7 @@ trait OCISchemaServiceGroupPaging
     /**
      * @param ServiceProviderGroupPagingTargetsCapacityGetRequest $request
      * @return ServiceProviderGroupPagingTargetsCapacityGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderGroupPagingTargetsCapacityGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityGetRequest $request)
     {
@@ -209,7 +228,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param ServiceProviderGroupPagingTargetsCapacityModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderGroupPagingTargetsCapacityModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGroupPagingTargetsCapacityModifyRequest $request)
     {
@@ -218,7 +238,8 @@ trait OCISchemaServiceGroupPaging
 
     /**
      * @param UserGroupPagingGetListRequest $request
-     * @return UserGroupPagingGetListResponse|ErrorResponse
+     * @return UserGroupPagingGetListResponse
+     * @throws ErrorResponseException
      */
     public function userGroupPagingGetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserGroupPagingGetListRequest $request)
     {

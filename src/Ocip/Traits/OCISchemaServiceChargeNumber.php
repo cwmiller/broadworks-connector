@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserChargeNumberGetRequest14sp9;
 use CWM\BroadWorksConnector\Ocip\Models\UserChargeNumberGetResponse14sp9;
 use CWM\BroadWorksConnector\Ocip\Models\UserChargeNumberModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceChargeNumber
 {
 
     /**
      * @param UserChargeNumberGetRequest14sp9 $request
-     * @return UserChargeNumberGetResponse14sp9|ErrorResponse
+     * @return UserChargeNumberGetResponse14sp9
+     * @throws ErrorResponseException
      */
     public function userChargeNumberGetRequest14sp9(\CWM\BroadWorksConnector\Ocip\Models\UserChargeNumberGetRequest14sp9 $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceChargeNumber
 
     /**
      * @param UserChargeNumberModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userChargeNumberModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserChargeNumberModifyRequest $request)
     {

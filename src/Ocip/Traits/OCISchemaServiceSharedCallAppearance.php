@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyEndpointRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSharedCallAppearance
 {
 
     /**
      * @param UserSharedCallAppearanceAddEndpointRequest14sp2 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceAddEndpointRequest14sp2(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceAddEndpointRequest14sp2 $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServiceSharedCallAppearance
 
     /**
      * @param UserSharedCallAppearanceDeleteEndpointListRequest14 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceDeleteEndpointListRequest14(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceDeleteEndpointListRequest14 $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServiceSharedCallAppearance
 
     /**
      * @param UserSharedCallAppearanceGetEndpointRequest $request
-     * @return UserSharedCallAppearanceGetEndpointResponse|ErrorResponse
+     * @return UserSharedCallAppearanceGetEndpointResponse
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceGetEndpointRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetEndpointRequest $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServiceSharedCallAppearance
 
     /**
      * @param UserSharedCallAppearanceGetRequest21sp1 $request
-     * @return UserSharedCallAppearanceGetResponse21sp1|ErrorResponse
+     * @return UserSharedCallAppearanceGetResponse21sp1
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceGetRequest21sp1(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceGetRequest21sp1 $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServiceSharedCallAppearance
 
     /**
      * @param UserSharedCallAppearanceModifyEndpointRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceModifyEndpointRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyEndpointRequest $request)
     {
@@ -63,7 +68,8 @@ trait OCISchemaServiceSharedCallAppearance
 
     /**
      * @param UserSharedCallAppearanceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSharedCallAppearanceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSharedCallAppearanceModifyRequest $request)
     {

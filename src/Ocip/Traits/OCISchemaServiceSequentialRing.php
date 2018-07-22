@@ -10,15 +10,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSequentialRing
 {
 
     /**
      * @param UserSequentialRingAddCriteriaRequest16 $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSequentialRingAddCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingAddCriteriaRequest16 $request)
     {
@@ -27,7 +28,8 @@ trait OCISchemaServiceSequentialRing
 
     /**
      * @param UserSequentialRingDeleteCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSequentialRingDeleteCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingDeleteCriteriaRequest $request)
     {
@@ -36,7 +38,8 @@ trait OCISchemaServiceSequentialRing
 
     /**
      * @param UserSequentialRingGetCriteriaRequest16 $request
-     * @return UserSequentialRingGetCriteriaResponse16|ErrorResponse
+     * @return UserSequentialRingGetCriteriaResponse16
+     * @throws ErrorResponseException
      */
     public function userSequentialRingGetCriteriaRequest16(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetCriteriaRequest16 $request)
     {
@@ -45,7 +48,8 @@ trait OCISchemaServiceSequentialRing
 
     /**
      * @param UserSequentialRingGetRequest14sp4 $request
-     * @return UserSequentialRingGetResponse14sp4|ErrorResponse
+     * @return UserSequentialRingGetResponse14sp4
+     * @throws ErrorResponseException
      */
     public function userSequentialRingGetRequest14sp4(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingGetRequest14sp4 $request)
     {
@@ -54,7 +58,8 @@ trait OCISchemaServiceSequentialRing
 
     /**
      * @param UserSequentialRingModifyCriteriaRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSequentialRingModifyCriteriaRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyCriteriaRequest $request)
     {
@@ -63,7 +68,8 @@ trait OCISchemaServiceSequentialRing
 
     /**
      * @param UserSequentialRingModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSequentialRingModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSequentialRingModifyRequest $request)
     {

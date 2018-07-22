@@ -11,8 +11,8 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceMaliciousCallTrace
 {
@@ -20,6 +20,7 @@ trait OCISchemaServiceMaliciousCallTrace
     /**
      * @param ServiceProviderMaliciousCallTraceGetRequest $request
      * @return ServiceProviderMaliciousCallTraceGetResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderMaliciousCallTraceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMaliciousCallTraceGetRequest $request)
     {
@@ -28,7 +29,8 @@ trait OCISchemaServiceMaliciousCallTrace
 
     /**
      * @param ServiceProviderMaliciousCallTraceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function serviceProviderMaliciousCallTraceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderMaliciousCallTraceModifyRequest $request)
     {
@@ -38,6 +40,7 @@ trait OCISchemaServiceMaliciousCallTrace
     /**
      * @param SystemMaliciousCallTraceGetRequest $request
      * @return SystemMaliciousCallTraceGetResponse
+     * @throws ErrorResponseException
      */
     public function systemMaliciousCallTraceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceGetRequest $request)
     {
@@ -46,7 +49,8 @@ trait OCISchemaServiceMaliciousCallTrace
 
     /**
      * @param SystemMaliciousCallTraceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemMaliciousCallTraceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemMaliciousCallTraceModifyRequest $request)
     {
@@ -56,6 +60,7 @@ trait OCISchemaServiceMaliciousCallTrace
     /**
      * @param UserMaliciousCallTraceGetRequest $request
      * @return UserMaliciousCallTraceGetResponse
+     * @throws ErrorResponseException
      */
     public function userMaliciousCallTraceGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceGetRequest $request)
     {
@@ -64,7 +69,8 @@ trait OCISchemaServiceMaliciousCallTrace
 
     /**
      * @param UserMaliciousCallTraceModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userMaliciousCallTraceModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserMaliciousCallTraceModifyRequest $request)
     {

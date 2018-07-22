@@ -19,15 +19,16 @@ use CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskGetServerListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskGetServerListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSMDIMessageDesk
 {
 
     /**
      * @param SystemSMDIMessageDeskAddServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskAddServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskAddServerRequest $request)
     {
@@ -36,7 +37,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskAddServerRouteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskAddServerRouteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskAddServerRouteRequest $request)
     {
@@ -45,7 +47,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskDeleteServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskDeleteServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskDeleteServerRequest $request)
     {
@@ -54,7 +57,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskDeleteServerRouteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskDeleteServerRouteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskDeleteServerRouteRequest $request)
     {
@@ -63,7 +67,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskGetServerListRequest $request
-     * @return SystemSMDIMessageDeskGetServerListResponse|ErrorResponse
+     * @return SystemSMDIMessageDeskGetServerListResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskGetServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskGetServerListRequest $request)
     {
@@ -72,7 +77,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskGetServerRouteListRequest $request
-     * @return SystemSMDIMessageDeskGetServerRouteListResponse|ErrorResponse
+     * @return SystemSMDIMessageDeskGetServerRouteListResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskGetServerRouteListRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskGetServerRouteListRequest $request)
     {
@@ -81,7 +87,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskModifyServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskModifyServerRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRequest $request)
     {
@@ -90,7 +97,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param SystemSMDIMessageDeskModifyServerRouteRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function systemSMDIMessageDeskModifyServerRouteRequest(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequest $request)
     {
@@ -99,7 +107,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param UserSMDIMessageDeskAddServerRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSMDIMessageDeskAddServerRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskAddServerRequest $request)
     {
@@ -108,7 +117,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param UserSMDIMessageDeskDeleteServerListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSMDIMessageDeskDeleteServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskDeleteServerListRequest $request)
     {
@@ -117,7 +127,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param UserSMDIMessageDeskGetRequest $request
-     * @return UserSMDIMessageDeskGetResponse|ErrorResponse
+     * @return UserSMDIMessageDeskGetResponse
+     * @throws ErrorResponseException
      */
     public function userSMDIMessageDeskGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskGetRequest $request)
     {
@@ -126,7 +137,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param UserSMDIMessageDeskGetServerListRequest $request
-     * @return UserSMDIMessageDeskGetServerListResponse|ErrorResponse
+     * @return UserSMDIMessageDeskGetServerListResponse
+     * @throws ErrorResponseException
      */
     public function userSMDIMessageDeskGetServerListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskGetServerListRequest $request)
     {
@@ -135,7 +147,8 @@ trait OCISchemaServiceSMDIMessageDesk
 
     /**
      * @param UserSMDIMessageDeskModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSMDIMessageDeskModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSMDIMessageDeskModifyRequest $request)
     {

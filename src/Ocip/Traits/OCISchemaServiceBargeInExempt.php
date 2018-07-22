@@ -5,8 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptModifyRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceBargeInExempt
 {
@@ -14,6 +14,7 @@ trait OCISchemaServiceBargeInExempt
     /**
      * @param UserBargeInExemptGetRequest $request
      * @return UserBargeInExemptGetResponse
+     * @throws ErrorResponseException
      */
     public function userBargeInExemptGetRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptGetRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceBargeInExempt
 
     /**
      * @param UserBargeInExemptModifyRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userBargeInExemptModifyRequest(\CWM\BroadWorksConnector\Ocip\Models\UserBargeInExemptModifyRequest $request)
     {

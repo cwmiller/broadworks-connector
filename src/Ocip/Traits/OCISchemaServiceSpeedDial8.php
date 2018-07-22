@@ -5,15 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Traits;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial8GetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial8GetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial8ModifyListRequest;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 
 trait OCISchemaServiceSpeedDial8
 {
 
     /**
      * @param UserSpeedDial8GetListRequest $request
-     * @return UserSpeedDial8GetListResponse|ErrorResponse
+     * @return UserSpeedDial8GetListResponse
+     * @throws ErrorResponseException
      */
     public function userSpeedDial8GetListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial8GetListRequest $request)
     {
@@ -22,7 +23,8 @@ trait OCISchemaServiceSpeedDial8
 
     /**
      * @param UserSpeedDial8ModifyListRequest $request
-     * @return SuccessResponse|ErrorResponse
+     * @return SuccessResponse
+     * @throws ErrorResponseException
      */
     public function userSpeedDial8ModifyListRequest(\CWM\BroadWorksConnector\Ocip\Models\UserSpeedDial8ModifyListRequest $request)
     {

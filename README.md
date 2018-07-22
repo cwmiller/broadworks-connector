@@ -15,7 +15,7 @@ composer require cwm/broadworks-connector
 <?php
 use CWM\BroadWorksConnector\Ocip\Models\UserGetListInGroupRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserGetListInGroupResponse;
-use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
+use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
 use CWM\BroadWorksConnector\OcipClient;
 
 require __DIR__ . '/vendor/autoload.php';
@@ -32,17 +32,15 @@ $request1 = (new UserGetListInGroupRequest())
     ->setServiceProviderId('test-service-provider')
     ->setGroupId('test-group');
 
-$response = $ocip->userGetListInGroupRequest($request1);
-
-// Response will either be the object corresponding to your request or ErrorResponse if there was an error with your input.
-
-if ($response instanceof ErrorResponse) {
-    echo $response->getSummary() . PHP_EOL;
+try {
+    $response = $ocip->userGetListInGroupRequest($request1);
+    
+    foreach ($response->getUserTable()->getRow() as $row) {
+        echo $row->getCol()[0] . PHP_EOL;
+    }
+} catch (ErrorResponseException $e) {
+    echo $e->getMessage() . PHP_EOL;
     exit();
-} 
-
-foreach ($response->getUserTable()->getRow() as $row) {
-    echo $row->getCol()[0] . PHP_EOL;
 }
 
 // Multiple requests can be executed in a single call to the API too via the callAll method.
@@ -50,14 +48,18 @@ foreach ($response->getUserTable()->getRow() as $row) {
 $request2 = (new UserGetListInGroupRequest())
     ->setServiceProviderId('test-service-provider')
     ->setGroupId('another-test-group');
-    
-$responses = $ocip->callAll([$request1, $request2]);
 
-foreach ($responses as $response) {
-    if ($response instanceof UserGetListInGroupResponse) {
+try {
+    /** @var UserGetListInGroupResponse[] $responses */
+    $responses = $ocip->callAll([$request1, $request2]);
+    
+    foreach ($responses as $response) {
         foreach ($response->getUserTable()->getRow() as $row) {
             echo $row->getCol()[0] . PHP_EOL;
         }
-    } 
+    }
+} catch (ErrorResponseException $e) {
+    echo $e->getMessage() . PHP_EOL;
+    exit();
 }
 ```

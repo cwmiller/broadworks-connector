@@ -105,7 +105,7 @@ class XmlUtils
                                     $value = (string)$value;
                                 }
 
-                                $child->textContent = $value;
+                                $child->appendChild($document->createTextNode($value));
                             }
 
                             $element->appendChild($child);

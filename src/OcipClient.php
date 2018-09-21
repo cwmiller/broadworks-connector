@@ -476,11 +476,8 @@ class OcipClient
         $document->appendChild($broadsoftDocument);
 
         foreach ($commands as $command) {
-            $refClass = new ReflectionClass($command);
-
             $commandElement = $document->createElement('command');
             $commandElement->setAttribute('xmlns', '');
-            $commandElement->setAttribute('xsi:type', $refClass->getShortName());
 
             $broadsoftDocument->appendChild($commandElement);
 

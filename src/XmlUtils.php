@@ -72,6 +72,10 @@ class XmlUtils
     {
         $ref = new ReflectionClass($obj);
 
+        if (self::extendsAbstract($ref)) {
+            $element->setAttribute('xsi:type', $ref->getShortName());
+        }
+
         foreach ($ref->getMethods() as $method) {
             $methodName = $method->getName();
             if (strpos($methodName, 'get') === 0) {
@@ -142,5 +146,22 @@ class XmlUtils
             'bool',
             'float'
         ], true);
+    }
+
+    /**
+     * @param ReflectionClass $class
+     * @return bool
+     */
+    private static function extendsAbstract(ReflectionClass $class)
+    {
+        $abstract = false;
+
+        if ($class->isAbstract()) {
+            $abstract = true;
+        } else if ($parent = $class->getParentClass()) {
+            $abstract = self::extendsAbstract($parent);
+        }
+
+        return $abstract;
     }
 }

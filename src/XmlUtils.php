@@ -51,7 +51,21 @@ class XmlUtils
                     if (count($types) > 0) {
                         $type = array_pop($types);
                         if (self::isScalar($type)) {
-                            $setter->invoke($class, $childElement->nodeValue);
+                            switch ($type) {
+                                case 'int':
+                                    $nodeValue = (int)$childElement->nodeValue;
+                                    break;
+                                case 'bool':
+                                    $nodeValue = $childElement->nodeValue === 'true';
+                                    break;
+                                case 'float':
+                                    $nodeValue = (float)$childElement->nodeValue;
+                                    break;
+                                default:
+                                    $nodeValue = (string)$childElement->nodeValue;
+                            }
+
+                            $setter->invoke($class, $nodeValue);
                         } else {
                             $setter->invoke($class, self::fromXml($childElement, $type, $baseNamespace));
                         }

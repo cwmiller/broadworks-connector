@@ -19,7 +19,7 @@ class IncomingCallingPlanPermissions
 
     /**
      * @ElementName allowFromOutsideGroup
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     private $allowFromOutsideGroup = null;
 
@@ -65,7 +65,7 @@ class IncomingCallingPlanPermissions
      * Getter for allowFromOutsideGroup
      *
      * @ElementName allowFromOutsideGroup
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     public function getAllowFromOutsideGroup()
     {
@@ -76,10 +76,10 @@ class IncomingCallingPlanPermissions
      * Setter for allowFromOutsideGroup
      *
      * @ElementName allowFromOutsideGroup
-     * @param string|null $allowFromOutsideGroup
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null $allowFromOutsideGroup
      * @return $this
      */
-    public function setAllowFromOutsideGroup($allowFromOutsideGroup)
+    public function setAllowFromOutsideGroup(\CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission $allowFromOutsideGroup)
     {
         $this->allowFromOutsideGroup = $allowFromOutsideGroup;
         return $this;
@@ -127,7 +127,7 @@ class IncomingCallingPlanPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[] $digitPatternPermission
      * @return $this
      */
-    public function setDigitPatternPermission($digitPatternPermission)
+    public function setDigitPatternPermission(array $digitPatternPermission)
     {
         $this->digitPatternPermission = $digitPatternPermission;
         return $this;

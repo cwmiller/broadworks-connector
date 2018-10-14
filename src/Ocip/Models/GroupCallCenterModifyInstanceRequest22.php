@@ -28,19 +28,19 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $type = null;
 
     /**
      * @ElementName routingType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType|null
      */
     private $routingType = null;
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -130,7 +130,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName agentStateAfterCall
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     private $agentStateAfterCall = null;
 
@@ -142,13 +142,13 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName externalPreferredAudioCodec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $externalPreferredAudioCodec = null;
 
     /**
      * @ElementName internalPreferredAudioCodec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $internalPreferredAudioCodec = null;
 
@@ -206,7 +206,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -216,7 +216,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     public function getType()
     {
@@ -227,10 +227,10 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterType $type)
     {
         $this->type = $type;
         return $this;
@@ -240,7 +240,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for routingType
      *
      * @ElementName routingType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType|null
      */
     public function getRoutingType()
     {
@@ -251,10 +251,10 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for routingType
      *
      * @ElementName routingType
-     * @param string|null $routingType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType|null $routingType
      * @return $this
      */
-    public function setRoutingType($routingType)
+    public function setRoutingType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingType $routingType)
     {
         $this->routingType = $routingType;
         return $this;
@@ -264,7 +264,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -275,10 +275,10 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -624,7 +624,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for agentStateAfterCall
      *
      * @ElementName agentStateAfterCall
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     public function getAgentStateAfterCall()
     {
@@ -635,10 +635,10 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for agentStateAfterCall
      *
      * @ElementName agentStateAfterCall
-     * @param string|null $agentStateAfterCall
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null $agentStateAfterCall
      * @return $this
      */
-    public function setAgentStateAfterCall($agentStateAfterCall)
+    public function setAgentStateAfterCall(\CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall)
     {
         $this->agentStateAfterCall = $agentStateAfterCall;
         return $this;
@@ -672,7 +672,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for externalPreferredAudioCodec
      *
      * @ElementName externalPreferredAudioCodec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     public function getExternalPreferredAudioCodec()
     {
@@ -683,10 +683,10 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for externalPreferredAudioCodec
      *
      * @ElementName externalPreferredAudioCodec
-     * @param string|null $externalPreferredAudioCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null $externalPreferredAudioCodec
      * @return $this
      */
-    public function setExternalPreferredAudioCodec($externalPreferredAudioCodec)
+    public function setExternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22 $externalPreferredAudioCodec)
     {
         $this->externalPreferredAudioCodec = $externalPreferredAudioCodec;
         return $this;
@@ -696,7 +696,7 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for internalPreferredAudioCodec
      *
      * @ElementName internalPreferredAudioCodec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     public function getInternalPreferredAudioCodec()
     {
@@ -707,10 +707,10 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for internalPreferredAudioCodec
      *
      * @ElementName internalPreferredAudioCodec
-     * @param string|null $internalPreferredAudioCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null $internalPreferredAudioCodec
      * @return $this
      */
-    public function setInternalPreferredAudioCodec($internalPreferredAudioCodec)
+    public function setInternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22 $internalPreferredAudioCodec)
     {
         $this->internalPreferredAudioCodec = $internalPreferredAudioCodec;
         return $this;

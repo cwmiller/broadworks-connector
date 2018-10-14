@@ -83,7 +83,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null $businessHoursMenu
      * @return $this
      */
-    public function setBusinessHoursMenu($businessHoursMenu)
+    public function setBusinessHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $businessHoursMenu)
     {
         $this->businessHoursMenu = $businessHoursMenu;
         return $this;
@@ -107,7 +107,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null $afterHoursMenu
      * @return $this
      */
-    public function setAfterHoursMenu($afterHoursMenu)
+    public function setAfterHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $afterHoursMenu)
     {
         $this->afterHoursMenu = $afterHoursMenu;
         return $this;
@@ -131,7 +131,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null $holidayMenu
      * @return $this
      */
-    public function setHolidayMenu($holidayMenu)
+    public function setHolidayMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $holidayMenu)
     {
         $this->holidayMenu = $holidayMenu;
         return $this;

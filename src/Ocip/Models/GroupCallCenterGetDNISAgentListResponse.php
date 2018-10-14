@@ -39,7 +39,7 @@ class GroupCallCenterGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentTable
      * @return $this
      */
-    public function setAgentTable($agentTable)
+    public function setAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentTable)
     {
         $this->agentTable = $agentTable;
         return $this;

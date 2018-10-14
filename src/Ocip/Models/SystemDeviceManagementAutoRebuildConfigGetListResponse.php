@@ -44,7 +44,7 @@ class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $autoRebuildConfigTable
      * @return $this
      */
-    public function setAutoRebuildConfigTable($autoRebuildConfigTable)
+    public function setAutoRebuildConfigTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $autoRebuildConfigTable)
     {
         $this->autoRebuildConfigTable = $autoRebuildConfigTable;
         return $this;

@@ -71,7 +71,7 @@ class UserSpeedDial100ModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100EntryModify[] $speedDialEntry
      * @return $this
      */
-    public function setSpeedDialEntry($speedDialEntry)
+    public function setSpeedDialEntry(array $speedDialEntry)
     {
         $this->speedDialEntry = $speedDialEntry;
         return $this;

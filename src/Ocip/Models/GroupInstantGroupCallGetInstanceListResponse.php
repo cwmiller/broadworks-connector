@@ -40,7 +40,7 @@ class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $instantGroupCallTable
      * @return $this
      */
-    public function setInstantGroupCallTable($instantGroupCallTable)
+    public function setInstantGroupCallTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $instantGroupCallTable)
     {
         $this->instantGroupCallTable = $instantGroupCallTable;
         return $this;

@@ -23,7 +23,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName answerConfirmation
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     private $answerConfirmation = null;
 
@@ -61,7 +61,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Getter for answerConfirmation
      *
      * @ElementName answerConfirmation
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     public function getAnswerConfirmation()
     {
@@ -72,10 +72,10 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Setter for answerConfirmation
      *
      * @ElementName answerConfirmation
-     * @param string|null $answerConfirmation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null $answerConfirmation
      * @return $this
      */
-    public function setAnswerConfirmation($answerConfirmation)
+    public function setAnswerConfirmation(\CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation $answerConfirmation)
     {
         $this->answerConfirmation = $answerConfirmation;
         return $this;
@@ -99,7 +99,7 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

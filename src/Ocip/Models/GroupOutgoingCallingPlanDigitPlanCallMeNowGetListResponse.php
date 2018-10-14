@@ -44,7 +44,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null $groupPermissions
      * @return $this
      */
-    public function setGroupPermissions($groupPermissions)
+    public function setGroupPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions $groupPermissions)
     {
         $this->groupPermissions = $groupPermissions;
         return $this;
@@ -68,7 +68,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions[] $departmentPermissions
      * @return $this
      */
-    public function setDepartmentPermissions($departmentPermissions)
+    public function setDepartmentPermissions(array $departmentPermissions)
     {
         $this->departmentPermissions = $departmentPermissions;
         return $this;

@@ -38,7 +38,7 @@ class SimultaneousRingReplacementNumberList
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[] $simultaneousRingNumber
      * @return $this
      */
-    public function setSimultaneousRingNumber($simultaneousRingNumber)
+    public function setSimultaneousRingNumber(array $simultaneousRingNumber)
     {
         $this->simultaneousRingNumber = $simultaneousRingNumber;
         return $this;

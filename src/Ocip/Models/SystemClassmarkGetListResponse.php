@@ -38,7 +38,7 @@ class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $classmarkTable
      * @return $this
      */
-    public function setClassmarkTable($classmarkTable)
+    public function setClassmarkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $classmarkTable)
     {
         $this->classmarkTable = $classmarkTable;
         return $this;

@@ -49,7 +49,7 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $registrationsTable
      * @return $this
      */
-    public function setRegistrationsTable($registrationsTable)
+    public function setRegistrationsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $registrationsTable)
     {
         $this->registrationsTable = $registrationsTable;
         return $this;

@@ -28,7 +28,7 @@ class SystemCallProcessingPolicyProfileAddRequest20 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName assignedSubscriberType
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[]
      */
     private $assignedSubscriberType = array(
         
@@ -86,7 +86,7 @@ class SystemCallProcessingPolicyProfileAddRequest20 extends \CWM\BroadWorksConne
      * Getter for assignedSubscriberType
      *
      * @ElementName assignedSubscriberType
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[]
      */
     public function getAssignedSubscriberType()
     {
@@ -97,10 +97,10 @@ class SystemCallProcessingPolicyProfileAddRequest20 extends \CWM\BroadWorksConne
      * Setter for assignedSubscriberType
      *
      * @ElementName assignedSubscriberType
-     * @param string[] $assignedSubscriberType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[] $assignedSubscriberType
      * @return $this
      */
-    public function setAssignedSubscriberType($assignedSubscriberType)
+    public function setAssignedSubscriberType(array $assignedSubscriberType)
     {
         $this->assignedSubscriberType = $assignedSubscriberType;
         return $this;
@@ -110,7 +110,7 @@ class SystemCallProcessingPolicyProfileAddRequest20 extends \CWM\BroadWorksConne
      * Adder for assignedSubscriberType
      *
      * @ElementName assignedSubscriberType
-     * @param string $assignedSubscriberType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20 $assignedSubscriberType
      * @return $this
      */
     public function addAssignedSubscriberType($assignedSubscriberType)

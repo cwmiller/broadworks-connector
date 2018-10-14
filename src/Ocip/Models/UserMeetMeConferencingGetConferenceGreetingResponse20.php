@@ -67,7 +67,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $entranceGreetingFile
      * @return $this
      */
-    public function setEntranceGreetingFile($entranceGreetingFile)
+    public function setEntranceGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $entranceGreetingFile)
     {
         $this->entranceGreetingFile = $entranceGreetingFile;
         return $this;

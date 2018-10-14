@@ -22,7 +22,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
      */
     private $type = null;
 
@@ -60,7 +60,7 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
      */
     public function getType()
     {
@@ -71,10 +71,10 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\GETSNumberType $type)
     {
         $this->type = $type;
         return $this;

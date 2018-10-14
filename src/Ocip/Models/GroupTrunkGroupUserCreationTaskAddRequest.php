@@ -28,7 +28,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName userIdFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat|null
      */
     private $userIdFormat = null;
 
@@ -46,7 +46,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName linePortFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     private $linePortFormat = null;
 
@@ -64,7 +64,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName contactFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     private $contactFormat = null;
 
@@ -76,13 +76,13 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName userPhoneNumbers
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest\UserPhoneNumbers|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers|null
      */
     private $userPhoneNumbers = null;
 
     /**
      * @ElementName userExtensions
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest\UserExtensions|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserExtensions|null
      */
     private $userExtensions = null;
 
@@ -96,7 +96,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName userService
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userService = array(
         
@@ -154,7 +154,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Getter for userIdFormat
      *
      * @ElementName userIdFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat|null
      */
     public function getUserIdFormat()
     {
@@ -165,10 +165,10 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Setter for userIdFormat
      *
      * @ElementName userIdFormat
-     * @param string|null $userIdFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat|null $userIdFormat
      * @return $this
      */
-    public function setUserIdFormat($userIdFormat)
+    public function setUserIdFormat(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat $userIdFormat)
     {
         $this->userIdFormat = $userIdFormat;
         return $this;
@@ -226,7 +226,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Getter for linePortFormat
      *
      * @ElementName linePortFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     public function getLinePortFormat()
     {
@@ -237,10 +237,10 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Setter for linePortFormat
      *
      * @ElementName linePortFormat
-     * @param string|null $linePortFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null $linePortFormat
      * @return $this
      */
-    public function setLinePortFormat($linePortFormat)
+    public function setLinePortFormat(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat $linePortFormat)
     {
         $this->linePortFormat = $linePortFormat;
         return $this;
@@ -298,7 +298,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Getter for contactFormat
      *
      * @ElementName contactFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     public function getContactFormat()
     {
@@ -309,10 +309,10 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Setter for contactFormat
      *
      * @ElementName contactFormat
-     * @param string|null $contactFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null $contactFormat
      * @return $this
      */
-    public function setContactFormat($contactFormat)
+    public function setContactFormat(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat $contactFormat)
     {
         $this->contactFormat = $contactFormat;
         return $this;
@@ -346,7 +346,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Getter for userPhoneNumbers
      *
      * @ElementName userPhoneNumbers
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest\UserPhoneNumbers|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers|null
      */
     public function getUserPhoneNumbers()
     {
@@ -357,10 +357,10 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Setter for userPhoneNumbers
      *
      * @ElementName userPhoneNumbers
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest\UserPhoneNumbers|null $userPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers|null $userPhoneNumbers
      * @return $this
      */
-    public function setUserPhoneNumbers($userPhoneNumbers)
+    public function setUserPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserPhoneNumbers $userPhoneNumbers)
     {
         $this->userPhoneNumbers = $userPhoneNumbers;
         return $this;
@@ -370,7 +370,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Getter for userExtensions
      *
      * @ElementName userExtensions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest\UserExtensions|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserExtensions|null
      */
     public function getUserExtensions()
     {
@@ -381,10 +381,10 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Setter for userExtensions
      *
      * @ElementName userExtensions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequest\UserExtensions|null $userExtensions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserExtensions|null $userExtensions
      * @return $this
      */
-    public function setUserExtensions($userExtensions)
+    public function setUserExtensions(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupUserCreationTaskAddRequestUserExtensions $userExtensions)
     {
         $this->userExtensions = $userExtensions;
         return $this;
@@ -408,7 +408,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @param string[] $servicePackName
      * @return $this
      */
-    public function setServicePackName($servicePackName)
+    public function setServicePackName(array $servicePackName)
     {
         $this->servicePackName = $servicePackName;
         return $this;
@@ -421,7 +421,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * @param string $servicePackName
      * @return $this
      */
-    public function addServicePackName($servicePackName)
+    public function addServicePackName(string $servicePackName)
     {
         $this->servicePackName []= $servicePackName;
         return $this;
@@ -431,7 +431,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Getter for userService
      *
      * @ElementName userService
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getUserService()
     {
@@ -442,10 +442,10 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Setter for userService
      *
      * @ElementName userService
-     * @param string[] $userService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $userService
      * @return $this
      */
-    public function setUserService($userService)
+    public function setUserService(array $userService)
     {
         $this->userService = $userService;
         return $this;
@@ -455,7 +455,7 @@ class GroupTrunkGroupUserCreationTaskAddRequest extends \CWM\BroadWorksConnector
      * Adder for userService
      *
      * @ElementName userService
-     * @param string $userService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $userService
      * @return $this
      */
     public function addUserService($userService)

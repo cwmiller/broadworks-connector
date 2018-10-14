@@ -42,7 +42,7 @@ class SystemSIPDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTypeFilesTable
      * @return $this
      */
-    public function setDeviceTypeFilesTable($deviceTypeFilesTable)
+    public function setDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeFilesTable)
     {
         $this->deviceTypeFilesTable = $deviceTypeFilesTable;
         return $this;

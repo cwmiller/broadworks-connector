@@ -41,7 +41,7 @@ class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $usersUsingCarrierTable
      * @return $this
      */
-    public function setUsersUsingCarrierTable($usersUsingCarrierTable)
+    public function setUsersUsingCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usersUsingCarrierTable)
     {
         $this->usersUsingCarrierTable = $usersUsingCarrierTable;
         return $this;

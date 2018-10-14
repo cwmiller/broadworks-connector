@@ -28,7 +28,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName dnsResolvedAddressSelectionPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     private $dnsResolvedAddressSelectionPolicy = null;
 
@@ -102,7 +102,7 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for dnsResolvedAddressSelectionPolicy
      *
      * @ElementName dnsResolvedAddressSelectionPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     public function getDnsResolvedAddressSelectionPolicy()
     {
@@ -113,10 +113,10 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for dnsResolvedAddressSelectionPolicy
      *
      * @ElementName dnsResolvedAddressSelectionPolicy
-     * @param string|null $dnsResolvedAddressSelectionPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null $dnsResolvedAddressSelectionPolicy
      * @return $this
      */
-    public function setDnsResolvedAddressSelectionPolicy($dnsResolvedAddressSelectionPolicy)
+    public function setDnsResolvedAddressSelectionPolicy(\CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy $dnsResolvedAddressSelectionPolicy)
     {
         $this->dnsResolvedAddressSelectionPolicy = $dnsResolvedAddressSelectionPolicy;
         return $this;

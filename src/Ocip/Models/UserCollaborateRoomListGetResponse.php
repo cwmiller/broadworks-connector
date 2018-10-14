@@ -40,7 +40,7 @@ class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $roomInstanceTable
      * @return $this
      */
-    public function setRoomInstanceTable($roomInstanceTable)
+    public function setRoomInstanceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $roomInstanceTable)
     {
         $this->roomInstanceTable = $roomInstanceTable;
         return $this;

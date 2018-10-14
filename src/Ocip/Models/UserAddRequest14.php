@@ -504,7 +504,7 @@ class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -576,7 +576,7 @@ class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @param string[] $alias
      * @return $this
      */
-    public function setAlias($alias)
+    public function setAlias(array $alias)
     {
         $this->alias = $alias;
         return $this;
@@ -589,7 +589,7 @@ class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @param string $alias
      * @return $this
      */
-    public function addAlias($alias)
+    public function addAlias(string $alias)
     {
         $this->alias []= $alias;
         return $this;
@@ -613,7 +613,7 @@ class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;
@@ -637,7 +637,7 @@ class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointAdd|null $trunkGroupDeviceEndpoint
      * @return $this
      */
-    public function setTrunkGroupDeviceEndpoint($trunkGroupDeviceEndpoint)
+    public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointAdd $trunkGroupDeviceEndpoint)
     {
         $this->trunkGroupDeviceEndpoint = $trunkGroupDeviceEndpoint;
         return $this;
@@ -805,7 +805,7 @@ class UserAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;

@@ -68,7 +68,7 @@ class CPEDeviceModifyOptions16sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null $deviceManagementDeviceTypeOptions
      * @return $this
      */
-    public function setDeviceManagementDeviceTypeOptions($deviceManagementDeviceTypeOptions)
+    public function setDeviceManagementDeviceTypeOptions(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16 $deviceManagementDeviceTypeOptions)
     {
         $this->deviceManagementDeviceTypeOptions = $deviceManagementDeviceTypeOptions;
         return $this;

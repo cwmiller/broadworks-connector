@@ -60,7 +60,7 @@ class UserSelectiveCallRejectionGetCriteriaListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

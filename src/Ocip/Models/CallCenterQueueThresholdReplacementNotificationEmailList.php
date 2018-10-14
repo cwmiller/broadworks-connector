@@ -37,7 +37,7 @@ class CallCenterQueueThresholdReplacementNotificationEmailList
      * @param string[] $emailAddress
      * @return $this
      */
-    public function setEmailAddress($emailAddress)
+    public function setEmailAddress(array $emailAddress)
     {
         $this->emailAddress = $emailAddress;
         return $this;
@@ -50,7 +50,7 @@ class CallCenterQueueThresholdReplacementNotificationEmailList
      * @param string $emailAddress
      * @return $this
      */
-    public function addEmailAddress($emailAddress)
+    public function addEmailAddress(string $emailAddress)
     {
         $this->emailAddress []= $emailAddress;
         return $this;

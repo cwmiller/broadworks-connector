@@ -40,7 +40,7 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
      * @param int[] $portNumber
      * @return $this
      */
-    public function setPortNumber($portNumber)
+    public function setPortNumber(array $portNumber)
     {
         $this->portNumber = $portNumber;
         return $this;
@@ -53,7 +53,7 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
      * @param int $portNumber
      * @return $this
      */
-    public function addPortNumber($portNumber)
+    public function addPortNumber(int $portNumber)
     {
         $this->portNumber []= $portNumber;
         return $this;

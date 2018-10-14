@@ -115,7 +115,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
      * @return $this
      */
-    public function setResponsePagingControl($responsePagingControl)
+    public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
     {
         $this->responsePagingControl = $responsePagingControl;
         return $this;
@@ -139,7 +139,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber|null $sortByEnterpriseCommonPhoneListNumber
      * @return $this
      */
-    public function setSortByEnterpriseCommonPhoneListNumber($sortByEnterpriseCommonPhoneListNumber)
+    public function setSortByEnterpriseCommonPhoneListNumber(\CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber $sortByEnterpriseCommonPhoneListNumber)
     {
         $this->sortByEnterpriseCommonPhoneListNumber = $sortByEnterpriseCommonPhoneListNumber;
         return $this;
@@ -163,7 +163,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName|null $sortByEnterpriseCommonPhoneListName
      * @return $this
      */
-    public function setSortByEnterpriseCommonPhoneListName($sortByEnterpriseCommonPhoneListName)
+    public function setSortByEnterpriseCommonPhoneListName(\CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName $sortByEnterpriseCommonPhoneListName)
     {
         $this->sortByEnterpriseCommonPhoneListName = $sortByEnterpriseCommonPhoneListName;
         return $this;
@@ -211,7 +211,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[] $searchCriteriaEnterpriseCommonPhoneListName
      * @return $this
      */
-    public function setSearchCriteriaEnterpriseCommonPhoneListName($searchCriteriaEnterpriseCommonPhoneListName)
+    public function setSearchCriteriaEnterpriseCommonPhoneListName(array $searchCriteriaEnterpriseCommonPhoneListName)
     {
         $this->searchCriteriaEnterpriseCommonPhoneListName = $searchCriteriaEnterpriseCommonPhoneListName;
         return $this;
@@ -248,7 +248,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[] $searchCriteriaEnterpriseCommonPhoneListNumber
      * @return $this
      */
-    public function setSearchCriteriaEnterpriseCommonPhoneListNumber($searchCriteriaEnterpriseCommonPhoneListNumber)
+    public function setSearchCriteriaEnterpriseCommonPhoneListNumber(array $searchCriteriaEnterpriseCommonPhoneListNumber)
     {
         $this->searchCriteriaEnterpriseCommonPhoneListNumber = $searchCriteriaEnterpriseCommonPhoneListNumber;
         return $this;

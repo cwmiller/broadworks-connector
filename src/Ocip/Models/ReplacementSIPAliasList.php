@@ -38,7 +38,7 @@ class ReplacementSIPAliasList
      * @param string[] $sipAlias
      * @return $this
      */
-    public function setSipAlias($sipAlias)
+    public function setSipAlias(array $sipAlias)
     {
         $this->sipAlias = $sipAlias;
         return $this;
@@ -51,7 +51,7 @@ class ReplacementSIPAliasList
      * @param string $sipAlias
      * @return $this
      */
-    public function addSipAlias($sipAlias)
+    public function addSipAlias(string $sipAlias)
     {
         $this->sipAlias []= $sipAlias;
         return $this;

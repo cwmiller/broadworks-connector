@@ -45,7 +45,7 @@ class GroupDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupDeviceTypeCustomTagsTable
      * @return $this
      */
-    public function setGroupDeviceTypeCustomTagsTable($groupDeviceTypeCustomTagsTable)
+    public function setGroupDeviceTypeCustomTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeCustomTagsTable)
     {
         $this->groupDeviceTypeCustomTagsTable = $groupDeviceTypeCustomTagsTable;
         return $this;

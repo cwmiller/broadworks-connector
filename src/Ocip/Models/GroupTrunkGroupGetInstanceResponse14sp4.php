@@ -75,7 +75,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName capacityExceededAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     private $capacityExceededAction = null;
 
@@ -105,7 +105,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName unreachableDestinationAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     private $unreachableDestinationAction = null;
 
@@ -193,7 +193,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -217,7 +217,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -395,7 +395,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * Getter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     public function getCapacityExceededAction()
     {
@@ -406,10 +406,10 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * Setter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @param string|null $capacityExceededAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null $capacityExceededAction
      * @return $this
      */
-    public function setCapacityExceededAction($capacityExceededAction)
+    public function setCapacityExceededAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction $capacityExceededAction)
     {
         $this->capacityExceededAction = $capacityExceededAction;
         return $this;
@@ -457,7 +457,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $capacityExceededRerouteTrunkGroupKey
      * @return $this
      */
-    public function setCapacityExceededRerouteTrunkGroupKey($capacityExceededRerouteTrunkGroupKey)
+    public function setCapacityExceededRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $capacityExceededRerouteTrunkGroupKey)
     {
         $this->capacityExceededRerouteTrunkGroupKey = $capacityExceededRerouteTrunkGroupKey;
         return $this;
@@ -515,7 +515,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * Getter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     public function getUnreachableDestinationAction()
     {
@@ -526,10 +526,10 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * Setter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @param string|null $unreachableDestinationAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null $unreachableDestinationAction
      * @return $this
      */
-    public function setUnreachableDestinationAction($unreachableDestinationAction)
+    public function setUnreachableDestinationAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction $unreachableDestinationAction)
     {
         $this->unreachableDestinationAction = $unreachableDestinationAction;
         return $this;
@@ -577,7 +577,7 @@ class GroupTrunkGroupGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $unreachableDestinationRerouteTrunkGroupKey
      * @return $this
      */
-    public function setUnreachableDestinationRerouteTrunkGroupKey($unreachableDestinationRerouteTrunkGroupKey)
+    public function setUnreachableDestinationRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $unreachableDestinationRerouteTrunkGroupKey)
     {
         $this->unreachableDestinationRerouteTrunkGroupKey = $unreachableDestinationRerouteTrunkGroupKey;
         return $this;

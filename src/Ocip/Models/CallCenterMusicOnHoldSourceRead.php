@@ -12,19 +12,19 @@ class CallCenterMusicOnHoldSourceRead
 
     /**
      * @ElementName audioFilePreferredCodec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
 
     /**
      * @ElementName messageSourceSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead\CustomSource|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceReadCustomSource|null
      */
     private $customSource = null;
 
@@ -32,7 +32,7 @@ class CallCenterMusicOnHoldSourceRead
      * Getter for audioFilePreferredCodec
      *
      * @ElementName audioFilePreferredCodec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     public function getAudioFilePreferredCodec()
     {
@@ -43,10 +43,10 @@ class CallCenterMusicOnHoldSourceRead
      * Setter for audioFilePreferredCodec
      *
      * @ElementName audioFilePreferredCodec
-     * @param string|null $audioFilePreferredCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null $audioFilePreferredCodec
      * @return $this
      */
-    public function setAudioFilePreferredCodec($audioFilePreferredCodec)
+    public function setAudioFilePreferredCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $audioFilePreferredCodec)
     {
         $this->audioFilePreferredCodec = $audioFilePreferredCodec;
         return $this;
@@ -56,7 +56,7 @@ class CallCenterMusicOnHoldSourceRead
      * Getter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     public function getMessageSourceSelection()
     {
@@ -67,10 +67,10 @@ class CallCenterMusicOnHoldSourceRead
      * Setter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @param string|null $messageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $messageSourceSelection
      * @return $this
      */
-    public function setMessageSourceSelection($messageSourceSelection)
+    public function setMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $messageSourceSelection)
     {
         $this->messageSourceSelection = $messageSourceSelection;
         return $this;
@@ -80,7 +80,7 @@ class CallCenterMusicOnHoldSourceRead
      * Getter for customSource
      *
      * @ElementName customSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead\CustomSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceReadCustomSource|null
      */
     public function getCustomSource()
     {
@@ -91,10 +91,10 @@ class CallCenterMusicOnHoldSourceRead
      * Setter for customSource
      *
      * @ElementName customSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead\CustomSource|null $customSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceReadCustomSource|null $customSource
      * @return $this
      */
-    public function setCustomSource($customSource)
+    public function setCustomSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceReadCustomSource $customSource)
     {
         $this->customSource = $customSource;
         return $this;

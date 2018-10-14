@@ -24,7 +24,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
 
     /**
      * @ElementName numberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
     private $numberOfRings = null;
 
@@ -80,7 +80,7 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
      * Getter for numberOfRings
      *
      * @ElementName numberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
     public function getNumberOfRings()
     {
@@ -91,10 +91,10 @@ class ProfileAndServiceCallForwardingNoAnswerInfo
      * Setter for numberOfRings
      *
      * @ElementName numberOfRings
-     * @param int|null $numberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null $numberOfRings
      * @return $this
      */
-    public function setNumberOfRings($numberOfRings)
+    public function setNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings $numberOfRings)
     {
         $this->numberOfRings = $numberOfRings;
         return $this;

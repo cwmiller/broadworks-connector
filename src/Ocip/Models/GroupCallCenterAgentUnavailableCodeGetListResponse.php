@@ -38,7 +38,7 @@ class GroupCallCenterAgentUnavailableCodeGetListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $unavailableCodesTable
      * @return $this
      */
-    public function setUnavailableCodesTable($unavailableCodesTable)
+    public function setUnavailableCodesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unavailableCodesTable)
     {
         $this->unavailableCodesTable = $unavailableCodesTable;
         return $this;

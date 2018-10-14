@@ -48,7 +48,7 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $servicePacksAssignmentTable
      * @return $this
      */
-    public function setServicePacksAssignmentTable($servicePacksAssignmentTable)
+    public function setServicePacksAssignmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $servicePacksAssignmentTable)
     {
         $this->servicePacksAssignmentTable = $servicePacksAssignmentTable;
         return $this;
@@ -72,7 +72,7 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServicesAssignmentTable
      * @return $this
      */
-    public function setUserServicesAssignmentTable($userServicesAssignmentTable)
+    public function setUserServicesAssignmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServicesAssignmentTable)
     {
         $this->userServicesAssignmentTable = $userServicesAssignmentTable;
         return $this;

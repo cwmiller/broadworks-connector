@@ -44,7 +44,7 @@ class UserCallCenterCallDispositionCodeGetAvailableListResponse extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dispositionCodesTable
      * @return $this
      */
-    public function setDispositionCodesTable($dispositionCodesTable)
+    public function setDispositionCodesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dispositionCodesTable)
     {
         $this->dispositionCodesTable = $dispositionCodesTable;
         return $this;

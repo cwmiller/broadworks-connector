@@ -51,7 +51,7 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
      * @return $this
      */
-    public function setAgentUserTable($agentUserTable)
+    public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
     {
         $this->agentUserTable = $agentUserTable;
         return $this;

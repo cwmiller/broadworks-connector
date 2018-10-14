@@ -26,7 +26,7 @@ class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName callLogType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType|null
      */
     private $callLogType = null;
 
@@ -58,7 +58,7 @@ class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for callLogType
      *
      * @ElementName callLogType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType|null
      */
     public function getCallLogType()
     {
@@ -69,10 +69,10 @@ class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for callLogType
      *
      * @ElementName callLogType
-     * @param string|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType|null $callLogType
      * @return $this
      */
-    public function setCallLogType($callLogType)
+    public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType $callLogType)
     {
         $this->callLogType = $callLogType;
         return $this;

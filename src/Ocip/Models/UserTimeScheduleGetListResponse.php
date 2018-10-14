@@ -39,7 +39,7 @@ class UserTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $timeScheduleTable
      * @return $this
      */
-    public function setTimeScheduleTable($timeScheduleTable)
+    public function setTimeScheduleTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $timeScheduleTable)
     {
         $this->timeScheduleTable = $timeScheduleTable;
         return $this;

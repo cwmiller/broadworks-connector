@@ -46,7 +46,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName protocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null
      */
     private $protocol = null;
 
@@ -186,7 +186,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for protocol
      *
      * @ElementName protocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null
      */
     public function getProtocol()
     {
@@ -197,10 +197,10 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for protocol
      *
      * @ElementName protocol
-     * @param string|null $protocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null $protocol
      * @return $this
      */
-    public function setProtocol($protocol)
+    public function setProtocol(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol $protocol)
     {
         $this->protocol = $protocol;
         return $this;

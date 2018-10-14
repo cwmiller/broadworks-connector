@@ -39,7 +39,7 @@ class GroupAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $accessDeviceTable
      * @return $this
      */
-    public function setAccessDeviceTable($accessDeviceTable)
+    public function setAccessDeviceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $accessDeviceTable)
     {
         $this->accessDeviceTable = $accessDeviceTable;
         return $this;

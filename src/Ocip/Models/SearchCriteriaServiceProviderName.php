@@ -12,7 +12,7 @@ class SearchCriteriaServiceProviderName extends SearchCriteria
 
     /**
      * @ElementName mode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
 
@@ -32,7 +32,7 @@ class SearchCriteriaServiceProviderName extends SearchCriteria
      * Getter for mode
      *
      * @ElementName mode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     public function getMode()
     {
@@ -43,10 +43,10 @@ class SearchCriteriaServiceProviderName extends SearchCriteria
      * Setter for mode
      *
      * @ElementName mode
-     * @param string|null $mode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null $mode
      * @return $this
      */
-    public function setMode($mode)
+    public function setMode(\CWM\BroadWorksConnector\Ocip\Models\SearchMode $mode)
     {
         $this->mode = $mode;
         return $this;

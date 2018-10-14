@@ -76,7 +76,7 @@ class UserScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
      * @return $this
      */
-    public function setScheduleKey($scheduleKey)
+    public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
     {
         $this->scheduleKey = $scheduleKey;
         return $this;
@@ -100,7 +100,7 @@ class UserScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string[] $eventName
      * @return $this
      */
-    public function setEventName($eventName)
+    public function setEventName(array $eventName)
     {
         $this->eventName = $eventName;
         return $this;
@@ -113,7 +113,7 @@ class UserScheduleDeleteEventListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string $eventName
      * @return $this
      */
-    public function addEventName($eventName)
+    public function addEventName(string $eventName)
     {
         $this->eventName []= $eventName;
         return $this;

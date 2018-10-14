@@ -22,7 +22,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName groupServiceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     private $groupServiceName = array(
         
@@ -30,7 +30,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userServiceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userServiceName = array(
         
@@ -54,7 +54,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @param string[] $servicePackName
      * @return $this
      */
-    public function setServicePackName($servicePackName)
+    public function setServicePackName(array $servicePackName)
     {
         $this->servicePackName = $servicePackName;
         return $this;
@@ -67,7 +67,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @param string $servicePackName
      * @return $this
      */
-    public function addServicePackName($servicePackName)
+    public function addServicePackName(string $servicePackName)
     {
         $this->servicePackName []= $servicePackName;
         return $this;
@@ -77,7 +77,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * Getter for groupServiceName
      *
      * @ElementName groupServiceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     public function getGroupServiceName()
     {
@@ -88,10 +88,10 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * Setter for groupServiceName
      *
      * @ElementName groupServiceName
-     * @param string[] $groupServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService[] $groupServiceName
      * @return $this
      */
-    public function setGroupServiceName($groupServiceName)
+    public function setGroupServiceName(array $groupServiceName)
     {
         $this->groupServiceName = $groupServiceName;
         return $this;
@@ -101,7 +101,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * Adder for groupServiceName
      *
      * @ElementName groupServiceName
-     * @param string $groupServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService $groupServiceName
      * @return $this
      */
     public function addGroupServiceName($groupServiceName)
@@ -114,7 +114,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * Getter for userServiceName
      *
      * @ElementName userServiceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getUserServiceName()
     {
@@ -125,10 +125,10 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * Setter for userServiceName
      *
      * @ElementName userServiceName
-     * @param string[] $userServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $userServiceName
      * @return $this
      */
-    public function setUserServiceName($userServiceName)
+    public function setUserServiceName(array $userServiceName)
     {
         $this->userServiceName = $userServiceName;
         return $this;
@@ -138,7 +138,7 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * Adder for userServiceName
      *
      * @ElementName userServiceName
-     * @param string $userServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $userServiceName
      * @return $this
      */
     public function addUserServiceName($userServiceName)

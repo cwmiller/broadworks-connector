@@ -38,7 +38,7 @@ class SystemNumberPortabilityQueryStatusGetListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $statusTable
      * @return $this
      */
-    public function setStatusTable($statusTable)
+    public function setStatusTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusTable)
     {
         $this->statusTable = $statusTable;
         return $this;

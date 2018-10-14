@@ -123,7 +123,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry01
      * @return $this
      */
-    public function setAlternateEntry01($alternateEntry01)
+    public function setAlternateEntry01(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry01)
     {
         $this->alternateEntry01 = $alternateEntry01;
         return $this;
@@ -147,7 +147,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry02
      * @return $this
      */
-    public function setAlternateEntry02($alternateEntry02)
+    public function setAlternateEntry02(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry02)
     {
         $this->alternateEntry02 = $alternateEntry02;
         return $this;
@@ -171,7 +171,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry03
      * @return $this
      */
-    public function setAlternateEntry03($alternateEntry03)
+    public function setAlternateEntry03(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry03)
     {
         $this->alternateEntry03 = $alternateEntry03;
         return $this;
@@ -195,7 +195,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry04
      * @return $this
      */
-    public function setAlternateEntry04($alternateEntry04)
+    public function setAlternateEntry04(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry04)
     {
         $this->alternateEntry04 = $alternateEntry04;
         return $this;
@@ -219,7 +219,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry05
      * @return $this
      */
-    public function setAlternateEntry05($alternateEntry05)
+    public function setAlternateEntry05(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry05)
     {
         $this->alternateEntry05 = $alternateEntry05;
         return $this;
@@ -243,7 +243,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry06
      * @return $this
      */
-    public function setAlternateEntry06($alternateEntry06)
+    public function setAlternateEntry06(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry06)
     {
         $this->alternateEntry06 = $alternateEntry06;
         return $this;
@@ -267,7 +267,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry07
      * @return $this
      */
-    public function setAlternateEntry07($alternateEntry07)
+    public function setAlternateEntry07(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry07)
     {
         $this->alternateEntry07 = $alternateEntry07;
         return $this;
@@ -291,7 +291,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry08
      * @return $this
      */
-    public function setAlternateEntry08($alternateEntry08)
+    public function setAlternateEntry08(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry08)
     {
         $this->alternateEntry08 = $alternateEntry08;
         return $this;
@@ -315,7 +315,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry09
      * @return $this
      */
-    public function setAlternateEntry09($alternateEntry09)
+    public function setAlternateEntry09(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry09)
     {
         $this->alternateEntry09 = $alternateEntry09;
         return $this;
@@ -339,7 +339,7 @@ class UserAlternateNumbersGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17|null $alternateEntry10
      * @return $this
      */
-    public function setAlternateEntry10($alternateEntry10)
+    public function setAlternateEntry10(\CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry17 $alternateEntry10)
     {
         $this->alternateEntry10 = $alternateEntry10;
         return $this;

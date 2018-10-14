@@ -34,7 +34,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName serverSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     private $serverSelection = null;
 
@@ -46,7 +46,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName mailboxIdType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     private $mailboxIdType = null;
 
@@ -58,7 +58,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName noAnswerNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
@@ -144,7 +144,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * Getter for serverSelection
      *
      * @ElementName serverSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     public function getServerSelection()
     {
@@ -155,10 +155,10 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * Setter for serverSelection
      *
      * @ElementName serverSelection
-     * @param string|null $serverSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null $serverSelection
      * @return $this
      */
-    public function setServerSelection($serverSelection)
+    public function setServerSelection(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection $serverSelection)
     {
         $this->serverSelection = $serverSelection;
         return $this;
@@ -192,7 +192,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * Getter for mailboxIdType
      *
      * @ElementName mailboxIdType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     public function getMailboxIdType()
     {
@@ -203,10 +203,10 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * Setter for mailboxIdType
      *
      * @ElementName mailboxIdType
-     * @param string|null $mailboxIdType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null $mailboxIdType
      * @return $this
      */
-    public function setMailboxIdType($mailboxIdType)
+    public function setMailboxIdType(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType $mailboxIdType)
     {
         $this->mailboxIdType = $mailboxIdType;
         return $this;
@@ -240,7 +240,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * Getter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
     public function getNoAnswerNumberOfRings()
     {
@@ -251,10 +251,10 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
      * Setter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @param int|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null $noAnswerNumberOfRings
      * @return $this
      */
-    public function setNoAnswerNumberOfRings($noAnswerNumberOfRings)
+    public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings $noAnswerNumberOfRings)
     {
         $this->noAnswerNumberOfRings = $noAnswerNumberOfRings;
         return $this;

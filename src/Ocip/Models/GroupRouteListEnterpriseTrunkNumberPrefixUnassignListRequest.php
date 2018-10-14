@@ -101,7 +101,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @param string[] $numberPrefix
      * @return $this
      */
-    public function setNumberPrefix($numberPrefix)
+    public function setNumberPrefix(array $numberPrefix)
     {
         $this->numberPrefix = $numberPrefix;
         return $this;
@@ -114,7 +114,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @param string $numberPrefix
      * @return $this
      */
-    public function addNumberPrefix($numberPrefix)
+    public function addNumberPrefix(string $numberPrefix)
     {
         $this->numberPrefix []= $numberPrefix;
         return $this;

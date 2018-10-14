@@ -40,7 +40,7 @@ class UserHotelingGuestGetAvailableUserListResponse extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $hostUserTable
      * @return $this
      */
-    public function setHostUserTable($hostUserTable)
+    public function setHostUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $hostUserTable)
     {
         $this->hostUserTable = $hostUserTable;
         return $this;

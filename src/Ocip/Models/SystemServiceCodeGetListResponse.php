@@ -38,7 +38,7 @@ class SystemServiceCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceCodeTable
      * @return $this
      */
-    public function setServiceCodeTable($serviceCodeTable)
+    public function setServiceCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceCodeTable)
     {
         $this->serviceCodeTable = $serviceCodeTable;
         return $this;

@@ -34,7 +34,7 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
 
@@ -126,7 +126,7 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for userType
      *
      * @ElementName userType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     public function getUserType()
     {
@@ -137,10 +137,10 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for userType
      *
      * @ElementName userType
-     * @param string|null $userType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserType|null $userType
      * @return $this
      */
-    public function setUserType($userType)
+    public function setUserType(\CWM\BroadWorksConnector\Ocip\Models\UserType $userType)
     {
         $this->userType = $userType;
         return $this;

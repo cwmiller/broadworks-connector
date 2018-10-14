@@ -244,13 +244,13 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName matchLocation
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null
      */
     private $matchLocation = null;
 
     /**
      * @ElementName matchRoaming
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null
      */
     private $matchRoaming = null;
 
@@ -362,7 +362,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
      * @return $this
      */
-    public function setMatchCallType($matchCallType)
+    public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType)
     {
         $this->matchCallType = $matchCallType;
         return $this;
@@ -386,7 +386,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
         return $this;
@@ -410,7 +410,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null $matchVirtualOnNetCallType
      * @return $this
      */
-    public function setMatchVirtualOnNetCallType($matchVirtualOnNetCallType)
+    public function setMatchVirtualOnNetCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList $matchVirtualOnNetCallType)
     {
         $this->matchVirtualOnNetCallType = $matchVirtualOnNetCallType;
         return $this;
@@ -1140,7 +1140,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for matchLocation
      *
      * @ElementName matchLocation
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null
      */
     public function getMatchLocation()
     {
@@ -1151,10 +1151,10 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for matchLocation
      *
      * @ElementName matchLocation
-     * @param string|null $matchLocation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null $matchLocation
      * @return $this
      */
-    public function setMatchLocation($matchLocation)
+    public function setMatchLocation(\CWM\BroadWorksConnector\Ocip\Models\LocationCriteria $matchLocation)
     {
         $this->matchLocation = $matchLocation;
         return $this;
@@ -1164,7 +1164,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for matchRoaming
      *
      * @ElementName matchRoaming
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null
      */
     public function getMatchRoaming()
     {
@@ -1175,10 +1175,10 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for matchRoaming
      *
      * @ElementName matchRoaming
-     * @param string|null $matchRoaming
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null $matchRoaming
      * @return $this
      */
-    public function setMatchRoaming($matchRoaming)
+    public function setMatchRoaming(\CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria $matchRoaming)
     {
         $this->matchRoaming = $matchRoaming;
         return $this;
@@ -1250,7 +1250,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null $matchNumberPortabilityStatus
      * @return $this
      */
-    public function setMatchNumberPortabilityStatus($matchNumberPortabilityStatus)
+    public function setMatchNumberPortabilityStatus(\CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus = $matchNumberPortabilityStatus;
         return $this;

@@ -40,7 +40,7 @@ class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $broadWorksAnywhereTable
      * @return $this
      */
-    public function setBroadWorksAnywhereTable($broadWorksAnywhereTable)
+    public function setBroadWorksAnywhereTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $broadWorksAnywhereTable)
     {
         $this->broadWorksAnywhereTable = $broadWorksAnywhereTable;
         return $this;

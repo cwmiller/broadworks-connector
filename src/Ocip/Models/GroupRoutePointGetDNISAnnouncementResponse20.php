@@ -36,7 +36,7 @@ class GroupRoutePointGetDNISAnnouncementResponse20 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20|null $mediaOnHoldSource
      * @return $this
      */
-    public function setMediaOnHoldSource($mediaOnHoldSource)
+    public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
         return $this;

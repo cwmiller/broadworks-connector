@@ -24,7 +24,7 @@ class ServiceProviderPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName rulesApplyTo
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo|null
      */
     private $rulesApplyTo = null;
 
@@ -164,7 +164,7 @@ class ServiceProviderPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnec
      * Getter for rulesApplyTo
      *
      * @ElementName rulesApplyTo
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo|null
      */
     public function getRulesApplyTo()
     {
@@ -175,10 +175,10 @@ class ServiceProviderPasswordRulesGetResponse13mp2 extends \CWM\BroadWorksConnec
      * Setter for rulesApplyTo
      *
      * @ElementName rulesApplyTo
-     * @param string|null $rulesApplyTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo|null $rulesApplyTo
      * @return $this
      */
-    public function setRulesApplyTo($rulesApplyTo)
+    public function setRulesApplyTo(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderPasswordRulesApplyTo $rulesApplyTo)
     {
         $this->rulesApplyTo = $rulesApplyTo;
         return $this;

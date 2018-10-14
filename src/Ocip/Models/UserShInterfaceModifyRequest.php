@@ -29,7 +29,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName IMSUserState
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;
 
@@ -51,7 +51,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null $publicUserIdentity
      * @return $this
      */
-    public function setPublicUserIdentity($publicUserIdentity)
+    public function setPublicUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity)
     {
         $this->publicUserIdentity = $publicUserIdentity;
         return $this;
@@ -85,7 +85,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for IMSUserState
      *
      * @ElementName IMSUserState
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     public function getIMSUserState()
     {
@@ -96,10 +96,10 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for IMSUserState
      *
      * @ElementName IMSUserState
-     * @param string|null $IMSUserState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null $IMSUserState
      * @return $this
      */
-    public function setIMSUserState($IMSUserState)
+    public function setIMSUserState(\CWM\BroadWorksConnector\Ocip\Models\IMSUserState $IMSUserState)
     {
         $this->IMSUserState = $IMSUserState;
         return $this;

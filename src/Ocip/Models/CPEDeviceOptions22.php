@@ -31,7 +31,7 @@ class CPEDeviceOptions22
 
     /**
      * @ElementName configType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
 
@@ -81,7 +81,7 @@ class CPEDeviceOptions22
      * Getter for configType
      *
      * @ElementName configType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     public function getConfigType()
     {
@@ -92,10 +92,10 @@ class CPEDeviceOptions22
      * Setter for configType
      *
      * @ElementName configType
-     * @param string|null $configType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configType
      * @return $this
      */
-    public function setConfigType($configType)
+    public function setConfigType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType)
     {
         $this->configType = $configType;
         return $this;
@@ -167,7 +167,7 @@ class CPEDeviceOptions22
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22|null $deviceManagementDeviceTypeOptions
      * @return $this
      */
-    public function setDeviceManagementDeviceTypeOptions($deviceManagementDeviceTypeOptions)
+    public function setDeviceManagementDeviceTypeOptions(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions22 $deviceManagementDeviceTypeOptions)
     {
         $this->deviceManagementDeviceTypeOptions = $deviceManagementDeviceTypeOptions;
         return $this;

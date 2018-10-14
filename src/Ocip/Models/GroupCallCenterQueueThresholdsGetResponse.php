@@ -398,7 +398,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @param string[] $notificationEmailAddress
      * @return $this
      */
-    public function setNotificationEmailAddress($notificationEmailAddress)
+    public function setNotificationEmailAddress(array $notificationEmailAddress)
     {
         $this->notificationEmailAddress = $notificationEmailAddress;
         return $this;
@@ -411,7 +411,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @param string $notificationEmailAddress
      * @return $this
      */
-    public function addNotificationEmailAddress($notificationEmailAddress)
+    public function addNotificationEmailAddress(string $notificationEmailAddress)
     {
         $this->notificationEmailAddress []= $notificationEmailAddress;
         return $this;

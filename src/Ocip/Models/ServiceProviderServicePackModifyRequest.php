@@ -188,7 +188,7 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $servicePackQuantity
      * @return $this
      */
-    public function setServicePackQuantity($servicePackQuantity)
+    public function setServicePackQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $servicePackQuantity)
     {
         $this->servicePackQuantity = $servicePackQuantity;
         return $this;

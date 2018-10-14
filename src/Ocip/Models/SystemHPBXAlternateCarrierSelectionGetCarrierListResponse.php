@@ -40,7 +40,7 @@ class SystemHPBXAlternateCarrierSelectionGetCarrierListResponse extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $HPBXAlternateCarriersTable
      * @return $this
      */
-    public function setHPBXAlternateCarriersTable($HPBXAlternateCarriersTable)
+    public function setHPBXAlternateCarriersTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $HPBXAlternateCarriersTable)
     {
         $this->HPBXAlternateCarriersTable = $HPBXAlternateCarriersTable;
         return $this;

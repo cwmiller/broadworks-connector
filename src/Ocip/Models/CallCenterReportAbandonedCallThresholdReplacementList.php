@@ -37,7 +37,7 @@ class CallCenterReportAbandonedCallThresholdReplacementList
      * @param int[] $abandonedCallThresholdSeconds
      * @return $this
      */
-    public function setAbandonedCallThresholdSeconds($abandonedCallThresholdSeconds)
+    public function setAbandonedCallThresholdSeconds(array $abandonedCallThresholdSeconds)
     {
         $this->abandonedCallThresholdSeconds = $abandonedCallThresholdSeconds;
         return $this;
@@ -50,7 +50,7 @@ class CallCenterReportAbandonedCallThresholdReplacementList
      * @param int $abandonedCallThresholdSeconds
      * @return $this
      */
-    public function addAbandonedCallThresholdSeconds($abandonedCallThresholdSeconds)
+    public function addAbandonedCallThresholdSeconds(int $abandonedCallThresholdSeconds)
     {
         $this->abandonedCallThresholdSeconds []= $abandonedCallThresholdSeconds;
         return $this;

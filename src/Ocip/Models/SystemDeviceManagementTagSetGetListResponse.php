@@ -44,7 +44,7 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @param string[] $tagSetName
      * @return $this
      */
-    public function setTagSetName($tagSetName)
+    public function setTagSetName(array $tagSetName)
     {
         $this->tagSetName = $tagSetName;
         return $this;
@@ -57,7 +57,7 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @param string $tagSetName
      * @return $this
      */
-    public function addTagSetName($tagSetName)
+    public function addTagSetName(string $tagSetName)
     {
         $this->tagSetName []= $tagSetName;
         return $this;

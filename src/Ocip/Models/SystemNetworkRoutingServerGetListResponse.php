@@ -39,7 +39,7 @@ class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $networkRoutingServerTable
      * @return $this
      */
-    public function setNetworkRoutingServerTable($networkRoutingServerTable)
+    public function setNetworkRoutingServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkRoutingServerTable)
     {
         $this->networkRoutingServerTable = $networkRoutingServerTable;
         return $this;

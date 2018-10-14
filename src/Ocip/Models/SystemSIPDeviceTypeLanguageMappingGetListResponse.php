@@ -39,7 +39,7 @@ class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTypeLanguagesTable
      * @return $this
      */
-    public function setDeviceTypeLanguagesTable($deviceTypeLanguagesTable)
+    public function setDeviceTypeLanguagesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeLanguagesTable)
     {
         $this->deviceTypeLanguagesTable = $deviceTypeLanguagesTable;
         return $this;

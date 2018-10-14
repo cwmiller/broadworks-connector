@@ -38,7 +38,7 @@ class ReplacementVirtualOnNetCallTypeNameList
      * @param string[] $virtualOnNetCallTypeName
      * @return $this
      */
-    public function setVirtualOnNetCallTypeName($virtualOnNetCallTypeName)
+    public function setVirtualOnNetCallTypeName(array $virtualOnNetCallTypeName)
     {
         $this->virtualOnNetCallTypeName = $virtualOnNetCallTypeName;
         return $this;
@@ -51,7 +51,7 @@ class ReplacementVirtualOnNetCallTypeNameList
      * @param string $virtualOnNetCallTypeName
      * @return $this
      */
-    public function addVirtualOnNetCallTypeName($virtualOnNetCallTypeName)
+    public function addVirtualOnNetCallTypeName(string $virtualOnNetCallTypeName)
     {
         $this->virtualOnNetCallTypeName []= $virtualOnNetCallTypeName;
         return $this;

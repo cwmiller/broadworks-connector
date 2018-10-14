@@ -100,7 +100,7 @@ class GroupCommunicationBarringAuthorizationCodeAddListRequest21sp1 extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeConfiguration[] $code
      * @return $this
      */
-    public function setCode($code)
+    public function setCode(array $code)
     {
         $this->code = $code;
         return $this;

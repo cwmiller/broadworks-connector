@@ -38,7 +38,7 @@ class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $exclusionNumberTable
      * @return $this
      */
-    public function setExclusionNumberTable($exclusionNumberTable)
+    public function setExclusionNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $exclusionNumberTable)
     {
         $this->exclusionNumberTable = $exclusionNumberTable;
         return $this;

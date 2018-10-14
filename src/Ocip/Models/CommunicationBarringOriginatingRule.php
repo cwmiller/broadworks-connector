@@ -18,7 +18,7 @@ class CommunicationBarringOriginatingRule
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $action = null;
 
@@ -68,7 +68,7 @@ class CommunicationBarringOriginatingRule
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     public function getAction()
     {
@@ -79,10 +79,10 @@ class CommunicationBarringOriginatingRule
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction $action)
     {
         $this->action = $action;
         return $this;

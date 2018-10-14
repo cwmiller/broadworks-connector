@@ -97,7 +97,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName capacityExceededAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     private $capacityExceededAction = null;
 
@@ -127,7 +127,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName unreachableDestinationAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     private $unreachableDestinationAction = null;
 
@@ -219,19 +219,19 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName pilotUserCallingLineIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineIdentityPolicy = null;
 
     /**
      * @ElementName pilotUserChargeNumberPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null
      */
     private $pilotUserChargeNumberPolicy = null;
 
     /**
      * @ElementName callForwardingAlwaysAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null
      */
     private $callForwardingAlwaysAction = null;
 
@@ -349,7 +349,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUser|null $pilotUser
      * @return $this
      */
-    public function setPilotUser($pilotUser)
+    public function setPilotUser(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUser $pilotUser)
     {
         $this->pilotUser = $pilotUser;
         return $this;
@@ -373,7 +373,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -397,7 +397,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -575,7 +575,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     public function getCapacityExceededAction()
     {
@@ -586,10 +586,10 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @param string|null $capacityExceededAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null $capacityExceededAction
      * @return $this
      */
-    public function setCapacityExceededAction($capacityExceededAction)
+    public function setCapacityExceededAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction $capacityExceededAction)
     {
         $this->capacityExceededAction = $capacityExceededAction;
         return $this;
@@ -637,7 +637,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $capacityExceededRerouteTrunkGroupKey
      * @return $this
      */
-    public function setCapacityExceededRerouteTrunkGroupKey($capacityExceededRerouteTrunkGroupKey)
+    public function setCapacityExceededRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $capacityExceededRerouteTrunkGroupKey)
     {
         $this->capacityExceededRerouteTrunkGroupKey = $capacityExceededRerouteTrunkGroupKey;
         return $this;
@@ -695,7 +695,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     public function getUnreachableDestinationAction()
     {
@@ -706,10 +706,10 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @param string|null $unreachableDestinationAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null $unreachableDestinationAction
      * @return $this
      */
-    public function setUnreachableDestinationAction($unreachableDestinationAction)
+    public function setUnreachableDestinationAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction $unreachableDestinationAction)
     {
         $this->unreachableDestinationAction = $unreachableDestinationAction;
         return $this;
@@ -757,7 +757,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $unreachableDestinationRerouteTrunkGroupKey
      * @return $this
      */
-    public function setUnreachableDestinationRerouteTrunkGroupKey($unreachableDestinationRerouteTrunkGroupKey)
+    public function setUnreachableDestinationRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $unreachableDestinationRerouteTrunkGroupKey)
     {
         $this->unreachableDestinationRerouteTrunkGroupKey = $unreachableDestinationRerouteTrunkGroupKey;
         return $this;
@@ -877,7 +877,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param string[] $hostedUserId
      * @return $this
      */
-    public function setHostedUserId($hostedUserId)
+    public function setHostedUserId(array $hostedUserId)
     {
         $this->hostedUserId = $hostedUserId;
         return $this;
@@ -890,7 +890,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param string $hostedUserId
      * @return $this
      */
-    public function addHostedUserId($hostedUserId)
+    public function addHostedUserId(string $hostedUserId)
     {
         $this->hostedUserId []= $hostedUserId;
         return $this;
@@ -1068,7 +1068,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for pilotUserCallingLineIdentityPolicy
      *
      * @ElementName pilotUserCallingLineIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     public function getPilotUserCallingLineIdentityPolicy()
     {
@@ -1079,10 +1079,10 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for pilotUserCallingLineIdentityPolicy
      *
      * @ElementName pilotUserCallingLineIdentityPolicy
-     * @param string|null $pilotUserCallingLineIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null $pilotUserCallingLineIdentityPolicy
      * @return $this
      */
-    public function setPilotUserCallingLineIdentityPolicy($pilotUserCallingLineIdentityPolicy)
+    public function setPilotUserCallingLineIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityPolicy)
     {
         $this->pilotUserCallingLineIdentityPolicy = $pilotUserCallingLineIdentityPolicy;
         return $this;
@@ -1092,7 +1092,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for pilotUserChargeNumberPolicy
      *
      * @ElementName pilotUserChargeNumberPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null
      */
     public function getPilotUserChargeNumberPolicy()
     {
@@ -1103,10 +1103,10 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for pilotUserChargeNumberPolicy
      *
      * @ElementName pilotUserChargeNumberPolicy
-     * @param string|null $pilotUserChargeNumberPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null $pilotUserChargeNumberPolicy
      * @return $this
      */
-    public function setPilotUserChargeNumberPolicy($pilotUserChargeNumberPolicy)
+    public function setPilotUserChargeNumberPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy $pilotUserChargeNumberPolicy)
     {
         $this->pilotUserChargeNumberPolicy = $pilotUserChargeNumberPolicy;
         return $this;
@@ -1116,7 +1116,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for callForwardingAlwaysAction
      *
      * @ElementName callForwardingAlwaysAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null
      */
     public function getCallForwardingAlwaysAction()
     {
@@ -1127,10 +1127,10 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for callForwardingAlwaysAction
      *
      * @ElementName callForwardingAlwaysAction
-     * @param string|null $callForwardingAlwaysAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null $callForwardingAlwaysAction
      * @return $this
      */
-    public function setCallForwardingAlwaysAction($callForwardingAlwaysAction)
+    public function setCallForwardingAlwaysAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction $callForwardingAlwaysAction)
     {
         $this->callForwardingAlwaysAction = $callForwardingAlwaysAction;
         return $this;
@@ -1178,7 +1178,7 @@ class GroupTrunkGroupAddInstanceRequest17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $callForwardingAlwaysRerouteTrunkGroupKey
      * @return $this
      */
-    public function setCallForwardingAlwaysRerouteTrunkGroupKey($callForwardingAlwaysRerouteTrunkGroupKey)
+    public function setCallForwardingAlwaysRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $callForwardingAlwaysRerouteTrunkGroupKey)
     {
         $this->callForwardingAlwaysRerouteTrunkGroupKey = $callForwardingAlwaysRerouteTrunkGroupKey;
         return $this;

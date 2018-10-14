@@ -38,7 +38,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListResponse extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $statusDigitPatternTable
      * @return $this
      */
-    public function setStatusDigitPatternTable($statusDigitPatternTable)
+    public function setStatusDigitPatternTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusDigitPatternTable)
     {
         $this->statusDigitPatternTable = $statusDigitPatternTable;
         return $this;

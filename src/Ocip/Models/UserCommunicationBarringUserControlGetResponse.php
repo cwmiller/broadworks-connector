@@ -70,7 +70,7 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $profileTable
      * @return $this
      */
-    public function setProfileTable($profileTable)
+    public function setProfileTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profileTable)
     {
         $this->profileTable = $profileTable;
         return $this;

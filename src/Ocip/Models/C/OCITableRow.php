@@ -41,7 +41,7 @@ class OCITableRow
      * @param string[] $col
      * @return $this
      */
-    public function setCol($col)
+    public function setCol(array $col)
     {
         $this->col = $col;
         return $this;
@@ -54,7 +54,7 @@ class OCITableRow
      * @param string $col
      * @return $this
      */
-    public function addCol($col)
+    public function addCol(string $col)
     {
         $this->col []= $col;
         return $this;

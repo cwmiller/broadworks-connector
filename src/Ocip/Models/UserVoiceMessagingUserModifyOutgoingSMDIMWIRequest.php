@@ -99,7 +99,7 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null $outgoingSMDIMWIPhoneNumberList
      * @return $this
      */
-    public function setOutgoingSMDIMWIPhoneNumberList($outgoingSMDIMWIPhoneNumberList)
+    public function setOutgoingSMDIMWIPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList $outgoingSMDIMWIPhoneNumberList)
     {
         $this->outgoingSMDIMWIPhoneNumberList = $outgoingSMDIMWIPhoneNumberList;
         return $this;

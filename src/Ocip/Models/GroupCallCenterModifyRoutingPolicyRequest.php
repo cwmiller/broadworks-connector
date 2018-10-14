@@ -28,7 +28,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName routingPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     private $routingPolicy = null;
 
@@ -92,7 +92,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * Getter for routingPolicy
      *
      * @ElementName routingPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     public function getRoutingPolicy()
     {
@@ -103,10 +103,10 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * Setter for routingPolicy
      *
      * @ElementName routingPolicy
-     * @param string|null $routingPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null $routingPolicy
      * @return $this
      */
-    public function setRoutingPolicy($routingPolicy)
+    public function setRoutingPolicy(\CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy $routingPolicy)
     {
         $this->routingPolicy = $routingPolicy;
         return $this;
@@ -130,7 +130,7 @@ class GroupCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[] $routingPriorityOrder
      * @return $this
      */
-    public function setRoutingPriorityOrder($routingPriorityOrder)
+    public function setRoutingPriorityOrder(array $routingPriorityOrder)
     {
         $this->routingPriorityOrder = $routingPriorityOrder;
         return $this;

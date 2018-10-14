@@ -160,7 +160,7 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
-    public function setCriteriaActivation($criteriaActivation)
+    public function setCriteriaActivation(array $criteriaActivation)
     {
         $this->criteriaActivation = $criteriaActivation;
         return $this;

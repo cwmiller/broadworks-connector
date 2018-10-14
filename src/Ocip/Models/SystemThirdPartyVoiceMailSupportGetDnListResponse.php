@@ -39,7 +39,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $thirdPartyVoiceMailSupportTable
      * @return $this
      */
-    public function setThirdPartyVoiceMailSupportTable($thirdPartyVoiceMailSupportTable)
+    public function setThirdPartyVoiceMailSupportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $thirdPartyVoiceMailSupportTable)
     {
         $this->thirdPartyVoiceMailSupportTable = $thirdPartyVoiceMailSupportTable;
         return $this;

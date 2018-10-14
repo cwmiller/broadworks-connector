@@ -40,7 +40,7 @@ class UserMeetMeConferencingGetAvailableDelegateListResponse extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceDelegateUserTable
      * @return $this
      */
-    public function setConferenceDelegateUserTable($conferenceDelegateUserTable)
+    public function setConferenceDelegateUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceDelegateUserTable)
     {
         $this->conferenceDelegateUserTable = $conferenceDelegateUserTable;
         return $this;

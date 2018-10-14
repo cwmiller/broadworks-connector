@@ -14,7 +14,7 @@ class ServiceProviderBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName useSettingLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel|null
      */
     private $useSettingLevel = null;
 
@@ -64,7 +64,7 @@ class ServiceProviderBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConn
      * Getter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel|null
      */
     public function getUseSettingLevel()
     {
@@ -75,10 +75,10 @@ class ServiceProviderBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConn
      * Setter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @param string|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel|null $useSettingLevel
      * @return $this
      */
-    public function setUseSettingLevel($useSettingLevel)
+    public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityServiceProviderSettingLevel $useSettingLevel)
     {
         $this->useSettingLevel = $useSettingLevel;
         return $this;

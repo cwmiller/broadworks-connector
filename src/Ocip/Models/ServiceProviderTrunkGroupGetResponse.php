@@ -38,7 +38,7 @@ class ServiceProviderTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $maxActiveCalls
      * @return $this
      */
-    public function setMaxActiveCalls($maxActiveCalls)
+    public function setMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxActiveCalls)
     {
         $this->maxActiveCalls = $maxActiveCalls;
         return $this;

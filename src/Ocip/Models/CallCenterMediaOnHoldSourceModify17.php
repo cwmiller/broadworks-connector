@@ -13,7 +13,7 @@ class CallCenterMediaOnHoldSourceModify17
 
     /**
      * @ElementName audioMessageSourceSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     private $audioMessageSourceSelection = null;
 
@@ -37,7 +37,7 @@ class CallCenterMediaOnHoldSourceModify17
 
     /**
      * @ElementName videoMessageSourceSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     private $videoMessageSourceSelection = null;
 
@@ -63,7 +63,7 @@ class CallCenterMediaOnHoldSourceModify17
      * Getter for audioMessageSourceSelection
      *
      * @ElementName audioMessageSourceSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     public function getAudioMessageSourceSelection()
     {
@@ -74,10 +74,10 @@ class CallCenterMediaOnHoldSourceModify17
      * Setter for audioMessageSourceSelection
      *
      * @ElementName audioMessageSourceSelection
-     * @param string|null $audioMessageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null $audioMessageSourceSelection
      * @return $this
      */
-    public function setAudioMessageSourceSelection($audioMessageSourceSelection)
+    public function setAudioMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection $audioMessageSourceSelection)
     {
         $this->audioMessageSourceSelection = $audioMessageSourceSelection;
         return $this;
@@ -101,7 +101,7 @@ class CallCenterMediaOnHoldSourceModify17
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $audioUrlList
      * @return $this
      */
-    public function setAudioUrlList($audioUrlList)
+    public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList)
     {
         $this->audioUrlList = $audioUrlList;
         return $this;
@@ -125,7 +125,7 @@ class CallCenterMediaOnHoldSourceModify17
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null $audioFileList
      * @return $this
      */
-    public function setAudioFileList($audioFileList)
+    public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify $audioFileList)
     {
         $this->audioFileList = $audioFileList;
         return $this;
@@ -149,7 +149,7 @@ class CallCenterMediaOnHoldSourceModify17
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $externalAudioSource
      * @return $this
      */
-    public function setExternalAudioSource($externalAudioSource)
+    public function setExternalAudioSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalAudioSource)
     {
         $this->externalAudioSource = $externalAudioSource;
         return $this;
@@ -159,7 +159,7 @@ class CallCenterMediaOnHoldSourceModify17
      * Getter for videoMessageSourceSelection
      *
      * @ElementName videoMessageSourceSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null
      */
     public function getVideoMessageSourceSelection()
     {
@@ -170,10 +170,10 @@ class CallCenterMediaOnHoldSourceModify17
      * Setter for videoMessageSourceSelection
      *
      * @ElementName videoMessageSourceSelection
-     * @param string|null $videoMessageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection|null $videoMessageSourceSelection
      * @return $this
      */
-    public function setVideoMessageSourceSelection($videoMessageSourceSelection)
+    public function setVideoMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldMessageSelection $videoMessageSourceSelection)
     {
         $this->videoMessageSourceSelection = $videoMessageSourceSelection;
         return $this;
@@ -197,7 +197,7 @@ class CallCenterMediaOnHoldSourceModify17
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $videoUrlList
      * @return $this
      */
-    public function setVideoUrlList($videoUrlList)
+    public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList)
     {
         $this->videoUrlList = $videoUrlList;
         return $this;
@@ -221,7 +221,7 @@ class CallCenterMediaOnHoldSourceModify17
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null $videoFileList
      * @return $this
      */
-    public function setVideoFileList($videoFileList)
+    public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify $videoFileList)
     {
         $this->videoFileList = $videoFileList;
         return $this;
@@ -245,7 +245,7 @@ class CallCenterMediaOnHoldSourceModify17
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $externalVideoSource
      * @return $this
      */
-    public function setExternalVideoSource($externalVideoSource)
+    public function setExternalVideoSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalVideoSource)
     {
         $this->externalVideoSource = $externalVideoSource;
         return $this;

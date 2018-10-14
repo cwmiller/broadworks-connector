@@ -38,7 +38,7 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string[] $mscAddress
      * @return $this
      */
-    public function setMscAddress($mscAddress)
+    public function setMscAddress(array $mscAddress)
     {
         $this->mscAddress = $mscAddress;
         return $this;
@@ -51,7 +51,7 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string $mscAddress
      * @return $this
      */
-    public function addMscAddress($mscAddress)
+    public function addMscAddress(string $mscAddress)
     {
         $this->mscAddress []= $mscAddress;
         return $this;

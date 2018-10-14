@@ -100,7 +100,7 @@ class GroupSessionAdmissionControlGroupDeleteListRequest extends \CWM\BroadWorks
      * @param string[] $name
      * @return $this
      */
-    public function setName($name)
+    public function setName(array $name)
     {
         $this->name = $name;
         return $this;
@@ -113,7 +113,7 @@ class GroupSessionAdmissionControlGroupDeleteListRequest extends \CWM\BroadWorks
      * @param string $name
      * @return $this
      */
-    public function addName($name)
+    public function addName(string $name)
     {
         $this->name []= $name;
         return $this;

@@ -43,7 +43,7 @@ class SystemGetRegistrationContactListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $registrationTable
      * @return $this
      */
-    public function setRegistrationTable($registrationTable)
+    public function setRegistrationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $registrationTable)
     {
         $this->registrationTable = $registrationTable;
         return $this;

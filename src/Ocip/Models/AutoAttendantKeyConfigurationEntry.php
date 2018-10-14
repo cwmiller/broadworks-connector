@@ -21,7 +21,7 @@ class AutoAttendantKeyConfigurationEntry
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
 
@@ -71,7 +71,7 @@ class AutoAttendantKeyConfigurationEntry
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     public function getAction()
     {
@@ -82,10 +82,10 @@ class AutoAttendantKeyConfigurationEntry
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction $action)
     {
         $this->action = $action;
         return $this;
@@ -133,7 +133,7 @@ class AutoAttendantKeyConfigurationEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -157,7 +157,7 @@ class AutoAttendantKeyConfigurationEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;

@@ -22,7 +22,7 @@ class UserGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName nightForwarding
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
     private $nightForwarding = null;
 
@@ -54,7 +54,7 @@ class UserGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for nightForwarding
      *
      * @ElementName nightForwarding
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
     public function getNightForwarding()
     {
@@ -65,10 +65,10 @@ class UserGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for nightForwarding
      *
      * @ElementName nightForwarding
-     * @param string|null $nightForwarding
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null $nightForwarding
      * @return $this
      */
-    public function setNightForwarding($nightForwarding)
+    public function setNightForwarding(\CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode $nightForwarding)
     {
         $this->nightForwarding = $nightForwarding;
         return $this;

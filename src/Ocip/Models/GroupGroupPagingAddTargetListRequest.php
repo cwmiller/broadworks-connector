@@ -70,7 +70,7 @@ class GroupGroupPagingAddTargetListRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string[] $targetUserId
      * @return $this
      */
-    public function setTargetUserId($targetUserId)
+    public function setTargetUserId(array $targetUserId)
     {
         $this->targetUserId = $targetUserId;
         return $this;
@@ -83,7 +83,7 @@ class GroupGroupPagingAddTargetListRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string $targetUserId
      * @return $this
      */
-    public function addTargetUserId($targetUserId)
+    public function addTargetUserId(string $targetUserId)
     {
         $this->targetUserId []= $targetUserId;
         return $this;

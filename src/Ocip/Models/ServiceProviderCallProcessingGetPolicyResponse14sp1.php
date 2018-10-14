@@ -62,7 +62,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
 
     /**
      * @ElementName mediaPolicySelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
 
@@ -74,7 +74,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
 
     /**
      * @ElementName networkUsageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
 
@@ -92,7 +92,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
 
     /**
      * @ElementName useSettingLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel|null
      */
     private $useSettingLevel = null;
 
@@ -340,7 +340,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
      * Getter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     public function getMediaPolicySelection()
     {
@@ -351,10 +351,10 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
      * Setter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @param string|null $mediaPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null $mediaPolicySelection
      * @return $this
      */
-    public function setMediaPolicySelection($mediaPolicySelection)
+    public function setMediaPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection)
     {
         $this->mediaPolicySelection = $mediaPolicySelection;
         return $this;
@@ -388,7 +388,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
      * Getter for networkUsageSelection
      *
      * @ElementName networkUsageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     public function getNetworkUsageSelection()
     {
@@ -399,10 +399,10 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
      * Setter for networkUsageSelection
      *
      * @ElementName networkUsageSelection
-     * @param string|null $networkUsageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null $networkUsageSelection
      * @return $this
      */
-    public function setNetworkUsageSelection($networkUsageSelection)
+    public function setNetworkUsageSelection(\CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection $networkUsageSelection)
     {
         $this->networkUsageSelection = $networkUsageSelection;
         return $this;
@@ -460,7 +460,7 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
      * Getter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel|null
      */
     public function getUseSettingLevel()
     {
@@ -471,10 +471,10 @@ class ServiceProviderCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWork
      * Setter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @param string|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel|null $useSettingLevel
      * @return $this
      */
-    public function setUseSettingLevel($useSettingLevel)
+    public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderConferenceURISettingLevel $useSettingLevel)
     {
         $this->useSettingLevel = $useSettingLevel;
         return $this;

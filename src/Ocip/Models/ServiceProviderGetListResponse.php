@@ -43,7 +43,7 @@ class ServiceProviderGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderTable
      * @return $this
      */
-    public function setServiceProviderTable($serviceProviderTable)
+    public function setServiceProviderTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderTable)
     {
         $this->serviceProviderTable = $serviceProviderTable;
         return $this;

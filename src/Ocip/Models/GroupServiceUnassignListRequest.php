@@ -28,7 +28,7 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serviceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     private $serviceName = array(
         
@@ -86,7 +86,7 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     public function getServiceName()
     {
@@ -97,10 +97,10 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string[] $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService[] $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(array $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;
@@ -110,7 +110,7 @@ class GroupServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Adder for serviceName
      *
      * @ElementName serviceName
-     * @param string $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService $serviceName
      * @return $this
      */
     public function addServiceName($serviceName)

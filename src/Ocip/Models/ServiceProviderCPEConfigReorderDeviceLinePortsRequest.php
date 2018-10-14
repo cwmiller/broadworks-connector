@@ -105,7 +105,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @param string[] $orderedLinePortList
      * @return $this
      */
-    public function setOrderedLinePortList($orderedLinePortList)
+    public function setOrderedLinePortList(array $orderedLinePortList)
     {
         $this->orderedLinePortList = $orderedLinePortList;
         return $this;
@@ -118,7 +118,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @param string $orderedLinePortList
      * @return $this
      */
-    public function addOrderedLinePortList($orderedLinePortList)
+    public function addOrderedLinePortList(string $orderedLinePortList)
     {
         $this->orderedLinePortList []= $orderedLinePortList;
         return $this;

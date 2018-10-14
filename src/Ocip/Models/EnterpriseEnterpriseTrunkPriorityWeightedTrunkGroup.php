@@ -46,7 +46,7 @@ class EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey|null $trunkGroup
      * @return $this
      */
-    public function setTrunkGroup($trunkGroup)
+    public function setTrunkGroup(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey $trunkGroup)
     {
         $this->trunkGroup = $trunkGroup;
         return $this;

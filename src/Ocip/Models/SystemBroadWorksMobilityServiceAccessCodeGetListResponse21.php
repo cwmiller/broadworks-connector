@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceAccessCodeTable
      * @return $this
      */
-    public function setServiceAccessCodeTable($serviceAccessCodeTable)
+    public function setServiceAccessCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceAccessCodeTable)
     {
         $this->serviceAccessCodeTable = $serviceAccessCodeTable;
         return $this;

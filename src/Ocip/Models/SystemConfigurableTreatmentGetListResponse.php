@@ -38,7 +38,7 @@ class SystemConfigurableTreatmentGetListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $treatmentTable
      * @return $this
      */
-    public function setTreatmentTable($treatmentTable)
+    public function setTreatmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $treatmentTable)
     {
         $this->treatmentTable = $treatmentTable;
         return $this;

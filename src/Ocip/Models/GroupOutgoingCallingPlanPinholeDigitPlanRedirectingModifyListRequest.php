@@ -107,7 +107,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null $groupPermissions
      * @return $this
      */
-    public function setGroupPermissions($groupPermissions)
+    public function setGroupPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions $groupPermissions)
     {
         $this->groupPermissions = $groupPermissions;
         return $this;
@@ -131,7 +131,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissionsModify[] $departmentPermissions
      * @return $this
      */
-    public function setDepartmentPermissions($departmentPermissions)
+    public function setDepartmentPermissions(array $departmentPermissions)
     {
         $this->departmentPermissions = $departmentPermissions;
         return $this;

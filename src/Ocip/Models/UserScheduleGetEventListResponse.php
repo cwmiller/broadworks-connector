@@ -39,7 +39,7 @@ class UserScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string[] $eventName
      * @return $this
      */
-    public function setEventName($eventName)
+    public function setEventName(array $eventName)
     {
         $this->eventName = $eventName;
         return $this;
@@ -52,7 +52,7 @@ class UserScheduleGetEventListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string $eventName
      * @return $this
      */
-    public function addEventName($eventName)
+    public function addEventName(string $eventName)
     {
         $this->eventName []= $eventName;
         return $this;

@@ -164,7 +164,7 @@ class UserPrivacyGetResponse13mp17 extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $permittedMonitorUserIdTable
      * @return $this
      */
-    public function setPermittedMonitorUserIdTable($permittedMonitorUserIdTable)
+    public function setPermittedMonitorUserIdTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $permittedMonitorUserIdTable)
     {
         $this->permittedMonitorUserIdTable = $permittedMonitorUserIdTable;
         return $this;

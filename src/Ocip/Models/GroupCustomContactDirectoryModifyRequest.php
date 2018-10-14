@@ -160,7 +160,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
      * @return $this
      */
-    public function setUserIdList($userIdList)
+    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)
     {
         $this->userIdList = $userIdList;
         return $this;

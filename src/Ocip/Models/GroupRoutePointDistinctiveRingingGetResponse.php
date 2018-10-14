@@ -20,13 +20,13 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName distinctiveRingingRingPattern
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPattern = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;
 
@@ -58,7 +58,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * Getter for distinctiveRingingRingPattern
      *
      * @ElementName distinctiveRingingRingPattern
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     public function getDistinctiveRingingRingPattern()
     {
@@ -69,10 +69,10 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * Setter for distinctiveRingingRingPattern
      *
      * @ElementName distinctiveRingingRingPattern
-     * @param string|null $distinctiveRingingRingPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $distinctiveRingingRingPattern
      * @return $this
      */
-    public function setDistinctiveRingingRingPattern($distinctiveRingingRingPattern)
+    public function setDistinctiveRingingRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingRingPattern)
     {
         $this->distinctiveRingingRingPattern = $distinctiveRingingRingPattern;
         return $this;
@@ -82,7 +82,7 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * Getter for distinctiveRingingForceDeliveryRingPattern
      *
      * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     public function getDistinctiveRingingForceDeliveryRingPattern()
     {
@@ -93,10 +93,10 @@ class GroupRoutePointDistinctiveRingingGetResponse extends \CWM\BroadWorksConnec
      * Setter for distinctiveRingingForceDeliveryRingPattern
      *
      * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @param string|null $distinctiveRingingForceDeliveryRingPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $distinctiveRingingForceDeliveryRingPattern
      * @return $this
      */
-    public function setDistinctiveRingingForceDeliveryRingPattern($distinctiveRingingForceDeliveryRingPattern)
+    public function setDistinctiveRingingForceDeliveryRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingForceDeliveryRingPattern)
     {
         $this->distinctiveRingingForceDeliveryRingPattern = $distinctiveRingingForceDeliveryRingPattern;
         return $this;

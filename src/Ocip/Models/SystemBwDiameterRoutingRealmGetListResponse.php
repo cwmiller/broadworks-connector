@@ -36,7 +36,7 @@ class SystemBwDiameterRoutingRealmGetListResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routingRealmTable
      * @return $this
      */
-    public function setRoutingRealmTable($routingRealmTable)
+    public function setRoutingRealmTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingRealmTable)
     {
         $this->routingRealmTable = $routingRealmTable;
         return $this;

@@ -110,7 +110,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[] $virtualOnNetUser
      * @return $this
      */
-    public function setVirtualOnNetUser($virtualOnNetUser)
+    public function setVirtualOnNetUser(array $virtualOnNetUser)
     {
         $this->virtualOnNetUser = $virtualOnNetUser;
         return $this;
@@ -147,7 +147,7 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[] $virtualOnNetUserRange
      * @return $this
      */
-    public function setVirtualOnNetUserRange($virtualOnNetUserRange)
+    public function setVirtualOnNetUserRange(array $virtualOnNetUserRange)
     {
         $this->virtualOnNetUserRange = $virtualOnNetUserRange;
         return $this;

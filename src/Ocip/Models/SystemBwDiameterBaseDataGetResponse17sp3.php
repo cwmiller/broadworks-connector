@@ -87,13 +87,13 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName advertisedOfflineBillingApplication
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     private $advertisedOfflineBillingApplication = null;
 
     /**
      * @ElementName advertisedOnlineBillingApplication
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     private $advertisedOnlineBillingApplication = null;
 
@@ -389,7 +389,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Getter for advertisedOfflineBillingApplication
      *
      * @ElementName advertisedOfflineBillingApplication
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     public function getAdvertisedOfflineBillingApplication()
     {
@@ -400,10 +400,10 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Setter for advertisedOfflineBillingApplication
      *
      * @ElementName advertisedOfflineBillingApplication
-     * @param string|null $advertisedOfflineBillingApplication
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null $advertisedOfflineBillingApplication
      * @return $this
      */
-    public function setAdvertisedOfflineBillingApplication($advertisedOfflineBillingApplication)
+    public function setAdvertisedOfflineBillingApplication(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication $advertisedOfflineBillingApplication)
     {
         $this->advertisedOfflineBillingApplication = $advertisedOfflineBillingApplication;
         return $this;
@@ -413,7 +413,7 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Getter for advertisedOnlineBillingApplication
      *
      * @ElementName advertisedOnlineBillingApplication
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     public function getAdvertisedOnlineBillingApplication()
     {
@@ -424,10 +424,10 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Setter for advertisedOnlineBillingApplication
      *
      * @ElementName advertisedOnlineBillingApplication
-     * @param string|null $advertisedOnlineBillingApplication
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null $advertisedOnlineBillingApplication
      * @return $this
      */
-    public function setAdvertisedOnlineBillingApplication($advertisedOnlineBillingApplication)
+    public function setAdvertisedOnlineBillingApplication(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication $advertisedOnlineBillingApplication)
     {
         $this->advertisedOnlineBillingApplication = $advertisedOnlineBillingApplication;
         return $this;

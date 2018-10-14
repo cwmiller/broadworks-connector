@@ -71,7 +71,7 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $timeZoneTable
      * @return $this
      */
-    public function setTimeZoneTable($timeZoneTable)
+    public function setTimeZoneTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $timeZoneTable)
     {
         $this->timeZoneTable = $timeZoneTable;
         return $this;

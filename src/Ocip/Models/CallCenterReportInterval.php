@@ -46,7 +46,7 @@ class CallCenterReportInterval
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates|null $dates
      * @return $this
      */
-    public function setDates($dates)
+    public function setDates(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates $dates)
     {
         $this->dates = $dates;
         return $this;
@@ -70,7 +70,7 @@ class CallCenterReportInterval
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval|null $current
      * @return $this
      */
-    public function setCurrent($current)
+    public function setCurrent(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval $current)
     {
         $this->current = $current;
         return $this;
@@ -94,7 +94,7 @@ class CallCenterReportInterval
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval|null $past
      * @return $this
      */
-    public function setPast($past)
+    public function setPast(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval $past)
     {
         $this->past = $past;
         return $this;

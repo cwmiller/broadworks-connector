@@ -70,7 +70,7 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
      * @param string[] $tagName
      * @return $this
      */
-    public function setTagName($tagName)
+    public function setTagName(array $tagName)
     {
         $this->tagName = $tagName;
         return $this;
@@ -83,7 +83,7 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
      * @param string $tagName
      * @return $this
      */
-    public function addTagName($tagName)
+    public function addTagName(string $tagName)
     {
         $this->tagName []= $tagName;
         return $this;

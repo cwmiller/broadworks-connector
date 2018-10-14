@@ -34,7 +34,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName entranceAudioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceAudioMessageSelection = null;
 
@@ -46,7 +46,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName entranceVideoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceVideoMessageSelection = null;
 
@@ -70,7 +70,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName periodicComfortAudioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortAudioMessageSelection = null;
 
@@ -82,7 +82,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName periodicComfortVideoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortVideoMessageSelection = null;
 
@@ -192,7 +192,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Getter for entranceAudioMessageSelection
      *
      * @ElementName entranceAudioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getEntranceAudioMessageSelection()
     {
@@ -203,10 +203,10 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Setter for entranceAudioMessageSelection
      *
      * @ElementName entranceAudioMessageSelection
-     * @param string|null $entranceAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $entranceAudioMessageSelection
      * @return $this
      */
-    public function setEntranceAudioMessageSelection($entranceAudioMessageSelection)
+    public function setEntranceAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $entranceAudioMessageSelection)
     {
         $this->entranceAudioMessageSelection = $entranceAudioMessageSelection;
         return $this;
@@ -230,7 +230,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $entranceMessageAudioFile
      * @return $this
      */
-    public function setEntranceMessageAudioFile($entranceMessageAudioFile)
+    public function setEntranceMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $entranceMessageAudioFile)
     {
         $this->entranceMessageAudioFile = $entranceMessageAudioFile;
         return $this;
@@ -240,7 +240,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Getter for entranceVideoMessageSelection
      *
      * @ElementName entranceVideoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getEntranceVideoMessageSelection()
     {
@@ -251,10 +251,10 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Setter for entranceVideoMessageSelection
      *
      * @ElementName entranceVideoMessageSelection
-     * @param string|null $entranceVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $entranceVideoMessageSelection
      * @return $this
      */
-    public function setEntranceVideoMessageSelection($entranceVideoMessageSelection)
+    public function setEntranceVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $entranceVideoMessageSelection)
     {
         $this->entranceVideoMessageSelection = $entranceVideoMessageSelection;
         return $this;
@@ -278,7 +278,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $entranceMessageVideoFile
      * @return $this
      */
-    public function setEntranceMessageVideoFile($entranceMessageVideoFile)
+    public function setEntranceMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $entranceMessageVideoFile)
     {
         $this->entranceMessageVideoFile = $entranceMessageVideoFile;
         return $this;
@@ -336,7 +336,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Getter for periodicComfortAudioMessageSelection
      *
      * @ElementName periodicComfortAudioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getPeriodicComfortAudioMessageSelection()
     {
@@ -347,10 +347,10 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Setter for periodicComfortAudioMessageSelection
      *
      * @ElementName periodicComfortAudioMessageSelection
-     * @param string|null $periodicComfortAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $periodicComfortAudioMessageSelection
      * @return $this
      */
-    public function setPeriodicComfortAudioMessageSelection($periodicComfortAudioMessageSelection)
+    public function setPeriodicComfortAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $periodicComfortAudioMessageSelection)
     {
         $this->periodicComfortAudioMessageSelection = $periodicComfortAudioMessageSelection;
         return $this;
@@ -374,7 +374,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $periodicComfortMessageAudioFile
      * @return $this
      */
-    public function setPeriodicComfortMessageAudioFile($periodicComfortMessageAudioFile)
+    public function setPeriodicComfortMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $periodicComfortMessageAudioFile)
     {
         $this->periodicComfortMessageAudioFile = $periodicComfortMessageAudioFile;
         return $this;
@@ -384,7 +384,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Getter for periodicComfortVideoMessageSelection
      *
      * @ElementName periodicComfortVideoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getPeriodicComfortVideoMessageSelection()
     {
@@ -395,10 +395,10 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * Setter for periodicComfortVideoMessageSelection
      *
      * @ElementName periodicComfortVideoMessageSelection
-     * @param string|null $periodicComfortVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $periodicComfortVideoMessageSelection
      * @return $this
      */
-    public function setPeriodicComfortVideoMessageSelection($periodicComfortVideoMessageSelection)
+    public function setPeriodicComfortVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $periodicComfortVideoMessageSelection)
     {
         $this->periodicComfortVideoMessageSelection = $periodicComfortVideoMessageSelection;
         return $this;
@@ -422,7 +422,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $periodicComfortMessageVideoFile
      * @return $this
      */
-    public function setPeriodicComfortMessageVideoFile($periodicComfortMessageVideoFile)
+    public function setPeriodicComfortMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $periodicComfortMessageVideoFile)
     {
         $this->periodicComfortMessageVideoFile = $periodicComfortMessageVideoFile;
         return $this;
@@ -470,7 +470,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify16|null $mediaOnHoldSource
      * @return $this
      */
-    public function setMediaOnHoldSource($mediaOnHoldSource)
+    public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify16 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
         return $this;
@@ -518,7 +518,7 @@ class GroupCallCenterModifyAnnouncementRequest16 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify16|null $mediaOnHoldInternalSource
      * @return $this
      */
-    public function setMediaOnHoldInternalSource($mediaOnHoldInternalSource)
+    public function setMediaOnHoldInternalSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify16 $mediaOnHoldInternalSource)
     {
         $this->mediaOnHoldInternalSource = $mediaOnHoldInternalSource;
         return $this;

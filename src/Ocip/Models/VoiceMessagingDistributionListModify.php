@@ -95,7 +95,7 @@ class VoiceMessagingDistributionListModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $phoneNumberList
      * @return $this
      */
-    public function setPhoneNumberList($phoneNumberList)
+    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $phoneNumberList)
     {
         $this->phoneNumberList = $phoneNumberList;
         return $this;

@@ -36,7 +36,7 @@ class ReplacementCombinedUserServiceAuthorizationList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization[] $userServiceAuthorization
      * @return $this
      */
-    public function setUserServiceAuthorization($userServiceAuthorization)
+    public function setUserServiceAuthorization(array $userServiceAuthorization)
     {
         $this->userServiceAuthorization = $userServiceAuthorization;
         return $this;

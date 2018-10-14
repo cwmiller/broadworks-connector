@@ -130,7 +130,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[] $optInStatus
      * @return $this
      */
-    public function setOptInStatus($optInStatus)
+    public function setOptInStatus(array $optInStatus)
     {
         $this->optInStatus = $optInStatus;
         return $this;

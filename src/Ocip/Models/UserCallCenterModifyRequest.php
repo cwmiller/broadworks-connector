@@ -32,7 +32,7 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName agentACDState
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
 
@@ -138,7 +138,7 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for agentACDState
      *
      * @ElementName agentACDState
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     public function getAgentACDState()
     {
@@ -149,10 +149,10 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for agentACDState
      *
      * @ElementName agentACDState
-     * @param string|null $agentACDState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null $agentACDState
      * @return $this
      */
-    public function setAgentACDState($agentACDState)
+    public function setAgentACDState(\CWM\BroadWorksConnector\Ocip\Models\AgentACDState $agentACDState)
     {
         $this->agentACDState = $agentACDState;
         return $this;
@@ -416,7 +416,7 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $outgoingCallDNIS
      * @return $this
      */
-    public function setOutgoingCallDNIS($outgoingCallDNIS)
+    public function setOutgoingCallDNIS(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $outgoingCallDNIS)
     {
         $this->outgoingCallDNIS = $outgoingCallDNIS;
         return $this;
@@ -440,7 +440,7 @@ class UserCallCenterModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[] $callCenterAvailability
      * @return $this
      */
-    public function setCallCenterAvailability($callCenterAvailability)
+    public function setCallCenterAvailability(array $callCenterAvailability)
     {
         $this->callCenterAvailability = $callCenterAvailability;
         return $this;

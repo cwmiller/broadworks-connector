@@ -40,7 +40,7 @@ class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $findMeFollowMeTable
      * @return $this
      */
-    public function setFindMeFollowMeTable($findMeFollowMeTable)
+    public function setFindMeFollowMeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $findMeFollowMeTable)
     {
         $this->findMeFollowMeTable = $findMeFollowMeTable;
         return $this;

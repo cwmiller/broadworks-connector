@@ -45,7 +45,7 @@ class ServiceProviderDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderDeviceTypeCustomTagsTable
      * @return $this
      */
-    public function setServiceProviderDeviceTypeCustomTagsTable($serviceProviderDeviceTypeCustomTagsTable)
+    public function setServiceProviderDeviceTypeCustomTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderDeviceTypeCustomTagsTable)
     {
         $this->serviceProviderDeviceTypeCustomTagsTable = $serviceProviderDeviceTypeCustomTagsTable;
         return $this;

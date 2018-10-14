@@ -74,7 +74,7 @@ class CombinedServicePackAssignment
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $authorizedQuantity
      * @return $this
      */
-    public function setAuthorizedQuantity($authorizedQuantity)
+    public function setAuthorizedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $authorizedQuantity)
     {
         $this->authorizedQuantity = $authorizedQuantity;
         return $this;

@@ -38,7 +38,7 @@ class ServiceProviderServicePackGetServiceUsageListResponse extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceUsageTable
      * @return $this
      */
-    public function setServiceUsageTable($serviceUsageTable)
+    public function setServiceUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceUsageTable)
     {
         $this->serviceUsageTable = $serviceUsageTable;
         return $this;

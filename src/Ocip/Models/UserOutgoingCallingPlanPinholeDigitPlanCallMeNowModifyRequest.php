@@ -98,7 +98,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanCallMeNowModifyRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions|null $userPermissions
      * @return $this
      */
-    public function setUserPermissions($userPermissions)
+    public function setUserPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternCallMeNowPermissions $userPermissions)
     {
         $this->userPermissions = $userPermissions;
         return $this;

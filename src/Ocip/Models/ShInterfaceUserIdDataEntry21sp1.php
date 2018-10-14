@@ -12,7 +12,7 @@ class ShInterfaceUserIdDataEntry21sp1
 
     /**
      * @ElementName userType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
 
@@ -24,7 +24,7 @@ class ShInterfaceUserIdDataEntry21sp1
 
     /**
      * @ElementName endpointType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     private $endpointType = null;
 
@@ -36,7 +36,7 @@ class ShInterfaceUserIdDataEntry21sp1
 
     /**
      * @ElementName IMSUserState
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;
 
@@ -44,7 +44,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * Getter for userType
      *
      * @ElementName userType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     public function getUserType()
     {
@@ -55,10 +55,10 @@ class ShInterfaceUserIdDataEntry21sp1
      * Setter for userType
      *
      * @ElementName userType
-     * @param string|null $userType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserType|null $userType
      * @return $this
      */
-    public function setUserType($userType)
+    public function setUserType(\CWM\BroadWorksConnector\Ocip\Models\UserType $userType)
     {
         $this->userType = $userType;
         return $this;
@@ -82,7 +82,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null $publicUserIdentity
      * @return $this
      */
-    public function setPublicUserIdentity($publicUserIdentity)
+    public function setPublicUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity)
     {
         $this->publicUserIdentity = $publicUserIdentity;
         return $this;
@@ -92,7 +92,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * Getter for endpointType
      *
      * @ElementName endpointType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     public function getEndpointType()
     {
@@ -103,10 +103,10 @@ class ShInterfaceUserIdDataEntry21sp1
      * Setter for endpointType
      *
      * @ElementName endpointType
-     * @param string|null $endpointType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null $endpointType
      * @return $this
      */
-    public function setEndpointType($endpointType)
+    public function setEndpointType(\CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1 $endpointType)
     {
         $this->endpointType = $endpointType;
         return $this;
@@ -140,7 +140,7 @@ class ShInterfaceUserIdDataEntry21sp1
      * Getter for IMSUserState
      *
      * @ElementName IMSUserState
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     public function getIMSUserState()
     {
@@ -151,10 +151,10 @@ class ShInterfaceUserIdDataEntry21sp1
      * Setter for IMSUserState
      *
      * @ElementName IMSUserState
-     * @param string|null $IMSUserState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null $IMSUserState
      * @return $this
      */
-    public function setIMSUserState($IMSUserState)
+    public function setIMSUserState(\CWM\BroadWorksConnector\Ocip\Models\IMSUserState $IMSUserState)
     {
         $this->IMSUserState = $IMSUserState;
         return $this;

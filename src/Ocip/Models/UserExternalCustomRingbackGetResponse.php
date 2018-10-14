@@ -20,7 +20,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName useSettingLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
     private $useSettingLevel = null;
 
@@ -58,7 +58,7 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
      * Getter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
     public function getUseSettingLevel()
     {
@@ -69,10 +69,10 @@ class UserExternalCustomRingbackGetResponse extends \CWM\BroadWorksConnector\Oci
      * Setter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @param string|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null $useSettingLevel
      * @return $this
      */
-    public function setUseSettingLevel($useSettingLevel)
+    public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel $useSettingLevel)
     {
         $this->useSettingLevel = $useSettingLevel;
         return $this;

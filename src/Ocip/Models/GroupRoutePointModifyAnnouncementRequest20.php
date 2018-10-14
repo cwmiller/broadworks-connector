@@ -68,7 +68,7 @@ class GroupRoutePointModifyAnnouncementRequest20 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20|null $mediaOnHoldSource
      * @return $this
      */
-    public function setMediaOnHoldSource($mediaOnHoldSource)
+    public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
         return $this;

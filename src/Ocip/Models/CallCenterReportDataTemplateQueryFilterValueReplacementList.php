@@ -39,7 +39,7 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @param string[] $filterValue
      * @return $this
      */
-    public function setFilterValue($filterValue)
+    public function setFilterValue(array $filterValue)
     {
         $this->filterValue = $filterValue;
         return $this;
@@ -52,7 +52,7 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @param string $filterValue
      * @return $this
      */
-    public function addFilterValue($filterValue)
+    public function addFilterValue(string $filterValue)
     {
         $this->filterValue []= $filterValue;
         return $this;

@@ -101,7 +101,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
      * @param int[] $eventId
      * @return $this
      */
-    public function setEventId($eventId)
+    public function setEventId(array $eventId)
     {
         $this->eventId = $eventId;
         return $this;
@@ -114,7 +114,7 @@ class GroupDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\B
      * @param int $eventId
      * @return $this
      */
-    public function addEventId($eventId)
+    public function addEventId(int $eventId)
     {
         $this->eventId []= $eventId;
         return $this;

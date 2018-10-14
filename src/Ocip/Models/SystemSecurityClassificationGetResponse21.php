@@ -98,7 +98,7 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $SecurityClassificationTable
      * @return $this
      */
-    public function setSecurityClassificationTable($SecurityClassificationTable)
+    public function setSecurityClassificationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $SecurityClassificationTable)
     {
         $this->SecurityClassificationTable = $SecurityClassificationTable;
         return $this;

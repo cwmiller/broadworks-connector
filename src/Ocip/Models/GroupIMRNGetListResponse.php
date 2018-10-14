@@ -38,7 +38,7 @@ class GroupIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param string[] $imrn
      * @return $this
      */
-    public function setImrn($imrn)
+    public function setImrn(array $imrn)
     {
         $this->imrn = $imrn;
         return $this;
@@ -51,7 +51,7 @@ class GroupIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param string $imrn
      * @return $this
      */
-    public function addImrn($imrn)
+    public function addImrn(string $imrn)
     {
         $this->imrn []= $imrn;
         return $this;

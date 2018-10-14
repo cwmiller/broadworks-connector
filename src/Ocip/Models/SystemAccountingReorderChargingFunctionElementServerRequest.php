@@ -46,7 +46,7 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
      * @param string[] $orderedAddressList
      * @return $this
      */
-    public function setOrderedAddressList($orderedAddressList)
+    public function setOrderedAddressList(array $orderedAddressList)
     {
         $this->orderedAddressList = $orderedAddressList;
         return $this;
@@ -59,7 +59,7 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
      * @param string $orderedAddressList
      * @return $this
      */
-    public function addOrderedAddressList($orderedAddressList)
+    public function addOrderedAddressList(string $orderedAddressList)
     {
         $this->orderedAddressList []= $orderedAddressList;
         return $this;

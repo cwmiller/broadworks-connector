@@ -74,7 +74,7 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[] $callCenterAvailability
      * @return $this
      */
-    public function setCallCenterAvailability($callCenterAvailability)
+    public function setCallCenterAvailability(array $callCenterAvailability)
     {
         $this->callCenterAvailability = $callCenterAvailability;
         return $this;

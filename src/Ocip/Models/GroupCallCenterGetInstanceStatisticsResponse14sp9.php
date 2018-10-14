@@ -48,7 +48,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null $statisticsRange
      * @return $this
      */
-    public function setStatisticsRange($statisticsRange)
+    public function setStatisticsRange(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange $statisticsRange)
     {
         $this->statisticsRange = $statisticsRange;
         return $this;
@@ -72,7 +72,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics14sp9|null $queueStatistics
      * @return $this
      */
-    public function setQueueStatistics($queueStatistics)
+    public function setQueueStatistics(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics14sp9 $queueStatistics)
     {
         $this->queueStatistics = $queueStatistics;
         return $this;
@@ -96,7 +96,7 @@ class GroupCallCenterGetInstanceStatisticsResponse14sp9 extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics14sp9[] $agentStatistics
      * @return $this
      */
-    public function setAgentStatistics($agentStatistics)
+    public function setAgentStatistics(array $agentStatistics)
     {
         $this->agentStatistics = $agentStatistics;
         return $this;

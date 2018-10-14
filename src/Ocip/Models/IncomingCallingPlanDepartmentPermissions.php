@@ -30,7 +30,7 @@ class IncomingCallingPlanDepartmentPermissions
 
     /**
      * @ElementName allowFromOutsideGroup
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     private $allowFromOutsideGroup = null;
 
@@ -66,7 +66,7 @@ class IncomingCallingPlanDepartmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -124,7 +124,7 @@ class IncomingCallingPlanDepartmentPermissions
      * Getter for allowFromOutsideGroup
      *
      * @ElementName allowFromOutsideGroup
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     public function getAllowFromOutsideGroup()
     {
@@ -135,10 +135,10 @@ class IncomingCallingPlanDepartmentPermissions
      * Setter for allowFromOutsideGroup
      *
      * @ElementName allowFromOutsideGroup
-     * @param string|null $allowFromOutsideGroup
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null $allowFromOutsideGroup
      * @return $this
      */
-    public function setAllowFromOutsideGroup($allowFromOutsideGroup)
+    public function setAllowFromOutsideGroup(\CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission $allowFromOutsideGroup)
     {
         $this->allowFromOutsideGroup = $allowFromOutsideGroup;
         return $this;
@@ -186,7 +186,7 @@ class IncomingCallingPlanDepartmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[] $digitPatternPermission
      * @return $this
      */
-    public function setDigitPatternPermission($digitPatternPermission)
+    public function setDigitPatternPermission(array $digitPatternPermission)
     {
         $this->digitPatternPermission = $digitPatternPermission;
         return $this;

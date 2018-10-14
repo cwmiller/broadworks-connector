@@ -21,7 +21,7 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName announcementFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
 
@@ -53,7 +53,7 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
      * Getter for announcementFileType
      *
      * @ElementName announcementFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     public function getAnnouncementFileType()
     {
@@ -64,10 +64,10 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
      * Setter for announcementFileType
      *
      * @ElementName announcementFileType
-     * @param string|null $announcementFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null $announcementFileType
      * @return $this
      */
-    public function setAnnouncementFileType($announcementFileType)
+    public function setAnnouncementFileType(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType $announcementFileType)
     {
         $this->announcementFileType = $announcementFileType;
         return $this;

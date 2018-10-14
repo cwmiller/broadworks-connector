@@ -30,7 +30,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName eventQueueType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null
      */
     private $eventQueueType = null;
 
@@ -114,7 +114,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * Getter for eventQueueType
      *
      * @ElementName eventQueueType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null
      */
     public function getEventQueueType()
     {
@@ -125,10 +125,10 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * Setter for eventQueueType
      *
      * @ElementName eventQueueType
-     * @param string|null $eventQueueType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null $eventQueueType
      * @return $this
      */
-    public function setEventQueueType($eventQueueType)
+    public function setEventQueueType(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType $eventQueueType)
     {
         $this->eventQueueType = $eventQueueType;
         return $this;
@@ -176,7 +176,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending|null $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceManagementEventStatusInProgressOrPending($searchCriteriaExactDeviceManagementEventStatusInProgressOrPending)
+    public function setSearchCriteriaExactDeviceManagementEventStatusInProgressOrPending(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending)
     {
         $this->searchCriteriaExactDeviceManagementEventStatusInProgressOrPending = $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending;
         return $this;
@@ -200,7 +200,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted|null $searchCriteriaExactDeviceManagementEventStatusCompleted
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceManagementEventStatusCompleted($searchCriteriaExactDeviceManagementEventStatusCompleted)
+    public function setSearchCriteriaExactDeviceManagementEventStatusCompleted(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted $searchCriteriaExactDeviceManagementEventStatusCompleted)
     {
         $this->searchCriteriaExactDeviceManagementEventStatusCompleted = $searchCriteriaExactDeviceManagementEventStatusCompleted;
         return $this;
@@ -224,7 +224,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction|null $searchCriteriaExactDeviceManagementEventAction
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceManagementEventAction($searchCriteriaExactDeviceManagementEventAction)
+    public function setSearchCriteriaExactDeviceManagementEventAction(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction $searchCriteriaExactDeviceManagementEventAction)
     {
         $this->searchCriteriaExactDeviceManagementEventAction = $searchCriteriaExactDeviceManagementEventAction;
         return $this;
@@ -248,7 +248,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel|null $searchCriteriaExactDeviceManagementEventLevel
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceManagementEventLevel($searchCriteriaExactDeviceManagementEventLevel)
+    public function setSearchCriteriaExactDeviceManagementEventLevel(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel $searchCriteriaExactDeviceManagementEventLevel)
     {
         $this->searchCriteriaExactDeviceManagementEventLevel = $searchCriteriaExactDeviceManagementEventLevel;
         return $this;
@@ -272,7 +272,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType|null $searchCriteriaExactDeviceManagementEventType
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceManagementEventType($searchCriteriaExactDeviceManagementEventType)
+    public function setSearchCriteriaExactDeviceManagementEventType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType $searchCriteriaExactDeviceManagementEventType)
     {
         $this->searchCriteriaExactDeviceManagementEventType = $searchCriteriaExactDeviceManagementEventType;
         return $this;
@@ -296,7 +296,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo[] $searchCriteriaDeviceManagementEventAdditionalInfo
      * @return $this
      */
-    public function setSearchCriteriaDeviceManagementEventAdditionalInfo($searchCriteriaDeviceManagementEventAdditionalInfo)
+    public function setSearchCriteriaDeviceManagementEventAdditionalInfo(array $searchCriteriaDeviceManagementEventAdditionalInfo)
     {
         $this->searchCriteriaDeviceManagementEventAdditionalInfo = $searchCriteriaDeviceManagementEventAdditionalInfo;
         return $this;
@@ -333,7 +333,7 @@ class ServiceProviderDeviceManagementEventGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId[] $searchCriteriaDeviceManagementEventLoginId
      * @return $this
      */
-    public function setSearchCriteriaDeviceManagementEventLoginId($searchCriteriaDeviceManagementEventLoginId)
+    public function setSearchCriteriaDeviceManagementEventLoginId(array $searchCriteriaDeviceManagementEventLoginId)
     {
         $this->searchCriteriaDeviceManagementEventLoginId = $searchCriteriaDeviceManagementEventLoginId;
         return $this;

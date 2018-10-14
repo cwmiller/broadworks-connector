@@ -34,7 +34,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName entranceAudioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceAudioMessageSelection = null;
 
@@ -52,7 +52,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName entranceVideoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $entranceVideoMessageSelection = null;
 
@@ -82,7 +82,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName periodicComfortAudioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortAudioMessageSelection = null;
 
@@ -100,7 +100,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName periodicComfortVideoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $periodicComfortVideoMessageSelection = null;
 
@@ -136,7 +136,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName whisperAudioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $whisperAudioMessageSelection = null;
 
@@ -154,7 +154,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName whisperVideoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $whisperVideoMessageSelection = null;
 
@@ -194,7 +194,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
      * @return $this
      */
-    public function setDnisKey($dnisKey)
+    public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
     {
         $this->dnisKey = $dnisKey;
         return $this;
@@ -252,7 +252,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Getter for entranceAudioMessageSelection
      *
      * @ElementName entranceAudioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getEntranceAudioMessageSelection()
     {
@@ -263,10 +263,10 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Setter for entranceAudioMessageSelection
      *
      * @ElementName entranceAudioMessageSelection
-     * @param string|null $entranceAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $entranceAudioMessageSelection
      * @return $this
      */
-    public function setEntranceAudioMessageSelection($entranceAudioMessageSelection)
+    public function setEntranceAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $entranceAudioMessageSelection)
     {
         $this->entranceAudioMessageSelection = $entranceAudioMessageSelection;
         return $this;
@@ -290,7 +290,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $entranceMessageAudioUrlList
      * @return $this
      */
-    public function setEntranceMessageAudioUrlList($entranceMessageAudioUrlList)
+    public function setEntranceMessageAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $entranceMessageAudioUrlList)
     {
         $this->entranceMessageAudioUrlList = $entranceMessageAudioUrlList;
         return $this;
@@ -314,7 +314,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $entranceMessageAudioFileList
      * @return $this
      */
-    public function setEntranceMessageAudioFileList($entranceMessageAudioFileList)
+    public function setEntranceMessageAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $entranceMessageAudioFileList)
     {
         $this->entranceMessageAudioFileList = $entranceMessageAudioFileList;
         return $this;
@@ -324,7 +324,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Getter for entranceVideoMessageSelection
      *
      * @ElementName entranceVideoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getEntranceVideoMessageSelection()
     {
@@ -335,10 +335,10 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Setter for entranceVideoMessageSelection
      *
      * @ElementName entranceVideoMessageSelection
-     * @param string|null $entranceVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $entranceVideoMessageSelection
      * @return $this
      */
-    public function setEntranceVideoMessageSelection($entranceVideoMessageSelection)
+    public function setEntranceVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $entranceVideoMessageSelection)
     {
         $this->entranceVideoMessageSelection = $entranceVideoMessageSelection;
         return $this;
@@ -362,7 +362,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $entranceMessageVideoUrlList
      * @return $this
      */
-    public function setEntranceMessageVideoUrlList($entranceMessageVideoUrlList)
+    public function setEntranceMessageVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $entranceMessageVideoUrlList)
     {
         $this->entranceMessageVideoUrlList = $entranceMessageVideoUrlList;
         return $this;
@@ -386,7 +386,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $entranceMessageVideoFileList
      * @return $this
      */
-    public function setEntranceMessageVideoFileList($entranceMessageVideoFileList)
+    public function setEntranceMessageVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $entranceMessageVideoFileList)
     {
         $this->entranceMessageVideoFileList = $entranceMessageVideoFileList;
         return $this;
@@ -444,7 +444,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Getter for periodicComfortAudioMessageSelection
      *
      * @ElementName periodicComfortAudioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getPeriodicComfortAudioMessageSelection()
     {
@@ -455,10 +455,10 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Setter for periodicComfortAudioMessageSelection
      *
      * @ElementName periodicComfortAudioMessageSelection
-     * @param string|null $periodicComfortAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $periodicComfortAudioMessageSelection
      * @return $this
      */
-    public function setPeriodicComfortAudioMessageSelection($periodicComfortAudioMessageSelection)
+    public function setPeriodicComfortAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $periodicComfortAudioMessageSelection)
     {
         $this->periodicComfortAudioMessageSelection = $periodicComfortAudioMessageSelection;
         return $this;
@@ -482,7 +482,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $periodicComfortMessageAudioUrlList
      * @return $this
      */
-    public function setPeriodicComfortMessageAudioUrlList($periodicComfortMessageAudioUrlList)
+    public function setPeriodicComfortMessageAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $periodicComfortMessageAudioUrlList)
     {
         $this->periodicComfortMessageAudioUrlList = $periodicComfortMessageAudioUrlList;
         return $this;
@@ -506,7 +506,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $periodicComfortMessageAudioFileList
      * @return $this
      */
-    public function setPeriodicComfortMessageAudioFileList($periodicComfortMessageAudioFileList)
+    public function setPeriodicComfortMessageAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $periodicComfortMessageAudioFileList)
     {
         $this->periodicComfortMessageAudioFileList = $periodicComfortMessageAudioFileList;
         return $this;
@@ -516,7 +516,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Getter for periodicComfortVideoMessageSelection
      *
      * @ElementName periodicComfortVideoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getPeriodicComfortVideoMessageSelection()
     {
@@ -527,10 +527,10 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Setter for periodicComfortVideoMessageSelection
      *
      * @ElementName periodicComfortVideoMessageSelection
-     * @param string|null $periodicComfortVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $periodicComfortVideoMessageSelection
      * @return $this
      */
-    public function setPeriodicComfortVideoMessageSelection($periodicComfortVideoMessageSelection)
+    public function setPeriodicComfortVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $periodicComfortVideoMessageSelection)
     {
         $this->periodicComfortVideoMessageSelection = $periodicComfortVideoMessageSelection;
         return $this;
@@ -554,7 +554,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $periodicComfortMessageVideoUrlList
      * @return $this
      */
-    public function setPeriodicComfortMessageVideoUrlList($periodicComfortMessageVideoUrlList)
+    public function setPeriodicComfortMessageVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $periodicComfortMessageVideoUrlList)
     {
         $this->periodicComfortMessageVideoUrlList = $periodicComfortMessageVideoUrlList;
         return $this;
@@ -578,7 +578,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $periodicComfortMessageVideoFileList
      * @return $this
      */
-    public function setPeriodicComfortMessageVideoFileList($periodicComfortMessageVideoFileList)
+    public function setPeriodicComfortMessageVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $periodicComfortMessageVideoFileList)
     {
         $this->periodicComfortMessageVideoFileList = $periodicComfortMessageVideoFileList;
         return $this;
@@ -626,7 +626,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20|null $mediaOnHoldSource
      * @return $this
      */
-    public function setMediaOnHoldSource($mediaOnHoldSource)
+    public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
         return $this;
@@ -660,7 +660,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Getter for whisperAudioMessageSelection
      *
      * @ElementName whisperAudioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getWhisperAudioMessageSelection()
     {
@@ -671,10 +671,10 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Setter for whisperAudioMessageSelection
      *
      * @ElementName whisperAudioMessageSelection
-     * @param string|null $whisperAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $whisperAudioMessageSelection
      * @return $this
      */
-    public function setWhisperAudioMessageSelection($whisperAudioMessageSelection)
+    public function setWhisperAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $whisperAudioMessageSelection)
     {
         $this->whisperAudioMessageSelection = $whisperAudioMessageSelection;
         return $this;
@@ -698,7 +698,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $whisperMessageAudioUrlList
      * @return $this
      */
-    public function setWhisperMessageAudioUrlList($whisperMessageAudioUrlList)
+    public function setWhisperMessageAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $whisperMessageAudioUrlList)
     {
         $this->whisperMessageAudioUrlList = $whisperMessageAudioUrlList;
         return $this;
@@ -722,7 +722,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $whisperMessageAudioFileList
      * @return $this
      */
-    public function setWhisperMessageAudioFileList($whisperMessageAudioFileList)
+    public function setWhisperMessageAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $whisperMessageAudioFileList)
     {
         $this->whisperMessageAudioFileList = $whisperMessageAudioFileList;
         return $this;
@@ -732,7 +732,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Getter for whisperVideoMessageSelection
      *
      * @ElementName whisperVideoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getWhisperVideoMessageSelection()
     {
@@ -743,10 +743,10 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * Setter for whisperVideoMessageSelection
      *
      * @ElementName whisperVideoMessageSelection
-     * @param string|null $whisperVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $whisperVideoMessageSelection
      * @return $this
      */
-    public function setWhisperVideoMessageSelection($whisperVideoMessageSelection)
+    public function setWhisperVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $whisperVideoMessageSelection)
     {
         $this->whisperVideoMessageSelection = $whisperVideoMessageSelection;
         return $this;
@@ -770,7 +770,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $whisperMessageVideoUrlList
      * @return $this
      */
-    public function setWhisperMessageVideoUrlList($whisperMessageVideoUrlList)
+    public function setWhisperMessageVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $whisperMessageVideoUrlList)
     {
         $this->whisperMessageVideoUrlList = $whisperMessageVideoUrlList;
         return $this;
@@ -794,7 +794,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $whisperMessageVideoFileList
      * @return $this
      */
-    public function setWhisperMessageVideoFileList($whisperMessageVideoFileList)
+    public function setWhisperMessageVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $whisperMessageVideoFileList)
     {
         $this->whisperMessageVideoFileList = $whisperMessageVideoFileList;
         return $this;
@@ -818,7 +818,7 @@ class GroupCallCenterModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOptionsModify|null $estimatedWaitMessageOptionsModify
      * @return $this
      */
-    public function setEstimatedWaitMessageOptionsModify($estimatedWaitMessageOptionsModify)
+    public function setEstimatedWaitMessageOptionsModify(\CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOptionsModify $estimatedWaitMessageOptionsModify)
     {
         $this->estimatedWaitMessageOptionsModify = $estimatedWaitMessageOptionsModify;
         return $this;

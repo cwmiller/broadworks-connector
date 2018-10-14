@@ -80,7 +80,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -128,7 +128,7 @@ class UserAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $uploadFile
      * @return $this
      */
-    public function setUploadFile($uploadFile)
+    public function setUploadFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $uploadFile)
     {
         $this->uploadFile = $uploadFile;
         return $this;

@@ -134,7 +134,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[] $searchCriteriaDeviceName
      * @return $this
      */
-    public function setSearchCriteriaDeviceName($searchCriteriaDeviceName)
+    public function setSearchCriteriaDeviceName(array $searchCriteriaDeviceName)
     {
         $this->searchCriteriaDeviceName = $searchCriteriaDeviceName;
         return $this;
@@ -171,7 +171,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[] $searchCriteriaDeviceMACAddress
      * @return $this
      */
-    public function setSearchCriteriaDeviceMACAddress($searchCriteriaDeviceMACAddress)
+    public function setSearchCriteriaDeviceMACAddress(array $searchCriteriaDeviceMACAddress)
     {
         $this->searchCriteriaDeviceMACAddress = $searchCriteriaDeviceMACAddress;
         return $this;
@@ -208,7 +208,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[] $searchCriteriaDeviceNetAddress
      * @return $this
      */
-    public function setSearchCriteriaDeviceNetAddress($searchCriteriaDeviceNetAddress)
+    public function setSearchCriteriaDeviceNetAddress(array $searchCriteriaDeviceNetAddress)
     {
         $this->searchCriteriaDeviceNetAddress = $searchCriteriaDeviceNetAddress;
         return $this;
@@ -245,7 +245,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -282,7 +282,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null $searchCriteriaExactDeviceType
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceType($searchCriteriaExactDeviceType)
+    public function setSearchCriteriaExactDeviceType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType $searchCriteriaExactDeviceType)
     {
         $this->searchCriteriaExactDeviceType = $searchCriteriaExactDeviceType;
         return $this;
@@ -306,7 +306,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceServiceProvider|null $searchCriteriaExactDeviceServiceProvider
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceServiceProvider($searchCriteriaExactDeviceServiceProvider)
+    public function setSearchCriteriaExactDeviceServiceProvider(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceServiceProvider $searchCriteriaExactDeviceServiceProvider)
     {
         $this->searchCriteriaExactDeviceServiceProvider = $searchCriteriaExactDeviceServiceProvider;
         return $this;
@@ -330,7 +330,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -367,7 +367,7 @@ class SystemAccessDeviceGetAllRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
-    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
     {
         $this->searchCriteriaResellerId = $searchCriteriaResellerId;
         return $this;

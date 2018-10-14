@@ -29,7 +29,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName announcementFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
 
@@ -105,7 +105,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for announcementFileType
      *
      * @ElementName announcementFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     public function getAnnouncementFileType()
     {
@@ -116,10 +116,10 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for announcementFileType
      *
      * @ElementName announcementFileType
-     * @param string|null $announcementFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null $announcementFileType
      * @return $this
      */
-    public function setAnnouncementFileType($announcementFileType)
+    public function setAnnouncementFileType(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType $announcementFileType)
     {
         $this->announcementFileType = $announcementFileType;
         return $this;
@@ -191,7 +191,7 @@ class GroupAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[] $searchCriteriaAnnouncementFileName
      * @return $this
      */
-    public function setSearchCriteriaAnnouncementFileName($searchCriteriaAnnouncementFileName)
+    public function setSearchCriteriaAnnouncementFileName(array $searchCriteriaAnnouncementFileName)
     {
         $this->searchCriteriaAnnouncementFileName = $searchCriteriaAnnouncementFileName;
         return $this;

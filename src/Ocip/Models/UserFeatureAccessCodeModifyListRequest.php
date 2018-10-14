@@ -70,7 +70,7 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry[] $featureAccessCode
      * @return $this
      */
-    public function setFeatureAccessCode($featureAccessCode)
+    public function setFeatureAccessCode(array $featureAccessCode)
     {
         $this->featureAccessCode = $featureAccessCode;
         return $this;

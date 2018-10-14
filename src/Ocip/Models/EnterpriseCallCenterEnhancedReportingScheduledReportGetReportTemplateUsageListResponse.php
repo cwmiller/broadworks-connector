@@ -44,7 +44,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetReportTemplateUsage
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $scheduleReportTable
      * @return $this
      */
-    public function setScheduleReportTable($scheduleReportTable)
+    public function setScheduleReportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $scheduleReportTable)
     {
         $this->scheduleReportTable = $scheduleReportTable;
         return $this;

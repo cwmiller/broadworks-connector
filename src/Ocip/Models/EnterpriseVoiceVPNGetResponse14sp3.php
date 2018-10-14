@@ -20,13 +20,13 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName defaultSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     private $defaultSelection = null;
 
     /**
      * @ElementName e164Selection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     private $e164Selection = null;
 
@@ -64,7 +64,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for defaultSelection
      *
      * @ElementName defaultSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     public function getDefaultSelection()
     {
@@ -75,10 +75,10 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for defaultSelection
      *
      * @ElementName defaultSelection
-     * @param string|null $defaultSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null $defaultSelection
      * @return $this
      */
-    public function setDefaultSelection($defaultSelection)
+    public function setDefaultSelection(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection $defaultSelection)
     {
         $this->defaultSelection = $defaultSelection;
         return $this;
@@ -88,7 +88,7 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for e164Selection
      *
      * @ElementName e164Selection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     public function getE164Selection()
     {
@@ -99,10 +99,10 @@ class EnterpriseVoiceVPNGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for e164Selection
      *
      * @ElementName e164Selection
-     * @param string|null $e164Selection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null $e164Selection
      * @return $this
      */
-    public function setE164Selection($e164Selection)
+    public function setE164Selection(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection $e164Selection)
     {
         $this->e164Selection = $e164Selection;
         return $this;

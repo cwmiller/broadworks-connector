@@ -44,7 +44,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName callbackMethod
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
     private $callbackMethod = null;
 
@@ -178,7 +178,7 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * Getter for callbackMethod
      *
      * @ElementName callbackMethod
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
     public function getCallbackMethod()
     {
@@ -189,10 +189,10 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
      * Setter for callbackMethod
      *
      * @ElementName callbackMethod
-     * @param string|null $callbackMethod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null $callbackMethod
      * @return $this
      */
-    public function setCallbackMethod($callbackMethod)
+    public function setCallbackMethod(\CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod $callbackMethod)
     {
         $this->callbackMethod = $callbackMethod;
         return $this;

@@ -306,7 +306,7 @@ class TrunkGroupMultipleContactPilotUser
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -402,7 +402,7 @@ class TrunkGroupMultipleContactPilotUser
      * @param string[] $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact(array $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -415,7 +415,7 @@ class TrunkGroupMultipleContactPilotUser
      * @param string $contact
      * @return $this
      */
-    public function addContact($contact)
+    public function addContact(string $contact)
     {
         $this->contact []= $contact;
         return $this;

@@ -156,7 +156,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[] $searchCriteriaMobileSubscriberDirectoryNumber
      * @return $this
      */
-    public function setSearchCriteriaMobileSubscriberDirectoryNumber($searchCriteriaMobileSubscriberDirectoryNumber)
+    public function setSearchCriteriaMobileSubscriberDirectoryNumber(array $searchCriteriaMobileSubscriberDirectoryNumber)
     {
         $this->searchCriteriaMobileSubscriberDirectoryNumber = $searchCriteriaMobileSubscriberDirectoryNumber;
         return $this;
@@ -193,7 +193,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null $searchCriteriaExactMobileNetwork
      * @return $this
      */
-    public function setSearchCriteriaExactMobileNetwork($searchCriteriaExactMobileNetwork)
+    public function setSearchCriteriaExactMobileNetwork(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork $searchCriteriaExactMobileNetwork)
     {
         $this->searchCriteriaExactMobileNetwork = $searchCriteriaExactMobileNetwork;
         return $this;
@@ -217,7 +217,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -254,7 +254,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
      * @return $this
      */
-    public function setSearchCriteriaExactOrganizationType($searchCriteriaExactOrganizationType)
+    public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
     {
         $this->searchCriteriaExactOrganizationType = $searchCriteriaExactOrganizationType;
         return $this;
@@ -278,7 +278,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -315,7 +315,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
-    public function setSearchCriteriaUserId($searchCriteriaUserId)
+    public function setSearchCriteriaUserId(array $searchCriteriaUserId)
     {
         $this->searchCriteriaUserId = $searchCriteriaUserId;
         return $this;
@@ -352,7 +352,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
-    public function setSearchCriteriaUserLastName($searchCriteriaUserLastName)
+    public function setSearchCriteriaUserLastName(array $searchCriteriaUserLastName)
     {
         $this->searchCriteriaUserLastName = $searchCriteriaUserLastName;
         return $this;
@@ -389,7 +389,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
-    public function setSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
+    public function setSearchCriteriaUserFirstName(array $searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName = $searchCriteriaUserFirstName;
         return $this;
@@ -426,7 +426,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;
@@ -463,7 +463,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
-    public function setSearchCriteriaExtension($searchCriteriaExtension)
+    public function setSearchCriteriaExtension(array $searchCriteriaExtension)
     {
         $this->searchCriteriaExtension = $searchCriteriaExtension;
         return $this;
@@ -500,7 +500,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListReque
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
-    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
     {
         $this->searchCriteriaResellerId = $searchCriteriaResellerId;
         return $this;

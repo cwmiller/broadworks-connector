@@ -174,7 +174,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $newParentDepartmentKey
      * @return $this
      */
-    public function setNewParentDepartmentKey($newParentDepartmentKey)
+    public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $newParentDepartmentKey)
     {
         $this->newParentDepartmentKey = $newParentDepartmentKey;
         return $this;

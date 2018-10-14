@@ -37,7 +37,7 @@ class SystemGETSSessionPriorityMapGetListResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $sessionPriorityTable
      * @return $this
      */
-    public function setSessionPriorityTable($sessionPriorityTable)
+    public function setSessionPriorityTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $sessionPriorityTable)
     {
         $this->sessionPriorityTable = $sessionPriorityTable;
         return $this;

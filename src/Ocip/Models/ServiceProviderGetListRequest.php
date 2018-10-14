@@ -127,7 +127,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -164,7 +164,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[] $searchCriteriaServiceProviderName
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderName($searchCriteriaServiceProviderName)
+    public function setSearchCriteriaServiceProviderName(array $searchCriteriaServiceProviderName)
     {
         $this->searchCriteriaServiceProviderName = $searchCriteriaServiceProviderName;
         return $this;
@@ -201,7 +201,7 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
-    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
     {
         $this->searchCriteriaResellerId = $searchCriteriaResellerId;
         return $this;

@@ -46,7 +46,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName audioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
@@ -58,7 +58,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName videoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
@@ -192,7 +192,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * Getter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioMessageSelection()
     {
@@ -203,10 +203,10 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * Setter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @param string|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
      * @return $this
      */
-    public function setAudioMessageSelection($audioMessageSelection)
+    public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
     {
         $this->audioMessageSelection = $audioMessageSelection;
         return $this;
@@ -230,7 +230,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -240,7 +240,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * Getter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoMessageSelection()
     {
@@ -251,10 +251,10 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * Setter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @param string|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
      * @return $this
      */
-    public function setVideoMessageSelection($videoMessageSelection)
+    public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
     {
         $this->videoMessageSelection = $videoMessageSelection;
         return $this;
@@ -278,7 +278,7 @@ class GroupCallCenterForcedForwardingModifyRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;

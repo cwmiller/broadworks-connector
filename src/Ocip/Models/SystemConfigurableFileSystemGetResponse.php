@@ -21,13 +21,13 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName protocolFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse\ProtocolFile|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile|null
      */
     private $protocolFile = null;
 
     /**
      * @ElementName protocolWebDAV
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse\ProtocolWebDAV|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV|null
      */
     private $protocolWebDAV = null;
 
@@ -59,7 +59,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for protocolFile
      *
      * @ElementName protocolFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse\ProtocolFile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile|null
      */
     public function getProtocolFile()
     {
@@ -70,10 +70,10 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for protocolFile
      *
      * @ElementName protocolFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse\ProtocolFile|null $protocolFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile|null $protocolFile
      * @return $this
      */
-    public function setProtocolFile($protocolFile)
+    public function setProtocolFile(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolFile $protocolFile)
     {
         $this->protocolFile = $protocolFile;
         return $this;
@@ -83,7 +83,7 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for protocolWebDAV
      *
      * @ElementName protocolWebDAV
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse\ProtocolWebDAV|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV|null
      */
     public function getProtocolWebDAV()
     {
@@ -94,10 +94,10 @@ class SystemConfigurableFileSystemGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for protocolWebDAV
      *
      * @ElementName protocolWebDAV
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponse\ProtocolWebDAV|null $protocolWebDAV
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV|null $protocolWebDAV
      * @return $this
      */
-    public function setProtocolWebDAV($protocolWebDAV)
+    public function setProtocolWebDAV(\CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemGetResponseProtocolWebDAV $protocolWebDAV)
     {
         $this->protocolWebDAV = $protocolWebDAV;
         return $this;

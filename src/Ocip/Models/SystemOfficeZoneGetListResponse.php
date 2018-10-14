@@ -38,7 +38,7 @@ class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $officeZoneTable
      * @return $this
      */
-    public function setOfficeZoneTable($officeZoneTable)
+    public function setOfficeZoneTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $officeZoneTable)
     {
         $this->officeZoneTable = $officeZoneTable;
         return $this;

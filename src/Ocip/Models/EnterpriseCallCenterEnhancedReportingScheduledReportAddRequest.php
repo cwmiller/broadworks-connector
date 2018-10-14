@@ -48,13 +48,13 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
 
     /**
      * @ElementName samplingPeriod
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null
      */
     private $samplingPeriod = null;
 
     /**
      * @ElementName startDayOfWeek
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
 
@@ -66,13 +66,13 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
 
     /**
      * @ElementName reportDateFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null
      */
     private $reportDateFormat = null;
 
     /**
      * @ElementName reportTimeFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null
      */
     private $reportTimeFormat = null;
 
@@ -84,7 +84,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
 
     /**
      * @ElementName reportFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null
      */
     private $reportFormat = null;
 
@@ -244,7 +244,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null $reportTemplate
      * @return $this
      */
-    public function setReportTemplate($reportTemplate)
+    public function setReportTemplate(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey $reportTemplate)
     {
         $this->reportTemplate = $reportTemplate;
         return $this;
@@ -268,7 +268,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule|null $schedule
      * @return $this
      */
-    public function setSchedule($schedule)
+    public function setSchedule(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule $schedule)
     {
         $this->schedule = $schedule;
         return $this;
@@ -278,7 +278,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Getter for samplingPeriod
      *
      * @ElementName samplingPeriod
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null
      */
     public function getSamplingPeriod()
     {
@@ -289,10 +289,10 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Setter for samplingPeriod
      *
      * @ElementName samplingPeriod
-     * @param string|null $samplingPeriod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null $samplingPeriod
      * @return $this
      */
-    public function setSamplingPeriod($samplingPeriod)
+    public function setSamplingPeriod(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod $samplingPeriod)
     {
         $this->samplingPeriod = $samplingPeriod;
         return $this;
@@ -302,7 +302,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Getter for startDayOfWeek
      *
      * @ElementName startDayOfWeek
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     public function getStartDayOfWeek()
     {
@@ -313,10 +313,10 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Setter for startDayOfWeek
      *
      * @ElementName startDayOfWeek
-     * @param string|null $startDayOfWeek
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null $startDayOfWeek
      * @return $this
      */
-    public function setStartDayOfWeek($startDayOfWeek)
+    public function setStartDayOfWeek(\CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $startDayOfWeek)
     {
         $this->startDayOfWeek = $startDayOfWeek;
         return $this;
@@ -350,7 +350,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Getter for reportDateFormat
      *
      * @ElementName reportDateFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null
      */
     public function getReportDateFormat()
     {
@@ -361,10 +361,10 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Setter for reportDateFormat
      *
      * @ElementName reportDateFormat
-     * @param string|null $reportDateFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null $reportDateFormat
      * @return $this
      */
-    public function setReportDateFormat($reportDateFormat)
+    public function setReportDateFormat(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat $reportDateFormat)
     {
         $this->reportDateFormat = $reportDateFormat;
         return $this;
@@ -374,7 +374,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Getter for reportTimeFormat
      *
      * @ElementName reportTimeFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null
      */
     public function getReportTimeFormat()
     {
@@ -385,10 +385,10 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Setter for reportTimeFormat
      *
      * @ElementName reportTimeFormat
-     * @param string|null $reportTimeFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null $reportTimeFormat
      * @return $this
      */
-    public function setReportTimeFormat($reportTimeFormat)
+    public function setReportTimeFormat(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat $reportTimeFormat)
     {
         $this->reportTimeFormat = $reportTimeFormat;
         return $this;
@@ -412,7 +412,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval|null $reportInterval
      * @return $this
      */
-    public function setReportInterval($reportInterval)
+    public function setReportInterval(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval $reportInterval)
     {
         $this->reportInterval = $reportInterval;
         return $this;
@@ -422,7 +422,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Getter for reportFormat
      *
      * @ElementName reportFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null
      */
     public function getReportFormat()
     {
@@ -433,10 +433,10 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * Setter for reportFormat
      *
      * @ElementName reportFormat
-     * @param string|null $reportFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null $reportFormat
      * @return $this
      */
-    public function setReportFormat($reportFormat)
+    public function setReportFormat(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat $reportFormat)
     {
         $this->reportFormat = $reportFormat;
         return $this;
@@ -460,7 +460,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection|null $agent
      * @return $this
      */
-    public function setAgent($agent)
+    public function setAgent(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection $agent)
     {
         $this->agent = $agent;
         return $this;
@@ -484,7 +484,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection|null $callCenter
      * @return $this
      */
-    public function setCallCenter($callCenter)
+    public function setCallCenter(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection $callCenter)
     {
         $this->callCenter = $callCenter;
         return $this;
@@ -508,7 +508,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection|null $dnis
      * @return $this
      */
-    public function setDnis($dnis)
+    public function setDnis(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection $dnis)
     {
         $this->dnis = $dnis;
         return $this;
@@ -580,7 +580,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param int[] $serviceLevelThresholdSeconds
      * @return $this
      */
-    public function setServiceLevelThresholdSeconds($serviceLevelThresholdSeconds)
+    public function setServiceLevelThresholdSeconds(array $serviceLevelThresholdSeconds)
     {
         $this->serviceLevelThresholdSeconds = $serviceLevelThresholdSeconds;
         return $this;
@@ -593,7 +593,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param int $serviceLevelThresholdSeconds
      * @return $this
      */
-    public function addServiceLevelThresholdSeconds($serviceLevelThresholdSeconds)
+    public function addServiceLevelThresholdSeconds(int $serviceLevelThresholdSeconds)
     {
         $this->serviceLevelThresholdSeconds []= $serviceLevelThresholdSeconds;
         return $this;
@@ -617,7 +617,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusions|null $serviceLevelInclusions
      * @return $this
      */
-    public function setServiceLevelInclusions($serviceLevelInclusions)
+    public function setServiceLevelInclusions(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusions $serviceLevelInclusions)
     {
         $this->serviceLevelInclusions = $serviceLevelInclusions;
         return $this;
@@ -665,7 +665,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param int[] $abandonedCallThresholdSeconds
      * @return $this
      */
-    public function setAbandonedCallThresholdSeconds($abandonedCallThresholdSeconds)
+    public function setAbandonedCallThresholdSeconds(array $abandonedCallThresholdSeconds)
     {
         $this->abandonedCallThresholdSeconds = $abandonedCallThresholdSeconds;
         return $this;
@@ -678,7 +678,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param int $abandonedCallThresholdSeconds
      * @return $this
      */
-    public function addAbandonedCallThresholdSeconds($abandonedCallThresholdSeconds)
+    public function addAbandonedCallThresholdSeconds(int $abandonedCallThresholdSeconds)
     {
         $this->abandonedCallThresholdSeconds []= $abandonedCallThresholdSeconds;
         return $this;
@@ -702,7 +702,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param string[] $emailAddress
      * @return $this
      */
-    public function setEmailAddress($emailAddress)
+    public function setEmailAddress(array $emailAddress)
     {
         $this->emailAddress = $emailAddress;
         return $this;
@@ -715,7 +715,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportAddRequest extends \CW
      * @param string $emailAddress
      * @return $this
      */
-    public function addEmailAddress($emailAddress)
+    public function addEmailAddress(string $emailAddress)
     {
         $this->emailAddress []= $emailAddress;
         return $this;

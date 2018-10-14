@@ -38,7 +38,7 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string[] $mediaSetName
      * @return $this
      */
-    public function setMediaSetName($mediaSetName)
+    public function setMediaSetName(array $mediaSetName)
     {
         $this->mediaSetName = $mediaSetName;
         return $this;
@@ -51,7 +51,7 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string $mediaSetName
      * @return $this
      */
-    public function addMediaSetName($mediaSetName)
+    public function addMediaSetName(string $mediaSetName)
     {
         $this->mediaSetName []= $mediaSetName;
         return $this;

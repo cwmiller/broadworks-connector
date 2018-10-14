@@ -29,13 +29,13 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName distinctiveRingingRingPatternForCallCenter
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPatternForCallCenter = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;
 
@@ -91,7 +91,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * Getter for distinctiveRingingRingPatternForCallCenter
      *
      * @ElementName distinctiveRingingRingPatternForCallCenter
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     public function getDistinctiveRingingRingPatternForCallCenter()
     {
@@ -102,10 +102,10 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * Setter for distinctiveRingingRingPatternForCallCenter
      *
      * @ElementName distinctiveRingingRingPatternForCallCenter
-     * @param string|null $distinctiveRingingRingPatternForCallCenter
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $distinctiveRingingRingPatternForCallCenter
      * @return $this
      */
-    public function setDistinctiveRingingRingPatternForCallCenter($distinctiveRingingRingPatternForCallCenter)
+    public function setDistinctiveRingingRingPatternForCallCenter(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingRingPatternForCallCenter)
     {
         $this->distinctiveRingingRingPatternForCallCenter = $distinctiveRingingRingPatternForCallCenter;
         return $this;
@@ -115,7 +115,7 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * Getter for distinctiveRingingForceDeliveryRingPattern
      *
      * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     public function getDistinctiveRingingForceDeliveryRingPattern()
     {
@@ -126,10 +126,10 @@ class GroupCallCenterDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
      * Setter for distinctiveRingingForceDeliveryRingPattern
      *
      * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @param string|null $distinctiveRingingForceDeliveryRingPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $distinctiveRingingForceDeliveryRingPattern
      * @return $this
      */
-    public function setDistinctiveRingingForceDeliveryRingPattern($distinctiveRingingForceDeliveryRingPattern)
+    public function setDistinctiveRingingForceDeliveryRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingForceDeliveryRingPattern)
     {
         $this->distinctiveRingingForceDeliveryRingPattern = $distinctiveRingingForceDeliveryRingPattern;
         return $this;

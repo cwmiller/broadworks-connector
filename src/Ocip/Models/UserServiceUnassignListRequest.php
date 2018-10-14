@@ -22,7 +22,7 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName serviceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
         
@@ -64,7 +64,7 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getServiceName()
     {
@@ -75,10 +75,10 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string[] $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(array $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;
@@ -88,7 +88,7 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Adder for serviceName
      *
      * @ElementName serviceName
-     * @param string $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName
      * @return $this
      */
     public function addServiceName($serviceName)
@@ -115,7 +115,7 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param string[] $servicePackName
      * @return $this
      */
-    public function setServicePackName($servicePackName)
+    public function setServicePackName(array $servicePackName)
     {
         $this->servicePackName = $servicePackName;
         return $this;
@@ -128,7 +128,7 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param string $servicePackName
      * @return $this
      */
-    public function addServicePackName($servicePackName)
+    public function addServicePackName(string $servicePackName)
     {
         $this->servicePackName []= $servicePackName;
         return $this;

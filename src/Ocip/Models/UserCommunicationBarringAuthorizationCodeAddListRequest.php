@@ -70,7 +70,7 @@ class UserCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[] $code
      * @return $this
      */
-    public function setCode($code)
+    public function setCode(array $code)
     {
         $this->code = $code;
         return $this;

@@ -68,7 +68,7 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
      * @return $this
      */
-    public function setSupervisorUserIdList($supervisorUserIdList)
+    public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)
     {
         $this->supervisorUserIdList = $supervisorUserIdList;
         return $this;

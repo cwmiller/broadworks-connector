@@ -25,7 +25,7 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
 
     /**
      * @ElementName abandonedCallsInServiceLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
      */
     private $abandonedCallsInServiceLevel = null;
 
@@ -87,7 +87,7 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
      * Getter for abandonedCallsInServiceLevel
      *
      * @ElementName abandonedCallsInServiceLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
      */
     public function getAbandonedCallsInServiceLevel()
     {
@@ -98,10 +98,10 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
      * Setter for abandonedCallsInServiceLevel
      *
      * @ElementName abandonedCallsInServiceLevel
-     * @param string|null $abandonedCallsInServiceLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null $abandonedCallsInServiceLevel
      * @return $this
      */
-    public function setAbandonedCallsInServiceLevel($abandonedCallsInServiceLevel)
+    public function setAbandonedCallsInServiceLevel(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel $abandonedCallsInServiceLevel)
     {
         $this->abandonedCallsInServiceLevel = $abandonedCallsInServiceLevel;
         return $this;

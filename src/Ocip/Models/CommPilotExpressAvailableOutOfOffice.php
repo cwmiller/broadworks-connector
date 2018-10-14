@@ -41,7 +41,7 @@ class CommPilotExpressAvailableOutOfOffice
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null $incomingCalls
      * @return $this
      */
-    public function setIncomingCalls($incomingCalls)
+    public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection $incomingCalls)
     {
         $this->incomingCalls = $incomingCalls;
         return $this;
@@ -65,7 +65,7 @@ class CommPilotExpressAvailableOutOfOffice
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify|null $incomingCallNotify
      * @return $this
      */
-    public function setIncomingCallNotify($incomingCallNotify)
+    public function setIncomingCallNotify(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify $incomingCallNotify)
     {
         $this->incomingCallNotify = $incomingCallNotify;
         return $this;

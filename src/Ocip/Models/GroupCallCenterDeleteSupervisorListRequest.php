@@ -70,7 +70,7 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
      * @param string[] $supervisorUserId
      * @return $this
      */
-    public function setSupervisorUserId($supervisorUserId)
+    public function setSupervisorUserId(array $supervisorUserId)
     {
         $this->supervisorUserId = $supervisorUserId;
         return $this;
@@ -83,7 +83,7 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
      * @param string $supervisorUserId
      * @return $this
      */
-    public function addSupervisorUserId($supervisorUserId)
+    public function addSupervisorUserId(string $supervisorUserId)
     {
         $this->supervisorUserId []= $supervisorUserId;
         return $this;

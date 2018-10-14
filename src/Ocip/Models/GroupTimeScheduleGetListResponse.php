@@ -39,7 +39,7 @@ class GroupTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string[] $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(array $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -52,7 +52,7 @@ class GroupTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string $timeSchedule
      * @return $this
      */
-    public function addTimeSchedule($timeSchedule)
+    public function addTimeSchedule(string $timeSchedule)
     {
         $this->timeSchedule []= $timeSchedule;
         return $this;

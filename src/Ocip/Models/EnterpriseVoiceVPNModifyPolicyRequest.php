@@ -52,7 +52,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName policySelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
 
@@ -218,7 +218,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for policySelection
      *
      * @ElementName policySelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     public function getPolicySelection()
     {
@@ -229,10 +229,10 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for policySelection
      *
      * @ElementName policySelection
-     * @param string|null $policySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null $policySelection
      * @return $this
      */
-    public function setPolicySelection($policySelection)
+    public function setPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection $policySelection)
     {
         $this->policySelection = $policySelection;
         return $this;
@@ -256,7 +256,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[] $digitManipulation
      * @return $this
      */
-    public function setDigitManipulation($digitManipulation)
+    public function setDigitManipulation(array $digitManipulation)
     {
         $this->digitManipulation = $digitManipulation;
         return $this;

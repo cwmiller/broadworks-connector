@@ -160,7 +160,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @param string[] $matchNumberPortabilityStatus
      * @return $this
      */
-    public function setMatchNumberPortabilityStatus($matchNumberPortabilityStatus)
+    public function setMatchNumberPortabilityStatus(array $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus = $matchNumberPortabilityStatus;
         return $this;
@@ -173,7 +173,7 @@ class SystemCommunicationBarringIncomingCriteriaAddRequest extends \CWM\BroadWor
      * @param string $matchNumberPortabilityStatus
      * @return $this
      */
-    public function addMatchNumberPortabilityStatus($matchNumberPortabilityStatus)
+    public function addMatchNumberPortabilityStatus(string $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus []= $matchNumberPortabilityStatus;
         return $this;

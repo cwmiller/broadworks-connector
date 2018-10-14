@@ -14,7 +14,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction|null
      */
     private $action = null;
 
@@ -26,7 +26,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName audioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
@@ -44,13 +44,13 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName audioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
     /**
      * @ElementName videoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
@@ -68,7 +68,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName videoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
@@ -76,7 +76,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction|null
      */
     public function getAction()
     {
@@ -87,10 +87,10 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallProcessingAction $action)
     {
         $this->action = $action;
         return $this;
@@ -124,7 +124,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioMessageSelection()
     {
@@ -135,10 +135,10 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @param string|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
      * @return $this
      */
-    public function setAudioMessageSelection($audioMessageSelection)
+    public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
     {
         $this->audioMessageSelection = $audioMessageSelection;
         return $this;
@@ -196,7 +196,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioMediaType()
     {
@@ -207,10 +207,10 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @param string|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
      * @return $this
      */
-    public function setAudioMediaType($audioMediaType)
+    public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
     {
         $this->audioMediaType = $audioMediaType;
         return $this;
@@ -220,7 +220,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoMessageSelection()
     {
@@ -231,10 +231,10 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @param string|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
      * @return $this
      */
-    public function setVideoMessageSelection($videoMessageSelection)
+    public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
     {
         $this->videoMessageSelection = $videoMessageSelection;
         return $this;
@@ -292,7 +292,7 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVideoMediaType()
     {
@@ -303,10 +303,10 @@ class GroupCallCenterStrandedCallGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @param string|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
      * @return $this
      */
-    public function setVideoMediaType($videoMediaType)
+    public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
         return $this;

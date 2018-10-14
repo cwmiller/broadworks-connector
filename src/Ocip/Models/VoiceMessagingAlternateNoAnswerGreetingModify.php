@@ -71,7 +71,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -95,7 +95,7 @@ class VoiceMessagingAlternateNoAnswerGreetingModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;

@@ -22,7 +22,7 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName incomingCalls
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
 
@@ -60,7 +60,7 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
      * Getter for incomingCalls
      *
      * @ElementName incomingCalls
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     public function getIncomingCalls()
     {
@@ -71,10 +71,10 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
      * Setter for incomingCalls
      *
      * @ElementName incomingCalls
-     * @param string|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null $incomingCalls
      * @return $this
      */
-    public function setIncomingCalls($incomingCalls)
+    public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls)
     {
         $this->incomingCalls = $incomingCalls;
         return $this;
@@ -98,7 +98,7 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $phoneNumberTable
      * @return $this
      */
-    public function setPhoneNumberTable($phoneNumberTable)
+    public function setPhoneNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $phoneNumberTable)
     {
         $this->phoneNumberTable = $phoneNumberTable;
         return $this;

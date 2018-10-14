@@ -39,7 +39,7 @@ class SystemCommunicationBarringAlternateCallIndicatorGetListResponse extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $alternateCallIndicatorTable
      * @return $this
      */
-    public function setAlternateCallIndicatorTable($alternateCallIndicatorTable)
+    public function setAlternateCallIndicatorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $alternateCallIndicatorTable)
     {
         $this->alternateCallIndicatorTable = $alternateCallIndicatorTable;
         return $this;

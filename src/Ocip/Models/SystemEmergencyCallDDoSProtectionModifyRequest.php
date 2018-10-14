@@ -34,7 +34,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName protectionAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
      */
     private $protectionAction = null;
 
@@ -114,7 +114,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * Getter for protectionAction
      *
      * @ElementName protectionAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
      */
     public function getProtectionAction()
     {
@@ -125,10 +125,10 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * Setter for protectionAction
      *
      * @ElementName protectionAction
-     * @param string|null $protectionAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null $protectionAction
      * @return $this
      */
-    public function setProtectionAction($protectionAction)
+    public function setProtectionAction(\CWM\BroadWorksConnector\Ocip\Models\ProtectionAction $protectionAction)
     {
         $this->protectionAction = $protectionAction;
         return $this;

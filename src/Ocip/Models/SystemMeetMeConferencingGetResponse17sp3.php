@@ -47,7 +47,7 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName expiredConferenceHoldPeriodDays
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null
      */
     private $expiredConferenceHoldPeriodDays = null;
 
@@ -59,7 +59,7 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName recordingFileFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat|null
      */
     private $recordingFileFormat = null;
 
@@ -187,7 +187,7 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Getter for expiredConferenceHoldPeriodDays
      *
      * @ElementName expiredConferenceHoldPeriodDays
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null
      */
     public function getExpiredConferenceHoldPeriodDays()
     {
@@ -198,10 +198,10 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Setter for expiredConferenceHoldPeriodDays
      *
      * @ElementName expiredConferenceHoldPeriodDays
-     * @param int|null $expiredConferenceHoldPeriodDays
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays|null $expiredConferenceHoldPeriodDays
      * @return $this
      */
-    public function setExpiredConferenceHoldPeriodDays($expiredConferenceHoldPeriodDays)
+    public function setExpiredConferenceHoldPeriodDays(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingExpiredConferenceHoldPeriodDays $expiredConferenceHoldPeriodDays)
     {
         $this->expiredConferenceHoldPeriodDays = $expiredConferenceHoldPeriodDays;
         return $this;
@@ -235,7 +235,7 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Getter for recordingFileFormat
      *
      * @ElementName recordingFileFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat|null
      */
     public function getRecordingFileFormat()
     {
@@ -246,10 +246,10 @@ class SystemMeetMeConferencingGetResponse17sp3 extends \CWM\BroadWorksConnector\
      * Setter for recordingFileFormat
      *
      * @ElementName recordingFileFormat
-     * @param string|null $recordingFileFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat|null $recordingFileFormat
      * @return $this
      */
-    public function setRecordingFileFormat($recordingFileFormat)
+    public function setRecordingFileFormat(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingRecordingFileFormat $recordingFileFormat)
     {
         $this->recordingFileFormat = $recordingFileFormat;
         return $this;

@@ -37,7 +37,7 @@ class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $digitPatternTable
      * @return $this
      */
-    public function setDigitPatternTable($digitPatternTable)
+    public function setDigitPatternTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $digitPatternTable)
     {
         $this->digitPatternTable = $digitPatternTable;
         return $this;

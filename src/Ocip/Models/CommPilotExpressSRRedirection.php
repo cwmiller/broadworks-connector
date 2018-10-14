@@ -13,7 +13,7 @@ class CommPilotExpressSRRedirection
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null
      */
     private $action = null;
 
@@ -27,7 +27,7 @@ class CommPilotExpressSRRedirection
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null
      */
     public function getAction()
     {
@@ -38,10 +38,10 @@ class CommPilotExpressSRRedirection
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction $action)
     {
         $this->action = $action;
         return $this;

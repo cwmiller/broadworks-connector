@@ -159,7 +159,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null $searchCriteriaCallCenterName
      * @return $this
      */
-    public function setSearchCriteriaCallCenterName($searchCriteriaCallCenterName)
+    public function setSearchCriteriaCallCenterName(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName $searchCriteriaCallCenterName)
     {
         $this->searchCriteriaCallCenterName = $searchCriteriaCallCenterName;
         return $this;

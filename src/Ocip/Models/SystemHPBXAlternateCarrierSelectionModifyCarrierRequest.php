@@ -40,7 +40,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     private $type = null;
 
@@ -144,7 +144,7 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     public function getType()
     {
@@ -155,10 +155,10 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType $type)
     {
         $this->type = $type;
         return $this;

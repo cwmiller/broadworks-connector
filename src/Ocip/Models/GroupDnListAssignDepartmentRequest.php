@@ -116,7 +116,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -140,7 +140,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -153,7 +153,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;
@@ -177,7 +177,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $dnRange
      * @return $this
      */
-    public function setDnRange($dnRange)
+    public function setDnRange(array $dnRange)
     {
         $this->dnRange = $dnRange;
         return $this;

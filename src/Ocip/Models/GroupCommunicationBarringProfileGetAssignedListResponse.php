@@ -40,7 +40,7 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
      * @param string[] $profileName
      * @return $this
      */
-    public function setProfileName($profileName)
+    public function setProfileName(array $profileName)
     {
         $this->profileName = $profileName;
         return $this;
@@ -53,7 +53,7 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
      * @param string $profileName
      * @return $this
      */
-    public function addProfileName($profileName)
+    public function addProfileName(string $profileName)
     {
         $this->profileName []= $profileName;
         return $this;

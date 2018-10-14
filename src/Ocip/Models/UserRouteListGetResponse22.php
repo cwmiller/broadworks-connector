@@ -138,7 +138,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $assignedNumberRangeTable
      * @return $this
      */
-    public function setAssignedNumberRangeTable($assignedNumberRangeTable)
+    public function setAssignedNumberRangeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assignedNumberRangeTable)
     {
         $this->assignedNumberRangeTable = $assignedNumberRangeTable;
         return $this;
@@ -162,7 +162,7 @@ class UserRouteListGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $assignedNumberPrefixTable
      * @return $this
      */
-    public function setAssignedNumberPrefixTable($assignedNumberPrefixTable)
+    public function setAssignedNumberPrefixTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assignedNumberPrefixTable)
     {
         $this->assignedNumberPrefixTable = $assignedNumberPrefixTable;
         return $this;

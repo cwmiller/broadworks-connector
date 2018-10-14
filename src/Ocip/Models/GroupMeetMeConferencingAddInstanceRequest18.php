@@ -185,7 +185,7 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -209,7 +209,7 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
      * @return $this
      */
-    public function setAllocatedPorts($allocatedPorts)
+    public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
     {
         $this->allocatedPorts = $allocatedPorts;
         return $this;
@@ -305,7 +305,7 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @param string[] $conferenceHostUserId
      * @return $this
      */
-    public function setConferenceHostUserId($conferenceHostUserId)
+    public function setConferenceHostUserId(array $conferenceHostUserId)
     {
         $this->conferenceHostUserId = $conferenceHostUserId;
         return $this;
@@ -318,7 +318,7 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @param string $conferenceHostUserId
      * @return $this
      */
-    public function addConferenceHostUserId($conferenceHostUserId)
+    public function addConferenceHostUserId(string $conferenceHostUserId)
     {
         $this->conferenceHostUserId []= $conferenceHostUserId;
         return $this;
@@ -414,7 +414,7 @@ class GroupMeetMeConferencingAddInstanceRequest18 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null $maxConferenceDurationMinutes
      * @return $this
      */
-    public function setMaxConferenceDurationMinutes($maxConferenceDurationMinutes)
+    public function setMaxConferenceDurationMinutes(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration $maxConferenceDurationMinutes)
     {
         $this->maxConferenceDurationMinutes = $maxConferenceDurationMinutes;
         return $this;

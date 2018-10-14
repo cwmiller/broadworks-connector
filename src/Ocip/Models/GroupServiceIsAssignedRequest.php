@@ -24,7 +24,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName serviceName
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $serviceName = null;
 
@@ -80,7 +80,7 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     public function getServiceName()
     {
@@ -91,10 +91,10 @@ class GroupServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string|null $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService|null $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(\CWM\BroadWorksConnector\Ocip\Models\GroupService $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;

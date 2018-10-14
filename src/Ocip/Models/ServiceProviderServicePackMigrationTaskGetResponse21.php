@@ -88,7 +88,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
 
     /**
      * @ElementName status
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus21|null
      */
     private $status = null;
 
@@ -118,7 +118,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
 
     /**
      * @ElementName userSelectionType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     private $userSelectionType = null;
 
@@ -150,7 +150,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
 
     /**
      * @ElementName userSelectionServiceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userSelectionServiceName = array(
         
@@ -166,7 +166,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
 
     /**
      * @ElementName removeServiceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $removeServiceName = array(
         
@@ -182,7 +182,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
 
     /**
      * @ElementName assignServiceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $assignServiceName = array(
         
@@ -480,7 +480,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Getter for status
      *
      * @ElementName status
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus21|null
      */
     public function getStatus()
     {
@@ -491,10 +491,10 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Setter for status
      *
      * @ElementName status
-     * @param string|null $status
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus21|null $status
      * @return $this
      */
-    public function setStatus($status)
+    public function setStatus(\CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus21 $status)
     {
         $this->status = $status;
         return $this;
@@ -600,7 +600,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Getter for userSelectionType
      *
      * @ElementName userSelectionType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     public function getUserSelectionType()
     {
@@ -611,10 +611,10 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Setter for userSelectionType
      *
      * @ElementName userSelectionType
-     * @param string|null $userSelectionType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null $userSelectionType
      * @return $this
      */
-    public function setUserSelectionType($userSelectionType)
+    public function setUserSelectionType(\CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType $userSelectionType)
     {
         $this->userSelectionType = $userSelectionType;
         return $this;
@@ -686,7 +686,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupTable
      * @return $this
      */
-    public function setGroupTable($groupTable)
+    public function setGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupTable)
     {
         $this->groupTable = $groupTable;
         return $this;
@@ -710,7 +710,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param string[] $userSelectionServicePackName
      * @return $this
      */
-    public function setUserSelectionServicePackName($userSelectionServicePackName)
+    public function setUserSelectionServicePackName(array $userSelectionServicePackName)
     {
         $this->userSelectionServicePackName = $userSelectionServicePackName;
         return $this;
@@ -723,7 +723,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param string $userSelectionServicePackName
      * @return $this
      */
-    public function addUserSelectionServicePackName($userSelectionServicePackName)
+    public function addUserSelectionServicePackName(string $userSelectionServicePackName)
     {
         $this->userSelectionServicePackName []= $userSelectionServicePackName;
         return $this;
@@ -733,7 +733,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Getter for userSelectionServiceName
      *
      * @ElementName userSelectionServiceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getUserSelectionServiceName()
     {
@@ -744,10 +744,10 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Setter for userSelectionServiceName
      *
      * @ElementName userSelectionServiceName
-     * @param string[] $userSelectionServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $userSelectionServiceName
      * @return $this
      */
-    public function setUserSelectionServiceName($userSelectionServiceName)
+    public function setUserSelectionServiceName(array $userSelectionServiceName)
     {
         $this->userSelectionServiceName = $userSelectionServiceName;
         return $this;
@@ -757,7 +757,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Adder for userSelectionServiceName
      *
      * @ElementName userSelectionServiceName
-     * @param string $userSelectionServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $userSelectionServiceName
      * @return $this
      */
     public function addUserSelectionServiceName($userSelectionServiceName)
@@ -784,7 +784,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param string[] $removeServicePackName
      * @return $this
      */
-    public function setRemoveServicePackName($removeServicePackName)
+    public function setRemoveServicePackName(array $removeServicePackName)
     {
         $this->removeServicePackName = $removeServicePackName;
         return $this;
@@ -797,7 +797,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param string $removeServicePackName
      * @return $this
      */
-    public function addRemoveServicePackName($removeServicePackName)
+    public function addRemoveServicePackName(string $removeServicePackName)
     {
         $this->removeServicePackName []= $removeServicePackName;
         return $this;
@@ -807,7 +807,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Getter for removeServiceName
      *
      * @ElementName removeServiceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getRemoveServiceName()
     {
@@ -818,10 +818,10 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Setter for removeServiceName
      *
      * @ElementName removeServiceName
-     * @param string[] $removeServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $removeServiceName
      * @return $this
      */
-    public function setRemoveServiceName($removeServiceName)
+    public function setRemoveServiceName(array $removeServiceName)
     {
         $this->removeServiceName = $removeServiceName;
         return $this;
@@ -831,7 +831,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Adder for removeServiceName
      *
      * @ElementName removeServiceName
-     * @param string $removeServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $removeServiceName
      * @return $this
      */
     public function addRemoveServiceName($removeServiceName)
@@ -858,7 +858,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param string[] $assignServicePackName
      * @return $this
      */
-    public function setAssignServicePackName($assignServicePackName)
+    public function setAssignServicePackName(array $assignServicePackName)
     {
         $this->assignServicePackName = $assignServicePackName;
         return $this;
@@ -871,7 +871,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * @param string $assignServicePackName
      * @return $this
      */
-    public function addAssignServicePackName($assignServicePackName)
+    public function addAssignServicePackName(string $assignServicePackName)
     {
         $this->assignServicePackName []= $assignServicePackName;
         return $this;
@@ -881,7 +881,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Getter for assignServiceName
      *
      * @ElementName assignServiceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getAssignServiceName()
     {
@@ -892,10 +892,10 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Setter for assignServiceName
      *
      * @ElementName assignServiceName
-     * @param string[] $assignServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $assignServiceName
      * @return $this
      */
-    public function setAssignServiceName($assignServiceName)
+    public function setAssignServiceName(array $assignServiceName)
     {
         $this->assignServiceName = $assignServiceName;
         return $this;
@@ -905,7 +905,7 @@ class ServiceProviderServicePackMigrationTaskGetResponse21 extends \CWM\BroadWor
      * Adder for assignServiceName
      *
      * @ElementName assignServiceName
-     * @param string $assignServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $assignServiceName
      * @return $this
      */
     public function addAssignServiceName($assignServiceName)

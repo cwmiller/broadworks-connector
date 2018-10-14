@@ -24,7 +24,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName incomingAocHandling
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
 
@@ -62,7 +62,7 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for incomingAocHandling
      *
      * @ElementName incomingAocHandling
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     public function getIncomingAocHandling()
     {
@@ -73,10 +73,10 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for incomingAocHandling
      *
      * @ElementName incomingAocHandling
-     * @param string|null $incomingAocHandling
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null $incomingAocHandling
      * @return $this
      */
-    public function setIncomingAocHandling($incomingAocHandling)
+    public function setIncomingAocHandling(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling $incomingAocHandling)
     {
         $this->incomingAocHandling = $incomingAocHandling;
         return $this;

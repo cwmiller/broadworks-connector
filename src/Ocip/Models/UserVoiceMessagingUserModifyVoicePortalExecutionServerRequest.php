@@ -100,7 +100,7 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $personalizedNameAudioFile
      * @return $this
      */
-    public function setPersonalizedNameAudioFile($personalizedNameAudioFile)
+    public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $personalizedNameAudioFile)
     {
         $this->personalizedNameAudioFile = $personalizedNameAudioFile;
         return $this;

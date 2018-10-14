@@ -38,7 +38,7 @@ class SystemOutgoingCallingPlanCallTypeGetMappingListResponse extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callTypeMapping
      * @return $this
      */
-    public function setCallTypeMapping($callTypeMapping)
+    public function setCallTypeMapping(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callTypeMapping)
     {
         $this->callTypeMapping = $callTypeMapping;
         return $this;

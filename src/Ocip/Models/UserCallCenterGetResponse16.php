@@ -19,7 +19,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName agentACDState
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
 
@@ -81,7 +81,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for agentACDState
      *
      * @ElementName agentACDState
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     public function getAgentACDState()
     {
@@ -92,10 +92,10 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for agentACDState
      *
      * @ElementName agentACDState
-     * @param string|null $agentACDState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null $agentACDState
      * @return $this
      */
-    public function setAgentACDState($agentACDState)
+    public function setAgentACDState(\CWM\BroadWorksConnector\Ocip\Models\AgentACDState $agentACDState)
     {
         $this->agentACDState = $agentACDState;
         return $this;
@@ -311,7 +311,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCenterTable
      * @return $this
      */
-    public function setCallCenterTable($callCenterTable)
+    public function setCallCenterTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable)
     {
         $this->callCenterTable = $callCenterTable;
         return $this;

@@ -41,7 +41,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -65,7 +65,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null $digitPatternPermissions
      * @return $this
      */
-    public function setDigitPatternPermissions($digitPatternPermissions)
+    public function setDigitPatternPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions $digitPatternPermissions)
     {
         $this->digitPatternPermissions = $digitPatternPermissions;
         return $this;

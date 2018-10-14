@@ -37,7 +37,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse 
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $prefixSummaryTable
      * @return $this
      */
-    public function setPrefixSummaryTable($prefixSummaryTable)
+    public function setPrefixSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $prefixSummaryTable)
     {
         $this->prefixSummaryTable = $prefixSummaryTable;
         return $this;

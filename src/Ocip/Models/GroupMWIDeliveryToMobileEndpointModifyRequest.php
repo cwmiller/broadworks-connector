@@ -31,7 +31,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName useSettingLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     private $useSettingLevel = null;
 
@@ -95,7 +95,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * Getter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     public function getUseSettingLevel()
     {
@@ -106,10 +106,10 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * Setter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @param string|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null $useSettingLevel
      * @return $this
      */
-    public function setUseSettingLevel($useSettingLevel)
+    public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel $useSettingLevel)
     {
         $this->useSettingLevel = $useSettingLevel;
         return $this;
@@ -133,7 +133,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[] $templateActivation
      * @return $this
      */
-    public function setTemplateActivation($templateActivation)
+    public function setTemplateActivation(array $templateActivation)
     {
         $this->templateActivation = $templateActivation;
         return $this;

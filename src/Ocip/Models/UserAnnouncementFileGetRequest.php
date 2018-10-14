@@ -68,7 +68,7 @@ class UserAnnouncementFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $announcementFileKey
      * @return $this
      */
-    public function setAnnouncementFileKey($announcementFileKey)
+    public function setAnnouncementFileKey(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $announcementFileKey)
     {
         $this->announcementFileKey = $announcementFileKey;
         return $this;

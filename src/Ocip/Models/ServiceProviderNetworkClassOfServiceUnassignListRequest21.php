@@ -79,7 +79,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @param string[] $networkClassOfService
      * @return $this
      */
-    public function setNetworkClassOfService($networkClassOfService)
+    public function setNetworkClassOfService(array $networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
         return $this;
@@ -92,7 +92,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @param string $networkClassOfService
      * @return $this
      */
-    public function addNetworkClassOfService($networkClassOfService)
+    public function addNetworkClassOfService(string $networkClassOfService)
     {
         $this->networkClassOfService []= $networkClassOfService;
         return $this;
@@ -116,7 +116,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null $defaultNetworkClassOfService
      * @return $this
      */
-    public function setDefaultNetworkClassOfService($defaultNetworkClassOfService)
+    public function setDefaultNetworkClassOfService(\CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService $defaultNetworkClassOfService)
     {
         $this->defaultNetworkClassOfService = $defaultNetworkClassOfService;
         return $this;

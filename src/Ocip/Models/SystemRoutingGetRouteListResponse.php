@@ -38,7 +38,7 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string[] $routeName
      * @return $this
      */
-    public function setRouteName($routeName)
+    public function setRouteName(array $routeName)
     {
         $this->routeName = $routeName;
         return $this;
@@ -51,7 +51,7 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param string $routeName
      * @return $this
      */
-    public function addRouteName($routeName)
+    public function addRouteName(string $routeName)
     {
         $this->routeName []= $routeName;
         return $this;

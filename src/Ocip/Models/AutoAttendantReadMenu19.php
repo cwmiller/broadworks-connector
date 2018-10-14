@@ -16,7 +16,7 @@ class AutoAttendantReadMenu19
 
     /**
      * @ElementName announcementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
@@ -28,7 +28,7 @@ class AutoAttendantReadMenu19
 
     /**
      * @ElementName audioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
@@ -40,7 +40,7 @@ class AutoAttendantReadMenu19
 
     /**
      * @ElementName videoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
@@ -62,7 +62,7 @@ class AutoAttendantReadMenu19
      * Getter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getAnnouncementSelection()
     {
@@ -73,10 +73,10 @@ class AutoAttendantReadMenu19
      * Setter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @param string|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
      * @return $this
      */
-    public function setAnnouncementSelection($announcementSelection)
+    public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
     {
         $this->announcementSelection = $announcementSelection;
         return $this;
@@ -110,7 +110,7 @@ class AutoAttendantReadMenu19
      * Getter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioMediaType()
     {
@@ -121,10 +121,10 @@ class AutoAttendantReadMenu19
      * Setter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @param string|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
      * @return $this
      */
-    public function setAudioMediaType($audioMediaType)
+    public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
     {
         $this->audioMediaType = $audioMediaType;
         return $this;
@@ -158,7 +158,7 @@ class AutoAttendantReadMenu19
      * Getter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVideoMediaType()
     {
@@ -169,10 +169,10 @@ class AutoAttendantReadMenu19
      * Setter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @param string|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
      * @return $this
      */
-    public function setVideoMediaType($videoMediaType)
+    public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
         return $this;
@@ -220,7 +220,7 @@ class AutoAttendantReadMenu19
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration19[] $keyConfiguration
      * @return $this
      */
-    public function setKeyConfiguration($keyConfiguration)
+    public function setKeyConfiguration(array $keyConfiguration)
     {
         $this->keyConfiguration = $keyConfiguration;
         return $this;

@@ -35,7 +35,7 @@ class SystemBwDiameterPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $peerTable
      * @return $this
      */
-    public function setPeerTable($peerTable)
+    public function setPeerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $peerTable)
     {
         $this->peerTable = $peerTable;
         return $this;

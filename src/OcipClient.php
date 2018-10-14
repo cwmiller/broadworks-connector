@@ -10,6 +10,7 @@ use CWM\BroadWorksConnector\Ocip\Models\C\ErrorResponse;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCICommand;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse;
+use CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\BadResponseException;
@@ -340,6 +341,7 @@ class OcipClient
      * @return OCIResponse
      * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
      * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
+     * @throws \InvalidArgumentException
      */
     public function call(OCICommand $command)
     {
@@ -355,6 +357,7 @@ class OcipClient
      * @return OCIResponse[]
      * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
      * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
+     * @throws \InvalidArgumentException
      */
     public function callAll(array $commands)
     {
@@ -394,9 +397,17 @@ class OcipClient
                 throw new LoginException($authResponse->getSummary());
             }
 
+            $signedPassword = null;
+
+            if ($authResponse->getPasswordAlgorithm() === null || $authResponse->getPasswordAlgorithm()->getValue() === DigitalSignatureAlgorithm::MD5) {
+                $signedPassword = md5($authResponse->getNonce() . ':' . sha1($this->password));
+            } else {
+                throw new LoginException('Only MD5 supported for signing');
+            }
+
             $loginRequest = (new LoginRequest14sp4())
                 ->setUserId($this->username)
-                ->setSignedPassword(md5($authResponse->getNonce() . ':' . sha1($this->password)));
+                ->setSignedPassword($signedPassword);
 
             /** @var LoginResponse14sp4|ErrorResponse $authResponse */
             $loginResponse = $this->executeCommands([$loginRequest])[0];
@@ -414,7 +425,7 @@ class OcipClient
      * @return OCIResponse[]
      * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
      * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
-     * @throws \ReflectionException
+     * @throws \InvalidArgumentException
      */
     private function executeCommands(array $commands)
     {
@@ -457,7 +468,6 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return DOMDocument
-     * @throws \ReflectionException
      */
     private function buildCommandXml(array $commands)
     {

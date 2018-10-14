@@ -26,13 +26,13 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName userType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
 
     /**
      * @ElementName endpointType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     private $endpointType = null;
 
@@ -44,7 +44,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName IMSUserState
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;
 
@@ -76,7 +76,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for userType
      *
      * @ElementName userType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     public function getUserType()
     {
@@ -87,10 +87,10 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for userType
      *
      * @ElementName userType
-     * @param string|null $userType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserType|null $userType
      * @return $this
      */
-    public function setUserType($userType)
+    public function setUserType(\CWM\BroadWorksConnector\Ocip\Models\UserType $userType)
     {
         $this->userType = $userType;
         return $this;
@@ -100,7 +100,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for endpointType
      *
      * @ElementName endpointType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     public function getEndpointType()
     {
@@ -111,10 +111,10 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for endpointType
      *
      * @ElementName endpointType
-     * @param string|null $endpointType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null $endpointType
      * @return $this
      */
-    public function setEndpointType($endpointType)
+    public function setEndpointType(\CWM\BroadWorksConnector\Ocip\Models\EndpointType $endpointType)
     {
         $this->endpointType = $endpointType;
         return $this;
@@ -148,7 +148,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for IMSUserState
      *
      * @ElementName IMSUserState
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     public function getIMSUserState()
     {
@@ -159,10 +159,10 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for IMSUserState
      *
      * @ElementName IMSUserState
-     * @param string|null $IMSUserState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null $IMSUserState
      * @return $this
      */
-    public function setIMSUserState($IMSUserState)
+    public function setIMSUserState(\CWM\BroadWorksConnector\Ocip\Models\IMSUserState $IMSUserState)
     {
         $this->IMSUserState = $IMSUserState;
         return $this;

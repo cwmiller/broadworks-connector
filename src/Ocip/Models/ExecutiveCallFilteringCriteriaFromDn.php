@@ -13,7 +13,7 @@ class ExecutiveCallFilteringCriteriaFromDn
 
     /**
      * @ElementName fromDnCriteriaSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
      */
     private $fromDnCriteriaSelection = null;
 
@@ -41,7 +41,7 @@ class ExecutiveCallFilteringCriteriaFromDn
      * Getter for fromDnCriteriaSelection
      *
      * @ElementName fromDnCriteriaSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
      */
     public function getFromDnCriteriaSelection()
     {
@@ -52,10 +52,10 @@ class ExecutiveCallFilteringCriteriaFromDn
      * Setter for fromDnCriteriaSelection
      *
      * @ElementName fromDnCriteriaSelection
-     * @param string|null $fromDnCriteriaSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null $fromDnCriteriaSelection
      * @return $this
      */
-    public function setFromDnCriteriaSelection($fromDnCriteriaSelection)
+    public function setFromDnCriteriaSelection(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection $fromDnCriteriaSelection)
     {
         $this->fromDnCriteriaSelection = $fromDnCriteriaSelection;
         return $this;
@@ -127,7 +127,7 @@ class ExecutiveCallFilteringCriteriaFromDn
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -140,7 +140,7 @@ class ExecutiveCallFilteringCriteriaFromDn
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;

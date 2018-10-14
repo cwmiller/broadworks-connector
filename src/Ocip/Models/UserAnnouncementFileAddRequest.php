@@ -98,7 +98,7 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $announcementFile
      * @return $this
      */
-    public function setAnnouncementFile($announcementFile)
+    public function setAnnouncementFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $announcementFile)
     {
         $this->announcementFile = $announcementFile;
         return $this;

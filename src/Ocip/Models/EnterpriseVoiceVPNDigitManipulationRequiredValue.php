@@ -12,7 +12,7 @@ class EnterpriseVoiceVPNDigitManipulationRequiredValue extends EnterpriseVoiceVP
 
     /**
      * @ElementName operation
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationRequiredValue|null
      */
     private $operation = null;
 
@@ -26,7 +26,7 @@ class EnterpriseVoiceVPNDigitManipulationRequiredValue extends EnterpriseVoiceVP
      * Getter for operation
      *
      * @ElementName operation
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationRequiredValue|null
      */
     public function getOperation()
     {
@@ -37,10 +37,10 @@ class EnterpriseVoiceVPNDigitManipulationRequiredValue extends EnterpriseVoiceVP
      * Setter for operation
      *
      * @ElementName operation
-     * @param string|null $operation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationRequiredValue|null $operation
      * @return $this
      */
-    public function setOperation($operation)
+    public function setOperation(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationRequiredValue $operation)
     {
         $this->operation = $operation;
         return $this;

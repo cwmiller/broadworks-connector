@@ -53,7 +53,7 @@ class GroupVoiceXmlGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4 $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -101,7 +101,7 @@ class GroupVoiceXmlGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;

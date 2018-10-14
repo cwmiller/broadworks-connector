@@ -28,7 +28,7 @@ class SystemSIPDeviceTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
@@ -170,7 +170,7 @@ class SystemSIPDeviceTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
      * @return $this
      */
-    public function setNumberOfPorts($numberOfPorts)
+    public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
     {
         $this->numberOfPorts = $numberOfPorts;
         return $this;
@@ -180,7 +180,7 @@ class SystemSIPDeviceTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     public function getProfile()
     {
@@ -191,10 +191,10 @@ class SystemSIPDeviceTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
     {
         $this->profile = $profile;
         return $this;
@@ -578,7 +578,7 @@ class SystemSIPDeviceTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptions|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions($cpeDeviceOptions)
+    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptions $cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;

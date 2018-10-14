@@ -69,7 +69,7 @@ class UserSharedCallAppearanceGetEndpointRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;

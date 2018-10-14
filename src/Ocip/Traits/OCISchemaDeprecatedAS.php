@@ -85,7 +85,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupVoiceXmlGetInstanceResponse;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListResponse;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyRequest18;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetPolicyResponse18;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGetRequest14;
@@ -754,7 +754,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param ServiceProviderAccessDeviceGetUserListRequest $request
-     * @return ServiceProviderAccessDeviceGetUserListResponse
+     * @return ServiceProviderAccessDeviceGetResponse
      * @throws ErrorResponseException
      */
     public function serviceProviderAccessDeviceGetUserListRequest(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAccessDeviceGetUserListRequest $request)

@@ -66,7 +66,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null $userPermissions
      * @return $this
      */
-    public function setUserPermissions($userPermissions)
+    public function setUserPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions $userPermissions)
     {
         $this->userPermissions = $userPermissions;
         return $this;

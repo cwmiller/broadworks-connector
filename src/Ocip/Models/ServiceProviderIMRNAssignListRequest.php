@@ -80,7 +80,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string[] $imrn
      * @return $this
      */
-    public function setImrn($imrn)
+    public function setImrn(array $imrn)
     {
         $this->imrn = $imrn;
         return $this;
@@ -93,7 +93,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @param string $imrn
      * @return $this
      */
-    public function addImrn($imrn)
+    public function addImrn(string $imrn)
     {
         $this->imrn []= $imrn;
         return $this;
@@ -117,7 +117,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $imrnRange
      * @return $this
      */
-    public function setImrnRange($imrnRange)
+    public function setImrnRange(array $imrnRange)
     {
         $this->imrnRange = $imrnRange;
         return $this;

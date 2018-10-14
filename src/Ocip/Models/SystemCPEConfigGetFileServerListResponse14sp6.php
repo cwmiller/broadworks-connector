@@ -38,7 +38,7 @@ class SystemCPEConfigGetFileServerListResponse14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $fileServerTable
      * @return $this
      */
-    public function setFileServerTable($fileServerTable)
+    public function setFileServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileServerTable)
     {
         $this->fileServerTable = $fileServerTable;
         return $this;

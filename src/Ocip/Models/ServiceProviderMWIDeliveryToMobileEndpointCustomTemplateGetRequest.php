@@ -30,7 +30,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
 
@@ -86,7 +86,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     public function getType()
     {
@@ -97,10 +97,10 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateGetRequest extends
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type)
     {
         $this->type = $type;
         return $this;

@@ -37,7 +37,7 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission[] $digitPatternPermissions
      * @return $this
      */
-    public function setDigitPatternPermissions($digitPatternPermissions)
+    public function setDigitPatternPermissions(array $digitPatternPermissions)
     {
         $this->digitPatternPermissions = $digitPatternPermissions;
         return $this;

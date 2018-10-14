@@ -75,7 +75,7 @@ class CallCenterScheduledReportAgentSelectionAdminRead
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $currentAgentTable
      * @return $this
      */
-    public function setCurrentAgentTable($currentAgentTable)
+    public function setCurrentAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $currentAgentTable)
     {
         $this->currentAgentTable = $currentAgentTable;
         return $this;
@@ -99,7 +99,7 @@ class CallCenterScheduledReportAgentSelectionAdminRead
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $pastAgentTable
      * @return $this
      */
-    public function setPastAgentTable($pastAgentTable)
+    public function setPastAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $pastAgentTable)
     {
         $this->pastAgentTable = $pastAgentTable;
         return $this;

@@ -63,7 +63,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -87,7 +87,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;
@@ -135,7 +135,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null $fromDnCriteria
      * @return $this
      */
-    public function setFromDnCriteria($fromDnCriteria)
+    public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
         return $this;
@@ -159,7 +159,7 @@ class GroupFindMeFollowMeGetAlertingGroupSelectiveCriteriaResponse21 extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[] $callToNumber
      * @return $this
      */
-    public function setCallToNumber($callToNumber)
+    public function setCallToNumber(array $callToNumber)
     {
         $this->callToNumber = $callToNumber;
         return $this;

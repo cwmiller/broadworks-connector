@@ -120,7 +120,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName endpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16\Endpoint|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint|null
      */
     private $endpoint = null;
 
@@ -490,7 +490,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -562,7 +562,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
      * @return $this
      */
-    public function setSipAliasList($sipAliasList)
+    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
     {
         $this->sipAliasList = $sipAliasList;
         return $this;
@@ -572,7 +572,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * Getter for endpoint
      *
      * @ElementName endpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16\Endpoint|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint|null
      */
     public function getEndpoint()
     {
@@ -583,10 +583,10 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * Setter for endpoint
      *
      * @ElementName endpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16\Endpoint|null $endpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint|null $endpoint
      * @return $this
      */
-    public function setEndpoint($endpoint)
+    public function setEndpoint(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest16Endpoint $endpoint)
     {
         $this->endpoint = $endpoint;
         return $this;
@@ -754,7 +754,7 @@ class UserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;

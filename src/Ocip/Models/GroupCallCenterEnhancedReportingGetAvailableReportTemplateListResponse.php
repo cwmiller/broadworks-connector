@@ -59,7 +59,7 @@ class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse ext
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reportTemplateTable
      * @return $this
      */
-    public function setReportTemplateTable($reportTemplateTable)
+    public function setReportTemplateTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reportTemplateTable)
     {
         $this->reportTemplateTable = $reportTemplateTable;
         return $this;

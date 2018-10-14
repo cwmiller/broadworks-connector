@@ -246,7 +246,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\Contact|null $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact(\CWM\BroadWorksConnector\Ocip\Models\Contact $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -270,7 +270,7 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;

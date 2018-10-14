@@ -39,7 +39,7 @@ class ServiceProviderPreferredCarrierGetListResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderCarrierTable
      * @return $this
      */
-    public function setServiceProviderCarrierTable($serviceProviderCarrierTable)
+    public function setServiceProviderCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderCarrierTable)
     {
         $this->serviceProviderCarrierTable = $serviceProviderCarrierTable;
         return $this;

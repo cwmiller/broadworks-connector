@@ -16,7 +16,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName loginType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
 
@@ -78,7 +78,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for loginType
      *
      * @ElementName loginType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     public function getLoginType()
     {
@@ -89,10 +89,10 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for loginType
      *
      * @ElementName loginType
-     * @param string|null $loginType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType|null $loginType
      * @return $this
      */
-    public function setLoginType($loginType)
+    public function setLoginType(\CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType)
     {
         $this->loginType = $loginType;
         return $this;

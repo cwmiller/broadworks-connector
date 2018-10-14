@@ -40,7 +40,7 @@ class ReplacementCallToNumberList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[] $callToNumber
      * @return $this
      */
-    public function setCallToNumber($callToNumber)
+    public function setCallToNumber(array $callToNumber)
     {
         $this->callToNumber = $callToNumber;
         return $this;

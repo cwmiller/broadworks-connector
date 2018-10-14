@@ -40,7 +40,7 @@ class SystemBroadWorksMobilityDeleteIMRNListRequest extends \CWM\BroadWorksConne
      * @param string[] $imrnNumber
      * @return $this
      */
-    public function setImrnNumber($imrnNumber)
+    public function setImrnNumber(array $imrnNumber)
     {
         $this->imrnNumber = $imrnNumber;
         return $this;
@@ -53,7 +53,7 @@ class SystemBroadWorksMobilityDeleteIMRNListRequest extends \CWM\BroadWorksConne
      * @param string $imrnNumber
      * @return $this
      */
-    public function addImrnNumber($imrnNumber)
+    public function addImrnNumber(string $imrnNumber)
     {
         $this->imrnNumber []= $imrnNumber;
         return $this;

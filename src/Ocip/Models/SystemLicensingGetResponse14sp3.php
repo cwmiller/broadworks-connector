@@ -24,7 +24,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName licenseStrictness
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     private $licenseStrictness = null;
 
@@ -96,7 +96,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for licenseStrictness
      *
      * @ElementName licenseStrictness
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     public function getLicenseStrictness()
     {
@@ -107,10 +107,10 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for licenseStrictness
      *
      * @ElementName licenseStrictness
-     * @param string|null $licenseStrictness
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null $licenseStrictness
      * @return $this
      */
-    public function setLicenseStrictness($licenseStrictness)
+    public function setLicenseStrictness(\CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness $licenseStrictness)
     {
         $this->licenseStrictness = $licenseStrictness;
         return $this;
@@ -182,7 +182,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string[] $hostId
      * @return $this
      */
-    public function setHostId($hostId)
+    public function setHostId(array $hostId)
     {
         $this->hostId = $hostId;
         return $this;
@@ -195,7 +195,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string $hostId
      * @return $this
      */
-    public function addHostId($hostId)
+    public function addHostId(string $hostId)
     {
         $this->hostId []= $hostId;
         return $this;
@@ -219,7 +219,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string[] $licenseName
      * @return $this
      */
-    public function setLicenseName($licenseName)
+    public function setLicenseName(array $licenseName)
     {
         $this->licenseName = $licenseName;
         return $this;
@@ -232,7 +232,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string $licenseName
      * @return $this
      */
-    public function addLicenseName($licenseName)
+    public function addLicenseName(string $licenseName)
     {
         $this->licenseName []= $licenseName;
         return $this;
@@ -280,7 +280,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $subscriberLicenseTable
      * @return $this
      */
-    public function setSubscriberLicenseTable($subscriberLicenseTable)
+    public function setSubscriberLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $subscriberLicenseTable)
     {
         $this->subscriberLicenseTable = $subscriberLicenseTable;
         return $this;
@@ -304,7 +304,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupServiceLicenseTable
      * @return $this
      */
-    public function setGroupServiceLicenseTable($groupServiceLicenseTable)
+    public function setGroupServiceLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupServiceLicenseTable)
     {
         $this->groupServiceLicenseTable = $groupServiceLicenseTable;
         return $this;
@@ -328,7 +328,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $virtualServiceLicenseTable
      * @return $this
      */
-    public function setVirtualServiceLicenseTable($virtualServiceLicenseTable)
+    public function setVirtualServiceLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $virtualServiceLicenseTable)
     {
         $this->virtualServiceLicenseTable = $virtualServiceLicenseTable;
         return $this;
@@ -352,7 +352,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServiceLicenseTable
      * @return $this
      */
-    public function setUserServiceLicenseTable($userServiceLicenseTable)
+    public function setUserServiceLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServiceLicenseTable)
     {
         $this->userServiceLicenseTable = $userServiceLicenseTable;
         return $this;
@@ -376,7 +376,7 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemParamLicenseTable
      * @return $this
      */
-    public function setSystemParamLicenseTable($systemParamLicenseTable)
+    public function setSystemParamLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemParamLicenseTable)
     {
         $this->systemParamLicenseTable = $systemParamLicenseTable;
         return $this;

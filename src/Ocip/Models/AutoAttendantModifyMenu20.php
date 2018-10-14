@@ -14,7 +14,7 @@ class AutoAttendantModifyMenu20
 
     /**
      * @ElementName announcementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
@@ -48,7 +48,7 @@ class AutoAttendantModifyMenu20
      * Getter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getAnnouncementSelection()
     {
@@ -59,10 +59,10 @@ class AutoAttendantModifyMenu20
      * Setter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @param string|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
      * @return $this
      */
-    public function setAnnouncementSelection($announcementSelection)
+    public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
     {
         $this->announcementSelection = $announcementSelection;
         return $this;
@@ -86,7 +86,7 @@ class AutoAttendantModifyMenu20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -110,7 +110,7 @@ class AutoAttendantModifyMenu20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;
@@ -158,7 +158,7 @@ class AutoAttendantModifyMenu20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration20[] $keyConfiguration
      * @return $this
      */
-    public function setKeyConfiguration($keyConfiguration)
+    public function setKeyConfiguration(array $keyConfiguration)
     {
         $this->keyConfiguration = $keyConfiguration;
         return $this;

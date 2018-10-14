@@ -144,7 +144,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
      * @return $this
      */
-    public function setScheduleKey($scheduleKey)
+    public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
     {
         $this->scheduleKey = $scheduleKey;
         return $this;
@@ -240,7 +240,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $startTime
      * @return $this
      */
-    public function setStartTime($startTime)
+    public function setStartTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $startTime)
     {
         $this->startTime = $startTime;
         return $this;
@@ -264,7 +264,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $endTime
      * @return $this
      */
-    public function setEndTime($endTime)
+    public function setEndTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $endTime)
     {
         $this->endTime = $endTime;
         return $this;
@@ -312,7 +312,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null $recurrence
      * @return $this
      */
-    public function setRecurrence($recurrence)
+    public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence)
     {
         $this->recurrence = $recurrence;
         return $this;

@@ -12,7 +12,7 @@ class SearchCriteriaExactServiceProviderAdminType extends SearchCriteria
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $type = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactServiceProviderAdminType extends SearchCriteria
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     public function getType()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactServiceProviderAdminType extends SearchCriteria
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType $type)
     {
         $this->type = $type;
         return $this;

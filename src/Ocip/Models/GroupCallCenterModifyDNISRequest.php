@@ -70,7 +70,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName priority
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DNISPriority|null
      */
     private $priority = null;
 
@@ -98,7 +98,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
      * @return $this
      */
-    public function setDnisKey($dnisKey)
+    public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
     {
         $this->dnisKey = $dnisKey;
         return $this;
@@ -300,7 +300,7 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for priority
      *
      * @ElementName priority
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISPriority|null
      */
     public function getPriority()
     {
@@ -311,10 +311,10 @@ class GroupCallCenterModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for priority
      *
      * @ElementName priority
-     * @param string|null $priority
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISPriority|null $priority
      * @return $this
      */
-    public function setPriority($priority)
+    public function setPriority(\CWM\BroadWorksConnector\Ocip\Models\DNISPriority $priority)
     {
         $this->priority = $priority;
         return $this;

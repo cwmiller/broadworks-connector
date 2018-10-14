@@ -38,7 +38,7 @@ class SystemSIPGetContentTypeListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $contentTypeTable
      * @return $this
      */
-    public function setContentTypeTable($contentTypeTable)
+    public function setContentTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $contentTypeTable)
     {
         $this->contentTypeTable = $contentTypeTable;
         return $this;

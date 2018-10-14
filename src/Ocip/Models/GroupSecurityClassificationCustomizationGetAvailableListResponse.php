@@ -39,7 +39,7 @@ class GroupSecurityClassificationCustomizationGetAvailableListResponse extends \
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $securityClassificationNameTable
      * @return $this
      */
-    public function setSecurityClassificationNameTable($securityClassificationNameTable)
+    public function setSecurityClassificationNameTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $securityClassificationNameTable)
     {
         $this->securityClassificationNameTable = $securityClassificationNameTable;
         return $this;

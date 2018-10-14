@@ -38,7 +38,7 @@ class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $alertingGroupTable
      * @return $this
      */
-    public function setAlertingGroupTable($alertingGroupTable)
+    public function setAlertingGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $alertingGroupTable)
     {
         $this->alertingGroupTable = $alertingGroupTable;
         return $this;

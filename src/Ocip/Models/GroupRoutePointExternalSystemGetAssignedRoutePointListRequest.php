@@ -162,7 +162,7 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[] $searchCriteriaRoutePointName
      * @return $this
      */
-    public function setSearchCriteriaRoutePointName($searchCriteriaRoutePointName)
+    public function setSearchCriteriaRoutePointName(array $searchCriteriaRoutePointName)
     {
         $this->searchCriteriaRoutePointName = $searchCriteriaRoutePointName;
         return $this;

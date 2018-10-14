@@ -38,7 +38,7 @@ class SystemGETSResourcePriorityGetListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $resourcePriorityTable
      * @return $this
      */
-    public function setResourcePriorityTable($resourcePriorityTable)
+    public function setResourcePriorityTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resourcePriorityTable)
     {
         $this->resourcePriorityTable = $resourcePriorityTable;
         return $this;

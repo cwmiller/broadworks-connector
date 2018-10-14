@@ -70,7 +70,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[] $templateActivation
      * @return $this
      */
-    public function setTemplateActivation($templateActivation)
+    public function setTemplateActivation(array $templateActivation)
     {
         $this->templateActivation = $templateActivation;
         return $this;

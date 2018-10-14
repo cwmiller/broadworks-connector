@@ -21,13 +21,13 @@ class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName broadWorksAnywhereScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
     private $broadWorksAnywhereScope = null;
 
     /**
      * @ElementName promptForCLID
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
     private $promptForCLID = null;
 
@@ -61,7 +61,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -71,7 +71,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnecto
      * Getter for broadWorksAnywhereScope
      *
      * @ElementName broadWorksAnywhereScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
     public function getBroadWorksAnywhereScope()
     {
@@ -82,10 +82,10 @@ class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnecto
      * Setter for broadWorksAnywhereScope
      *
      * @ElementName broadWorksAnywhereScope
-     * @param string|null $broadWorksAnywhereScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null $broadWorksAnywhereScope
      * @return $this
      */
-    public function setBroadWorksAnywhereScope($broadWorksAnywhereScope)
+    public function setBroadWorksAnywhereScope(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope $broadWorksAnywhereScope)
     {
         $this->broadWorksAnywhereScope = $broadWorksAnywhereScope;
         return $this;
@@ -95,7 +95,7 @@ class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnecto
      * Getter for promptForCLID
      *
      * @ElementName promptForCLID
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
     public function getPromptForCLID()
     {
@@ -106,10 +106,10 @@ class GroupBroadWorksAnywhereGetInstanceResponse extends \CWM\BroadWorksConnecto
      * Setter for promptForCLID
      *
      * @ElementName promptForCLID
-     * @param string|null $promptForCLID
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null $promptForCLID
      * @return $this
      */
-    public function setPromptForCLID($promptForCLID)
+    public function setPromptForCLID(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt $promptForCLID)
     {
         $this->promptForCLID = $promptForCLID;
         return $this;

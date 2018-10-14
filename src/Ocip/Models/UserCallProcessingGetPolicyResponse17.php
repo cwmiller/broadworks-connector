@@ -96,7 +96,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName mediaPolicySelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
 
@@ -150,13 +150,13 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName clidPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $clidPolicy = null;
 
     /**
      * @ElementName emergencyClidPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $emergencyClidPolicy = null;
 
@@ -446,7 +446,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * Getter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     public function getMediaPolicySelection()
     {
@@ -457,10 +457,10 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * Setter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @param string|null $mediaPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null $mediaPolicySelection
      * @return $this
      */
-    public function setMediaPolicySelection($mediaPolicySelection)
+    public function setMediaPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection)
     {
         $this->mediaPolicySelection = $mediaPolicySelection;
         return $this;
@@ -662,7 +662,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * Getter for clidPolicy
      *
      * @ElementName clidPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     public function getClidPolicy()
     {
@@ -673,10 +673,10 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * Setter for clidPolicy
      *
      * @ElementName clidPolicy
-     * @param string|null $clidPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null $clidPolicy
      * @return $this
      */
-    public function setClidPolicy($clidPolicy)
+    public function setClidPolicy(\CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy $clidPolicy)
     {
         $this->clidPolicy = $clidPolicy;
         return $this;
@@ -686,7 +686,7 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * Getter for emergencyClidPolicy
      *
      * @ElementName emergencyClidPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     public function getEmergencyClidPolicy()
     {
@@ -697,10 +697,10 @@ class UserCallProcessingGetPolicyResponse17 extends \CWM\BroadWorksConnector\Oci
      * Setter for emergencyClidPolicy
      *
      * @ElementName emergencyClidPolicy
-     * @param string|null $emergencyClidPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null $emergencyClidPolicy
      * @return $this
      */
-    public function setEmergencyClidPolicy($emergencyClidPolicy)
+    public function setEmergencyClidPolicy(\CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy $emergencyClidPolicy)
     {
         $this->emergencyClidPolicy = $emergencyClidPolicy;
         return $this;

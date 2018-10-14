@@ -12,7 +12,7 @@ class CallMeNowToDnCriteria
 
     /**
      * @ElementName toDnCriteriaSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     private $toDnCriteriaSelection = null;
 
@@ -28,7 +28,7 @@ class CallMeNowToDnCriteria
      * Getter for toDnCriteriaSelection
      *
      * @ElementName toDnCriteriaSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     public function getToDnCriteriaSelection()
     {
@@ -39,10 +39,10 @@ class CallMeNowToDnCriteria
      * Setter for toDnCriteriaSelection
      *
      * @ElementName toDnCriteriaSelection
-     * @param string|null $toDnCriteriaSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null $toDnCriteriaSelection
      * @return $this
      */
-    public function setToDnCriteriaSelection($toDnCriteriaSelection)
+    public function setToDnCriteriaSelection(\CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection $toDnCriteriaSelection)
     {
         $this->toDnCriteriaSelection = $toDnCriteriaSelection;
         return $this;
@@ -66,7 +66,7 @@ class CallMeNowToDnCriteria
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -79,7 +79,7 @@ class CallMeNowToDnCriteria
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;

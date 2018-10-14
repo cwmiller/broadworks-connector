@@ -39,7 +39,7 @@ class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $targetTable
      * @return $this
      */
-    public function setTargetTable($targetTable)
+    public function setTargetTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $targetTable)
     {
         $this->targetTable = $targetTable;
         return $this;

@@ -38,7 +38,7 @@ class SystemAccountingGetChargingFunctionElementServerListResponse extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $chargingFunctionElementServerTable
      * @return $this
      */
-    public function setChargingFunctionElementServerTable($chargingFunctionElementServerTable)
+    public function setChargingFunctionElementServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $chargingFunctionElementServerTable)
     {
         $this->chargingFunctionElementServerTable = $chargingFunctionElementServerTable;
         return $this;

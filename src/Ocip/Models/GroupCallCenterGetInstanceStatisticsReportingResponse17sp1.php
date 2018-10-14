@@ -21,7 +21,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
 
     /**
      * @ElementName collectionPeriodMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
 
@@ -39,7 +39,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
 
     /**
      * @ElementName statisticsSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1|null
      */
     private $statisticsSource = null;
 
@@ -71,7 +71,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * Getter for collectionPeriodMinutes
      *
      * @ElementName collectionPeriodMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     public function getCollectionPeriodMinutes()
     {
@@ -82,10 +82,10 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * Setter for collectionPeriodMinutes
      *
      * @ElementName collectionPeriodMinutes
-     * @param int|null $collectionPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null $collectionPeriodMinutes
      * @return $this
      */
-    public function setCollectionPeriodMinutes($collectionPeriodMinutes)
+    public function setCollectionPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes)
     {
         $this->collectionPeriodMinutes = $collectionPeriodMinutes;
         return $this;
@@ -143,7 +143,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * Getter for statisticsSource
      *
      * @ElementName statisticsSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1|null
      */
     public function getStatisticsSource()
     {
@@ -154,10 +154,10 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse17sp1 extends \CWM\Br
      * Setter for statisticsSource
      *
      * @ElementName statisticsSource
-     * @param string|null $statisticsSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1|null $statisticsSource
      * @return $this
      */
-    public function setStatisticsSource($statisticsSource)
+    public function setStatisticsSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource17sp1 $statisticsSource)
     {
         $this->statisticsSource = $statisticsSource;
         return $this;

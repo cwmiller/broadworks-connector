@@ -44,7 +44,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp4 extends \CWM\Broa
 
     /**
      * @ElementName incomingCallToUserAliasMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     private $incomingCallToUserAliasMode = null;
 
@@ -184,7 +184,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp4 extends \CWM\Broa
      * Getter for incomingCallToUserAliasMode
      *
      * @ElementName incomingCallToUserAliasMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     public function getIncomingCallToUserAliasMode()
     {
@@ -195,10 +195,10 @@ class SystemSubscriberGetCallProcessingParametersResponse17sp4 extends \CWM\Broa
      * Setter for incomingCallToUserAliasMode
      *
      * @ElementName incomingCallToUserAliasMode
-     * @param string|null $incomingCallToUserAliasMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null $incomingCallToUserAliasMode
      * @return $this
      */
-    public function setIncomingCallToUserAliasMode($incomingCallToUserAliasMode)
+    public function setIncomingCallToUserAliasMode(\CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode $incomingCallToUserAliasMode)
     {
         $this->incomingCallToUserAliasMode = $incomingCallToUserAliasMode;
         return $this;

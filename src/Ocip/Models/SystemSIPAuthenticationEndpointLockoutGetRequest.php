@@ -125,7 +125,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -162,7 +162,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
      * @return $this
      */
-    public function setSearchCriteriaExactOrganizationType($searchCriteriaExactOrganizationType)
+    public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
     {
         $this->searchCriteriaExactOrganizationType = $searchCriteriaExactOrganizationType;
         return $this;
@@ -186,7 +186,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -223,7 +223,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[] $searchCriteriaLinePortUserPart
      * @return $this
      */
-    public function setSearchCriteriaLinePortUserPart($searchCriteriaLinePortUserPart)
+    public function setSearchCriteriaLinePortUserPart(array $searchCriteriaLinePortUserPart)
     {
         $this->searchCriteriaLinePortUserPart = $searchCriteriaLinePortUserPart;
         return $this;
@@ -260,7 +260,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[] $searchCriteriaLinePortDomain
      * @return $this
      */
-    public function setSearchCriteriaLinePortDomain($searchCriteriaLinePortDomain)
+    public function setSearchCriteriaLinePortDomain(array $searchCriteriaLinePortDomain)
     {
         $this->searchCriteriaLinePortDomain = $searchCriteriaLinePortDomain;
         return $this;
@@ -297,7 +297,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
-    public function setSearchCriteriaUserLastName($searchCriteriaUserLastName)
+    public function setSearchCriteriaUserLastName(array $searchCriteriaUserLastName)
     {
         $this->searchCriteriaUserLastName = $searchCriteriaUserLastName;
         return $this;
@@ -334,7 +334,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
-    public function setSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
+    public function setSearchCriteriaUserFirstName(array $searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName = $searchCriteriaUserFirstName;
         return $this;
@@ -371,7 +371,7 @@ class SystemSIPAuthenticationEndpointLockoutGetRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
-    public function setSearchCriteriaUserId($searchCriteriaUserId)
+    public function setSearchCriteriaUserId(array $searchCriteriaUserId)
     {
         $this->searchCriteriaUserId = $searchCriteriaUserId;
         return $this;

@@ -36,7 +36,7 @@ class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $inventoryReportTable
      * @return $this
      */
-    public function setInventoryReportTable($inventoryReportTable)
+    public function setInventoryReportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $inventoryReportTable)
     {
         $this->inventoryReportTable = $inventoryReportTable;
         return $this;

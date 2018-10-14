@@ -112,7 +112,7 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[] $searchCriteriaTrunkGroupName
      * @return $this
      */
-    public function setSearchCriteriaTrunkGroupName($searchCriteriaTrunkGroupName)
+    public function setSearchCriteriaTrunkGroupName(array $searchCriteriaTrunkGroupName)
     {
         $this->searchCriteriaTrunkGroupName = $searchCriteriaTrunkGroupName;
         return $this;
@@ -149,7 +149,7 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;

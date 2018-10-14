@@ -105,7 +105,7 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $executiveTable
      * @return $this
      */
-    public function setExecutiveTable($executiveTable)
+    public function setExecutiveTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $executiveTable)
     {
         $this->executiveTable = $executiveTable;
         return $this;

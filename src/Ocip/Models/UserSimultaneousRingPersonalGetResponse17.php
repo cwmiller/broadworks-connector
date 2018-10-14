@@ -106,7 +106,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[] $simultaneousRingNumber
      * @return $this
      */
-    public function setSimultaneousRingNumber($simultaneousRingNumber)
+    public function setSimultaneousRingNumber(array $simultaneousRingNumber)
     {
         $this->simultaneousRingNumber = $simultaneousRingNumber;
         return $this;
@@ -143,7 +143,7 @@ class UserSimultaneousRingPersonalGetResponse17 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

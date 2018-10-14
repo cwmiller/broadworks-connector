@@ -28,7 +28,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName homeZoneIpAddressList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressList[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
     private $homeZoneIpAddressList = array(
         
@@ -36,7 +36,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName homeZoneIpAddressRangeList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressRangeList[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
     private $homeZoneIpAddressRangeList = array(
         
@@ -94,7 +94,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * Getter for homeZoneIpAddressList
      *
      * @ElementName homeZoneIpAddressList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressList[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
     public function getHomeZoneIpAddressList()
     {
@@ -105,10 +105,10 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * Setter for homeZoneIpAddressList
      *
      * @ElementName homeZoneIpAddressList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressList[] $homeZoneIpAddressList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[] $homeZoneIpAddressList
      * @return $this
      */
-    public function setHomeZoneIpAddressList($homeZoneIpAddressList)
+    public function setHomeZoneIpAddressList(array $homeZoneIpAddressList)
     {
         $this->homeZoneIpAddressList = $homeZoneIpAddressList;
         return $this;
@@ -118,7 +118,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * Adder for homeZoneIpAddressList
      *
      * @ElementName homeZoneIpAddressList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressList $homeZoneIpAddressList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList $homeZoneIpAddressList
      * @return $this
      */
     public function addHomeZoneIpAddressList($homeZoneIpAddressList)
@@ -131,7 +131,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * Getter for homeZoneIpAddressRangeList
      *
      * @ElementName homeZoneIpAddressRangeList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressRangeList[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
     public function getHomeZoneIpAddressRangeList()
     {
@@ -142,10 +142,10 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * Setter for homeZoneIpAddressRangeList
      *
      * @ElementName homeZoneIpAddressRangeList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressRangeList[] $homeZoneIpAddressRangeList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[] $homeZoneIpAddressRangeList
      * @return $this
      */
-    public function setHomeZoneIpAddressRangeList($homeZoneIpAddressRangeList)
+    public function setHomeZoneIpAddressRangeList(array $homeZoneIpAddressRangeList)
     {
         $this->homeZoneIpAddressRangeList = $homeZoneIpAddressRangeList;
         return $this;
@@ -155,7 +155,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * Adder for homeZoneIpAddressRangeList
      *
      * @ElementName homeZoneIpAddressRangeList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequest\HomeZoneIpAddressRangeList $homeZoneIpAddressRangeList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList $homeZoneIpAddressRangeList
      * @return $this
      */
     public function addHomeZoneIpAddressRangeList($homeZoneIpAddressRangeList)

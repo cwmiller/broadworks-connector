@@ -12,7 +12,7 @@ class SearchCriteriaExactEndpointType extends SearchCriteria
 
     /**
      * @ElementName endpointType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     private $endpointType = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactEndpointType extends SearchCriteria
      * Getter for endpointType
      *
      * @ElementName endpointType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     public function getEndpointType()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactEndpointType extends SearchCriteria
      * Setter for endpointType
      *
      * @ElementName endpointType
-     * @param string|null $endpointType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null $endpointType
      * @return $this
      */
-    public function setEndpointType($endpointType)
+    public function setEndpointType(\CWM\BroadWorksConnector\Ocip\Models\EndpointType $endpointType)
     {
         $this->endpointType = $endpointType;
         return $this;

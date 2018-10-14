@@ -32,7 +32,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName personalizedNameMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $personalizedNameMediaType = null;
 
@@ -112,7 +112,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
      * Getter for personalizedNameMediaType
      *
      * @ElementName personalizedNameMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getPersonalizedNameMediaType()
     {
@@ -123,10 +123,10 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
      * Setter for personalizedNameMediaType
      *
      * @ElementName personalizedNameMediaType
-     * @param string|null $personalizedNameMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $personalizedNameMediaType
      * @return $this
      */
-    public function setPersonalizedNameMediaType($personalizedNameMediaType)
+    public function setPersonalizedNameMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $personalizedNameMediaType)
     {
         $this->personalizedNameMediaType = $personalizedNameMediaType;
         return $this;

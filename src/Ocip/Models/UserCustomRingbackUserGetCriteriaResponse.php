@@ -26,7 +26,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName audioSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
@@ -44,7 +44,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName videoSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
@@ -78,7 +78,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -102,7 +102,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null $fromDnCriteria
      * @return $this
      */
-    public function setFromDnCriteria($fromDnCriteria)
+    public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
         return $this;
@@ -112,7 +112,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
      * Getter for audioSelection
      *
      * @ElementName audioSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioSelection()
     {
@@ -123,10 +123,10 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
      * Setter for audioSelection
      *
      * @ElementName audioSelection
-     * @param string|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
      * @return $this
      */
-    public function setAudioSelection($audioSelection)
+    public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
     {
         $this->audioSelection = $audioSelection;
         return $this;
@@ -184,7 +184,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
      * Getter for videoSelection
      *
      * @ElementName videoSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoSelection()
     {
@@ -195,10 +195,10 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
      * Setter for videoSelection
      *
      * @ElementName videoSelection
-     * @param string|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
      * @return $this
      */
-    public function setVideoSelection($videoSelection)
+    public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
     {
         $this->videoSelection = $videoSelection;
         return $this;

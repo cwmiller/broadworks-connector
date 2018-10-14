@@ -40,7 +40,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null $reportTemplate
      * @return $this
      */
-    public function setReportTemplate($reportTemplate)
+    public function setReportTemplate(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey $reportTemplate)
     {
         $this->reportTemplate = $reportTemplate;
         return $this;

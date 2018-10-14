@@ -70,7 +70,7 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
      * @param string[] $exclusionNumber
      * @return $this
      */
-    public function setExclusionNumber($exclusionNumber)
+    public function setExclusionNumber(array $exclusionNumber)
     {
         $this->exclusionNumber = $exclusionNumber;
         return $this;
@@ -83,7 +83,7 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
      * @param string $exclusionNumber
      * @return $this
      */
-    public function addExclusionNumber($exclusionNumber)
+    public function addExclusionNumber(string $exclusionNumber)
     {
         $this->exclusionNumber []= $exclusionNumber;
         return $this;

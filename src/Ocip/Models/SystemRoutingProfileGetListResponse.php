@@ -39,7 +39,7 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param string[] $routingProfile
      * @return $this
      */
-    public function setRoutingProfile($routingProfile)
+    public function setRoutingProfile(array $routingProfile)
     {
         $this->routingProfile = $routingProfile;
         return $this;
@@ -52,7 +52,7 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param string $routingProfile
      * @return $this
      */
-    public function addRoutingProfile($routingProfile)
+    public function addRoutingProfile(string $routingProfile)
     {
         $this->routingProfile []= $routingProfile;
         return $this;

@@ -36,7 +36,7 @@ class ReplacementMediaNameList
      * @param string[] $mediaName
      * @return $this
      */
-    public function setMediaName($mediaName)
+    public function setMediaName(array $mediaName)
     {
         $this->mediaName = $mediaName;
         return $this;
@@ -49,7 +49,7 @@ class ReplacementMediaNameList
      * @param string $mediaName
      * @return $this
      */
-    public function addMediaName($mediaName)
+    public function addMediaName(string $mediaName)
     {
         $this->mediaName []= $mediaName;
         return $this;

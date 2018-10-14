@@ -20,7 +20,7 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName roomType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomType|null
      */
     private $roomType = null;
 
@@ -32,7 +32,7 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName attendeeNotification
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     private $attendeeNotification = null;
 
@@ -70,7 +70,7 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for roomType
      *
      * @ElementName roomType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomType|null
      */
     public function getRoomType()
     {
@@ -81,10 +81,10 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for roomType
      *
      * @ElementName roomType
-     * @param string|null $roomType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomType|null $roomType
      * @return $this
      */
-    public function setRoomType($roomType)
+    public function setRoomType(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomType $roomType)
     {
         $this->roomType = $roomType;
         return $this;
@@ -118,7 +118,7 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     public function getAttendeeNotification()
     {
@@ -129,10 +129,10 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @param string|null $attendeeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null $attendeeNotification
      * @return $this
      */
-    public function setAttendeeNotification($attendeeNotification)
+    public function setAttendeeNotification(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification $attendeeNotification)
     {
         $this->attendeeNotification = $attendeeNotification;
         return $this;
@@ -252,7 +252,7 @@ class UserCollaborateRoomGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null $roomSchedule
      * @return $this
      */
-    public function setRoomSchedule($roomSchedule)
+    public function setRoomSchedule(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule $roomSchedule)
     {
         $this->roomSchedule = $roomSchedule;
         return $this;

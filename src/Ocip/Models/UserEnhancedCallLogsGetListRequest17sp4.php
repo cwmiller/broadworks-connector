@@ -40,7 +40,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName callLogType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null
      */
     private $callLogType = null;
 
@@ -70,7 +70,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName subscriberType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType|null
      */
     private $subscriberType = null;
 
@@ -108,7 +108,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * Getter for callLogType
      *
      * @ElementName callLogType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null
      */
     public function getCallLogType()
     {
@@ -119,10 +119,10 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * Setter for callLogType
      *
      * @ElementName callLogType
-     * @param string|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType|null $callLogType
      * @return $this
      */
-    public function setCallLogType($callLogType)
+    public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsCallLogsRequestType $callLogType)
     {
         $this->callLogType = $callLogType;
         return $this;
@@ -146,7 +146,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange|null $dateTimeRange
      * @return $this
      */
-    public function setDateTimeRange($dateTimeRange)
+    public function setDateTimeRange(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsTimeRange $dateTimeRange)
     {
         $this->dateTimeRange = $dateTimeRange;
         return $this;
@@ -170,7 +170,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter|null $numberFilter
      * @return $this
      */
-    public function setNumberFilter($numberFilter)
+    public function setNumberFilter(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsNumberFilter $numberFilter)
     {
         $this->numberFilter = $numberFilter;
         return $this;
@@ -194,7 +194,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter|null $redirectedNumberFilter
      * @return $this
      */
-    public function setRedirectedNumberFilter($redirectedNumberFilter)
+    public function setRedirectedNumberFilter(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedNumberFilter $redirectedNumberFilter)
     {
         $this->redirectedNumberFilter = $redirectedNumberFilter;
         return $this;
@@ -218,7 +218,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter|null $accountAuthorizationCodeFilter
      * @return $this
      */
-    public function setAccountAuthorizationCodeFilter($accountAuthorizationCodeFilter)
+    public function setAccountAuthorizationCodeFilter(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsAccountAuthorizationCodeFilter $accountAuthorizationCodeFilter)
     {
         $this->accountAuthorizationCodeFilter = $accountAuthorizationCodeFilter;
         return $this;
@@ -228,7 +228,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * Getter for subscriberType
      *
      * @ElementName subscriberType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType|null
      */
     public function getSubscriberType()
     {
@@ -239,10 +239,10 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * Setter for subscriberType
      *
      * @ElementName subscriberType
-     * @param string|null $subscriberType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType|null $subscriberType
      * @return $this
      */
-    public function setSubscriberType($subscriberType)
+    public function setSubscriberType(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType $subscriberType)
     {
         $this->subscriberType = $subscriberType;
         return $this;
@@ -266,7 +266,7 @@ class UserEnhancedCallLogsGetListRequest17sp4 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
      * @return $this
      */
-    public function setResponsePagingControl($responsePagingControl)
+    public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
     {
         $this->responsePagingControl = $responsePagingControl;
         return $this;

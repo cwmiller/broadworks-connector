@@ -45,7 +45,7 @@ class SystemPreferredCarrierGetGroupListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupsUsingCarrierTable
      * @return $this
      */
-    public function setGroupsUsingCarrierTable($groupsUsingCarrierTable)
+    public function setGroupsUsingCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupsUsingCarrierTable)
     {
         $this->groupsUsingCarrierTable = $groupsUsingCarrierTable;
         return $this;

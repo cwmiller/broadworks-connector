@@ -71,7 +71,7 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[] $languageMapping
      * @return $this
      */
-    public function setLanguageMapping($languageMapping)
+    public function setLanguageMapping(array $languageMapping)
     {
         $this->languageMapping = $languageMapping;
         return $this;

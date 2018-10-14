@@ -70,7 +70,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @param string[] $countryCode
      * @return $this
      */
-    public function setCountryCode($countryCode)
+    public function setCountryCode(array $countryCode)
     {
         $this->countryCode = $countryCode;
         return $this;
@@ -83,7 +83,7 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
      * @param string $countryCode
      * @return $this
      */
-    public function addCountryCode($countryCode)
+    public function addCountryCode(string $countryCode)
     {
         $this->countryCode []= $countryCode;
         return $this;

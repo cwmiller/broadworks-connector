@@ -68,7 +68,7 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $targetUserIdList
      * @return $this
      */
-    public function setTargetUserIdList($targetUserIdList)
+    public function setTargetUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $targetUserIdList)
     {
         $this->targetUserIdList = $targetUserIdList;
         return $this;

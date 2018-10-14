@@ -52,7 +52,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName administratorType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $administratorType = null;
 
@@ -204,7 +204,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for administratorType
      *
      * @ElementName administratorType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     public function getAdministratorType()
     {
@@ -215,10 +215,10 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for administratorType
      *
      * @ElementName administratorType
-     * @param string|null $administratorType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null $administratorType
      * @return $this
      */
-    public function setAdministratorType($administratorType)
+    public function setAdministratorType(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType $administratorType)
     {
         $this->administratorType = $administratorType;
         return $this;

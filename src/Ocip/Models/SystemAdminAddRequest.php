@@ -46,7 +46,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
 
     /**
      * @ElementName adminType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
 
@@ -180,7 +180,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Getter for adminType
      *
      * @ElementName adminType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     public function getAdminType()
     {
@@ -191,10 +191,10 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Setter for adminType
      *
      * @ElementName adminType
-     * @param string|null $adminType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null $adminType
      * @return $this
      */
-    public function setAdminType($adminType)
+    public function setAdminType(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminType $adminType)
     {
         $this->adminType = $adminType;
         return $this;

@@ -40,7 +40,7 @@ class SystemServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
      * @return $this
      */
-    public function setUserTable($userTable)
+    public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
         return $this;

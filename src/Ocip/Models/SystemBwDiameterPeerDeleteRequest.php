@@ -17,7 +17,7 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName instance
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
 
@@ -31,7 +31,7 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for instance
      *
      * @ElementName instance
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     public function getInstance()
     {
@@ -42,10 +42,10 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for instance
      *
      * @ElementName instance
-     * @param string|null $instance
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null $instance
      * @return $this
      */
-    public function setInstance($instance)
+    public function setInstance(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance)
     {
         $this->instance = $instance;
         return $this;

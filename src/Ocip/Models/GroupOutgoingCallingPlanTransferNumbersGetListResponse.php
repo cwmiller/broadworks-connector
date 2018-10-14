@@ -44,7 +44,7 @@ class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null $groupNumbers
      * @return $this
      */
-    public function setGroupNumbers($groupNumbers)
+    public function setGroupNumbers(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers $groupNumbers)
     {
         $this->groupNumbers = $groupNumbers;
         return $this;
@@ -68,7 +68,7 @@ class GroupOutgoingCallingPlanTransferNumbersGetListResponse extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentTransferNumbers[] $departmentNumbers
      * @return $this
      */
-    public function setDepartmentNumbers($departmentNumbers)
+    public function setDepartmentNumbers(array $departmentNumbers)
     {
         $this->departmentNumbers = $departmentNumbers;
         return $this;

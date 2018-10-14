@@ -39,7 +39,7 @@ class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callingPartyCategoryTable
      * @return $this
      */
-    public function setCallingPartyCategoryTable($callingPartyCategoryTable)
+    public function setCallingPartyCategoryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callingPartyCategoryTable)
     {
         $this->callingPartyCategoryTable = $callingPartyCategoryTable;
         return $this;

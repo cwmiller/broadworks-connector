@@ -24,7 +24,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName typeInfo
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1\TypeInfo[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo[]
      */
     private $typeInfo = array(
         
@@ -48,7 +48,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConne
      * @param string[] $deviceType
      * @return $this
      */
-    public function setDeviceType($deviceType)
+    public function setDeviceType(array $deviceType)
     {
         $this->deviceType = $deviceType;
         return $this;
@@ -61,7 +61,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConne
      * @param string $deviceType
      * @return $this
      */
-    public function addDeviceType($deviceType)
+    public function addDeviceType(string $deviceType)
     {
         $this->deviceType []= $deviceType;
         return $this;
@@ -71,7 +71,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConne
      * Getter for typeInfo
      *
      * @ElementName typeInfo
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1\TypeInfo[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo[]
      */
     public function getTypeInfo()
     {
@@ -82,10 +82,10 @@ class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConne
      * Setter for typeInfo
      *
      * @ElementName typeInfo
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1\TypeInfo[] $typeInfo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo[] $typeInfo
      * @return $this
      */
-    public function setTypeInfo($typeInfo)
+    public function setTypeInfo(array $typeInfo)
     {
         $this->typeInfo = $typeInfo;
         return $this;
@@ -95,7 +95,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp1 extends \CWM\BroadWorksConne
      * Adder for typeInfo
      *
      * @ElementName typeInfo
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1\TypeInfo $typeInfo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo $typeInfo
      * @return $this
      */
     public function addTypeInfo($typeInfo)

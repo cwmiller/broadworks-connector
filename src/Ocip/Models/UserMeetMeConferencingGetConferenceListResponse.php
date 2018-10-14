@@ -44,7 +44,7 @@ class UserMeetMeConferencingGetConferenceListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceTable
      * @return $this
      */
-    public function setConferenceTable($conferenceTable)
+    public function setConferenceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceTable)
     {
         $this->conferenceTable = $conferenceTable;
         return $this;

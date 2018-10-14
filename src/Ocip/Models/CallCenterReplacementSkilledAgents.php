@@ -64,7 +64,7 @@ class CallCenterReplacementSkilledAgents
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agents
      * @return $this
      */
-    public function setAgents($agents)
+    public function setAgents(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agents)
     {
         $this->agents = $agents;
         return $this;

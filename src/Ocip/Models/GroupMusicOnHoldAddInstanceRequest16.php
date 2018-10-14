@@ -135,7 +135,7 @@ class GroupMusicOnHoldAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -231,7 +231,7 @@ class GroupMusicOnHoldAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd16|null $source
      * @return $this
      */
-    public function setSource($source)
+    public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd16 $source)
     {
         $this->source = $source;
         return $this;
@@ -279,7 +279,7 @@ class GroupMusicOnHoldAddInstanceRequest16 extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd16|null $internalSource
      * @return $this
      */
-    public function setInternalSource($internalSource)
+    public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd16 $internalSource)
     {
         $this->internalSource = $internalSource;
         return $this;

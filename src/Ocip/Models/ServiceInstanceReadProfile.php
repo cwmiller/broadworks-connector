@@ -279,7 +279,7 @@ class ServiceInstanceReadProfile
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -375,7 +375,7 @@ class ServiceInstanceReadProfile
      * @param string[] $alias
      * @return $this
      */
-    public function setAlias($alias)
+    public function setAlias(array $alias)
     {
         $this->alias = $alias;
         return $this;
@@ -388,7 +388,7 @@ class ServiceInstanceReadProfile
      * @param string $alias
      * @return $this
      */
-    public function addAlias($alias)
+    public function addAlias(string $alias)
     {
         $this->alias []= $alias;
         return $this;

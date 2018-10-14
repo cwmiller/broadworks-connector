@@ -69,7 +69,7 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;

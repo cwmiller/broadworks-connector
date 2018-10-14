@@ -19,7 +19,7 @@ class OutgoingCallingPlanDigitPatternOriginatingPermission
 
     /**
      * @ElementName permission
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $permission = null;
 
@@ -51,7 +51,7 @@ class OutgoingCallingPlanDigitPatternOriginatingPermission
      * Getter for permission
      *
      * @ElementName permission
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     public function getPermission()
     {
@@ -62,10 +62,10 @@ class OutgoingCallingPlanDigitPatternOriginatingPermission
      * Setter for permission
      *
      * @ElementName permission
-     * @param string|null $permission
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $permission
      * @return $this
      */
-    public function setPermission($permission)
+    public function setPermission(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $permission)
     {
         $this->permission = $permission;
         return $this;

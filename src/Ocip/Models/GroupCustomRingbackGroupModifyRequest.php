@@ -36,7 +36,7 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName audioSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
@@ -48,7 +48,7 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName videoSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
@@ -134,7 +134,7 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for audioSelection
      *
      * @ElementName audioSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioSelection()
     {
@@ -145,10 +145,10 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for audioSelection
      *
      * @ElementName audioSelection
-     * @param string|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
      * @return $this
      */
-    public function setAudioSelection($audioSelection)
+    public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
     {
         $this->audioSelection = $audioSelection;
         return $this;
@@ -172,7 +172,7 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -182,7 +182,7 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for videoSelection
      *
      * @ElementName videoSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoSelection()
     {
@@ -193,10 +193,10 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for videoSelection
      *
      * @ElementName videoSelection
-     * @param string|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
      * @return $this
      */
-    public function setVideoSelection($videoSelection)
+    public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
     {
         $this->videoSelection = $videoSelection;
         return $this;
@@ -220,7 +220,7 @@ class GroupCustomRingbackGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;

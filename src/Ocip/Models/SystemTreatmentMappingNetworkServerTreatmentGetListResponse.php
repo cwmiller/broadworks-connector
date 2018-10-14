@@ -38,7 +38,7 @@ class SystemTreatmentMappingNetworkServerTreatmentGetListResponse extends \CWM\B
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $treatmentMappingTable
      * @return $this
      */
-    public function setTreatmentMappingTable($treatmentMappingTable)
+    public function setTreatmentMappingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $treatmentMappingTable)
     {
         $this->treatmentMappingTable = $treatmentMappingTable;
         return $this;

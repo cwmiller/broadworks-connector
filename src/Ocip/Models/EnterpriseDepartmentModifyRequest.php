@@ -128,7 +128,7 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null $newParentDepartmentKey
      * @return $this
      */
-    public function setNewParentDepartmentKey($newParentDepartmentKey)
+    public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey $newParentDepartmentKey)
     {
         $this->newParentDepartmentKey = $newParentDepartmentKey;
         return $this;

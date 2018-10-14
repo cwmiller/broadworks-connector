@@ -14,7 +14,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName attendeeNotification
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     private $attendeeNotification = null;
 
@@ -34,7 +34,7 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
      * Getter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     public function getAttendeeNotification()
     {
@@ -45,10 +45,10 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
      * Setter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @param string|null $attendeeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null $attendeeNotification
      * @return $this
      */
-    public function setAttendeeNotification($attendeeNotification)
+    public function setAttendeeNotification(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification $attendeeNotification)
     {
         $this->attendeeNotification = $attendeeNotification;
         return $this;

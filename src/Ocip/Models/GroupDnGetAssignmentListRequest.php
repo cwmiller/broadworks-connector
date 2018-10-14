@@ -165,7 +165,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;
@@ -202,7 +202,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
-    public function setSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
+    public function setSearchCriteriaUserFirstName(array $searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName = $searchCriteriaUserFirstName;
         return $this;
@@ -239,7 +239,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
-    public function setSearchCriteriaUserLastName($searchCriteriaUserLastName)
+    public function setSearchCriteriaUserLastName(array $searchCriteriaUserLastName)
     {
         $this->searchCriteriaUserLastName = $searchCriteriaUserLastName;
         return $this;
@@ -276,7 +276,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnDepartment|null $searchCriteriaExactDnDepartment
      * @return $this
      */
-    public function setSearchCriteriaExactDnDepartment($searchCriteriaExactDnDepartment)
+    public function setSearchCriteriaExactDnDepartment(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnDepartment $searchCriteriaExactDnDepartment)
     {
         $this->searchCriteriaExactDnDepartment = $searchCriteriaExactDnDepartment;
         return $this;
@@ -300,7 +300,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null $searchCriteriaExactDnActivation
      * @return $this
      */
-    public function setSearchCriteriaExactDnActivation($searchCriteriaExactDnActivation)
+    public function setSearchCriteriaExactDnActivation(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation $searchCriteriaExactDnActivation)
     {
         $this->searchCriteriaExactDnActivation = $searchCriteriaExactDnActivation;
         return $this;

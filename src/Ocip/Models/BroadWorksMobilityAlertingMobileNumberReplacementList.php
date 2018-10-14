@@ -37,7 +37,7 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
      * @param string[] $mobileNumber
      * @return $this
      */
-    public function setMobileNumber($mobileNumber)
+    public function setMobileNumber(array $mobileNumber)
     {
         $this->mobileNumber = $mobileNumber;
         return $this;
@@ -50,7 +50,7 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
      * @param string $mobileNumber
      * @return $this
      */
-    public function addMobileNumber($mobileNumber)
+    public function addMobileNumber(string $mobileNumber)
     {
         $this->mobileNumber []= $mobileNumber;
         return $this;

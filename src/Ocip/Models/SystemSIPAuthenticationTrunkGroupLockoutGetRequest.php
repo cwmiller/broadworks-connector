@@ -93,7 +93,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -130,7 +130,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
      * @return $this
      */
-    public function setSearchCriteriaExactOrganizationType($searchCriteriaExactOrganizationType)
+    public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
     {
         $this->searchCriteriaExactOrganizationType = $searchCriteriaExactOrganizationType;
         return $this;
@@ -154,7 +154,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -191,7 +191,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[] $searchCriteriaTrunkGroupName
      * @return $this
      */
-    public function setSearchCriteriaTrunkGroupName($searchCriteriaTrunkGroupName)
+    public function setSearchCriteriaTrunkGroupName(array $searchCriteriaTrunkGroupName)
     {
         $this->searchCriteriaTrunkGroupName = $searchCriteriaTrunkGroupName;
         return $this;

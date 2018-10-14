@@ -131,7 +131,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[] $devices
      * @return $this
      */
-    public function setDevices($devices)
+    public function setDevices(array $devices)
     {
         $this->devices = $devices;
         return $this;

@@ -18,7 +18,7 @@ class CallDispositionCodeWithLevel
 
     /**
      * @ElementName level
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null
      */
     private $level = null;
 
@@ -50,7 +50,7 @@ class CallDispositionCodeWithLevel
      * Getter for level
      *
      * @ElementName level
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null
      */
     public function getLevel()
     {
@@ -61,10 +61,10 @@ class CallDispositionCodeWithLevel
      * Setter for level
      *
      * @ElementName level
-     * @param string|null $level
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null $level
      * @return $this
      */
-    public function setLevel($level)
+    public function setLevel(\CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel $level)
     {
         $this->level = $level;
         return $this;

@@ -28,7 +28,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName aocType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
     private $aocType = null;
 
@@ -84,7 +84,7 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for aocType
      *
      * @ElementName aocType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
     public function getAocType()
     {
@@ -95,10 +95,10 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for aocType
      *
      * @ElementName aocType
-     * @param string|null $aocType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null $aocType
      * @return $this
      */
-    public function setAocType($aocType)
+    public function setAocType(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType $aocType)
     {
         $this->aocType = $aocType;
         return $this;

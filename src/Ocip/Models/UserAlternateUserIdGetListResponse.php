@@ -40,7 +40,7 @@ class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userIdTable
      * @return $this
      */
-    public function setUserIdTable($userIdTable)
+    public function setUserIdTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userIdTable)
     {
         $this->userIdTable = $userIdTable;
         return $this;

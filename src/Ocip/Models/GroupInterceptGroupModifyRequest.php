@@ -36,7 +36,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName announcementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
@@ -152,7 +152,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getAnnouncementSelection()
     {
@@ -163,10 +163,10 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @param string|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
      * @return $this
      */
-    public function setAnnouncementSelection($announcementSelection)
+    public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
     {
         $this->announcementSelection = $announcementSelection;
         return $this;
@@ -190,7 +190,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -214,7 +214,7 @@ class GroupInterceptGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;

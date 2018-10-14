@@ -108,7 +108,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -132,7 +132,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[] $codeEntry
      * @return $this
      */
-    public function setCodeEntry($codeEntry)
+    public function setCodeEntry(array $codeEntry)
     {
         $this->codeEntry = $codeEntry;
         return $this;

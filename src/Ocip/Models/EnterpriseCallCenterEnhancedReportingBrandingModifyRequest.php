@@ -22,7 +22,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
 
     /**
      * @ElementName brandingChoice
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     private $brandingChoice = null;
 
@@ -60,7 +60,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
      * Getter for brandingChoice
      *
      * @ElementName brandingChoice
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     public function getBrandingChoice()
     {
@@ -71,10 +71,10 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
      * Setter for brandingChoice
      *
      * @ElementName brandingChoice
-     * @param string|null $brandingChoice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null $brandingChoice
      * @return $this
      */
-    public function setBrandingChoice($brandingChoice)
+    public function setBrandingChoice(\CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice $brandingChoice)
     {
         $this->brandingChoice = $brandingChoice;
         return $this;
@@ -98,7 +98,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $brandingFile
      * @return $this
      */
-    public function setBrandingFile($brandingFile)
+    public function setBrandingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $brandingFile)
     {
         $this->brandingFile = $brandingFile;
         return $this;

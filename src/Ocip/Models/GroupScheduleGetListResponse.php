@@ -23,7 +23,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName scheduleType
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
     private $scheduleType = array(
         
@@ -31,7 +31,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName scheduleLevel
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[]
      */
     private $scheduleLevel = array(
         
@@ -55,7 +55,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string[] $scheduleName
      * @return $this
      */
-    public function setScheduleName($scheduleName)
+    public function setScheduleName(array $scheduleName)
     {
         $this->scheduleName = $scheduleName;
         return $this;
@@ -68,7 +68,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string $scheduleName
      * @return $this
      */
-    public function addScheduleName($scheduleName)
+    public function addScheduleName(string $scheduleName)
     {
         $this->scheduleName []= $scheduleName;
         return $this;
@@ -78,7 +78,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for scheduleType
      *
      * @ElementName scheduleType
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
     public function getScheduleType()
     {
@@ -89,10 +89,10 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for scheduleType
      *
      * @ElementName scheduleType
-     * @param string[] $scheduleType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[] $scheduleType
      * @return $this
      */
-    public function setScheduleType($scheduleType)
+    public function setScheduleType(array $scheduleType)
     {
         $this->scheduleType = $scheduleType;
         return $this;
@@ -102,7 +102,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Adder for scheduleType
      *
      * @ElementName scheduleType
-     * @param string $scheduleType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType
      * @return $this
      */
     public function addScheduleType($scheduleType)
@@ -115,7 +115,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for scheduleLevel
      *
      * @ElementName scheduleLevel
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[]
      */
     public function getScheduleLevel()
     {
@@ -126,10 +126,10 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for scheduleLevel
      *
      * @ElementName scheduleLevel
-     * @param string[] $scheduleLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[] $scheduleLevel
      * @return $this
      */
-    public function setScheduleLevel($scheduleLevel)
+    public function setScheduleLevel(array $scheduleLevel)
     {
         $this->scheduleLevel = $scheduleLevel;
         return $this;
@@ -139,7 +139,7 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Adder for scheduleLevel
      *
      * @ElementName scheduleLevel
-     * @param string $scheduleLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel $scheduleLevel
      * @return $this
      */
     public function addScheduleLevel($scheduleLevel)

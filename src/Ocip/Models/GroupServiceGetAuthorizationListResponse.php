@@ -60,7 +60,7 @@ class GroupServiceGetAuthorizationListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $servicePacksAuthorizationTable
      * @return $this
      */
-    public function setServicePacksAuthorizationTable($servicePacksAuthorizationTable)
+    public function setServicePacksAuthorizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $servicePacksAuthorizationTable)
     {
         $this->servicePacksAuthorizationTable = $servicePacksAuthorizationTable;
         return $this;
@@ -84,7 +84,7 @@ class GroupServiceGetAuthorizationListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupServicesAuthorizationTable
      * @return $this
      */
-    public function setGroupServicesAuthorizationTable($groupServicesAuthorizationTable)
+    public function setGroupServicesAuthorizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupServicesAuthorizationTable)
     {
         $this->groupServicesAuthorizationTable = $groupServicesAuthorizationTable;
         return $this;
@@ -108,7 +108,7 @@ class GroupServiceGetAuthorizationListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServicesAuthorizationTable
      * @return $this
      */
-    public function setUserServicesAuthorizationTable($userServicesAuthorizationTable)
+    public function setUserServicesAuthorizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServicesAuthorizationTable)
     {
         $this->userServicesAuthorizationTable = $userServicesAuthorizationTable;
         return $this;

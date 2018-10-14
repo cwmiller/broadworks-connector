@@ -14,7 +14,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName policySelection
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection[]
      */
     private $policySelection = array(
         
@@ -22,7 +22,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName digitManipulationOperation
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation[]
      */
     private $digitManipulationOperation = array(
         
@@ -48,7 +48,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * Getter for policySelection
      *
      * @ElementName policySelection
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection[]
      */
     public function getPolicySelection()
     {
@@ -59,10 +59,10 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * Setter for policySelection
      *
      * @ElementName policySelection
-     * @param string[] $policySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection[] $policySelection
      * @return $this
      */
-    public function setPolicySelection($policySelection)
+    public function setPolicySelection(array $policySelection)
     {
         $this->policySelection = $policySelection;
         return $this;
@@ -72,7 +72,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * Adder for policySelection
      *
      * @ElementName policySelection
-     * @param string $policySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection $policySelection
      * @return $this
      */
     public function addPolicySelection($policySelection)
@@ -85,7 +85,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * Getter for digitManipulationOperation
      *
      * @ElementName digitManipulationOperation
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation[]
      */
     public function getDigitManipulationOperation()
     {
@@ -96,10 +96,10 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * Setter for digitManipulationOperation
      *
      * @ElementName digitManipulationOperation
-     * @param string[] $digitManipulationOperation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation[] $digitManipulationOperation
      * @return $this
      */
-    public function setDigitManipulationOperation($digitManipulationOperation)
+    public function setDigitManipulationOperation(array $digitManipulationOperation)
     {
         $this->digitManipulationOperation = $digitManipulationOperation;
         return $this;
@@ -109,7 +109,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * Adder for digitManipulationOperation
      *
      * @ElementName digitManipulationOperation
-     * @param string $digitManipulationOperation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperation $digitManipulationOperation
      * @return $this
      */
     public function addDigitManipulationOperation($digitManipulationOperation)
@@ -136,7 +136,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @param string[] $routeGroupId
      * @return $this
      */
-    public function setRouteGroupId($routeGroupId)
+    public function setRouteGroupId(array $routeGroupId)
     {
         $this->routeGroupId = $routeGroupId;
         return $this;
@@ -149,7 +149,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @param string $routeGroupId
      * @return $this
      */
-    public function addRouteGroupId($routeGroupId)
+    public function addRouteGroupId(string $routeGroupId)
     {
         $this->routeGroupId []= $routeGroupId;
         return $this;
@@ -173,7 +173,7 @@ class EnterpriseVoiceVPNGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNTreatmentEntry[] $treatment
      * @return $this
      */
-    public function setTreatment($treatment)
+    public function setTreatment(array $treatment)
     {
         $this->treatment = $treatment;
         return $this;

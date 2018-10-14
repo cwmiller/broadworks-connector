@@ -86,7 +86,7 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -123,7 +123,7 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;

@@ -68,7 +68,7 @@ class UserBroadWorksReceptionistOfficeModifyRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
      * @return $this
      */
-    public function setMonitoredUserIdList($monitoredUserIdList)
+    public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList)
     {
         $this->monitoredUserIdList = $monitoredUserIdList;
         return $this;

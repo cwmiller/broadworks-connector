@@ -158,7 +158,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -182,7 +182,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null $fromDnCriteria
      * @return $this
      */
-    public function setFromDnCriteria($fromDnCriteria)
+    public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
         return $this;
@@ -206,7 +206,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;
@@ -254,7 +254,7 @@ class UserCallNotifyModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
      * @return $this
      */
-    public function setCallToNumberList($callToNumberList)
+    public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)
     {
         $this->callToNumberList = $callToNumberList;
         return $this;

@@ -70,7 +70,7 @@ class UserCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName mediaPolicySelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
 
@@ -342,7 +342,7 @@ class UserCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\
      * Getter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     public function getMediaPolicySelection()
     {
@@ -353,10 +353,10 @@ class UserCallProcessingGetPolicyResponse14sp1 extends \CWM\BroadWorksConnector\
      * Setter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @param string|null $mediaPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null $mediaPolicySelection
      * @return $this
      */
-    public function setMediaPolicySelection($mediaPolicySelection)
+    public function setMediaPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection)
     {
         $this->mediaPolicySelection = $mediaPolicySelection;
         return $this;

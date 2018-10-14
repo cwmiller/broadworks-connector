@@ -18,7 +18,7 @@ class ServicePolicyProfileKey
 
     /**
      * @ElementName category
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory|null
      */
     private $category = null;
 
@@ -50,7 +50,7 @@ class ServicePolicyProfileKey
      * Getter for category
      *
      * @ElementName category
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory|null
      */
     public function getCategory()
     {
@@ -61,10 +61,10 @@ class ServicePolicyProfileKey
      * Setter for category
      *
      * @ElementName category
-     * @param string|null $category
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory|null $category
      * @return $this
      */
-    public function setCategory($category)
+    public function setCategory(\CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory $category)
     {
         $this->category = $category;
         return $this;

@@ -14,7 +14,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
 
@@ -38,7 +38,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName audioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
@@ -56,13 +56,13 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName audioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
     /**
      * @ElementName videoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
@@ -80,7 +80,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName videoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
@@ -88,7 +88,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     public function getAction()
     {
@@ -99,10 +99,10 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction $action)
     {
         $this->action = $action;
         return $this;
@@ -184,7 +184,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Getter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioMessageSelection()
     {
@@ -195,10 +195,10 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Setter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @param string|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
      * @return $this
      */
-    public function setAudioMessageSelection($audioMessageSelection)
+    public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
     {
         $this->audioMessageSelection = $audioMessageSelection;
         return $this;
@@ -256,7 +256,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Getter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioMediaType()
     {
@@ -267,10 +267,10 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Setter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @param string|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
      * @return $this
      */
-    public function setAudioMediaType($audioMediaType)
+    public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
     {
         $this->audioMediaType = $audioMediaType;
         return $this;
@@ -280,7 +280,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Getter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoMessageSelection()
     {
@@ -291,10 +291,10 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Setter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @param string|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
      * @return $this
      */
-    public function setVideoMessageSelection($videoMessageSelection)
+    public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
     {
         $this->videoMessageSelection = $videoMessageSelection;
         return $this;
@@ -352,7 +352,7 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Getter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVideoMediaType()
     {
@@ -363,10 +363,10 @@ class GroupCallCenterHolidayServiceGetResponse extends \CWM\BroadWorksConnector\
      * Setter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @param string|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
      * @return $this
      */
-    public function setVideoMediaType($videoMediaType)
+    public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
         return $this;

@@ -25,7 +25,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 
     /**
      * @ElementName reason
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
      */
     private $reason = null;
 
@@ -57,7 +57,7 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * Getter for reason
      *
      * @ElementName reason
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
      */
     public function getReason()
     {
@@ -68,10 +68,10 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
      * Setter for reason
      *
      * @ElementName reason
-     * @param string|null $reason
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null $reason
      * @return $this
      */
-    public function setReason($reason)
+    public function setReason(\CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason $reason)
     {
         $this->reason = $reason;
         return $this;

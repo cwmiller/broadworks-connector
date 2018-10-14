@@ -67,7 +67,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -139,7 +139,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null $contactList
      * @return $this
      */
-    public function setContactList($contactList)
+    public function setContactList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList $contactList)
     {
         $this->contactList = $contactList;
         return $this;

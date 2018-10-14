@@ -16,7 +16,7 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName numberActivationMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     private $numberActivationMode = null;
 
@@ -30,7 +30,7 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for numberActivationMode
      *
      * @ElementName numberActivationMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     public function getNumberActivationMode()
     {
@@ -41,10 +41,10 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for numberActivationMode
      *
      * @ElementName numberActivationMode
-     * @param string|null $numberActivationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null $numberActivationMode
      * @return $this
      */
-    public function setNumberActivationMode($numberActivationMode)
+    public function setNumberActivationMode(\CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode $numberActivationMode)
     {
         $this->numberActivationMode = $numberActivationMode;
         return $this;

@@ -44,7 +44,7 @@ class GroupOutgoingCallingPlanOriginatingGetListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissions|null $groupPermissions
      * @return $this
      */
-    public function setGroupPermissions($groupPermissions)
+    public function setGroupPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermissions $groupPermissions)
     {
         $this->groupPermissions = $groupPermissions;
         return $this;
@@ -68,7 +68,7 @@ class GroupOutgoingCallingPlanOriginatingGetListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingDepartmentPermissions[] $departmentPermissions
      * @return $this
      */
-    public function setDepartmentPermissions($departmentPermissions)
+    public function setDepartmentPermissions(array $departmentPermissions)
     {
         $this->departmentPermissions = $departmentPermissions;
         return $this;

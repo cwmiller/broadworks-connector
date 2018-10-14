@@ -19,13 +19,13 @@ class CPEDeviceOptions
 
     /**
      * @ElementName resetEvent
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     private $resetEvent = null;
 
     /**
      * @ElementName configType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
 
@@ -69,7 +69,7 @@ class CPEDeviceOptions
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     public function getResetEvent()
     {
@@ -80,10 +80,10 @@ class CPEDeviceOptions
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param string|null $resetEvent
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null $resetEvent
      * @return $this
      */
-    public function setResetEvent($resetEvent)
+    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent)
     {
         $this->resetEvent = $resetEvent;
         return $this;
@@ -93,7 +93,7 @@ class CPEDeviceOptions
      * Getter for configType
      *
      * @ElementName configType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     public function getConfigType()
     {
@@ -104,10 +104,10 @@ class CPEDeviceOptions
      * Setter for configType
      *
      * @ElementName configType
-     * @param string|null $configType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configType
      * @return $this
      */
-    public function setConfigType($configType)
+    public function setConfigType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType)
     {
         $this->configType = $configType;
         return $this;

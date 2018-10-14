@@ -246,7 +246,7 @@ class ConsolidatedGroupProperties
      * @param \CWM\BroadWorksConnector\Ocip\Models\Contact|null $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact(\CWM\BroadWorksConnector\Ocip\Models\Contact $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -270,7 +270,7 @@ class ConsolidatedGroupProperties
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;
@@ -294,7 +294,7 @@ class ConsolidatedGroupProperties
      * @param string[] $networkClassOfService
      * @return $this
      */
-    public function setNetworkClassOfService($networkClassOfService)
+    public function setNetworkClassOfService(array $networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
         return $this;
@@ -307,7 +307,7 @@ class ConsolidatedGroupProperties
      * @param string $networkClassOfService
      * @return $this
      */
-    public function addNetworkClassOfService($networkClassOfService)
+    public function addNetworkClassOfService(string $networkClassOfService)
     {
         $this->networkClassOfService []= $networkClassOfService;
         return $this;
@@ -331,7 +331,7 @@ class ConsolidatedGroupProperties
      * @param \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null $defaultNetworkClassOfService
      * @return $this
      */
-    public function setDefaultNetworkClassOfService($defaultNetworkClassOfService)
+    public function setDefaultNetworkClassOfService(\CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService $defaultNetworkClassOfService)
     {
         $this->defaultNetworkClassOfService = $defaultNetworkClassOfService;
         return $this;
@@ -355,7 +355,7 @@ class ConsolidatedGroupProperties
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[] $groupService
      * @return $this
      */
-    public function setGroupService($groupService)
+    public function setGroupService(array $groupService)
     {
         $this->groupService = $groupService;
         return $this;

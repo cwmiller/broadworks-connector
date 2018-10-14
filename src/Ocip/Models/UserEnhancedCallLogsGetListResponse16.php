@@ -78,7 +78,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[] $callLog
      * @return $this
      */
-    public function setCallLog($callLog)
+    public function setCallLog(array $callLog)
     {
         $this->callLog = $callLog;
         return $this;

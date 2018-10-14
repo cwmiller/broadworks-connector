@@ -20,7 +20,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
@@ -66,7 +66,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     public function getProfile()
     {
@@ -77,10 +77,10 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
     {
         $this->profile = $profile;
         return $this;
@@ -104,7 +104,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
      * @return $this
      */
-    public function setNumberOfPorts($numberOfPorts)
+    public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
     {
         $this->numberOfPorts = $numberOfPorts;
         return $this;
@@ -128,7 +128,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string[] $protocolChoice
      * @return $this
      */
-    public function setProtocolChoice($protocolChoice)
+    public function setProtocolChoice(array $protocolChoice)
     {
         $this->protocolChoice = $protocolChoice;
         return $this;
@@ -141,7 +141,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param string $protocolChoice
      * @return $this
      */
-    public function addProtocolChoice($protocolChoice)
+    public function addProtocolChoice(string $protocolChoice)
     {
         $this->protocolChoice []= $protocolChoice;
         return $this;

@@ -47,7 +47,7 @@ class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userCallForwardingTable
      * @return $this
      */
-    public function setUserCallForwardingTable($userCallForwardingTable)
+    public function setUserCallForwardingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallForwardingTable)
     {
         $this->userCallForwardingTable = $userCallForwardingTable;
         return $this;

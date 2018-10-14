@@ -12,7 +12,7 @@ class AutoAttendantKeyReadConfiguration
 
     /**
      * @ElementName key
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
      */
     private $key = null;
 
@@ -26,7 +26,7 @@ class AutoAttendantKeyReadConfiguration
      * Getter for key
      *
      * @ElementName key
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
      */
     public function getKey()
     {
@@ -37,10 +37,10 @@ class AutoAttendantKeyReadConfiguration
      * Setter for key
      *
      * @ElementName key
-     * @param string|null $key
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null $key
      * @return $this
      */
-    public function setKey($key)
+    public function setKey(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey $key)
     {
         $this->key = $key;
         return $this;
@@ -64,7 +64,7 @@ class AutoAttendantKeyReadConfiguration
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry|null $entry
      * @return $this
      */
-    public function setEntry($entry)
+    public function setEntry(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry $entry)
     {
         $this->entry = $entry;
         return $this;

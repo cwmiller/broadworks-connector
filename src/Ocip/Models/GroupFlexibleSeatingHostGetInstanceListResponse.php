@@ -40,7 +40,7 @@ class GroupFlexibleSeatingHostGetInstanceListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $flexibleSeatingHostTable
      * @return $this
      */
-    public function setFlexibleSeatingHostTable($flexibleSeatingHostTable)
+    public function setFlexibleSeatingHostTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $flexibleSeatingHostTable)
     {
         $this->flexibleSeatingHostTable = $flexibleSeatingHostTable;
         return $this;

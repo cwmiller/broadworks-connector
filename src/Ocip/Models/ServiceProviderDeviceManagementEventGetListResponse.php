@@ -73,7 +73,7 @@ class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $eventTable
      * @return $this
      */
-    public function setEventTable($eventTable)
+    public function setEventTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $eventTable)
     {
         $this->eventTable = $eventTable;
         return $this;

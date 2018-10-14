@@ -102,7 +102,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[] $searchCriteriaDeviceType
      * @return $this
      */
-    public function setSearchCriteriaDeviceType($searchCriteriaDeviceType)
+    public function setSearchCriteriaDeviceType(array $searchCriteriaDeviceType)
     {
         $this->searchCriteriaDeviceType = $searchCriteriaDeviceType;
         return $this;
@@ -139,7 +139,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null $searchCriteriaExactSignalingAddressType
      * @return $this
      */
-    public function setSearchCriteriaExactSignalingAddressType($searchCriteriaExactSignalingAddressType)
+    public function setSearchCriteriaExactSignalingAddressType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType $searchCriteriaExactSignalingAddressType)
     {
         $this->searchCriteriaExactSignalingAddressType = $searchCriteriaExactSignalingAddressType;
         return $this;
@@ -163,7 +163,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
-    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
     {
         $this->searchCriteriaResellerId = $searchCriteriaResellerId;
         return $this;

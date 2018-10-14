@@ -40,7 +40,7 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
      * @param string[] $phoneNumbers
      * @return $this
      */
-    public function setPhoneNumbers($phoneNumbers)
+    public function setPhoneNumbers(array $phoneNumbers)
     {
         $this->phoneNumbers = $phoneNumbers;
         return $this;
@@ -53,7 +53,7 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
      * @param string $phoneNumbers
      * @return $this
      */
-    public function addPhoneNumbers($phoneNumbers)
+    public function addPhoneNumbers(string $phoneNumbers)
     {
         $this->phoneNumbers []= $phoneNumbers;
         return $this;

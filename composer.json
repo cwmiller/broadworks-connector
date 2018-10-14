@@ -18,7 +18,8 @@
         "php": ">=5.4.0",
         "ext-soap": "*",
         "ext-xml": "*",
-        "ext-dom": "*"
+        "ext-dom": "*",
+        "myclabs/php-enum": "^1.6"
     },
     "require-dev": {
         "cwm/broadworks-xsd-converter": "2.0"

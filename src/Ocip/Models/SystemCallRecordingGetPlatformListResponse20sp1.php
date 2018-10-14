@@ -77,7 +77,7 @@ class SystemCallRecordingGetPlatformListResponse20sp1 extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callRecordingPlatformTable
      * @return $this
      */
-    public function setCallRecordingPlatformTable($callRecordingPlatformTable)
+    public function setCallRecordingPlatformTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callRecordingPlatformTable)
     {
         $this->callRecordingPlatformTable = $callRecordingPlatformTable;
         return $this;

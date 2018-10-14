@@ -37,13 +37,13 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName mediaStream
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     private $mediaStream = null;
 
     /**
      * @ElementName transportType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportType = null;
 
@@ -129,7 +129,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for mediaStream
      *
      * @ElementName mediaStream
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     public function getMediaStream()
     {
@@ -140,10 +140,10 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for mediaStream
      *
      * @ElementName mediaStream
-     * @param string|null $mediaStream
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null $mediaStream
      * @return $this
      */
-    public function setMediaStream($mediaStream)
+    public function setMediaStream(\CWM\BroadWorksConnector\Ocip\Models\MediaStream $mediaStream)
     {
         $this->mediaStream = $mediaStream;
         return $this;
@@ -153,7 +153,7 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for transportType
      *
      * @ElementName transportType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportType()
     {
@@ -164,10 +164,10 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for transportType
      *
      * @ElementName transportType
-     * @param string|null $transportType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportType
      * @return $this
      */
-    public function setTransportType($transportType)
+    public function setTransportType(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportType)
     {
         $this->transportType = $transportType;
         return $this;

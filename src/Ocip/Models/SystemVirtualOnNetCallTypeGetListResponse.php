@@ -39,7 +39,7 @@ class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $virtualOnNetCallTypeTable
      * @return $this
      */
-    public function setVirtualOnNetCallTypeTable($virtualOnNetCallTypeTable)
+    public function setVirtualOnNetCallTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $virtualOnNetCallTypeTable)
     {
         $this->virtualOnNetCallTypeTable = $virtualOnNetCallTypeTable;
         return $this;

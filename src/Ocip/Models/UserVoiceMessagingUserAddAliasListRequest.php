@@ -70,7 +70,7 @@ class UserVoiceMessagingUserAddAliasListRequest extends \CWM\BroadWorksConnector
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -83,7 +83,7 @@ class UserVoiceMessagingUserAddAliasListRequest extends \CWM\BroadWorksConnector
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;

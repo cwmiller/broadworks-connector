@@ -70,7 +70,7 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey[] $conferenceKey
      * @return $this
      */
-    public function setConferenceKey($conferenceKey)
+    public function setConferenceKey(array $conferenceKey)
     {
         $this->conferenceKey = $conferenceKey;
         return $this;

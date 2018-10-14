@@ -39,7 +39,7 @@ class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $locationList
      * @return $this
      */
-    public function setLocationList($locationList)
+    public function setLocationList(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $locationList)
     {
         $this->locationList = $locationList;
         return $this;

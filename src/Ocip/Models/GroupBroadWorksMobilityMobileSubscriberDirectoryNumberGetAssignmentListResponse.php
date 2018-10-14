@@ -46,7 +46,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRes
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileSubscriberDirectoryNumberTable
      * @return $this
      */
-    public function setMobileSubscriberDirectoryNumberTable($mobileSubscriberDirectoryNumberTable)
+    public function setMobileSubscriberDirectoryNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumberTable)
     {
         $this->mobileSubscriberDirectoryNumberTable = $mobileSubscriberDirectoryNumberTable;
         return $this;

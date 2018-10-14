@@ -22,7 +22,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName audioSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
@@ -40,7 +40,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName videoSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
@@ -84,7 +84,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for audioSelection
      *
      * @ElementName audioSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioSelection()
     {
@@ -95,10 +95,10 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for audioSelection
      *
      * @ElementName audioSelection
-     * @param string|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
      * @return $this
      */
-    public function setAudioSelection($audioSelection)
+    public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
     {
         $this->audioSelection = $audioSelection;
         return $this;
@@ -156,7 +156,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for videoSelection
      *
      * @ElementName videoSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoSelection()
     {
@@ -167,10 +167,10 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for videoSelection
      *
      * @ElementName videoSelection
-     * @param string|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
      * @return $this
      */
-    public function setVideoSelection($videoSelection)
+    public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
     {
         $this->videoSelection = $videoSelection;
         return $this;

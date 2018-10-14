@@ -46,7 +46,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @param string[] $serviceUserId
      * @return $this
      */
-    public function setServiceUserId($serviceUserId)
+    public function setServiceUserId(array $serviceUserId)
     {
         $this->serviceUserId = $serviceUserId;
         return $this;
@@ -59,7 +59,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @param string $serviceUserId
      * @return $this
      */
-    public function addServiceUserId($serviceUserId)
+    public function addServiceUserId(string $serviceUserId)
     {
         $this->serviceUserId []= $serviceUserId;
         return $this;
@@ -83,7 +83,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @param string[] $deletedServiceUserId
      * @return $this
      */
-    public function setDeletedServiceUserId($deletedServiceUserId)
+    public function setDeletedServiceUserId(array $deletedServiceUserId)
     {
         $this->deletedServiceUserId = $deletedServiceUserId;
         return $this;
@@ -96,7 +96,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\BroadW
      * @param string $deletedServiceUserId
      * @return $this
      */
-    public function addDeletedServiceUserId($deletedServiceUserId)
+    public function addDeletedServiceUserId(string $deletedServiceUserId)
     {
         $this->deletedServiceUserId []= $deletedServiceUserId;
         return $this;

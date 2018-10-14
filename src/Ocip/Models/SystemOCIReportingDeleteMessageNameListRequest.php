@@ -101,7 +101,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
      * @param string[] $messageNameStartsWith
      * @return $this
      */
-    public function setMessageNameStartsWith($messageNameStartsWith)
+    public function setMessageNameStartsWith(array $messageNameStartsWith)
     {
         $this->messageNameStartsWith = $messageNameStartsWith;
         return $this;
@@ -114,7 +114,7 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
      * @param string $messageNameStartsWith
      * @return $this
      */
-    public function addMessageNameStartsWith($messageNameStartsWith)
+    public function addMessageNameStartsWith(string $messageNameStartsWith)
     {
         $this->messageNameStartsWith []= $messageNameStartsWith;
         return $this;

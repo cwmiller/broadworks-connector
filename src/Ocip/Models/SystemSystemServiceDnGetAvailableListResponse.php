@@ -40,7 +40,7 @@ class SystemSystemServiceDnGetAvailableListResponse extends \CWM\BroadWorksConne
      * @param string[] $availableDn
      * @return $this
      */
-    public function setAvailableDn($availableDn)
+    public function setAvailableDn(array $availableDn)
     {
         $this->availableDn = $availableDn;
         return $this;
@@ -53,7 +53,7 @@ class SystemSystemServiceDnGetAvailableListResponse extends \CWM\BroadWorksConne
      * @param string $availableDn
      * @return $this
      */
-    public function addAvailableDn($availableDn)
+    public function addAvailableDn(string $availableDn)
     {
         $this->availableDn []= $availableDn;
         return $this;

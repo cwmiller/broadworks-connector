@@ -12,7 +12,7 @@ class InternalReleaseCauseMapEntry
 
     /**
      * @ElementName internalReleaseCause
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;
 
@@ -26,7 +26,7 @@ class InternalReleaseCauseMapEntry
      * Getter for internalReleaseCause
      *
      * @ElementName internalReleaseCause
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     public function getInternalReleaseCause()
     {
@@ -37,10 +37,10 @@ class InternalReleaseCauseMapEntry
      * Setter for internalReleaseCause
      *
      * @ElementName internalReleaseCause
-     * @param string|null $internalReleaseCause
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null $internalReleaseCause
      * @return $this
      */
-    public function setInternalReleaseCause($internalReleaseCause)
+    public function setInternalReleaseCause(\CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause)
     {
         $this->internalReleaseCause = $internalReleaseCause;
         return $this;

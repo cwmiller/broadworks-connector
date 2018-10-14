@@ -12,19 +12,19 @@ class MeetMeConferencingConferenceSchedule
 
     /**
      * @ElementName scheduleReservationless
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleReservationless|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
      */
     private $scheduleReservationless = null;
 
     /**
      * @ElementName scheduleOneTime
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleOneTime|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
      */
     private $scheduleOneTime = null;
 
     /**
      * @ElementName scheduleRecurring
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleRecurring|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
      */
     private $scheduleRecurring = null;
 
@@ -32,7 +32,7 @@ class MeetMeConferencingConferenceSchedule
      * Getter for scheduleReservationless
      *
      * @ElementName scheduleReservationless
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleReservationless|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
      */
     public function getScheduleReservationless()
     {
@@ -43,10 +43,10 @@ class MeetMeConferencingConferenceSchedule
      * Setter for scheduleReservationless
      *
      * @ElementName scheduleReservationless
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleReservationless|null $scheduleReservationless
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null $scheduleReservationless
      * @return $this
      */
-    public function setScheduleReservationless($scheduleReservationless)
+    public function setScheduleReservationless(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless $scheduleReservationless)
     {
         $this->scheduleReservationless = $scheduleReservationless;
         return $this;
@@ -56,7 +56,7 @@ class MeetMeConferencingConferenceSchedule
      * Getter for scheduleOneTime
      *
      * @ElementName scheduleOneTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleOneTime|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
      */
     public function getScheduleOneTime()
     {
@@ -67,10 +67,10 @@ class MeetMeConferencingConferenceSchedule
      * Setter for scheduleOneTime
      *
      * @ElementName scheduleOneTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleOneTime|null $scheduleOneTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null $scheduleOneTime
      * @return $this
      */
-    public function setScheduleOneTime($scheduleOneTime)
+    public function setScheduleOneTime(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime $scheduleOneTime)
     {
         $this->scheduleOneTime = $scheduleOneTime;
         return $this;
@@ -80,7 +80,7 @@ class MeetMeConferencingConferenceSchedule
      * Getter for scheduleRecurring
      *
      * @ElementName scheduleRecurring
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleRecurring|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
      */
     public function getScheduleRecurring()
     {
@@ -91,10 +91,10 @@ class MeetMeConferencingConferenceSchedule
      * Setter for scheduleRecurring
      *
      * @ElementName scheduleRecurring
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule\ScheduleRecurring|null $scheduleRecurring
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null $scheduleRecurring
      * @return $this
      */
-    public function setScheduleRecurring($scheduleRecurring)
+    public function setScheduleRecurring(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring $scheduleRecurring)
     {
         $this->scheduleRecurring = $scheduleRecurring;
         return $this;

@@ -23,7 +23,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -87,7 +87,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17 $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -97,7 +97,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -108,10 +108,10 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -255,7 +255,7 @@ class GroupHuntGroupGetInstanceResponse17 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
      * @return $this
      */
-    public function setAgentUserTable($agentUserTable)
+    public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
     {
         $this->agentUserTable = $agentUserTable;
         return $this;

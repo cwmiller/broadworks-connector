@@ -47,7 +47,7 @@ class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnTable
      * @return $this
      */
-    public function setDnTable($dnTable)
+    public function setDnTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnTable)
     {
         $this->dnTable = $dnTable;
         return $this;

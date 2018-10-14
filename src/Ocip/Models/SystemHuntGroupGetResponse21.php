@@ -20,7 +20,7 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName uniformCallDistributionPolicyScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
     private $uniformCallDistributionPolicyScope = null;
 
@@ -58,7 +58,7 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for uniformCallDistributionPolicyScope
      *
      * @ElementName uniformCallDistributionPolicyScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
     public function getUniformCallDistributionPolicyScope()
     {
@@ -69,10 +69,10 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for uniformCallDistributionPolicyScope
      *
      * @ElementName uniformCallDistributionPolicyScope
-     * @param string|null $uniformCallDistributionPolicyScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null $uniformCallDistributionPolicyScope
      * @return $this
      */
-    public function setUniformCallDistributionPolicyScope($uniformCallDistributionPolicyScope)
+    public function setUniformCallDistributionPolicyScope(\CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope $uniformCallDistributionPolicyScope)
     {
         $this->uniformCallDistributionPolicyScope = $uniformCallDistributionPolicyScope;
         return $this;

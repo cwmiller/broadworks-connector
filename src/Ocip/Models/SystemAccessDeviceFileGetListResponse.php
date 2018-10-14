@@ -42,7 +42,7 @@ class SystemAccessDeviceFileGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceFilesTable
      * @return $this
      */
-    public function setDeviceFilesTable($deviceFilesTable)
+    public function setDeviceFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceFilesTable)
     {
         $this->deviceFilesTable = $deviceFilesTable;
         return $this;

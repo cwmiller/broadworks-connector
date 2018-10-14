@@ -86,7 +86,7 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName voicePortalGreetingMediaFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $voicePortalGreetingMediaFileType = null;
 
@@ -104,7 +104,7 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName voiceMessagingGreetingMediaFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $voiceMessagingGreetingMediaFileType = null;
 
@@ -406,7 +406,7 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * Getter for voicePortalGreetingMediaFileType
      *
      * @ElementName voicePortalGreetingMediaFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVoicePortalGreetingMediaFileType()
     {
@@ -417,10 +417,10 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * Setter for voicePortalGreetingMediaFileType
      *
      * @ElementName voicePortalGreetingMediaFileType
-     * @param string|null $voicePortalGreetingMediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $voicePortalGreetingMediaFileType
      * @return $this
      */
-    public function setVoicePortalGreetingMediaFileType($voicePortalGreetingMediaFileType)
+    public function setVoicePortalGreetingMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voicePortalGreetingMediaFileType)
     {
         $this->voicePortalGreetingMediaFileType = $voicePortalGreetingMediaFileType;
         return $this;
@@ -478,7 +478,7 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * Getter for voiceMessagingGreetingMediaFileType
      *
      * @ElementName voiceMessagingGreetingMediaFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVoiceMessagingGreetingMediaFileType()
     {
@@ -489,10 +489,10 @@ class SystemSystemVoicePortalGetResponse21sp1 extends \CWM\BroadWorksConnector\O
      * Setter for voiceMessagingGreetingMediaFileType
      *
      * @ElementName voiceMessagingGreetingMediaFileType
-     * @param string|null $voiceMessagingGreetingMediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $voiceMessagingGreetingMediaFileType
      * @return $this
      */
-    public function setVoiceMessagingGreetingMediaFileType($voiceMessagingGreetingMediaFileType)
+    public function setVoiceMessagingGreetingMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voiceMessagingGreetingMediaFileType)
     {
         $this->voiceMessagingGreetingMediaFileType = $voiceMessagingGreetingMediaFileType;
         return $this;

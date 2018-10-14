@@ -40,7 +40,7 @@ class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableMonitorsTable
      * @return $this
      */
-    public function setAvailableMonitorsTable($availableMonitorsTable)
+    public function setAvailableMonitorsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableMonitorsTable)
     {
         $this->availableMonitorsTable = $availableMonitorsTable;
         return $this;

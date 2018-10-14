@@ -40,7 +40,7 @@ class UserScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[] $scheduleEvents
      * @return $this
      */
-    public function setScheduleEvents($scheduleEvents)
+    public function setScheduleEvents(array $scheduleEvents)
     {
         $this->scheduleEvents = $scheduleEvents;
         return $this;

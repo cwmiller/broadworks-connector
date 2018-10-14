@@ -80,7 +80,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $maxAvailableActiveCalls
      * @return $this
      */
-    public function setMaxAvailableActiveCalls($maxAvailableActiveCalls)
+    public function setMaxAvailableActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableActiveCalls)
     {
         $this->maxAvailableActiveCalls = $maxAvailableActiveCalls;
         return $this;
@@ -104,7 +104,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $burstingMaxActiveCalls
      * @return $this
      */
-    public function setBurstingMaxActiveCalls($burstingMaxActiveCalls)
+    public function setBurstingMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxActiveCalls)
     {
         $this->burstingMaxActiveCalls = $burstingMaxActiveCalls;
         return $this;
@@ -128,7 +128,7 @@ class GroupTrunkGroupGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $burstingMaxAvailableActiveCalls
      * @return $this
      */
-    public function setBurstingMaxAvailableActiveCalls($burstingMaxAvailableActiveCalls)
+    public function setBurstingMaxAvailableActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxAvailableActiveCalls)
     {
         $this->burstingMaxAvailableActiveCalls = $burstingMaxAvailableActiveCalls;
         return $this;

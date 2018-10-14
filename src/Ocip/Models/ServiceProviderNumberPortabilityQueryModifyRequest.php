@@ -160,7 +160,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @param string[] $deleteDigitPattern
      * @return $this
      */
-    public function setDeleteDigitPattern($deleteDigitPattern)
+    public function setDeleteDigitPattern(array $deleteDigitPattern)
     {
         $this->deleteDigitPattern = $deleteDigitPattern;
         return $this;
@@ -173,7 +173,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @param string $deleteDigitPattern
      * @return $this
      */
-    public function addDeleteDigitPattern($deleteDigitPattern)
+    public function addDeleteDigitPattern(string $deleteDigitPattern)
     {
         $this->deleteDigitPattern []= $deleteDigitPattern;
         return $this;

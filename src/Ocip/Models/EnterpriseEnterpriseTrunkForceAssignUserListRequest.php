@@ -103,7 +103,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
      * @param string[] $userId
      * @return $this
      */
-    public function setUserId($userId)
+    public function setUserId(array $userId)
     {
         $this->userId = $userId;
         return $this;
@@ -116,7 +116,7 @@ class EnterpriseEnterpriseTrunkForceAssignUserListRequest extends \CWM\BroadWork
      * @param string $userId
      * @return $this
      */
-    public function addUserId($userId)
+    public function addUserId(string $userId)
     {
         $this->userId []= $userId;
         return $this;

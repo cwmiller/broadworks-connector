@@ -32,7 +32,7 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName accessLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
 
@@ -148,7 +148,7 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for accessLevel
      *
      * @ElementName accessLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     public function getAccessLevel()
     {
@@ -159,10 +159,10 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for accessLevel
      *
      * @ElementName accessLevel
-     * @param string|null $accessLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null $accessLevel
      * @return $this
      */
-    public function setAccessLevel($accessLevel)
+    public function setAccessLevel(\CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel $accessLevel)
     {
         $this->accessLevel = $accessLevel;
         return $this;

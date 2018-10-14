@@ -82,7 +82,7 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName status
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     private $status = null;
 
@@ -94,7 +94,7 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName transportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -332,7 +332,7 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
      * @return $this
      */
-    public function setNumberOfPorts($numberOfPorts)
+    public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
     {
         $this->numberOfPorts = $numberOfPorts;
         return $this;
@@ -366,7 +366,7 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for status
      *
      * @ElementName status
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     public function getStatus()
     {
@@ -377,10 +377,10 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for status
      *
      * @ElementName status
-     * @param string|null $status
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null $status
      * @return $this
      */
-    public function setStatus($status)
+    public function setStatus(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus $status)
     {
         $this->status = $status;
         return $this;
@@ -414,7 +414,7 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportProtocol()
     {
@@ -425,10 +425,10 @@ class SystemAccessDeviceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param string|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol($transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;

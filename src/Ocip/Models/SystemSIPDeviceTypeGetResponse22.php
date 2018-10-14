@@ -43,7 +43,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
@@ -73,13 +73,13 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName holdNormalization
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HoldNormalizationMode|null
      */
     private $holdNormalization = null;
 
     /**
      * @ElementName holdAnnouncementMethod
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HoldAnnouncementMethodMode|null
      */
     private $holdAnnouncementMethod = null;
 
@@ -153,7 +153,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName earlyMediaSupport
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     private $earlyMediaSupport = null;
 
@@ -171,7 +171,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName authenticationMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode22|null
      */
     private $authenticationMode = null;
 
@@ -207,7 +207,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName resetEvent
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
      */
     private $resetEvent = null;
 
@@ -219,7 +219,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName trunkMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null
      */
     private $trunkMode = null;
 
@@ -237,7 +237,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName unscreenedPresentationIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null
      */
     private $unscreenedPresentationIdentityPolicy = null;
 
@@ -255,7 +255,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName deviceTypeConfigurationOption
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     private $deviceTypeConfigurationOption = null;
 
@@ -321,7 +321,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName locationNetwork
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LocationNetworkType|null
      */
     private $locationNetwork = null;
 
@@ -367,7 +367,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
      * @return $this
      */
-    public function setNumberOfPorts($numberOfPorts)
+    public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
     {
         $this->numberOfPorts = $numberOfPorts;
         return $this;
@@ -377,7 +377,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     public function getProfile()
     {
@@ -388,10 +388,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
     {
         $this->profile = $profile;
         return $this;
@@ -497,7 +497,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for holdNormalization
      *
      * @ElementName holdNormalization
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HoldNormalizationMode|null
      */
     public function getHoldNormalization()
     {
@@ -508,10 +508,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for holdNormalization
      *
      * @ElementName holdNormalization
-     * @param string|null $holdNormalization
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HoldNormalizationMode|null $holdNormalization
      * @return $this
      */
-    public function setHoldNormalization($holdNormalization)
+    public function setHoldNormalization(\CWM\BroadWorksConnector\Ocip\Models\HoldNormalizationMode $holdNormalization)
     {
         $this->holdNormalization = $holdNormalization;
         return $this;
@@ -521,7 +521,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for holdAnnouncementMethod
      *
      * @ElementName holdAnnouncementMethod
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HoldAnnouncementMethodMode|null
      */
     public function getHoldAnnouncementMethod()
     {
@@ -532,10 +532,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for holdAnnouncementMethod
      *
      * @ElementName holdAnnouncementMethod
-     * @param string|null $holdAnnouncementMethod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HoldAnnouncementMethodMode|null $holdAnnouncementMethod
      * @return $this
      */
-    public function setHoldAnnouncementMethod($holdAnnouncementMethod)
+    public function setHoldAnnouncementMethod(\CWM\BroadWorksConnector\Ocip\Models\HoldAnnouncementMethodMode $holdAnnouncementMethod)
     {
         $this->holdAnnouncementMethod = $holdAnnouncementMethod;
         return $this;
@@ -775,7 +775,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead21sp1|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions($cpeDeviceOptions)
+    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead21sp1 $cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -799,7 +799,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string[] $protocolChoice
      * @return $this
      */
-    public function setProtocolChoice($protocolChoice)
+    public function setProtocolChoice(array $protocolChoice)
     {
         $this->protocolChoice = $protocolChoice;
         return $this;
@@ -812,7 +812,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string $protocolChoice
      * @return $this
      */
-    public function addProtocolChoice($protocolChoice)
+    public function addProtocolChoice(string $protocolChoice)
     {
         $this->protocolChoice []= $protocolChoice;
         return $this;
@@ -822,7 +822,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     public function getEarlyMediaSupport()
     {
@@ -833,10 +833,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @param string|null $earlyMediaSupport
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null $earlyMediaSupport
      * @return $this
      */
-    public function setEarlyMediaSupport($earlyMediaSupport)
+    public function setEarlyMediaSupport(\CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport)
     {
         $this->earlyMediaSupport = $earlyMediaSupport;
         return $this;
@@ -894,7 +894,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode22|null
      */
     public function getAuthenticationMode()
     {
@@ -905,10 +905,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @param string|null $authenticationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode22|null $authenticationMode
      * @return $this
      */
-    public function setAuthenticationMode($authenticationMode)
+    public function setAuthenticationMode(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode22 $authenticationMode)
     {
         $this->authenticationMode = $authenticationMode;
         return $this;
@@ -1038,7 +1038,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
      */
     public function getResetEvent()
     {
@@ -1049,10 +1049,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param string|null $resetEvent
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null $resetEvent
      * @return $this
      */
-    public function setResetEvent($resetEvent)
+    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent $resetEvent)
     {
         $this->resetEvent = $resetEvent;
         return $this;
@@ -1086,7 +1086,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for trunkMode
      *
      * @ElementName trunkMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null
      */
     public function getTrunkMode()
     {
@@ -1097,10 +1097,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for trunkMode
      *
      * @ElementName trunkMode
-     * @param string|null $trunkMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null $trunkMode
      * @return $this
      */
-    public function setTrunkMode($trunkMode)
+    public function setTrunkMode(\CWM\BroadWorksConnector\Ocip\Models\TrunkMode $trunkMode)
     {
         $this->trunkMode = $trunkMode;
         return $this;
@@ -1158,7 +1158,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for unscreenedPresentationIdentityPolicy
      *
      * @ElementName unscreenedPresentationIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null
      */
     public function getUnscreenedPresentationIdentityPolicy()
     {
@@ -1169,10 +1169,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for unscreenedPresentationIdentityPolicy
      *
      * @ElementName unscreenedPresentationIdentityPolicy
-     * @param string|null $unscreenedPresentationIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null $unscreenedPresentationIdentityPolicy
      * @return $this
      */
-    public function setUnscreenedPresentationIdentityPolicy($unscreenedPresentationIdentityPolicy)
+    public function setUnscreenedPresentationIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy $unscreenedPresentationIdentityPolicy)
     {
         $this->unscreenedPresentationIdentityPolicy = $unscreenedPresentationIdentityPolicy;
         return $this;
@@ -1230,7 +1230,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for deviceTypeConfigurationOption
      *
      * @ElementName deviceTypeConfigurationOption
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     public function getDeviceTypeConfigurationOption()
     {
@@ -1241,10 +1241,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for deviceTypeConfigurationOption
      *
      * @ElementName deviceTypeConfigurationOption
-     * @param string|null $deviceTypeConfigurationOption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null $deviceTypeConfigurationOption
      * @return $this
      */
-    public function setDeviceTypeConfigurationOption($deviceTypeConfigurationOption)
+    public function setDeviceTypeConfigurationOption(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType $deviceTypeConfigurationOption)
     {
         $this->deviceTypeConfigurationOption = $deviceTypeConfigurationOption;
         return $this;
@@ -1494,7 +1494,7 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for locationNetwork
      *
      * @ElementName locationNetwork
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LocationNetworkType|null
      */
     public function getLocationNetwork()
     {
@@ -1505,10 +1505,10 @@ class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for locationNetwork
      *
      * @ElementName locationNetwork
-     * @param string|null $locationNetwork
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LocationNetworkType|null $locationNetwork
      * @return $this
      */
-    public function setLocationNetwork($locationNetwork)
+    public function setLocationNetwork(\CWM\BroadWorksConnector\Ocip\Models\LocationNetworkType $locationNetwork)
     {
         $this->locationNetwork = $locationNetwork;
         return $this;

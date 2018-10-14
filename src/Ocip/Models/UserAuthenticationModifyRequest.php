@@ -34,7 +34,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName password
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequest\Password|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
     private $password = null;
 
@@ -114,7 +114,7 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for password
      *
      * @ElementName password
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequest\Password|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
     public function getPassword()
     {
@@ -125,10 +125,10 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for password
      *
      * @ElementName password
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequest\Password|null $password
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null $password
      * @return $this
      */
-    public function setPassword($password)
+    public function setPassword(\CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword $password)
     {
         $this->password = $password;
         return $this;

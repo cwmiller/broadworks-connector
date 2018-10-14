@@ -38,7 +38,7 @@ class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reportingServerTable
      * @return $this
      */
-    public function setReportingServerTable($reportingServerTable)
+    public function setReportingServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reportingServerTable)
     {
         $this->reportingServerTable = $reportingServerTable;
         return $this;

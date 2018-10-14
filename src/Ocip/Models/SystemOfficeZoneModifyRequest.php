@@ -134,7 +134,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null $replacementZoneList
      * @return $this
      */
-    public function setReplacementZoneList($replacementZoneList)
+    public function setReplacementZoneList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList $replacementZoneList)
     {
         $this->replacementZoneList = $replacementZoneList;
         return $this;

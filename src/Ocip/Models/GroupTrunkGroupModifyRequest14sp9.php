@@ -129,7 +129,7 @@ class GroupTrunkGroupModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $burstingMaxActiveCalls
      * @return $this
      */
-    public function setBurstingMaxActiveCalls($burstingMaxActiveCalls)
+    public function setBurstingMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxActiveCalls)
     {
         $this->burstingMaxActiveCalls = $burstingMaxActiveCalls;
         return $this;

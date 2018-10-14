@@ -27,7 +27,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
 
     /**
      * @ElementName entranceGreetingMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $entranceGreetingMediaType = null;
 
@@ -83,7 +83,7 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * Getter for entranceGreetingMediaType
      *
      * @ElementName entranceGreetingMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getEntranceGreetingMediaType()
     {
@@ -94,10 +94,10 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
      * Setter for entranceGreetingMediaType
      *
      * @ElementName entranceGreetingMediaType
-     * @param string|null $entranceGreetingMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $entranceGreetingMediaType
      * @return $this
      */
-    public function setEntranceGreetingMediaType($entranceGreetingMediaType)
+    public function setEntranceGreetingMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $entranceGreetingMediaType)
     {
         $this->entranceGreetingMediaType = $entranceGreetingMediaType;
         return $this;

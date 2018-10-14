@@ -40,7 +40,7 @@ class GroupTrunkGroupGetInstanceUserListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $trunkGroupUserTable
      * @return $this
      */
-    public function setTrunkGroupUserTable($trunkGroupUserTable)
+    public function setTrunkGroupUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $trunkGroupUserTable)
     {
         $this->trunkGroupUserTable = $trunkGroupUserTable;
         return $this;

@@ -13,7 +13,7 @@ class SearchCriteriaExactDeviceManagementEventLevel extends SearchCriteria
 
     /**
      * @ElementName dmEventLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
     private $dmEventLevel = null;
 
@@ -21,7 +21,7 @@ class SearchCriteriaExactDeviceManagementEventLevel extends SearchCriteria
      * Getter for dmEventLevel
      *
      * @ElementName dmEventLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
     public function getDmEventLevel()
     {
@@ -32,10 +32,10 @@ class SearchCriteriaExactDeviceManagementEventLevel extends SearchCriteria
      * Setter for dmEventLevel
      *
      * @ElementName dmEventLevel
-     * @param string|null $dmEventLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null $dmEventLevel
      * @return $this
      */
-    public function setDmEventLevel($dmEventLevel)
+    public function setDmEventLevel(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel $dmEventLevel)
     {
         $this->dmEventLevel = $dmEventLevel;
         return $this;

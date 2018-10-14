@@ -23,265 +23,265 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName groupCallingPlanAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess|null
      */
     private $groupCallingPlanAccess = null;
 
     /**
      * @ElementName groupExtensionAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess|null
      */
     private $groupExtensionAccess = null;
 
     /**
      * @ElementName groupLDAPIntegrationAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess|null
      */
     private $groupLDAPIntegrationAccess = null;
 
     /**
      * @ElementName groupVoiceMessagingAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess|null
      */
     private $groupVoiceMessagingAccess = null;
 
     /**
      * @ElementName groupDepartmentAdminUserAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess|null
      */
     private $groupDepartmentAdminUserAccess = null;
 
     /**
      * @ElementName groupDepartmentAdminTrunkGroupAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess|null
      */
     private $groupDepartmentAdminTrunkGroupAccess = null;
 
     /**
      * @ElementName groupDepartmentAdminPhoneNumberExtensionAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess|null
      */
     private $groupDepartmentAdminPhoneNumberExtensionAccess = null;
 
     /**
      * @ElementName groupDepartmentAdminCallingLineIdNumberAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess|null
      */
     private $groupDepartmentAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName groupUserAuthenticationAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess|null
      */
     private $groupUserAuthenticationAccess = null;
 
     /**
      * @ElementName groupUserGroupDirectoryAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess|null
      */
     private $groupUserGroupDirectoryAccess = null;
 
     /**
      * @ElementName groupUserProfileAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess|null
      */
     private $groupUserProfileAccess = null;
 
     /**
      * @ElementName groupUserEnhancedCallLogsAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess|null
      */
     private $groupUserEnhancedCallLogsAccess = null;
 
     /**
      * @ElementName groupAdminProfileAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess|null
      */
     private $groupAdminProfileAccess = null;
 
     /**
      * @ElementName groupAdminUserAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess|null
      */
     private $groupAdminUserAccess = null;
 
     /**
      * @ElementName groupAdminAdminAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess|null
      */
     private $groupAdminAdminAccess = null;
 
     /**
      * @ElementName groupAdminDepartmentAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess|null
      */
     private $groupAdminDepartmentAccess = null;
 
     /**
      * @ElementName groupAdminAccessDeviceAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess|null
      */
     private $groupAdminAccessDeviceAccess = null;
 
     /**
      * @ElementName groupAdminEnhancedServiceInstanceAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess|null
      */
     private $groupAdminEnhancedServiceInstanceAccess = null;
 
     /**
      * @ElementName groupAdminFeatureAccessCodeAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess|null
      */
     private $groupAdminFeatureAccessCodeAccess = null;
 
     /**
      * @ElementName groupAdminPhoneNumberExtensionAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess|null
      */
     private $groupAdminPhoneNumberExtensionAccess = null;
 
     /**
      * @ElementName groupAdminCallingLineIdNumberAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminCallingLineIdNumberAccess|null
      */
     private $groupAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName groupAdminServiceAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess|null
      */
     private $groupAdminServiceAccess = null;
 
     /**
      * @ElementName groupAdminTrunkGroupAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess|null
      */
     private $groupAdminTrunkGroupAccess = null;
 
     /**
      * @ElementName groupAdminSessionAdmissionControlAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminSessionAdmissionControlAccess|null
      */
     private $groupAdminSessionAdmissionControlAccess = null;
 
     /**
      * @ElementName groupAdminOfficeZoneAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminOfficeZoneAccess|null
      */
     private $groupAdminOfficeZoneAccess = null;
 
     /**
      * @ElementName groupAdminNumberActivationAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminNumberActivationAccess|null
      */
     private $groupAdminNumberActivationAccess = null;
 
     /**
      * @ElementName groupAdminDialableCallerIDAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDialableCallerIDAccess|null
      */
     private $groupAdminDialableCallerIDAccess = null;
 
     /**
      * @ElementName serviceProviderAdminProfileAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null
      */
     private $serviceProviderAdminProfileAccess = null;
 
     /**
      * @ElementName serviceProviderAdminGroupAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null
      */
     private $serviceProviderAdminGroupAccess = null;
 
     /**
      * @ElementName serviceProviderAdminUserAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null
      */
     private $serviceProviderAdminUserAccess = null;
 
     /**
      * @ElementName serviceProviderAdminAdminAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null
      */
     private $serviceProviderAdminAdminAccess = null;
 
     /**
      * @ElementName serviceProviderAdminDepartmentAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null
      */
     private $serviceProviderAdminDepartmentAccess = null;
 
     /**
      * @ElementName serviceProviderAdminAccessDeviceAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null
      */
     private $serviceProviderAdminAccessDeviceAccess = null;
 
     /**
      * @ElementName serviceProviderAdminPhoneNumberExtensionAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null
      */
     private $serviceProviderAdminPhoneNumberExtensionAccess = null;
 
     /**
      * @ElementName serviceProviderAdminCallingLineIdNumberAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess|null
      */
     private $serviceProviderAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName serviceProviderAdminServiceAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null
      */
     private $serviceProviderAdminServiceAccess = null;
 
     /**
      * @ElementName serviceProviderAdminServicePackAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null
      */
     private $serviceProviderAdminServicePackAccess = null;
 
     /**
      * @ElementName serviceProviderAdminSessionAdmissionControlAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess|null
      */
     private $serviceProviderAdminSessionAdmissionControlAccess = null;
 
     /**
      * @ElementName serviceProviderAdminWebBrandingAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null
      */
     private $serviceProviderAdminWebBrandingAccess = null;
 
     /**
      * @ElementName serviceProviderAdminOfficeZoneAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess|null
      */
     private $serviceProviderAdminOfficeZoneAccess = null;
 
     /**
      * @ElementName serviceProviderAdminCommunicationBarringAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess|null
      */
     private $serviceProviderAdminCommunicationBarringAccess = null;
 
     /**
      * @ElementName enterpriseAdminNetworkPolicyAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null
      */
     private $enterpriseAdminNetworkPolicyAccess = null;
 
     /**
      * @ElementName enterpriseAdminNumberActivationAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNumberActivationAccess|null
      */
     private $enterpriseAdminNumberActivationAccess = null;
 
     /**
      * @ElementName serviceProviderAdminDialableCallerIDAccess
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess|null
      */
     private $serviceProviderAdminDialableCallerIDAccess = null;
 
@@ -289,7 +289,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupCallingPlanAccess
      *
      * @ElementName groupCallingPlanAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess|null
      */
     public function getGroupCallingPlanAccess()
     {
@@ -300,10 +300,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupCallingPlanAccess
      *
      * @ElementName groupCallingPlanAccess
-     * @param string|null $groupCallingPlanAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess|null $groupCallingPlanAccess
      * @return $this
      */
-    public function setGroupCallingPlanAccess($groupCallingPlanAccess)
+    public function setGroupCallingPlanAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupCallingPlanAccess $groupCallingPlanAccess)
     {
         $this->groupCallingPlanAccess = $groupCallingPlanAccess;
         return $this;
@@ -313,7 +313,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupExtensionAccess
      *
      * @ElementName groupExtensionAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess|null
      */
     public function getGroupExtensionAccess()
     {
@@ -324,10 +324,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupExtensionAccess
      *
      * @ElementName groupExtensionAccess
-     * @param string|null $groupExtensionAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess|null $groupExtensionAccess
      * @return $this
      */
-    public function setGroupExtensionAccess($groupExtensionAccess)
+    public function setGroupExtensionAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupExtensionAccess $groupExtensionAccess)
     {
         $this->groupExtensionAccess = $groupExtensionAccess;
         return $this;
@@ -337,7 +337,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupLDAPIntegrationAccess
      *
      * @ElementName groupLDAPIntegrationAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess|null
      */
     public function getGroupLDAPIntegrationAccess()
     {
@@ -348,10 +348,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupLDAPIntegrationAccess
      *
      * @ElementName groupLDAPIntegrationAccess
-     * @param string|null $groupLDAPIntegrationAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess|null $groupLDAPIntegrationAccess
      * @return $this
      */
-    public function setGroupLDAPIntegrationAccess($groupLDAPIntegrationAccess)
+    public function setGroupLDAPIntegrationAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupLDAPIntegrationAccess $groupLDAPIntegrationAccess)
     {
         $this->groupLDAPIntegrationAccess = $groupLDAPIntegrationAccess;
         return $this;
@@ -361,7 +361,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupVoiceMessagingAccess
      *
      * @ElementName groupVoiceMessagingAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess|null
      */
     public function getGroupVoiceMessagingAccess()
     {
@@ -372,10 +372,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupVoiceMessagingAccess
      *
      * @ElementName groupVoiceMessagingAccess
-     * @param string|null $groupVoiceMessagingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess|null $groupVoiceMessagingAccess
      * @return $this
      */
-    public function setGroupVoiceMessagingAccess($groupVoiceMessagingAccess)
+    public function setGroupVoiceMessagingAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupVoiceMessagingAccess $groupVoiceMessagingAccess)
     {
         $this->groupVoiceMessagingAccess = $groupVoiceMessagingAccess;
         return $this;
@@ -385,7 +385,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupDepartmentAdminUserAccess
      *
      * @ElementName groupDepartmentAdminUserAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess|null
      */
     public function getGroupDepartmentAdminUserAccess()
     {
@@ -396,10 +396,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupDepartmentAdminUserAccess
      *
      * @ElementName groupDepartmentAdminUserAccess
-     * @param string|null $groupDepartmentAdminUserAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess|null $groupDepartmentAdminUserAccess
      * @return $this
      */
-    public function setGroupDepartmentAdminUserAccess($groupDepartmentAdminUserAccess)
+    public function setGroupDepartmentAdminUserAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminUserAccess $groupDepartmentAdminUserAccess)
     {
         $this->groupDepartmentAdminUserAccess = $groupDepartmentAdminUserAccess;
         return $this;
@@ -409,7 +409,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupDepartmentAdminTrunkGroupAccess
      *
      * @ElementName groupDepartmentAdminTrunkGroupAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess|null
      */
     public function getGroupDepartmentAdminTrunkGroupAccess()
     {
@@ -420,10 +420,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupDepartmentAdminTrunkGroupAccess
      *
      * @ElementName groupDepartmentAdminTrunkGroupAccess
-     * @param string|null $groupDepartmentAdminTrunkGroupAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess|null $groupDepartmentAdminTrunkGroupAccess
      * @return $this
      */
-    public function setGroupDepartmentAdminTrunkGroupAccess($groupDepartmentAdminTrunkGroupAccess)
+    public function setGroupDepartmentAdminTrunkGroupAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminTrunkGroupAccess $groupDepartmentAdminTrunkGroupAccess)
     {
         $this->groupDepartmentAdminTrunkGroupAccess = $groupDepartmentAdminTrunkGroupAccess;
         return $this;
@@ -433,7 +433,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupDepartmentAdminPhoneNumberExtensionAccess
      *
      * @ElementName groupDepartmentAdminPhoneNumberExtensionAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess|null
      */
     public function getGroupDepartmentAdminPhoneNumberExtensionAccess()
     {
@@ -444,10 +444,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupDepartmentAdminPhoneNumberExtensionAccess
      *
      * @ElementName groupDepartmentAdminPhoneNumberExtensionAccess
-     * @param string|null $groupDepartmentAdminPhoneNumberExtensionAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess|null $groupDepartmentAdminPhoneNumberExtensionAccess
      * @return $this
      */
-    public function setGroupDepartmentAdminPhoneNumberExtensionAccess($groupDepartmentAdminPhoneNumberExtensionAccess)
+    public function setGroupDepartmentAdminPhoneNumberExtensionAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminPhoneNumberExtensionAccess $groupDepartmentAdminPhoneNumberExtensionAccess)
     {
         $this->groupDepartmentAdminPhoneNumberExtensionAccess = $groupDepartmentAdminPhoneNumberExtensionAccess;
         return $this;
@@ -457,7 +457,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupDepartmentAdminCallingLineIdNumberAccess
      *
      * @ElementName groupDepartmentAdminCallingLineIdNumberAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess|null
      */
     public function getGroupDepartmentAdminCallingLineIdNumberAccess()
     {
@@ -468,10 +468,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupDepartmentAdminCallingLineIdNumberAccess
      *
      * @ElementName groupDepartmentAdminCallingLineIdNumberAccess
-     * @param string|null $groupDepartmentAdminCallingLineIdNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess|null $groupDepartmentAdminCallingLineIdNumberAccess
      * @return $this
      */
-    public function setGroupDepartmentAdminCallingLineIdNumberAccess($groupDepartmentAdminCallingLineIdNumberAccess)
+    public function setGroupDepartmentAdminCallingLineIdNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentAdminCallingLineIdNumberAccess $groupDepartmentAdminCallingLineIdNumberAccess)
     {
         $this->groupDepartmentAdminCallingLineIdNumberAccess = $groupDepartmentAdminCallingLineIdNumberAccess;
         return $this;
@@ -481,7 +481,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupUserAuthenticationAccess
      *
      * @ElementName groupUserAuthenticationAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess|null
      */
     public function getGroupUserAuthenticationAccess()
     {
@@ -492,10 +492,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupUserAuthenticationAccess
      *
      * @ElementName groupUserAuthenticationAccess
-     * @param string|null $groupUserAuthenticationAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess|null $groupUserAuthenticationAccess
      * @return $this
      */
-    public function setGroupUserAuthenticationAccess($groupUserAuthenticationAccess)
+    public function setGroupUserAuthenticationAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupUserAuthenticationAccess $groupUserAuthenticationAccess)
     {
         $this->groupUserAuthenticationAccess = $groupUserAuthenticationAccess;
         return $this;
@@ -505,7 +505,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupUserGroupDirectoryAccess
      *
      * @ElementName groupUserGroupDirectoryAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess|null
      */
     public function getGroupUserGroupDirectoryAccess()
     {
@@ -516,10 +516,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupUserGroupDirectoryAccess
      *
      * @ElementName groupUserGroupDirectoryAccess
-     * @param string|null $groupUserGroupDirectoryAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess|null $groupUserGroupDirectoryAccess
      * @return $this
      */
-    public function setGroupUserGroupDirectoryAccess($groupUserGroupDirectoryAccess)
+    public function setGroupUserGroupDirectoryAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupUserGroupDirectoryAccess $groupUserGroupDirectoryAccess)
     {
         $this->groupUserGroupDirectoryAccess = $groupUserGroupDirectoryAccess;
         return $this;
@@ -529,7 +529,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupUserProfileAccess
      *
      * @ElementName groupUserProfileAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess|null
      */
     public function getGroupUserProfileAccess()
     {
@@ -540,10 +540,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupUserProfileAccess
      *
      * @ElementName groupUserProfileAccess
-     * @param string|null $groupUserProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess|null $groupUserProfileAccess
      * @return $this
      */
-    public function setGroupUserProfileAccess($groupUserProfileAccess)
+    public function setGroupUserProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupUserProfileAccess $groupUserProfileAccess)
     {
         $this->groupUserProfileAccess = $groupUserProfileAccess;
         return $this;
@@ -553,7 +553,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupUserEnhancedCallLogsAccess
      *
      * @ElementName groupUserEnhancedCallLogsAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess|null
      */
     public function getGroupUserEnhancedCallLogsAccess()
     {
@@ -564,10 +564,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupUserEnhancedCallLogsAccess
      *
      * @ElementName groupUserEnhancedCallLogsAccess
-     * @param string|null $groupUserEnhancedCallLogsAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess|null $groupUserEnhancedCallLogsAccess
      * @return $this
      */
-    public function setGroupUserEnhancedCallLogsAccess($groupUserEnhancedCallLogsAccess)
+    public function setGroupUserEnhancedCallLogsAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupUserCallLogAccess $groupUserEnhancedCallLogsAccess)
     {
         $this->groupUserEnhancedCallLogsAccess = $groupUserEnhancedCallLogsAccess;
         return $this;
@@ -577,7 +577,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminProfileAccess
      *
      * @ElementName groupAdminProfileAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess|null
      */
     public function getGroupAdminProfileAccess()
     {
@@ -588,10 +588,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminProfileAccess
      *
      * @ElementName groupAdminProfileAccess
-     * @param string|null $groupAdminProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess|null $groupAdminProfileAccess
      * @return $this
      */
-    public function setGroupAdminProfileAccess($groupAdminProfileAccess)
+    public function setGroupAdminProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminProfileAccess $groupAdminProfileAccess)
     {
         $this->groupAdminProfileAccess = $groupAdminProfileAccess;
         return $this;
@@ -601,7 +601,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminUserAccess
      *
      * @ElementName groupAdminUserAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess|null
      */
     public function getGroupAdminUserAccess()
     {
@@ -612,10 +612,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminUserAccess
      *
      * @ElementName groupAdminUserAccess
-     * @param string|null $groupAdminUserAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess|null $groupAdminUserAccess
      * @return $this
      */
-    public function setGroupAdminUserAccess($groupAdminUserAccess)
+    public function setGroupAdminUserAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminUserAccess $groupAdminUserAccess)
     {
         $this->groupAdminUserAccess = $groupAdminUserAccess;
         return $this;
@@ -625,7 +625,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminAdminAccess
      *
      * @ElementName groupAdminAdminAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess|null
      */
     public function getGroupAdminAdminAccess()
     {
@@ -636,10 +636,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminAdminAccess
      *
      * @ElementName groupAdminAdminAccess
-     * @param string|null $groupAdminAdminAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess|null $groupAdminAdminAccess
      * @return $this
      */
-    public function setGroupAdminAdminAccess($groupAdminAdminAccess)
+    public function setGroupAdminAdminAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminAdminAccess $groupAdminAdminAccess)
     {
         $this->groupAdminAdminAccess = $groupAdminAdminAccess;
         return $this;
@@ -649,7 +649,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminDepartmentAccess
      *
      * @ElementName groupAdminDepartmentAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess|null
      */
     public function getGroupAdminDepartmentAccess()
     {
@@ -660,10 +660,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminDepartmentAccess
      *
      * @ElementName groupAdminDepartmentAccess
-     * @param string|null $groupAdminDepartmentAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess|null $groupAdminDepartmentAccess
      * @return $this
      */
-    public function setGroupAdminDepartmentAccess($groupAdminDepartmentAccess)
+    public function setGroupAdminDepartmentAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminDepartmentAccess $groupAdminDepartmentAccess)
     {
         $this->groupAdminDepartmentAccess = $groupAdminDepartmentAccess;
         return $this;
@@ -673,7 +673,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminAccessDeviceAccess
      *
      * @ElementName groupAdminAccessDeviceAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess|null
      */
     public function getGroupAdminAccessDeviceAccess()
     {
@@ -684,10 +684,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminAccessDeviceAccess
      *
      * @ElementName groupAdminAccessDeviceAccess
-     * @param string|null $groupAdminAccessDeviceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess|null $groupAdminAccessDeviceAccess
      * @return $this
      */
-    public function setGroupAdminAccessDeviceAccess($groupAdminAccessDeviceAccess)
+    public function setGroupAdminAccessDeviceAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminAccessDeviceAccess $groupAdminAccessDeviceAccess)
     {
         $this->groupAdminAccessDeviceAccess = $groupAdminAccessDeviceAccess;
         return $this;
@@ -697,7 +697,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminEnhancedServiceInstanceAccess
      *
      * @ElementName groupAdminEnhancedServiceInstanceAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess|null
      */
     public function getGroupAdminEnhancedServiceInstanceAccess()
     {
@@ -708,10 +708,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminEnhancedServiceInstanceAccess
      *
      * @ElementName groupAdminEnhancedServiceInstanceAccess
-     * @param string|null $groupAdminEnhancedServiceInstanceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess|null $groupAdminEnhancedServiceInstanceAccess
      * @return $this
      */
-    public function setGroupAdminEnhancedServiceInstanceAccess($groupAdminEnhancedServiceInstanceAccess)
+    public function setGroupAdminEnhancedServiceInstanceAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminEnhancedServiceInstanceAccess $groupAdminEnhancedServiceInstanceAccess)
     {
         $this->groupAdminEnhancedServiceInstanceAccess = $groupAdminEnhancedServiceInstanceAccess;
         return $this;
@@ -721,7 +721,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminFeatureAccessCodeAccess
      *
      * @ElementName groupAdminFeatureAccessCodeAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess|null
      */
     public function getGroupAdminFeatureAccessCodeAccess()
     {
@@ -732,10 +732,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminFeatureAccessCodeAccess
      *
      * @ElementName groupAdminFeatureAccessCodeAccess
-     * @param string|null $groupAdminFeatureAccessCodeAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess|null $groupAdminFeatureAccessCodeAccess
      * @return $this
      */
-    public function setGroupAdminFeatureAccessCodeAccess($groupAdminFeatureAccessCodeAccess)
+    public function setGroupAdminFeatureAccessCodeAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminFeatureAccessCodeAccess $groupAdminFeatureAccessCodeAccess)
     {
         $this->groupAdminFeatureAccessCodeAccess = $groupAdminFeatureAccessCodeAccess;
         return $this;
@@ -745,7 +745,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminPhoneNumberExtensionAccess
      *
      * @ElementName groupAdminPhoneNumberExtensionAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess|null
      */
     public function getGroupAdminPhoneNumberExtensionAccess()
     {
@@ -756,10 +756,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminPhoneNumberExtensionAccess
      *
      * @ElementName groupAdminPhoneNumberExtensionAccess
-     * @param string|null $groupAdminPhoneNumberExtensionAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess|null $groupAdminPhoneNumberExtensionAccess
      * @return $this
      */
-    public function setGroupAdminPhoneNumberExtensionAccess($groupAdminPhoneNumberExtensionAccess)
+    public function setGroupAdminPhoneNumberExtensionAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminPhoneNumberExtensionAccess $groupAdminPhoneNumberExtensionAccess)
     {
         $this->groupAdminPhoneNumberExtensionAccess = $groupAdminPhoneNumberExtensionAccess;
         return $this;
@@ -769,7 +769,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminCallingLineIdNumberAccess
      *
      * @ElementName groupAdminCallingLineIdNumberAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminCallingLineIdNumberAccess|null
      */
     public function getGroupAdminCallingLineIdNumberAccess()
     {
@@ -780,10 +780,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminCallingLineIdNumberAccess
      *
      * @ElementName groupAdminCallingLineIdNumberAccess
-     * @param string|null $groupAdminCallingLineIdNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminCallingLineIdNumberAccess|null $groupAdminCallingLineIdNumberAccess
      * @return $this
      */
-    public function setGroupAdminCallingLineIdNumberAccess($groupAdminCallingLineIdNumberAccess)
+    public function setGroupAdminCallingLineIdNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminCallingLineIdNumberAccess $groupAdminCallingLineIdNumberAccess)
     {
         $this->groupAdminCallingLineIdNumberAccess = $groupAdminCallingLineIdNumberAccess;
         return $this;
@@ -793,7 +793,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminServiceAccess
      *
      * @ElementName groupAdminServiceAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess|null
      */
     public function getGroupAdminServiceAccess()
     {
@@ -804,10 +804,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminServiceAccess
      *
      * @ElementName groupAdminServiceAccess
-     * @param string|null $groupAdminServiceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess|null $groupAdminServiceAccess
      * @return $this
      */
-    public function setGroupAdminServiceAccess($groupAdminServiceAccess)
+    public function setGroupAdminServiceAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminServiceAccess $groupAdminServiceAccess)
     {
         $this->groupAdminServiceAccess = $groupAdminServiceAccess;
         return $this;
@@ -817,7 +817,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminTrunkGroupAccess
      *
      * @ElementName groupAdminTrunkGroupAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess|null
      */
     public function getGroupAdminTrunkGroupAccess()
     {
@@ -828,10 +828,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminTrunkGroupAccess
      *
      * @ElementName groupAdminTrunkGroupAccess
-     * @param string|null $groupAdminTrunkGroupAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess|null $groupAdminTrunkGroupAccess
      * @return $this
      */
-    public function setGroupAdminTrunkGroupAccess($groupAdminTrunkGroupAccess)
+    public function setGroupAdminTrunkGroupAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminTrunkGroupAccess $groupAdminTrunkGroupAccess)
     {
         $this->groupAdminTrunkGroupAccess = $groupAdminTrunkGroupAccess;
         return $this;
@@ -841,7 +841,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminSessionAdmissionControlAccess
      *
      * @ElementName groupAdminSessionAdmissionControlAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminSessionAdmissionControlAccess|null
      */
     public function getGroupAdminSessionAdmissionControlAccess()
     {
@@ -852,10 +852,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminSessionAdmissionControlAccess
      *
      * @ElementName groupAdminSessionAdmissionControlAccess
-     * @param string|null $groupAdminSessionAdmissionControlAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminSessionAdmissionControlAccess|null $groupAdminSessionAdmissionControlAccess
      * @return $this
      */
-    public function setGroupAdminSessionAdmissionControlAccess($groupAdminSessionAdmissionControlAccess)
+    public function setGroupAdminSessionAdmissionControlAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminSessionAdmissionControlAccess $groupAdminSessionAdmissionControlAccess)
     {
         $this->groupAdminSessionAdmissionControlAccess = $groupAdminSessionAdmissionControlAccess;
         return $this;
@@ -865,7 +865,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminOfficeZoneAccess
      *
      * @ElementName groupAdminOfficeZoneAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminOfficeZoneAccess|null
      */
     public function getGroupAdminOfficeZoneAccess()
     {
@@ -876,10 +876,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminOfficeZoneAccess
      *
      * @ElementName groupAdminOfficeZoneAccess
-     * @param string|null $groupAdminOfficeZoneAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminOfficeZoneAccess|null $groupAdminOfficeZoneAccess
      * @return $this
      */
-    public function setGroupAdminOfficeZoneAccess($groupAdminOfficeZoneAccess)
+    public function setGroupAdminOfficeZoneAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminOfficeZoneAccess $groupAdminOfficeZoneAccess)
     {
         $this->groupAdminOfficeZoneAccess = $groupAdminOfficeZoneAccess;
         return $this;
@@ -889,7 +889,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminNumberActivationAccess
      *
      * @ElementName groupAdminNumberActivationAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminNumberActivationAccess|null
      */
     public function getGroupAdminNumberActivationAccess()
     {
@@ -900,10 +900,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminNumberActivationAccess
      *
      * @ElementName groupAdminNumberActivationAccess
-     * @param string|null $groupAdminNumberActivationAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminNumberActivationAccess|null $groupAdminNumberActivationAccess
      * @return $this
      */
-    public function setGroupAdminNumberActivationAccess($groupAdminNumberActivationAccess)
+    public function setGroupAdminNumberActivationAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminNumberActivationAccess $groupAdminNumberActivationAccess)
     {
         $this->groupAdminNumberActivationAccess = $groupAdminNumberActivationAccess;
         return $this;
@@ -913,7 +913,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for groupAdminDialableCallerIDAccess
      *
      * @ElementName groupAdminDialableCallerIDAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDialableCallerIDAccess|null
      */
     public function getGroupAdminDialableCallerIDAccess()
     {
@@ -924,10 +924,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for groupAdminDialableCallerIDAccess
      *
      * @ElementName groupAdminDialableCallerIDAccess
-     * @param string|null $groupAdminDialableCallerIDAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupAdminDialableCallerIDAccess|null $groupAdminDialableCallerIDAccess
      * @return $this
      */
-    public function setGroupAdminDialableCallerIDAccess($groupAdminDialableCallerIDAccess)
+    public function setGroupAdminDialableCallerIDAccess(\CWM\BroadWorksConnector\Ocip\Models\GroupAdminDialableCallerIDAccess $groupAdminDialableCallerIDAccess)
     {
         $this->groupAdminDialableCallerIDAccess = $groupAdminDialableCallerIDAccess;
         return $this;
@@ -937,7 +937,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminProfileAccess
      *
      * @ElementName serviceProviderAdminProfileAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null
      */
     public function getServiceProviderAdminProfileAccess()
     {
@@ -948,10 +948,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminProfileAccess
      *
      * @ElementName serviceProviderAdminProfileAccess
-     * @param string|null $serviceProviderAdminProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess|null $serviceProviderAdminProfileAccess
      * @return $this
      */
-    public function setServiceProviderAdminProfileAccess($serviceProviderAdminProfileAccess)
+    public function setServiceProviderAdminProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminProfileAccess $serviceProviderAdminProfileAccess)
     {
         $this->serviceProviderAdminProfileAccess = $serviceProviderAdminProfileAccess;
         return $this;
@@ -961,7 +961,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminGroupAccess
      *
      * @ElementName serviceProviderAdminGroupAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null
      */
     public function getServiceProviderAdminGroupAccess()
     {
@@ -972,10 +972,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminGroupAccess
      *
      * @ElementName serviceProviderAdminGroupAccess
-     * @param string|null $serviceProviderAdminGroupAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess|null $serviceProviderAdminGroupAccess
      * @return $this
      */
-    public function setServiceProviderAdminGroupAccess($serviceProviderAdminGroupAccess)
+    public function setServiceProviderAdminGroupAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminGroupAccess $serviceProviderAdminGroupAccess)
     {
         $this->serviceProviderAdminGroupAccess = $serviceProviderAdminGroupAccess;
         return $this;
@@ -985,7 +985,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminUserAccess
      *
      * @ElementName serviceProviderAdminUserAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null
      */
     public function getServiceProviderAdminUserAccess()
     {
@@ -996,10 +996,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminUserAccess
      *
      * @ElementName serviceProviderAdminUserAccess
-     * @param string|null $serviceProviderAdminUserAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess|null $serviceProviderAdminUserAccess
      * @return $this
      */
-    public function setServiceProviderAdminUserAccess($serviceProviderAdminUserAccess)
+    public function setServiceProviderAdminUserAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminUserAccess $serviceProviderAdminUserAccess)
     {
         $this->serviceProviderAdminUserAccess = $serviceProviderAdminUserAccess;
         return $this;
@@ -1009,7 +1009,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminAdminAccess
      *
      * @ElementName serviceProviderAdminAdminAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null
      */
     public function getServiceProviderAdminAdminAccess()
     {
@@ -1020,10 +1020,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminAdminAccess
      *
      * @ElementName serviceProviderAdminAdminAccess
-     * @param string|null $serviceProviderAdminAdminAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess|null $serviceProviderAdminAdminAccess
      * @return $this
      */
-    public function setServiceProviderAdminAdminAccess($serviceProviderAdminAdminAccess)
+    public function setServiceProviderAdminAdminAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAdminAccess $serviceProviderAdminAdminAccess)
     {
         $this->serviceProviderAdminAdminAccess = $serviceProviderAdminAdminAccess;
         return $this;
@@ -1033,7 +1033,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminDepartmentAccess
      *
      * @ElementName serviceProviderAdminDepartmentAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null
      */
     public function getServiceProviderAdminDepartmentAccess()
     {
@@ -1044,10 +1044,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminDepartmentAccess
      *
      * @ElementName serviceProviderAdminDepartmentAccess
-     * @param string|null $serviceProviderAdminDepartmentAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess|null $serviceProviderAdminDepartmentAccess
      * @return $this
      */
-    public function setServiceProviderAdminDepartmentAccess($serviceProviderAdminDepartmentAccess)
+    public function setServiceProviderAdminDepartmentAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDepartmentAccess $serviceProviderAdminDepartmentAccess)
     {
         $this->serviceProviderAdminDepartmentAccess = $serviceProviderAdminDepartmentAccess;
         return $this;
@@ -1057,7 +1057,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminAccessDeviceAccess
      *
      * @ElementName serviceProviderAdminAccessDeviceAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null
      */
     public function getServiceProviderAdminAccessDeviceAccess()
     {
@@ -1068,10 +1068,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminAccessDeviceAccess
      *
      * @ElementName serviceProviderAdminAccessDeviceAccess
-     * @param string|null $serviceProviderAdminAccessDeviceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess|null $serviceProviderAdminAccessDeviceAccess
      * @return $this
      */
-    public function setServiceProviderAdminAccessDeviceAccess($serviceProviderAdminAccessDeviceAccess)
+    public function setServiceProviderAdminAccessDeviceAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminAccessDeviceAccess $serviceProviderAdminAccessDeviceAccess)
     {
         $this->serviceProviderAdminAccessDeviceAccess = $serviceProviderAdminAccessDeviceAccess;
         return $this;
@@ -1081,7 +1081,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminPhoneNumberExtensionAccess
      *
      * @ElementName serviceProviderAdminPhoneNumberExtensionAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null
      */
     public function getServiceProviderAdminPhoneNumberExtensionAccess()
     {
@@ -1092,10 +1092,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminPhoneNumberExtensionAccess
      *
      * @ElementName serviceProviderAdminPhoneNumberExtensionAccess
-     * @param string|null $serviceProviderAdminPhoneNumberExtensionAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess|null $serviceProviderAdminPhoneNumberExtensionAccess
      * @return $this
      */
-    public function setServiceProviderAdminPhoneNumberExtensionAccess($serviceProviderAdminPhoneNumberExtensionAccess)
+    public function setServiceProviderAdminPhoneNumberExtensionAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminPhoneNumberExtensionAccess $serviceProviderAdminPhoneNumberExtensionAccess)
     {
         $this->serviceProviderAdminPhoneNumberExtensionAccess = $serviceProviderAdminPhoneNumberExtensionAccess;
         return $this;
@@ -1105,7 +1105,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminCallingLineIdNumberAccess
      *
      * @ElementName serviceProviderAdminCallingLineIdNumberAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess|null
      */
     public function getServiceProviderAdminCallingLineIdNumberAccess()
     {
@@ -1116,10 +1116,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminCallingLineIdNumberAccess
      *
      * @ElementName serviceProviderAdminCallingLineIdNumberAccess
-     * @param string|null $serviceProviderAdminCallingLineIdNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess|null $serviceProviderAdminCallingLineIdNumberAccess
      * @return $this
      */
-    public function setServiceProviderAdminCallingLineIdNumberAccess($serviceProviderAdminCallingLineIdNumberAccess)
+    public function setServiceProviderAdminCallingLineIdNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCallingLineIdNumberAccess $serviceProviderAdminCallingLineIdNumberAccess)
     {
         $this->serviceProviderAdminCallingLineIdNumberAccess = $serviceProviderAdminCallingLineIdNumberAccess;
         return $this;
@@ -1129,7 +1129,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminServiceAccess
      *
      * @ElementName serviceProviderAdminServiceAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null
      */
     public function getServiceProviderAdminServiceAccess()
     {
@@ -1140,10 +1140,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminServiceAccess
      *
      * @ElementName serviceProviderAdminServiceAccess
-     * @param string|null $serviceProviderAdminServiceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess|null $serviceProviderAdminServiceAccess
      * @return $this
      */
-    public function setServiceProviderAdminServiceAccess($serviceProviderAdminServiceAccess)
+    public function setServiceProviderAdminServiceAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServiceAccess $serviceProviderAdminServiceAccess)
     {
         $this->serviceProviderAdminServiceAccess = $serviceProviderAdminServiceAccess;
         return $this;
@@ -1153,7 +1153,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminServicePackAccess
      *
      * @ElementName serviceProviderAdminServicePackAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null
      */
     public function getServiceProviderAdminServicePackAccess()
     {
@@ -1164,10 +1164,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminServicePackAccess
      *
      * @ElementName serviceProviderAdminServicePackAccess
-     * @param string|null $serviceProviderAdminServicePackAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess|null $serviceProviderAdminServicePackAccess
      * @return $this
      */
-    public function setServiceProviderAdminServicePackAccess($serviceProviderAdminServicePackAccess)
+    public function setServiceProviderAdminServicePackAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminServicePackAccess $serviceProviderAdminServicePackAccess)
     {
         $this->serviceProviderAdminServicePackAccess = $serviceProviderAdminServicePackAccess;
         return $this;
@@ -1177,7 +1177,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminSessionAdmissionControlAccess
      *
      * @ElementName serviceProviderAdminSessionAdmissionControlAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess|null
      */
     public function getServiceProviderAdminSessionAdmissionControlAccess()
     {
@@ -1188,10 +1188,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminSessionAdmissionControlAccess
      *
      * @ElementName serviceProviderAdminSessionAdmissionControlAccess
-     * @param string|null $serviceProviderAdminSessionAdmissionControlAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess|null $serviceProviderAdminSessionAdmissionControlAccess
      * @return $this
      */
-    public function setServiceProviderAdminSessionAdmissionControlAccess($serviceProviderAdminSessionAdmissionControlAccess)
+    public function setServiceProviderAdminSessionAdmissionControlAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminSessionAdmissionControlAccess $serviceProviderAdminSessionAdmissionControlAccess)
     {
         $this->serviceProviderAdminSessionAdmissionControlAccess = $serviceProviderAdminSessionAdmissionControlAccess;
         return $this;
@@ -1201,7 +1201,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminWebBrandingAccess
      *
      * @ElementName serviceProviderAdminWebBrandingAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null
      */
     public function getServiceProviderAdminWebBrandingAccess()
     {
@@ -1212,10 +1212,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminWebBrandingAccess
      *
      * @ElementName serviceProviderAdminWebBrandingAccess
-     * @param string|null $serviceProviderAdminWebBrandingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess|null $serviceProviderAdminWebBrandingAccess
      * @return $this
      */
-    public function setServiceProviderAdminWebBrandingAccess($serviceProviderAdminWebBrandingAccess)
+    public function setServiceProviderAdminWebBrandingAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminWebBrandingAccess $serviceProviderAdminWebBrandingAccess)
     {
         $this->serviceProviderAdminWebBrandingAccess = $serviceProviderAdminWebBrandingAccess;
         return $this;
@@ -1225,7 +1225,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminOfficeZoneAccess
      *
      * @ElementName serviceProviderAdminOfficeZoneAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess|null
      */
     public function getServiceProviderAdminOfficeZoneAccess()
     {
@@ -1236,10 +1236,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminOfficeZoneAccess
      *
      * @ElementName serviceProviderAdminOfficeZoneAccess
-     * @param string|null $serviceProviderAdminOfficeZoneAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess|null $serviceProviderAdminOfficeZoneAccess
      * @return $this
      */
-    public function setServiceProviderAdminOfficeZoneAccess($serviceProviderAdminOfficeZoneAccess)
+    public function setServiceProviderAdminOfficeZoneAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminOfficeZoneAccess $serviceProviderAdminOfficeZoneAccess)
     {
         $this->serviceProviderAdminOfficeZoneAccess = $serviceProviderAdminOfficeZoneAccess;
         return $this;
@@ -1249,7 +1249,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminCommunicationBarringAccess
      *
      * @ElementName serviceProviderAdminCommunicationBarringAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess|null
      */
     public function getServiceProviderAdminCommunicationBarringAccess()
     {
@@ -1260,10 +1260,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminCommunicationBarringAccess
      *
      * @ElementName serviceProviderAdminCommunicationBarringAccess
-     * @param string|null $serviceProviderAdminCommunicationBarringAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess|null $serviceProviderAdminCommunicationBarringAccess
      * @return $this
      */
-    public function setServiceProviderAdminCommunicationBarringAccess($serviceProviderAdminCommunicationBarringAccess)
+    public function setServiceProviderAdminCommunicationBarringAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminCommunicationBarringAccess $serviceProviderAdminCommunicationBarringAccess)
     {
         $this->serviceProviderAdminCommunicationBarringAccess = $serviceProviderAdminCommunicationBarringAccess;
         return $this;
@@ -1273,7 +1273,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for enterpriseAdminNetworkPolicyAccess
      *
      * @ElementName enterpriseAdminNetworkPolicyAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null
      */
     public function getEnterpriseAdminNetworkPolicyAccess()
     {
@@ -1284,10 +1284,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for enterpriseAdminNetworkPolicyAccess
      *
      * @ElementName enterpriseAdminNetworkPolicyAccess
-     * @param string|null $enterpriseAdminNetworkPolicyAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess|null $enterpriseAdminNetworkPolicyAccess
      * @return $this
      */
-    public function setEnterpriseAdminNetworkPolicyAccess($enterpriseAdminNetworkPolicyAccess)
+    public function setEnterpriseAdminNetworkPolicyAccess(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNetworkPolicyAccess $enterpriseAdminNetworkPolicyAccess)
     {
         $this->enterpriseAdminNetworkPolicyAccess = $enterpriseAdminNetworkPolicyAccess;
         return $this;
@@ -1297,7 +1297,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for enterpriseAdminNumberActivationAccess
      *
      * @ElementName enterpriseAdminNumberActivationAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNumberActivationAccess|null
      */
     public function getEnterpriseAdminNumberActivationAccess()
     {
@@ -1308,10 +1308,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for enterpriseAdminNumberActivationAccess
      *
      * @ElementName enterpriseAdminNumberActivationAccess
-     * @param string|null $enterpriseAdminNumberActivationAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNumberActivationAccess|null $enterpriseAdminNumberActivationAccess
      * @return $this
      */
-    public function setEnterpriseAdminNumberActivationAccess($enterpriseAdminNumberActivationAccess)
+    public function setEnterpriseAdminNumberActivationAccess(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseAdminNumberActivationAccess $enterpriseAdminNumberActivationAccess)
     {
         $this->enterpriseAdminNumberActivationAccess = $enterpriseAdminNumberActivationAccess;
         return $this;
@@ -1321,7 +1321,7 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceProviderAdminDialableCallerIDAccess
      *
      * @ElementName serviceProviderAdminDialableCallerIDAccess
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess|null
      */
     public function getServiceProviderAdminDialableCallerIDAccess()
     {
@@ -1332,10 +1332,10 @@ class SystemPolicyGetDefaultResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceProviderAdminDialableCallerIDAccess
      *
      * @ElementName serviceProviderAdminDialableCallerIDAccess
-     * @param string|null $serviceProviderAdminDialableCallerIDAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess|null $serviceProviderAdminDialableCallerIDAccess
      * @return $this
      */
-    public function setServiceProviderAdminDialableCallerIDAccess($serviceProviderAdminDialableCallerIDAccess)
+    public function setServiceProviderAdminDialableCallerIDAccess(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminDialableCallerIDAccess $serviceProviderAdminDialableCallerIDAccess)
     {
         $this->serviceProviderAdminDialableCallerIDAccess = $serviceProviderAdminDialableCallerIDAccess;
         return $this;

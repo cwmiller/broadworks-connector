@@ -13,7 +13,7 @@ class SearchCriteriaExactDeviceManagementEventStatusCompleted extends SearchCrit
 
     /**
      * @ElementName dmEventStatusCompleted
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted|null
      */
     private $dmEventStatusCompleted = null;
 
@@ -21,7 +21,7 @@ class SearchCriteriaExactDeviceManagementEventStatusCompleted extends SearchCrit
      * Getter for dmEventStatusCompleted
      *
      * @ElementName dmEventStatusCompleted
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted|null
      */
     public function getDmEventStatusCompleted()
     {
@@ -32,10 +32,10 @@ class SearchCriteriaExactDeviceManagementEventStatusCompleted extends SearchCrit
      * Setter for dmEventStatusCompleted
      *
      * @ElementName dmEventStatusCompleted
-     * @param string|null $dmEventStatusCompleted
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted|null $dmEventStatusCompleted
      * @return $this
      */
-    public function setDmEventStatusCompleted($dmEventStatusCompleted)
+    public function setDmEventStatusCompleted(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusCompleted $dmEventStatusCompleted)
     {
         $this->dmEventStatusCompleted = $dmEventStatusCompleted;
         return $this;

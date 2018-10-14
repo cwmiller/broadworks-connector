@@ -47,7 +47,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName unassignPhoneNumbers
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
 
@@ -103,7 +103,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     public function getUnassignPhoneNumbers()
     {
@@ -114,10 +114,10 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @param string|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
      * @return $this
      */
-    public function setUnassignPhoneNumbers($unassignPhoneNumbers)
+    public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
     {
         $this->unassignPhoneNumbers = $unassignPhoneNumbers;
         return $this;

@@ -18,7 +18,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName licenseStrictness
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     private $licenseStrictness = null;
 
@@ -60,7 +60,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for licenseStrictness
      *
      * @ElementName licenseStrictness
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     public function getLicenseStrictness()
     {
@@ -71,10 +71,10 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for licenseStrictness
      *
      * @ElementName licenseStrictness
-     * @param string|null $licenseStrictness
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null $licenseStrictness
      * @return $this
      */
-    public function setLicenseStrictness($licenseStrictness)
+    public function setLicenseStrictness(\CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness $licenseStrictness)
     {
         $this->licenseStrictness = $licenseStrictness;
         return $this;
@@ -146,7 +146,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string[] $hostId
      * @return $this
      */
-    public function setHostId($hostId)
+    public function setHostId(array $hostId)
     {
         $this->hostId = $hostId;
         return $this;
@@ -159,7 +159,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string $hostId
      * @return $this
      */
-    public function addHostId($hostId)
+    public function addHostId(string $hostId)
     {
         $this->hostId []= $hostId;
         return $this;
@@ -183,7 +183,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string[] $licenseName
      * @return $this
      */
-    public function setLicenseName($licenseName)
+    public function setLicenseName(array $licenseName)
     {
         $this->licenseName = $licenseName;
         return $this;
@@ -196,7 +196,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string $licenseName
      * @return $this
      */
-    public function addLicenseName($licenseName)
+    public function addLicenseName(string $licenseName)
     {
         $this->licenseName []= $licenseName;
         return $this;
@@ -220,7 +220,7 @@ class SystemLicensingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $licenseTable
      * @return $this
      */
-    public function setLicenseTable($licenseTable)
+    public function setLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $licenseTable)
     {
         $this->licenseTable = $licenseTable;
         return $this;

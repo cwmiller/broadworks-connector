@@ -23,7 +23,7 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -131,7 +131,7 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName statisticsSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     private $statisticsSource = null;
 
@@ -153,7 +153,7 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -163,7 +163,7 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -174,10 +174,10 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -513,7 +513,7 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
      * @return $this
      */
-    public function setAgentUserTable($agentUserTable)
+    public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
     {
         $this->agentUserTable = $agentUserTable;
         return $this;
@@ -595,7 +595,7 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
      * Getter for statisticsSource
      *
      * @ElementName statisticsSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     public function getStatisticsSource()
     {
@@ -606,10 +606,10 @@ class GroupCallCenterGetInstanceResponse14sp9 extends \CWM\BroadWorksConnector\O
      * Setter for statisticsSource
      *
      * @ElementName statisticsSource
-     * @param string|null $statisticsSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null $statisticsSource
      * @return $this
      */
-    public function setStatisticsSource($statisticsSource)
+    public function setStatisticsSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource $statisticsSource)
     {
         $this->statisticsSource = $statisticsSource;
         return $this;

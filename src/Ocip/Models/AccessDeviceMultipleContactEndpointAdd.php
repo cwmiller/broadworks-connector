@@ -58,7 +58,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -106,7 +106,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @param string[] $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact(array $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -119,7 +119,7 @@ class AccessDeviceMultipleContactEndpointAdd
      * @param string $contact
      * @return $this
      */
-    public function addContact($contact)
+    public function addContact(string $contact)
     {
         $this->contact []= $contact;
         return $this;

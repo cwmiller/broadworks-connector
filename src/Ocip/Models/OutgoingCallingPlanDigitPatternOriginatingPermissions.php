@@ -36,7 +36,7 @@ class OutgoingCallingPlanDigitPatternOriginatingPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermission[] $digitPatternPermissions
      * @return $this
      */
-    public function setDigitPatternPermissions($digitPatternPermissions)
+    public function setDigitPatternPermissions(array $digitPatternPermissions)
     {
         $this->digitPatternPermissions = $digitPatternPermissions;
         return $this;

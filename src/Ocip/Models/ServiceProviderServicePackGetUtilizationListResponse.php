@@ -49,7 +49,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @param string[] $servicePackName
      * @return $this
      */
-    public function setServicePackName($servicePackName)
+    public function setServicePackName(array $servicePackName)
     {
         $this->servicePackName = $servicePackName;
         return $this;
@@ -62,7 +62,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @param string $servicePackName
      * @return $this
      */
-    public function addServicePackName($servicePackName)
+    public function addServicePackName(string $servicePackName)
     {
         $this->servicePackName []= $servicePackName;
         return $this;
@@ -86,7 +86,7 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable[] $serviceUtilizationTable
      * @return $this
      */
-    public function setServiceUtilizationTable($serviceUtilizationTable)
+    public function setServiceUtilizationTable(array $serviceUtilizationTable)
     {
         $this->serviceUtilizationTable = $serviceUtilizationTable;
         return $this;

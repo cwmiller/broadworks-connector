@@ -38,7 +38,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
      * @param string[] $applicationController
      * @return $this
      */
-    public function setApplicationController($applicationController)
+    public function setApplicationController(array $applicationController)
     {
         $this->applicationController = $applicationController;
         return $this;
@@ -51,7 +51,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
      * @param string $applicationController
      * @return $this
      */
-    public function addApplicationController($applicationController)
+    public function addApplicationController(string $applicationController)
     {
         $this->applicationController []= $applicationController;
         return $this;

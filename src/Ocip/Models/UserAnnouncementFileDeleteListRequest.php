@@ -70,7 +70,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[] $announcementFileKey
      * @return $this
      */
-    public function setAnnouncementFileKey($announcementFileKey)
+    public function setAnnouncementFileKey(array $announcementFileKey)
     {
         $this->announcementFileKey = $announcementFileKey;
         return $this;

@@ -49,7 +49,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $unreachableFromPrimaryUserTable
      * @return $this
      */
-    public function setUnreachableFromPrimaryUserTable($unreachableFromPrimaryUserTable)
+    public function setUnreachableFromPrimaryUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unreachableFromPrimaryUserTable)
     {
         $this->unreachableFromPrimaryUserTable = $unreachableFromPrimaryUserTable;
         return $this;

@@ -28,7 +28,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName maxOriginatingCallDelaySeconds
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
     private $maxOriginatingCallDelaySeconds = null;
 
@@ -90,7 +90,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for maxOriginatingCallDelaySeconds
      *
      * @ElementName maxOriginatingCallDelaySeconds
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
     public function getMaxOriginatingCallDelaySeconds()
     {
@@ -101,10 +101,10 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for maxOriginatingCallDelaySeconds
      *
      * @ElementName maxOriginatingCallDelaySeconds
-     * @param int|null $maxOriginatingCallDelaySeconds
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null $maxOriginatingCallDelaySeconds
      * @return $this
      */
-    public function setMaxOriginatingCallDelaySeconds($maxOriginatingCallDelaySeconds)
+    public function setMaxOriginatingCallDelaySeconds(\CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds $maxOriginatingCallDelaySeconds)
     {
         $this->maxOriginatingCallDelaySeconds = $maxOriginatingCallDelaySeconds;
         return $this;
@@ -128,7 +128,7 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;

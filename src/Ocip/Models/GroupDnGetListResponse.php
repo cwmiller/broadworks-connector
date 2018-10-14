@@ -39,7 +39,7 @@ class GroupDnGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -52,7 +52,7 @@ class GroupDnGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;

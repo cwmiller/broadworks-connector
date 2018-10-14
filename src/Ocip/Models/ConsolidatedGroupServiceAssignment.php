@@ -17,7 +17,7 @@ class ConsolidatedGroupServiceAssignment
 
     /**
      * @ElementName groupServiceName
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
 
@@ -31,7 +31,7 @@ class ConsolidatedGroupServiceAssignment
      * Getter for groupServiceName
      *
      * @ElementName groupServiceName
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     public function getGroupServiceName()
     {
@@ -42,10 +42,10 @@ class ConsolidatedGroupServiceAssignment
      * Setter for groupServiceName
      *
      * @ElementName groupServiceName
-     * @param string|null $groupServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService|null $groupServiceName
      * @return $this
      */
-    public function setGroupServiceName($groupServiceName)
+    public function setGroupServiceName(\CWM\BroadWorksConnector\Ocip\Models\GroupService $groupServiceName)
     {
         $this->groupServiceName = $groupServiceName;
         return $this;
@@ -69,7 +69,7 @@ class ConsolidatedGroupServiceAssignment
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $authorizedQuantity
      * @return $this
      */
-    public function setAuthorizedQuantity($authorizedQuantity)
+    public function setAuthorizedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $authorizedQuantity)
     {
         $this->authorizedQuantity = $authorizedQuantity;
         return $this;

@@ -65,7 +65,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName voicePortalExternalRoutingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     private $voicePortalExternalRoutingScope = null;
 
@@ -165,7 +165,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -271,7 +271,7 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * Getter for voicePortalExternalRoutingScope
      *
      * @ElementName voicePortalExternalRoutingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     public function getVoicePortalExternalRoutingScope()
     {
@@ -282,10 +282,10 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * Setter for voicePortalExternalRoutingScope
      *
      * @ElementName voicePortalExternalRoutingScope
-     * @param string|null $voicePortalExternalRoutingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null $voicePortalExternalRoutingScope
      * @return $this
      */
-    public function setVoicePortalExternalRoutingScope($voicePortalExternalRoutingScope)
+    public function setVoicePortalExternalRoutingScope(\CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope $voicePortalExternalRoutingScope)
     {
         $this->voicePortalExternalRoutingScope = $voicePortalExternalRoutingScope;
         return $this;

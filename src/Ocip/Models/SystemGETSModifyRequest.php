@@ -37,7 +37,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName callIdentifierMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     private $callIdentifierMode = null;
 
@@ -141,7 +141,7 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for callIdentifierMode
      *
      * @ElementName callIdentifierMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     public function getCallIdentifierMode()
     {
@@ -152,10 +152,10 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for callIdentifierMode
      *
      * @ElementName callIdentifierMode
-     * @param string|null $callIdentifierMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null $callIdentifierMode
      * @return $this
      */
-    public function setCallIdentifierMode($callIdentifierMode)
+    public function setCallIdentifierMode(\CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode $callIdentifierMode)
     {
         $this->callIdentifierMode = $callIdentifierMode;
         return $this;

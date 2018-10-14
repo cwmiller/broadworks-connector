@@ -31,7 +31,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName callForwardingService
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService|null
      */
     private $callForwardingService = null;
 
@@ -185,7 +185,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * Getter for callForwardingService
      *
      * @ElementName callForwardingService
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService|null
      */
     public function getCallForwardingService()
     {
@@ -196,10 +196,10 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * Setter for callForwardingService
      *
      * @ElementName callForwardingService
-     * @param string|null $callForwardingService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService|null $callForwardingService
      * @return $this
      */
-    public function setCallForwardingService($callForwardingService)
+    public function setCallForwardingService(\CWM\BroadWorksConnector\Ocip\Models\CallForwardingService $callForwardingService)
     {
         $this->callForwardingService = $callForwardingService;
         return $this;
@@ -223,7 +223,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
      * @return $this
      */
-    public function setResponsePagingControl($responsePagingControl)
+    public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
     {
         $this->responsePagingControl = $responsePagingControl;
         return $this;
@@ -247,7 +247,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null $sortByUserLastName
      * @return $this
      */
-    public function setSortByUserLastName($sortByUserLastName)
+    public function setSortByUserLastName(\CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName $sortByUserLastName)
     {
         $this->sortByUserLastName = $sortByUserLastName;
         return $this;
@@ -271,7 +271,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null $sortByUserFirstName
      * @return $this
      */
-    public function setSortByUserFirstName($sortByUserFirstName)
+    public function setSortByUserFirstName(\CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName $sortByUserFirstName)
     {
         $this->sortByUserFirstName = $sortByUserFirstName;
         return $this;
@@ -295,7 +295,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null $sortByUserDepartment
      * @return $this
      */
-    public function setSortByUserDepartment($sortByUserDepartment)
+    public function setSortByUserDepartment(\CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment $sortByUserDepartment)
     {
         $this->sortByUserDepartment = $sortByUserDepartment;
         return $this;
@@ -319,7 +319,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null $sortByDn
      * @return $this
      */
-    public function setSortByDn($sortByDn)
+    public function setSortByDn(\CWM\BroadWorksConnector\Ocip\Models\SortByDn $sortByDn)
     {
         $this->sortByDn = $sortByDn;
         return $this;
@@ -343,7 +343,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null $sortByExtension
      * @return $this
      */
-    public function setSortByExtension($sortByExtension)
+    public function setSortByExtension(\CWM\BroadWorksConnector\Ocip\Models\SortByExtension $sortByExtension)
     {
         $this->sortByExtension = $sortByExtension;
         return $this;
@@ -367,7 +367,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId|null $sortByGroupId
      * @return $this
      */
-    public function setSortByGroupId($sortByGroupId)
+    public function setSortByGroupId(\CWM\BroadWorksConnector\Ocip\Models\SortByGroupId $sortByGroupId)
     {
         $this->sortByGroupId = $sortByGroupId;
         return $this;
@@ -391,7 +391,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByForwardedToNumber|null $sortByForwardedToNumber
      * @return $this
      */
-    public function setSortByForwardedToNumber($sortByForwardedToNumber)
+    public function setSortByForwardedToNumber(\CWM\BroadWorksConnector\Ocip\Models\SortByForwardedToNumber $sortByForwardedToNumber)
     {
         $this->sortByForwardedToNumber = $sortByForwardedToNumber;
         return $this;
@@ -439,7 +439,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
-    public function setSearchCriteriaUserLastName($searchCriteriaUserLastName)
+    public function setSearchCriteriaUserLastName(array $searchCriteriaUserLastName)
     {
         $this->searchCriteriaUserLastName = $searchCriteriaUserLastName;
         return $this;
@@ -476,7 +476,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
-    public function setSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
+    public function setSearchCriteriaUserFirstName(array $searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName = $searchCriteriaUserFirstName;
         return $this;
@@ -513,7 +513,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
-    public function setSearchCriteriaUserId($searchCriteriaUserId)
+    public function setSearchCriteriaUserId(array $searchCriteriaUserId)
     {
         $this->searchCriteriaUserId = $searchCriteriaUserId;
         return $this;
@@ -550,7 +550,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;
@@ -587,7 +587,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
-    public function setSearchCriteriaExtension($searchCriteriaExtension)
+    public function setSearchCriteriaExtension(array $searchCriteriaExtension)
     {
         $this->searchCriteriaExtension = $searchCriteriaExtension;
         return $this;
@@ -624,7 +624,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[] $searchCriteriaEmailAddress
      * @return $this
      */
-    public function setSearchCriteriaEmailAddress($searchCriteriaEmailAddress)
+    public function setSearchCriteriaEmailAddress(array $searchCriteriaEmailAddress)
     {
         $this->searchCriteriaEmailAddress = $searchCriteriaEmailAddress;
         return $this;
@@ -661,7 +661,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null $searchCriteriaExactUserDepartment
      * @return $this
      */
-    public function setSearchCriteriaExactUserDepartment($searchCriteriaExactUserDepartment)
+    public function setSearchCriteriaExactUserDepartment(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment)
     {
         $this->searchCriteriaExactUserDepartment = $searchCriteriaExactUserDepartment;
         return $this;
@@ -685,7 +685,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null $searchCriteriaExactUserInTrunkGroup
      * @return $this
      */
-    public function setSearchCriteriaExactUserInTrunkGroup($searchCriteriaExactUserInTrunkGroup)
+    public function setSearchCriteriaExactUserInTrunkGroup(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup $searchCriteriaExactUserInTrunkGroup)
     {
         $this->searchCriteriaExactUserInTrunkGroup = $searchCriteriaExactUserInTrunkGroup;
         return $this;
@@ -709,7 +709,7 @@ class EnterpriseUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaForwardedToNumber[] $searchCriteriaForwardedToNumber
      * @return $this
      */
-    public function setSearchCriteriaForwardedToNumber($searchCriteriaForwardedToNumber)
+    public function setSearchCriteriaForwardedToNumber(array $searchCriteriaForwardedToNumber)
     {
         $this->searchCriteriaForwardedToNumber = $searchCriteriaForwardedToNumber;
         return $this;

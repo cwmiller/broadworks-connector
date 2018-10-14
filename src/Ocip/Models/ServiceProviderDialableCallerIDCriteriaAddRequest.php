@@ -217,7 +217,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @param string[] $matchCallType
      * @return $this
      */
-    public function setMatchCallType($matchCallType)
+    public function setMatchCallType(array $matchCallType)
     {
         $this->matchCallType = $matchCallType;
         return $this;
@@ -230,7 +230,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @param string $matchCallType
      * @return $this
      */
-    public function addMatchCallType($matchCallType)
+    public function addMatchCallType(string $matchCallType)
     {
         $this->matchCallType []= $matchCallType;
         return $this;
@@ -254,7 +254,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @param string[] $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(array $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
         return $this;
@@ -267,7 +267,7 @@ class ServiceProviderDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksC
      * @param string $matchAlternateCallIndicator
      * @return $this
      */
-    public function addMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function addMatchAlternateCallIndicator(string $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator []= $matchAlternateCallIndicator;
         return $this;

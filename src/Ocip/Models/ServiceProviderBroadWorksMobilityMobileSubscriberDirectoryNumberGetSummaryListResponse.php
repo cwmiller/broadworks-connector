@@ -39,7 +39,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileSubscriberDirectoryNumbersSummaryTable
      * @return $this
      */
-    public function setMobileSubscriberDirectoryNumbersSummaryTable($mobileSubscriberDirectoryNumbersSummaryTable)
+    public function setMobileSubscriberDirectoryNumbersSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumbersSummaryTable)
     {
         $this->mobileSubscriberDirectoryNumbersSummaryTable = $mobileSubscriberDirectoryNumbersSummaryTable;
         return $this;

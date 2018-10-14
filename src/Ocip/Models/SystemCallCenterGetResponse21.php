@@ -28,7 +28,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName statisticsSamplingPeriodMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;
 
@@ -82,7 +82,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName uniformCallDistributionPolicyScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null
      */
     private $uniformCallDistributionPolicyScope = null;
 
@@ -150,7 +150,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for statisticsSamplingPeriodMinutes
      *
      * @ElementName statisticsSamplingPeriodMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     public function getStatisticsSamplingPeriodMinutes()
     {
@@ -161,10 +161,10 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for statisticsSamplingPeriodMinutes
      *
      * @ElementName statisticsSamplingPeriodMinutes
-     * @param int|null $statisticsSamplingPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null $statisticsSamplingPeriodMinutes
      * @return $this
      */
-    public function setStatisticsSamplingPeriodMinutes($statisticsSamplingPeriodMinutes)
+    public function setStatisticsSamplingPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes $statisticsSamplingPeriodMinutes)
     {
         $this->statisticsSamplingPeriodMinutes = $statisticsSamplingPeriodMinutes;
         return $this;
@@ -366,7 +366,7 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for uniformCallDistributionPolicyScope
      *
      * @ElementName uniformCallDistributionPolicyScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null
      */
     public function getUniformCallDistributionPolicyScope()
     {
@@ -377,10 +377,10 @@ class SystemCallCenterGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for uniformCallDistributionPolicyScope
      *
      * @ElementName uniformCallDistributionPolicyScope
-     * @param string|null $uniformCallDistributionPolicyScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null $uniformCallDistributionPolicyScope
      * @return $this
      */
-    public function setUniformCallDistributionPolicyScope($uniformCallDistributionPolicyScope)
+    public function setUniformCallDistributionPolicyScope(\CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope $uniformCallDistributionPolicyScope)
     {
         $this->uniformCallDistributionPolicyScope = $uniformCallDistributionPolicyScope;
         return $this;

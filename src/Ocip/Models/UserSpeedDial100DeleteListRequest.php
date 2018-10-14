@@ -70,7 +70,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param int[] $speedCode
      * @return $this
      */
-    public function setSpeedCode($speedCode)
+    public function setSpeedCode(array $speedCode)
     {
         $this->speedCode = $speedCode;
         return $this;
@@ -83,7 +83,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param int $speedCode
      * @return $this
      */
-    public function addSpeedCode($speedCode)
+    public function addSpeedCode(int $speedCode)
     {
         $this->speedCode []= $speedCode;
         return $this;

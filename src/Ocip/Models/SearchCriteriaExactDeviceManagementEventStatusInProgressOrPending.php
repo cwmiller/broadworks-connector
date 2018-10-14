@@ -13,7 +13,7 @@ class SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending extends 
 
     /**
      * @ElementName dmEventStatusInProgressOrPending
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending|null
      */
     private $dmEventStatusInProgressOrPending = null;
 
@@ -21,7 +21,7 @@ class SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending extends 
      * Getter for dmEventStatusInProgressOrPending
      *
      * @ElementName dmEventStatusInProgressOrPending
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending|null
      */
     public function getDmEventStatusInProgressOrPending()
     {
@@ -32,10 +32,10 @@ class SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending extends 
      * Setter for dmEventStatusInProgressOrPending
      *
      * @ElementName dmEventStatusInProgressOrPending
-     * @param string|null $dmEventStatusInProgressOrPending
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending|null $dmEventStatusInProgressOrPending
      * @return $this
      */
-    public function setDmEventStatusInProgressOrPending($dmEventStatusInProgressOrPending)
+    public function setDmEventStatusInProgressOrPending(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusInProgressOrPending $dmEventStatusInProgressOrPending)
     {
         $this->dmEventStatusInProgressOrPending = $dmEventStatusInProgressOrPending;
         return $this;

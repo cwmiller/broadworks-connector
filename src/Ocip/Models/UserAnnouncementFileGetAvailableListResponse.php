@@ -50,7 +50,7 @@ class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $announcementTable
      * @return $this
      */
-    public function setAnnouncementTable($announcementTable)
+    public function setAnnouncementTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $announcementTable)
     {
         $this->announcementTable = $announcementTable;
         return $this;

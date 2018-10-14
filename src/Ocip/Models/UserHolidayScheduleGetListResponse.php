@@ -38,7 +38,7 @@ class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $holidayScheduleTable
      * @return $this
      */
-    public function setHolidayScheduleTable($holidayScheduleTable)
+    public function setHolidayScheduleTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $holidayScheduleTable)
     {
         $this->holidayScheduleTable = $holidayScheduleTable;
         return $this;

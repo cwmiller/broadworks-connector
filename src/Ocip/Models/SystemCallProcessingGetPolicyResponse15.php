@@ -62,7 +62,7 @@ class SystemCallProcessingGetPolicyResponse15 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName mediaPolicySelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
 
@@ -74,7 +74,7 @@ class SystemCallProcessingGetPolicyResponse15 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName networkUsageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
 
@@ -370,7 +370,7 @@ class SystemCallProcessingGetPolicyResponse15 extends \CWM\BroadWorksConnector\O
      * Getter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     public function getMediaPolicySelection()
     {
@@ -381,10 +381,10 @@ class SystemCallProcessingGetPolicyResponse15 extends \CWM\BroadWorksConnector\O
      * Setter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @param string|null $mediaPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null $mediaPolicySelection
      * @return $this
      */
-    public function setMediaPolicySelection($mediaPolicySelection)
+    public function setMediaPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection)
     {
         $this->mediaPolicySelection = $mediaPolicySelection;
         return $this;
@@ -418,7 +418,7 @@ class SystemCallProcessingGetPolicyResponse15 extends \CWM\BroadWorksConnector\O
      * Getter for networkUsageSelection
      *
      * @ElementName networkUsageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     public function getNetworkUsageSelection()
     {
@@ -429,10 +429,10 @@ class SystemCallProcessingGetPolicyResponse15 extends \CWM\BroadWorksConnector\O
      * Setter for networkUsageSelection
      *
      * @ElementName networkUsageSelection
-     * @param string|null $networkUsageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null $networkUsageSelection
      * @return $this
      */
-    public function setNetworkUsageSelection($networkUsageSelection)
+    public function setNetworkUsageSelection(\CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection $networkUsageSelection)
     {
         $this->networkUsageSelection = $networkUsageSelection;
         return $this;

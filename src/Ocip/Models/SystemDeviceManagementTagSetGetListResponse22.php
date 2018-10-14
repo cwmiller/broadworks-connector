@@ -42,7 +42,7 @@ class SystemDeviceManagementTagSetGetListResponse22 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $tagSetTable
      * @return $this
      */
-    public function setTagSetTable($tagSetTable)
+    public function setTagSetTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $tagSetTable)
     {
         $this->tagSetTable = $tagSetTable;
         return $this;

@@ -36,7 +36,7 @@ class ReplacementCombinedServicePackAuthorizationList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAuthorization[] $servicePackAuthorization
      * @return $this
      */
-    public function setServicePackAuthorization($servicePackAuthorization)
+    public function setServicePackAuthorization(array $servicePackAuthorization)
     {
         $this->servicePackAuthorization = $servicePackAuthorization;
         return $this;

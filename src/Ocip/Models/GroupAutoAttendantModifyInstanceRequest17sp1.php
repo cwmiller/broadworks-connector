@@ -61,19 +61,19 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName extensionDialingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $extensionDialingScope = null;
 
     /**
      * @ElementName nameDialingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $nameDialingScope = null;
 
     /**
      * @ElementName nameDialingEntries
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     private $nameDialingEntries = null;
 
@@ -143,7 +143,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -215,7 +215,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
-    public function setBusinessHours($businessHours)
+    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
     {
         $this->businessHours = $businessHours;
         return $this;
@@ -239,7 +239,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;
@@ -249,7 +249,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * Getter for extensionDialingScope
      *
      * @ElementName extensionDialingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     public function getExtensionDialingScope()
     {
@@ -260,10 +260,10 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * Setter for extensionDialingScope
      *
      * @ElementName extensionDialingScope
-     * @param string|null $extensionDialingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null $extensionDialingScope
      * @return $this
      */
-    public function setExtensionDialingScope($extensionDialingScope)
+    public function setExtensionDialingScope(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope $extensionDialingScope)
     {
         $this->extensionDialingScope = $extensionDialingScope;
         return $this;
@@ -273,7 +273,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * Getter for nameDialingScope
      *
      * @ElementName nameDialingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     public function getNameDialingScope()
     {
@@ -284,10 +284,10 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * Setter for nameDialingScope
      *
      * @ElementName nameDialingScope
-     * @param string|null $nameDialingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null $nameDialingScope
      * @return $this
      */
-    public function setNameDialingScope($nameDialingScope)
+    public function setNameDialingScope(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope $nameDialingScope)
     {
         $this->nameDialingScope = $nameDialingScope;
         return $this;
@@ -297,7 +297,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * Getter for nameDialingEntries
      *
      * @ElementName nameDialingEntries
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     public function getNameDialingEntries()
     {
@@ -308,10 +308,10 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * Setter for nameDialingEntries
      *
      * @ElementName nameDialingEntries
-     * @param string|null $nameDialingEntries
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null $nameDialingEntries
      * @return $this
      */
-    public function setNameDialingEntries($nameDialingEntries)
+    public function setNameDialingEntries(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry $nameDialingEntries)
     {
         $this->nameDialingEntries = $nameDialingEntries;
         return $this;
@@ -335,7 +335,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null $businessHoursMenu
      * @return $this
      */
-    public function setBusinessHoursMenu($businessHoursMenu)
+    public function setBusinessHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16 $businessHoursMenu)
     {
         $this->businessHoursMenu = $businessHoursMenu;
         return $this;
@@ -359,7 +359,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null $afterHoursMenu
      * @return $this
      */
-    public function setAfterHoursMenu($afterHoursMenu)
+    public function setAfterHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16 $afterHoursMenu)
     {
         $this->afterHoursMenu = $afterHoursMenu;
         return $this;
@@ -383,7 +383,7 @@ class GroupAutoAttendantModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16|null $holidayMenu
      * @return $this
      */
-    public function setHolidayMenu($holidayMenu)
+    public function setHolidayMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu16 $holidayMenu)
     {
         $this->holidayMenu = $holidayMenu;
         return $this;

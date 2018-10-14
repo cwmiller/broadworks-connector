@@ -25,7 +25,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName entranceMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $entranceMessageSelection = null;
 
@@ -43,7 +43,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName periodicComfortMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $periodicComfortMessageSelection = null;
 
@@ -105,7 +105,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * Getter for entranceMessageSelection
      *
      * @ElementName entranceMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     public function getEntranceMessageSelection()
     {
@@ -116,10 +116,10 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * Setter for entranceMessageSelection
      *
      * @ElementName entranceMessageSelection
-     * @param string|null $entranceMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $entranceMessageSelection
      * @return $this
      */
-    public function setEntranceMessageSelection($entranceMessageSelection)
+    public function setEntranceMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $entranceMessageSelection)
     {
         $this->entranceMessageSelection = $entranceMessageSelection;
         return $this;
@@ -143,7 +143,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $entranceMessageAudioFile
      * @return $this
      */
-    public function setEntranceMessageAudioFile($entranceMessageAudioFile)
+    public function setEntranceMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $entranceMessageAudioFile)
     {
         $this->entranceMessageAudioFile = $entranceMessageAudioFile;
         return $this;
@@ -167,7 +167,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $entranceMessageVideoFile
      * @return $this
      */
-    public function setEntranceMessageVideoFile($entranceMessageVideoFile)
+    public function setEntranceMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $entranceMessageVideoFile)
     {
         $this->entranceMessageVideoFile = $entranceMessageVideoFile;
         return $this;
@@ -177,7 +177,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * Getter for periodicComfortMessageSelection
      *
      * @ElementName periodicComfortMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     public function getPeriodicComfortMessageSelection()
     {
@@ -188,10 +188,10 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * Setter for periodicComfortMessageSelection
      *
      * @ElementName periodicComfortMessageSelection
-     * @param string|null $periodicComfortMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $periodicComfortMessageSelection
      * @return $this
      */
-    public function setPeriodicComfortMessageSelection($periodicComfortMessageSelection)
+    public function setPeriodicComfortMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $periodicComfortMessageSelection)
     {
         $this->periodicComfortMessageSelection = $periodicComfortMessageSelection;
         return $this;
@@ -215,7 +215,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $periodicComfortMessageAudioFile
      * @return $this
      */
-    public function setPeriodicComfortMessageAudioFile($periodicComfortMessageAudioFile)
+    public function setPeriodicComfortMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $periodicComfortMessageAudioFile)
     {
         $this->periodicComfortMessageAudioFile = $periodicComfortMessageAudioFile;
         return $this;
@@ -239,7 +239,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $periodicComfortMessageVideoFile
      * @return $this
      */
-    public function setPeriodicComfortMessageVideoFile($periodicComfortMessageVideoFile)
+    public function setPeriodicComfortMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $periodicComfortMessageVideoFile)
     {
         $this->periodicComfortMessageVideoFile = $periodicComfortMessageVideoFile;
         return $this;
@@ -263,7 +263,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModify|null $onHoldSource
      * @return $this
      */
-    public function setOnHoldSource($onHoldSource)
+    public function setOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModify $onHoldSource)
     {
         $this->onHoldSource = $onHoldSource;
         return $this;
@@ -311,7 +311,7 @@ class GroupCallCenterModifyAnnouncementRequest14sp6 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModify|null $onHoldInternalSource
      * @return $this
      */
-    public function setOnHoldInternalSource($onHoldInternalSource)
+    public function setOnHoldInternalSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceModify $onHoldInternalSource)
     {
         $this->onHoldInternalSource = $onHoldInternalSource;
         return $this;

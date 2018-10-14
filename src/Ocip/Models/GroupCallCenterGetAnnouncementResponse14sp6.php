@@ -14,7 +14,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName entranceMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $entranceMessageSelection = null;
 
@@ -32,7 +32,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName periodicComfortMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $periodicComfortMessageSelection = null;
 
@@ -70,7 +70,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * Getter for entranceMessageSelection
      *
      * @ElementName entranceMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     public function getEntranceMessageSelection()
     {
@@ -81,10 +81,10 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * Setter for entranceMessageSelection
      *
      * @ElementName entranceMessageSelection
-     * @param string|null $entranceMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $entranceMessageSelection
      * @return $this
      */
-    public function setEntranceMessageSelection($entranceMessageSelection)
+    public function setEntranceMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $entranceMessageSelection)
     {
         $this->entranceMessageSelection = $entranceMessageSelection;
         return $this;
@@ -142,7 +142,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * Getter for periodicComfortMessageSelection
      *
      * @ElementName periodicComfortMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     public function getPeriodicComfortMessageSelection()
     {
@@ -153,10 +153,10 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * Setter for periodicComfortMessageSelection
      *
      * @ElementName periodicComfortMessageSelection
-     * @param string|null $periodicComfortMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $periodicComfortMessageSelection
      * @return $this
      */
-    public function setPeriodicComfortMessageSelection($periodicComfortMessageSelection)
+    public function setPeriodicComfortMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $periodicComfortMessageSelection)
     {
         $this->periodicComfortMessageSelection = $periodicComfortMessageSelection;
         return $this;
@@ -228,7 +228,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead|null $onHoldSource
      * @return $this
      */
-    public function setOnHoldSource($onHoldSource)
+    public function setOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead $onHoldSource)
     {
         $this->onHoldSource = $onHoldSource;
         return $this;
@@ -276,7 +276,7 @@ class GroupCallCenterGetAnnouncementResponse14sp6 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead|null $onHoldInternalSource
      * @return $this
      */
-    public function setOnHoldInternalSource($onHoldInternalSource)
+    public function setOnHoldInternalSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceRead $onHoldInternalSource)
     {
         $this->onHoldInternalSource = $onHoldInternalSource;
         return $this;

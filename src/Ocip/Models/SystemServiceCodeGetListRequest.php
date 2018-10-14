@@ -82,7 +82,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[] $searchCriteriaServiceCode
      * @return $this
      */
-    public function setSearchCriteriaServiceCode($searchCriteriaServiceCode)
+    public function setSearchCriteriaServiceCode(array $searchCriteriaServiceCode)
     {
         $this->searchCriteriaServiceCode = $searchCriteriaServiceCode;
         return $this;
@@ -119,7 +119,7 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[] $searchCriteriaServiceCodeDescription
      * @return $this
      */
-    public function setSearchCriteriaServiceCodeDescription($searchCriteriaServiceCodeDescription)
+    public function setSearchCriteriaServiceCodeDescription(array $searchCriteriaServiceCodeDescription)
     {
         $this->searchCriteriaServiceCodeDescription = $searchCriteriaServiceCodeDescription;
         return $this;

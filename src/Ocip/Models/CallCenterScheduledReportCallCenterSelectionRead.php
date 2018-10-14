@@ -75,7 +75,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @param string[] $currentUserId
      * @return $this
      */
-    public function setCurrentUserId($currentUserId)
+    public function setCurrentUserId(array $currentUserId)
     {
         $this->currentUserId = $currentUserId;
         return $this;
@@ -88,7 +88,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @param string $currentUserId
      * @return $this
      */
-    public function addCurrentUserId($currentUserId)
+    public function addCurrentUserId(string $currentUserId)
     {
         $this->currentUserId []= $currentUserId;
         return $this;
@@ -112,7 +112,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @param string[] $pastUserId
      * @return $this
      */
-    public function setPastUserId($pastUserId)
+    public function setPastUserId(array $pastUserId)
     {
         $this->pastUserId = $pastUserId;
         return $this;
@@ -125,7 +125,7 @@ class CallCenterScheduledReportCallCenterSelectionRead
      * @param string $pastUserId
      * @return $this
      */
-    public function addPastUserId($pastUserId)
+    public function addPastUserId(string $pastUserId)
     {
         $this->pastUserId []= $pastUserId;
         return $this;

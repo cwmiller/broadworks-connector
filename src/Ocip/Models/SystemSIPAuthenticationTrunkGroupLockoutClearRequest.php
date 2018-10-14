@@ -40,7 +40,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey[] $trunkGroupkey
      * @return $this
      */
-    public function setTrunkGroupkey($trunkGroupkey)
+    public function setTrunkGroupkey(array $trunkGroupkey)
     {
         $this->trunkGroupkey = $trunkGroupkey;
         return $this;

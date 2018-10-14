@@ -18,7 +18,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
 
     /**
      * @ElementName tag
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
      */
     private $tag = null;
 
@@ -56,7 +56,7 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * Getter for tag
      *
      * @ElementName tag
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
      */
     public function getTag()
     {
@@ -67,10 +67,10 @@ class MWIDeliveryToMobileEndpointTemplateLine
      * Setter for tag
      *
      * @ElementName tag
-     * @param string|null $tag
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null $tag
      * @return $this
      */
-    public function setTag($tag)
+    public function setTag(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag $tag)
     {
         $this->tag = $tag;
         return $this;

@@ -38,7 +38,7 @@ class ReplacementCommunicationBarringCallTypeList
      * @param string[] $callType
      * @return $this
      */
-    public function setCallType($callType)
+    public function setCallType(array $callType)
     {
         $this->callType = $callType;
         return $this;
@@ -51,7 +51,7 @@ class ReplacementCommunicationBarringCallTypeList
      * @param string $callType
      * @return $this
      */
-    public function addCallType($callType)
+    public function addCallType(string $callType)
     {
         $this->callType []= $callType;
         return $this;

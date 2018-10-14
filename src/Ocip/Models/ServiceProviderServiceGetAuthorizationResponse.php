@@ -85,7 +85,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $authorizedQuantity
      * @return $this
      */
-    public function setAuthorizedQuantity($authorizedQuantity)
+    public function setAuthorizedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $authorizedQuantity)
     {
         $this->authorizedQuantity = $authorizedQuantity;
         return $this;
@@ -109,7 +109,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $usedQuantity
      * @return $this
      */
-    public function setUsedQuantity($usedQuantity)
+    public function setUsedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $usedQuantity)
     {
         $this->usedQuantity = $usedQuantity;
         return $this;

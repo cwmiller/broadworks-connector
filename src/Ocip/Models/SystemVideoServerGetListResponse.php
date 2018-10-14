@@ -38,7 +38,7 @@ class SystemVideoServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $videoServerTable
      * @return $this
      */
-    public function setVideoServerTable($videoServerTable)
+    public function setVideoServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $videoServerTable)
     {
         $this->videoServerTable = $videoServerTable;
         return $this;

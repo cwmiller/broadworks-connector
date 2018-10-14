@@ -25,7 +25,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName busyAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
@@ -43,7 +43,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName noAnswerAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
@@ -79,7 +79,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName noAnswerNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
@@ -111,7 +111,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * Getter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getBusyAnnouncementSelection()
     {
@@ -122,10 +122,10 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * Setter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @param string|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
      * @return $this
      */
-    public function setBusyAnnouncementSelection($busyAnnouncementSelection)
+    public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
     {
         $this->busyAnnouncementSelection = $busyAnnouncementSelection;
         return $this;
@@ -149,7 +149,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $busyPersonalAudioFile
      * @return $this
      */
-    public function setBusyPersonalAudioFile($busyPersonalAudioFile)
+    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $busyPersonalAudioFile)
     {
         $this->busyPersonalAudioFile = $busyPersonalAudioFile;
         return $this;
@@ -173,7 +173,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $busyPersonalVideoFile
      * @return $this
      */
-    public function setBusyPersonalVideoFile($busyPersonalVideoFile)
+    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $busyPersonalVideoFile)
     {
         $this->busyPersonalVideoFile = $busyPersonalVideoFile;
         return $this;
@@ -183,7 +183,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * Getter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     public function getNoAnswerAnnouncementSelection()
     {
@@ -194,10 +194,10 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * Setter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @param string|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
      * @return $this
      */
-    public function setNoAnswerAnnouncementSelection($noAnswerAnnouncementSelection)
+    public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
     {
         $this->noAnswerAnnouncementSelection = $noAnswerAnnouncementSelection;
         return $this;
@@ -221,7 +221,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $noAnswerPersonalAudioFile
      * @return $this
      */
-    public function setNoAnswerPersonalAudioFile($noAnswerPersonalAudioFile)
+    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $noAnswerPersonalAudioFile)
     {
         $this->noAnswerPersonalAudioFile = $noAnswerPersonalAudioFile;
         return $this;
@@ -245,7 +245,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $noAnswerPersonalVideoFile
      * @return $this
      */
-    public function setNoAnswerPersonalVideoFile($noAnswerPersonalVideoFile)
+    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $noAnswerPersonalVideoFile)
     {
         $this->noAnswerPersonalVideoFile = $noAnswerPersonalVideoFile;
         return $this;
@@ -269,7 +269,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null $noAnswerAlternateGreeting01
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting01($noAnswerAlternateGreeting01)
+    public function setNoAnswerAlternateGreeting01(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify $noAnswerAlternateGreeting01)
     {
         $this->noAnswerAlternateGreeting01 = $noAnswerAlternateGreeting01;
         return $this;
@@ -293,7 +293,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null $noAnswerAlternateGreeting02
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting02($noAnswerAlternateGreeting02)
+    public function setNoAnswerAlternateGreeting02(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify $noAnswerAlternateGreeting02)
     {
         $this->noAnswerAlternateGreeting02 = $noAnswerAlternateGreeting02;
         return $this;
@@ -317,7 +317,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null $noAnswerAlternateGreeting03
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting03($noAnswerAlternateGreeting03)
+    public function setNoAnswerAlternateGreeting03(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify $noAnswerAlternateGreeting03)
     {
         $this->noAnswerAlternateGreeting03 = $noAnswerAlternateGreeting03;
         return $this;
@@ -327,7 +327,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * Getter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     public function getNoAnswerNumberOfRings()
     {
@@ -338,10 +338,10 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
      * Setter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @param int|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
      * @return $this
      */
-    public function setNoAnswerNumberOfRings($noAnswerNumberOfRings)
+    public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
     {
         $this->noAnswerNumberOfRings = $noAnswerNumberOfRings;
         return $this;

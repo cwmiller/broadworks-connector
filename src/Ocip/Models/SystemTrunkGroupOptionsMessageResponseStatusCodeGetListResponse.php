@@ -40,7 +40,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse extends \C
      * @param string[] $statusCode
      * @return $this
      */
-    public function setStatusCode($statusCode)
+    public function setStatusCode(array $statusCode)
     {
         $this->statusCode = $statusCode;
         return $this;
@@ -53,7 +53,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse extends \C
      * @param string $statusCode
      * @return $this
      */
-    public function addStatusCode($statusCode)
+    public function addStatusCode(string $statusCode)
     {
         $this->statusCode []= $statusCode;
         return $this;

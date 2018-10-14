@@ -554,7 +554,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null $notificationEmailAddressList
      * @return $this
      */
-    public function setNotificationEmailAddressList($notificationEmailAddressList)
+    public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList $notificationEmailAddressList)
     {
         $this->notificationEmailAddressList = $notificationEmailAddressList;
         return $this;
@@ -578,7 +578,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList($agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
         $this->agentUserIdList = $agentUserIdList;
         return $this;

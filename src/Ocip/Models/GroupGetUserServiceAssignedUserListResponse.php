@@ -41,7 +41,7 @@ class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userListTable
      * @return $this
      */
-    public function setUserListTable($userListTable)
+    public function setUserListTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userListTable)
     {
         $this->userListTable = $userListTable;
         return $this;

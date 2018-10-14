@@ -25,7 +25,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName busyAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
@@ -37,7 +37,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName busyPersonalAudioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $busyPersonalAudioMediaType = null;
 
@@ -49,13 +49,13 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName busyPersonalVideoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $busyPersonalVideoMediaType = null;
 
     /**
      * @ElementName noAnswerAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
@@ -67,7 +67,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName noAnswerPersonalAudioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $noAnswerPersonalAudioMediaType = null;
 
@@ -79,7 +79,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName noAnswerPersonalVideoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $noAnswerPersonalVideoMediaType = null;
 
@@ -103,7 +103,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName noAnswerNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
@@ -115,7 +115,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName disableMessageDepositAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     private $disableMessageDepositAction = null;
 
@@ -129,7 +129,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getBusyAnnouncementSelection()
     {
@@ -140,10 +140,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @param string|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
      * @return $this
      */
-    public function setBusyAnnouncementSelection($busyAnnouncementSelection)
+    public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
     {
         $this->busyAnnouncementSelection = $busyAnnouncementSelection;
         return $this;
@@ -177,7 +177,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for busyPersonalAudioMediaType
      *
      * @ElementName busyPersonalAudioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getBusyPersonalAudioMediaType()
     {
@@ -188,10 +188,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for busyPersonalAudioMediaType
      *
      * @ElementName busyPersonalAudioMediaType
-     * @param string|null $busyPersonalAudioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $busyPersonalAudioMediaType
      * @return $this
      */
-    public function setBusyPersonalAudioMediaType($busyPersonalAudioMediaType)
+    public function setBusyPersonalAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $busyPersonalAudioMediaType)
     {
         $this->busyPersonalAudioMediaType = $busyPersonalAudioMediaType;
         return $this;
@@ -225,7 +225,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for busyPersonalVideoMediaType
      *
      * @ElementName busyPersonalVideoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getBusyPersonalVideoMediaType()
     {
@@ -236,10 +236,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for busyPersonalVideoMediaType
      *
      * @ElementName busyPersonalVideoMediaType
-     * @param string|null $busyPersonalVideoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $busyPersonalVideoMediaType
      * @return $this
      */
-    public function setBusyPersonalVideoMediaType($busyPersonalVideoMediaType)
+    public function setBusyPersonalVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $busyPersonalVideoMediaType)
     {
         $this->busyPersonalVideoMediaType = $busyPersonalVideoMediaType;
         return $this;
@@ -249,7 +249,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     public function getNoAnswerAnnouncementSelection()
     {
@@ -260,10 +260,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @param string|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
      * @return $this
      */
-    public function setNoAnswerAnnouncementSelection($noAnswerAnnouncementSelection)
+    public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
     {
         $this->noAnswerAnnouncementSelection = $noAnswerAnnouncementSelection;
         return $this;
@@ -297,7 +297,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for noAnswerPersonalAudioMediaType
      *
      * @ElementName noAnswerPersonalAudioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getNoAnswerPersonalAudioMediaType()
     {
@@ -308,10 +308,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for noAnswerPersonalAudioMediaType
      *
      * @ElementName noAnswerPersonalAudioMediaType
-     * @param string|null $noAnswerPersonalAudioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $noAnswerPersonalAudioMediaType
      * @return $this
      */
-    public function setNoAnswerPersonalAudioMediaType($noAnswerPersonalAudioMediaType)
+    public function setNoAnswerPersonalAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $noAnswerPersonalAudioMediaType)
     {
         $this->noAnswerPersonalAudioMediaType = $noAnswerPersonalAudioMediaType;
         return $this;
@@ -345,7 +345,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for noAnswerPersonalVideoMediaType
      *
      * @ElementName noAnswerPersonalVideoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getNoAnswerPersonalVideoMediaType()
     {
@@ -356,10 +356,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for noAnswerPersonalVideoMediaType
      *
      * @ElementName noAnswerPersonalVideoMediaType
-     * @param string|null $noAnswerPersonalVideoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $noAnswerPersonalVideoMediaType
      * @return $this
      */
-    public function setNoAnswerPersonalVideoMediaType($noAnswerPersonalVideoMediaType)
+    public function setNoAnswerPersonalVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $noAnswerPersonalVideoMediaType)
     {
         $this->noAnswerPersonalVideoMediaType = $noAnswerPersonalVideoMediaType;
         return $this;
@@ -383,7 +383,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16|null $noAnswerAlternateGreeting01
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting01($noAnswerAlternateGreeting01)
+    public function setNoAnswerAlternateGreeting01(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16 $noAnswerAlternateGreeting01)
     {
         $this->noAnswerAlternateGreeting01 = $noAnswerAlternateGreeting01;
         return $this;
@@ -407,7 +407,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16|null $noAnswerAlternateGreeting02
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting02($noAnswerAlternateGreeting02)
+    public function setNoAnswerAlternateGreeting02(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16 $noAnswerAlternateGreeting02)
     {
         $this->noAnswerAlternateGreeting02 = $noAnswerAlternateGreeting02;
         return $this;
@@ -431,7 +431,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16|null $noAnswerAlternateGreeting03
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting03($noAnswerAlternateGreeting03)
+    public function setNoAnswerAlternateGreeting03(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead16 $noAnswerAlternateGreeting03)
     {
         $this->noAnswerAlternateGreeting03 = $noAnswerAlternateGreeting03;
         return $this;
@@ -441,7 +441,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     public function getNoAnswerNumberOfRings()
     {
@@ -452,10 +452,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @param int|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
      * @return $this
      */
-    public function setNoAnswerNumberOfRings($noAnswerNumberOfRings)
+    public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
     {
         $this->noAnswerNumberOfRings = $noAnswerNumberOfRings;
         return $this;
@@ -489,7 +489,7 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Getter for disableMessageDepositAction
      *
      * @ElementName disableMessageDepositAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     public function getDisableMessageDepositAction()
     {
@@ -500,10 +500,10 @@ class UserVoiceMessagingUserGetGreetingResponse18 extends \CWM\BroadWorksConnect
      * Setter for disableMessageDepositAction
      *
      * @ElementName disableMessageDepositAction
-     * @param string|null $disableMessageDepositAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null $disableMessageDepositAction
      * @return $this
      */
-    public function setDisableMessageDepositAction($disableMessageDepositAction)
+    public function setDisableMessageDepositAction(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction)
     {
         $this->disableMessageDepositAction = $disableMessageDepositAction;
         return $this;

@@ -108,7 +108,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @param string[] $homeZoneIpAddress
      * @return $this
      */
-    public function setHomeZoneIpAddress($homeZoneIpAddress)
+    public function setHomeZoneIpAddress(array $homeZoneIpAddress)
     {
         $this->homeZoneIpAddress = $homeZoneIpAddress;
         return $this;
@@ -121,7 +121,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @param string $homeZoneIpAddress
      * @return $this
      */
-    public function addHomeZoneIpAddress($homeZoneIpAddress)
+    public function addHomeZoneIpAddress(string $homeZoneIpAddress)
     {
         $this->homeZoneIpAddress []= $homeZoneIpAddress;
         return $this;
@@ -145,7 +145,7 @@ class GroupEmergencyZonesDeleteHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[] $homeZoneIpAddressRange
      * @return $this
      */
-    public function setHomeZoneIpAddressRange($homeZoneIpAddressRange)
+    public function setHomeZoneIpAddressRange(array $homeZoneIpAddressRange)
     {
         $this->homeZoneIpAddressRange = $homeZoneIpAddressRange;
         return $this;

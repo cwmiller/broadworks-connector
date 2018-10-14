@@ -38,7 +38,7 @@ class GroupDepartmentAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $departmentAdminTable
      * @return $this
      */
-    public function setDepartmentAdminTable($departmentAdminTable)
+    public function setDepartmentAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $departmentAdminTable)
     {
         $this->departmentAdminTable = $departmentAdminTable;
         return $this;

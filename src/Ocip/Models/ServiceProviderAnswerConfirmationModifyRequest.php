@@ -24,7 +24,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName announcementMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
 
@@ -68,7 +68,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * Getter for announcementMessageSelection
      *
      * @ElementName announcementMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     public function getAnnouncementMessageSelection()
     {
@@ -79,10 +79,10 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * Setter for announcementMessageSelection
      *
      * @ElementName announcementMessageSelection
-     * @param string|null $announcementMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null $announcementMessageSelection
      * @return $this
      */
-    public function setAnnouncementMessageSelection($announcementMessageSelection)
+    public function setAnnouncementMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection)
     {
         $this->announcementMessageSelection = $announcementMessageSelection;
         return $this;
@@ -106,7 +106,7 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $confirmationMessageAudioFile
      * @return $this
      */
-    public function setConfirmationMessageAudioFile($confirmationMessageAudioFile)
+    public function setConfirmationMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $confirmationMessageAudioFile)
     {
         $this->confirmationMessageAudioFile = $confirmationMessageAudioFile;
         return $this;

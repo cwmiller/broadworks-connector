@@ -34,7 +34,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
 
@@ -126,7 +126,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     public function getType()
     {
@@ -137,10 +137,10 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type)
     {
         $this->type = $type;
         return $this;
@@ -188,7 +188,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null $templateBody
      * @return $this
      */
-    public function setTemplateBody($templateBody)
+    public function setTemplateBody(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody $templateBody)
     {
         $this->templateBody = $templateBody;
         return $this;

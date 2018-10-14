@@ -68,7 +68,7 @@ class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $personalPhoneListTable
      * @return $this
      */
-    public function setPersonalPhoneListTable($personalPhoneListTable)
+    public function setPersonalPhoneListTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $personalPhoneListTable)
     {
         $this->personalPhoneListTable = $personalPhoneListTable;
         return $this;

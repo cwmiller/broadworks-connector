@@ -12,37 +12,37 @@ class Recurrence
 
     /**
      * @ElementName recurDaily
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurDaily|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily|null
      */
     private $recurDaily = null;
 
     /**
      * @ElementName recurWeekly
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurWeekly|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly|null
      */
     private $recurWeekly = null;
 
     /**
      * @ElementName recurMonthlyByDay
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurMonthlyByDay|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay|null
      */
     private $recurMonthlyByDay = null;
 
     /**
      * @ElementName recurMonthlyByWeek
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurMonthlyByWeek|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek|null
      */
     private $recurMonthlyByWeek = null;
 
     /**
      * @ElementName recurYearlyByDay
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurYearlyByDay|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay|null
      */
     private $recurYearlyByDay = null;
 
     /**
      * @ElementName recurYearlyByWeek
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurYearlyByWeek|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek|null
      */
     private $recurYearlyByWeek = null;
 
@@ -68,7 +68,7 @@ class Recurrence
      * Getter for recurDaily
      *
      * @ElementName recurDaily
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurDaily|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily|null
      */
     public function getRecurDaily()
     {
@@ -79,10 +79,10 @@ class Recurrence
      * Setter for recurDaily
      *
      * @ElementName recurDaily
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurDaily|null $recurDaily
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily|null $recurDaily
      * @return $this
      */
-    public function setRecurDaily($recurDaily)
+    public function setRecurDaily(\CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurDaily $recurDaily)
     {
         $this->recurDaily = $recurDaily;
         return $this;
@@ -92,7 +92,7 @@ class Recurrence
      * Getter for recurWeekly
      *
      * @ElementName recurWeekly
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurWeekly|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly|null
      */
     public function getRecurWeekly()
     {
@@ -103,10 +103,10 @@ class Recurrence
      * Setter for recurWeekly
      *
      * @ElementName recurWeekly
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurWeekly|null $recurWeekly
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly|null $recurWeekly
      * @return $this
      */
-    public function setRecurWeekly($recurWeekly)
+    public function setRecurWeekly(\CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurWeekly $recurWeekly)
     {
         $this->recurWeekly = $recurWeekly;
         return $this;
@@ -116,7 +116,7 @@ class Recurrence
      * Getter for recurMonthlyByDay
      *
      * @ElementName recurMonthlyByDay
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurMonthlyByDay|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay|null
      */
     public function getRecurMonthlyByDay()
     {
@@ -127,10 +127,10 @@ class Recurrence
      * Setter for recurMonthlyByDay
      *
      * @ElementName recurMonthlyByDay
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurMonthlyByDay|null $recurMonthlyByDay
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay|null $recurMonthlyByDay
      * @return $this
      */
-    public function setRecurMonthlyByDay($recurMonthlyByDay)
+    public function setRecurMonthlyByDay(\CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByDay $recurMonthlyByDay)
     {
         $this->recurMonthlyByDay = $recurMonthlyByDay;
         return $this;
@@ -140,7 +140,7 @@ class Recurrence
      * Getter for recurMonthlyByWeek
      *
      * @ElementName recurMonthlyByWeek
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurMonthlyByWeek|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek|null
      */
     public function getRecurMonthlyByWeek()
     {
@@ -151,10 +151,10 @@ class Recurrence
      * Setter for recurMonthlyByWeek
      *
      * @ElementName recurMonthlyByWeek
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurMonthlyByWeek|null $recurMonthlyByWeek
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek|null $recurMonthlyByWeek
      * @return $this
      */
-    public function setRecurMonthlyByWeek($recurMonthlyByWeek)
+    public function setRecurMonthlyByWeek(\CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurMonthlyByWeek $recurMonthlyByWeek)
     {
         $this->recurMonthlyByWeek = $recurMonthlyByWeek;
         return $this;
@@ -164,7 +164,7 @@ class Recurrence
      * Getter for recurYearlyByDay
      *
      * @ElementName recurYearlyByDay
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurYearlyByDay|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay|null
      */
     public function getRecurYearlyByDay()
     {
@@ -175,10 +175,10 @@ class Recurrence
      * Setter for recurYearlyByDay
      *
      * @ElementName recurYearlyByDay
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurYearlyByDay|null $recurYearlyByDay
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay|null $recurYearlyByDay
      * @return $this
      */
-    public function setRecurYearlyByDay($recurYearlyByDay)
+    public function setRecurYearlyByDay(\CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByDay $recurYearlyByDay)
     {
         $this->recurYearlyByDay = $recurYearlyByDay;
         return $this;
@@ -188,7 +188,7 @@ class Recurrence
      * Getter for recurYearlyByWeek
      *
      * @ElementName recurYearlyByWeek
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurYearlyByWeek|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek|null
      */
     public function getRecurYearlyByWeek()
     {
@@ -199,10 +199,10 @@ class Recurrence
      * Setter for recurYearlyByWeek
      *
      * @ElementName recurYearlyByWeek
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence\RecurYearlyByWeek|null $recurYearlyByWeek
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek|null $recurYearlyByWeek
      * @return $this
      */
-    public function setRecurYearlyByWeek($recurYearlyByWeek)
+    public function setRecurYearlyByWeek(\CWM\BroadWorksConnector\Ocip\Models\RecurrenceRecurYearlyByWeek $recurYearlyByWeek)
     {
         $this->recurYearlyByWeek = $recurYearlyByWeek;
         return $this;

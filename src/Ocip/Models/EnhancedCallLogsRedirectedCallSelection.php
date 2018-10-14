@@ -26,7 +26,7 @@ class EnhancedCallLogsRedirectedCallSelection
 
     /**
      * @ElementName redirectType
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition[]
      */
     private $redirectType = array(
         
@@ -60,7 +60,7 @@ class EnhancedCallLogsRedirectedCallSelection
      * Getter for redirectType
      *
      * @ElementName redirectType
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition[]
      */
     public function getRedirectType()
     {
@@ -71,10 +71,10 @@ class EnhancedCallLogsRedirectedCallSelection
      * Setter for redirectType
      *
      * @ElementName redirectType
-     * @param string[] $redirectType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition[] $redirectType
      * @return $this
      */
-    public function setRedirectType($redirectType)
+    public function setRedirectType(array $redirectType)
     {
         $this->redirectType = $redirectType;
         return $this;
@@ -84,7 +84,7 @@ class EnhancedCallLogsRedirectedCallSelection
      * Adder for redirectType
      *
      * @ElementName redirectType
-     * @param string $redirectType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition $redirectType
      * @return $this
      */
     public function addRedirectType($redirectType)

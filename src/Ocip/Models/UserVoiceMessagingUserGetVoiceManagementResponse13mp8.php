@@ -22,7 +22,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
 
     /**
      * @ElementName processing
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     private $processing = null;
 
@@ -120,7 +120,7 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * Getter for processing
      *
      * @ElementName processing
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     public function getProcessing()
     {
@@ -131,10 +131,10 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
      * Setter for processing
      *
      * @ElementName processing
-     * @param string|null $processing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null $processing
      * @return $this
      */
-    public function setProcessing($processing)
+    public function setProcessing(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing $processing)
     {
         $this->processing = $processing;
         return $this;

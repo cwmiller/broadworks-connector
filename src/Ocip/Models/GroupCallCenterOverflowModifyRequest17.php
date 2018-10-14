@@ -24,7 +24,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     private $action = null;
 
@@ -54,7 +54,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName audioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
@@ -72,7 +72,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName videoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
@@ -116,7 +116,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     public function getAction()
     {
@@ -127,10 +127,10 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction $action)
     {
         $this->action = $action;
         return $this;
@@ -236,7 +236,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * Getter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioMessageSelection()
     {
@@ -247,10 +247,10 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * Setter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @param string|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
      * @return $this
      */
-    public function setAudioMessageSelection($audioMessageSelection)
+    public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
     {
         $this->audioMessageSelection = $audioMessageSelection;
         return $this;
@@ -274,7 +274,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $audioUrlList
      * @return $this
      */
-    public function setAudioUrlList($audioUrlList)
+    public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList)
     {
         $this->audioUrlList = $audioUrlList;
         return $this;
@@ -298,7 +298,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null $audioFileList
      * @return $this
      */
-    public function setAudioFileList($audioFileList)
+    public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify $audioFileList)
     {
         $this->audioFileList = $audioFileList;
         return $this;
@@ -308,7 +308,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * Getter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoMessageSelection()
     {
@@ -319,10 +319,10 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * Setter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @param string|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
      * @return $this
      */
-    public function setVideoMessageSelection($videoMessageSelection)
+    public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
     {
         $this->videoMessageSelection = $videoMessageSelection;
         return $this;
@@ -346,7 +346,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $videoUrlList
      * @return $this
      */
-    public function setVideoUrlList($videoUrlList)
+    public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList)
     {
         $this->videoUrlList = $videoUrlList;
         return $this;
@@ -370,7 +370,7 @@ class GroupCallCenterOverflowModifyRequest17 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify|null $videoFileList
      * @return $this
      */
-    public function setVideoFileList($videoFileList)
+    public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify $videoFileList)
     {
         $this->videoFileList = $videoFileList;
         return $this;

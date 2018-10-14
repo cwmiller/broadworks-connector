@@ -70,7 +70,7 @@ class EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\Br
      * @param string[] $homeZoneId
      * @return $this
      */
-    public function setHomeZoneId($homeZoneId)
+    public function setHomeZoneId(array $homeZoneId)
     {
         $this->homeZoneId = $homeZoneId;
         return $this;
@@ -83,7 +83,7 @@ class EnterpriseBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\Br
      * @param string $homeZoneId
      * @return $this
      */
-    public function addHomeZoneId($homeZoneId)
+    public function addHomeZoneId(string $homeZoneId)
     {
         $this->homeZoneId []= $homeZoneId;
         return $this;

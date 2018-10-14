@@ -38,7 +38,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName messageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSelection = null;
 
@@ -166,7 +166,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * Getter for messageSelection
      *
      * @ElementName messageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     public function getMessageSelection()
     {
@@ -177,10 +177,10 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * Setter for messageSelection
      *
      * @ElementName messageSelection
-     * @param string|null $messageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null $messageSelection
      * @return $this
      */
-    public function setMessageSelection($messageSelection)
+    public function setMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection $messageSelection)
     {
         $this->messageSelection = $messageSelection;
         return $this;
@@ -204,7 +204,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;

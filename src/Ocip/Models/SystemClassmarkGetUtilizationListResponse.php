@@ -40,7 +40,7 @@ class SystemClassmarkGetUtilizationListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $classmarkUserTable
      * @return $this
      */
-    public function setClassmarkUserTable($classmarkUserTable)
+    public function setClassmarkUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $classmarkUserTable)
     {
         $this->classmarkUserTable = $classmarkUserTable;
         return $this;

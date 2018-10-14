@@ -24,7 +24,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName callCenterType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;
 
@@ -56,7 +56,7 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
      * Getter for callCenterType
      *
      * @ElementName callCenterType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     public function getCallCenterType()
     {
@@ -67,10 +67,10 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
      * Setter for callCenterType
      *
      * @ElementName callCenterType
-     * @param string|null $callCenterType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null $callCenterType
      * @return $this
      */
-    public function setCallCenterType($callCenterType)
+    public function setCallCenterType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterType $callCenterType)
     {
         $this->callCenterType = $callCenterType;
         return $this;

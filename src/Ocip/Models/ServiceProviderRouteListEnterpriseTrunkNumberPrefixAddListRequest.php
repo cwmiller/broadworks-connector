@@ -70,7 +70,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
      * @param string[] $prefix
      * @return $this
      */
-    public function setPrefix($prefix)
+    public function setPrefix(array $prefix)
     {
         $this->prefix = $prefix;
         return $this;
@@ -83,7 +83,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
      * @param string $prefix
      * @return $this
      */
-    public function addPrefix($prefix)
+    public function addPrefix(string $prefix)
     {
         $this->prefix []= $prefix;
         return $this;

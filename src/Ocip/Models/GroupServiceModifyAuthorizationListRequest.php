@@ -118,7 +118,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[] $servicePackAuthorization
      * @return $this
      */
-    public function setServicePackAuthorization($servicePackAuthorization)
+    public function setServicePackAuthorization(array $servicePackAuthorization)
     {
         $this->servicePackAuthorization = $servicePackAuthorization;
         return $this;
@@ -155,7 +155,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[] $groupServiceAuthorization
      * @return $this
      */
-    public function setGroupServiceAuthorization($groupServiceAuthorization)
+    public function setGroupServiceAuthorization(array $groupServiceAuthorization)
     {
         $this->groupServiceAuthorization = $groupServiceAuthorization;
         return $this;
@@ -192,7 +192,7 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[] $userServiceAuthorization
      * @return $this
      */
-    public function setUserServiceAuthorization($userServiceAuthorization)
+    public function setUserServiceAuthorization(array $userServiceAuthorization)
     {
         $this->userServiceAuthorization = $userServiceAuthorization;
         return $this;

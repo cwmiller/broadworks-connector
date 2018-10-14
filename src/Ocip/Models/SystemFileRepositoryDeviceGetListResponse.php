@@ -38,7 +38,7 @@ class SystemFileRepositoryDeviceGetListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $fileRepositoryTable
      * @return $this
      */
-    public function setFileRepositoryTable($fileRepositoryTable)
+    public function setFileRepositoryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileRepositoryTable)
     {
         $this->fileRepositoryTable = $fileRepositoryTable;
         return $this;

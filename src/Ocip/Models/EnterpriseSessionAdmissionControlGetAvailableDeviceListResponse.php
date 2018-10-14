@@ -40,7 +40,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[] $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(array $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;

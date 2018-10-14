@@ -36,7 +36,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName useRuleLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null
      */
     private $useRuleLevel = null;
 
@@ -206,7 +206,7 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for useRuleLevel
      *
      * @ElementName useRuleLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null
      */
     public function getUseRuleLevel()
     {
@@ -217,10 +217,10 @@ class GroupPortalPasscodeRulesModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for useRuleLevel
      *
      * @ElementName useRuleLevel
-     * @param string|null $useRuleLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null $useRuleLevel
      * @return $this
      */
-    public function setUseRuleLevel($useRuleLevel)
+    public function setUseRuleLevel(\CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel $useRuleLevel)
     {
         $this->useRuleLevel = $useRuleLevel;
         return $this;

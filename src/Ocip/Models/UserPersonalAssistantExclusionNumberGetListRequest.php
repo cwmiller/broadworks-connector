@@ -85,7 +85,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[] $searchCriteriaPersonalAssistantExclusionNumber
      * @return $this
      */
-    public function setSearchCriteriaPersonalAssistantExclusionNumber($searchCriteriaPersonalAssistantExclusionNumber)
+    public function setSearchCriteriaPersonalAssistantExclusionNumber(array $searchCriteriaPersonalAssistantExclusionNumber)
     {
         $this->searchCriteriaPersonalAssistantExclusionNumber = $searchCriteriaPersonalAssistantExclusionNumber;
         return $this;
@@ -122,7 +122,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[] $searchCriteriaPersonalAssistantExclusionNumberDescription
      * @return $this
      */
-    public function setSearchCriteriaPersonalAssistantExclusionNumberDescription($searchCriteriaPersonalAssistantExclusionNumberDescription)
+    public function setSearchCriteriaPersonalAssistantExclusionNumberDescription(array $searchCriteriaPersonalAssistantExclusionNumberDescription)
     {
         $this->searchCriteriaPersonalAssistantExclusionNumberDescription = $searchCriteriaPersonalAssistantExclusionNumberDescription;
         return $this;

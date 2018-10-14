@@ -48,7 +48,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
 
     /**
      * @ElementName unassignPhoneNumbers
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
 
@@ -90,19 +90,19 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
 
     /**
      * @ElementName extensionDialingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $extensionDialingScope = null;
 
     /**
      * @ElementName nameDialingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $nameDialingScope = null;
 
     /**
      * @ElementName nameDialingEntries
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     private $nameDialingEntries = null;
 
@@ -170,7 +170,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     public function getUnassignPhoneNumbers()
     {
@@ -181,10 +181,10 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @param string|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
      * @return $this
      */
-    public function setUnassignPhoneNumbers($unassignPhoneNumbers)
+    public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
     {
         $this->unassignPhoneNumbers = $unassignPhoneNumbers;
         return $this;
@@ -232,7 +232,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -304,7 +304,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
-    public function setBusinessHours($businessHours)
+    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
     {
         $this->businessHours = $businessHours;
         return $this;
@@ -328,7 +328,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;
@@ -338,7 +338,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for extensionDialingScope
      *
      * @ElementName extensionDialingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     public function getExtensionDialingScope()
     {
@@ -349,10 +349,10 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for extensionDialingScope
      *
      * @ElementName extensionDialingScope
-     * @param string|null $extensionDialingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null $extensionDialingScope
      * @return $this
      */
-    public function setExtensionDialingScope($extensionDialingScope)
+    public function setExtensionDialingScope(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope $extensionDialingScope)
     {
         $this->extensionDialingScope = $extensionDialingScope;
         return $this;
@@ -362,7 +362,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for nameDialingScope
      *
      * @ElementName nameDialingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     public function getNameDialingScope()
     {
@@ -373,10 +373,10 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for nameDialingScope
      *
      * @ElementName nameDialingScope
-     * @param string|null $nameDialingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null $nameDialingScope
      * @return $this
      */
-    public function setNameDialingScope($nameDialingScope)
+    public function setNameDialingScope(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope $nameDialingScope)
     {
         $this->nameDialingScope = $nameDialingScope;
         return $this;
@@ -386,7 +386,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for nameDialingEntries
      *
      * @ElementName nameDialingEntries
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     public function getNameDialingEntries()
     {
@@ -397,10 +397,10 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for nameDialingEntries
      *
      * @ElementName nameDialingEntries
-     * @param string|null $nameDialingEntries
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null $nameDialingEntries
      * @return $this
      */
-    public function setNameDialingEntries($nameDialingEntries)
+    public function setNameDialingEntries(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry $nameDialingEntries)
     {
         $this->nameDialingEntries = $nameDialingEntries;
         return $this;
@@ -424,7 +424,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20|null $businessHoursMenu
      * @return $this
      */
-    public function setBusinessHoursMenu($businessHoursMenu)
+    public function setBusinessHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20 $businessHoursMenu)
     {
         $this->businessHoursMenu = $businessHoursMenu;
         return $this;
@@ -448,7 +448,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20|null $afterHoursMenu
      * @return $this
      */
-    public function setAfterHoursMenu($afterHoursMenu)
+    public function setAfterHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20 $afterHoursMenu)
     {
         $this->afterHoursMenu = $afterHoursMenu;
         return $this;
@@ -472,7 +472,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20|null $holidayMenu
      * @return $this
      */
-    public function setHolidayMenu($holidayMenu)
+    public function setHolidayMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20 $holidayMenu)
     {
         $this->holidayMenu = $holidayMenu;
         return $this;
@@ -520,7 +520,7 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
      * @return $this
      */
-    public function setServiceList($serviceList)
+    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)
     {
         $this->serviceList = $serviceList;
         return $this;

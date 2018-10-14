@@ -147,7 +147,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
 
     /**
      * @ElementName transportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -181,7 +181,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -623,7 +623,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportProtocol()
     {
@@ -634,10 +634,10 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param string|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol($transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;
@@ -685,7 +685,7 @@ class CombinedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
      * @return $this
      */
-    public function setAccessDeviceCredentials($accessDeviceCredentials)
+    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)
     {
         $this->accessDeviceCredentials = $accessDeviceCredentials;
         return $this;

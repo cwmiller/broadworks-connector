@@ -12,7 +12,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
 
     /**
      * @ElementName fromDnCriteriaSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     private $fromDnCriteriaSelection = null;
 
@@ -38,7 +38,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * Getter for fromDnCriteriaSelection
      *
      * @ElementName fromDnCriteriaSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     public function getFromDnCriteriaSelection()
     {
@@ -49,10 +49,10 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * Setter for fromDnCriteriaSelection
      *
      * @ElementName fromDnCriteriaSelection
-     * @param string|null $fromDnCriteriaSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null $fromDnCriteriaSelection
      * @return $this
      */
-    public function setFromDnCriteriaSelection($fromDnCriteriaSelection)
+    public function setFromDnCriteriaSelection(\CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection $fromDnCriteriaSelection)
     {
         $this->fromDnCriteriaSelection = $fromDnCriteriaSelection;
         return $this;
@@ -124,7 +124,7 @@ class SelectiveCallRejectionCriteriaCallTypeModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null $phoneNumberList
      * @return $this
      */
-    public function setPhoneNumberList($phoneNumberList)
+    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList $phoneNumberList)
     {
         $this->phoneNumberList = $phoneNumberList;
         return $this;

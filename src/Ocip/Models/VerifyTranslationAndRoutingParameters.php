@@ -54,7 +54,7 @@ class VerifyTranslationAndRoutingParameters
      * @param \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null $origination
      * @return $this
      */
-    public function setOrigination($origination)
+    public function setOrigination(\CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination $origination)
     {
         $this->origination = $origination;
         return $this;

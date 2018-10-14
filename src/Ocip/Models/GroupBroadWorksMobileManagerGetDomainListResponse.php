@@ -39,7 +39,7 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
      * @param string[] $domainName
      * @return $this
      */
-    public function setDomainName($domainName)
+    public function setDomainName(array $domainName)
     {
         $this->domainName = $domainName;
         return $this;
@@ -52,7 +52,7 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
      * @param string $domainName
      * @return $this
      */
-    public function addDomainName($domainName)
+    public function addDomainName(string $domainName)
     {
         $this->domainName []= $domainName;
         return $this;

@@ -63,7 +63,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -87,7 +87,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @param string[] $destinationPhoneNumber
      * @return $this
      */
-    public function setDestinationPhoneNumber($destinationPhoneNumber)
+    public function setDestinationPhoneNumber(array $destinationPhoneNumber)
     {
         $this->destinationPhoneNumber = $destinationPhoneNumber;
         return $this;
@@ -100,7 +100,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @param string $destinationPhoneNumber
      * @return $this
      */
-    public function addDestinationPhoneNumber($destinationPhoneNumber)
+    public function addDestinationPhoneNumber(string $destinationPhoneNumber)
     {
         $this->destinationPhoneNumber []= $destinationPhoneNumber;
         return $this;

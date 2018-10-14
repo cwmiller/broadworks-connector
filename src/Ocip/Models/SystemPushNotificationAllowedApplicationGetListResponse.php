@@ -39,7 +39,7 @@ class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $applicationTable
      * @return $this
      */
-    public function setApplicationTable($applicationTable)
+    public function setApplicationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $applicationTable)
     {
         $this->applicationTable = $applicationTable;
         return $this;

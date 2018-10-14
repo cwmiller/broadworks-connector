@@ -66,7 +66,7 @@ class UserOutgoingCallingPlanCallMeNowGetResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissions|null $userPermissions
      * @return $this
      */
-    public function setUserPermissions($userPermissions)
+    public function setUserPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallMeNowPermissions $userPermissions)
     {
         $this->userPermissions = $userPermissions;
         return $this;

@@ -40,7 +40,7 @@ class OutgoingCallingPlanRedirectedDepartmentPermissionsModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -64,7 +64,7 @@ class OutgoingCallingPlanRedirectedDepartmentPermissionsModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify|null $permissions
      * @return $this
      */
-    public function setPermissions($permissions)
+    public function setPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify $permissions)
     {
         $this->permissions = $permissions;
         return $this;

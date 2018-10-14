@@ -20,7 +20,7 @@ class EstimatedWaitMessageOptionsRead
 
     /**
      * @ElementName operatingMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
     private $operatingMode = null;
 
@@ -82,7 +82,7 @@ class EstimatedWaitMessageOptionsRead
      * Getter for operatingMode
      *
      * @ElementName operatingMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
     public function getOperatingMode()
     {
@@ -93,10 +93,10 @@ class EstimatedWaitMessageOptionsRead
      * Setter for operatingMode
      *
      * @ElementName operatingMode
-     * @param string|null $operatingMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null $operatingMode
      * @return $this
      */
-    public function setOperatingMode($operatingMode)
+    public function setOperatingMode(\CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode $operatingMode)
     {
         $this->operatingMode = $operatingMode;
         return $this;

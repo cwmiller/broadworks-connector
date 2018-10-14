@@ -43,7 +43,7 @@ class EnterpriseUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userHotelingGuestTable
      * @return $this
      */
-    public function setUserHotelingGuestTable($userHotelingGuestTable)
+    public function setUserHotelingGuestTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userHotelingGuestTable)
     {
         $this->userHotelingGuestTable = $userHotelingGuestTable;
         return $this;

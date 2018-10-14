@@ -70,7 +70,7 @@ class VirtualOnNetUserRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange|null $dnRange
      * @return $this
      */
-    public function setDnRange($dnRange)
+    public function setDnRange(\CWM\BroadWorksConnector\Ocip\Models\DNRange $dnRange)
     {
         $this->dnRange = $dnRange;
         return $this;
@@ -94,7 +94,7 @@ class VirtualOnNetUserRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17|null $extensionRange
      * @return $this
      */
-    public function setExtensionRange($extensionRange)
+    public function setExtensionRange(\CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17 $extensionRange)
     {
         $this->extensionRange = $extensionRange;
         return $this;

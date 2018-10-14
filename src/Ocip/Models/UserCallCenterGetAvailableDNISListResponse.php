@@ -39,7 +39,7 @@ class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey[] $availableDNIS
      * @return $this
      */
-    public function setAvailableDNIS($availableDNIS)
+    public function setAvailableDNIS(array $availableDNIS)
     {
         $this->availableDNIS = $availableDNIS;
         return $this;

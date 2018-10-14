@@ -44,7 +44,7 @@ class GroupRoutePointModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
      * @return $this
      */
-    public function setDnisKey($dnisKey)
+    public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
     {
         $this->dnisKey = $dnisKey;
         return $this;
@@ -68,7 +68,7 @@ class GroupRoutePointModifyDNISAnnouncementRequest20 extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20|null $mediaOnHoldSource
      * @return $this
      */
-    public function setMediaOnHoldSource($mediaOnHoldSource)
+    public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify20 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
         return $this;

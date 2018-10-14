@@ -14,7 +14,7 @@ class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName releaseCause
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause[]
      */
     private $releaseCause = array(
         
@@ -24,7 +24,7 @@ class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorks
      * Getter for releaseCause
      *
      * @ElementName releaseCause
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause[]
      */
     public function getReleaseCause()
     {
@@ -35,10 +35,10 @@ class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorks
      * Setter for releaseCause
      *
      * @ElementName releaseCause
-     * @param string[] $releaseCause
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause[] $releaseCause
      * @return $this
      */
-    public function setReleaseCause($releaseCause)
+    public function setReleaseCause(array $releaseCause)
     {
         $this->releaseCause = $releaseCause;
         return $this;
@@ -48,7 +48,7 @@ class SystemAutomaticCallbackGetReleaseCauseListResponse extends \CWM\BroadWorks
      * Adder for releaseCause
      *
      * @ElementName releaseCause
-     * @param string $releaseCause
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackReleaseCause $releaseCause
      * @return $this
      */
     public function addReleaseCause($releaseCause)

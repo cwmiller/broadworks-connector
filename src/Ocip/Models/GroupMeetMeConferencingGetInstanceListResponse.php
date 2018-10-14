@@ -39,7 +39,7 @@ class GroupMeetMeConferencingGetInstanceListResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceBridgeTable
      * @return $this
      */
-    public function setConferenceBridgeTable($conferenceBridgeTable)
+    public function setConferenceBridgeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceBridgeTable)
     {
         $this->conferenceBridgeTable = $conferenceBridgeTable;
         return $this;

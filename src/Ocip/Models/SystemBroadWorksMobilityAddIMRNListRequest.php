@@ -51,7 +51,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @param string[] $imrnNumber
      * @return $this
      */
-    public function setImrnNumber($imrnNumber)
+    public function setImrnNumber(array $imrnNumber)
     {
         $this->imrnNumber = $imrnNumber;
         return $this;
@@ -64,7 +64,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @param string $imrnNumber
      * @return $this
      */
-    public function addImrnNumber($imrnNumber)
+    public function addImrnNumber(string $imrnNumber)
     {
         $this->imrnNumber []= $imrnNumber;
         return $this;
@@ -88,7 +88,7 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $numberRange
      * @return $this
      */
-    public function setNumberRange($numberRange)
+    public function setNumberRange(array $numberRange)
     {
         $this->numberRange = $numberRange;
         return $this;

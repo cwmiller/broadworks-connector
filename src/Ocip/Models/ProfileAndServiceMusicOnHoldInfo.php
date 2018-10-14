@@ -76,7 +76,7 @@ class ProfileAndServiceMusicOnHoldInfo
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null $source
      * @return $this
      */
-    public function setSource($source)
+    public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16 $source)
     {
         $this->source = $source;
         return $this;
@@ -124,7 +124,7 @@ class ProfileAndServiceMusicOnHoldInfo
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null $internalSource
      * @return $this
      */
-    public function setInternalSource($internalSource)
+    public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16 $internalSource)
     {
         $this->internalSource = $internalSource;
         return $this;

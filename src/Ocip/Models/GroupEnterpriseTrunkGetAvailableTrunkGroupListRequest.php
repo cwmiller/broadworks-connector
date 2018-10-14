@@ -134,7 +134,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[] $searchCriteriaTrunkGroupName
      * @return $this
      */
-    public function setSearchCriteriaTrunkGroupName($searchCriteriaTrunkGroupName)
+    public function setSearchCriteriaTrunkGroupName(array $searchCriteriaTrunkGroupName)
     {
         $this->searchCriteriaTrunkGroupName = $searchCriteriaTrunkGroupName;
         return $this;

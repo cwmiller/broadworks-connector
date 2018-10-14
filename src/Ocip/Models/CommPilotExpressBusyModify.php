@@ -41,7 +41,7 @@ class CommPilotExpressBusyModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify|null $incomingCalls
      * @return $this
      */
-    public function setIncomingCalls($incomingCalls)
+    public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify $incomingCalls)
     {
         $this->incomingCalls = $incomingCalls;
         return $this;
@@ -65,7 +65,7 @@ class CommPilotExpressBusyModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotifyModify|null $voiceMailNotify
      * @return $this
      */
-    public function setVoiceMailNotify($voiceMailNotify)
+    public function setVoiceMailNotify(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotifyModify $voiceMailNotify)
     {
         $this->voiceMailNotify = $voiceMailNotify;
         return $this;

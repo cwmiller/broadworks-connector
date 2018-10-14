@@ -45,7 +45,7 @@ class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters|null $parameters
      * @return $this
      */
-    public function setParameters($parameters)
+    public function setParameters(\CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters $parameters)
     {
         $this->parameters = $parameters;
         return $this;

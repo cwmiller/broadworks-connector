@@ -92,7 +92,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @param string[] $netAddress
      * @return $this
      */
-    public function setNetAddress($netAddress)
+    public function setNetAddress(array $netAddress)
     {
         $this->netAddress = $netAddress;
         return $this;
@@ -105,7 +105,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @param string $netAddress
      * @return $this
      */
-    public function addNetAddress($netAddress)
+    public function addNetAddress(string $netAddress)
     {
         $this->netAddress []= $netAddress;
         return $this;
@@ -129,7 +129,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[] $netAddressRange
      * @return $this
      */
-    public function setNetAddressRange($netAddressRange)
+    public function setNetAddressRange(array $netAddressRange)
     {
         $this->netAddressRange = $netAddressRange;
         return $this;
@@ -166,7 +166,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @param string[] $locationBasedPhysicalLocation
      * @return $this
      */
-    public function setLocationBasedPhysicalLocation($locationBasedPhysicalLocation)
+    public function setLocationBasedPhysicalLocation(array $locationBasedPhysicalLocation)
     {
         $this->locationBasedPhysicalLocation = $locationBasedPhysicalLocation;
         return $this;
@@ -179,7 +179,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @param string $locationBasedPhysicalLocation
      * @return $this
      */
-    public function addLocationBasedPhysicalLocation($locationBasedPhysicalLocation)
+    public function addLocationBasedPhysicalLocation(string $locationBasedPhysicalLocation)
     {
         $this->locationBasedPhysicalLocation []= $locationBasedPhysicalLocation;
         return $this;

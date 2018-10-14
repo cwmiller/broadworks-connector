@@ -37,7 +37,7 @@ class SystemAccountingGetRadiusServerListResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $radiusServerTable
      * @return $this
      */
-    public function setRadiusServerTable($radiusServerTable)
+    public function setRadiusServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $radiusServerTable)
     {
         $this->radiusServerTable = $radiusServerTable;
         return $this;

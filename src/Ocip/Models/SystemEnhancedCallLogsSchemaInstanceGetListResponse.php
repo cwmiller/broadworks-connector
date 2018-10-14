@@ -38,7 +38,7 @@ class SystemEnhancedCallLogsSchemaInstanceGetListResponse extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $schemaInstanceUsageTable
      * @return $this
      */
-    public function setSchemaInstanceUsageTable($schemaInstanceUsageTable)
+    public function setSchemaInstanceUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $schemaInstanceUsageTable)
     {
         $this->schemaInstanceUsageTable = $schemaInstanceUsageTable;
         return $this;

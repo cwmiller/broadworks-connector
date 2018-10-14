@@ -44,7 +44,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName unassignPhoneNumbers
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
 
@@ -62,7 +62,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -226,7 +226,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     public function getUnassignPhoneNumbers()
     {
@@ -237,10 +237,10 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @param string|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
      * @return $this
      */
-    public function setUnassignPhoneNumbers($unassignPhoneNumbers)
+    public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
     {
         $this->unassignPhoneNumbers = $unassignPhoneNumbers;
         return $this;
@@ -288,7 +288,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -298,7 +298,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -309,10 +309,10 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -456,7 +456,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList($agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
         $this->agentUserIdList = $agentUserIdList;
         return $this;
@@ -480,7 +480,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null $agentWeightList
      * @return $this
      */
-    public function setAgentWeightList($agentWeightList)
+    public function setAgentWeightList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList $agentWeightList)
     {
         $this->agentWeightList = $agentWeightList;
         return $this;
@@ -744,7 +744,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
      * @return $this
      */
-    public function setServiceList($serviceList)
+    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)
     {
         $this->serviceList = $serviceList;
         return $this;
@@ -792,7 +792,7 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $directoryNumberHuntingAgentUserIdList
      * @return $this
      */
-    public function setDirectoryNumberHuntingAgentUserIdList($directoryNumberHuntingAgentUserIdList)
+    public function setDirectoryNumberHuntingAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $directoryNumberHuntingAgentUserIdList)
     {
         $this->directoryNumberHuntingAgentUserIdList = $directoryNumberHuntingAgentUserIdList;
         return $this;

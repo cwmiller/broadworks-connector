@@ -39,7 +39,7 @@ class UserShInterfacePublicIdentityRefreshTaskStartRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null $publicUserIdentity
      * @return $this
      */
-    public function setPublicUserIdentity($publicUserIdentity)
+    public function setPublicUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity)
     {
         $this->publicUserIdentity = $publicUserIdentity;
         return $this;

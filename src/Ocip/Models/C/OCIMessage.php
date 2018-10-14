@@ -179,7 +179,7 @@ class OCIMessage
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[] $command
      * @return $this
      */
-    public function setCommand($command)
+    public function setCommand(array $command)
     {
         $this->command = $command;
         return $this;

@@ -15,7 +15,7 @@ class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName recordingOption
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption|null
      */
     private $recordingOption = null;
 
@@ -23,7 +23,7 @@ class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for recordingOption
      *
      * @ElementName recordingOption
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingOption|null
      */
     public function getRecordingOption()
     {
@@ -34,10 +34,10 @@ class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for recordingOption
      *
      * @ElementName recordingOption
-     * @param string|null $recordingOption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingOption|null $recordingOption
      * @return $this
      */
-    public function setRecordingOption($recordingOption)
+    public function setRecordingOption(\CWM\BroadWorksConnector\Ocip\Models\RecordingOption $recordingOption)
     {
         $this->recordingOption = $recordingOption;
         return $this;

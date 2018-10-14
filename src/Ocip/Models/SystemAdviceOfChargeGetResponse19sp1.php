@@ -21,7 +21,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName incomingAocHandling
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
 
@@ -33,7 +33,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName OCSEnquiryType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     private $OCSEnquiryType = null;
 
@@ -65,7 +65,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * Getter for incomingAocHandling
      *
      * @ElementName incomingAocHandling
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     public function getIncomingAocHandling()
     {
@@ -76,10 +76,10 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * Setter for incomingAocHandling
      *
      * @ElementName incomingAocHandling
-     * @param string|null $incomingAocHandling
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null $incomingAocHandling
      * @return $this
      */
-    public function setIncomingAocHandling($incomingAocHandling)
+    public function setIncomingAocHandling(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling $incomingAocHandling)
     {
         $this->incomingAocHandling = $incomingAocHandling;
         return $this;
@@ -113,7 +113,7 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * Getter for OCSEnquiryType
      *
      * @ElementName OCSEnquiryType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     public function getOCSEnquiryType()
     {
@@ -124,10 +124,10 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
      * Setter for OCSEnquiryType
      *
      * @ElementName OCSEnquiryType
-     * @param string|null $OCSEnquiryType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null $OCSEnquiryType
      * @return $this
      */
-    public function setOCSEnquiryType($OCSEnquiryType)
+    public function setOCSEnquiryType(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType $OCSEnquiryType)
     {
         $this->OCSEnquiryType = $OCSEnquiryType;
         return $this;

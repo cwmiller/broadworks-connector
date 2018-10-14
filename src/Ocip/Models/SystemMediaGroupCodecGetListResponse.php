@@ -38,7 +38,7 @@ class SystemMediaGroupCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $codecTable
      * @return $this
      */
-    public function setCodecTable($codecTable)
+    public function setCodecTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $codecTable)
     {
         $this->codecTable = $codecTable;
         return $this;

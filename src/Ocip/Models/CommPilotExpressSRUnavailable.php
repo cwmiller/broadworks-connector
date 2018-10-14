@@ -40,7 +40,7 @@ class CommPilotExpressSRUnavailable
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException|null $incomingCalls
      * @return $this
      */
-    public function setIncomingCalls($incomingCalls)
+    public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException $incomingCalls)
     {
         $this->incomingCalls = $incomingCalls;
         return $this;
@@ -64,7 +64,7 @@ class CommPilotExpressSRUnavailable
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null $incomingCallNotify
      * @return $this
      */
-    public function setIncomingCallNotify($incomingCallNotify)
+    public function setIncomingCallNotify(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify $incomingCallNotify)
     {
         $this->incomingCallNotify = $incomingCallNotify;
         return $this;

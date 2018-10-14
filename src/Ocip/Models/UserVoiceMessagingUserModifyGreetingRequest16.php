@@ -32,7 +32,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName busyAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
@@ -50,7 +50,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName noAnswerAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
@@ -110,7 +110,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName noAnswerNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
@@ -122,7 +122,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName disableMessageDepositAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     private $disableMessageDepositAction = null;
 
@@ -160,7 +160,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Getter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getBusyAnnouncementSelection()
     {
@@ -171,10 +171,10 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Setter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @param string|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
      * @return $this
      */
-    public function setBusyAnnouncementSelection($busyAnnouncementSelection)
+    public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
     {
         $this->busyAnnouncementSelection = $busyAnnouncementSelection;
         return $this;
@@ -198,7 +198,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $busyPersonalAudioFile
      * @return $this
      */
-    public function setBusyPersonalAudioFile($busyPersonalAudioFile)
+    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $busyPersonalAudioFile)
     {
         $this->busyPersonalAudioFile = $busyPersonalAudioFile;
         return $this;
@@ -222,7 +222,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $busyPersonalVideoFile
      * @return $this
      */
-    public function setBusyPersonalVideoFile($busyPersonalVideoFile)
+    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $busyPersonalVideoFile)
     {
         $this->busyPersonalVideoFile = $busyPersonalVideoFile;
         return $this;
@@ -232,7 +232,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Getter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     public function getNoAnswerAnnouncementSelection()
     {
@@ -243,10 +243,10 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Setter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @param string|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
      * @return $this
      */
-    public function setNoAnswerAnnouncementSelection($noAnswerAnnouncementSelection)
+    public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
     {
         $this->noAnswerAnnouncementSelection = $noAnswerAnnouncementSelection;
         return $this;
@@ -270,7 +270,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $noAnswerPersonalAudioFile
      * @return $this
      */
-    public function setNoAnswerPersonalAudioFile($noAnswerPersonalAudioFile)
+    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $noAnswerPersonalAudioFile)
     {
         $this->noAnswerPersonalAudioFile = $noAnswerPersonalAudioFile;
         return $this;
@@ -294,7 +294,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $noAnswerPersonalVideoFile
      * @return $this
      */
-    public function setNoAnswerPersonalVideoFile($noAnswerPersonalVideoFile)
+    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $noAnswerPersonalVideoFile)
     {
         $this->noAnswerPersonalVideoFile = $noAnswerPersonalVideoFile;
         return $this;
@@ -366,7 +366,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $extendedAwayAudioFile
      * @return $this
      */
-    public function setExtendedAwayAudioFile($extendedAwayAudioFile)
+    public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $extendedAwayAudioFile)
     {
         $this->extendedAwayAudioFile = $extendedAwayAudioFile;
         return $this;
@@ -390,7 +390,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $extendedAwayVideoFile
      * @return $this
      */
-    public function setExtendedAwayVideoFile($extendedAwayVideoFile)
+    public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $extendedAwayVideoFile)
     {
         $this->extendedAwayVideoFile = $extendedAwayVideoFile;
         return $this;
@@ -414,7 +414,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16|null $noAnswerAlternateGreeting01
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting01($noAnswerAlternateGreeting01)
+    public function setNoAnswerAlternateGreeting01(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16 $noAnswerAlternateGreeting01)
     {
         $this->noAnswerAlternateGreeting01 = $noAnswerAlternateGreeting01;
         return $this;
@@ -438,7 +438,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16|null $noAnswerAlternateGreeting02
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting02($noAnswerAlternateGreeting02)
+    public function setNoAnswerAlternateGreeting02(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16 $noAnswerAlternateGreeting02)
     {
         $this->noAnswerAlternateGreeting02 = $noAnswerAlternateGreeting02;
         return $this;
@@ -462,7 +462,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16|null $noAnswerAlternateGreeting03
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting03($noAnswerAlternateGreeting03)
+    public function setNoAnswerAlternateGreeting03(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify16 $noAnswerAlternateGreeting03)
     {
         $this->noAnswerAlternateGreeting03 = $noAnswerAlternateGreeting03;
         return $this;
@@ -472,7 +472,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Getter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     public function getNoAnswerNumberOfRings()
     {
@@ -483,10 +483,10 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Setter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @param int|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
      * @return $this
      */
-    public function setNoAnswerNumberOfRings($noAnswerNumberOfRings)
+    public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
     {
         $this->noAnswerNumberOfRings = $noAnswerNumberOfRings;
         return $this;
@@ -520,7 +520,7 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Getter for disableMessageDepositAction
      *
      * @ElementName disableMessageDepositAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     public function getDisableMessageDepositAction()
     {
@@ -531,10 +531,10 @@ class UserVoiceMessagingUserModifyGreetingRequest16 extends \CWM\BroadWorksConne
      * Setter for disableMessageDepositAction
      *
      * @ElementName disableMessageDepositAction
-     * @param string|null $disableMessageDepositAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null $disableMessageDepositAction
      * @return $this
      */
-    public function setDisableMessageDepositAction($disableMessageDepositAction)
+    public function setDisableMessageDepositAction(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction)
     {
         $this->disableMessageDepositAction = $disableMessageDepositAction;
         return $this;

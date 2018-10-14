@@ -39,19 +39,19 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName extensionDialingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $extensionDialingScope = null;
 
     /**
      * @ElementName nameDialingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $nameDialingScope = null;
 
     /**
      * @ElementName nameDialingEntries
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     private $nameDialingEntries = null;
 
@@ -85,7 +85,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17 $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -167,7 +167,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * Getter for extensionDialingScope
      *
      * @ElementName extensionDialingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     public function getExtensionDialingScope()
     {
@@ -178,10 +178,10 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * Setter for extensionDialingScope
      *
      * @ElementName extensionDialingScope
-     * @param string|null $extensionDialingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null $extensionDialingScope
      * @return $this
      */
-    public function setExtensionDialingScope($extensionDialingScope)
+    public function setExtensionDialingScope(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope $extensionDialingScope)
     {
         $this->extensionDialingScope = $extensionDialingScope;
         return $this;
@@ -191,7 +191,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * Getter for nameDialingScope
      *
      * @ElementName nameDialingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     public function getNameDialingScope()
     {
@@ -202,10 +202,10 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * Setter for nameDialingScope
      *
      * @ElementName nameDialingScope
-     * @param string|null $nameDialingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null $nameDialingScope
      * @return $this
      */
-    public function setNameDialingScope($nameDialingScope)
+    public function setNameDialingScope(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope $nameDialingScope)
     {
         $this->nameDialingScope = $nameDialingScope;
         return $this;
@@ -215,7 +215,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * Getter for nameDialingEntries
      *
      * @ElementName nameDialingEntries
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     public function getNameDialingEntries()
     {
@@ -226,10 +226,10 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * Setter for nameDialingEntries
      *
      * @ElementName nameDialingEntries
-     * @param string|null $nameDialingEntries
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null $nameDialingEntries
      * @return $this
      */
-    public function setNameDialingEntries($nameDialingEntries)
+    public function setNameDialingEntries(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry $nameDialingEntries)
     {
         $this->nameDialingEntries = $nameDialingEntries;
         return $this;
@@ -253,7 +253,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16|null $businessHoursMenu
      * @return $this
      */
-    public function setBusinessHoursMenu($businessHoursMenu)
+    public function setBusinessHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16 $businessHoursMenu)
     {
         $this->businessHoursMenu = $businessHoursMenu;
         return $this;
@@ -277,7 +277,7 @@ class GroupAutoAttendantGetInstanceResponse17 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16|null $afterHoursMenu
      * @return $this
      */
-    public function setAfterHoursMenu($afterHoursMenu)
+    public function setAfterHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantReadMenu16 $afterHoursMenu)
     {
         $this->afterHoursMenu = $afterHoursMenu;
         return $this;

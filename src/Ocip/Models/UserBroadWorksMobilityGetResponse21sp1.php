@@ -37,7 +37,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName profileIdentityDevicesToRing
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $profileIdentityDevicesToRing = null;
 
@@ -147,7 +147,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
      * Getter for profileIdentityDevicesToRing
      *
      * @ElementName profileIdentityDevicesToRing
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     public function getProfileIdentityDevicesToRing()
     {
@@ -158,10 +158,10 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
      * Setter for profileIdentityDevicesToRing
      *
      * @ElementName profileIdentityDevicesToRing
-     * @param string|null $profileIdentityDevicesToRing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null $profileIdentityDevicesToRing
      * @return $this
      */
-    public function setProfileIdentityDevicesToRing($profileIdentityDevicesToRing)
+    public function setProfileIdentityDevicesToRing(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $profileIdentityDevicesToRing)
     {
         $this->profileIdentityDevicesToRing = $profileIdentityDevicesToRing;
         return $this;
@@ -257,7 +257,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $profileIdentityMobileNumberAlertedTable
      * @return $this
      */
-    public function setProfileIdentityMobileNumberAlertedTable($profileIdentityMobileNumberAlertedTable)
+    public function setProfileIdentityMobileNumberAlertedTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profileIdentityMobileNumberAlertedTable)
     {
         $this->profileIdentityMobileNumberAlertedTable = $profileIdentityMobileNumberAlertedTable;
         return $this;
@@ -281,7 +281,7 @@ class UserBroadWorksMobilityGetResponse21sp1 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileIdentityTable
      * @return $this
      */
-    public function setMobileIdentityTable($mobileIdentityTable)
+    public function setMobileIdentityTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileIdentityTable)
     {
         $this->mobileIdentityTable = $mobileIdentityTable;
         return $this;

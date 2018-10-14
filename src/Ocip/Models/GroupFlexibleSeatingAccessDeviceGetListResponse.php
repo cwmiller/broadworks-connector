@@ -14,7 +14,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName availableAccessDevice
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponse\AvailableAccessDevice[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
     private $availableAccessDevice = array(
         
@@ -24,7 +24,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
      * Getter for availableAccessDevice
      *
      * @ElementName availableAccessDevice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponse\AvailableAccessDevice[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
     public function getAvailableAccessDevice()
     {
@@ -35,10 +35,10 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
      * Setter for availableAccessDevice
      *
      * @ElementName availableAccessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponse\AvailableAccessDevice[] $availableAccessDevice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[] $availableAccessDevice
      * @return $this
      */
-    public function setAvailableAccessDevice($availableAccessDevice)
+    public function setAvailableAccessDevice(array $availableAccessDevice)
     {
         $this->availableAccessDevice = $availableAccessDevice;
         return $this;
@@ -48,7 +48,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
      * Adder for availableAccessDevice
      *
      * @ElementName availableAccessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponse\AvailableAccessDevice $availableAccessDevice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice $availableAccessDevice
      * @return $this
      */
     public function addAvailableAccessDevice($availableAccessDevice)

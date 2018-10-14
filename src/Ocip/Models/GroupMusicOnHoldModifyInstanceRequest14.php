@@ -52,7 +52,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName messageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSelection = null;
 
@@ -140,7 +140,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -222,7 +222,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * Getter for messageSelection
      *
      * @ElementName messageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     public function getMessageSelection()
     {
@@ -233,10 +233,10 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * Setter for messageSelection
      *
      * @ElementName messageSelection
-     * @param string|null $messageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null $messageSelection
      * @return $this
      */
-    public function setMessageSelection($messageSelection)
+    public function setMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection $messageSelection)
     {
         $this->messageSelection = $messageSelection;
         return $this;
@@ -260,7 +260,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;
@@ -284,7 +284,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -308,7 +308,7 @@ class GroupMusicOnHoldModifyInstanceRequest14 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;

@@ -106,7 +106,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null $userServiceNameList
      * @return $this
      */
-    public function setUserServiceNameList($userServiceNameList)
+    public function setUserServiceNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList $userServiceNameList)
     {
         $this->userServiceNameList = $userServiceNameList;
         return $this;
@@ -130,7 +130,7 @@ class ServiceProviderServicePackMigrationTaskModifyRemovalListRequest extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null $servicePackNameList
      * @return $this
      */
-    public function setServicePackNameList($servicePackNameList)
+    public function setServicePackNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList $servicePackNameList)
     {
         $this->servicePackNameList = $servicePackNameList;
         return $this;

@@ -147,7 +147,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[] $searchCriteriaCommunicationBarringAuthorizationCode
      * @return $this
      */
-    public function setSearchCriteriaCommunicationBarringAuthorizationCode($searchCriteriaCommunicationBarringAuthorizationCode)
+    public function setSearchCriteriaCommunicationBarringAuthorizationCode(array $searchCriteriaCommunicationBarringAuthorizationCode)
     {
         $this->searchCriteriaCommunicationBarringAuthorizationCode = $searchCriteriaCommunicationBarringAuthorizationCode;
         return $this;
@@ -184,7 +184,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[] $searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @return $this
      */
-    public function setSearchCriteriaCommunicationBarringAuthorizationCodeDescription($searchCriteriaCommunicationBarringAuthorizationCodeDescription)
+    public function setSearchCriteriaCommunicationBarringAuthorizationCodeDescription(array $searchCriteriaCommunicationBarringAuthorizationCodeDescription)
     {
         $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription = $searchCriteriaCommunicationBarringAuthorizationCodeDescription;
         return $this;
@@ -221,7 +221,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[] $searchCriteriaNetworkClassOfServiceName
      * @return $this
      */
-    public function setSearchCriteriaNetworkClassOfServiceName($searchCriteriaNetworkClassOfServiceName)
+    public function setSearchCriteriaNetworkClassOfServiceName(array $searchCriteriaNetworkClassOfServiceName)
     {
         $this->searchCriteriaNetworkClassOfServiceName = $searchCriteriaNetworkClassOfServiceName;
         return $this;

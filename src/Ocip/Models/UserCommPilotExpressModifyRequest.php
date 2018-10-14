@@ -23,7 +23,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null
      */
     private $profile = null;
 
@@ -79,7 +79,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null
      */
     public function getProfile()
     {
@@ -90,10 +90,10 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressProfile $profile)
     {
         $this->profile = $profile;
         return $this;
@@ -117,7 +117,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableInOfficeModify|null $availableInOffice
      * @return $this
      */
-    public function setAvailableInOffice($availableInOffice)
+    public function setAvailableInOffice(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableInOfficeModify $availableInOffice)
     {
         $this->availableInOffice = $availableInOffice;
         return $this;
@@ -141,7 +141,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableOutOfOfficeModify|null $availableOutOfOffice
      * @return $this
      */
-    public function setAvailableOutOfOffice($availableOutOfOffice)
+    public function setAvailableOutOfOffice(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressAvailableOutOfOfficeModify $availableOutOfOffice)
     {
         $this->availableOutOfOffice = $availableOutOfOffice;
         return $this;
@@ -165,7 +165,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressBusyModify|null $busy
      * @return $this
      */
-    public function setBusy($busy)
+    public function setBusy(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressBusyModify $busy)
     {
         $this->busy = $busy;
         return $this;
@@ -189,7 +189,7 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressUnavailableModify|null $unavailable
      * @return $this
      */
-    public function setUnavailable($unavailable)
+    public function setUnavailable(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressUnavailableModify $unavailable)
     {
         $this->unavailable = $unavailable;
         return $this;

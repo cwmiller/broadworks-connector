@@ -47,7 +47,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $trunkGroupKey
      * @return $this
      */
-    public function setTrunkGroupKey($trunkGroupKey)
+    public function setTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey)
     {
         $this->trunkGroupKey = $trunkGroupKey;
         return $this;
@@ -71,7 +71,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
      * @param string[] $statusCode
      * @return $this
      */
-    public function setStatusCode($statusCode)
+    public function setStatusCode(array $statusCode)
     {
         $this->statusCode = $statusCode;
         return $this;
@@ -84,7 +84,7 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
      * @param string $statusCode
      * @return $this
      */
-    public function addStatusCode($statusCode)
+    public function addStatusCode(string $statusCode)
     {
         $this->statusCode []= $statusCode;
         return $this;

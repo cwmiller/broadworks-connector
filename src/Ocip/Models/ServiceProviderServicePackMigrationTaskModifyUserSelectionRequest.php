@@ -30,7 +30,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
 
     /**
      * @ElementName userSelectionType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     private $userSelectionType = null;
 
@@ -98,7 +98,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * Getter for userSelectionType
      *
      * @ElementName userSelectionType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     public function getUserSelectionType()
     {
@@ -109,10 +109,10 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * Setter for userSelectionType
      *
      * @ElementName userSelectionType
-     * @param string|null $userSelectionType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null $userSelectionType
      * @return $this
      */
-    public function setUserSelectionType($userSelectionType)
+    public function setUserSelectionType(\CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType $userSelectionType)
     {
         $this->userSelectionType = $userSelectionType;
         return $this;
@@ -136,7 +136,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null $userServiceNameList
      * @return $this
      */
-    public function setUserServiceNameList($userServiceNameList)
+    public function setUserServiceNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList $userServiceNameList)
     {
         $this->userServiceNameList = $userServiceNameList;
         return $this;
@@ -160,7 +160,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null $servicePackNameList
      * @return $this
      */
-    public function setServicePackNameList($servicePackNameList)
+    public function setServicePackNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList $servicePackNameList)
     {
         $this->servicePackNameList = $servicePackNameList;
         return $this;

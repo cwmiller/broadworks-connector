@@ -39,7 +39,7 @@ class GroupAutoAttendantSubmenuGetListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $submenuTable
      * @return $this
      */
-    public function setSubmenuTable($submenuTable)
+    public function setSubmenuTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $submenuTable)
     {
         $this->submenuTable = $submenuTable;
         return $this;

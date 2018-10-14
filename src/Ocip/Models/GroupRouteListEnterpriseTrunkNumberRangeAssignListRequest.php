@@ -102,7 +102,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
      * @param string[] $numberRangeStart
      * @return $this
      */
-    public function setNumberRangeStart($numberRangeStart)
+    public function setNumberRangeStart(array $numberRangeStart)
     {
         $this->numberRangeStart = $numberRangeStart;
         return $this;
@@ -115,7 +115,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
      * @param string $numberRangeStart
      * @return $this
      */
-    public function addNumberRangeStart($numberRangeStart)
+    public function addNumberRangeStart(string $numberRangeStart)
     {
         $this->numberRangeStart []= $numberRangeStart;
         return $this;

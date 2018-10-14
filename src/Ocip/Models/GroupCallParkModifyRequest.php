@@ -52,13 +52,13 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName recallRingPattern
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $recallRingPattern = null;
 
     /**
      * @ElementName recallTo
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
 
@@ -216,7 +216,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for recallRingPattern
      *
      * @ElementName recallRingPattern
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     public function getRecallRingPattern()
     {
@@ -227,10 +227,10 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for recallRingPattern
      *
      * @ElementName recallRingPattern
-     * @param string|null $recallRingPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $recallRingPattern
      * @return $this
      */
-    public function setRecallRingPattern($recallRingPattern)
+    public function setRecallRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $recallRingPattern)
     {
         $this->recallRingPattern = $recallRingPattern;
         return $this;
@@ -240,7 +240,7 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for recallTo
      *
      * @ElementName recallTo
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     public function getRecallTo()
     {
@@ -251,10 +251,10 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for recallTo
      *
      * @ElementName recallTo
-     * @param string|null $recallTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null $recallTo
      * @return $this
      */
-    public function setRecallTo($recallTo)
+    public function setRecallTo(\CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo)
     {
         $this->recallTo = $recallTo;
         return $this;

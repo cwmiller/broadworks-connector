@@ -48,7 +48,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extend
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $numberRangeSummaryTable
      * @return $this
      */
-    public function setNumberRangeSummaryTable($numberRangeSummaryTable)
+    public function setNumberRangeSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $numberRangeSummaryTable)
     {
         $this->numberRangeSummaryTable = $numberRangeSummaryTable;
         return $this;

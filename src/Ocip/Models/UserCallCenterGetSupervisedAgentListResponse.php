@@ -40,7 +40,7 @@ class UserCallCenterGetSupervisedAgentListResponse extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
      * @return $this
      */
-    public function setAgentUserTable($agentUserTable)
+    public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
     {
         $this->agentUserTable = $agentUserTable;
         return $this;

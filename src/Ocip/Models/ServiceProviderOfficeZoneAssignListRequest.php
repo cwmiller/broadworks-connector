@@ -81,7 +81,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @param string[] $officeZoneName
      * @return $this
      */
-    public function setOfficeZoneName($officeZoneName)
+    public function setOfficeZoneName(array $officeZoneName)
     {
         $this->officeZoneName = $officeZoneName;
         return $this;
@@ -94,7 +94,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @param string $officeZoneName
      * @return $this
      */
-    public function addOfficeZoneName($officeZoneName)
+    public function addOfficeZoneName(string $officeZoneName)
     {
         $this->officeZoneName []= $officeZoneName;
         return $this;

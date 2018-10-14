@@ -28,7 +28,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName codeType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $codeType = null;
 
@@ -108,7 +108,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * Getter for codeType
      *
      * @ElementName codeType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     public function getCodeType()
     {
@@ -119,10 +119,10 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * Setter for codeType
      *
      * @ElementName codeType
-     * @param string|null $codeType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null $codeType
      * @return $this
      */
-    public function setCodeType($codeType)
+    public function setCodeType(\CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType $codeType)
     {
         $this->codeType = $codeType;
         return $this;
@@ -194,7 +194,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $mandatoryUsageUserIdList
      * @return $this
      */
-    public function setMandatoryUsageUserIdList($mandatoryUsageUserIdList)
+    public function setMandatoryUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $mandatoryUsageUserIdList)
     {
         $this->mandatoryUsageUserIdList = $mandatoryUsageUserIdList;
         return $this;
@@ -218,7 +218,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $optionalUsageUserIdList
      * @return $this
      */
-    public function setOptionalUsageUserIdList($optionalUsageUserIdList)
+    public function setOptionalUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $optionalUsageUserIdList)
     {
         $this->optionalUsageUserIdList = $optionalUsageUserIdList;
         return $this;

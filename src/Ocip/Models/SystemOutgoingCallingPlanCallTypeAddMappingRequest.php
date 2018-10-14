@@ -28,7 +28,7 @@ class SystemOutgoingCallingPlanCallTypeAddMappingRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName callType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType|null
      */
     private $callType = null;
 
@@ -84,7 +84,7 @@ class SystemOutgoingCallingPlanCallTypeAddMappingRequest extends \CWM\BroadWorks
      * Getter for callType
      *
      * @ElementName callType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType|null
      */
     public function getCallType()
     {
@@ -95,10 +95,10 @@ class SystemOutgoingCallingPlanCallTypeAddMappingRequest extends \CWM\BroadWorks
      * Setter for callType
      *
      * @ElementName callType
-     * @param string|null $callType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType|null $callType
      * @return $this
      */
-    public function setCallType($callType)
+    public function setCallType(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType $callType)
     {
         $this->callType = $callType;
         return $this;

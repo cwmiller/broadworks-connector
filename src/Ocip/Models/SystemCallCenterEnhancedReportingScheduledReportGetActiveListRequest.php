@@ -109,7 +109,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[] $searchCriteriaCallCenterScheduledReportName
      * @return $this
      */
-    public function setSearchCriteriaCallCenterScheduledReportName($searchCriteriaCallCenterScheduledReportName)
+    public function setSearchCriteriaCallCenterScheduledReportName(array $searchCriteriaCallCenterScheduledReportName)
     {
         $this->searchCriteriaCallCenterScheduledReportName = $searchCriteriaCallCenterScheduledReportName;
         return $this;
@@ -146,7 +146,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -183,7 +183,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportServiceProvider|null $searchCriteriaExactCallCenterScheduledReportServiceProvider
      * @return $this
      */
-    public function setSearchCriteriaExactCallCenterScheduledReportServiceProvider($searchCriteriaExactCallCenterScheduledReportServiceProvider)
+    public function setSearchCriteriaExactCallCenterScheduledReportServiceProvider(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportServiceProvider $searchCriteriaExactCallCenterScheduledReportServiceProvider)
     {
         $this->searchCriteriaExactCallCenterScheduledReportServiceProvider = $searchCriteriaExactCallCenterScheduledReportServiceProvider;
         return $this;
@@ -207,7 +207,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -244,7 +244,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @return $this
      */
-    public function setSearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor($searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor)
+    public function setSearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor)
     {
         $this->searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor;
         return $this;
@@ -268,7 +268,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetActiveListRequest exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterReportTemplateName[] $searchCriteriaCallCenterReportTemplateName
      * @return $this
      */
-    public function setSearchCriteriaCallCenterReportTemplateName($searchCriteriaCallCenterReportTemplateName)
+    public function setSearchCriteriaCallCenterReportTemplateName(array $searchCriteriaCallCenterReportTemplateName)
     {
         $this->searchCriteriaCallCenterReportTemplateName = $searchCriteriaCallCenterReportTemplateName;
         return $this;

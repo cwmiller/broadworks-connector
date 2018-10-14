@@ -56,7 +56,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityQueryDigitPattern[] $searchCriteriaNumberPortabilityQueryDigitPattern
      * @return $this
      */
-    public function setSearchCriteriaNumberPortabilityQueryDigitPattern($searchCriteriaNumberPortabilityQueryDigitPattern)
+    public function setSearchCriteriaNumberPortabilityQueryDigitPattern(array $searchCriteriaNumberPortabilityQueryDigitPattern)
     {
         $this->searchCriteriaNumberPortabilityQueryDigitPattern = $searchCriteriaNumberPortabilityQueryDigitPattern;
         return $this;
@@ -93,7 +93,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityStatus[] $searchCriteriaNumberPortabilityStatus
      * @return $this
      */
-    public function setSearchCriteriaNumberPortabilityStatus($searchCriteriaNumberPortabilityStatus)
+    public function setSearchCriteriaNumberPortabilityStatus(array $searchCriteriaNumberPortabilityStatus)
     {
         $this->searchCriteriaNumberPortabilityStatus = $searchCriteriaNumberPortabilityStatus;
         return $this;

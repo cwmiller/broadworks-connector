@@ -22,7 +22,7 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName interface
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null
      */
     private $interface = null;
 
@@ -54,7 +54,7 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for interface
      *
      * @ElementName interface
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null
      */
     public function getInterface()
     {
@@ -65,10 +65,10 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for interface
      *
      * @ElementName interface
-     * @param string|null $interface
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null $interface
      * @return $this
      */
-    public function setInterface($interface)
+    public function setInterface(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface $interface)
     {
         $this->interface = $interface;
         return $this;

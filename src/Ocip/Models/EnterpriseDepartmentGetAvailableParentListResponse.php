@@ -48,7 +48,7 @@ class EnterpriseDepartmentGetAvailableParentListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[] $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(array $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -85,7 +85,7 @@ class EnterpriseDepartmentGetAvailableParentListResponse extends \CWM\BroadWorks
      * @param string[] $fullPathName
      * @return $this
      */
-    public function setFullPathName($fullPathName)
+    public function setFullPathName(array $fullPathName)
     {
         $this->fullPathName = $fullPathName;
         return $this;
@@ -98,7 +98,7 @@ class EnterpriseDepartmentGetAvailableParentListResponse extends \CWM\BroadWorks
      * @param string $fullPathName
      * @return $this
      */
-    public function addFullPathName($fullPathName)
+    public function addFullPathName(string $fullPathName)
     {
         $this->fullPathName []= $fullPathName;
         return $this;

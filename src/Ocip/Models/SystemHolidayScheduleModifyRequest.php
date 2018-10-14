@@ -212,7 +212,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday01
      * @return $this
      */
-    public function setHoliday01($holiday01)
+    public function setHoliday01(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday01)
     {
         $this->holiday01 = $holiday01;
         return $this;
@@ -236,7 +236,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday02
      * @return $this
      */
-    public function setHoliday02($holiday02)
+    public function setHoliday02(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday02)
     {
         $this->holiday02 = $holiday02;
         return $this;
@@ -260,7 +260,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday03
      * @return $this
      */
-    public function setHoliday03($holiday03)
+    public function setHoliday03(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday03)
     {
         $this->holiday03 = $holiday03;
         return $this;
@@ -284,7 +284,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday04
      * @return $this
      */
-    public function setHoliday04($holiday04)
+    public function setHoliday04(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday04)
     {
         $this->holiday04 = $holiday04;
         return $this;
@@ -308,7 +308,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday05
      * @return $this
      */
-    public function setHoliday05($holiday05)
+    public function setHoliday05(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday05)
     {
         $this->holiday05 = $holiday05;
         return $this;
@@ -332,7 +332,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday06
      * @return $this
      */
-    public function setHoliday06($holiday06)
+    public function setHoliday06(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday06)
     {
         $this->holiday06 = $holiday06;
         return $this;
@@ -356,7 +356,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday07
      * @return $this
      */
-    public function setHoliday07($holiday07)
+    public function setHoliday07(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday07)
     {
         $this->holiday07 = $holiday07;
         return $this;
@@ -380,7 +380,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday08
      * @return $this
      */
-    public function setHoliday08($holiday08)
+    public function setHoliday08(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday08)
     {
         $this->holiday08 = $holiday08;
         return $this;
@@ -404,7 +404,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday09
      * @return $this
      */
-    public function setHoliday09($holiday09)
+    public function setHoliday09(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday09)
     {
         $this->holiday09 = $holiday09;
         return $this;
@@ -428,7 +428,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday10
      * @return $this
      */
-    public function setHoliday10($holiday10)
+    public function setHoliday10(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday10)
     {
         $this->holiday10 = $holiday10;
         return $this;
@@ -452,7 +452,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday11
      * @return $this
      */
-    public function setHoliday11($holiday11)
+    public function setHoliday11(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday11)
     {
         $this->holiday11 = $holiday11;
         return $this;
@@ -476,7 +476,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday12
      * @return $this
      */
-    public function setHoliday12($holiday12)
+    public function setHoliday12(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday12)
     {
         $this->holiday12 = $holiday12;
         return $this;
@@ -500,7 +500,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday13
      * @return $this
      */
-    public function setHoliday13($holiday13)
+    public function setHoliday13(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday13)
     {
         $this->holiday13 = $holiday13;
         return $this;
@@ -524,7 +524,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday14
      * @return $this
      */
-    public function setHoliday14($holiday14)
+    public function setHoliday14(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday14)
     {
         $this->holiday14 = $holiday14;
         return $this;
@@ -548,7 +548,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday15
      * @return $this
      */
-    public function setHoliday15($holiday15)
+    public function setHoliday15(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday15)
     {
         $this->holiday15 = $holiday15;
         return $this;
@@ -572,7 +572,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday16
      * @return $this
      */
-    public function setHoliday16($holiday16)
+    public function setHoliday16(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday16)
     {
         $this->holiday16 = $holiday16;
         return $this;
@@ -596,7 +596,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday17
      * @return $this
      */
-    public function setHoliday17($holiday17)
+    public function setHoliday17(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday17)
     {
         $this->holiday17 = $holiday17;
         return $this;
@@ -620,7 +620,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday18
      * @return $this
      */
-    public function setHoliday18($holiday18)
+    public function setHoliday18(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday18)
     {
         $this->holiday18 = $holiday18;
         return $this;
@@ -644,7 +644,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday19
      * @return $this
      */
-    public function setHoliday19($holiday19)
+    public function setHoliday19(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday19)
     {
         $this->holiday19 = $holiday19;
         return $this;
@@ -668,7 +668,7 @@ class SystemHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday20
      * @return $this
      */
-    public function setHoliday20($holiday20)
+    public function setHoliday20(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday20)
     {
         $this->holiday20 = $holiday20;
         return $this;

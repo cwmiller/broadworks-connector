@@ -117,7 +117,7 @@ class SystemSIPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName earlyMediaSupport
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     private $earlyMediaSupport = null;
 
@@ -499,7 +499,7 @@ class SystemSIPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions($cpeDeviceOptions)
+    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions $cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -509,7 +509,7 @@ class SystemSIPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     public function getEarlyMediaSupport()
     {
@@ -520,10 +520,10 @@ class SystemSIPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @param string|null $earlyMediaSupport
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null $earlyMediaSupport
      * @return $this
      */
-    public function setEarlyMediaSupport($earlyMediaSupport)
+    public function setEarlyMediaSupport(\CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport)
     {
         $this->earlyMediaSupport = $earlyMediaSupport;
         return $this;

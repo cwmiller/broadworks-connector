@@ -48,7 +48,7 @@ class GroupGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupTable
      * @return $this
      */
-    public function setGroupTable($groupTable)
+    public function setGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupTable)
     {
         $this->groupTable = $groupTable;
         return $this;

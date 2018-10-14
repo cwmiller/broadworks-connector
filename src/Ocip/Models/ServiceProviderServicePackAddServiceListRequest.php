@@ -29,7 +29,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName serviceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
         
@@ -87,7 +87,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getServiceName()
     {
@@ -98,10 +98,10 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string[] $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(array $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;
@@ -111,7 +111,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * Adder for serviceName
      *
      * @ElementName serviceName
-     * @param string $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName
      * @return $this
      */
     public function addServiceName($serviceName)

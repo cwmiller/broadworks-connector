@@ -39,7 +39,7 @@ class ReplacementEnterpriseTrunkTrunkGroupKeyList
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[] $trunkGroupList
      * @return $this
      */
-    public function setTrunkGroupList($trunkGroupList)
+    public function setTrunkGroupList(array $trunkGroupList)
     {
         $this->trunkGroupList = $trunkGroupList;
         return $this;

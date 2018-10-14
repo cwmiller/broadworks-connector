@@ -36,7 +36,7 @@ class SystemBwDiameterRoutingPeerGetListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routingPeerTable
      * @return $this
      */
-    public function setRoutingPeerTable($routingPeerTable)
+    public function setRoutingPeerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingPeerTable)
     {
         $this->routingPeerTable = $routingPeerTable;
         return $this;

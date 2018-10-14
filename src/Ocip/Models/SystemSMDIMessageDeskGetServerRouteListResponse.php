@@ -38,7 +38,7 @@ class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $smdiServerRouteTable
      * @return $this
      */
-    public function setSmdiServerRouteTable($smdiServerRouteTable)
+    public function setSmdiServerRouteTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $smdiServerRouteTable)
     {
         $this->smdiServerRouteTable = $smdiServerRouteTable;
         return $this;

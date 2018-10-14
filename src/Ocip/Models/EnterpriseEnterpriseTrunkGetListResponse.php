@@ -38,7 +38,7 @@ class EnterpriseEnterpriseTrunkGetListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $enterpriseTrunkTable
      * @return $this
      */
-    public function setEnterpriseTrunkTable($enterpriseTrunkTable)
+    public function setEnterpriseTrunkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $enterpriseTrunkTable)
     {
         $this->enterpriseTrunkTable = $enterpriseTrunkTable;
         return $this;

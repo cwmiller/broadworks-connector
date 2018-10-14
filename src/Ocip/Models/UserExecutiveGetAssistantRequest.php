@@ -10,7 +10,6 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *
  * @see UserExecutiveGetAssistantResponse
-
  * @see ErrorResponse
  */
 class UserExecutiveGetAssistantRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

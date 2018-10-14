@@ -106,7 +106,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @param string[] $networkClassOfService
      * @return $this
      */
-    public function setNetworkClassOfService($networkClassOfService)
+    public function setNetworkClassOfService(array $networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
         return $this;
@@ -119,7 +119,7 @@ class GroupNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConne
      * @param string $networkClassOfService
      * @return $this
      */
-    public function addNetworkClassOfService($networkClassOfService)
+    public function addNetworkClassOfService(string $networkClassOfService)
     {
         $this->networkClassOfService []= $networkClassOfService;
         return $this;

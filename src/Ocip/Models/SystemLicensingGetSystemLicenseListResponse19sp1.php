@@ -17,7 +17,7 @@ class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName license
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType19sp1[]
      */
     private $license = array(
         
@@ -27,7 +27,7 @@ class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksCo
      * Getter for license
      *
      * @ElementName license
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType19sp1[]
      */
     public function getLicense()
     {
@@ -38,10 +38,10 @@ class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksCo
      * Setter for license
      *
      * @ElementName license
-     * @param string[] $license
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType19sp1[] $license
      * @return $this
      */
-    public function setLicense($license)
+    public function setLicense(array $license)
     {
         $this->license = $license;
         return $this;
@@ -51,7 +51,7 @@ class SystemLicensingGetSystemLicenseListResponse19sp1 extends \CWM\BroadWorksCo
      * Adder for license
      *
      * @ElementName license
-     * @param string $license
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemLicenseType19sp1 $license
      * @return $this
      */
     public function addLicense($license)

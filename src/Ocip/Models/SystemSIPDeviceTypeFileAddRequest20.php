@@ -37,19 +37,19 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName fileCategory
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
 
     /**
      * @ElementName fileCustomization
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     private $fileCustomization = null;
 
     /**
      * @ElementName fileSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
@@ -201,7 +201,7 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for fileCategory
      *
      * @ElementName fileCategory
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     public function getFileCategory()
     {
@@ -212,10 +212,10 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for fileCategory
      *
      * @ElementName fileCategory
-     * @param string|null $fileCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null $fileCategory
      * @return $this
      */
-    public function setFileCategory($fileCategory)
+    public function setFileCategory(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory)
     {
         $this->fileCategory = $fileCategory;
         return $this;
@@ -225,7 +225,7 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for fileCustomization
      *
      * @ElementName fileCustomization
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     public function getFileCustomization()
     {
@@ -236,10 +236,10 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for fileCustomization
      *
      * @ElementName fileCustomization
-     * @param string|null $fileCustomization
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null $fileCustomization
      * @return $this
      */
-    public function setFileCustomization($fileCustomization)
+    public function setFileCustomization(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization $fileCustomization)
     {
         $this->fileCustomization = $fileCustomization;
         return $this;
@@ -249,7 +249,7 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for fileSource
      *
      * @ElementName fileSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     public function getFileSource()
     {
@@ -260,10 +260,10 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for fileSource
      *
      * @ElementName fileSource
-     * @param string|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null $fileSource
      * @return $this
      */
-    public function setFileSource($fileSource)
+    public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource)
     {
         $this->fileSource = $fileSource;
         return $this;
@@ -287,7 +287,7 @@ class SystemSIPDeviceTypeFileAddRequest20 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $uploadFile
      * @return $this
      */
-    public function setUploadFile($uploadFile)
+    public function setUploadFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $uploadFile)
     {
         $this->uploadFile = $uploadFile;
         return $this;

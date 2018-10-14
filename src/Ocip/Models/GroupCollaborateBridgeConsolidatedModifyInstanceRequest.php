@@ -44,7 +44,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
 
     /**
      * @ElementName unassignPhoneNumbers
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
 
@@ -124,7 +124,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * Getter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     public function getUnassignPhoneNumbers()
     {
@@ -135,10 +135,10 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * Setter for unassignPhoneNumbers
      *
      * @ElementName unassignPhoneNumbers
-     * @param string|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
      * @return $this
      */
-    public function setUnassignPhoneNumbers($unassignPhoneNumbers)
+    public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
     {
         $this->unassignPhoneNumbers = $unassignPhoneNumbers;
         return $this;
@@ -186,7 +186,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -210,7 +210,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null $maximumBridgeParticipants
      * @return $this
      */
-    public function setMaximumBridgeParticipants($maximumBridgeParticipants)
+    public function setMaximumBridgeParticipants(\CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants)
     {
         $this->maximumBridgeParticipants = $maximumBridgeParticipants;
         return $this;
@@ -306,7 +306,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $collaborateOwnerUserIdList
      * @return $this
      */
-    public function setCollaborateOwnerUserIdList($collaborateOwnerUserIdList)
+    public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList)
     {
         $this->collaborateOwnerUserIdList = $collaborateOwnerUserIdList;
         return $this;
@@ -330,7 +330,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
      * @return $this
      */
-    public function setServiceList($serviceList)
+    public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)
     {
         $this->serviceList = $serviceList;
         return $this;

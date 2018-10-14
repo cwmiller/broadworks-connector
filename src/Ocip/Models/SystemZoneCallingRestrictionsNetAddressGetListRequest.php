@@ -101,7 +101,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[] $searchCriteriaZoneIPAddress
      * @return $this
      */
-    public function setSearchCriteriaZoneIPAddress($searchCriteriaZoneIPAddress)
+    public function setSearchCriteriaZoneIPAddress(array $searchCriteriaZoneIPAddress)
     {
         $this->searchCriteriaZoneIPAddress = $searchCriteriaZoneIPAddress;
         return $this;

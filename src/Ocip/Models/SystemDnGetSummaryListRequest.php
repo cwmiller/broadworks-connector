@@ -99,7 +99,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;
@@ -136,7 +136,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -173,7 +173,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
      * @return $this
      */
-    public function setSearchCriteriaExactOrganizationType($searchCriteriaExactOrganizationType)
+    public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
     {
         $this->searchCriteriaExactOrganizationType = $searchCriteriaExactOrganizationType;
         return $this;

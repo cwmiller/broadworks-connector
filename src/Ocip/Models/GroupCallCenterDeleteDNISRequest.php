@@ -38,7 +38,7 @@ class GroupCallCenterDeleteDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
      * @return $this
      */
-    public function setDnisKey($dnisKey)
+    public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
     {
         $this->dnisKey = $dnisKey;
         return $this;

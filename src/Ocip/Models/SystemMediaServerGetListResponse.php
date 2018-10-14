@@ -37,7 +37,7 @@ class SystemMediaServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mediaServerTable
      * @return $this
      */
-    public function setMediaServerTable($mediaServerTable)
+    public function setMediaServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mediaServerTable)
     {
         $this->mediaServerTable = $mediaServerTable;
         return $this;

@@ -12,7 +12,7 @@ class SearchCriteriaExactScheduleType extends SearchCriteria
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $type = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactScheduleType extends SearchCriteria
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     public function getType()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactScheduleType extends SearchCriteria
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\ScheduleType $type)
     {
         $this->type = $type;
         return $this;

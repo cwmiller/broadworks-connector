@@ -18,7 +18,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
 
     /**
      * @ElementName includeServiceInvocationBasicCallType
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
     private $includeServiceInvocationBasicCallType = array(
         
@@ -26,7 +26,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
 
     /**
      * @ElementName includeServiceInvocationCallCategory
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
     private $includeServiceInvocationCallCategory = array(
         
@@ -82,7 +82,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21sp1|null $redirectedCall
      * @return $this
      */
-    public function setRedirectedCall($redirectedCall)
+    public function setRedirectedCall(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21sp1 $redirectedCall)
     {
         $this->redirectedCall = $redirectedCall;
         return $this;
@@ -92,7 +92,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * Getter for includeServiceInvocationBasicCallType
      *
      * @ElementName includeServiceInvocationBasicCallType
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
     public function getIncludeServiceInvocationBasicCallType()
     {
@@ -103,10 +103,10 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * Setter for includeServiceInvocationBasicCallType
      *
      * @ElementName includeServiceInvocationBasicCallType
-     * @param string[] $includeServiceInvocationBasicCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[] $includeServiceInvocationBasicCallType
      * @return $this
      */
-    public function setIncludeServiceInvocationBasicCallType($includeServiceInvocationBasicCallType)
+    public function setIncludeServiceInvocationBasicCallType(array $includeServiceInvocationBasicCallType)
     {
         $this->includeServiceInvocationBasicCallType = $includeServiceInvocationBasicCallType;
         return $this;
@@ -116,7 +116,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * Adder for includeServiceInvocationBasicCallType
      *
      * @ElementName includeServiceInvocationBasicCallType
-     * @param string $includeServiceInvocationBasicCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType $includeServiceInvocationBasicCallType
      * @return $this
      */
     public function addIncludeServiceInvocationBasicCallType($includeServiceInvocationBasicCallType)
@@ -129,7 +129,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * Getter for includeServiceInvocationCallCategory
      *
      * @ElementName includeServiceInvocationCallCategory
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
     public function getIncludeServiceInvocationCallCategory()
     {
@@ -140,10 +140,10 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * Setter for includeServiceInvocationCallCategory
      *
      * @ElementName includeServiceInvocationCallCategory
-     * @param string[] $includeServiceInvocationCallCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory[] $includeServiceInvocationCallCategory
      * @return $this
      */
-    public function setIncludeServiceInvocationCallCategory($includeServiceInvocationCallCategory)
+    public function setIncludeServiceInvocationCallCategory(array $includeServiceInvocationCallCategory)
     {
         $this->includeServiceInvocationCallCategory = $includeServiceInvocationCallCategory;
         return $this;
@@ -153,7 +153,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * Adder for includeServiceInvocationCallCategory
      *
      * @ElementName includeServiceInvocationCallCategory
-     * @param string $includeServiceInvocationCallCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory $includeServiceInvocationCallCategory
      * @return $this
      */
     public function addIncludeServiceInvocationCallCategory($includeServiceInvocationCallCategory)
@@ -180,7 +180,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @param string[] $includeServiceInvocationConfigurableCallType
      * @return $this
      */
-    public function setIncludeServiceInvocationConfigurableCallType($includeServiceInvocationConfigurableCallType)
+    public function setIncludeServiceInvocationConfigurableCallType(array $includeServiceInvocationConfigurableCallType)
     {
         $this->includeServiceInvocationConfigurableCallType = $includeServiceInvocationConfigurableCallType;
         return $this;
@@ -193,7 +193,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @param string $includeServiceInvocationConfigurableCallType
      * @return $this
      */
-    public function addIncludeServiceInvocationConfigurableCallType($includeServiceInvocationConfigurableCallType)
+    public function addIncludeServiceInvocationConfigurableCallType(string $includeServiceInvocationConfigurableCallType)
     {
         $this->includeServiceInvocationConfigurableCallType []= $includeServiceInvocationConfigurableCallType;
         return $this;
@@ -217,7 +217,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaServiceInvocationDialedNumber
      * @return $this
      */
-    public function setSearchCriteriaServiceInvocationDialedNumber($searchCriteriaServiceInvocationDialedNumber)
+    public function setSearchCriteriaServiceInvocationDialedNumber(array $searchCriteriaServiceInvocationDialedNumber)
     {
         $this->searchCriteriaServiceInvocationDialedNumber = $searchCriteriaServiceInvocationDialedNumber;
         return $this;
@@ -254,7 +254,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaServiceInvocationCalledNumber
      * @return $this
      */
-    public function setSearchCriteriaServiceInvocationCalledNumber($searchCriteriaServiceInvocationCalledNumber)
+    public function setSearchCriteriaServiceInvocationCalledNumber(array $searchCriteriaServiceInvocationCalledNumber)
     {
         $this->searchCriteriaServiceInvocationCalledNumber = $searchCriteriaServiceInvocationCalledNumber;
         return $this;
@@ -291,7 +291,7 @@ class EnhancedCallLogsRedirectedNumberFilter21sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaServiceInvocationNetworkTranslatedNumber
      * @return $this
      */
-    public function setSearchCriteriaServiceInvocationNetworkTranslatedNumber($searchCriteriaServiceInvocationNetworkTranslatedNumber)
+    public function setSearchCriteriaServiceInvocationNetworkTranslatedNumber(array $searchCriteriaServiceInvocationNetworkTranslatedNumber)
     {
         $this->searchCriteriaServiceInvocationNetworkTranslatedNumber = $searchCriteriaServiceInvocationNetworkTranslatedNumber;
         return $this;

@@ -22,7 +22,7 @@ class SystemSIPModifyACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName transportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -60,7 +60,7 @@ class SystemSIPModifyACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
      */
     public function getTransportProtocol()
     {
@@ -71,10 +71,10 @@ class SystemSIPModifyACLEntryRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param string|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol($transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;

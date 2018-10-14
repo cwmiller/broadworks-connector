@@ -24,7 +24,7 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName rulesApplyTo
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
     private $rulesApplyTo = null;
 
@@ -152,7 +152,7 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
      * Getter for rulesApplyTo
      *
      * @ElementName rulesApplyTo
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
     public function getRulesApplyTo()
     {
@@ -163,10 +163,10 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
      * Setter for rulesApplyTo
      *
      * @ElementName rulesApplyTo
-     * @param string|null $rulesApplyTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null $rulesApplyTo
      * @return $this
      */
-    public function setRulesApplyTo($rulesApplyTo)
+    public function setRulesApplyTo(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo $rulesApplyTo)
     {
         $this->rulesApplyTo = $rulesApplyTo;
         return $this;

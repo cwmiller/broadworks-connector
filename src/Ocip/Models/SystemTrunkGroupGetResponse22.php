@@ -29,7 +29,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineAssertedIdentityPolicy = null;
 
@@ -41,7 +41,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName unscreenedRedirectionHandling
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     private $unscreenedRedirectionHandling = null;
 
@@ -53,31 +53,31 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName holdoverPeriod
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     private $holdoverPeriod = null;
 
     /**
      * @ElementName timeZoneOffsetMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     private $timeZoneOffsetMinutes = null;
 
     /**
      * @ElementName clidSourceForScreenedCallsPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     private $clidSourceForScreenedCallsPolicy = null;
 
     /**
      * @ElementName userLookupPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     private $userLookupPolicy = null;
 
     /**
      * @ElementName outOfDialogPBXRedirectionCLIDMapping
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping|null
      */
     private $outOfDialogPBXRedirectionCLIDMapping = null;
 
@@ -89,19 +89,19 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName implicitRegistrationSetSupportPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy|null
      */
     private $implicitRegistrationSetSupportPolicy = null;
 
     /**
      * @ElementName sipIdentityForPilotAndProxyTrunkModesPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy|null
      */
     private $sipIdentityForPilotAndProxyTrunkModesPolicy = null;
 
     /**
      * @ElementName supportConnectedIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy|null
      */
     private $supportConnectedIdentityPolicy = null;
 
@@ -163,7 +163,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for pilotUserCallingLineAssertedIdentityPolicy
      *
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     public function getPilotUserCallingLineAssertedIdentityPolicy()
     {
@@ -174,10 +174,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for pilotUserCallingLineAssertedIdentityPolicy
      *
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @param string|null $pilotUserCallingLineAssertedIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null $pilotUserCallingLineAssertedIdentityPolicy
      * @return $this
      */
-    public function setPilotUserCallingLineAssertedIdentityPolicy($pilotUserCallingLineAssertedIdentityPolicy)
+    public function setPilotUserCallingLineAssertedIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy $pilotUserCallingLineAssertedIdentityPolicy)
     {
         $this->pilotUserCallingLineAssertedIdentityPolicy = $pilotUserCallingLineAssertedIdentityPolicy;
         return $this;
@@ -211,7 +211,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for unscreenedRedirectionHandling
      *
      * @ElementName unscreenedRedirectionHandling
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     public function getUnscreenedRedirectionHandling()
     {
@@ -222,10 +222,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for unscreenedRedirectionHandling
      *
      * @ElementName unscreenedRedirectionHandling
-     * @param string|null $unscreenedRedirectionHandling
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null $unscreenedRedirectionHandling
      * @return $this
      */
-    public function setUnscreenedRedirectionHandling($unscreenedRedirectionHandling)
+    public function setUnscreenedRedirectionHandling(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling $unscreenedRedirectionHandling)
     {
         $this->unscreenedRedirectionHandling = $unscreenedRedirectionHandling;
         return $this;
@@ -259,7 +259,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for holdoverPeriod
      *
      * @ElementName holdoverPeriod
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     public function getHoldoverPeriod()
     {
@@ -270,10 +270,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for holdoverPeriod
      *
      * @ElementName holdoverPeriod
-     * @param int|null $holdoverPeriod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null $holdoverPeriod
      * @return $this
      */
-    public function setHoldoverPeriod($holdoverPeriod)
+    public function setHoldoverPeriod(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes $holdoverPeriod)
     {
         $this->holdoverPeriod = $holdoverPeriod;
         return $this;
@@ -283,7 +283,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for timeZoneOffsetMinutes
      *
      * @ElementName timeZoneOffsetMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     public function getTimeZoneOffsetMinutes()
     {
@@ -294,10 +294,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for timeZoneOffsetMinutes
      *
      * @ElementName timeZoneOffsetMinutes
-     * @param int|null $timeZoneOffsetMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null $timeZoneOffsetMinutes
      * @return $this
      */
-    public function setTimeZoneOffsetMinutes($timeZoneOffsetMinutes)
+    public function setTimeZoneOffsetMinutes(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes $timeZoneOffsetMinutes)
     {
         $this->timeZoneOffsetMinutes = $timeZoneOffsetMinutes;
         return $this;
@@ -307,7 +307,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for clidSourceForScreenedCallsPolicy
      *
      * @ElementName clidSourceForScreenedCallsPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     public function getClidSourceForScreenedCallsPolicy()
     {
@@ -318,10 +318,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for clidSourceForScreenedCallsPolicy
      *
      * @ElementName clidSourceForScreenedCallsPolicy
-     * @param string|null $clidSourceForScreenedCallsPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null $clidSourceForScreenedCallsPolicy
      * @return $this
      */
-    public function setClidSourceForScreenedCallsPolicy($clidSourceForScreenedCallsPolicy)
+    public function setClidSourceForScreenedCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy $clidSourceForScreenedCallsPolicy)
     {
         $this->clidSourceForScreenedCallsPolicy = $clidSourceForScreenedCallsPolicy;
         return $this;
@@ -331,7 +331,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for userLookupPolicy
      *
      * @ElementName userLookupPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     public function getUserLookupPolicy()
     {
@@ -342,10 +342,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for userLookupPolicy
      *
      * @ElementName userLookupPolicy
-     * @param string|null $userLookupPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null $userLookupPolicy
      * @return $this
      */
-    public function setUserLookupPolicy($userLookupPolicy)
+    public function setUserLookupPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy $userLookupPolicy)
     {
         $this->userLookupPolicy = $userLookupPolicy;
         return $this;
@@ -355,7 +355,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for outOfDialogPBXRedirectionCLIDMapping
      *
      * @ElementName outOfDialogPBXRedirectionCLIDMapping
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping|null
      */
     public function getOutOfDialogPBXRedirectionCLIDMapping()
     {
@@ -366,10 +366,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for outOfDialogPBXRedirectionCLIDMapping
      *
      * @ElementName outOfDialogPBXRedirectionCLIDMapping
-     * @param string|null $outOfDialogPBXRedirectionCLIDMapping
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping|null $outOfDialogPBXRedirectionCLIDMapping
      * @return $this
      */
-    public function setOutOfDialogPBXRedirectionCLIDMapping($outOfDialogPBXRedirectionCLIDMapping)
+    public function setOutOfDialogPBXRedirectionCLIDMapping(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupOutOfDialogPBXRedirectionCLIDMapping $outOfDialogPBXRedirectionCLIDMapping)
     {
         $this->outOfDialogPBXRedirectionCLIDMapping = $outOfDialogPBXRedirectionCLIDMapping;
         return $this;
@@ -403,7 +403,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for implicitRegistrationSetSupportPolicy
      *
      * @ElementName implicitRegistrationSetSupportPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy|null
      */
     public function getImplicitRegistrationSetSupportPolicy()
     {
@@ -414,10 +414,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for implicitRegistrationSetSupportPolicy
      *
      * @ElementName implicitRegistrationSetSupportPolicy
-     * @param string|null $implicitRegistrationSetSupportPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy|null $implicitRegistrationSetSupportPolicy
      * @return $this
      */
-    public function setImplicitRegistrationSetSupportPolicy($implicitRegistrationSetSupportPolicy)
+    public function setImplicitRegistrationSetSupportPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupImplicitRegistrationSetSupportPolicy $implicitRegistrationSetSupportPolicy)
     {
         $this->implicitRegistrationSetSupportPolicy = $implicitRegistrationSetSupportPolicy;
         return $this;
@@ -427,7 +427,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for sipIdentityForPilotAndProxyTrunkModesPolicy
      *
      * @ElementName sipIdentityForPilotAndProxyTrunkModesPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy|null
      */
     public function getSipIdentityForPilotAndProxyTrunkModesPolicy()
     {
@@ -438,10 +438,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for sipIdentityForPilotAndProxyTrunkModesPolicy
      *
      * @ElementName sipIdentityForPilotAndProxyTrunkModesPolicy
-     * @param string|null $sipIdentityForPilotAndProxyTrunkModesPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy|null $sipIdentityForPilotAndProxyTrunkModesPolicy
      * @return $this
      */
-    public function setSipIdentityForPilotAndProxyTrunkModesPolicy($sipIdentityForPilotAndProxyTrunkModesPolicy)
+    public function setSipIdentityForPilotAndProxyTrunkModesPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy $sipIdentityForPilotAndProxyTrunkModesPolicy)
     {
         $this->sipIdentityForPilotAndProxyTrunkModesPolicy = $sipIdentityForPilotAndProxyTrunkModesPolicy;
         return $this;
@@ -451,7 +451,7 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for supportConnectedIdentityPolicy
      *
      * @ElementName supportConnectedIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy|null
      */
     public function getSupportConnectedIdentityPolicy()
     {
@@ -462,10 +462,10 @@ class SystemTrunkGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for supportConnectedIdentityPolicy
      *
      * @ElementName supportConnectedIdentityPolicy
-     * @param string|null $supportConnectedIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy|null $supportConnectedIdentityPolicy
      * @return $this
      */
-    public function setSupportConnectedIdentityPolicy($supportConnectedIdentityPolicy)
+    public function setSupportConnectedIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupSupportConnectedIdentityPolicy $supportConnectedIdentityPolicy)
     {
         $this->supportConnectedIdentityPolicy = $supportConnectedIdentityPolicy;
         return $this;

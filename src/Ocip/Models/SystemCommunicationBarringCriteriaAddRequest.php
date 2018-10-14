@@ -268,7 +268,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @param string[] $matchCallType
      * @return $this
      */
-    public function setMatchCallType($matchCallType)
+    public function setMatchCallType(array $matchCallType)
     {
         $this->matchCallType = $matchCallType;
         return $this;
@@ -281,7 +281,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @param string $matchCallType
      * @return $this
      */
-    public function addMatchCallType($matchCallType)
+    public function addMatchCallType(string $matchCallType)
     {
         $this->matchCallType []= $matchCallType;
         return $this;
@@ -305,7 +305,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @param string[] $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(array $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
         return $this;
@@ -318,7 +318,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @param string $matchAlternateCallIndicator
      * @return $this
      */
-    public function addMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function addMatchAlternateCallIndicator(string $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator []= $matchAlternateCallIndicator;
         return $this;
@@ -342,7 +342,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @param string[] $matchVirtualOnNetCallType
      * @return $this
      */
-    public function setMatchVirtualOnNetCallType($matchVirtualOnNetCallType)
+    public function setMatchVirtualOnNetCallType(array $matchVirtualOnNetCallType)
     {
         $this->matchVirtualOnNetCallType = $matchVirtualOnNetCallType;
         return $this;
@@ -355,7 +355,7 @@ class SystemCommunicationBarringCriteriaAddRequest extends \CWM\BroadWorksConnec
      * @param string $matchVirtualOnNetCallType
      * @return $this
      */
-    public function addMatchVirtualOnNetCallType($matchVirtualOnNetCallType)
+    public function addMatchVirtualOnNetCallType(string $matchVirtualOnNetCallType)
     {
         $this->matchVirtualOnNetCallType []= $matchVirtualOnNetCallType;
         return $this;

@@ -43,7 +43,7 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[] $scheduleGlobalKey
      * @return $this
      */
-    public function setScheduleGlobalKey($scheduleGlobalKey)
+    public function setScheduleGlobalKey(array $scheduleGlobalKey)
     {
         $this->scheduleGlobalKey = $scheduleGlobalKey;
         return $this;

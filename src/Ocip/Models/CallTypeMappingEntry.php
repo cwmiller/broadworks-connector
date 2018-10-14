@@ -24,7 +24,7 @@ class CallTypeMappingEntry
 
     /**
      * @ElementName callType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
     private $callType = null;
 
@@ -80,7 +80,7 @@ class CallTypeMappingEntry
      * Getter for callType
      *
      * @ElementName callType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
     public function getCallType()
     {
@@ -91,10 +91,10 @@ class CallTypeMappingEntry
      * Setter for callType
      *
      * @ElementName callType
-     * @param string|null $callType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null $callType
      * @return $this
      */
-    public function setCallType($callType)
+    public function setCallType(\CWM\BroadWorksConnector\Ocip\Models\SystemCallType $callType)
     {
         $this->callType = $callType;
         return $this;

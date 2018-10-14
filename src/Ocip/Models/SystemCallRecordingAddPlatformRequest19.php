@@ -37,13 +37,13 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName mediaStream
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     private $mediaStream = null;
 
     /**
      * @ElementName transportType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportType = null;
 
@@ -55,7 +55,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName schemaVersion
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null
      */
     private $schemaVersion = null;
 
@@ -135,7 +135,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * Getter for mediaStream
      *
      * @ElementName mediaStream
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     public function getMediaStream()
     {
@@ -146,10 +146,10 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * Setter for mediaStream
      *
      * @ElementName mediaStream
-     * @param string|null $mediaStream
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null $mediaStream
      * @return $this
      */
-    public function setMediaStream($mediaStream)
+    public function setMediaStream(\CWM\BroadWorksConnector\Ocip\Models\MediaStream $mediaStream)
     {
         $this->mediaStream = $mediaStream;
         return $this;
@@ -159,7 +159,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * Getter for transportType
      *
      * @ElementName transportType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportType()
     {
@@ -170,10 +170,10 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * Setter for transportType
      *
      * @ElementName transportType
-     * @param string|null $transportType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportType
      * @return $this
      */
-    public function setTransportType($transportType)
+    public function setTransportType(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportType)
     {
         $this->transportType = $transportType;
         return $this;
@@ -207,7 +207,7 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * Getter for schemaVersion
      *
      * @ElementName schemaVersion
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null
      */
     public function getSchemaVersion()
     {
@@ -218,10 +218,10 @@ class SystemCallRecordingAddPlatformRequest19 extends \CWM\BroadWorksConnector\O
      * Setter for schemaVersion
      *
      * @ElementName schemaVersion
-     * @param string|null $schemaVersion
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion|null $schemaVersion
      * @return $this
      */
-    public function setSchemaVersion($schemaVersion)
+    public function setSchemaVersion(\CWM\BroadWorksConnector\Ocip\Models\CallRecordingPlatformSchemaVersion $schemaVersion)
     {
         $this->schemaVersion = $schemaVersion;
         return $this;

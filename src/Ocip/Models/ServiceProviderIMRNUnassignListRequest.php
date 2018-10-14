@@ -81,7 +81,7 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
      * @param string[] $imrn
      * @return $this
      */
-    public function setImrn($imrn)
+    public function setImrn(array $imrn)
     {
         $this->imrn = $imrn;
         return $this;
@@ -94,7 +94,7 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
      * @param string $imrn
      * @return $this
      */
-    public function addImrn($imrn)
+    public function addImrn(string $imrn)
     {
         $this->imrn []= $imrn;
         return $this;
@@ -118,7 +118,7 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $imrnRange
      * @return $this
      */
-    public function setImrnRange($imrnRange)
+    public function setImrnRange(array $imrnRange)
     {
         $this->imrnRange = $imrnRange;
         return $this;

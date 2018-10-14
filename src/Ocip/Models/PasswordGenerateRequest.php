@@ -68,7 +68,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\PasswordForSystemAdministrator|null $systemAdministratorPassword
      * @return $this
      */
-    public function setSystemAdministratorPassword($systemAdministratorPassword)
+    public function setSystemAdministratorPassword(\CWM\BroadWorksConnector\Ocip\Models\PasswordForSystemAdministrator $systemAdministratorPassword)
     {
         $this->systemAdministratorPassword = $systemAdministratorPassword;
         return $this;
@@ -92,7 +92,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\PasswordForServiceProviderAdministrator|null $serviceProviderAdministratorPassword
      * @return $this
      */
-    public function setServiceProviderAdministratorPassword($serviceProviderAdministratorPassword)
+    public function setServiceProviderAdministratorPassword(\CWM\BroadWorksConnector\Ocip\Models\PasswordForServiceProviderAdministrator $serviceProviderAdministratorPassword)
     {
         $this->serviceProviderAdministratorPassword = $serviceProviderAdministratorPassword;
         return $this;
@@ -116,7 +116,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\PasswordForGroupAdministrator|null $groupAdministratorPassword
      * @return $this
      */
-    public function setGroupAdministratorPassword($groupAdministratorPassword)
+    public function setGroupAdministratorPassword(\CWM\BroadWorksConnector\Ocip\Models\PasswordForGroupAdministrator $groupAdministratorPassword)
     {
         $this->groupAdministratorPassword = $groupAdministratorPassword;
         return $this;
@@ -140,7 +140,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\PasswordForUser|null $userPassword
      * @return $this
      */
-    public function setUserPassword($userPassword)
+    public function setUserPassword(\CWM\BroadWorksConnector\Ocip\Models\PasswordForUser $userPassword)
     {
         $this->userPassword = $userPassword;
         return $this;
@@ -164,7 +164,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\PasswordForAccessDevice|null $accessDeviceAuthenticationPassword
      * @return $this
      */
-    public function setAccessDeviceAuthenticationPassword($accessDeviceAuthenticationPassword)
+    public function setAccessDeviceAuthenticationPassword(\CWM\BroadWorksConnector\Ocip\Models\PasswordForAccessDevice $accessDeviceAuthenticationPassword)
     {
         $this->accessDeviceAuthenticationPassword = $accessDeviceAuthenticationPassword;
         return $this;
@@ -188,7 +188,7 @@ class PasswordGenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\PasswordForTrunkGroup|null $trunkGroupAuthenticationPassword
      * @return $this
      */
-    public function setTrunkGroupAuthenticationPassword($trunkGroupAuthenticationPassword)
+    public function setTrunkGroupAuthenticationPassword(\CWM\BroadWorksConnector\Ocip\Models\PasswordForTrunkGroup $trunkGroupAuthenticationPassword)
     {
         $this->trunkGroupAuthenticationPassword = $trunkGroupAuthenticationPassword;
         return $this;

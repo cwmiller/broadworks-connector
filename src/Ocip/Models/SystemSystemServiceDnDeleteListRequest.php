@@ -50,7 +50,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -63,7 +63,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;
@@ -87,7 +87,7 @@ class SystemSystemServiceDnDeleteListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $dnRange
      * @return $this
      */
-    public function setDnRange($dnRange)
+    public function setDnRange(array $dnRange)
     {
         $this->dnRange = $dnRange;
         return $this;

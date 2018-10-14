@@ -558,7 +558,7 @@ class GroupCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWorksConn
      * @param string[] $notificationEmailAddress
      * @return $this
      */
-    public function setNotificationEmailAddress($notificationEmailAddress)
+    public function setNotificationEmailAddress(array $notificationEmailAddress)
     {
         $this->notificationEmailAddress = $notificationEmailAddress;
         return $this;
@@ -571,7 +571,7 @@ class GroupCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWorksConn
      * @param string $notificationEmailAddress
      * @return $this
      */
-    public function addNotificationEmailAddress($notificationEmailAddress)
+    public function addNotificationEmailAddress(string $notificationEmailAddress)
     {
         $this->notificationEmailAddress []= $notificationEmailAddress;
         return $this;
@@ -595,7 +595,7 @@ class GroupCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWorksConn
      * @param string[] $agentUserId
      * @return $this
      */
-    public function setAgentUserId($agentUserId)
+    public function setAgentUserId(array $agentUserId)
     {
         $this->agentUserId = $agentUserId;
         return $this;
@@ -608,7 +608,7 @@ class GroupCallCenterAgentThresholdProfileAddRequest extends \CWM\BroadWorksConn
      * @param string $agentUserId
      * @return $this
      */
-    public function addAgentUserId($agentUserId)
+    public function addAgentUserId(string $agentUserId)
     {
         $this->agentUserId []= $agentUserId;
         return $this;

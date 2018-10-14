@@ -14,7 +14,7 @@ class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName prefix
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     private $prefix = array(
         
@@ -24,7 +24,7 @@ class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\O
      * Getter for prefix
      *
      * @ElementName prefix
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     public function getPrefix()
     {
@@ -35,10 +35,10 @@ class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\O
      * Setter for prefix
      *
      * @ElementName prefix
-     * @param string[] $prefix
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[] $prefix
      * @return $this
      */
-    public function setPrefix($prefix)
+    public function setPrefix(array $prefix)
     {
         $this->prefix = $prefix;
         return $this;
@@ -48,7 +48,7 @@ class SystemCLIDDeliveryPrefixGetListResponse extends \CWM\BroadWorksConnector\O
      * Adder for prefix
      *
      * @ElementName prefix
-     * @param string $prefix
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix $prefix
      * @return $this
      */
     public function addPrefix($prefix)

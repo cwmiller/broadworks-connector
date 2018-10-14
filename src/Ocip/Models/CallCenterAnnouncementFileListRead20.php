@@ -52,7 +52,7 @@ class CallCenterAnnouncementFileListRead20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file1
      * @return $this
      */
-    public function setFile1($file1)
+    public function setFile1(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file1)
     {
         $this->file1 = $file1;
         return $this;
@@ -76,7 +76,7 @@ class CallCenterAnnouncementFileListRead20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file2
      * @return $this
      */
-    public function setFile2($file2)
+    public function setFile2(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file2)
     {
         $this->file2 = $file2;
         return $this;
@@ -100,7 +100,7 @@ class CallCenterAnnouncementFileListRead20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file3
      * @return $this
      */
-    public function setFile3($file3)
+    public function setFile3(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file3)
     {
         $this->file3 = $file3;
         return $this;
@@ -124,7 +124,7 @@ class CallCenterAnnouncementFileListRead20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file4
      * @return $this
      */
-    public function setFile4($file4)
+    public function setFile4(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file4)
     {
         $this->file4 = $file4;
         return $this;

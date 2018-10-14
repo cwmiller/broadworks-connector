@@ -71,7 +71,7 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @param string[] $monitoredUserId
      * @return $this
      */
-    public function setMonitoredUserId($monitoredUserId)
+    public function setMonitoredUserId(array $monitoredUserId)
     {
         $this->monitoredUserId = $monitoredUserId;
         return $this;
@@ -84,7 +84,7 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
      * @param string $monitoredUserId
      * @return $this
      */
-    public function addMonitoredUserId($monitoredUserId)
+    public function addMonitoredUserId(string $monitoredUserId)
     {
         $this->monitoredUserId []= $monitoredUserId;
         return $this;

@@ -16,7 +16,7 @@ class GroupAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName fileSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
@@ -30,7 +30,7 @@ class GroupAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for fileSource
      *
      * @ElementName fileSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     public function getFileSource()
     {
@@ -41,10 +41,10 @@ class GroupAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for fileSource
      *
      * @ElementName fileSource
-     * @param string|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null $fileSource
      * @return $this
      */
-    public function setFileSource($fileSource)
+    public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $fileSource)
     {
         $this->fileSource = $fileSource;
         return $this;

@@ -46,7 +46,7 @@ class OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -94,7 +94,7 @@ class OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null $digitPatternPermissions
      * @return $this
      */
-    public function setDigitPatternPermissions($digitPatternPermissions)
+    public function setDigitPatternPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions $digitPatternPermissions)
     {
         $this->digitPatternPermissions = $digitPatternPermissions;
         return $this;

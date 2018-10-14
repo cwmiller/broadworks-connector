@@ -46,7 +46,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName routeExhaustionAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
 
@@ -58,13 +58,13 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName orderedRouting
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest\OrderedRouting|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestOrderedRouting|null
      */
     private $orderedRouting = null;
 
     /**
      * @ElementName priorityWeightedRouting
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest\PriorityWeightedRouting|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
 
@@ -216,7 +216,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for routeExhaustionAction
      *
      * @ElementName routeExhaustionAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     public function getRouteExhaustionAction()
     {
@@ -227,10 +227,10 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for routeExhaustionAction
      *
      * @ElementName routeExhaustionAction
-     * @param string|null $routeExhaustionAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null $routeExhaustionAction
      * @return $this
      */
-    public function setRouteExhaustionAction($routeExhaustionAction)
+    public function setRouteExhaustionAction(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction $routeExhaustionAction)
     {
         $this->routeExhaustionAction = $routeExhaustionAction;
         return $this;
@@ -264,7 +264,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for orderedRouting
      *
      * @ElementName orderedRouting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest\OrderedRouting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestOrderedRouting|null
      */
     public function getOrderedRouting()
     {
@@ -275,10 +275,10 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for orderedRouting
      *
      * @ElementName orderedRouting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest\OrderedRouting|null $orderedRouting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestOrderedRouting|null $orderedRouting
      * @return $this
      */
-    public function setOrderedRouting($orderedRouting)
+    public function setOrderedRouting(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestOrderedRouting $orderedRouting)
     {
         $this->orderedRouting = $orderedRouting;
         return $this;
@@ -288,7 +288,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for priorityWeightedRouting
      *
      * @ElementName priorityWeightedRouting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest\PriorityWeightedRouting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting|null
      */
     public function getPriorityWeightedRouting()
     {
@@ -299,10 +299,10 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for priorityWeightedRouting
      *
      * @ElementName priorityWeightedRouting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequest\PriorityWeightedRouting|null $priorityWeightedRouting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting|null $priorityWeightedRouting
      * @return $this
      */
-    public function setPriorityWeightedRouting($priorityWeightedRouting)
+    public function setPriorityWeightedRouting(\CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting $priorityWeightedRouting)
     {
         $this->priorityWeightedRouting = $priorityWeightedRouting;
         return $this;

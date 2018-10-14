@@ -28,7 +28,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName answerConfirmation
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     private $answerConfirmation = null;
 
@@ -92,7 +92,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for answerConfirmation
      *
      * @ElementName answerConfirmation
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     public function getAnswerConfirmation()
     {
@@ -103,10 +103,10 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for answerConfirmation
      *
      * @ElementName answerConfirmation
-     * @param string|null $answerConfirmation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null $answerConfirmation
      * @return $this
      */
-    public function setAnswerConfirmation($answerConfirmation)
+    public function setAnswerConfirmation(\CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation $answerConfirmation)
     {
         $this->answerConfirmation = $answerConfirmation;
         return $this;
@@ -130,7 +130,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
-    public function setCriteriaActivation($criteriaActivation)
+    public function setCriteriaActivation(array $criteriaActivation)
     {
         $this->criteriaActivation = $criteriaActivation;
         return $this;

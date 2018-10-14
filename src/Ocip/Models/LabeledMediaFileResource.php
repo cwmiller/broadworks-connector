@@ -19,7 +19,7 @@ class LabeledMediaFileResource
 
     /**
      * @ElementName mediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType = null;
 
@@ -63,7 +63,7 @@ class LabeledMediaFileResource
      * Getter for mediaType
      *
      * @ElementName mediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaType()
     {
@@ -74,10 +74,10 @@ class LabeledMediaFileResource
      * Setter for mediaType
      *
      * @ElementName mediaType
-     * @param string|null $mediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaType
      * @return $this
      */
-    public function setMediaType($mediaType)
+    public function setMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType)
     {
         $this->mediaType = $mediaType;
         return $this;

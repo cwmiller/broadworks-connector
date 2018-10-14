@@ -70,7 +70,7 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
      * @param string[] $physicalLocation
      * @return $this
      */
-    public function setPhysicalLocation($physicalLocation)
+    public function setPhysicalLocation(array $physicalLocation)
     {
         $this->physicalLocation = $physicalLocation;
         return $this;
@@ -83,7 +83,7 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
      * @param string $physicalLocation
      * @return $this
      */
-    public function addPhysicalLocation($physicalLocation)
+    public function addPhysicalLocation(string $physicalLocation)
     {
         $this->physicalLocation []= $physicalLocation;
         return $this;

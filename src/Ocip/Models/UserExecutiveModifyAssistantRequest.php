@@ -99,7 +99,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $assistantUserIdList
      * @return $this
      */
-    public function setAssistantUserIdList($assistantUserIdList)
+    public function setAssistantUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $assistantUserIdList)
     {
         $this->assistantUserIdList = $assistantUserIdList;
         return $this;

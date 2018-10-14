@@ -64,7 +64,7 @@ class TrunkAddressingMultipleContactAdd
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointAdd|null $trunkGroupDeviceEndpoint
      * @return $this
      */
-    public function setTrunkGroupDeviceEndpoint($trunkGroupDeviceEndpoint)
+    public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointAdd $trunkGroupDeviceEndpoint)
     {
         $this->trunkGroupDeviceEndpoint = $trunkGroupDeviceEndpoint;
         return $this;

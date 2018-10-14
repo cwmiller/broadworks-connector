@@ -16,7 +16,7 @@ class SystemCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName codec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     private $codec = null;
 
@@ -24,7 +24,7 @@ class SystemCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Getter for codec
      *
      * @ElementName codec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     public function getCodec()
     {
@@ -35,10 +35,10 @@ class SystemCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Setter for codec
      *
      * @ElementName codec
-     * @param string|null $codec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Codec|null $codec
      * @return $this
      */
-    public function setCodec($codec)
+    public function setCodec(\CWM\BroadWorksConnector\Ocip\Models\Codec $codec)
     {
         $this->codec = $codec;
         return $this;

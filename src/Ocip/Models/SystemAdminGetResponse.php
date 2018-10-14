@@ -34,7 +34,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
 
     /**
      * @ElementName adminType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
 
@@ -120,7 +120,7 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * Getter for adminType
      *
      * @ElementName adminType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     public function getAdminType()
     {
@@ -131,10 +131,10 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * Setter for adminType
      *
      * @ElementName adminType
-     * @param string|null $adminType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null $adminType
      * @return $this
      */
-    public function setAdminType($adminType)
+    public function setAdminType(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminType $adminType)
     {
         $this->adminType = $adminType;
         return $this;

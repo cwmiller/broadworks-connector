@@ -14,7 +14,7 @@ class UserCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName redirectedCallsCOLPPrivacy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     private $redirectedCallsCOLPPrivacy = null;
 
@@ -22,7 +22,7 @@ class UserCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for redirectedCallsCOLPPrivacy
      *
      * @ElementName redirectedCallsCOLPPrivacy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     public function getRedirectedCallsCOLPPrivacy()
     {
@@ -33,10 +33,10 @@ class UserCallPoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for redirectedCallsCOLPPrivacy
      *
      * @ElementName redirectedCallsCOLPPrivacy
-     * @param string|null $redirectedCallsCOLPPrivacy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null $redirectedCallsCOLPPrivacy
      * @return $this
      */
-    public function setRedirectedCallsCOLPPrivacy($redirectedCallsCOLPPrivacy)
+    public function setRedirectedCallsCOLPPrivacy(\CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls $redirectedCallsCOLPPrivacy)
     {
         $this->redirectedCallsCOLPPrivacy = $redirectedCallsCOLPPrivacy;
         return $this;

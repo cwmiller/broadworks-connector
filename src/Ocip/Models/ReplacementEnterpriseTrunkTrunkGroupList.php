@@ -39,7 +39,7 @@ class ReplacementEnterpriseTrunkTrunkGroupList
      * @param string[] $trunkGroup
      * @return $this
      */
-    public function setTrunkGroup($trunkGroup)
+    public function setTrunkGroup(array $trunkGroup)
     {
         $this->trunkGroup = $trunkGroup;
         return $this;
@@ -52,7 +52,7 @@ class ReplacementEnterpriseTrunkTrunkGroupList
      * @param string $trunkGroup
      * @return $this
      */
-    public function addTrunkGroup($trunkGroup)
+    public function addTrunkGroup(string $trunkGroup)
     {
         $this->trunkGroup []= $trunkGroup;
         return $this;

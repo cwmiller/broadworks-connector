@@ -82,7 +82,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName capacityExceededAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     private $capacityExceededAction = null;
 
@@ -112,7 +112,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName unreachableDestinationAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     private $unreachableDestinationAction = null;
 
@@ -220,19 +220,19 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName pilotUserCallingLineIdentityForExternalCallsPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineIdentityForExternalCallsPolicy = null;
 
     /**
      * @ElementName pilotUserChargeNumberPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null
      */
     private $pilotUserChargeNumberPolicy = null;
 
     /**
      * @ElementName callForwardingAlwaysAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null
      */
     private $callForwardingAlwaysAction = null;
 
@@ -322,13 +322,13 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName trunkGroupState
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState|null
      */
     private $trunkGroupState = null;
 
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineAssertedIdentityPolicy = null;
 
@@ -352,13 +352,13 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName pilotUserCallOptimizationPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallOptimizationPolicy|null
      */
     private $pilotUserCallOptimizationPolicy = null;
 
     /**
      * @ElementName clidSourceForScreenedCallsPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     private $clidSourceForScreenedCallsPolicy = null;
 
@@ -370,7 +370,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName userLookupPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     private $userLookupPolicy = null;
 
@@ -382,7 +382,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName pilotUserCallingLineIdentityForEmergencyCallsPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineIdentityForEmergencyCallsPolicy = null;
 
@@ -428,7 +428,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -452,7 +452,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -630,7 +630,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     public function getCapacityExceededAction()
     {
@@ -641,10 +641,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @param string|null $capacityExceededAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null $capacityExceededAction
      * @return $this
      */
-    public function setCapacityExceededAction($capacityExceededAction)
+    public function setCapacityExceededAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction $capacityExceededAction)
     {
         $this->capacityExceededAction = $capacityExceededAction;
         return $this;
@@ -692,7 +692,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $capacityExceededRerouteTrunkGroupKey
      * @return $this
      */
-    public function setCapacityExceededRerouteTrunkGroupKey($capacityExceededRerouteTrunkGroupKey)
+    public function setCapacityExceededRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $capacityExceededRerouteTrunkGroupKey)
     {
         $this->capacityExceededRerouteTrunkGroupKey = $capacityExceededRerouteTrunkGroupKey;
         return $this;
@@ -750,7 +750,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     public function getUnreachableDestinationAction()
     {
@@ -761,10 +761,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @param string|null $unreachableDestinationAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null $unreachableDestinationAction
      * @return $this
      */
-    public function setUnreachableDestinationAction($unreachableDestinationAction)
+    public function setUnreachableDestinationAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction $unreachableDestinationAction)
     {
         $this->unreachableDestinationAction = $unreachableDestinationAction;
         return $this;
@@ -812,7 +812,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $unreachableDestinationRerouteTrunkGroupKey
      * @return $this
      */
-    public function setUnreachableDestinationRerouteTrunkGroupKey($unreachableDestinationRerouteTrunkGroupKey)
+    public function setUnreachableDestinationRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $unreachableDestinationRerouteTrunkGroupKey)
     {
         $this->unreachableDestinationRerouteTrunkGroupKey = $unreachableDestinationRerouteTrunkGroupKey;
         return $this;
@@ -908,7 +908,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $hostedUserTable
      * @return $this
      */
-    public function setHostedUserTable($hostedUserTable)
+    public function setHostedUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $hostedUserTable)
     {
         $this->hostedUserTable = $hostedUserTable;
         return $this;
@@ -1182,7 +1182,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for pilotUserCallingLineIdentityForExternalCallsPolicy
      *
      * @ElementName pilotUserCallingLineIdentityForExternalCallsPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     public function getPilotUserCallingLineIdentityForExternalCallsPolicy()
     {
@@ -1193,10 +1193,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for pilotUserCallingLineIdentityForExternalCallsPolicy
      *
      * @ElementName pilotUserCallingLineIdentityForExternalCallsPolicy
-     * @param string|null $pilotUserCallingLineIdentityForExternalCallsPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null $pilotUserCallingLineIdentityForExternalCallsPolicy
      * @return $this
      */
-    public function setPilotUserCallingLineIdentityForExternalCallsPolicy($pilotUserCallingLineIdentityForExternalCallsPolicy)
+    public function setPilotUserCallingLineIdentityForExternalCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityForExternalCallsPolicy)
     {
         $this->pilotUserCallingLineIdentityForExternalCallsPolicy = $pilotUserCallingLineIdentityForExternalCallsPolicy;
         return $this;
@@ -1206,7 +1206,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for pilotUserChargeNumberPolicy
      *
      * @ElementName pilotUserChargeNumberPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null
      */
     public function getPilotUserChargeNumberPolicy()
     {
@@ -1217,10 +1217,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for pilotUserChargeNumberPolicy
      *
      * @ElementName pilotUserChargeNumberPolicy
-     * @param string|null $pilotUserChargeNumberPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy|null $pilotUserChargeNumberPolicy
      * @return $this
      */
-    public function setPilotUserChargeNumberPolicy($pilotUserChargeNumberPolicy)
+    public function setPilotUserChargeNumberPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserChargeNumberUsagePolicy $pilotUserChargeNumberPolicy)
     {
         $this->pilotUserChargeNumberPolicy = $pilotUserChargeNumberPolicy;
         return $this;
@@ -1230,7 +1230,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for callForwardingAlwaysAction
      *
      * @ElementName callForwardingAlwaysAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null
      */
     public function getCallForwardingAlwaysAction()
     {
@@ -1241,10 +1241,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for callForwardingAlwaysAction
      *
      * @ElementName callForwardingAlwaysAction
-     * @param string|null $callForwardingAlwaysAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction|null $callForwardingAlwaysAction
      * @return $this
      */
-    public function setCallForwardingAlwaysAction($callForwardingAlwaysAction)
+    public function setCallForwardingAlwaysAction(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCallForwardingAlwaysAction $callForwardingAlwaysAction)
     {
         $this->callForwardingAlwaysAction = $callForwardingAlwaysAction;
         return $this;
@@ -1292,7 +1292,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $callForwardingAlwaysRerouteTrunkGroupKey
      * @return $this
      */
-    public function setCallForwardingAlwaysRerouteTrunkGroupKey($callForwardingAlwaysRerouteTrunkGroupKey)
+    public function setCallForwardingAlwaysRerouteTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $callForwardingAlwaysRerouteTrunkGroupKey)
     {
         $this->callForwardingAlwaysRerouteTrunkGroupKey = $callForwardingAlwaysRerouteTrunkGroupKey;
         return $this;
@@ -1590,7 +1590,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for trunkGroupState
      *
      * @ElementName trunkGroupState
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState|null
      */
     public function getTrunkGroupState()
     {
@@ -1601,10 +1601,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for trunkGroupState
      *
      * @ElementName trunkGroupState
-     * @param string|null $trunkGroupState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState|null $trunkGroupState
      * @return $this
      */
-    public function setTrunkGroupState($trunkGroupState)
+    public function setTrunkGroupState(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupState $trunkGroupState)
     {
         $this->trunkGroupState = $trunkGroupState;
         return $this;
@@ -1614,7 +1614,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for pilotUserCallingLineAssertedIdentityPolicy
      *
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     public function getPilotUserCallingLineAssertedIdentityPolicy()
     {
@@ -1625,10 +1625,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for pilotUserCallingLineAssertedIdentityPolicy
      *
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @param string|null $pilotUserCallingLineAssertedIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null $pilotUserCallingLineAssertedIdentityPolicy
      * @return $this
      */
-    public function setPilotUserCallingLineAssertedIdentityPolicy($pilotUserCallingLineAssertedIdentityPolicy)
+    public function setPilotUserCallingLineAssertedIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy $pilotUserCallingLineAssertedIdentityPolicy)
     {
         $this->pilotUserCallingLineAssertedIdentityPolicy = $pilotUserCallingLineAssertedIdentityPolicy;
         return $this;
@@ -1710,7 +1710,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for pilotUserCallOptimizationPolicy
      *
      * @ElementName pilotUserCallOptimizationPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallOptimizationPolicy|null
      */
     public function getPilotUserCallOptimizationPolicy()
     {
@@ -1721,10 +1721,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for pilotUserCallOptimizationPolicy
      *
      * @ElementName pilotUserCallOptimizationPolicy
-     * @param string|null $pilotUserCallOptimizationPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallOptimizationPolicy|null $pilotUserCallOptimizationPolicy
      * @return $this
      */
-    public function setPilotUserCallOptimizationPolicy($pilotUserCallOptimizationPolicy)
+    public function setPilotUserCallOptimizationPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallOptimizationPolicy $pilotUserCallOptimizationPolicy)
     {
         $this->pilotUserCallOptimizationPolicy = $pilotUserCallOptimizationPolicy;
         return $this;
@@ -1734,7 +1734,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for clidSourceForScreenedCallsPolicy
      *
      * @ElementName clidSourceForScreenedCallsPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null
      */
     public function getClidSourceForScreenedCallsPolicy()
     {
@@ -1745,10 +1745,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for clidSourceForScreenedCallsPolicy
      *
      * @ElementName clidSourceForScreenedCallsPolicy
-     * @param string|null $clidSourceForScreenedCallsPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy|null $clidSourceForScreenedCallsPolicy
      * @return $this
      */
-    public function setClidSourceForScreenedCallsPolicy($clidSourceForScreenedCallsPolicy)
+    public function setClidSourceForScreenedCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCLIDSourceForScreenedCallsPolicy $clidSourceForScreenedCallsPolicy)
     {
         $this->clidSourceForScreenedCallsPolicy = $clidSourceForScreenedCallsPolicy;
         return $this;
@@ -1782,7 +1782,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for userLookupPolicy
      *
      * @ElementName userLookupPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null
      */
     public function getUserLookupPolicy()
     {
@@ -1793,10 +1793,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for userLookupPolicy
      *
      * @ElementName userLookupPolicy
-     * @param string|null $userLookupPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy|null $userLookupPolicy
      * @return $this
      */
-    public function setUserLookupPolicy($userLookupPolicy)
+    public function setUserLookupPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserLookupPolicy $userLookupPolicy)
     {
         $this->userLookupPolicy = $userLookupPolicy;
         return $this;
@@ -1830,7 +1830,7 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Getter for pilotUserCallingLineIdentityForEmergencyCallsPolicy
      *
      * @ElementName pilotUserCallingLineIdentityForEmergencyCallsPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null
      */
     public function getPilotUserCallingLineIdentityForEmergencyCallsPolicy()
     {
@@ -1841,10 +1841,10 @@ class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector
      * Setter for pilotUserCallingLineIdentityForEmergencyCallsPolicy
      *
      * @ElementName pilotUserCallingLineIdentityForEmergencyCallsPolicy
-     * @param string|null $pilotUserCallingLineIdentityForEmergencyCallsPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy|null $pilotUserCallingLineIdentityForEmergencyCallsPolicy
      * @return $this
      */
-    public function setPilotUserCallingLineIdentityForEmergencyCallsPolicy($pilotUserCallingLineIdentityForEmergencyCallsPolicy)
+    public function setPilotUserCallingLineIdentityForEmergencyCallsPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineIdentityUsagePolicy $pilotUserCallingLineIdentityForEmergencyCallsPolicy)
     {
         $this->pilotUserCallingLineIdentityForEmergencyCallsPolicy = $pilotUserCallingLineIdentityForEmergencyCallsPolicy;
         return $this;

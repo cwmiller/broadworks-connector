@@ -121,7 +121,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
 
     /**
      * @ElementName transportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -155,7 +155,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;
@@ -227,7 +227,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * @param string[] $contact
      * @return $this
      */
-    public function setContact($contact)
+    public function setContact(array $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -240,7 +240,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * @param string $contact
      * @return $this
      */
-    public function addContact($contact)
+    public function addContact(string $contact)
     {
         $this->contact []= $contact;
         return $this;
@@ -514,7 +514,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportProtocol()
     {
@@ -525,10 +525,10 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param string|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol($transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;
@@ -576,7 +576,7 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
      * @return $this
      */
-    public function setAccessDeviceCredentials($accessDeviceCredentials)
+    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)
     {
         $this->accessDeviceCredentials = $accessDeviceCredentials;
         return $this;

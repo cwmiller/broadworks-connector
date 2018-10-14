@@ -40,7 +40,7 @@ class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $appTable
      * @return $this
      */
-    public function setAppTable($appTable)
+    public function setAppTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $appTable)
     {
         $this->appTable = $appTable;
         return $this;

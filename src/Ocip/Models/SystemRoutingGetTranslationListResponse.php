@@ -38,7 +38,7 @@ class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routingTable
      * @return $this
      */
-    public function setRoutingTable($routingTable)
+    public function setRoutingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingTable)
     {
         $this->routingTable = $routingTable;
         return $this;

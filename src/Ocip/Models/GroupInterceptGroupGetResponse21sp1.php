@@ -25,7 +25,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName announcementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
@@ -37,7 +37,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName audioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
@@ -49,13 +49,13 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName videoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
     /**
      * @ElementName inboundCallMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     private $inboundCallMode = null;
 
@@ -109,7 +109,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName outboundCallMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     private $outboundCallMode = null;
 
@@ -159,7 +159,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getAnnouncementSelection()
     {
@@ -170,10 +170,10 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @param string|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
      * @return $this
      */
-    public function setAnnouncementSelection($announcementSelection)
+    public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
     {
         $this->announcementSelection = $announcementSelection;
         return $this;
@@ -207,7 +207,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioMediaType()
     {
@@ -218,10 +218,10 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @param string|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
      * @return $this
      */
-    public function setAudioMediaType($audioMediaType)
+    public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
     {
         $this->audioMediaType = $audioMediaType;
         return $this;
@@ -255,7 +255,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVideoMediaType()
     {
@@ -266,10 +266,10 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @param string|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
      * @return $this
      */
-    public function setVideoMediaType($videoMediaType)
+    public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
         return $this;
@@ -279,7 +279,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for inboundCallMode
      *
      * @ElementName inboundCallMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     public function getInboundCallMode()
     {
@@ -290,10 +290,10 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for inboundCallMode
      *
      * @ElementName inboundCallMode
-     * @param string|null $inboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null $inboundCallMode
      * @return $this
      */
-    public function setInboundCallMode($inboundCallMode)
+    public function setInboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode)
     {
         $this->inboundCallMode = $inboundCallMode;
         return $this;
@@ -495,7 +495,7 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for outboundCallMode
      *
      * @ElementName outboundCallMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     public function getOutboundCallMode()
     {
@@ -506,10 +506,10 @@ class GroupInterceptGroupGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for outboundCallMode
      *
      * @ElementName outboundCallMode
-     * @param string|null $outboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null $outboundCallMode
      * @return $this
      */
-    public function setOutboundCallMode($outboundCallMode)
+    public function setOutboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall $outboundCallMode)
     {
         $this->outboundCallMode = $outboundCallMode;
         return $this;

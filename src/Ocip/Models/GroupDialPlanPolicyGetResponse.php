@@ -16,7 +16,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName useSetting
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     private $useSetting = null;
 
@@ -48,7 +48,7 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for useSetting
      *
      * @ElementName useSetting
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     public function getUseSetting()
     {
@@ -59,10 +59,10 @@ class GroupDialPlanPolicyGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for useSetting
      *
      * @ElementName useSetting
-     * @param string|null $useSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null $useSetting
      * @return $this
      */
-    public function setUseSetting($useSetting)
+    public function setUseSetting(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel $useSetting)
     {
         $this->useSetting = $useSetting;
         return $this;

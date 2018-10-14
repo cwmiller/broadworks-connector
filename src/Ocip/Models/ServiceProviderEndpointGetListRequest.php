@@ -197,7 +197,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -234,7 +234,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[] $searchCriteriaLinePortUserPart
      * @return $this
      */
-    public function setSearchCriteriaLinePortUserPart($searchCriteriaLinePortUserPart)
+    public function setSearchCriteriaLinePortUserPart(array $searchCriteriaLinePortUserPart)
     {
         $this->searchCriteriaLinePortUserPart = $searchCriteriaLinePortUserPart;
         return $this;
@@ -271,7 +271,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[] $searchCriteriaLinePortDomain
      * @return $this
      */
-    public function setSearchCriteriaLinePortDomain($searchCriteriaLinePortDomain)
+    public function setSearchCriteriaLinePortDomain(array $searchCriteriaLinePortDomain)
     {
         $this->searchCriteriaLinePortDomain = $searchCriteriaLinePortDomain;
         return $this;
@@ -308,7 +308,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
-    public function setSearchCriteriaUserLastName($searchCriteriaUserLastName)
+    public function setSearchCriteriaUserLastName(array $searchCriteriaUserLastName)
     {
         $this->searchCriteriaUserLastName = $searchCriteriaUserLastName;
         return $this;
@@ -345,7 +345,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
-    public function setSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
+    public function setSearchCriteriaUserFirstName(array $searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName = $searchCriteriaUserFirstName;
         return $this;
@@ -382,7 +382,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
-    public function setSearchCriteriaUserId($searchCriteriaUserId)
+    public function setSearchCriteriaUserId(array $searchCriteriaUserId)
     {
         $this->searchCriteriaUserId = $searchCriteriaUserId;
         return $this;
@@ -419,7 +419,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;
@@ -456,7 +456,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
-    public function setSearchCriteriaExtension($searchCriteriaExtension)
+    public function setSearchCriteriaExtension(array $searchCriteriaExtension)
     {
         $this->searchCriteriaExtension = $searchCriteriaExtension;
         return $this;
@@ -493,7 +493,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[] $searchCriteriaDeviceType
      * @return $this
      */
-    public function setSearchCriteriaDeviceType($searchCriteriaDeviceType)
+    public function setSearchCriteriaDeviceType(array $searchCriteriaDeviceType)
     {
         $this->searchCriteriaDeviceType = $searchCriteriaDeviceType;
         return $this;
@@ -530,7 +530,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[] $searchCriteriaDeviceName
      * @return $this
      */
-    public function setSearchCriteriaDeviceName($searchCriteriaDeviceName)
+    public function setSearchCriteriaDeviceName(array $searchCriteriaDeviceName)
     {
         $this->searchCriteriaDeviceName = $searchCriteriaDeviceName;
         return $this;
@@ -567,7 +567,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[] $searchCriteriaDeviceMACAddress
      * @return $this
      */
-    public function setSearchCriteriaDeviceMACAddress($searchCriteriaDeviceMACAddress)
+    public function setSearchCriteriaDeviceMACAddress(array $searchCriteriaDeviceMACAddress)
     {
         $this->searchCriteriaDeviceMACAddress = $searchCriteriaDeviceMACAddress;
         return $this;
@@ -604,7 +604,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[] $searchCriteriaDeviceNetAddress
      * @return $this
      */
-    public function setSearchCriteriaDeviceNetAddress($searchCriteriaDeviceNetAddress)
+    public function setSearchCriteriaDeviceNetAddress(array $searchCriteriaDeviceNetAddress)
     {
         $this->searchCriteriaDeviceNetAddress = $searchCriteriaDeviceNetAddress;
         return $this;
@@ -641,7 +641,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[] $searchCriteriaExactUserDepartment
      * @return $this
      */
-    public function setSearchCriteriaExactUserDepartment($searchCriteriaExactUserDepartment)
+    public function setSearchCriteriaExactUserDepartment(array $searchCriteriaExactUserDepartment)
     {
         $this->searchCriteriaExactUserDepartment = $searchCriteriaExactUserDepartment;
         return $this;

@@ -71,7 +71,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
      * @param string[] $criteriaName
      * @return $this
      */
-    public function setCriteriaName($criteriaName)
+    public function setCriteriaName(array $criteriaName)
     {
         $this->criteriaName = $criteriaName;
         return $this;
@@ -84,7 +84,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
      * @param string $criteriaName
      * @return $this
      */
-    public function addCriteriaName($criteriaName)
+    public function addCriteriaName(string $criteriaName)
     {
         $this->criteriaName []= $criteriaName;
         return $this;

@@ -68,7 +68,7 @@ class SystemSecurityClassificationAddClassificationRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;

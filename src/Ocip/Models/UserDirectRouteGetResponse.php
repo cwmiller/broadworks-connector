@@ -16,13 +16,13 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName outgoingDTGPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
     private $outgoingDTGPolicy = null;
 
     /**
      * @ElementName outgoingTrunkIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
     private $outgoingTrunkIdentityPolicy = null;
 
@@ -36,7 +36,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for outgoingDTGPolicy
      *
      * @ElementName outgoingDTGPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
     public function getOutgoingDTGPolicy()
     {
@@ -47,10 +47,10 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for outgoingDTGPolicy
      *
      * @ElementName outgoingDTGPolicy
-     * @param string|null $outgoingDTGPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null $outgoingDTGPolicy
      * @return $this
      */
-    public function setOutgoingDTGPolicy($outgoingDTGPolicy)
+    public function setOutgoingDTGPolicy(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy $outgoingDTGPolicy)
     {
         $this->outgoingDTGPolicy = $outgoingDTGPolicy;
         return $this;
@@ -60,7 +60,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for outgoingTrunkIdentityPolicy
      *
      * @ElementName outgoingTrunkIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
     public function getOutgoingTrunkIdentityPolicy()
     {
@@ -71,10 +71,10 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for outgoingTrunkIdentityPolicy
      *
      * @ElementName outgoingTrunkIdentityPolicy
-     * @param string|null $outgoingTrunkIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null $outgoingTrunkIdentityPolicy
      * @return $this
      */
-    public function setOutgoingTrunkIdentityPolicy($outgoingTrunkIdentityPolicy)
+    public function setOutgoingTrunkIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy $outgoingTrunkIdentityPolicy)
     {
         $this->outgoingTrunkIdentityPolicy = $outgoingTrunkIdentityPolicy;
         return $this;
@@ -98,7 +98,7 @@ class UserDirectRouteGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteIdentifiers|null $directRouteIdentityList
      * @return $this
      */
-    public function setDirectRouteIdentityList($directRouteIdentityList)
+    public function setDirectRouteIdentityList(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteIdentifiers $directRouteIdentityList)
     {
         $this->directRouteIdentityList = $directRouteIdentityList;
         return $this;

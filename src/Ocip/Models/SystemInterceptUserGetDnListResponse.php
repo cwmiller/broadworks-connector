@@ -39,7 +39,7 @@ class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[] $interceptUserList
      * @return $this
      */
-    public function setInterceptUserList($interceptUserList)
+    public function setInterceptUserList(array $interceptUserList)
     {
         $this->interceptUserList = $interceptUserList;
         return $this;

@@ -80,7 +80,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string[] $agentUserId
      * @return $this
      */
-    public function setAgentUserId($agentUserId)
+    public function setAgentUserId(array $agentUserId)
     {
         $this->agentUserId = $agentUserId;
         return $this;
@@ -93,7 +93,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string $agentUserId
      * @return $this
      */
-    public function addAgentUserId($agentUserId)
+    public function addAgentUserId(string $agentUserId)
     {
         $this->agentUserId []= $agentUserId;
         return $this;
@@ -117,7 +117,7 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList[] $agentSkillList
      * @return $this
      */
-    public function setAgentSkillList($agentSkillList)
+    public function setAgentSkillList(array $agentSkillList)
     {
         $this->agentSkillList = $agentSkillList;
         return $this;

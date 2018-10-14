@@ -39,7 +39,7 @@ class ReplacementCustomContactDirectoryEntryList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CustomContactDirectoryEntry[] $entry
      * @return $this
      */
-    public function setEntry($entry)
+    public function setEntry(array $entry)
     {
         $this->entry = $entry;
         return $this;

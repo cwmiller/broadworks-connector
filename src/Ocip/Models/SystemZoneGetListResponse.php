@@ -38,7 +38,7 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @param string[] $zoneName
      * @return $this
      */
-    public function setZoneName($zoneName)
+    public function setZoneName(array $zoneName)
     {
         $this->zoneName = $zoneName;
         return $this;
@@ -51,7 +51,7 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @param string $zoneName
      * @return $this
      */
-    public function addZoneName($zoneName)
+    public function addZoneName(string $zoneName)
     {
         $this->zoneName []= $zoneName;
         return $this;

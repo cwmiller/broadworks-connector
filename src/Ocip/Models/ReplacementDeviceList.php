@@ -38,7 +38,7 @@ class ReplacementDeviceList
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[] $device
      * @return $this
      */
-    public function setDevice($device)
+    public function setDevice(array $device)
     {
         $this->device = $device;
         return $this;

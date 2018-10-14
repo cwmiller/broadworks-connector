@@ -39,7 +39,7 @@ class GroupCollaborateBridgeGetInstanceListResponse extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $collaborateBridgeTable
      * @return $this
      */
-    public function setCollaborateBridgeTable($collaborateBridgeTable)
+    public function setCollaborateBridgeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateBridgeTable)
     {
         $this->collaborateBridgeTable = $collaborateBridgeTable;
         return $this;

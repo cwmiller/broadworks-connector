@@ -28,7 +28,7 @@ class UserSimultaneousRingPersonalModifyRequest14sp4 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName incomingCalls
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
 
@@ -84,7 +84,7 @@ class UserSimultaneousRingPersonalModifyRequest14sp4 extends \CWM\BroadWorksConn
      * Getter for incomingCalls
      *
      * @ElementName incomingCalls
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     public function getIncomingCalls()
     {
@@ -95,10 +95,10 @@ class UserSimultaneousRingPersonalModifyRequest14sp4 extends \CWM\BroadWorksConn
      * Setter for incomingCalls
      *
      * @ElementName incomingCalls
-     * @param string|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null $incomingCalls
      * @return $this
      */
-    public function setIncomingCalls($incomingCalls)
+    public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls)
     {
         $this->incomingCalls = $incomingCalls;
         return $this;

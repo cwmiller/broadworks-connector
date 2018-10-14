@@ -135,7 +135,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @param string[] $currentName
      * @return $this
      */
-    public function setCurrentName($currentName)
+    public function setCurrentName(array $currentName)
     {
         $this->currentName = $currentName;
         return $this;
@@ -148,7 +148,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @param string $currentName
      * @return $this
      */
-    public function addCurrentName($currentName)
+    public function addCurrentName(string $currentName)
     {
         $this->currentName []= $currentName;
         return $this;
@@ -172,7 +172,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @param string[] $pastName
      * @return $this
      */
-    public function setPastName($pastName)
+    public function setPastName(array $pastName)
     {
         $this->pastName = $pastName;
         return $this;
@@ -185,7 +185,7 @@ class CallCenterScheduledReportDNISSelectionRead
      * @param string $pastName
      * @return $this
      */
-    public function addPastName($pastName)
+    public function addPastName(string $pastName)
     {
         $this->pastName []= $pastName;
         return $this;

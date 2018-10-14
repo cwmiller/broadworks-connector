@@ -4,28 +4,61 @@ namespace CWM\BroadWorksConnector;
 
 use DOMDocument;
 use DOMElement;
+use MyCLabs\Enum\Enum;
+use RuntimeException;
 use ReflectionClass;
 
 class XmlUtils
 {
+    const ENUM_BASE_TYPE = 'MyCLabs\Enum\Enum';
+
     /**
      * @param DOMElement $element
      * @param string $className
      * @param string $baseNamespace
      * @return object
+     * @throws \InvalidArgumentException
      */
     public static function fromXml(DOMElement $element, $className, $baseNamespace)
     {
-        $refClass = new ReflectionClass($className);
-        $class = null;
+        $refClass = null;
+        $instance = null;
 
-        if ($refClass->isAbstract()) {
-            // If abstract, the XML should have a type attribute denoted the concrete type
-            $className = self::qualifiedClassForType($element, $baseNamespace);
+        try {
             $refClass = new ReflectionClass($className);
+        } catch(\ReflectionException $e) {
+            throw new \InvalidArgumentException('Class ' . $className . ' cannot be found.', $e);
         }
 
-        $class = new $className();
+        if ($refClass->isAbstract()) {
+            // If abstract, the XML should have a type attribute denoting the concrete type
+            $className = self::qualifiedClassForType($element, $baseNamespace);
+
+            try {
+                $refClass = new ReflectionClass($className);
+            } catch (\ReflectionException $e) {
+                throw new \InvalidArgumentException('Class ' . $className . ' cannot be found.', $e);
+            }
+        }
+
+        if (self::isEnum($refClass)) {
+            $docblock = $refClass->getDocComment();
+            preg_match('/@ValueType (.*)/', $docblock, $matches);
+            if (!isset($matches[1])) {
+                throw new RuntimeException('No @ValueType attribute found on enum ' . $refClass->getName());
+            }
+
+            $valueType = trim($matches[1]);
+            $nodeValue = $element->nodeValue;
+
+            if ($valueType === 'int') {
+                $nodeValue = (int)$nodeValue;
+            }
+
+            $instance = new $className($nodeValue);
+        } else {
+            $instance = new $className();
+        }
 
         $childElements = $element->childNodes;
         for ($i = 0; $i < $childElements->length; $i++) {
@@ -65,16 +98,16 @@ class XmlUtils
                                     $nodeValue = (string)$childElement->nodeValue;
                             }
 
-                            $setter->invoke($class, $nodeValue);
+                            $setter->invoke($instance, $nodeValue);
                         } else {
-                            $setter->invoke($class, self::fromXml($childElement, $type, $baseNamespace));
+                            $setter->invoke($instance, self::fromXml($childElement, $type, $baseNamespace));
                         }
                     }
                 }
             }
         }
 
-        return $class;
+        return $instance;
     }
 
     /**
@@ -84,15 +117,24 @@ class XmlUtils
      */
     public static function toXml($obj, DOMElement $element, DOMDocument $document)
     {
-        $ref = new ReflectionClass($obj);
+        $refClass = null;
 
-        if (self::extendsAbstract($ref)) {
-            $element->setAttribute('xsi:type', $ref->getShortName());
+        try {
+            $refClass = new ReflectionClass($obj);
+        } catch (\ReflectionException $e) {
+            throw new \RuntimeException('Object ' . get_class($obj) . ' cannot be reflected.', $e);
         }
 
-        foreach ($ref->getMethods() as $method) {
+        // If the object is a descendant of an abstract class, then a type attribute must be included
+        if (self::extendsAbstract($refClass)) {
+            $element->setAttribute('xsi:type', $refClass->getShortName());
+        }
+
+        // Each getter method corresponds to an XML element
+        foreach ($refClass->getMethods() as $method) {
             $methodName = $method->getName();
             if (strpos($methodName, 'get') === 0) {
+                // The name of the XML element is determined by the @ElementName annotation
                 $docblock = $method->getDocComment();
                 preg_match('/@ElementName (.*)/', $docblock, $matches);
                 if (isset($matches[1])) {
@@ -110,8 +152,14 @@ class XmlUtils
                         foreach ($values as $value) {
                             $child = $document->createElement($propertyName);
 
+                            // The value can either be a primitive or an Enum, in which case we just set the text element.
+                            // If the value is neither of those, then it's an object that needs serialized.
                             if (is_object($value)) {
-                                self::toXml($value, $child, $document);
+                                if ($value instanceof Enum) {
+                                    $child->appendChild($document->createTextNode($value->getValue()));
+                                } else {
+                                    self::toXml($value, $child, $document);
+                                }
                             } else {
                                 if (is_bool($value)) {
                                     $value = $value === true ? 'true' : 'false';
@@ -135,7 +183,7 @@ class XmlUtils
      * @param string $baseNamespace
      * @return string
      */
-    public static function qualifiedClassForType(DOMElement $element, $baseNamespace)
+    private static function qualifiedClassForType(DOMElement $element, $baseNamespace)
     {
         $name = $element->getAttribute('xsi:type');
         $namespace = '';
@@ -177,5 +225,22 @@ class XmlUtils
         }
 
         return $abstract;
+    }
+
+    /**
+     * @param ReflectionClass $class
+     * @return bool
+     */
+    private static function isEnum(ReflectionClass $class)
+    {
+        $enum = false;
+
+        if ($class->getName() === self::ENUM_BASE_TYPE) {
+            $enum = true;
+        } else if ($parent = $class->getParentClass()) {
+            $enum = self::isEnum($parent);
+        }
+
+        return $enum;
     }
 }

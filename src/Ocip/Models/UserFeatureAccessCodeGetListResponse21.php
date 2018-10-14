@@ -41,7 +41,7 @@ class UserFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry[] $featureAccessCode
      * @return $this
      */
-    public function setFeatureAccessCode($featureAccessCode)
+    public function setFeatureAccessCode(array $featureAccessCode)
     {
         $this->featureAccessCode = $featureAccessCode;
         return $this;

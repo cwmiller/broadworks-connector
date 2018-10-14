@@ -200,7 +200,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21|null $source
      * @return $this
      */
-    public function setSource($source)
+    public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21 $source)
     {
         $this->source = $source;
         return $this;
@@ -248,7 +248,7 @@ class GroupMusicOnHoldGetInstanceResponse21 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21|null $internalSource
      * @return $this
      */
-    public function setInternalSource($internalSource)
+    public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead21 $internalSource)
     {
         $this->internalSource = $internalSource;
         return $this;

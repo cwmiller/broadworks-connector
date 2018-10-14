@@ -66,7 +66,7 @@ class UserOutgoingCallingPlanTransferNumbersGetResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null $userNumbers
      * @return $this
      */
-    public function setUserNumbers($userNumbers)
+    public function setUserNumbers(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers $userNumbers)
     {
         $this->userNumbers = $userNumbers;
         return $this;

@@ -100,7 +100,7 @@ class GroupDomainAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string[] $domain
      * @return $this
      */
-    public function setDomain($domain)
+    public function setDomain(array $domain)
     {
         $this->domain = $domain;
         return $this;
@@ -113,7 +113,7 @@ class GroupDomainAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param string $domain
      * @return $this
      */
-    public function addDomain($domain)
+    public function addDomain(string $domain)
     {
         $this->domain []= $domain;
         return $this;

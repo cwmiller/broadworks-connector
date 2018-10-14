@@ -22,7 +22,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName deviceAccessProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
 
@@ -90,7 +90,7 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * Getter for deviceAccessProtocol
      *
      * @ElementName deviceAccessProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     public function getDeviceAccessProtocol()
     {
@@ -101,10 +101,10 @@ class DeviceManagementFileAuthLocationGetRequest21sp1 extends \CWM\BroadWorksCon
      * Setter for deviceAccessProtocol
      *
      * @ElementName deviceAccessProtocol
-     * @param string|null $deviceAccessProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null $deviceAccessProtocol
      * @return $this
      */
-    public function setDeviceAccessProtocol($deviceAccessProtocol)
+    public function setDeviceAccessProtocol(\CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16 $deviceAccessProtocol)
     {
         $this->deviceAccessProtocol = $deviceAccessProtocol;
         return $this;

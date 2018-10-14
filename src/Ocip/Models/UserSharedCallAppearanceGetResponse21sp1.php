@@ -70,7 +70,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName bridgeWarningTone
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     private $bridgeWarningTone = null;
 
@@ -242,7 +242,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $endpointTable
      * @return $this
      */
-    public function setEndpointTable($endpointTable)
+    public function setEndpointTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $endpointTable)
     {
         $this->endpointTable = $endpointTable;
         return $this;
@@ -276,7 +276,7 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * Getter for bridgeWarningTone
      *
      * @ElementName bridgeWarningTone
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     public function getBridgeWarningTone()
     {
@@ -287,10 +287,10 @@ class UserSharedCallAppearanceGetResponse21sp1 extends \CWM\BroadWorksConnector\
      * Setter for bridgeWarningTone
      *
      * @ElementName bridgeWarningTone
-     * @param string|null $bridgeWarningTone
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null $bridgeWarningTone
      * @return $this
      */
-    public function setBridgeWarningTone($bridgeWarningTone)
+    public function setBridgeWarningTone(\CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone $bridgeWarningTone)
     {
         $this->bridgeWarningTone = $bridgeWarningTone;
         return $this;

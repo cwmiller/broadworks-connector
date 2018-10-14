@@ -29,13 +29,13 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName filteringMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     private $filteringMode = null;
 
     /**
      * @ElementName simpleFilterType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     private $simpleFilterType = null;
 
@@ -99,7 +99,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for filteringMode
      *
      * @ElementName filteringMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     public function getFilteringMode()
     {
@@ -110,10 +110,10 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for filteringMode
      *
      * @ElementName filteringMode
-     * @param string|null $filteringMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null $filteringMode
      * @return $this
      */
-    public function setFilteringMode($filteringMode)
+    public function setFilteringMode(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode $filteringMode)
     {
         $this->filteringMode = $filteringMode;
         return $this;
@@ -123,7 +123,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for simpleFilterType
      *
      * @ElementName simpleFilterType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     public function getSimpleFilterType()
     {
@@ -134,10 +134,10 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for simpleFilterType
      *
      * @ElementName simpleFilterType
-     * @param string|null $simpleFilterType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null $simpleFilterType
      * @return $this
      */
-    public function setSimpleFilterType($simpleFilterType)
+    public function setSimpleFilterType(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType $simpleFilterType)
     {
         $this->simpleFilterType = $simpleFilterType;
         return $this;
@@ -161,7 +161,7 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
-    public function setCriteriaActivation($criteriaActivation)
+    public function setCriteriaActivation(array $criteriaActivation)
     {
         $this->criteriaActivation = $criteriaActivation;
         return $this;

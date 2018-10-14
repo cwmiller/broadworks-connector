@@ -80,7 +80,7 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
-    public function setAgentUserIdList($agentUserIdList)
+    public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
         $this->agentUserIdList = $agentUserIdList;
         return $this;

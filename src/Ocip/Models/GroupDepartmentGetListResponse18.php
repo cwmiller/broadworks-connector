@@ -39,7 +39,7 @@ class GroupDepartmentGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $departmentTable
      * @return $this
      */
-    public function setDepartmentTable($departmentTable)
+    public function setDepartmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $departmentTable)
     {
         $this->departmentTable = $departmentTable;
         return $this;

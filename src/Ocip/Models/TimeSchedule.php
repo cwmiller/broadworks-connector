@@ -12,7 +12,7 @@ class TimeSchedule
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     private $type = null;
 
@@ -26,7 +26,7 @@ class TimeSchedule
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     public function getType()
     {
@@ -37,10 +37,10 @@ class TimeSchedule
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel $type)
     {
         $this->type = $type;
         return $this;

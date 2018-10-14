@@ -19,7 +19,7 @@ class SequentialRingLocation
 
     /**
      * @ElementName numberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $numberOfRings = null;
 
@@ -51,7 +51,7 @@ class SequentialRingLocation
      * Getter for numberOfRings
      *
      * @ElementName numberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     public function getNumberOfRings()
     {
@@ -62,10 +62,10 @@ class SequentialRingLocation
      * Setter for numberOfRings
      *
      * @ElementName numberOfRings
-     * @param int|null $numberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null $numberOfRings
      * @return $this
      */
-    public function setNumberOfRings($numberOfRings)
+    public function setNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $numberOfRings)
     {
         $this->numberOfRings = $numberOfRings;
         return $this;

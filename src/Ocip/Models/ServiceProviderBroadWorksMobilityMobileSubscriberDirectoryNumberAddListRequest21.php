@@ -102,7 +102,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @param string[] $mobileSubscriberDirectoryNumber
      * @return $this
      */
-    public function setMobileSubscriberDirectoryNumber($mobileSubscriberDirectoryNumber)
+    public function setMobileSubscriberDirectoryNumber(array $mobileSubscriberDirectoryNumber)
     {
         $this->mobileSubscriberDirectoryNumber = $mobileSubscriberDirectoryNumber;
         return $this;
@@ -115,7 +115,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
      * @param string $mobileSubscriberDirectoryNumber
      * @return $this
      */
-    public function addMobileSubscriberDirectoryNumber($mobileSubscriberDirectoryNumber)
+    public function addMobileSubscriberDirectoryNumber(string $mobileSubscriberDirectoryNumber)
     {
         $this->mobileSubscriberDirectoryNumber []= $mobileSubscriberDirectoryNumber;
         return $this;

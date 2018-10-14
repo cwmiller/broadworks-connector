@@ -40,7 +40,7 @@ class ReplacementCombinedServicePackAssignmentList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAssignment[] $servicePack
      * @return $this
      */
-    public function setServicePack($servicePack)
+    public function setServicePack(array $servicePack)
     {
         $this->servicePack = $servicePack;
         return $this;

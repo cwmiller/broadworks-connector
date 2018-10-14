@@ -38,7 +38,7 @@ class GroupDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $accessCodeTable
      * @return $this
      */
-    public function setAccessCodeTable($accessCodeTable)
+    public function setAccessCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $accessCodeTable)
     {
         $this->accessCodeTable = $accessCodeTable;
         return $this;

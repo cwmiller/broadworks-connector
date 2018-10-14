@@ -38,7 +38,7 @@ class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routeDeviceTable
      * @return $this
      */
-    public function setRouteDeviceTable($routeDeviceTable)
+    public function setRouteDeviceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routeDeviceTable)
     {
         $this->routeDeviceTable = $routeDeviceTable;
         return $this;

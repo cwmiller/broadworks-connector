@@ -19,7 +19,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
 
     /**
      * @ElementName permission
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null
      */
     private $permission = null;
 
@@ -51,7 +51,7 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
      * Getter for permission
      *
      * @ElementName permission
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null
      */
     public function getPermission()
     {
@@ -62,10 +62,10 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
      * Setter for permission
      *
      * @ElementName permission
-     * @param string|null $permission
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null $permission
      * @return $this
      */
-    public function setPermission($permission)
+    public function setPermission(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission $permission)
     {
         $this->permission = $permission;
         return $this;

@@ -29,7 +29,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     private $pilotUserCallingLineAssertedIdentityPolicy = null;
 
@@ -41,7 +41,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName unscreenedRedirectionHandling
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     private $unscreenedRedirectionHandling = null;
 
@@ -53,13 +53,13 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName holdoverPeriod
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     private $holdoverPeriod = null;
 
     /**
      * @ElementName timeZoneOffsetMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     private $timeZoneOffsetMinutes = null;
 
@@ -115,7 +115,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for pilotUserCallingLineAssertedIdentityPolicy
      *
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null
      */
     public function getPilotUserCallingLineAssertedIdentityPolicy()
     {
@@ -126,10 +126,10 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for pilotUserCallingLineAssertedIdentityPolicy
      *
      * @ElementName pilotUserCallingLineAssertedIdentityPolicy
-     * @param string|null $pilotUserCallingLineAssertedIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy|null $pilotUserCallingLineAssertedIdentityPolicy
      * @return $this
      */
-    public function setPilotUserCallingLineAssertedIdentityPolicy($pilotUserCallingLineAssertedIdentityPolicy)
+    public function setPilotUserCallingLineAssertedIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy $pilotUserCallingLineAssertedIdentityPolicy)
     {
         $this->pilotUserCallingLineAssertedIdentityPolicy = $pilotUserCallingLineAssertedIdentityPolicy;
         return $this;
@@ -163,7 +163,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for unscreenedRedirectionHandling
      *
      * @ElementName unscreenedRedirectionHandling
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null
      */
     public function getUnscreenedRedirectionHandling()
     {
@@ -174,10 +174,10 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for unscreenedRedirectionHandling
      *
      * @ElementName unscreenedRedirectionHandling
-     * @param string|null $unscreenedRedirectionHandling
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling|null $unscreenedRedirectionHandling
      * @return $this
      */
-    public function setUnscreenedRedirectionHandling($unscreenedRedirectionHandling)
+    public function setUnscreenedRedirectionHandling(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnscreenedRedirectionHandling $unscreenedRedirectionHandling)
     {
         $this->unscreenedRedirectionHandling = $unscreenedRedirectionHandling;
         return $this;
@@ -211,7 +211,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for holdoverPeriod
      *
      * @ElementName holdoverPeriod
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null
      */
     public function getHoldoverPeriod()
     {
@@ -222,10 +222,10 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for holdoverPeriod
      *
      * @ElementName holdoverPeriod
-     * @param int|null $holdoverPeriod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes|null $holdoverPeriod
      * @return $this
      */
-    public function setHoldoverPeriod($holdoverPeriod)
+    public function setHoldoverPeriod(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupHighwaterCallCountHoldoverPeriodMinutes $holdoverPeriod)
     {
         $this->holdoverPeriod = $holdoverPeriod;
         return $this;
@@ -235,7 +235,7 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Getter for timeZoneOffsetMinutes
      *
      * @ElementName timeZoneOffsetMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null
      */
     public function getTimeZoneOffsetMinutes()
     {
@@ -246,10 +246,10 @@ class SystemTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * Setter for timeZoneOffsetMinutes
      *
      * @ElementName timeZoneOffsetMinutes
-     * @param int|null $timeZoneOffsetMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes|null $timeZoneOffsetMinutes
      * @return $this
      */
-    public function setTimeZoneOffsetMinutes($timeZoneOffsetMinutes)
+    public function setTimeZoneOffsetMinutes(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupTimeZoneOffsetMinutes $timeZoneOffsetMinutes)
     {
         $this->timeZoneOffsetMinutes = $timeZoneOffsetMinutes;
         return $this;

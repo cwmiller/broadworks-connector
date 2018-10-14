@@ -18,7 +18,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $type = null;
 
@@ -50,7 +50,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     public function getType()
     {
@@ -61,10 +61,10 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType $type)
     {
         $this->type = $type;
         return $this;
@@ -136,7 +136,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mandatoryUsageUserTable
      * @return $this
      */
-    public function setMandatoryUsageUserTable($mandatoryUsageUserTable)
+    public function setMandatoryUsageUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mandatoryUsageUserTable)
     {
         $this->mandatoryUsageUserTable = $mandatoryUsageUserTable;
         return $this;
@@ -160,7 +160,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $optionalUsageUserTable
      * @return $this
      */
-    public function setOptionalUsageUserTable($optionalUsageUserTable)
+    public function setOptionalUsageUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $optionalUsageUserTable)
     {
         $this->optionalUsageUserTable = $optionalUsageUserTable;
         return $this;

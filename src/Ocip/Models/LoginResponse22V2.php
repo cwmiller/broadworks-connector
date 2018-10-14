@@ -12,7 +12,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
 
     /**
      * @ElementName loginType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
 
@@ -68,7 +68,7 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * Getter for loginType
      *
      * @ElementName loginType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     public function getLoginType()
     {
@@ -79,10 +79,10 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * Setter for loginType
      *
      * @ElementName loginType
-     * @param string|null $loginType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null $loginType
      * @return $this
      */
-    public function setLoginType($loginType)
+    public function setLoginType(\CWM\BroadWorksConnector\Ocip\Models\LoginType22 $loginType)
     {
         $this->loginType = $loginType;
         return $this;

@@ -107,7 +107,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify|null $groupPermissions
      * @return $this
      */
-    public function setGroupPermissions($groupPermissions)
+    public function setGroupPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify $groupPermissions)
     {
         $this->groupPermissions = $groupPermissions;
         return $this;
@@ -131,7 +131,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedDepartmentPermissionsModify[] $departmentPermissions
      * @return $this
      */
-    public function setDepartmentPermissions($departmentPermissions)
+    public function setDepartmentPermissions(array $departmentPermissions)
     {
         $this->departmentPermissions = $departmentPermissions;
         return $this;

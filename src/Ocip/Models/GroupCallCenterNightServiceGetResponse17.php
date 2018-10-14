@@ -14,7 +14,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
 
@@ -50,7 +50,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName audioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
@@ -74,7 +74,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName videoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
@@ -98,13 +98,13 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName manualAnnouncementMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
     private $manualAnnouncementMode = null;
 
     /**
      * @ElementName manualAudioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualAudioMessageSelection = null;
 
@@ -128,7 +128,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName manualVideoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualVideoMessageSelection = null;
 
@@ -154,7 +154,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     public function getAction()
     {
@@ -165,10 +165,10 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction $action)
     {
         $this->action = $action;
         return $this;
@@ -298,7 +298,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Getter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioMessageSelection()
     {
@@ -309,10 +309,10 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Setter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @param string|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
      * @return $this
      */
-    public function setAudioMessageSelection($audioMessageSelection)
+    public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
     {
         $this->audioMessageSelection = $audioMessageSelection;
         return $this;
@@ -336,7 +336,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $audioUrlList
      * @return $this
      */
-    public function setAudioUrlList($audioUrlList)
+    public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $audioUrlList)
     {
         $this->audioUrlList = $audioUrlList;
         return $this;
@@ -360,7 +360,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null $audioFileList
      * @return $this
      */
-    public function setAudioFileList($audioFileList)
+    public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList $audioFileList)
     {
         $this->audioFileList = $audioFileList;
         return $this;
@@ -384,7 +384,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null $audioMediaTypeList
      * @return $this
      */
-    public function setAudioMediaTypeList($audioMediaTypeList)
+    public function setAudioMediaTypeList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList $audioMediaTypeList)
     {
         $this->audioMediaTypeList = $audioMediaTypeList;
         return $this;
@@ -394,7 +394,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Getter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoMessageSelection()
     {
@@ -405,10 +405,10 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Setter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @param string|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
      * @return $this
      */
-    public function setVideoMessageSelection($videoMessageSelection)
+    public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
     {
         $this->videoMessageSelection = $videoMessageSelection;
         return $this;
@@ -432,7 +432,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $videoUrlList
      * @return $this
      */
-    public function setVideoUrlList($videoUrlList)
+    public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $videoUrlList)
     {
         $this->videoUrlList = $videoUrlList;
         return $this;
@@ -456,7 +456,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null $videoFileList
      * @return $this
      */
-    public function setVideoFileList($videoFileList)
+    public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList $videoFileList)
     {
         $this->videoFileList = $videoFileList;
         return $this;
@@ -480,7 +480,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null $videoMediaTypeList
      * @return $this
      */
-    public function setVideoMediaTypeList($videoMediaTypeList)
+    public function setVideoMediaTypeList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList $videoMediaTypeList)
     {
         $this->videoMediaTypeList = $videoMediaTypeList;
         return $this;
@@ -490,7 +490,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Getter for manualAnnouncementMode
      *
      * @ElementName manualAnnouncementMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
     public function getManualAnnouncementMode()
     {
@@ -501,10 +501,10 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Setter for manualAnnouncementMode
      *
      * @ElementName manualAnnouncementMode
-     * @param string|null $manualAnnouncementMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null $manualAnnouncementMode
      * @return $this
      */
-    public function setManualAnnouncementMode($manualAnnouncementMode)
+    public function setManualAnnouncementMode(\CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode $manualAnnouncementMode)
     {
         $this->manualAnnouncementMode = $manualAnnouncementMode;
         return $this;
@@ -514,7 +514,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Getter for manualAudioMessageSelection
      *
      * @ElementName manualAudioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getManualAudioMessageSelection()
     {
@@ -525,10 +525,10 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Setter for manualAudioMessageSelection
      *
      * @ElementName manualAudioMessageSelection
-     * @param string|null $manualAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $manualAudioMessageSelection
      * @return $this
      */
-    public function setManualAudioMessageSelection($manualAudioMessageSelection)
+    public function setManualAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $manualAudioMessageSelection)
     {
         $this->manualAudioMessageSelection = $manualAudioMessageSelection;
         return $this;
@@ -552,7 +552,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $manualAudioUrlList
      * @return $this
      */
-    public function setManualAudioUrlList($manualAudioUrlList)
+    public function setManualAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $manualAudioUrlList)
     {
         $this->manualAudioUrlList = $manualAudioUrlList;
         return $this;
@@ -576,7 +576,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null $manualAudioFileList
      * @return $this
      */
-    public function setManualAudioFileList($manualAudioFileList)
+    public function setManualAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList $manualAudioFileList)
     {
         $this->manualAudioFileList = $manualAudioFileList;
         return $this;
@@ -600,7 +600,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null $manualAudioMediaTypeList
      * @return $this
      */
-    public function setManualAudioMediaTypeList($manualAudioMediaTypeList)
+    public function setManualAudioMediaTypeList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList $manualAudioMediaTypeList)
     {
         $this->manualAudioMediaTypeList = $manualAudioMediaTypeList;
         return $this;
@@ -610,7 +610,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Getter for manualVideoMessageSelection
      *
      * @ElementName manualVideoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getManualVideoMessageSelection()
     {
@@ -621,10 +621,10 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * Setter for manualVideoMessageSelection
      *
      * @ElementName manualVideoMessageSelection
-     * @param string|null $manualVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $manualVideoMessageSelection
      * @return $this
      */
-    public function setManualVideoMessageSelection($manualVideoMessageSelection)
+    public function setManualVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $manualVideoMessageSelection)
     {
         $this->manualVideoMessageSelection = $manualVideoMessageSelection;
         return $this;
@@ -648,7 +648,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $manualVideoUrlList
      * @return $this
      */
-    public function setManualVideoUrlList($manualVideoUrlList)
+    public function setManualVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $manualVideoUrlList)
     {
         $this->manualVideoUrlList = $manualVideoUrlList;
         return $this;
@@ -672,7 +672,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null $manualVideoFileList
      * @return $this
      */
-    public function setManualVideoFileList($manualVideoFileList)
+    public function setManualVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList $manualVideoFileList)
     {
         $this->manualVideoFileList = $manualVideoFileList;
         return $this;
@@ -696,7 +696,7 @@ class GroupCallCenterNightServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null $manualVideoMediaTypeList
      * @return $this
      */
-    public function setManualVideoMediaTypeList($manualVideoMediaTypeList)
+    public function setManualVideoMediaTypeList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList $manualVideoMediaTypeList)
     {
         $this->manualVideoMediaTypeList = $manualVideoMediaTypeList;
         return $this;

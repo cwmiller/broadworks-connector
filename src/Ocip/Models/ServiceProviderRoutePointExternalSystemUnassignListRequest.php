@@ -70,7 +70,7 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
      * @param string[] $routePointExternalSystem
      * @return $this
      */
-    public function setRoutePointExternalSystem($routePointExternalSystem)
+    public function setRoutePointExternalSystem(array $routePointExternalSystem)
     {
         $this->routePointExternalSystem = $routePointExternalSystem;
         return $this;
@@ -83,7 +83,7 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
      * @param string $routePointExternalSystem
      * @return $this
      */
-    public function addRoutePointExternalSystem($routePointExternalSystem)
+    public function addRoutePointExternalSystem(string $routePointExternalSystem)
     {
         $this->routePointExternalSystem []= $routePointExternalSystem;
         return $this;

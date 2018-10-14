@@ -56,7 +56,7 @@ class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry[] $placed
      * @return $this
      */
-    public function setPlaced($placed)
+    public function setPlaced(array $placed)
     {
         $this->placed = $placed;
         return $this;
@@ -93,7 +93,7 @@ class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry[] $received
      * @return $this
      */
-    public function setReceived($received)
+    public function setReceived(array $received)
     {
         $this->received = $received;
         return $this;
@@ -130,7 +130,7 @@ class UserEnhancedCallLogsGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsEntry[] $missed
      * @return $this
      */
-    public function setMissed($missed)
+    public function setMissed(array $missed)
     {
         $this->missed = $missed;
         return $this;

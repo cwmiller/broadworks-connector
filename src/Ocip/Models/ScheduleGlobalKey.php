@@ -19,7 +19,7 @@ class ScheduleGlobalKey
 
     /**
      * @ElementName scheduleLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     private $scheduleLevel = null;
 
@@ -41,7 +41,7 @@ class ScheduleGlobalKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
      * @return $this
      */
-    public function setScheduleKey($scheduleKey)
+    public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
     {
         $this->scheduleKey = $scheduleKey;
         return $this;
@@ -51,7 +51,7 @@ class ScheduleGlobalKey
      * Getter for scheduleLevel
      *
      * @ElementName scheduleLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     public function getScheduleLevel()
     {
@@ -62,10 +62,10 @@ class ScheduleGlobalKey
      * Setter for scheduleLevel
      *
      * @ElementName scheduleLevel
-     * @param string|null $scheduleLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null $scheduleLevel
      * @return $this
      */
-    public function setScheduleLevel($scheduleLevel)
+    public function setScheduleLevel(\CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel $scheduleLevel)
     {
         $this->scheduleLevel = $scheduleLevel;
         return $this;

@@ -16,19 +16,19 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName lineType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType|null
      */
     private $lineType = null;
 
     /**
      * @ElementName matchAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
     private $matchAction = null;
 
     /**
      * @ElementName noMatchAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
     private $noMatchAction = null;
 
@@ -36,7 +36,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * Getter for lineType
      *
      * @ElementName lineType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType|null
      */
     public function getLineType()
     {
@@ -47,10 +47,10 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * Setter for lineType
      *
      * @ElementName lineType
-     * @param string|null $lineType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType|null $lineType
      * @return $this
      */
-    public function setLineType($lineType)
+    public function setLineType(\CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType $lineType)
     {
         $this->lineType = $lineType;
         return $this;
@@ -60,7 +60,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * Getter for matchAction
      *
      * @ElementName matchAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
     public function getMatchAction()
     {
@@ -71,10 +71,10 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * Setter for matchAction
      *
      * @ElementName matchAction
-     * @param string|null $matchAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null $matchAction
      * @return $this
      */
-    public function setMatchAction($matchAction)
+    public function setMatchAction(\CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction $matchAction)
     {
         $this->matchAction = $matchAction;
         return $this;
@@ -84,7 +84,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * Getter for noMatchAction
      *
      * @ElementName noMatchAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
     public function getNoMatchAction()
     {
@@ -95,10 +95,10 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
      * Setter for noMatchAction
      *
      * @ElementName noMatchAction
-     * @param string|null $noMatchAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null $noMatchAction
      * @return $this
      */
-    public function setNoMatchAction($noMatchAction)
+    public function setNoMatchAction(\CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction $noMatchAction)
     {
         $this->noMatchAction = $noMatchAction;
         return $this;

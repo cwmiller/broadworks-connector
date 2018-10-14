@@ -27,7 +27,7 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
     private $serviceType = null;
 
@@ -89,7 +89,7 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for serviceType
      *
      * @ElementName serviceType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
     public function getServiceType()
     {
@@ -100,10 +100,10 @@ class GroupServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for serviceType
      *
      * @ElementName serviceType
-     * @param string|null $serviceType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null $serviceType
      * @return $this
      */
-    public function setServiceType($serviceType)
+    public function setServiceType(\CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType $serviceType)
     {
         $this->serviceType = $serviceType;
         return $this;

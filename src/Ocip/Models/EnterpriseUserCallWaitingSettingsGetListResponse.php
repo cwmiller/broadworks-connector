@@ -43,7 +43,7 @@ class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userCallWaitingTable
      * @return $this
      */
-    public function setUserCallWaitingTable($userCallWaitingTable)
+    public function setUserCallWaitingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallWaitingTable)
     {
         $this->userCallWaitingTable = $userCallWaitingTable;
         return $this;

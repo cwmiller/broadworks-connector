@@ -32,13 +32,13 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName legacyEntry
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22\LegacyEntry|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22LegacyEntry|null
      */
     private $legacyEntry = null;
 
     /**
      * @ElementName extendedEntry
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22\ExtendedEntry|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22ExtendedEntry|null
      */
     private $extendedEntry = null;
 
@@ -70,7 +70,7 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
      * Getter for legacyEntry
      *
      * @ElementName legacyEntry
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22\LegacyEntry|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22LegacyEntry|null
      */
     public function getLegacyEntry()
     {
@@ -81,10 +81,10 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
      * Setter for legacyEntry
      *
      * @ElementName legacyEntry
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22\LegacyEntry|null $legacyEntry
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22LegacyEntry|null $legacyEntry
      * @return $this
      */
-    public function setLegacyEntry($legacyEntry)
+    public function setLegacyEntry(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22LegacyEntry $legacyEntry)
     {
         $this->legacyEntry = $legacyEntry;
         return $this;
@@ -94,7 +94,7 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
      * Getter for extendedEntry
      *
      * @ElementName extendedEntry
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22\ExtendedEntry|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22ExtendedEntry|null
      */
     public function getExtendedEntry()
     {
@@ -105,10 +105,10 @@ class UserEnhancedCallLogsGetListResponse22 extends \CWM\BroadWorksConnector\Oci
      * Setter for extendedEntry
      *
      * @ElementName extendedEntry
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22\ExtendedEntry|null $extendedEntry
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22ExtendedEntry|null $extendedEntry
      * @return $this
      */
-    public function setExtendedEntry($extendedEntry)
+    public function setExtendedEntry(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse22ExtendedEntry $extendedEntry)
     {
         $this->extendedEntry = $extendedEntry;
         return $this;

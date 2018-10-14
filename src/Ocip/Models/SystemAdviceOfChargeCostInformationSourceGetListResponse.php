@@ -37,7 +37,7 @@ class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $costInformationSourceTable
      * @return $this
      */
-    public function setCostInformationSourceTable($costInformationSourceTable)
+    public function setCostInformationSourceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $costInformationSourceTable)
     {
         $this->costInformationSourceTable = $costInformationSourceTable;
         return $this;

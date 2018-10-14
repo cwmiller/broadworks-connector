@@ -24,19 +24,19 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName normalLogin
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\NormalLogin|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin|null
      */
     private $normalLogin = null;
 
     /**
      * @ElementName trustedExternalAuthenticationLogin
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\TrustedExternalAuthenticationLogin|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin|null
      */
     private $trustedExternalAuthenticationLogin = null;
 
     /**
      * @ElementName preAuthorizedExternalAuthenticationLogin
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\PreAuthorizedExternalAuthenticationLogin|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin|null
      */
     private $preAuthorizedExternalAuthenticationLogin = null;
 
@@ -44,7 +44,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for normalLogin
      *
      * @ElementName normalLogin
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\NormalLogin|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin|null
      */
     public function getNormalLogin()
     {
@@ -55,10 +55,10 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for normalLogin
      *
      * @ElementName normalLogin
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\NormalLogin|null $normalLogin
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin|null $normalLogin
      * @return $this
      */
-    public function setNormalLogin($normalLogin)
+    public function setNormalLogin(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin $normalLogin)
     {
         $this->normalLogin = $normalLogin;
         return $this;
@@ -68,7 +68,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for trustedExternalAuthenticationLogin
      *
      * @ElementName trustedExternalAuthenticationLogin
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\TrustedExternalAuthenticationLogin|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin|null
      */
     public function getTrustedExternalAuthenticationLogin()
     {
@@ -79,10 +79,10 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for trustedExternalAuthenticationLogin
      *
      * @ElementName trustedExternalAuthenticationLogin
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\TrustedExternalAuthenticationLogin|null $trustedExternalAuthenticationLogin
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin|null $trustedExternalAuthenticationLogin
      * @return $this
      */
-    public function setTrustedExternalAuthenticationLogin($trustedExternalAuthenticationLogin)
+    public function setTrustedExternalAuthenticationLogin(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin $trustedExternalAuthenticationLogin)
     {
         $this->trustedExternalAuthenticationLogin = $trustedExternalAuthenticationLogin;
         return $this;
@@ -92,7 +92,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for preAuthorizedExternalAuthenticationLogin
      *
      * @ElementName preAuthorizedExternalAuthenticationLogin
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\PreAuthorizedExternalAuthenticationLogin|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin|null
      */
     public function getPreAuthorizedExternalAuthenticationLogin()
     {
@@ -103,10 +103,10 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for preAuthorizedExternalAuthenticationLogin
      *
      * @ElementName preAuthorizedExternalAuthenticationLogin
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22\PreAuthorizedExternalAuthenticationLogin|null $preAuthorizedExternalAuthenticationLogin
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin|null $preAuthorizedExternalAuthenticationLogin
      * @return $this
      */
-    public function setPreAuthorizedExternalAuthenticationLogin($preAuthorizedExternalAuthenticationLogin)
+    public function setPreAuthorizedExternalAuthenticationLogin(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin $preAuthorizedExternalAuthenticationLogin)
     {
         $this->preAuthorizedExternalAuthenticationLogin = $preAuthorizedExternalAuthenticationLogin;
         return $this;

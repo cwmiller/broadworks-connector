@@ -83,7 +83,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null $source
      * @return $this
      */
-    public function setSource($source)
+    public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify $source)
     {
         $this->source = $source;
         return $this;
@@ -131,7 +131,7 @@ class UserMusicOnHoldUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify|null $internalSource
      * @return $this
      */
-    public function setInternalSource($internalSource)
+    public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify $internalSource)
     {
         $this->internalSource = $internalSource;
         return $this;

@@ -107,7 +107,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string[] $officeZoneName
      * @return $this
      */
-    public function setOfficeZoneName($officeZoneName)
+    public function setOfficeZoneName(array $officeZoneName)
     {
         $this->officeZoneName = $officeZoneName;
         return $this;
@@ -120,7 +120,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param string $officeZoneName
      * @return $this
      */
-    public function addOfficeZoneName($officeZoneName)
+    public function addOfficeZoneName(string $officeZoneName)
     {
         $this->officeZoneName []= $officeZoneName;
         return $this;

@@ -41,7 +41,7 @@ class GroupTrunkGroupGetInstanceListResponse14sp4 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $trunkGroupTable
      * @return $this
      */
-    public function setTrunkGroupTable($trunkGroupTable)
+    public function setTrunkGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $trunkGroupTable)
     {
         $this->trunkGroupTable = $trunkGroupTable;
         return $this;

@@ -70,7 +70,7 @@ class CommPilotExpressAvailableInOfficeModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify|null $busySetting
      * @return $this
      */
-    public function setBusySetting($busySetting)
+    public function setBusySetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify $busySetting)
     {
         $this->busySetting = $busySetting;
         return $this;
@@ -94,7 +94,7 @@ class CommPilotExpressAvailableInOfficeModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify|null $noAnswerSetting
      * @return $this
      */
-    public function setNoAnswerSetting($noAnswerSetting)
+    public function setNoAnswerSetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionModify $noAnswerSetting)
     {
         $this->noAnswerSetting = $noAnswerSetting;
         return $this;

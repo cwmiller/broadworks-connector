@@ -39,7 +39,7 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\B
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCenterTable
      * @return $this
      */
-    public function setCallCenterTable($callCenterTable)
+    public function setCallCenterTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable)
     {
         $this->callCenterTable = $callCenterTable;
         return $this;

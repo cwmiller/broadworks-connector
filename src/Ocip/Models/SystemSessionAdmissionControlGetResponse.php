@@ -25,7 +25,7 @@ class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName sacHandlingForMoH
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
 
@@ -63,7 +63,7 @@ class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\
      * Getter for sacHandlingForMoH
      *
      * @ElementName sacHandlingForMoH
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     public function getSacHandlingForMoH()
     {
@@ -74,10 +74,10 @@ class SystemSessionAdmissionControlGetResponse extends \CWM\BroadWorksConnector\
      * Setter for sacHandlingForMoH
      *
      * @ElementName sacHandlingForMoH
-     * @param string|null $sacHandlingForMoH
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null $sacHandlingForMoH
      * @return $this
      */
-    public function setSacHandlingForMoH($sacHandlingForMoH)
+    public function setSacHandlingForMoH(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType $sacHandlingForMoH)
     {
         $this->sacHandlingForMoH = $sacHandlingForMoH;
         return $this;

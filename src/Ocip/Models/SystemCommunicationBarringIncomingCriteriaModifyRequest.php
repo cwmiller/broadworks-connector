@@ -188,7 +188,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null $matchNumberPortabilityStatus
      * @return $this
      */
-    public function setMatchNumberPortabilityStatus($matchNumberPortabilityStatus)
+    public function setMatchNumberPortabilityStatus(\CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus = $matchNumberPortabilityStatus;
         return $this;

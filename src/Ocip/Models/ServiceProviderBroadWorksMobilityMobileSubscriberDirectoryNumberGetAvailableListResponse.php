@@ -42,7 +42,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
      * @param string[] $availableMobileSubscriberDirectoryNumber
      * @return $this
      */
-    public function setAvailableMobileSubscriberDirectoryNumber($availableMobileSubscriberDirectoryNumber)
+    public function setAvailableMobileSubscriberDirectoryNumber(array $availableMobileSubscriberDirectoryNumber)
     {
         $this->availableMobileSubscriberDirectoryNumber = $availableMobileSubscriberDirectoryNumber;
         return $this;
@@ -55,7 +55,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
      * @param string $availableMobileSubscriberDirectoryNumber
      * @return $this
      */
-    public function addAvailableMobileSubscriberDirectoryNumber($availableMobileSubscriberDirectoryNumber)
+    public function addAvailableMobileSubscriberDirectoryNumber(string $availableMobileSubscriberDirectoryNumber)
     {
         $this->availableMobileSubscriberDirectoryNumber []= $availableMobileSubscriberDirectoryNumber;
         return $this;

@@ -46,7 +46,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName originatingDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
 
@@ -76,7 +76,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName redirectingDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
 
@@ -94,7 +94,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName incomingDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $incomingDefaultAction = null;
 
@@ -112,7 +112,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName callMeNowDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $callMeNowDefaultAction = null;
 
@@ -210,7 +210,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for originatingDefaultAction
      *
      * @ElementName originatingDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     public function getOriginatingDefaultAction()
     {
@@ -221,10 +221,10 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for originatingDefaultAction
      *
      * @ElementName originatingDefaultAction
-     * @param string|null $originatingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null $originatingDefaultAction
      * @return $this
      */
-    public function setOriginatingDefaultAction($originatingDefaultAction)
+    public function setOriginatingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction $originatingDefaultAction)
     {
         $this->originatingDefaultAction = $originatingDefaultAction;
         return $this;
@@ -320,7 +320,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null $originatingRule
      * @return $this
      */
-    public function setOriginatingRule($originatingRule)
+    public function setOriginatingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList $originatingRule)
     {
         $this->originatingRule = $originatingRule;
         return $this;
@@ -330,7 +330,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for redirectingDefaultAction
      *
      * @ElementName redirectingDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     public function getRedirectingDefaultAction()
     {
@@ -341,10 +341,10 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for redirectingDefaultAction
      *
      * @ElementName redirectingDefaultAction
-     * @param string|null $redirectingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null $redirectingDefaultAction
      * @return $this
      */
-    public function setRedirectingDefaultAction($redirectingDefaultAction)
+    public function setRedirectingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction $redirectingDefaultAction)
     {
         $this->redirectingDefaultAction = $redirectingDefaultAction;
         return $this;
@@ -392,7 +392,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null $redirectingRule
      * @return $this
      */
-    public function setRedirectingRule($redirectingRule)
+    public function setRedirectingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList $redirectingRule)
     {
         $this->redirectingRule = $redirectingRule;
         return $this;
@@ -402,7 +402,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for incomingDefaultAction
      *
      * @ElementName incomingDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     public function getIncomingDefaultAction()
     {
@@ -413,10 +413,10 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for incomingDefaultAction
      *
      * @ElementName incomingDefaultAction
-     * @param string|null $incomingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null $incomingDefaultAction
      * @return $this
      */
-    public function setIncomingDefaultAction($incomingDefaultAction)
+    public function setIncomingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $incomingDefaultAction)
     {
         $this->incomingDefaultAction = $incomingDefaultAction;
         return $this;
@@ -464,7 +464,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null $incomingRule
      * @return $this
      */
-    public function setIncomingRule($incomingRule)
+    public function setIncomingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1 $incomingRule)
     {
         $this->incomingRule = $incomingRule;
         return $this;
@@ -474,7 +474,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for callMeNowDefaultAction
      *
      * @ElementName callMeNowDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     public function getCallMeNowDefaultAction()
     {
@@ -485,10 +485,10 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for callMeNowDefaultAction
      *
      * @ElementName callMeNowDefaultAction
-     * @param string|null $callMeNowDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null $callMeNowDefaultAction
      * @return $this
      */
-    public function setCallMeNowDefaultAction($callMeNowDefaultAction)
+    public function setCallMeNowDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $callMeNowDefaultAction)
     {
         $this->callMeNowDefaultAction = $callMeNowDefaultAction;
         return $this;
@@ -536,7 +536,7 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null $callMeNowRule
      * @return $this
      */
-    public function setCallMeNowRule($callMeNowRule)
+    public function setCallMeNowRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList $callMeNowRule)
     {
         $this->callMeNowRule = $callMeNowRule;
         return $this;

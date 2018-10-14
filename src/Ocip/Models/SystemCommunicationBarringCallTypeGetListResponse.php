@@ -38,7 +38,7 @@ class SystemCommunicationBarringCallTypeGetListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callTypeTable
      * @return $this
      */
-    public function setCallTypeTable($callTypeTable)
+    public function setCallTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callTypeTable)
     {
         $this->callTypeTable = $callTypeTable;
         return $this;

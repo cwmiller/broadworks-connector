@@ -41,7 +41,7 @@ class UserBroadWorksReceptionistSmallBusinessGetResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $monitoredUserTable
      * @return $this
      */
-    public function setMonitoredUserTable($monitoredUserTable)
+    public function setMonitoredUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable)
     {
         $this->monitoredUserTable = $monitoredUserTable;
         return $this;

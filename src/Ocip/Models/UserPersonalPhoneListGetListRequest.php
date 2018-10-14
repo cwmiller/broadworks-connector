@@ -152,7 +152,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[] $searchCriteriaUserPersonalPhoneListName
      * @return $this
      */
-    public function setSearchCriteriaUserPersonalPhoneListName($searchCriteriaUserPersonalPhoneListName)
+    public function setSearchCriteriaUserPersonalPhoneListName(array $searchCriteriaUserPersonalPhoneListName)
     {
         $this->searchCriteriaUserPersonalPhoneListName = $searchCriteriaUserPersonalPhoneListName;
         return $this;
@@ -189,7 +189,7 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[] $searchCriteriaUserPersonalPhoneListNumber
      * @return $this
      */
-    public function setSearchCriteriaUserPersonalPhoneListNumber($searchCriteriaUserPersonalPhoneListNumber)
+    public function setSearchCriteriaUserPersonalPhoneListNumber(array $searchCriteriaUserPersonalPhoneListNumber)
     {
         $this->searchCriteriaUserPersonalPhoneListNumber = $searchCriteriaUserPersonalPhoneListNumber;
         return $this;

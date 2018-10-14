@@ -39,7 +39,7 @@ class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param string[] $holidayScheduleName
      * @return $this
      */
-    public function setHolidayScheduleName($holidayScheduleName)
+    public function setHolidayScheduleName(array $holidayScheduleName)
     {
         $this->holidayScheduleName = $holidayScheduleName;
         return $this;
@@ -52,7 +52,7 @@ class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param string $holidayScheduleName
      * @return $this
      */
-    public function addHolidayScheduleName($holidayScheduleName)
+    public function addHolidayScheduleName(string $holidayScheduleName)
     {
         $this->holidayScheduleName []= $holidayScheduleName;
         return $this;

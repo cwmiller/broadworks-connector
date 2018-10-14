@@ -75,7 +75,7 @@ class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\B
      * @param \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[] $agentWeight
      * @return $this
      */
-    public function setAgentWeight($agentWeight)
+    public function setAgentWeight(array $agentWeight)
     {
         $this->agentWeight = $agentWeight;
         return $this;

@@ -129,7 +129,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -166,7 +166,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[] $searchCriteriaGroupName
      * @return $this
      */
-    public function setSearchCriteriaGroupName($searchCriteriaGroupName)
+    public function setSearchCriteriaGroupName(array $searchCriteriaGroupName)
     {
         $this->searchCriteriaGroupName = $searchCriteriaGroupName;
         return $this;
@@ -203,7 +203,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider[] $searchCriteriaExactServiceProvider
      * @return $this
      */
-    public function setSearchCriteriaExactServiceProvider($searchCriteriaExactServiceProvider)
+    public function setSearchCriteriaExactServiceProvider(array $searchCriteriaExactServiceProvider)
     {
         $this->searchCriteriaExactServiceProvider = $searchCriteriaExactServiceProvider;
         return $this;
@@ -240,7 +240,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;

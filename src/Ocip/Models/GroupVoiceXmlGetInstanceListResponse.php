@@ -40,7 +40,7 @@ class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $voiceXmlTable
      * @return $this
      */
-    public function setVoiceXmlTable($voiceXmlTable)
+    public function setVoiceXmlTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $voiceXmlTable)
     {
         $this->voiceXmlTable = $voiceXmlTable;
         return $this;

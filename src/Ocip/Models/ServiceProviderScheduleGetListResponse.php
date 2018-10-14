@@ -39,7 +39,7 @@ class ServiceProviderScheduleGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[] $scheduleKey
      * @return $this
      */
-    public function setScheduleKey($scheduleKey)
+    public function setScheduleKey(array $scheduleKey)
     {
         $this->scheduleKey = $scheduleKey;
         return $this;

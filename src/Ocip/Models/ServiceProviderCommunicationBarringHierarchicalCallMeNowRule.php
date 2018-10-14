@@ -24,7 +24,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $action = null;
 
@@ -104,7 +104,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     public function getAction()
     {
@@ -115,10 +115,10 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $action)
     {
         $this->action = $action;
         return $this;

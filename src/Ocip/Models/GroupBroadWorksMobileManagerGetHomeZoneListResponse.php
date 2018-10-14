@@ -39,7 +39,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneListResponse extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $homeZonesTable
      * @return $this
      */
-    public function setHomeZonesTable($homeZonesTable)
+    public function setHomeZonesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $homeZonesTable)
     {
         $this->homeZonesTable = $homeZonesTable;
         return $this;

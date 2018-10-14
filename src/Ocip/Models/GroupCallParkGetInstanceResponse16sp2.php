@@ -26,7 +26,7 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName recallTo
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
 
@@ -64,7 +64,7 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
      * Getter for recallTo
      *
      * @ElementName recallTo
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     public function getRecallTo()
     {
@@ -75,10 +75,10 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
      * Setter for recallTo
      *
      * @ElementName recallTo
-     * @param string|null $recallTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null $recallTo
      * @return $this
      */
-    public function setRecallTo($recallTo)
+    public function setRecallTo(\CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo)
     {
         $this->recallTo = $recallTo;
         return $this;
@@ -102,7 +102,7 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
      * @return $this
      */
-    public function setUserTable($userTable)
+    public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
         return $this;

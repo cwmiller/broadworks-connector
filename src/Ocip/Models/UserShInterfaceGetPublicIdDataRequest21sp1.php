@@ -41,7 +41,7 @@ class UserShInterfaceGetPublicIdDataRequest21sp1 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null $publicUserIdentity
      * @return $this
      */
-    public function setPublicUserIdentity($publicUserIdentity)
+    public function setPublicUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity)
     {
         $this->publicUserIdentity = $publicUserIdentity;
         return $this;

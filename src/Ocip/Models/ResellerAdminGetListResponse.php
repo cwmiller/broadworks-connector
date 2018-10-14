@@ -38,7 +38,7 @@ class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $resellerAdminTable
      * @return $this
      */
-    public function setResellerAdminTable($resellerAdminTable)
+    public function setResellerAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resellerAdminTable)
     {
         $this->resellerAdminTable = $resellerAdminTable;
         return $this;

@@ -48,7 +48,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $numberPrefixSummaryTable
      * @return $this
      */
-    public function setNumberPrefixSummaryTable($numberPrefixSummaryTable)
+    public function setNumberPrefixSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $numberPrefixSummaryTable)
     {
         $this->numberPrefixSummaryTable = $numberPrefixSummaryTable;
         return $this;

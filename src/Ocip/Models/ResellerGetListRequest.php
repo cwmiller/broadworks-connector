@@ -81,7 +81,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
-    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
     {
         $this->searchCriteriaResellerId = $searchCriteriaResellerId;
         return $this;
@@ -118,7 +118,7 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[] $searchCriteriaResellerName
      * @return $this
      */
-    public function setSearchCriteriaResellerName($searchCriteriaResellerName)
+    public function setSearchCriteriaResellerName(array $searchCriteriaResellerName)
     {
         $this->searchCriteriaResellerName = $searchCriteriaResellerName;
         return $this;

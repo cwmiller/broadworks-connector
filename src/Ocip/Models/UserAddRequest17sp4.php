@@ -385,7 +385,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null $nameDialingName
      * @return $this
      */
-    public function setNameDialingName($nameDialingName)
+    public function setNameDialingName(\CWM\BroadWorksConnector\Ocip\Models\NameDialingName $nameDialingName)
     {
         $this->nameDialingName = $nameDialingName;
         return $this;
@@ -553,7 +553,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -625,7 +625,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param string[] $alias
      * @return $this
      */
-    public function setAlias($alias)
+    public function setAlias(array $alias)
     {
         $this->alias = $alias;
         return $this;
@@ -638,7 +638,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param string $alias
      * @return $this
      */
-    public function addAlias($alias)
+    public function addAlias(string $alias)
     {
         $this->alias []= $alias;
         return $this;
@@ -662,7 +662,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointAdd|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointAdd $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;
@@ -686,7 +686,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd|null $trunkAddressing
      * @return $this
      */
-    public function setTrunkAddressing($trunkAddressing)
+    public function setTrunkAddressing(\CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd $trunkAddressing)
     {
         $this->trunkAddressing = $trunkAddressing;
         return $this;
@@ -854,7 +854,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;
@@ -902,7 +902,7 @@ class UserAddRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[] $alternateUserId
      * @return $this
      */
-    public function setAlternateUserId($alternateUserId)
+    public function setAlternateUserId(array $alternateUserId)
     {
         $this->alternateUserId = $alternateUserId;
         return $this;

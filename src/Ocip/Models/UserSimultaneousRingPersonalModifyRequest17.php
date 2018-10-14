@@ -136,7 +136,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null $simultaneousRingNumberList
      * @return $this
      */
-    public function setSimultaneousRingNumberList($simultaneousRingNumberList)
+    public function setSimultaneousRingNumberList(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList $simultaneousRingNumberList)
     {
         $this->simultaneousRingNumberList = $simultaneousRingNumberList;
         return $this;
@@ -160,7 +160,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
-    public function setCriteriaActivation($criteriaActivation)
+    public function setCriteriaActivation(array $criteriaActivation)
     {
         $this->criteriaActivation = $criteriaActivation;
         return $this;

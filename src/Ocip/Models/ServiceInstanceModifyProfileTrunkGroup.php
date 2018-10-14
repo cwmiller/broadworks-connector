@@ -293,7 +293,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -365,7 +365,7 @@ class ServiceInstanceModifyProfileTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
      * @return $this
      */
-    public function setSipAliasList($sipAliasList)
+    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
     {
         $this->sipAliasList = $sipAliasList;
         return $this;

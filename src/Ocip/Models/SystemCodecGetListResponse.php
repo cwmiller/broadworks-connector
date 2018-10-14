@@ -14,7 +14,7 @@ class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName codec
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Codec[]
      */
     private $codec = array(
         
@@ -24,7 +24,7 @@ class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for codec
      *
      * @ElementName codec
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Codec[]
      */
     public function getCodec()
     {
@@ -35,10 +35,10 @@ class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for codec
      *
      * @ElementName codec
-     * @param string[] $codec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Codec[] $codec
      * @return $this
      */
-    public function setCodec($codec)
+    public function setCodec(array $codec)
     {
         $this->codec = $codec;
         return $this;
@@ -48,7 +48,7 @@ class SystemCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Adder for codec
      *
      * @ElementName codec
-     * @param string $codec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Codec $codec
      * @return $this
      */
     public function addCodec($codec)

@@ -40,7 +40,7 @@ class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string[] $aliasNetAddress
      * @return $this
      */
-    public function setAliasNetAddress($aliasNetAddress)
+    public function setAliasNetAddress(array $aliasNetAddress)
     {
         $this->aliasNetAddress = $aliasNetAddress;
         return $this;
@@ -53,7 +53,7 @@ class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string $aliasNetAddress
      * @return $this
      */
-    public function addAliasNetAddress($aliasNetAddress)
+    public function addAliasNetAddress(string $aliasNetAddress)
     {
         $this->aliasNetAddress []= $aliasNetAddress;
         return $this;

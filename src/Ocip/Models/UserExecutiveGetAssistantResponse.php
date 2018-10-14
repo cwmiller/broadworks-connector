@@ -72,7 +72,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $assistantUserTable
      * @return $this
      */
-    public function setAssistantUserTable($assistantUserTable)
+    public function setAssistantUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assistantUserTable)
     {
         $this->assistantUserTable = $assistantUserTable;
         return $this;

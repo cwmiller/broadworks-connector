@@ -172,7 +172,7 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21[] $alternateNumberEntry
      * @return $this
      */
-    public function setAlternateNumberEntry($alternateNumberEntry)
+    public function setAlternateNumberEntry(array $alternateNumberEntry)
     {
         $this->alternateNumberEntry = $alternateNumberEntry;
         return $this;

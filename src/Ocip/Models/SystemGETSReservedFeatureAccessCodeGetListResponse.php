@@ -37,7 +37,7 @@ class SystemGETSReservedFeatureAccessCodeGetListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reservedCodeTable
      * @return $this
      */
-    public function setReservedCodeTable($reservedCodeTable)
+    public function setReservedCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reservedCodeTable)
     {
         $this->reservedCodeTable = $reservedCodeTable;
         return $this;

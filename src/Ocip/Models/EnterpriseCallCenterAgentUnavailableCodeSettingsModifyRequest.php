@@ -281,7 +281,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify[] $codeStateList
      * @return $this
      */
-    public function setCodeStateList($codeStateList)
+    public function setCodeStateList(array $codeStateList)
     {
         $this->codeStateList = $codeStateList;
         return $this;

@@ -28,7 +28,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName nightForwarding
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     private $nightForwarding = null;
 
@@ -102,7 +102,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for nightForwarding
      *
      * @ElementName nightForwarding
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     public function getNightForwarding()
     {
@@ -113,10 +113,10 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for nightForwarding
      *
      * @ElementName nightForwarding
-     * @param string|null $nightForwarding
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null $nightForwarding
      * @return $this
      */
-    public function setNightForwarding($nightForwarding)
+    public function setNightForwarding(\CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode $nightForwarding)
     {
         $this->nightForwarding = $nightForwarding;
         return $this;
@@ -140,7 +140,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
-    public function setBusinessHours($businessHours)
+    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
     {
         $this->businessHours = $businessHours;
         return $this;
@@ -164,7 +164,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;

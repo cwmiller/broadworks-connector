@@ -38,7 +38,7 @@ class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCapacityGroupTable
      * @return $this
      */
-    public function setCallCapacityGroupTable($callCapacityGroupTable)
+    public function setCallCapacityGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCapacityGroupTable)
     {
         $this->callCapacityGroupTable = $callCapacityGroupTable;
         return $this;

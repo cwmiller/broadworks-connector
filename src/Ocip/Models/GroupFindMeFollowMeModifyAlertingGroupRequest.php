@@ -256,7 +256,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null $phoneNumberOrUserList
      * @return $this
      */
-    public function setPhoneNumberOrUserList($phoneNumberOrUserList)
+    public function setPhoneNumberOrUserList(\CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList $phoneNumberOrUserList)
     {
         $this->phoneNumberOrUserList = $phoneNumberOrUserList;
         return $this;
@@ -280,7 +280,7 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
-    public function setCriteriaActivation($criteriaActivation)
+    public function setCriteriaActivation(array $criteriaActivation)
     {
         $this->criteriaActivation = $criteriaActivation;
         return $this;

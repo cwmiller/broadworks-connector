@@ -92,7 +92,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -116,7 +116,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $destinationPhoneNumberList
      * @return $this
      */
-    public function setDestinationPhoneNumberList($destinationPhoneNumberList)
+    public function setDestinationPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $destinationPhoneNumberList)
     {
         $this->destinationPhoneNumberList = $destinationPhoneNumberList;
         return $this;

@@ -22,7 +22,7 @@ class SystemDeviceTypeGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
@@ -98,7 +98,7 @@ class SystemDeviceTypeGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     public function getProfile()
     {
@@ -109,10 +109,10 @@ class SystemDeviceTypeGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
     {
         $this->profile = $profile;
         return $this;
@@ -184,7 +184,7 @@ class SystemDeviceTypeGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptions|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions($cpeDeviceOptions)
+    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptions $cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -208,7 +208,7 @@ class SystemDeviceTypeGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string[] $protocolChoice
      * @return $this
      */
-    public function setProtocolChoice($protocolChoice)
+    public function setProtocolChoice(array $protocolChoice)
     {
         $this->protocolChoice = $protocolChoice;
         return $this;
@@ -221,7 +221,7 @@ class SystemDeviceTypeGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string $protocolChoice
      * @return $this
      */
-    public function addProtocolChoice($protocolChoice)
+    public function addProtocolChoice(string $protocolChoice)
     {
         $this->protocolChoice []= $protocolChoice;
         return $this;

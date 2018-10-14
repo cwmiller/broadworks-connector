@@ -110,7 +110,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $announcementFileKey
      * @return $this
      */
-    public function setAnnouncementFileKey($announcementFileKey)
+    public function setAnnouncementFileKey(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $announcementFileKey)
     {
         $this->announcementFileKey = $announcementFileKey;
         return $this;
@@ -158,7 +158,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $announcementFile
      * @return $this
      */
-    public function setAnnouncementFile($announcementFile)
+    public function setAnnouncementFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $announcementFile)
     {
         $this->announcementFile = $announcementFile;
         return $this;

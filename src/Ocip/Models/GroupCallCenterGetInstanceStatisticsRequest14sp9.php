@@ -69,7 +69,7 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null $statisticsRange
      * @return $this
      */
-    public function setStatisticsRange($statisticsRange)
+    public function setStatisticsRange(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange $statisticsRange)
     {
         $this->statisticsRange = $statisticsRange;
         return $this;

@@ -428,7 +428,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null $notificationEmailAddressList
      * @return $this
      */
-    public function setNotificationEmailAddressList($notificationEmailAddressList)
+    public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList $notificationEmailAddressList)
     {
         $this->notificationEmailAddressList = $notificationEmailAddressList;
         return $this;

@@ -108,7 +108,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[] $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern($searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern)
+    public function setSearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern(array $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern)
     {
         $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern;
         return $this;

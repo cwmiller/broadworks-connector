@@ -39,7 +39,7 @@ class GroupGroupPagingGetOriginatorListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $originatorTable
      * @return $this
      */
-    public function setOriginatorTable($originatorTable)
+    public function setOriginatorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $originatorTable)
     {
         $this->originatorTable = $originatorTable;
         return $this;

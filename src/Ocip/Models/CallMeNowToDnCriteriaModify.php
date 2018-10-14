@@ -12,7 +12,7 @@ class CallMeNowToDnCriteriaModify
 
     /**
      * @ElementName toDnCriteriaSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     private $toDnCriteriaSelection = null;
 
@@ -26,7 +26,7 @@ class CallMeNowToDnCriteriaModify
      * Getter for toDnCriteriaSelection
      *
      * @ElementName toDnCriteriaSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     public function getToDnCriteriaSelection()
     {
@@ -37,10 +37,10 @@ class CallMeNowToDnCriteriaModify
      * Setter for toDnCriteriaSelection
      *
      * @ElementName toDnCriteriaSelection
-     * @param string|null $toDnCriteriaSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null $toDnCriteriaSelection
      * @return $this
      */
-    public function setToDnCriteriaSelection($toDnCriteriaSelection)
+    public function setToDnCriteriaSelection(\CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection $toDnCriteriaSelection)
     {
         $this->toDnCriteriaSelection = $toDnCriteriaSelection;
         return $this;
@@ -64,7 +64,7 @@ class CallMeNowToDnCriteriaModify
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null $phoneNumberList
      * @return $this
      */
-    public function setPhoneNumberList($phoneNumberList)
+    public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList $phoneNumberList)
     {
         $this->phoneNumberList = $phoneNumberList;
         return $this;

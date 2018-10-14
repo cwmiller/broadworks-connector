@@ -73,7 +73,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[] $searchCriteriaSystemServiceDn
      * @return $this
      */
-    public function setSearchCriteriaSystemServiceDn($searchCriteriaSystemServiceDn)
+    public function setSearchCriteriaSystemServiceDn(array $searchCriteriaSystemServiceDn)
     {
         $this->searchCriteriaSystemServiceDn = $searchCriteriaSystemServiceDn;
         return $this;

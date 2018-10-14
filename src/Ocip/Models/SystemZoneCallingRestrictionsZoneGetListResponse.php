@@ -40,7 +40,7 @@ class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $zoneTable
      * @return $this
      */
-    public function setZoneTable($zoneTable)
+    public function setZoneTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $zoneTable)
     {
         $this->zoneTable = $zoneTable;
         return $this;

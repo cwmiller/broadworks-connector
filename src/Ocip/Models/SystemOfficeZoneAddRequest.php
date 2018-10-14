@@ -107,7 +107,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string[] $zoneName
      * @return $this
      */
-    public function setZoneName($zoneName)
+    public function setZoneName(array $zoneName)
     {
         $this->zoneName = $zoneName;
         return $this;
@@ -120,7 +120,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param string $zoneName
      * @return $this
      */
-    public function addZoneName($zoneName)
+    public function addZoneName(string $zoneName)
     {
         $this->zoneName []= $zoneName;
         return $this;

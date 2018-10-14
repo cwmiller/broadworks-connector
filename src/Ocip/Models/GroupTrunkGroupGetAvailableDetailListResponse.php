@@ -14,7 +14,7 @@ class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName trunkGroup
-     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse\TrunkGroup[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup[]
      */
     private $trunkGroup = array(
         
@@ -24,7 +24,7 @@ class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConne
      * Getter for trunkGroup
      *
      * @ElementName trunkGroup
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse\TrunkGroup[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup[]
      */
     public function getTrunkGroup()
     {
@@ -35,10 +35,10 @@ class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConne
      * Setter for trunkGroup
      *
      * @ElementName trunkGroup
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse\TrunkGroup[] $trunkGroup
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup[] $trunkGroup
      * @return $this
      */
-    public function setTrunkGroup($trunkGroup)
+    public function setTrunkGroup(array $trunkGroup)
     {
         $this->trunkGroup = $trunkGroup;
         return $this;
@@ -48,7 +48,7 @@ class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConne
      * Adder for trunkGroup
      *
      * @ElementName trunkGroup
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponse\TrunkGroup $trunkGroup
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup $trunkGroup
      * @return $this
      */
     public function addTrunkGroup($trunkGroup)

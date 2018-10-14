@@ -119,7 +119,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[] $searchCriteriaMobileSubscriberDirectoryNumber
      * @return $this
      */
-    public function setSearchCriteriaMobileSubscriberDirectoryNumber($searchCriteriaMobileSubscriberDirectoryNumber)
+    public function setSearchCriteriaMobileSubscriberDirectoryNumber(array $searchCriteriaMobileSubscriberDirectoryNumber)
     {
         $this->searchCriteriaMobileSubscriberDirectoryNumber = $searchCriteriaMobileSubscriberDirectoryNumber;
         return $this;
@@ -156,7 +156,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -193,7 +193,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null $searchCriteriaExactMobileNetwork
      * @return $this
      */
-    public function setSearchCriteriaExactMobileNetwork($searchCriteriaExactMobileNetwork)
+    public function setSearchCriteriaExactMobileNetwork(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork $searchCriteriaExactMobileNetwork)
     {
         $this->searchCriteriaExactMobileNetwork = $searchCriteriaExactMobileNetwork;
         return $this;

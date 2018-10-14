@@ -70,7 +70,7 @@ class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnecto
      * @param string[] $entryName
      * @return $this
      */
-    public function setEntryName($entryName)
+    public function setEntryName(array $entryName)
     {
         $this->entryName = $entryName;
         return $this;
@@ -83,7 +83,7 @@ class EnterpriseCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnecto
      * @param string $entryName
      * @return $this
      */
-    public function addEntryName($entryName)
+    public function addEntryName(string $entryName)
     {
         $this->entryName []= $entryName;
         return $this;

@@ -389,7 +389,7 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null $deviceList
      * @return $this
      */
-    public function setDeviceList($deviceList)
+    public function setDeviceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList $deviceList)
     {
         $this->deviceList = $deviceList;
         return $this;

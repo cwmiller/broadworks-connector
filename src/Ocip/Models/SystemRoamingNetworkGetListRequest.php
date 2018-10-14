@@ -71,7 +71,7 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[] $searchCriteriaRoamingMscAddress
      * @return $this
      */
-    public function setSearchCriteriaRoamingMscAddress($searchCriteriaRoamingMscAddress)
+    public function setSearchCriteriaRoamingMscAddress(array $searchCriteriaRoamingMscAddress)
     {
         $this->searchCriteriaRoamingMscAddress = $searchCriteriaRoamingMscAddress;
         return $this;

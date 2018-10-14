@@ -16,7 +16,7 @@ class ServiceProviderAnswerConfirmationGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName announcementMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
 
@@ -36,7 +36,7 @@ class ServiceProviderAnswerConfirmationGetResponse extends \CWM\BroadWorksConnec
      * Getter for announcementMessageSelection
      *
      * @ElementName announcementMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     public function getAnnouncementMessageSelection()
     {
@@ -47,10 +47,10 @@ class ServiceProviderAnswerConfirmationGetResponse extends \CWM\BroadWorksConnec
      * Setter for announcementMessageSelection
      *
      * @ElementName announcementMessageSelection
-     * @param string|null $announcementMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null $announcementMessageSelection
      * @return $this
      */
-    public function setAnnouncementMessageSelection($announcementMessageSelection)
+    public function setAnnouncementMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection)
     {
         $this->announcementMessageSelection = $announcementMessageSelection;
         return $this;

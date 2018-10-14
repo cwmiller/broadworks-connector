@@ -41,7 +41,7 @@ class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routePointTable
      * @return $this
      */
-    public function setRoutePointTable($routePointTable)
+    public function setRoutePointTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routePointTable)
     {
         $this->routePointTable = $routePointTable;
         return $this;

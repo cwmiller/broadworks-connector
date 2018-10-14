@@ -150,7 +150,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

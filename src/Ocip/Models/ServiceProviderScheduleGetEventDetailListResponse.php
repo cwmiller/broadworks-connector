@@ -41,7 +41,7 @@ class ServiceProviderScheduleGetEventDetailListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[] $scheduleEventsList
      * @return $this
      */
-    public function setScheduleEventsList($scheduleEventsList)
+    public function setScheduleEventsList(array $scheduleEventsList)
     {
         $this->scheduleEventsList = $scheduleEventsList;
         return $this;

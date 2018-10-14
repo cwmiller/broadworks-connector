@@ -44,7 +44,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanGroupAuthorizationCodes|null $groupCodeList
      * @return $this
      */
-    public function setGroupCodeList($groupCodeList)
+    public function setGroupCodeList(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanGroupAuthorizationCodes $groupCodeList)
     {
         $this->groupCodeList = $groupCodeList;
         return $this;
@@ -68,7 +68,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDepartmentAuthorizationCodes[] $departmentCodeList
      * @return $this
      */
-    public function setDepartmentCodeList($departmentCodeList)
+    public function setDepartmentCodeList(array $departmentCodeList)
     {
         $this->departmentCodeList = $departmentCodeList;
         return $this;

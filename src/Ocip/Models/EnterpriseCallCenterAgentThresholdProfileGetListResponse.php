@@ -39,7 +39,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $profilesTable
      * @return $this
      */
-    public function setProfilesTable($profilesTable)
+    public function setProfilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profilesTable)
     {
         $this->profilesTable = $profilesTable;
         return $this;

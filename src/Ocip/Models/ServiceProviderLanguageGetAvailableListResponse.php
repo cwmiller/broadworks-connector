@@ -68,7 +68,7 @@ class ServiceProviderLanguageGetAvailableListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $languageTable
      * @return $this
      */
-    public function setLanguageTable($languageTable)
+    public function setLanguageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $languageTable)
     {
         $this->languageTable = $languageTable;
         return $this;

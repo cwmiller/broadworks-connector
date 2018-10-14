@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
      * @param string[] $mobileNetworkName
      * @return $this
      */
-    public function setMobileNetworkName($mobileNetworkName)
+    public function setMobileNetworkName(array $mobileNetworkName)
     {
         $this->mobileNetworkName = $mobileNetworkName;
         return $this;
@@ -51,7 +51,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
      * @param string $mobileNetworkName
      * @return $this
      */
-    public function addMobileNetworkName($mobileNetworkName)
+    public function addMobileNetworkName(string $mobileNetworkName)
     {
         $this->mobileNetworkName []= $mobileNetworkName;
         return $this;

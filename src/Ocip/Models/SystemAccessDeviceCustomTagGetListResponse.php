@@ -43,7 +43,7 @@ class SystemAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceCustomTagsTable
      * @return $this
      */
-    public function setDeviceCustomTagsTable($deviceCustomTagsTable)
+    public function setDeviceCustomTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceCustomTagsTable)
     {
         $this->deviceCustomTagsTable = $deviceCustomTagsTable;
         return $this;

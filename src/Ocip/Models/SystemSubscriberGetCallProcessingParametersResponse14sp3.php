@@ -14,7 +14,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
 
     /**
      * @ElementName userCallingLineIdSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     private $userCallingLineIdSelection = null;
 
@@ -46,7 +46,7 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
      * Getter for userCallingLineIdSelection
      *
      * @ElementName userCallingLineIdSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     public function getUserCallingLineIdSelection()
     {
@@ -57,10 +57,10 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp3 extends \CWM\Broa
      * Setter for userCallingLineIdSelection
      *
      * @ElementName userCallingLineIdSelection
-     * @param string|null $userCallingLineIdSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null $userCallingLineIdSelection
      * @return $this
      */
-    public function setUserCallingLineIdSelection($userCallingLineIdSelection)
+    public function setUserCallingLineIdSelection(\CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection $userCallingLineIdSelection)
     {
         $this->userCallingLineIdSelection = $userCallingLineIdSelection;
         return $this;

@@ -54,7 +54,7 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName recallTo
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
 
@@ -172,7 +172,7 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
      * @return $this
      */
-    public function setUserIdList($userIdList)
+    public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)
     {
         $this->userIdList = $userIdList;
         return $this;
@@ -206,7 +206,7 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for recallTo
      *
      * @ElementName recallTo
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     public function getRecallTo()
     {
@@ -217,10 +217,10 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for recallTo
      *
      * @ElementName recallTo
-     * @param string|null $recallTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null $recallTo
      * @return $this
      */
-    public function setRecallTo($recallTo)
+    public function setRecallTo(\CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo)
     {
         $this->recallTo = $recallTo;
         return $this;

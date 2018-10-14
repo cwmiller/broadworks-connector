@@ -12,7 +12,7 @@ class SearchCriteriaExactScheduleLevel extends SearchCriteria
 
     /**
      * @ElementName level
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     private $level = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactScheduleLevel extends SearchCriteria
      * Getter for level
      *
      * @ElementName level
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     public function getLevel()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactScheduleLevel extends SearchCriteria
      * Setter for level
      *
      * @ElementName level
-     * @param string|null $level
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null $level
      * @return $this
      */
-    public function setLevel($level)
+    public function setLevel(\CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel $level)
     {
         $this->level = $level;
         return $this;

@@ -12,7 +12,7 @@ class CallToNumber
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType|null
      */
     private $type = null;
 
@@ -32,7 +32,7 @@ class CallToNumber
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType|null
      */
     public function getType()
     {
@@ -43,10 +43,10 @@ class CallToNumber
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\CallToNumberType $type)
     {
         $this->type = $type;
         return $this;

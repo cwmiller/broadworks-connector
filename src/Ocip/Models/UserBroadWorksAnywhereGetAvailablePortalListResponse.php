@@ -40,7 +40,7 @@ class UserBroadWorksAnywhereGetAvailablePortalListResponse extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $portalTable
      * @return $this
      */
-    public function setPortalTable($portalTable)
+    public function setPortalTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $portalTable)
     {
         $this->portalTable = $portalTable;
         return $this;

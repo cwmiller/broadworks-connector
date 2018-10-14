@@ -200,7 +200,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null $source
      * @return $this
      */
-    public function setSource($source)
+    public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead $source)
     {
         $this->source = $source;
         return $this;
@@ -248,7 +248,7 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null $internalSource
      * @return $this
      */
-    public function setInternalSource($internalSource)
+    public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead $internalSource)
     {
         $this->internalSource = $internalSource;
         return $this;

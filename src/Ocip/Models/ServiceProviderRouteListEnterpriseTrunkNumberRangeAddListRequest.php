@@ -70,7 +70,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $numberRange
      * @return $this
      */
-    public function setNumberRange($numberRange)
+    public function setNumberRange(array $numberRange)
     {
         $this->numberRange = $numberRange;
         return $this;

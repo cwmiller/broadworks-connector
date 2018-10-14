@@ -12,7 +12,7 @@ class SearchCriteriaExactMediaFileType extends SearchCriteria
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $type = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactMediaFileType extends SearchCriteria
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getType()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactMediaFileType extends SearchCriteria
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $type)
     {
         $this->type = $type;
         return $this;

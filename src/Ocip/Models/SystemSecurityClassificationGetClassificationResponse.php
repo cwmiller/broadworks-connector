@@ -20,7 +20,7 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
 
     /**
      * @ElementName audioAnnouncementFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioAnnouncementFileType = null;
 
@@ -52,7 +52,7 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
      * Getter for audioAnnouncementFileType
      *
      * @ElementName audioAnnouncementFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioAnnouncementFileType()
     {
@@ -63,10 +63,10 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
      * Setter for audioAnnouncementFileType
      *
      * @ElementName audioAnnouncementFileType
-     * @param string|null $audioAnnouncementFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioAnnouncementFileType
      * @return $this
      */
-    public function setAudioAnnouncementFileType($audioAnnouncementFileType)
+    public function setAudioAnnouncementFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioAnnouncementFileType)
     {
         $this->audioAnnouncementFileType = $audioAnnouncementFileType;
         return $this;

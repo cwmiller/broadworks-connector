@@ -39,7 +39,7 @@ class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemVoicePortalsTable
      * @return $this
      */
-    public function setSystemVoicePortalsTable($systemVoicePortalsTable)
+    public function setSystemVoicePortalsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemVoicePortalsTable)
     {
         $this->systemVoicePortalsTable = $systemVoicePortalsTable;
         return $this;

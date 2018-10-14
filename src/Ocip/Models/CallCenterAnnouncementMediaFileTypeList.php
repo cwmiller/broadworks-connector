@@ -12,25 +12,25 @@ class CallCenterAnnouncementMediaFileTypeList
 
     /**
      * @ElementName mediaType1
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType1 = null;
 
     /**
      * @ElementName mediaType2
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType2 = null;
 
     /**
      * @ElementName mediaType3
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType3 = null;
 
     /**
      * @ElementName mediaType4
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType4 = null;
 
@@ -38,7 +38,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * Getter for mediaType1
      *
      * @ElementName mediaType1
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaType1()
     {
@@ -49,10 +49,10 @@ class CallCenterAnnouncementMediaFileTypeList
      * Setter for mediaType1
      *
      * @ElementName mediaType1
-     * @param string|null $mediaType1
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaType1
      * @return $this
      */
-    public function setMediaType1($mediaType1)
+    public function setMediaType1(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType1)
     {
         $this->mediaType1 = $mediaType1;
         return $this;
@@ -62,7 +62,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * Getter for mediaType2
      *
      * @ElementName mediaType2
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaType2()
     {
@@ -73,10 +73,10 @@ class CallCenterAnnouncementMediaFileTypeList
      * Setter for mediaType2
      *
      * @ElementName mediaType2
-     * @param string|null $mediaType2
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaType2
      * @return $this
      */
-    public function setMediaType2($mediaType2)
+    public function setMediaType2(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType2)
     {
         $this->mediaType2 = $mediaType2;
         return $this;
@@ -86,7 +86,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * Getter for mediaType3
      *
      * @ElementName mediaType3
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaType3()
     {
@@ -97,10 +97,10 @@ class CallCenterAnnouncementMediaFileTypeList
      * Setter for mediaType3
      *
      * @ElementName mediaType3
-     * @param string|null $mediaType3
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaType3
      * @return $this
      */
-    public function setMediaType3($mediaType3)
+    public function setMediaType3(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType3)
     {
         $this->mediaType3 = $mediaType3;
         return $this;
@@ -110,7 +110,7 @@ class CallCenterAnnouncementMediaFileTypeList
      * Getter for mediaType4
      *
      * @ElementName mediaType4
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaType4()
     {
@@ -121,10 +121,10 @@ class CallCenterAnnouncementMediaFileTypeList
      * Setter for mediaType4
      *
      * @ElementName mediaType4
-     * @param string|null $mediaType4
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaType4
      * @return $this
      */
-    public function setMediaType4($mediaType4)
+    public function setMediaType4(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType4)
     {
         $this->mediaType4 = $mediaType4;
         return $this;

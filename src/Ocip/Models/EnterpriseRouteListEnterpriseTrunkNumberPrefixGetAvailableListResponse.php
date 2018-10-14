@@ -40,7 +40,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse ext
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableNumberPrefixTable
      * @return $this
      */
-    public function setAvailableNumberPrefixTable($availableNumberPrefixTable)
+    public function setAvailableNumberPrefixTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableNumberPrefixTable)
     {
         $this->availableNumberPrefixTable = $availableNumberPrefixTable;
         return $this;

@@ -28,7 +28,7 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName priorityClass
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass|null
      */
     private $priorityClass = null;
 
@@ -84,7 +84,7 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for priorityClass
      *
      * @ElementName priorityClass
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass|null
      */
     public function getPriorityClass()
     {
@@ -95,10 +95,10 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for priorityClass
      *
      * @ElementName priorityClass
-     * @param string|null $priorityClass
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass|null $priorityClass
      * @return $this
      */
-    public function setPriorityClass($priorityClass)
+    public function setPriorityClass(\CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass $priorityClass)
     {
         $this->priorityClass = $priorityClass;
         return $this;

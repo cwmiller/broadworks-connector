@@ -72,7 +72,7 @@ class SystemBroadWorksMobilityGetMobileNetworkIMRNListRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[] $searchCriteriaIMRN
      * @return $this
      */
-    public function setSearchCriteriaIMRN($searchCriteriaIMRN)
+    public function setSearchCriteriaIMRN(array $searchCriteriaIMRN)
     {
         $this->searchCriteriaIMRN = $searchCriteriaIMRN;
         return $this;

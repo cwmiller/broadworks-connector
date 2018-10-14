@@ -43,7 +43,7 @@ class SystemAccessDeviceTypeGetEnhancedConfigurableListResponse extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTypeTable
      * @return $this
      */
-    public function setDeviceTypeTable($deviceTypeTable)
+    public function setDeviceTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeTable)
     {
         $this->deviceTypeTable = $deviceTypeTable;
         return $this;

@@ -70,7 +70,7 @@ class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $scheduleGlobalKey
      * @return $this
      */
-    public function setScheduleGlobalKey($scheduleGlobalKey)
+    public function setScheduleGlobalKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $scheduleGlobalKey)
     {
         $this->scheduleGlobalKey = $scheduleGlobalKey;
         return $this;

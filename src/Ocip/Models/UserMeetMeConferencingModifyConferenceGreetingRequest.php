@@ -81,7 +81,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null $conferenceKey
      * @return $this
      */
-    public function setConferenceKey($conferenceKey)
+    public function setConferenceKey(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey)
     {
         $this->conferenceKey = $conferenceKey;
         return $this;
@@ -129,7 +129,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $entranceGreetingFile
      * @return $this
      */
-    public function setEntranceGreetingFile($entranceGreetingFile)
+    public function setEntranceGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $entranceGreetingFile)
     {
         $this->entranceGreetingFile = $entranceGreetingFile;
         return $this;

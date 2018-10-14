@@ -22,7 +22,7 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName sacHandlingForMoH
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
 
@@ -34,7 +34,7 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName sacCodecSelectionPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     private $sacCodecSelectionPolicy = null;
 
@@ -90,7 +90,7 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
      * Getter for sacHandlingForMoH
      *
      * @ElementName sacHandlingForMoH
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     public function getSacHandlingForMoH()
     {
@@ -101,10 +101,10 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
      * Setter for sacHandlingForMoH
      *
      * @ElementName sacHandlingForMoH
-     * @param string|null $sacHandlingForMoH
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null $sacHandlingForMoH
      * @return $this
      */
-    public function setSacHandlingForMoH($sacHandlingForMoH)
+    public function setSacHandlingForMoH(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType $sacHandlingForMoH)
     {
         $this->sacHandlingForMoH = $sacHandlingForMoH;
         return $this;
@@ -138,7 +138,7 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
      * Getter for sacCodecSelectionPolicy
      *
      * @ElementName sacCodecSelectionPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     public function getSacCodecSelectionPolicy()
     {
@@ -149,10 +149,10 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
      * Setter for sacCodecSelectionPolicy
      *
      * @ElementName sacCodecSelectionPolicy
-     * @param string|null $sacCodecSelectionPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null $sacCodecSelectionPolicy
      * @return $this
      */
-    public function setSacCodecSelectionPolicy($sacCodecSelectionPolicy)
+    public function setSacCodecSelectionPolicy(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType $sacCodecSelectionPolicy)
     {
         $this->sacCodecSelectionPolicy = $sacCodecSelectionPolicy;
         return $this;

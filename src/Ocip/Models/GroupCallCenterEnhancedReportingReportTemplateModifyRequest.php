@@ -52,7 +52,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
 
     /**
      * @ElementName scope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     private $scope = null;
 
@@ -218,7 +218,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $xsltTemplate
      * @return $this
      */
-    public function setXsltTemplate($xsltTemplate)
+    public function setXsltTemplate(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $xsltTemplate)
     {
         $this->xsltTemplate = $xsltTemplate;
         return $this;
@@ -228,7 +228,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * Getter for scope
      *
      * @ElementName scope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     public function getScope()
     {
@@ -239,10 +239,10 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * Setter for scope
      *
      * @ElementName scope
-     * @param string|null $scope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null $scope
      * @return $this
      */
-    public function setScope($scope)
+    public function setScope(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption $scope)
     {
         $this->scope = $scope;
         return $this;
@@ -338,7 +338,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null $filterValue
      * @return $this
      */
-    public function setFilterValue($filterValue)
+    public function setFilterValue(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList $filterValue)
     {
         $this->filterValue = $filterValue;
         return $this;

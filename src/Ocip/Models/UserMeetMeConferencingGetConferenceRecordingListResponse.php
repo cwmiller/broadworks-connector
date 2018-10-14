@@ -40,7 +40,7 @@ class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceRecordingTable
      * @return $this
      */
-    public function setConferenceRecordingTable($conferenceRecordingTable)
+    public function setConferenceRecordingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceRecordingTable)
     {
         $this->conferenceRecordingTable = $conferenceRecordingTable;
         return $this;

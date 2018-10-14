@@ -110,7 +110,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[] $searchCriteriaGroupLocationCode
      * @return $this
      */
-    public function setSearchCriteriaGroupLocationCode($searchCriteriaGroupLocationCode)
+    public function setSearchCriteriaGroupLocationCode(array $searchCriteriaGroupLocationCode)
     {
         $this->searchCriteriaGroupLocationCode = $searchCriteriaGroupLocationCode;
         return $this;
@@ -147,7 +147,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null $searchCriteriaExactPolicySelection
      * @return $this
      */
-    public function setSearchCriteriaExactPolicySelection($searchCriteriaExactPolicySelection)
+    public function setSearchCriteriaExactPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection $searchCriteriaExactPolicySelection)
     {
         $this->searchCriteriaExactPolicySelection = $searchCriteriaExactPolicySelection;
         return $this;

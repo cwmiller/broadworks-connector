@@ -12,7 +12,7 @@ class SearchCriteriaExactDeviceLevel extends SearchCriteria
 
     /**
      * @ElementName deviceLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactDeviceLevel extends SearchCriteria
      * Getter for deviceLevel
      *
      * @ElementName deviceLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     public function getDeviceLevel()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactDeviceLevel extends SearchCriteria
      * Setter for deviceLevel
      *
      * @ElementName deviceLevel
-     * @param string|null $deviceLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null $deviceLevel
      * @return $this
      */
-    public function setDeviceLevel($deviceLevel)
+    public function setDeviceLevel(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel $deviceLevel)
     {
         $this->deviceLevel = $deviceLevel;
         return $this;

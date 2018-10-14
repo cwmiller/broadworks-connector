@@ -127,7 +127,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @param string[] $addressForPrimary
      * @return $this
      */
-    public function setAddressForPrimary($addressForPrimary)
+    public function setAddressForPrimary(array $addressForPrimary)
     {
         $this->addressForPrimary = $addressForPrimary;
         return $this;
@@ -142,7 +142,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @param string $addressForPrimary
      * @return $this
      */
-    public function addAddressForPrimary($addressForPrimary)
+    public function addAddressForPrimary(string $addressForPrimary)
     {
         $this->addressForPrimary []= $addressForPrimary;
         return $this;
@@ -170,7 +170,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @param string[] $privateAddressForPrimary
      * @return $this
      */
-    public function setPrivateAddressForPrimary($privateAddressForPrimary)
+    public function setPrivateAddressForPrimary(array $privateAddressForPrimary)
     {
         $this->privateAddressForPrimary = $privateAddressForPrimary;
         return $this;
@@ -185,7 +185,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @param string $privateAddressForPrimary
      * @return $this
      */
-    public function addPrivateAddressForPrimary($privateAddressForPrimary)
+    public function addPrivateAddressForPrimary(string $privateAddressForPrimary)
     {
         $this->privateAddressForPrimary []= $privateAddressForPrimary;
         return $this;

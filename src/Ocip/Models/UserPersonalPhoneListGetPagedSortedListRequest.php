@@ -115,7 +115,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
      * @return $this
      */
-    public function setResponsePagingControl($responsePagingControl)
+    public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
     {
         $this->responsePagingControl = $responsePagingControl;
         return $this;
@@ -139,7 +139,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber|null $sortByUserPersonalPhoneListNumber
      * @return $this
      */
-    public function setSortByUserPersonalPhoneListNumber($sortByUserPersonalPhoneListNumber)
+    public function setSortByUserPersonalPhoneListNumber(\CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListNumber $sortByUserPersonalPhoneListNumber)
     {
         $this->sortByUserPersonalPhoneListNumber = $sortByUserPersonalPhoneListNumber;
         return $this;
@@ -163,7 +163,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName|null $sortByUserPersonalPhoneListName
      * @return $this
      */
-    public function setSortByUserPersonalPhoneListName($sortByUserPersonalPhoneListName)
+    public function setSortByUserPersonalPhoneListName(\CWM\BroadWorksConnector\Ocip\Models\SortByUserPersonalPhoneListName $sortByUserPersonalPhoneListName)
     {
         $this->sortByUserPersonalPhoneListName = $sortByUserPersonalPhoneListName;
         return $this;
@@ -211,7 +211,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[] $searchCriteriaUserPersonalPhoneListName
      * @return $this
      */
-    public function setSearchCriteriaUserPersonalPhoneListName($searchCriteriaUserPersonalPhoneListName)
+    public function setSearchCriteriaUserPersonalPhoneListName(array $searchCriteriaUserPersonalPhoneListName)
     {
         $this->searchCriteriaUserPersonalPhoneListName = $searchCriteriaUserPersonalPhoneListName;
         return $this;
@@ -248,7 +248,7 @@ class UserPersonalPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[] $searchCriteriaUserPersonalPhoneListNumber
      * @return $this
      */
-    public function setSearchCriteriaUserPersonalPhoneListNumber($searchCriteriaUserPersonalPhoneListNumber)
+    public function setSearchCriteriaUserPersonalPhoneListNumber(array $searchCriteriaUserPersonalPhoneListNumber)
     {
         $this->searchCriteriaUserPersonalPhoneListNumber = $searchCriteriaUserPersonalPhoneListNumber;
         return $this;

@@ -66,7 +66,7 @@ class GroupCallCenterGetInstanceQueueStatusResponse extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentsCurrentlyStaffed
      * @return $this
      */
-    public function setAgentsCurrentlyStaffed($agentsCurrentlyStaffed)
+    public function setAgentsCurrentlyStaffed(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentsCurrentlyStaffed)
     {
         $this->agentsCurrentlyStaffed = $agentsCurrentlyStaffed;
         return $this;

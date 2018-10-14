@@ -14,7 +14,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName announcementMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
 
@@ -26,7 +26,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName confirmationMessageMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $confirmationMessageMediaType = null;
 
@@ -40,7 +40,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * Getter for announcementMessageSelection
      *
      * @ElementName announcementMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     public function getAnnouncementMessageSelection()
     {
@@ -51,10 +51,10 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * Setter for announcementMessageSelection
      *
      * @ElementName announcementMessageSelection
-     * @param string|null $announcementMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null $announcementMessageSelection
      * @return $this
      */
-    public function setAnnouncementMessageSelection($announcementMessageSelection)
+    public function setAnnouncementMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection)
     {
         $this->announcementMessageSelection = $announcementMessageSelection;
         return $this;
@@ -88,7 +88,7 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * Getter for confirmationMessageMediaType
      *
      * @ElementName confirmationMessageMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getConfirmationMessageMediaType()
     {
@@ -99,10 +99,10 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
      * Setter for confirmationMessageMediaType
      *
      * @ElementName confirmationMessageMediaType
-     * @param string|null $confirmationMessageMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $confirmationMessageMediaType
      * @return $this
      */
-    public function setConfirmationMessageMediaType($confirmationMessageMediaType)
+    public function setConfirmationMessageMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $confirmationMessageMediaType)
     {
         $this->confirmationMessageMediaType = $confirmationMessageMediaType;
         return $this;

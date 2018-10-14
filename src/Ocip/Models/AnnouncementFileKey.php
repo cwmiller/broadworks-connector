@@ -18,7 +18,7 @@ class AnnouncementFileKey
 
     /**
      * @ElementName mediaFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaFileType = null;
 
@@ -50,7 +50,7 @@ class AnnouncementFileKey
      * Getter for mediaFileType
      *
      * @ElementName mediaFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaFileType()
     {
@@ -61,10 +61,10 @@ class AnnouncementFileKey
      * Setter for mediaFileType
      *
      * @ElementName mediaFileType
-     * @param string|null $mediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaFileType
      * @return $this
      */
-    public function setMediaFileType($mediaFileType)
+    public function setMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaFileType)
     {
         $this->mediaFileType = $mediaFileType;
         return $this;

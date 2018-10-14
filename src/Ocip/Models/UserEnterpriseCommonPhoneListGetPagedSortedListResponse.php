@@ -69,7 +69,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $enterpriseCommonPhoneListTable
      * @return $this
      */
-    public function setEnterpriseCommonPhoneListTable($enterpriseCommonPhoneListTable)
+    public function setEnterpriseCommonPhoneListTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $enterpriseCommonPhoneListTable)
     {
         $this->enterpriseCommonPhoneListTable = $enterpriseCommonPhoneListTable;
         return $this;

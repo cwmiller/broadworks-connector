@@ -158,7 +158,7 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null $entryList
      * @return $this
      */
-    public function setEntryList($entryList)
+    public function setEntryList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList $entryList)
     {
         $this->entryList = $entryList;
         return $this;

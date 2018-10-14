@@ -36,7 +36,7 @@ class ReplacementCombinedGroupServiceAuthorizationList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedGroupServiceAuthorization[] $groupServiceAuthorization
      * @return $this
      */
-    public function setGroupServiceAuthorization($groupServiceAuthorization)
+    public function setGroupServiceAuthorization(array $groupServiceAuthorization)
     {
         $this->groupServiceAuthorization = $groupServiceAuthorization;
         return $this;

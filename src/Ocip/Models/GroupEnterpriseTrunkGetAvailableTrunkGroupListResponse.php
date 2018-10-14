@@ -38,7 +38,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
      * @param string[] $trunkGroupName
      * @return $this
      */
-    public function setTrunkGroupName($trunkGroupName)
+    public function setTrunkGroupName(array $trunkGroupName)
     {
         $this->trunkGroupName = $trunkGroupName;
         return $this;
@@ -51,7 +51,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
      * @param string $trunkGroupName
      * @return $this
      */
-    public function addTrunkGroupName($trunkGroupName)
+    public function addTrunkGroupName(string $trunkGroupName)
     {
         $this->trunkGroupName []= $trunkGroupName;
         return $this;

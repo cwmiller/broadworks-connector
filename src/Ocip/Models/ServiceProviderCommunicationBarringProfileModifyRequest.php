@@ -47,7 +47,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName originatingDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
 
@@ -77,7 +77,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName redirectingDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
 
@@ -95,7 +95,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName callMeNowDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $callMeNowDefaultAction = null;
 
@@ -113,7 +113,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName incomingDefaultAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $incomingDefaultAction = null;
 
@@ -241,7 +241,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for originatingDefaultAction
      *
      * @ElementName originatingDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     public function getOriginatingDefaultAction()
     {
@@ -252,10 +252,10 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for originatingDefaultAction
      *
      * @ElementName originatingDefaultAction
-     * @param string|null $originatingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null $originatingDefaultAction
      * @return $this
      */
-    public function setOriginatingDefaultAction($originatingDefaultAction)
+    public function setOriginatingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction $originatingDefaultAction)
     {
         $this->originatingDefaultAction = $originatingDefaultAction;
         return $this;
@@ -351,7 +351,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null $originatingRule
      * @return $this
      */
-    public function setOriginatingRule($originatingRule)
+    public function setOriginatingRule(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList $originatingRule)
     {
         $this->originatingRule = $originatingRule;
         return $this;
@@ -361,7 +361,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for redirectingDefaultAction
      *
      * @ElementName redirectingDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     public function getRedirectingDefaultAction()
     {
@@ -372,10 +372,10 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for redirectingDefaultAction
      *
      * @ElementName redirectingDefaultAction
-     * @param string|null $redirectingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null $redirectingDefaultAction
      * @return $this
      */
-    public function setRedirectingDefaultAction($redirectingDefaultAction)
+    public function setRedirectingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction $redirectingDefaultAction)
     {
         $this->redirectingDefaultAction = $redirectingDefaultAction;
         return $this;
@@ -423,7 +423,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null $redirectingRule
      * @return $this
      */
-    public function setRedirectingRule($redirectingRule)
+    public function setRedirectingRule(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList $redirectingRule)
     {
         $this->redirectingRule = $redirectingRule;
         return $this;
@@ -433,7 +433,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for callMeNowDefaultAction
      *
      * @ElementName callMeNowDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     public function getCallMeNowDefaultAction()
     {
@@ -444,10 +444,10 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for callMeNowDefaultAction
      *
      * @ElementName callMeNowDefaultAction
-     * @param string|null $callMeNowDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null $callMeNowDefaultAction
      * @return $this
      */
-    public function setCallMeNowDefaultAction($callMeNowDefaultAction)
+    public function setCallMeNowDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $callMeNowDefaultAction)
     {
         $this->callMeNowDefaultAction = $callMeNowDefaultAction;
         return $this;
@@ -495,7 +495,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null $callMeNowRule
      * @return $this
      */
-    public function setCallMeNowRule($callMeNowRule)
+    public function setCallMeNowRule(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList $callMeNowRule)
     {
         $this->callMeNowRule = $callMeNowRule;
         return $this;
@@ -505,7 +505,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for incomingDefaultAction
      *
      * @ElementName incomingDefaultAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     public function getIncomingDefaultAction()
     {
@@ -516,10 +516,10 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for incomingDefaultAction
      *
      * @ElementName incomingDefaultAction
-     * @param string|null $incomingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null $incomingDefaultAction
      * @return $this
      */
-    public function setIncomingDefaultAction($incomingDefaultAction)
+    public function setIncomingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $incomingDefaultAction)
     {
         $this->incomingDefaultAction = $incomingDefaultAction;
         return $this;
@@ -567,7 +567,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null $incomingRule
      * @return $this
      */
-    public function setIncomingRule($incomingRule)
+    public function setIncomingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1 $incomingRule)
     {
         $this->incomingRule = $incomingRule;
         return $this;

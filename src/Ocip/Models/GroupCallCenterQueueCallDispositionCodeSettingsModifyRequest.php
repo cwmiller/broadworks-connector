@@ -167,7 +167,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null $defaultCallDispositionCode
      * @return $this
      */
-    public function setDefaultCallDispositionCode($defaultCallDispositionCode)
+    public function setDefaultCallDispositionCode(\CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel $defaultCallDispositionCode)
     {
         $this->defaultCallDispositionCode = $defaultCallDispositionCode;
         return $this;
@@ -191,7 +191,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[] $callDispositionCodeActivation
      * @return $this
      */
-    public function setCallDispositionCodeActivation($callDispositionCodeActivation)
+    public function setCallDispositionCodeActivation(array $callDispositionCodeActivation)
     {
         $this->callDispositionCodeActivation = $callDispositionCodeActivation;
         return $this;

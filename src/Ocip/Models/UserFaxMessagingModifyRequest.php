@@ -158,7 +158,7 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
      * @return $this
      */
-    public function setSipAliasList($sipAliasList)
+    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
     {
         $this->sipAliasList = $sipAliasList;
         return $this;

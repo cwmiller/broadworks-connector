@@ -75,7 +75,7 @@ class ServiceProviderScheduleGetEventRequest extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
      * @return $this
      */
-    public function setScheduleKey($scheduleKey)
+    public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
     {
         $this->scheduleKey = $scheduleKey;
         return $this;

@@ -18,7 +18,7 @@ class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
 
     /**
      * @ElementName codec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     private $codec = null;
 
@@ -26,7 +26,7 @@ class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Getter for codec
      *
      * @ElementName codec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Codec|null
      */
     public function getCodec()
     {
@@ -37,10 +37,10 @@ class SystemCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Setter for codec
      *
      * @ElementName codec
-     * @param string|null $codec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Codec|null $codec
      * @return $this
      */
-    public function setCodec($codec)
+    public function setCodec(\CWM\BroadWorksConnector\Ocip\Models\Codec $codec)
     {
         $this->codec = $codec;
         return $this;

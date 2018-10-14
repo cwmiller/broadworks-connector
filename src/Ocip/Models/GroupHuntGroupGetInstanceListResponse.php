@@ -42,7 +42,7 @@ class GroupHuntGroupGetInstanceListResponse extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $huntGroupTable
      * @return $this
      */
-    public function setHuntGroupTable($huntGroupTable)
+    public function setHuntGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $huntGroupTable)
     {
         $this->huntGroupTable = $huntGroupTable;
         return $this;

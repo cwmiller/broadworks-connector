@@ -35,7 +35,7 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName phonesToRing
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $phonesToRing = null;
 
@@ -77,7 +77,7 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName useSettingLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     private $useSettingLevel = null;
 
@@ -145,7 +145,7 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Getter for phonesToRing
      *
      * @ElementName phonesToRing
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     public function getPhonesToRing()
     {
@@ -156,10 +156,10 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Setter for phonesToRing
      *
      * @ElementName phonesToRing
-     * @param string|null $phonesToRing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null $phonesToRing
      * @return $this
      */
-    public function setPhonesToRing($phonesToRing)
+    public function setPhonesToRing(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $phonesToRing)
     {
         $this->phonesToRing = $phonesToRing;
         return $this;
@@ -313,7 +313,7 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Getter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     public function getUseSettingLevel()
     {
@@ -324,10 +324,10 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Setter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @param string|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null $useSettingLevel
      * @return $this
      */
-    public function setUseSettingLevel($useSettingLevel)
+    public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel $useSettingLevel)
     {
         $this->useSettingLevel = $useSettingLevel;
         return $this;

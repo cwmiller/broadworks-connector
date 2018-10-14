@@ -14,7 +14,7 @@ class SystemCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWor
 
     /**
      * @ElementName brandingChoice
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
      */
     private $brandingChoice = null;
 
@@ -28,7 +28,7 @@ class SystemCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWor
      * Getter for brandingChoice
      *
      * @ElementName brandingChoice
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
      */
     public function getBrandingChoice()
     {
@@ -39,10 +39,10 @@ class SystemCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWor
      * Setter for brandingChoice
      *
      * @ElementName brandingChoice
-     * @param string|null $brandingChoice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null $brandingChoice
      * @return $this
      */
-    public function setBrandingChoice($brandingChoice)
+    public function setBrandingChoice(\CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice $brandingChoice)
     {
         $this->brandingChoice = $brandingChoice;
         return $this;

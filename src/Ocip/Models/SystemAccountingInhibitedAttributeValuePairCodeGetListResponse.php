@@ -39,7 +39,7 @@ class SystemAccountingInhibitedAttributeValuePairCodeGetListResponse extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $inhibitedAttributeValuePairCodeTable
      * @return $this
      */
-    public function setInhibitedAttributeValuePairCodeTable($inhibitedAttributeValuePairCodeTable)
+    public function setInhibitedAttributeValuePairCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $inhibitedAttributeValuePairCodeTable)
     {
         $this->inhibitedAttributeValuePairCodeTable = $inhibitedAttributeValuePairCodeTable;
         return $this;

@@ -49,7 +49,7 @@ class OCITable
      * @param string[] $colHeading
      * @return $this
      */
-    public function setColHeading($colHeading)
+    public function setColHeading(array $colHeading)
     {
         $this->colHeading = $colHeading;
         return $this;
@@ -62,7 +62,7 @@ class OCITable
      * @param string $colHeading
      * @return $this
      */
-    public function addColHeading($colHeading)
+    public function addColHeading(string $colHeading)
     {
         $this->colHeading []= $colHeading;
         return $this;
@@ -86,7 +86,7 @@ class OCITable
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[] $row
      * @return $this
      */
-    public function setRow($row)
+    public function setRow(array $row)
     {
         $this->row = $row;
         return $this;

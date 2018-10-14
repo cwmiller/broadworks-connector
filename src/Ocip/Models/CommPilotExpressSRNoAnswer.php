@@ -70,7 +70,7 @@ class CommPilotExpressSRNoAnswer
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null $forwardingNumberList
      * @return $this
      */
-    public function setForwardingNumberList($forwardingNumberList)
+    public function setForwardingNumberList(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList $forwardingNumberList)
     {
         $this->forwardingNumberList = $forwardingNumberList;
         return $this;
@@ -94,7 +94,7 @@ class CommPilotExpressSRNoAnswer
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null $stillNoAnswer
      * @return $this
      */
-    public function setStillNoAnswer($stillNoAnswer)
+    public function setStillNoAnswer(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection $stillNoAnswer)
     {
         $this->stillNoAnswer = $stillNoAnswer;
         return $this;

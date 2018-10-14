@@ -39,7 +39,7 @@ class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $applicationControllerTable
      * @return $this
      */
-    public function setApplicationControllerTable($applicationControllerTable)
+    public function setApplicationControllerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $applicationControllerTable)
     {
         $this->applicationControllerTable = $applicationControllerTable;
         return $this;

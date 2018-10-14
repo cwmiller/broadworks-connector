@@ -12,19 +12,19 @@ class CollaborateRoomSchedule
 
     /**
      * @ElementName scheduleReservationless
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleReservationless|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless|null
      */
     private $scheduleReservationless = null;
 
     /**
      * @ElementName scheduleOneTime
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleOneTime|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime|null
      */
     private $scheduleOneTime = null;
 
     /**
      * @ElementName scheduleRecurring
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleRecurring|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring|null
      */
     private $scheduleRecurring = null;
 
@@ -32,7 +32,7 @@ class CollaborateRoomSchedule
      * Getter for scheduleReservationless
      *
      * @ElementName scheduleReservationless
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleReservationless|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless|null
      */
     public function getScheduleReservationless()
     {
@@ -43,10 +43,10 @@ class CollaborateRoomSchedule
      * Setter for scheduleReservationless
      *
      * @ElementName scheduleReservationless
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleReservationless|null $scheduleReservationless
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless|null $scheduleReservationless
      * @return $this
      */
-    public function setScheduleReservationless($scheduleReservationless)
+    public function setScheduleReservationless(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleReservationless $scheduleReservationless)
     {
         $this->scheduleReservationless = $scheduleReservationless;
         return $this;
@@ -56,7 +56,7 @@ class CollaborateRoomSchedule
      * Getter for scheduleOneTime
      *
      * @ElementName scheduleOneTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleOneTime|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime|null
      */
     public function getScheduleOneTime()
     {
@@ -67,10 +67,10 @@ class CollaborateRoomSchedule
      * Setter for scheduleOneTime
      *
      * @ElementName scheduleOneTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleOneTime|null $scheduleOneTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime|null $scheduleOneTime
      * @return $this
      */
-    public function setScheduleOneTime($scheduleOneTime)
+    public function setScheduleOneTime(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleOneTime $scheduleOneTime)
     {
         $this->scheduleOneTime = $scheduleOneTime;
         return $this;
@@ -80,7 +80,7 @@ class CollaborateRoomSchedule
      * Getter for scheduleRecurring
      *
      * @ElementName scheduleRecurring
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleRecurring|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring|null
      */
     public function getScheduleRecurring()
     {
@@ -91,10 +91,10 @@ class CollaborateRoomSchedule
      * Setter for scheduleRecurring
      *
      * @ElementName scheduleRecurring
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule\ScheduleRecurring|null $scheduleRecurring
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring|null $scheduleRecurring
      * @return $this
      */
-    public function setScheduleRecurring($scheduleRecurring)
+    public function setScheduleRecurring(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomScheduleScheduleRecurring $scheduleRecurring)
     {
         $this->scheduleRecurring = $scheduleRecurring;
         return $this;

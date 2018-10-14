@@ -25,13 +25,13 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName recordingOption
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
     private $recordingOption = null;
 
     /**
      * @ElementName pauseResumeNotification
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
     private $pauseResumeNotification = null;
 
@@ -63,7 +63,7 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for recordingOption
      *
      * @ElementName recordingOption
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
     public function getRecordingOption()
     {
@@ -74,10 +74,10 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for recordingOption
      *
      * @ElementName recordingOption
-     * @param string|null $recordingOption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null $recordingOption
      * @return $this
      */
-    public function setRecordingOption($recordingOption)
+    public function setRecordingOption(\CWM\BroadWorksConnector\Ocip\Models\RecordingOption20 $recordingOption)
     {
         $this->recordingOption = $recordingOption;
         return $this;
@@ -87,7 +87,7 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for pauseResumeNotification
      *
      * @ElementName pauseResumeNotification
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
     public function getPauseResumeNotification()
     {
@@ -98,10 +98,10 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for pauseResumeNotification
      *
      * @ElementName pauseResumeNotification
-     * @param string|null $pauseResumeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null $pauseResumeNotification
      * @return $this
      */
-    public function setPauseResumeNotification($pauseResumeNotification)
+    public function setPauseResumeNotification(\CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType $pauseResumeNotification)
     {
         $this->pauseResumeNotification = $pauseResumeNotification;
         return $this;

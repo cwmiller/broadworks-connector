@@ -22,7 +22,7 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
      */
     private $type = null;
 
@@ -60,7 +60,7 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
      */
     public function getType()
     {
@@ -71,10 +71,10 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType $type)
     {
         $this->type = $type;
         return $this;

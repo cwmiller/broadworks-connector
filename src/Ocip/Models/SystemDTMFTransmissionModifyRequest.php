@@ -16,13 +16,13 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName transmissionMethod
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod|null
      */
     private $transmissionMethod = null;
 
     /**
      * @ElementName signalingContentType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType|null
      */
     private $signalingContentType = null;
 
@@ -30,7 +30,7 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for transmissionMethod
      *
      * @ElementName transmissionMethod
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod|null
      */
     public function getTransmissionMethod()
     {
@@ -41,10 +41,10 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for transmissionMethod
      *
      * @ElementName transmissionMethod
-     * @param string|null $transmissionMethod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod|null $transmissionMethod
      * @return $this
      */
-    public function setTransmissionMethod($transmissionMethod)
+    public function setTransmissionMethod(\CWM\BroadWorksConnector\Ocip\Models\DTMFTransmissionMethod $transmissionMethod)
     {
         $this->transmissionMethod = $transmissionMethod;
         return $this;
@@ -54,7 +54,7 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for signalingContentType
      *
      * @ElementName signalingContentType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType|null
      */
     public function getSignalingContentType()
     {
@@ -65,10 +65,10 @@ class SystemDTMFTransmissionModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for signalingContentType
      *
      * @ElementName signalingContentType
-     * @param string|null $signalingContentType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType|null $signalingContentType
      * @return $this
      */
-    public function setSignalingContentType($signalingContentType)
+    public function setSignalingContentType(\CWM\BroadWorksConnector\Ocip\Models\DtmfTransmissionSignalingContentType $signalingContentType)
     {
         $this->signalingContentType = $signalingContentType;
         return $this;

@@ -98,7 +98,7 @@ class UserOutgoingCallingPlanDigitPlanRedirectingModifyRequest extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermissions|null $userPermissions
      * @return $this
      */
-    public function setUserPermissions($userPermissions)
+    public function setUserPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermissions $userPermissions)
     {
         $this->userPermissions = $userPermissions;
         return $this;

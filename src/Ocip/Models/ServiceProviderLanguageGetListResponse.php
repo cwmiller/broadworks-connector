@@ -44,7 +44,7 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param string[] $language
      * @return $this
      */
-    public function setLanguage($language)
+    public function setLanguage(array $language)
     {
         $this->language = $language;
         return $this;
@@ -57,7 +57,7 @@ class ServiceProviderLanguageGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param string $language
      * @return $this
      */
-    public function addLanguage($language)
+    public function addLanguage(string $language)
     {
         $this->language []= $language;
         return $this;

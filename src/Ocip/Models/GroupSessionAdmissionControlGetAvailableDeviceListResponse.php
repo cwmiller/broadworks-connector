@@ -40,7 +40,7 @@ class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[] $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(array $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;

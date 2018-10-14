@@ -24,13 +24,13 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName userServiceName
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
 
     /**
      * @ElementName groupServiceName
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
 
@@ -68,7 +68,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * Getter for userServiceName
      *
      * @ElementName userServiceName
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     public function getUserServiceName()
     {
@@ -79,10 +79,10 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * Setter for userServiceName
      *
      * @ElementName userServiceName
-     * @param string|null $userServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService|null $userServiceName
      * @return $this
      */
-    public function setUserServiceName($userServiceName)
+    public function setUserServiceName(\CWM\BroadWorksConnector\Ocip\Models\UserService $userServiceName)
     {
         $this->userServiceName = $userServiceName;
         return $this;
@@ -92,7 +92,7 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * Getter for groupServiceName
      *
      * @ElementName groupServiceName
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     public function getGroupServiceName()
     {
@@ -103,10 +103,10 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
      * Setter for groupServiceName
      *
      * @ElementName groupServiceName
-     * @param string|null $groupServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService|null $groupServiceName
      * @return $this
      */
-    public function setGroupServiceName($groupServiceName)
+    public function setGroupServiceName(\CWM\BroadWorksConnector\Ocip\Models\GroupService $groupServiceName)
     {
         $this->groupServiceName = $groupServiceName;
         return $this;

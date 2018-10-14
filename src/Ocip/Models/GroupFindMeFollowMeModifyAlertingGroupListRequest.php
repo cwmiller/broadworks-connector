@@ -72,7 +72,7 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @param string[] $alertingGroupName
      * @return $this
      */
-    public function setAlertingGroupName($alertingGroupName)
+    public function setAlertingGroupName(array $alertingGroupName)
     {
         $this->alertingGroupName = $alertingGroupName;
         return $this;
@@ -85,7 +85,7 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @param string $alertingGroupName
      * @return $this
      */
-    public function addAlertingGroupName($alertingGroupName)
+    public function addAlertingGroupName(string $alertingGroupName)
     {
         $this->alertingGroupName []= $alertingGroupName;
         return $this;

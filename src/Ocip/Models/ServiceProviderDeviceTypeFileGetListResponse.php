@@ -46,7 +46,7 @@ class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderDeviceTypeFilesTable
      * @return $this
      */
-    public function setServiceProviderDeviceTypeFilesTable($serviceProviderDeviceTypeFilesTable)
+    public function setServiceProviderDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderDeviceTypeFilesTable)
     {
         $this->serviceProviderDeviceTypeFilesTable = $serviceProviderDeviceTypeFilesTable;
         return $this;

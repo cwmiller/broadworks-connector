@@ -40,7 +40,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $templateActivationTable
      * @return $this
      */
-    public function setTemplateActivationTable($templateActivationTable)
+    public function setTemplateActivationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $templateActivationTable)
     {
         $this->templateActivationTable = $templateActivationTable;
         return $this;

@@ -40,7 +40,7 @@ class ReplacementCombinedUserServiceAssignmentList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAssignment[] $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(array $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;

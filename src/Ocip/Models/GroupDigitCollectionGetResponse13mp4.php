@@ -14,7 +14,7 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName useSetting
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
      */
     private $useSetting = null;
 
@@ -40,7 +40,7 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
      * Getter for useSetting
      *
      * @ElementName useSetting
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
      */
     public function getUseSetting()
     {
@@ -51,10 +51,10 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
      * Setter for useSetting
      *
      * @ElementName useSetting
-     * @param string|null $useSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null $useSetting
      * @return $this
      */
-    public function setUseSetting($useSetting)
+    public function setUseSetting(\CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel $useSetting)
     {
         $this->useSetting = $useSetting;
         return $this;

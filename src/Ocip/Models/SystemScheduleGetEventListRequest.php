@@ -6,7 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemScheduleGetEventListRequest
  *
  * Get the list of events of a system schedule.
- *         The response is either a SystemScheduleGetEventListResponse or an ErrorResponse.
+ *         The response is either a SystemScheduleGetEventListResponse or an
+ * ErrorResponse.
  *
  * @see SystemScheduleGetEventListResponse
  * @see ErrorResponse
@@ -38,7 +39,7 @@ class SystemScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
      * @return $this
      */
-    public function setScheduleKey($scheduleKey)
+    public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
     {
         $this->scheduleKey = $scheduleKey;
         return $this;

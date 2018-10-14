@@ -40,7 +40,7 @@ class GroupFeatureAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[] $featureAccessCode
      * @return $this
      */
-    public function setFeatureAccessCode($featureAccessCode)
+    public function setFeatureAccessCode(array $featureAccessCode)
     {
         $this->featureAccessCode = $featureAccessCode;
         return $this;

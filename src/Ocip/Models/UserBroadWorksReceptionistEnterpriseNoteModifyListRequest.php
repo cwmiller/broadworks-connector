@@ -74,7 +74,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[] $receptionistUserAndNote
      * @return $this
      */
-    public function setReceptionistUserAndNote($receptionistUserAndNote)
+    public function setReceptionistUserAndNote(array $receptionistUserAndNote)
     {
         $this->receptionistUserAndNote = $receptionistUserAndNote;
         return $this;

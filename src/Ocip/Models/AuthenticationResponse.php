@@ -26,7 +26,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
 
     /**
      * @ElementName passwordAlgorithm
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null
      */
     private $passwordAlgorithm = null;
 
@@ -82,7 +82,7 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * Getter for passwordAlgorithm
      *
      * @ElementName passwordAlgorithm
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null
      */
     public function getPasswordAlgorithm()
     {
@@ -93,10 +93,10 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * Setter for passwordAlgorithm
      *
      * @ElementName passwordAlgorithm
-     * @param string|null $passwordAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null $passwordAlgorithm
      * @return $this
      */
-    public function setPasswordAlgorithm($passwordAlgorithm)
+    public function setPasswordAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm $passwordAlgorithm)
     {
         $this->passwordAlgorithm = $passwordAlgorithm;
         return $this;

@@ -34,7 +34,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName bandwidthEnforcementType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     private $bandwidthEnforcementType = null;
 
@@ -120,7 +120,7 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for bandwidthEnforcementType
      *
      * @ElementName bandwidthEnforcementType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     public function getBandwidthEnforcementType()
     {
@@ -131,10 +131,10 @@ class SystemMediaAddRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for bandwidthEnforcementType
      *
      * @ElementName bandwidthEnforcementType
-     * @param string|null $bandwidthEnforcementType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null $bandwidthEnforcementType
      * @return $this
      */
-    public function setBandwidthEnforcementType($bandwidthEnforcementType)
+    public function setBandwidthEnforcementType(\CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType $bandwidthEnforcementType)
     {
         $this->bandwidthEnforcementType = $bandwidthEnforcementType;
         return $this;

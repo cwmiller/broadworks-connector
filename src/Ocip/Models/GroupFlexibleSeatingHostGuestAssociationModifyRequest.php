@@ -36,7 +36,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
 
     /**
      * @ElementName accessLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     private $accessLevel = null;
 
@@ -122,7 +122,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * Getter for accessLevel
      *
      * @ElementName accessLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     public function getAccessLevel()
     {
@@ -133,10 +133,10 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
      * Setter for accessLevel
      *
      * @ElementName accessLevel
-     * @param string|null $accessLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null $accessLevel
      * @return $this
      */
-    public function setAccessLevel($accessLevel)
+    public function setAccessLevel(\CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel $accessLevel)
     {
         $this->accessLevel = $accessLevel;
         return $this;

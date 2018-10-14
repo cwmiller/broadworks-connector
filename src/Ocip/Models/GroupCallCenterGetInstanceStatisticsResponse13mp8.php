@@ -27,7 +27,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
 
     /**
      * @ElementName collectionPeriodMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
 
@@ -115,7 +115,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * Getter for collectionPeriodMinutes
      *
      * @ElementName collectionPeriodMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     public function getCollectionPeriodMinutes()
     {
@@ -126,10 +126,10 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * Setter for collectionPeriodMinutes
      *
      * @ElementName collectionPeriodMinutes
-     * @param int|null $collectionPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null $collectionPeriodMinutes
      * @return $this
      */
-    public function setCollectionPeriodMinutes($collectionPeriodMinutes)
+    public function setCollectionPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes)
     {
         $this->collectionPeriodMinutes = $collectionPeriodMinutes;
         return $this;
@@ -201,7 +201,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null $queueStatisticsYesterday
      * @return $this
      */
-    public function setQueueStatisticsYesterday($queueStatisticsYesterday)
+    public function setQueueStatisticsYesterday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8 $queueStatisticsYesterday)
     {
         $this->queueStatisticsYesterday = $queueStatisticsYesterday;
         return $this;
@@ -225,7 +225,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null $queueStatisticsToday
      * @return $this
      */
-    public function setQueueStatisticsToday($queueStatisticsToday)
+    public function setQueueStatisticsToday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8 $queueStatisticsToday)
     {
         $this->queueStatisticsToday = $queueStatisticsToday;
         return $this;
@@ -249,7 +249,7 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8[] $agentStatistics
      * @return $this
      */
-    public function setAgentStatistics($agentStatistics)
+    public function setAgentStatistics(array $agentStatistics)
     {
         $this->agentStatistics = $agentStatistics;
         return $this;

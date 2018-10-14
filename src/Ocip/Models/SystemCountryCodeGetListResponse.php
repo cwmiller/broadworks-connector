@@ -75,7 +75,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $countryCodeTable
      * @return $this
      */
-    public function setCountryCodeTable($countryCodeTable)
+    public function setCountryCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $countryCodeTable)
     {
         $this->countryCodeTable = $countryCodeTable;
         return $this;

@@ -40,7 +40,7 @@ class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $pagingGroupTable
      * @return $this
      */
-    public function setPagingGroupTable($pagingGroupTable)
+    public function setPagingGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $pagingGroupTable)
     {
         $this->pagingGroupTable = $pagingGroupTable;
         return $this;

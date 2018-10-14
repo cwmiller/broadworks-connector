@@ -58,7 +58,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -316,7 +316,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -326,7 +326,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -337,10 +337,10 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -484,7 +484,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param string[] $agentUserId
      * @return $this
      */
-    public function setAgentUserId($agentUserId)
+    public function setAgentUserId(array $agentUserId)
     {
         $this->agentUserId = $agentUserId;
         return $this;
@@ -497,7 +497,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param string $agentUserId
      * @return $this
      */
-    public function addAgentUserId($agentUserId)
+    public function addAgentUserId(string $agentUserId)
     {
         $this->agentUserId []= $agentUserId;
         return $this;
@@ -521,7 +521,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[] $agentWeight
      * @return $this
      */
-    public function setAgentWeight($agentWeight)
+    public function setAgentWeight(array $agentWeight)
     {
         $this->agentWeight = $agentWeight;
         return $this;
@@ -798,7 +798,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[] $service
      * @return $this
      */
-    public function setService($service)
+    public function setService(array $service)
     {
         $this->service = $service;
         return $this;
@@ -859,7 +859,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param string[] $directoryNumberHuntingAgentUserIdList
      * @return $this
      */
-    public function setDirectoryNumberHuntingAgentUserIdList($directoryNumberHuntingAgentUserIdList)
+    public function setDirectoryNumberHuntingAgentUserIdList(array $directoryNumberHuntingAgentUserIdList)
     {
         $this->directoryNumberHuntingAgentUserIdList = $directoryNumberHuntingAgentUserIdList;
         return $this;
@@ -872,7 +872,7 @@ class GroupHuntGroupConsolidatedAddInstanceRequest extends \CWM\BroadWorksConnec
      * @param string $directoryNumberHuntingAgentUserIdList
      * @return $this
      */
-    public function addDirectoryNumberHuntingAgentUserIdList($directoryNumberHuntingAgentUserIdList)
+    public function addDirectoryNumberHuntingAgentUserIdList(string $directoryNumberHuntingAgentUserIdList)
     {
         $this->directoryNumberHuntingAgentUserIdList []= $directoryNumberHuntingAgentUserIdList;
         return $this;

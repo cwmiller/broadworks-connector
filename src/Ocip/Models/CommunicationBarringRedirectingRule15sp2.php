@@ -18,7 +18,7 @@ class CommunicationBarringRedirectingRule15sp2
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2|null
      */
     private $action = null;
 
@@ -50,7 +50,7 @@ class CommunicationBarringRedirectingRule15sp2
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2|null
      */
     public function getAction()
     {
@@ -61,10 +61,10 @@ class CommunicationBarringRedirectingRule15sp2
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction15sp2 $action)
     {
         $this->action = $action;
         return $this;

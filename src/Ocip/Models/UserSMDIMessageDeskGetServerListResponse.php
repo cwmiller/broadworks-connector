@@ -38,7 +38,7 @@ class UserSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $smdiServerTable
      * @return $this
      */
-    public function setSmdiServerTable($smdiServerTable)
+    public function setSmdiServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $smdiServerTable)
     {
         $this->smdiServerTable = $smdiServerTable;
         return $this;

@@ -41,7 +41,7 @@ class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemCarrierTable
      * @return $this
      */
-    public function setSystemCarrierTable($systemCarrierTable)
+    public function setSystemCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemCarrierTable)
     {
         $this->systemCarrierTable = $systemCarrierTable;
         return $this;

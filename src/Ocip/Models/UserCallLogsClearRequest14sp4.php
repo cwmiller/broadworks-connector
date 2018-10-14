@@ -31,7 +31,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName deleteSpecifiedCallLogs
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4\DeleteSpecifiedCallLogs|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs|null
      */
     private $deleteSpecifiedCallLogs = null;
 
@@ -87,7 +87,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for deleteSpecifiedCallLogs
      *
      * @ElementName deleteSpecifiedCallLogs
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4\DeleteSpecifiedCallLogs|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs|null
      */
     public function getDeleteSpecifiedCallLogs()
     {
@@ -98,10 +98,10 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for deleteSpecifiedCallLogs
      *
      * @ElementName deleteSpecifiedCallLogs
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4\DeleteSpecifiedCallLogs|null $deleteSpecifiedCallLogs
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs|null $deleteSpecifiedCallLogs
      * @return $this
      */
-    public function setDeleteSpecifiedCallLogs($deleteSpecifiedCallLogs)
+    public function setDeleteSpecifiedCallLogs(\CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs $deleteSpecifiedCallLogs)
     {
         $this->deleteSpecifiedCallLogs = $deleteSpecifiedCallLogs;
         return $this;

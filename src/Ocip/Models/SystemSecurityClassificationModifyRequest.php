@@ -103,7 +103,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @param string[] $securityClassificationName
      * @return $this
      */
-    public function setSecurityClassificationName($securityClassificationName)
+    public function setSecurityClassificationName(array $securityClassificationName)
     {
         $this->securityClassificationName = $securityClassificationName;
         return $this;
@@ -116,7 +116,7 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @param string $securityClassificationName
      * @return $this
      */
-    public function addSecurityClassificationName($securityClassificationName)
+    public function addSecurityClassificationName(string $securityClassificationName)
     {
         $this->securityClassificationName []= $securityClassificationName;
         return $this;

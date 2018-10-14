@@ -102,7 +102,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListRequest extend
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[] $searchCriteriaDigitPattern
      * @return $this
      */
-    public function setSearchCriteriaDigitPattern($searchCriteriaDigitPattern)
+    public function setSearchCriteriaDigitPattern(array $searchCriteriaDigitPattern)
     {
         $this->searchCriteriaDigitPattern = $searchCriteriaDigitPattern;
         return $this;

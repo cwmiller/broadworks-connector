@@ -66,7 +66,7 @@ class CallCenterSkillAgentList
      * @param string[] $agent
      * @return $this
      */
-    public function setAgent($agent)
+    public function setAgent(array $agent)
     {
         $this->agent = $agent;
         return $this;
@@ -79,7 +79,7 @@ class CallCenterSkillAgentList
      * @param string $agent
      * @return $this
      */
-    public function addAgent($agent)
+    public function addAgent(string $agent)
     {
         $this->agent []= $agent;
         return $this;

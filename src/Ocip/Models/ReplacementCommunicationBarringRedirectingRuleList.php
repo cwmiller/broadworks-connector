@@ -38,7 +38,7 @@ class ReplacementCommunicationBarringRedirectingRuleList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingRule[] $rule
      * @return $this
      */
-    public function setRule($rule)
+    public function setRule(array $rule)
     {
         $this->rule = $rule;
         return $this;

@@ -42,7 +42,7 @@ class ServiceProviderEndpointGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $endpointTable
      * @return $this
      */
-    public function setEndpointTable($endpointTable)
+    public function setEndpointTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $endpointTable)
     {
         $this->endpointTable = $endpointTable;
         return $this;

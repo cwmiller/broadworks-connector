@@ -42,7 +42,7 @@ class SystemDeviceProfileAuthenticationLockoutGetResponse extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $lockoutTable
      * @return $this
      */
-    public function setLockoutTable($lockoutTable)
+    public function setLockoutTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $lockoutTable)
     {
         $this->lockoutTable = $lockoutTable;
         return $this;

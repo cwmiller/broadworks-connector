@@ -128,7 +128,7 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string[] $alias
      * @return $this
      */
-    public function setAlias($alias)
+    public function setAlias(array $alias)
     {
         $this->alias = $alias;
         return $this;
@@ -141,7 +141,7 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param string $alias
      * @return $this
      */
-    public function addAlias($alias)
+    public function addAlias(string $alias)
     {
         $this->alias []= $alias;
         return $this;

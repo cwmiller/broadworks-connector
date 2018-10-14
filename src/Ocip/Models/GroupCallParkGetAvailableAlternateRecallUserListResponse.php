@@ -38,7 +38,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableHuntGroupTable
      * @return $this
      */
-    public function setAvailableHuntGroupTable($availableHuntGroupTable)
+    public function setAvailableHuntGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableHuntGroupTable)
     {
         $this->availableHuntGroupTable = $availableHuntGroupTable;
         return $this;

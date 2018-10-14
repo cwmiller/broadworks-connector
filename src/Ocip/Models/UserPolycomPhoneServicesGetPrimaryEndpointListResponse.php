@@ -38,7 +38,7 @@ class UserPolycomPhoneServicesGetPrimaryEndpointListResponse extends \CWM\BroadW
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceUserTable
      * @return $this
      */
-    public function setDeviceUserTable($deviceUserTable)
+    public function setDeviceUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceUserTable)
     {
         $this->deviceUserTable = $deviceUserTable;
         return $this;

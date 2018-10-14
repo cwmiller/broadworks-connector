@@ -37,7 +37,7 @@ class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $avpCodeTable
      * @return $this
      */
-    public function setAvpCodeTable($avpCodeTable)
+    public function setAvpCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $avpCodeTable)
     {
         $this->avpCodeTable = $avpCodeTable;
         return $this;

@@ -37,7 +37,7 @@ class UserAccessDeviceTagsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTagsTable
      * @return $this
      */
-    public function setDeviceTagsTable($deviceTagsTable)
+    public function setDeviceTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTagsTable)
     {
         $this->deviceTagsTable = $deviceTagsTable;
         return $this;

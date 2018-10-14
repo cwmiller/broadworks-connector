@@ -76,7 +76,7 @@ class CallCenterAgentStatistics14sp9
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null $agentDisplayNames
      * @return $this
      */
-    public function setAgentDisplayNames($agentDisplayNames)
+    public function setAgentDisplayNames(\CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames $agentDisplayNames)
     {
         $this->agentDisplayNames = $agentDisplayNames;
         return $this;
@@ -124,7 +124,7 @@ class CallCenterAgentStatistics14sp9
      * @param \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics|null $statistics
      * @return $this
      */
-    public function setStatistics($statistics)
+    public function setStatistics(\CWM\BroadWorksConnector\Ocip\Models\AgentStatistics $statistics)
     {
         $this->statistics = $statistics;
         return $this;

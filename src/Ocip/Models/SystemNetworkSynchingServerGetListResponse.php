@@ -74,7 +74,7 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $networkSynchingServerTable
      * @return $this
      */
-    public function setNetworkSynchingServerTable($networkSynchingServerTable)
+    public function setNetworkSynchingServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkSynchingServerTable)
     {
         $this->networkSynchingServerTable = $networkSynchingServerTable;
         return $this;

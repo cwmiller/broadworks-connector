@@ -12,7 +12,7 @@ class SearchCriteriaExactOrganizationType extends SearchCriteria
 
     /**
      * @ElementName organizationType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\OrganizationType|null
      */
     private $organizationType = null;
 
@@ -20,7 +20,7 @@ class SearchCriteriaExactOrganizationType extends SearchCriteria
      * Getter for organizationType
      *
      * @ElementName organizationType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OrganizationType|null
      */
     public function getOrganizationType()
     {
@@ -31,10 +31,10 @@ class SearchCriteriaExactOrganizationType extends SearchCriteria
      * Setter for organizationType
      *
      * @ElementName organizationType
-     * @param string|null $organizationType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OrganizationType|null $organizationType
      * @return $this
      */
-    public function setOrganizationType($organizationType)
+    public function setOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\OrganizationType $organizationType)
     {
         $this->organizationType = $organizationType;
         return $this;

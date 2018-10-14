@@ -70,7 +70,7 @@ class SystemRoutePointExternalSystemApplicationControllerAddListRequest extends 
      * @param string[] $applicationController
      * @return $this
      */
-    public function setApplicationController($applicationController)
+    public function setApplicationController(array $applicationController)
     {
         $this->applicationController = $applicationController;
         return $this;
@@ -83,7 +83,7 @@ class SystemRoutePointExternalSystemApplicationControllerAddListRequest extends 
      * @param string $applicationController
      * @return $this
      */
-    public function addApplicationController($applicationController)
+    public function addApplicationController(string $applicationController)
     {
         $this->applicationController []= $applicationController;
         return $this;

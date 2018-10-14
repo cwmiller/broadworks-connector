@@ -22,7 +22,7 @@ class GroupDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName nsScreeningFailurePolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     private $nsScreeningFailurePolicy = null;
 
@@ -60,7 +60,7 @@ class GroupDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for nsScreeningFailurePolicy
      *
      * @ElementName nsScreeningFailurePolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     public function getNsScreeningFailurePolicy()
     {
@@ -71,10 +71,10 @@ class GroupDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for nsScreeningFailurePolicy
      *
      * @ElementName nsScreeningFailurePolicy
-     * @param string|null $nsScreeningFailurePolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null $nsScreeningFailurePolicy
      * @return $this
      */
-    public function setNsScreeningFailurePolicy($nsScreeningFailurePolicy)
+    public function setNsScreeningFailurePolicy(\CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy $nsScreeningFailurePolicy)
     {
         $this->nsScreeningFailurePolicy = $nsScreeningFailurePolicy;
         return $this;
@@ -98,7 +98,7 @@ class GroupDialableCallerIDGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

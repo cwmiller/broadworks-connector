@@ -23,7 +23,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
@@ -73,7 +73,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName deviceTypeConfigurationOption
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     private $deviceTypeConfigurationOption = null;
 
@@ -117,7 +117,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     public function getProfile()
     {
@@ -128,10 +128,10 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
      * @return $this
      */
-    public function setProfile($profile)
+    public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
     {
         $this->profile = $profile;
         return $this;
@@ -203,7 +203,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions($cpeDeviceOptions)
+    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22 $cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -227,7 +227,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string[] $protocolChoice
      * @return $this
      */
-    public function setProtocolChoice($protocolChoice)
+    public function setProtocolChoice(array $protocolChoice)
     {
         $this->protocolChoice = $protocolChoice;
         return $this;
@@ -240,7 +240,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @param string $protocolChoice
      * @return $this
      */
-    public function addProtocolChoice($protocolChoice)
+    public function addProtocolChoice(string $protocolChoice)
     {
         $this->protocolChoice []= $protocolChoice;
         return $this;
@@ -322,7 +322,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for deviceTypeConfigurationOption
      *
      * @ElementName deviceTypeConfigurationOption
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     public function getDeviceTypeConfigurationOption()
     {
@@ -333,10 +333,10 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for deviceTypeConfigurationOption
      *
      * @ElementName deviceTypeConfigurationOption
-     * @param string|null $deviceTypeConfigurationOption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null $deviceTypeConfigurationOption
      * @return $this
      */
-    public function setDeviceTypeConfigurationOption($deviceTypeConfigurationOption)
+    public function setDeviceTypeConfigurationOption(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType $deviceTypeConfigurationOption)
     {
         $this->deviceTypeConfigurationOption = $deviceTypeConfigurationOption;
         return $this;

@@ -12,7 +12,7 @@ class UserServiceAuthorization
 
     /**
      * @ElementName serviceName
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
 
@@ -32,7 +32,7 @@ class UserServiceAuthorization
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     public function getServiceName()
     {
@@ -43,10 +43,10 @@ class UserServiceAuthorization
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string|null $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService|null $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(\CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;
@@ -70,7 +70,7 @@ class UserServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $authorizedQuantity
      * @return $this
      */
-    public function setAuthorizedQuantity($authorizedQuantity)
+    public function setAuthorizedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $authorizedQuantity)
     {
         $this->authorizedQuantity = $authorizedQuantity;
         return $this;

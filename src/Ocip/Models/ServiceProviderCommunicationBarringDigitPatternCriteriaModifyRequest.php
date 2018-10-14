@@ -168,7 +168,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @param string[] $addMatchDigitPattern
      * @return $this
      */
-    public function setAddMatchDigitPattern($addMatchDigitPattern)
+    public function setAddMatchDigitPattern(array $addMatchDigitPattern)
     {
         $this->addMatchDigitPattern = $addMatchDigitPattern;
         return $this;
@@ -181,7 +181,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @param string $addMatchDigitPattern
      * @return $this
      */
-    public function addAddMatchDigitPattern($addMatchDigitPattern)
+    public function addAddMatchDigitPattern(string $addMatchDigitPattern)
     {
         $this->addMatchDigitPattern []= $addMatchDigitPattern;
         return $this;
@@ -205,7 +205,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @param string[] $deleteMatchDigitPattern
      * @return $this
      */
-    public function setDeleteMatchDigitPattern($deleteMatchDigitPattern)
+    public function setDeleteMatchDigitPattern(array $deleteMatchDigitPattern)
     {
         $this->deleteMatchDigitPattern = $deleteMatchDigitPattern;
         return $this;
@@ -218,7 +218,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
      * @param string $deleteMatchDigitPattern
      * @return $this
      */
-    public function addDeleteMatchDigitPattern($deleteMatchDigitPattern)
+    public function addDeleteMatchDigitPattern(string $deleteMatchDigitPattern)
     {
         $this->deleteMatchDigitPattern []= $deleteMatchDigitPattern;
         return $this;

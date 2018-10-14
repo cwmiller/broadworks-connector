@@ -38,7 +38,7 @@ class SystemRoamingNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $roamingNetworkTable
      * @return $this
      */
-    public function setRoamingNetworkTable($roamingNetworkTable)
+    public function setRoamingNetworkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $roamingNetworkTable)
     {
         $this->roamingNetworkTable = $roamingNetworkTable;
         return $this;

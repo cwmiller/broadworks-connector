@@ -38,7 +38,7 @@ class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $statusCountTable
      * @return $this
      */
-    public function setStatusCountTable($statusCountTable)
+    public function setStatusCountTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusCountTable)
     {
         $this->statusCountTable = $statusCountTable;
         return $this;

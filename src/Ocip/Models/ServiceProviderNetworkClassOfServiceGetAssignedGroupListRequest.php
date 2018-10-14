@@ -141,7 +141,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -178,7 +178,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[] $searchCriteriaGroupName
      * @return $this
      */
-    public function setSearchCriteriaGroupName($searchCriteriaGroupName)
+    public function setSearchCriteriaGroupName(array $searchCriteriaGroupName)
     {
         $this->searchCriteriaGroupName = $searchCriteriaGroupName;
         return $this;

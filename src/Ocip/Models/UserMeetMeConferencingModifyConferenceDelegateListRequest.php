@@ -74,7 +74,7 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null $conferenceKey
      * @return $this
      */
-    public function setConferenceKey($conferenceKey)
+    public function setConferenceKey(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey)
     {
         $this->conferenceKey = $conferenceKey;
         return $this;
@@ -98,7 +98,7 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $conferenceDelegateUserList
      * @return $this
      */
-    public function setConferenceDelegateUserList($conferenceDelegateUserList)
+    public function setConferenceDelegateUserList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceDelegateUserList)
     {
         $this->conferenceDelegateUserList = $conferenceDelegateUserList;
         return $this;

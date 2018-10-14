@@ -14,7 +14,7 @@ class EnterpriseCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorks
 
     /**
      * @ElementName reportingServer
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
     private $reportingServer = null;
 
@@ -22,7 +22,7 @@ class EnterpriseCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorks
      * Getter for reportingServer
      *
      * @ElementName reportingServer
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
     public function getReportingServer()
     {
@@ -33,10 +33,10 @@ class EnterpriseCallCenterEnhancedReportingGetResponse19 extends \CWM\BroadWorks
      * Setter for reportingServer
      *
      * @ElementName reportingServer
-     * @param string|null $reportingServer
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null $reportingServer
      * @return $this
      */
-    public function setReportingServer($reportingServer)
+    public function setReportingServer(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19 $reportingServer)
     {
         $this->reportingServer = $reportingServer;
         return $this;

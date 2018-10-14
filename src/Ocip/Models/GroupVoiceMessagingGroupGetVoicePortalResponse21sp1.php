@@ -56,7 +56,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
 
     /**
      * @ElementName voicePortalExternalRoutingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     private $voicePortalExternalRoutingScope = null;
 
@@ -132,7 +132,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -238,7 +238,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * Getter for voicePortalExternalRoutingScope
      *
      * @ElementName voicePortalExternalRoutingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     public function getVoicePortalExternalRoutingScope()
     {
@@ -249,10 +249,10 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
      * Setter for voicePortalExternalRoutingScope
      *
      * @ElementName voicePortalExternalRoutingScope
-     * @param string|null $voicePortalExternalRoutingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null $voicePortalExternalRoutingScope
      * @return $this
      */
-    public function setVoicePortalExternalRoutingScope($voicePortalExternalRoutingScope)
+    public function setVoicePortalExternalRoutingScope(\CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope $voicePortalExternalRoutingScope)
     {
         $this->voicePortalExternalRoutingScope = $voicePortalExternalRoutingScope;
         return $this;

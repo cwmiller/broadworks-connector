@@ -76,7 +76,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName deviceLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
 
@@ -110,7 +110,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName endpointType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType|null
      */
     private $endpointType = null;
 
@@ -268,7 +268,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * Getter for deviceLevel
      *
      * @ElementName deviceLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     public function getDeviceLevel()
     {
@@ -279,10 +279,10 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * Setter for deviceLevel
      *
      * @ElementName deviceLevel
-     * @param string|null $deviceLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null $deviceLevel
      * @return $this
      */
-    public function setDeviceLevel($deviceLevel)
+    public function setDeviceLevel(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel $deviceLevel)
     {
         $this->deviceLevel = $deviceLevel;
         return $this;
@@ -354,7 +354,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRegistrationURI[] $searchCriteriaRegistrationURI
      * @return $this
      */
-    public function setSearchCriteriaRegistrationURI($searchCriteriaRegistrationURI)
+    public function setSearchCriteriaRegistrationURI(array $searchCriteriaRegistrationURI)
     {
         $this->searchCriteriaRegistrationURI = $searchCriteriaRegistrationURI;
         return $this;
@@ -391,7 +391,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSIPContact[] $searchCriteriaSIPContact
      * @return $this
      */
-    public function setSearchCriteriaSIPContact($searchCriteriaSIPContact)
+    public function setSearchCriteriaSIPContact(array $searchCriteriaSIPContact)
     {
         $this->searchCriteriaSIPContact = $searchCriteriaSIPContact;
         return $this;
@@ -414,7 +414,7 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * Getter for endpointType
      *
      * @ElementName endpointType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType|null
      */
     public function getEndpointType()
     {
@@ -425,10 +425,10 @@ class SystemGetRegistrationContactListRequest extends \CWM\BroadWorksConnector\O
      * Setter for endpointType
      *
      * @ElementName endpointType
-     * @param string|null $endpointType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType|null $endpointType
      * @return $this
      */
-    public function setEndpointType($endpointType)
+    public function setEndpointType(\CWM\BroadWorksConnector\Ocip\Models\RegistrationEndpointType $endpointType)
     {
         $this->endpointType = $endpointType;
         return $this;

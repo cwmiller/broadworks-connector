@@ -106,7 +106,7 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
 
     /**
      * @ElementName deviceProfileAuthenticationLockoutType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $deviceProfileAuthenticationLockoutType = null;
 
@@ -118,13 +118,13 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
 
     /**
      * @ElementName deviceProfileWaitAlgorithm
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $deviceProfileWaitAlgorithm = null;
 
     /**
      * @ElementName deviceProfileLockoutFixedMinutes
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $deviceProfileLockoutFixedMinutes = null;
 
@@ -498,7 +498,7 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
      * Getter for deviceProfileAuthenticationLockoutType
      *
      * @ElementName deviceProfileAuthenticationLockoutType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     public function getDeviceProfileAuthenticationLockoutType()
     {
@@ -509,10 +509,10 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
      * Setter for deviceProfileAuthenticationLockoutType
      *
      * @ElementName deviceProfileAuthenticationLockoutType
-     * @param string|null $deviceProfileAuthenticationLockoutType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null $deviceProfileAuthenticationLockoutType
      * @return $this
      */
-    public function setDeviceProfileAuthenticationLockoutType($deviceProfileAuthenticationLockoutType)
+    public function setDeviceProfileAuthenticationLockoutType(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $deviceProfileAuthenticationLockoutType)
     {
         $this->deviceProfileAuthenticationLockoutType = $deviceProfileAuthenticationLockoutType;
         return $this;
@@ -546,7 +546,7 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
      * Getter for deviceProfileWaitAlgorithm
      *
      * @ElementName deviceProfileWaitAlgorithm
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     public function getDeviceProfileWaitAlgorithm()
     {
@@ -557,10 +557,10 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
      * Setter for deviceProfileWaitAlgorithm
      *
      * @ElementName deviceProfileWaitAlgorithm
-     * @param string|null $deviceProfileWaitAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null $deviceProfileWaitAlgorithm
      * @return $this
      */
-    public function setDeviceProfileWaitAlgorithm($deviceProfileWaitAlgorithm)
+    public function setDeviceProfileWaitAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $deviceProfileWaitAlgorithm)
     {
         $this->deviceProfileWaitAlgorithm = $deviceProfileWaitAlgorithm;
         return $this;
@@ -570,7 +570,7 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
      * Getter for deviceProfileLockoutFixedMinutes
      *
      * @ElementName deviceProfileLockoutFixedMinutes
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     public function getDeviceProfileLockoutFixedMinutes()
     {
@@ -581,10 +581,10 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesGetResponse extends
      * Setter for deviceProfileLockoutFixedMinutes
      *
      * @ElementName deviceProfileLockoutFixedMinutes
-     * @param string|null $deviceProfileLockoutFixedMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null $deviceProfileLockoutFixedMinutes
      * @return $this
      */
-    public function setDeviceProfileLockoutFixedMinutes($deviceProfileLockoutFixedMinutes)
+    public function setDeviceProfileLockoutFixedMinutes(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $deviceProfileLockoutFixedMinutes)
     {
         $this->deviceProfileLockoutFixedMinutes = $deviceProfileLockoutFixedMinutes;
         return $this;

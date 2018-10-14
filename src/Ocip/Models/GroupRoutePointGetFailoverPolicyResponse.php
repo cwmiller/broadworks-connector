@@ -32,7 +32,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName failoverStatus
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RoutePointFailoverStatus|null
      */
     private $failoverStatus = null;
 
@@ -136,7 +136,7 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * Getter for failoverStatus
      *
      * @ElementName failoverStatus
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RoutePointFailoverStatus|null
      */
     public function getFailoverStatus()
     {
@@ -147,10 +147,10 @@ class GroupRoutePointGetFailoverPolicyResponse extends \CWM\BroadWorksConnector\
      * Setter for failoverStatus
      *
      * @ElementName failoverStatus
-     * @param string|null $failoverStatus
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RoutePointFailoverStatus|null $failoverStatus
      * @return $this
      */
-    public function setFailoverStatus($failoverStatus)
+    public function setFailoverStatus(\CWM\BroadWorksConnector\Ocip\Models\RoutePointFailoverStatus $failoverStatus)
     {
         $this->failoverStatus = $failoverStatus;
         return $this;

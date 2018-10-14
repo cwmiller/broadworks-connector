@@ -46,7 +46,7 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
      * @param string[] $name
      * @return $this
      */
-    public function setName($name)
+    public function setName(array $name)
     {
         $this->name = $name;
         return $this;
@@ -59,7 +59,7 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
      * @param string $name
      * @return $this
      */
-    public function addName($name)
+    public function addName(string $name)
     {
         $this->name []= $name;
         return $this;
@@ -83,7 +83,7 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
      * @param string[] $deletedName
      * @return $this
      */
-    public function setDeletedName($deletedName)
+    public function setDeletedName(array $deletedName)
     {
         $this->deletedName = $deletedName;
         return $this;
@@ -96,7 +96,7 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
      * @param string $deletedName
      * @return $this
      */
-    public function addDeletedName($deletedName)
+    public function addDeletedName(string $deletedName)
     {
         $this->deletedName []= $deletedName;
         return $this;

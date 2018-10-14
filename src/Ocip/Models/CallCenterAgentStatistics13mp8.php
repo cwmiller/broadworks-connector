@@ -82,7 +82,7 @@ class CallCenterAgentStatistics13mp8
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null $agentDisplayNames
      * @return $this
      */
-    public function setAgentDisplayNames($agentDisplayNames)
+    public function setAgentDisplayNames(\CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames $agentDisplayNames)
     {
         $this->agentDisplayNames = $agentDisplayNames;
         return $this;
@@ -130,7 +130,7 @@ class CallCenterAgentStatistics13mp8
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null $statisticsYesterday
      * @return $this
      */
-    public function setStatisticsYesterday($statisticsYesterday)
+    public function setStatisticsYesterday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8 $statisticsYesterday)
     {
         $this->statisticsYesterday = $statisticsYesterday;
         return $this;
@@ -154,7 +154,7 @@ class CallCenterAgentStatistics13mp8
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null $statisticsToday
      * @return $this
      */
-    public function setStatisticsToday($statisticsToday)
+    public function setStatisticsToday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8 $statisticsToday)
     {
         $this->statisticsToday = $statisticsToday;
         return $this;

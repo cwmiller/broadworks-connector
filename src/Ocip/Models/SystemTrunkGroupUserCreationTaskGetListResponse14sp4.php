@@ -46,7 +46,7 @@ class SystemTrunkGroupUserCreationTaskGetListResponse14sp4 extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $taskTable
      * @return $this
      */
-    public function setTaskTable($taskTable)
+    public function setTaskTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $taskTable)
     {
         $this->taskTable = $taskTable;
         return $this;

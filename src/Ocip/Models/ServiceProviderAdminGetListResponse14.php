@@ -42,7 +42,7 @@ class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderAdminTable
      * @return $this
      */
-    public function setServiceProviderAdminTable($serviceProviderAdminTable)
+    public function setServiceProviderAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderAdminTable)
     {
         $this->serviceProviderAdminTable = $serviceProviderAdminTable;
         return $this;

@@ -40,7 +40,7 @@ class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[] $criteriaPriorityOrder
      * @return $this
      */
-    public function setCriteriaPriorityOrder($criteriaPriorityOrder)
+    public function setCriteriaPriorityOrder(array $criteriaPriorityOrder)
     {
         $this->criteriaPriorityOrder = $criteriaPriorityOrder;
         return $this;

@@ -28,7 +28,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName baseLocationNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $baseLocationNumberOfRings = null;
 
@@ -134,7 +134,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for baseLocationNumberOfRings
      *
      * @ElementName baseLocationNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     public function getBaseLocationNumberOfRings()
     {
@@ -145,10 +145,10 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for baseLocationNumberOfRings
      *
      * @ElementName baseLocationNumberOfRings
-     * @param int|null $baseLocationNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null $baseLocationNumberOfRings
      * @return $this
      */
-    public function setBaseLocationNumberOfRings($baseLocationNumberOfRings)
+    public function setBaseLocationNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $baseLocationNumberOfRings)
     {
         $this->baseLocationNumberOfRings = $baseLocationNumberOfRings;
         return $this;
@@ -220,7 +220,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location01
      * @return $this
      */
-    public function setLocation01($Location01)
+    public function setLocation01(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location01)
     {
         $this->Location01 = $Location01;
         return $this;
@@ -244,7 +244,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location02
      * @return $this
      */
-    public function setLocation02($Location02)
+    public function setLocation02(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location02)
     {
         $this->Location02 = $Location02;
         return $this;
@@ -268,7 +268,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location03
      * @return $this
      */
-    public function setLocation03($Location03)
+    public function setLocation03(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location03)
     {
         $this->Location03 = $Location03;
         return $this;
@@ -292,7 +292,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location04
      * @return $this
      */
-    public function setLocation04($Location04)
+    public function setLocation04(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location04)
     {
         $this->Location04 = $Location04;
         return $this;
@@ -316,7 +316,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location05
      * @return $this
      */
-    public function setLocation05($Location05)
+    public function setLocation05(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location05)
     {
         $this->Location05 = $Location05;
         return $this;
@@ -340,7 +340,7 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
-    public function setCriteriaActivation($criteriaActivation)
+    public function setCriteriaActivation(array $criteriaActivation)
     {
         $this->criteriaActivation = $criteriaActivation;
         return $this;

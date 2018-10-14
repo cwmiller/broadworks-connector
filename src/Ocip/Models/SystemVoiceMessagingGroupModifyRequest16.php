@@ -69,7 +69,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName maxMailboxLengthMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $maxMailboxLengthMinutes = null;
 
@@ -81,7 +81,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName holdPeriodDays
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     private $holdPeriodDays = null;
 
@@ -93,7 +93,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName mailServerProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $mailServerProtocol = null;
 
@@ -129,7 +129,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName voicePortalScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null
      */
     private $voicePortalScope = null;
 
@@ -165,7 +165,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName recordingAudioFileFormat
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat|null
      */
     private $recordingAudioFileFormat = null;
 
@@ -177,7 +177,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName storageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingStorageMode|null
      */
     private $storageSelection = null;
 
@@ -287,7 +287,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for maxMailboxLengthMinutes
      *
      * @ElementName maxMailboxLengthMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     public function getMaxMailboxLengthMinutes()
     {
@@ -298,10 +298,10 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for maxMailboxLengthMinutes
      *
      * @ElementName maxMailboxLengthMinutes
-     * @param int|null $maxMailboxLengthMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null $maxMailboxLengthMinutes
      * @return $this
      */
-    public function setMaxMailboxLengthMinutes($maxMailboxLengthMinutes)
+    public function setMaxMailboxLengthMinutes(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $maxMailboxLengthMinutes)
     {
         $this->maxMailboxLengthMinutes = $maxMailboxLengthMinutes;
         return $this;
@@ -335,7 +335,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for holdPeriodDays
      *
      * @ElementName holdPeriodDays
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     public function getHoldPeriodDays()
     {
@@ -346,10 +346,10 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for holdPeriodDays
      *
      * @ElementName holdPeriodDays
-     * @param int|null $holdPeriodDays
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null $holdPeriodDays
      * @return $this
      */
-    public function setHoldPeriodDays($holdPeriodDays)
+    public function setHoldPeriodDays(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays $holdPeriodDays)
     {
         $this->holdPeriodDays = $holdPeriodDays;
         return $this;
@@ -383,7 +383,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for mailServerProtocol
      *
      * @ElementName mailServerProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     public function getMailServerProtocol()
     {
@@ -394,10 +394,10 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for mailServerProtocol
      *
      * @ElementName mailServerProtocol
-     * @param string|null $mailServerProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null $mailServerProtocol
      * @return $this
      */
-    public function setMailServerProtocol($mailServerProtocol)
+    public function setMailServerProtocol(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $mailServerProtocol)
     {
         $this->mailServerProtocol = $mailServerProtocol;
         return $this;
@@ -527,7 +527,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for voicePortalScope
      *
      * @ElementName voicePortalScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null
      */
     public function getVoicePortalScope()
     {
@@ -538,10 +538,10 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for voicePortalScope
      *
      * @ElementName voicePortalScope
-     * @param string|null $voicePortalScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope|null $voicePortalScope
      * @return $this
      */
-    public function setVoicePortalScope($voicePortalScope)
+    public function setVoicePortalScope(\CWM\BroadWorksConnector\Ocip\Models\SystemVoicePortalScope $voicePortalScope)
     {
         $this->voicePortalScope = $voicePortalScope;
         return $this;
@@ -671,7 +671,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for recordingAudioFileFormat
      *
      * @ElementName recordingAudioFileFormat
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat|null
      */
     public function getRecordingAudioFileFormat()
     {
@@ -682,10 +682,10 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for recordingAudioFileFormat
      *
      * @ElementName recordingAudioFileFormat
-     * @param string|null $recordingAudioFileFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat|null $recordingAudioFileFormat
      * @return $this
      */
-    public function setRecordingAudioFileFormat($recordingAudioFileFormat)
+    public function setRecordingAudioFileFormat(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingRecordingAudioFileFormat $recordingAudioFileFormat)
     {
         $this->recordingAudioFileFormat = $recordingAudioFileFormat;
         return $this;
@@ -719,7 +719,7 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for storageSelection
      *
      * @ElementName storageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingStorageMode|null
      */
     public function getStorageSelection()
     {
@@ -730,10 +730,10 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for storageSelection
      *
      * @ElementName storageSelection
-     * @param string|null $storageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingStorageMode|null $storageSelection
      * @return $this
      */
-    public function setStorageSelection($storageSelection)
+    public function setStorageSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingStorageMode $storageSelection)
     {
         $this->storageSelection = $storageSelection;
         return $this;

@@ -110,7 +110,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null $intraLataCarrier
      * @return $this
      */
-    public function setIntraLataCarrier($intraLataCarrier)
+    public function setIntraLataCarrier(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $intraLataCarrier)
     {
         $this->intraLataCarrier = $intraLataCarrier;
         return $this;
@@ -134,7 +134,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null $interLataCarrier
      * @return $this
      */
-    public function setInterLataCarrier($interLataCarrier)
+    public function setInterLataCarrier(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $interLataCarrier)
     {
         $this->interLataCarrier = $interLataCarrier;
         return $this;
@@ -158,7 +158,7 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null $internationalCarrier
      * @return $this
      */
-    public function setInternationalCarrier($internationalCarrier)
+    public function setInternationalCarrier(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $internationalCarrier)
     {
         $this->internationalCarrier = $internationalCarrier;
         return $this;

@@ -36,7 +36,7 @@ class ProfileAndServiceSpeedDial8Info
      * @param \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[] $speedDialEntry
      * @return $this
      */
-    public function setSpeedDialEntry($speedDialEntry)
+    public function setSpeedDialEntry(array $speedDialEntry)
     {
         $this->speedDialEntry = $speedDialEntry;
         return $this;

@@ -31,7 +31,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName announcementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
@@ -91,7 +91,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName inboundCallMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     private $inboundCallMode = null;
 
@@ -159,7 +159,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getAnnouncementSelection()
     {
@@ -170,10 +170,10 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @param string|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
      * @return $this
      */
-    public function setAnnouncementSelection($announcementSelection)
+    public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
     {
         $this->announcementSelection = $announcementSelection;
         return $this;
@@ -197,7 +197,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -221,7 +221,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;
@@ -399,7 +399,7 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for inboundCallMode
      *
      * @ElementName inboundCallMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     public function getInboundCallMode()
     {
@@ -410,10 +410,10 @@ class UserInterceptUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for inboundCallMode
      *
      * @ElementName inboundCallMode
-     * @param string|null $inboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null $inboundCallMode
      * @return $this
      */
-    public function setInboundCallMode($inboundCallMode)
+    public function setInboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode)
     {
         $this->inboundCallMode = $inboundCallMode;
         return $this;

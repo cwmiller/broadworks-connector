@@ -71,7 +71,7 @@ class SystemHomeNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaHomeMscAddress[] $searchCriteriaHomeMscAddress
      * @return $this
      */
-    public function setSearchCriteriaHomeMscAddress($searchCriteriaHomeMscAddress)
+    public function setSearchCriteriaHomeMscAddress(array $searchCriteriaHomeMscAddress)
     {
         $this->searchCriteriaHomeMscAddress = $searchCriteriaHomeMscAddress;
         return $this;

@@ -20,7 +20,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName emergencyZonesProhibition
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
     private $emergencyZonesProhibition = null;
 
@@ -64,7 +64,7 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for emergencyZonesProhibition
      *
      * @ElementName emergencyZonesProhibition
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
     public function getEmergencyZonesProhibition()
     {
@@ -75,10 +75,10 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for emergencyZonesProhibition
      *
      * @ElementName emergencyZonesProhibition
-     * @param string|null $emergencyZonesProhibition
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null $emergencyZonesProhibition
      * @return $this
      */
-    public function setEmergencyZonesProhibition($emergencyZonesProhibition)
+    public function setEmergencyZonesProhibition(\CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition $emergencyZonesProhibition)
     {
         $this->emergencyZonesProhibition = $emergencyZonesProhibition;
         return $this;

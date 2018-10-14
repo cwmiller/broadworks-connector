@@ -41,7 +41,7 @@ class GroupShInterfaceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry21sp1[] $entry
      * @return $this
      */
-    public function setEntry($entry)
+    public function setEntry(array $entry)
     {
         $this->entry = $entry;
         return $this;

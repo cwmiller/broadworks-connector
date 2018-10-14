@@ -42,7 +42,7 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $availablePorts
      * @return $this
      */
-    public function setAvailablePorts($availablePorts)
+    public function setAvailablePorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $availablePorts)
     {
         $this->availablePorts = $availablePorts;
         return $this;
@@ -66,7 +66,7 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
      * @return $this
      */
-    public function setAllocatedPorts($allocatedPorts)
+    public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
     {
         $this->allocatedPorts = $allocatedPorts;
         return $this;

@@ -40,7 +40,7 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param string[] $alternateCallIndicator
      * @return $this
      */
-    public function setAlternateCallIndicator($alternateCallIndicator)
+    public function setAlternateCallIndicator(array $alternateCallIndicator)
     {
         $this->alternateCallIndicator = $alternateCallIndicator;
         return $this;
@@ -53,7 +53,7 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
      * @param string $alternateCallIndicator
      * @return $this
      */
-    public function addAlternateCallIndicator($alternateCallIndicator)
+    public function addAlternateCallIndicator(string $alternateCallIndicator)
     {
         $this->alternateCallIndicator []= $alternateCallIndicator;
         return $this;

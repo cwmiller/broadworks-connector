@@ -38,7 +38,7 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
      * @param string[] $interfaceNetAddress
      * @return $this
      */
-    public function setInterfaceNetAddress($interfaceNetAddress)
+    public function setInterfaceNetAddress(array $interfaceNetAddress)
     {
         $this->interfaceNetAddress = $interfaceNetAddress;
         return $this;
@@ -51,7 +51,7 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
      * @param string $interfaceNetAddress
      * @return $this
      */
-    public function addInterfaceNetAddress($interfaceNetAddress)
+    public function addInterfaceNetAddress(string $interfaceNetAddress)
     {
         $this->interfaceNetAddress []= $interfaceNetAddress;
         return $this;

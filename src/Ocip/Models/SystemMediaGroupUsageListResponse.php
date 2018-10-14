@@ -40,7 +40,7 @@ class SystemMediaGroupUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $usageTable
      * @return $this
      */
-    public function setUsageTable($usageTable)
+    public function setUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usageTable)
     {
         $this->usageTable = $usageTable;
         return $this;

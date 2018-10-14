@@ -16,7 +16,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName routingPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     private $routingPolicy = null;
 
@@ -30,7 +30,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
      * Getter for routingPolicy
      *
      * @ElementName routingPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     public function getRoutingPolicy()
     {
@@ -41,10 +41,10 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
      * Setter for routingPolicy
      *
      * @ElementName routingPolicy
-     * @param string|null $routingPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null $routingPolicy
      * @return $this
      */
-    public function setRoutingPolicy($routingPolicy)
+    public function setRoutingPolicy(\CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy $routingPolicy)
     {
         $this->routingPolicy = $routingPolicy;
         return $this;
@@ -68,7 +68,7 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCenterTable
      * @return $this
      */
-    public function setCallCenterTable($callCenterTable)
+    public function setCallCenterTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable)
     {
         $this->callCenterTable = $callCenterTable;
         return $this;

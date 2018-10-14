@@ -12,7 +12,7 @@ class SelectiveCallRejectionCriteriaCallType
 
     /**
      * @ElementName fromDnCriteriaSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     private $fromDnCriteriaSelection = null;
 
@@ -40,7 +40,7 @@ class SelectiveCallRejectionCriteriaCallType
      * Getter for fromDnCriteriaSelection
      *
      * @ElementName fromDnCriteriaSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     public function getFromDnCriteriaSelection()
     {
@@ -51,10 +51,10 @@ class SelectiveCallRejectionCriteriaCallType
      * Setter for fromDnCriteriaSelection
      *
      * @ElementName fromDnCriteriaSelection
-     * @param string|null $fromDnCriteriaSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null $fromDnCriteriaSelection
      * @return $this
      */
-    public function setFromDnCriteriaSelection($fromDnCriteriaSelection)
+    public function setFromDnCriteriaSelection(\CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection $fromDnCriteriaSelection)
     {
         $this->fromDnCriteriaSelection = $fromDnCriteriaSelection;
         return $this;
@@ -126,7 +126,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -139,7 +139,7 @@ class SelectiveCallRejectionCriteriaCallType
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;

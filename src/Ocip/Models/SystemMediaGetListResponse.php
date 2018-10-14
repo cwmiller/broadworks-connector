@@ -38,7 +38,7 @@ class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mediaTable
      * @return $this
      */
-    public function setMediaTable($mediaTable)
+    public function setMediaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mediaTable)
     {
         $this->mediaTable = $mediaTable;
         return $this;

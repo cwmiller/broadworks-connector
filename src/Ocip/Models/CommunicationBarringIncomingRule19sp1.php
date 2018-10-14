@@ -24,7 +24,7 @@ class CommunicationBarringIncomingRule19sp1
 
     /**
      * @ElementName action
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $action = null;
 
@@ -104,7 +104,7 @@ class CommunicationBarringIncomingRule19sp1
      * Getter for action
      *
      * @ElementName action
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     public function getAction()
     {
@@ -115,10 +115,10 @@ class CommunicationBarringIncomingRule19sp1
      * Setter for action
      *
      * @ElementName action
-     * @param string|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null $action
      * @return $this
      */
-    public function setAction($action)
+    public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $action)
     {
         $this->action = $action;
         return $this;

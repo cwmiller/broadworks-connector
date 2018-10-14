@@ -39,7 +39,7 @@ class GroupRoutePointGetDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
      * @return $this
      */
-    public function setDnisKey($dnisKey)
+    public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
     {
         $this->dnisKey = $dnisKey;
         return $this;

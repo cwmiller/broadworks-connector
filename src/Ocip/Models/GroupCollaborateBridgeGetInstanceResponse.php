@@ -85,7 +85,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -109,7 +109,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null $maximumBridgeParticipants
      * @return $this
      */
-    public function setMaximumBridgeParticipants($maximumBridgeParticipants)
+    public function setMaximumBridgeParticipants(\CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants)
     {
         $this->maximumBridgeParticipants = $maximumBridgeParticipants;
         return $this;
@@ -229,7 +229,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $collaborateOwnerUserTable
      * @return $this
      */
-    public function setCollaborateOwnerUserTable($collaborateOwnerUserTable)
+    public function setCollaborateOwnerUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateOwnerUserTable)
     {
         $this->collaborateOwnerUserTable = $collaborateOwnerUserTable;
         return $this;

@@ -66,7 +66,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\Bro
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null $templateBody
      * @return $this
      */
-    public function setTemplateBody($templateBody)
+    public function setTemplateBody(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody $templateBody)
     {
         $this->templateBody = $templateBody;
         return $this;

@@ -132,7 +132,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $configFile
      * @return $this
      */
-    public function setConfigFile($configFile)
+    public function setConfigFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $configFile)
     {
         $this->configFile = $configFile;
         return $this;

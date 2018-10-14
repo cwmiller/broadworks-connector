@@ -145,7 +145,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
-    public function setSearchCriteriaUserLastName($searchCriteriaUserLastName)
+    public function setSearchCriteriaUserLastName(array $searchCriteriaUserLastName)
     {
         $this->searchCriteriaUserLastName = $searchCriteriaUserLastName;
         return $this;
@@ -182,7 +182,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
-    public function setSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
+    public function setSearchCriteriaUserFirstName(array $searchCriteriaUserFirstName)
     {
         $this->searchCriteriaUserFirstName = $searchCriteriaUserFirstName;
         return $this;
@@ -219,7 +219,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
-    public function setSearchCriteriaDn($searchCriteriaDn)
+    public function setSearchCriteriaDn(array $searchCriteriaDn)
     {
         $this->searchCriteriaDn = $searchCriteriaDn;
         return $this;
@@ -256,7 +256,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[] $searchCriteriaGroupLocationCode
      * @return $this
      */
-    public function setSearchCriteriaGroupLocationCode($searchCriteriaGroupLocationCode)
+    public function setSearchCriteriaGroupLocationCode(array $searchCriteriaGroupLocationCode)
     {
         $this->searchCriteriaGroupLocationCode = $searchCriteriaGroupLocationCode;
         return $this;
@@ -293,7 +293,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
-    public function setSearchCriteriaExtension($searchCriteriaExtension)
+    public function setSearchCriteriaExtension(array $searchCriteriaExtension)
     {
         $this->searchCriteriaExtension = $searchCriteriaExtension;
         return $this;
@@ -330,7 +330,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName[] $searchCriteriaExactVirtualOnNetCallTypeName
      * @return $this
      */
-    public function setSearchCriteriaExactVirtualOnNetCallTypeName($searchCriteriaExactVirtualOnNetCallTypeName)
+    public function setSearchCriteriaExactVirtualOnNetCallTypeName(array $searchCriteriaExactVirtualOnNetCallTypeName)
     {
         $this->searchCriteriaExactVirtualOnNetCallTypeName = $searchCriteriaExactVirtualOnNetCallTypeName;
         return $this;

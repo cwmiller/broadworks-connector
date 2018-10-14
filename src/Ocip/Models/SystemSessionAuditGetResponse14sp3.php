@@ -86,7 +86,7 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName preferredSessionTimerRefresher
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null
      */
     private $preferredSessionTimerRefresher = null;
 
@@ -382,7 +382,7 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for preferredSessionTimerRefresher
      *
      * @ElementName preferredSessionTimerRefresher
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null
      */
     public function getPreferredSessionTimerRefresher()
     {
@@ -393,10 +393,10 @@ class SystemSessionAuditGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for preferredSessionTimerRefresher
      *
      * @ElementName preferredSessionTimerRefresher
-     * @param string|null $preferredSessionTimerRefresher
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null $preferredSessionTimerRefresher
      * @return $this
      */
-    public function setPreferredSessionTimerRefresher($preferredSessionTimerRefresher)
+    public function setPreferredSessionTimerRefresher(\CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher $preferredSessionTimerRefresher)
     {
         $this->preferredSessionTimerRefresher = $preferredSessionTimerRefresher;
         return $this;

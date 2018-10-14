@@ -183,13 +183,13 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName matchLocation
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null
      */
     private $matchLocation = null;
 
     /**
      * @ElementName matchRoaming
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null
      */
     private $matchRoaming = null;
 
@@ -255,7 +255,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string[] $matchCallType
      * @return $this
      */
-    public function setMatchCallType($matchCallType)
+    public function setMatchCallType(array $matchCallType)
     {
         $this->matchCallType = $matchCallType;
         return $this;
@@ -268,7 +268,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string $matchCallType
      * @return $this
      */
-    public function addMatchCallType($matchCallType)
+    public function addMatchCallType(string $matchCallType)
     {
         $this->matchCallType []= $matchCallType;
         return $this;
@@ -292,7 +292,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string[] $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(array $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
         return $this;
@@ -305,7 +305,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string $matchAlternateCallIndicator
      * @return $this
      */
-    public function addMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function addMatchAlternateCallIndicator(string $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator []= $matchAlternateCallIndicator;
         return $this;
@@ -329,7 +329,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string[] $matchVirtualOnNetCallType
      * @return $this
      */
-    public function setMatchVirtualOnNetCallType($matchVirtualOnNetCallType)
+    public function setMatchVirtualOnNetCallType(array $matchVirtualOnNetCallType)
     {
         $this->matchVirtualOnNetCallType = $matchVirtualOnNetCallType;
         return $this;
@@ -342,7 +342,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string $matchVirtualOnNetCallType
      * @return $this
      */
-    public function addMatchVirtualOnNetCallType($matchVirtualOnNetCallType)
+    public function addMatchVirtualOnNetCallType(string $matchVirtualOnNetCallType)
     {
         $this->matchVirtualOnNetCallType []= $matchVirtualOnNetCallType;
         return $this;
@@ -904,7 +904,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * Getter for matchLocation
      *
      * @ElementName matchLocation
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null
      */
     public function getMatchLocation()
     {
@@ -915,10 +915,10 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * Setter for matchLocation
      *
      * @ElementName matchLocation
-     * @param string|null $matchLocation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null $matchLocation
      * @return $this
      */
-    public function setMatchLocation($matchLocation)
+    public function setMatchLocation(\CWM\BroadWorksConnector\Ocip\Models\LocationCriteria $matchLocation)
     {
         $this->matchLocation = $matchLocation;
         return $this;
@@ -928,7 +928,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * Getter for matchRoaming
      *
      * @ElementName matchRoaming
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null
      */
     public function getMatchRoaming()
     {
@@ -939,10 +939,10 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * Setter for matchRoaming
      *
      * @ElementName matchRoaming
-     * @param string|null $matchRoaming
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null $matchRoaming
      * @return $this
      */
-    public function setMatchRoaming($matchRoaming)
+    public function setMatchRoaming(\CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria $matchRoaming)
     {
         $this->matchRoaming = $matchRoaming;
         return $this;
@@ -1014,7 +1014,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string[] $matchNumberPortabilityStatus
      * @return $this
      */
-    public function setMatchNumberPortabilityStatus($matchNumberPortabilityStatus)
+    public function setMatchNumberPortabilityStatus(array $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus = $matchNumberPortabilityStatus;
         return $this;
@@ -1027,7 +1027,7 @@ class SystemCommunicationBarringCriteriaGetResponse19sp1 extends \CWM\BroadWorks
      * @param string $matchNumberPortabilityStatus
      * @return $this
      */
-    public function addMatchNumberPortabilityStatus($matchNumberPortabilityStatus)
+    public function addMatchNumberPortabilityStatus(string $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus []= $matchNumberPortabilityStatus;
         return $this;

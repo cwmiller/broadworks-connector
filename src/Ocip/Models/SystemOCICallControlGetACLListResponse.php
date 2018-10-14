@@ -37,7 +37,7 @@ class SystemOCICallControlGetACLListResponse extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $aclTable
      * @return $this
      */
-    public function setAclTable($aclTable)
+    public function setAclTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $aclTable)
     {
         $this->aclTable = $aclTable;
         return $this;

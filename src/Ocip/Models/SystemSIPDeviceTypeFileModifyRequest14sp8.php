@@ -34,7 +34,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName fileSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
@@ -150,7 +150,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * Getter for fileSource
      *
      * @ElementName fileSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     public function getFileSource()
     {
@@ -161,10 +161,10 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * Setter for fileSource
      *
      * @ElementName fileSource
-     * @param string|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null $fileSource
      * @return $this
      */
-    public function setFileSource($fileSource)
+    public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource)
     {
         $this->fileSource = $fileSource;
         return $this;
@@ -188,7 +188,7 @@ class SystemSIPDeviceTypeFileModifyRequest14sp8 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $uploadFile
      * @return $this
      */
-    public function setUploadFile($uploadFile)
+    public function setUploadFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $uploadFile)
     {
         $this->uploadFile = $uploadFile;
         return $this;

@@ -26,7 +26,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
 
     /**
      * @ElementName configurationType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configurationType = null;
 
@@ -88,7 +88,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * Getter for configurationType
      *
      * @ElementName configurationType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     public function getConfigurationType()
     {
@@ -99,10 +99,10 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse extends \C
      * Setter for configurationType
      *
      * @ElementName configurationType
-     * @param string|null $configurationType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configurationType
      * @return $this
      */
-    public function setConfigurationType($configurationType)
+    public function setConfigurationType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configurationType)
     {
         $this->configurationType = $configurationType;
         return $this;

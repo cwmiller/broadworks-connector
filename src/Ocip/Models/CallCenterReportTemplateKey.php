@@ -12,7 +12,7 @@ class CallCenterReportTemplateKey
 
     /**
      * @ElementName templateLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null
      */
     private $templateLevel = null;
 
@@ -26,7 +26,7 @@ class CallCenterReportTemplateKey
      * Getter for templateLevel
      *
      * @ElementName templateLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null
      */
     public function getTemplateLevel()
     {
@@ -37,10 +37,10 @@ class CallCenterReportTemplateKey
      * Setter for templateLevel
      *
      * @ElementName templateLevel
-     * @param string|null $templateLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null $templateLevel
      * @return $this
      */
-    public function setTemplateLevel($templateLevel)
+    public function setTemplateLevel(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel $templateLevel)
     {
         $this->templateLevel = $templateLevel;
         return $this;

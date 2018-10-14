@@ -14,7 +14,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
 
     /**
      * @ElementName mailServerSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     private $mailServerSelection = null;
 
@@ -38,7 +38,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
 
     /**
      * @ElementName groupMailServerFullMailboxLimit
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $groupMailServerFullMailboxLimit = null;
 
@@ -50,7 +50,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
 
     /**
      * @ElementName personalMailServerProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $personalMailServerProtocol = null;
 
@@ -76,7 +76,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * Getter for mailServerSelection
      *
      * @ElementName mailServerSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     public function getMailServerSelection()
     {
@@ -87,10 +87,10 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * Setter for mailServerSelection
      *
      * @ElementName mailServerSelection
-     * @param string|null $mailServerSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null $mailServerSelection
      * @return $this
      */
-    public function setMailServerSelection($mailServerSelection)
+    public function setMailServerSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection $mailServerSelection)
     {
         $this->mailServerSelection = $mailServerSelection;
         return $this;
@@ -172,7 +172,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * Getter for groupMailServerFullMailboxLimit
      *
      * @ElementName groupMailServerFullMailboxLimit
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     public function getGroupMailServerFullMailboxLimit()
     {
@@ -183,10 +183,10 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * Setter for groupMailServerFullMailboxLimit
      *
      * @ElementName groupMailServerFullMailboxLimit
-     * @param int|null $groupMailServerFullMailboxLimit
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null $groupMailServerFullMailboxLimit
      * @return $this
      */
-    public function setGroupMailServerFullMailboxLimit($groupMailServerFullMailboxLimit)
+    public function setGroupMailServerFullMailboxLimit(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $groupMailServerFullMailboxLimit)
     {
         $this->groupMailServerFullMailboxLimit = $groupMailServerFullMailboxLimit;
         return $this;
@@ -220,7 +220,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * Getter for personalMailServerProtocol
      *
      * @ElementName personalMailServerProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     public function getPersonalMailServerProtocol()
     {
@@ -231,10 +231,10 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
      * Setter for personalMailServerProtocol
      *
      * @ElementName personalMailServerProtocol
-     * @param string|null $personalMailServerProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null $personalMailServerProtocol
      * @return $this
      */
-    public function setPersonalMailServerProtocol($personalMailServerProtocol)
+    public function setPersonalMailServerProtocol(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $personalMailServerProtocol)
     {
         $this->personalMailServerProtocol = $personalMailServerProtocol;
         return $this;

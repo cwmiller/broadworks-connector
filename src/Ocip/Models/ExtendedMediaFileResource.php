@@ -41,7 +41,7 @@ class ExtendedMediaFileResource
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $file
      * @return $this
      */
-    public function setFile($file)
+    public function setFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $file)
     {
         $this->file = $file;
         return $this;

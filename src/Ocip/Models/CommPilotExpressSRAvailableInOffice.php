@@ -46,7 +46,7 @@ class CommPilotExpressSRAvailableInOffice
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null $busySetting
      * @return $this
      */
-    public function setBusySetting($busySetting)
+    public function setBusySetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection $busySetting)
     {
         $this->busySetting = $busySetting;
         return $this;
@@ -70,7 +70,7 @@ class CommPilotExpressSRAvailableInOffice
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer|null $noAnswerSetting
      * @return $this
      */
-    public function setNoAnswerSetting($noAnswerSetting)
+    public function setNoAnswerSetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer $noAnswerSetting)
     {
         $this->noAnswerSetting = $noAnswerSetting;
         return $this;
@@ -94,7 +94,7 @@ class CommPilotExpressSRAvailableInOffice
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null $incomingCallNotify
      * @return $this
      */
-    public function setIncomingCallNotify($incomingCallNotify)
+    public function setIncomingCallNotify(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify $incomingCallNotify)
     {
         $this->incomingCallNotify = $incomingCallNotify;
         return $this;

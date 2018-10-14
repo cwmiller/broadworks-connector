@@ -82,13 +82,13 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName status
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     private $status = null;
 
     /**
      * @ElementName configurationMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $configurationMode = null;
 
@@ -106,7 +106,7 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName transportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -368,7 +368,7 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
      * @return $this
      */
-    public function setNumberOfPorts($numberOfPorts)
+    public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
     {
         $this->numberOfPorts = $numberOfPorts;
         return $this;
@@ -402,7 +402,7 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for status
      *
      * @ElementName status
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     public function getStatus()
     {
@@ -413,10 +413,10 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for status
      *
      * @ElementName status
-     * @param string|null $status
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null $status
      * @return $this
      */
-    public function setStatus($status)
+    public function setStatus(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus $status)
     {
         $this->status = $status;
         return $this;
@@ -426,7 +426,7 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for configurationMode
      *
      * @ElementName configurationMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     public function getConfigurationMode()
     {
@@ -437,10 +437,10 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for configurationMode
      *
      * @ElementName configurationMode
-     * @param string|null $configurationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null $configurationMode
      * @return $this
      */
-    public function setConfigurationMode($configurationMode)
+    public function setConfigurationMode(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $configurationMode)
     {
         $this->configurationMode = $configurationMode;
         return $this;
@@ -498,7 +498,7 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportProtocol()
     {
@@ -509,10 +509,10 @@ class GroupAccessDeviceGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param string|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol($transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;

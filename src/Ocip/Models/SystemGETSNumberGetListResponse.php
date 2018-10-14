@@ -37,7 +37,7 @@ class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reservedNumberTable
      * @return $this
      */
-    public function setReservedNumberTable($reservedNumberTable)
+    public function setReservedNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reservedNumberTable)
     {
         $this->reservedNumberTable = $reservedNumberTable;
         return $this;

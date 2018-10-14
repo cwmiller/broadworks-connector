@@ -39,7 +39,7 @@ class SystemSystemServiceDnGetUsageListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnUtilizationTable
      * @return $this
      */
-    public function setDnUtilizationTable($dnUtilizationTable)
+    public function setDnUtilizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnUtilizationTable)
     {
         $this->dnUtilizationTable = $dnUtilizationTable;
         return $this;

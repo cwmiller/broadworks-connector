@@ -152,7 +152,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[] $searchCriteriaEnterpriseCommonPhoneListName
      * @return $this
      */
-    public function setSearchCriteriaEnterpriseCommonPhoneListName($searchCriteriaEnterpriseCommonPhoneListName)
+    public function setSearchCriteriaEnterpriseCommonPhoneListName(array $searchCriteriaEnterpriseCommonPhoneListName)
     {
         $this->searchCriteriaEnterpriseCommonPhoneListName = $searchCriteriaEnterpriseCommonPhoneListName;
         return $this;
@@ -189,7 +189,7 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[] $searchCriteriaEnterpriseCommonPhoneListNumber
      * @return $this
      */
-    public function setSearchCriteriaEnterpriseCommonPhoneListNumber($searchCriteriaEnterpriseCommonPhoneListNumber)
+    public function setSearchCriteriaEnterpriseCommonPhoneListNumber(array $searchCriteriaEnterpriseCommonPhoneListNumber)
     {
         $this->searchCriteriaEnterpriseCommonPhoneListNumber = $searchCriteriaEnterpriseCommonPhoneListNumber;
         return $this;

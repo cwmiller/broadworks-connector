@@ -38,7 +38,7 @@ class ReplacementAlternateUserIdEntryList
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[] $alternateUserId
      * @return $this
      */
-    public function setAlternateUserId($alternateUserId)
+    public function setAlternateUserId(array $alternateUserId)
     {
         $this->alternateUserId = $alternateUserId;
         return $this;

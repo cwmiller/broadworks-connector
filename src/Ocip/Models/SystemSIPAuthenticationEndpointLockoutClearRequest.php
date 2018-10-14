@@ -40,7 +40,7 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[] $userEndpointKey
      * @return $this
      */
-    public function setUserEndpointKey($userEndpointKey)
+    public function setUserEndpointKey(array $userEndpointKey)
     {
         $this->userEndpointKey = $userEndpointKey;
         return $this;

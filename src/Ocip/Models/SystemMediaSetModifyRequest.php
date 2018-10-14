@@ -68,7 +68,7 @@ class SystemMediaSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList|null $mediaNameList
      * @return $this
      */
-    public function setMediaNameList($mediaNameList)
+    public function setMediaNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList $mediaNameList)
     {
         $this->mediaNameList = $mediaNameList;
         return $this;

@@ -40,7 +40,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse exten
      * @param string[] $matchDigitPattern
      * @return $this
      */
-    public function setMatchDigitPattern($matchDigitPattern)
+    public function setMatchDigitPattern(array $matchDigitPattern)
     {
         $this->matchDigitPattern = $matchDigitPattern;
         return $this;
@@ -53,7 +53,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetPatternListResponse exten
      * @param string $matchDigitPattern
      * @return $this
      */
-    public function addMatchDigitPattern($matchDigitPattern)
+    public function addMatchDigitPattern(string $matchDigitPattern)
     {
         $this->matchDigitPattern []= $matchDigitPattern;
         return $this;

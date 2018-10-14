@@ -38,7 +38,7 @@ class UserOutgoingCallingPlanAuthorizationCodeGetListResponse extends \CWM\Broad
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[] $codeEntry
      * @return $this
      */
-    public function setCodeEntry($codeEntry)
+    public function setCodeEntry(array $codeEntry)
     {
         $this->codeEntry = $codeEntry;
         return $this;

@@ -76,7 +76,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[] $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(array $department)
     {
         $this->department = $department;
         return $this;
@@ -113,7 +113,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @param string[] $departmentFullPath
      * @return $this
      */
-    public function setDepartmentFullPath($departmentFullPath)
+    public function setDepartmentFullPath(array $departmentFullPath)
     {
         $this->departmentFullPath = $departmentFullPath;
         return $this;
@@ -126,7 +126,7 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
      * @param string $departmentFullPath
      * @return $this
      */
-    public function addDepartmentFullPath($departmentFullPath)
+    public function addDepartmentFullPath(string $departmentFullPath)
     {
         $this->departmentFullPath []= $departmentFullPath;
         return $this;

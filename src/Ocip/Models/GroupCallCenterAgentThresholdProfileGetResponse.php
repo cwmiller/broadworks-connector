@@ -469,7 +469,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @param string[] $notificationEmailAddress
      * @return $this
      */
-    public function setNotificationEmailAddress($notificationEmailAddress)
+    public function setNotificationEmailAddress(array $notificationEmailAddress)
     {
         $this->notificationEmailAddress = $notificationEmailAddress;
         return $this;
@@ -482,7 +482,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @param string $notificationEmailAddress
      * @return $this
      */
-    public function addNotificationEmailAddress($notificationEmailAddress)
+    public function addNotificationEmailAddress(string $notificationEmailAddress)
     {
         $this->notificationEmailAddress []= $notificationEmailAddress;
         return $this;
@@ -506,7 +506,7 @@ class GroupCallCenterAgentThresholdProfileGetResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentTable
      * @return $this
      */
-    public function setAgentTable($agentTable)
+    public function setAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentTable)
     {
         $this->agentTable = $agentTable;
         return $this;

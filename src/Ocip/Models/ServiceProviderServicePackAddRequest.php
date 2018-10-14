@@ -46,7 +46,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceName
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
         
@@ -166,7 +166,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $servicePackQuantity
      * @return $this
      */
-    public function setServicePackQuantity($servicePackQuantity)
+    public function setServicePackQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $servicePackQuantity)
     {
         $this->servicePackQuantity = $servicePackQuantity;
         return $this;
@@ -176,7 +176,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getServiceName()
     {
@@ -187,10 +187,10 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string[] $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(array $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;
@@ -200,7 +200,7 @@ class ServiceProviderServicePackAddRequest extends \CWM\BroadWorksConnector\Ocip
      * Adder for serviceName
      *
      * @ElementName serviceName
-     * @param string $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName
      * @return $this
      */
     public function addServiceName($serviceName)

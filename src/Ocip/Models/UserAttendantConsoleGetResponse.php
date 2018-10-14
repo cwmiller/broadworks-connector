@@ -32,7 +32,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName displayColumn
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
     private $displayColumn = array(
         
@@ -114,7 +114,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for displayColumn
      *
      * @ElementName displayColumn
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
     public function getDisplayColumn()
     {
@@ -125,10 +125,10 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for displayColumn
      *
      * @ElementName displayColumn
-     * @param string[] $displayColumn
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[] $displayColumn
      * @return $this
      */
-    public function setDisplayColumn($displayColumn)
+    public function setDisplayColumn(array $displayColumn)
     {
         $this->displayColumn = $displayColumn;
         return $this;
@@ -138,7 +138,7 @@ class UserAttendantConsoleGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * Adder for displayColumn
      *
      * @ElementName displayColumn
-     * @param string $displayColumn
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn $displayColumn
      * @return $this
      */
     public function addDisplayColumn($displayColumn)

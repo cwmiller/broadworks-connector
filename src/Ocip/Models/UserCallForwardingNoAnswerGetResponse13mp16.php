@@ -26,7 +26,7 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName numberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
     private $numberOfRings = null;
 
@@ -82,7 +82,7 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
      * Getter for numberOfRings
      *
      * @ElementName numberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null
      */
     public function getNumberOfRings()
     {
@@ -93,10 +93,10 @@ class UserCallForwardingNoAnswerGetResponse13mp16 extends \CWM\BroadWorksConnect
      * Setter for numberOfRings
      *
      * @ElementName numberOfRings
-     * @param int|null $numberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings|null $numberOfRings
      * @return $this
      */
-    public function setNumberOfRings($numberOfRings)
+    public function setNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\CallForwardingNoAnswerNumberOfRings $numberOfRings)
     {
         $this->numberOfRings = $numberOfRings;
         return $this;

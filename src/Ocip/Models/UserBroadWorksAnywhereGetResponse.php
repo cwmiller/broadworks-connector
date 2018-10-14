@@ -69,7 +69,7 @@ class UserBroadWorksAnywhereGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $phoneNumberTable
      * @return $this
      */
-    public function setPhoneNumberTable($phoneNumberTable)
+    public function setPhoneNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $phoneNumberTable)
     {
         $this->phoneNumberTable = $phoneNumberTable;
         return $this;

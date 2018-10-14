@@ -13,7 +13,7 @@ class ReplacementCallProcessingPolicyProfileSubscriberTypeList20
 
     /**
      * @ElementName subscriberType
-     * @var string[]
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[]
      */
     private $subscriberType = array(
         
@@ -23,7 +23,7 @@ class ReplacementCallProcessingPolicyProfileSubscriberTypeList20
      * Getter for subscriberType
      *
      * @ElementName subscriberType
-     * @return string[]
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[]
      */
     public function getSubscriberType()
     {
@@ -34,10 +34,10 @@ class ReplacementCallProcessingPolicyProfileSubscriberTypeList20
      * Setter for subscriberType
      *
      * @ElementName subscriberType
-     * @param string[] $subscriberType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20[] $subscriberType
      * @return $this
      */
-    public function setSubscriberType($subscriberType)
+    public function setSubscriberType(array $subscriberType)
     {
         $this->subscriberType = $subscriberType;
         return $this;
@@ -47,7 +47,7 @@ class ReplacementCallProcessingPolicyProfileSubscriberTypeList20
      * Adder for subscriberType
      *
      * @ElementName subscriberType
-     * @param string $subscriberType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType20 $subscriberType
      * @return $this
      */
     public function addSubscriberType($subscriberType)

@@ -158,7 +158,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null $exchangeCredentials
      * @return $this
      */
-    public function setExchangeCredentials($exchangeCredentials)
+    public function setExchangeCredentials(\CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword $exchangeCredentials)
     {
         $this->exchangeCredentials = $exchangeCredentials;
         return $this;

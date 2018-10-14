@@ -40,7 +40,7 @@ class SystemDeviceProfileAuthenticationLockoutClearRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[] $accessDevice
      * @return $this
      */
-    public function setAccessDevice($accessDevice)
+    public function setAccessDevice(array $accessDevice)
     {
         $this->accessDevice = $accessDevice;
         return $this;

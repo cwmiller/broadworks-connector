@@ -278,7 +278,7 @@ class GroupCallCenterGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnisTable
      * @return $this
      */
-    public function setDnisTable($dnisTable)
+    public function setDnisTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnisTable)
     {
         $this->dnisTable = $dnisTable;
         return $this;

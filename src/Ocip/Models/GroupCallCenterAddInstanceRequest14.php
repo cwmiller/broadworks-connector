@@ -43,7 +43,7 @@ class GroupCallCenterAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -229,7 +229,7 @@ class GroupCallCenterAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -239,7 +239,7 @@ class GroupCallCenterAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -250,10 +250,10 @@ class GroupCallCenterAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -589,7 +589,7 @@ class GroupCallCenterAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @param string[] $agentUserId
      * @return $this
      */
-    public function setAgentUserId($agentUserId)
+    public function setAgentUserId(array $agentUserId)
     {
         $this->agentUserId = $agentUserId;
         return $this;
@@ -602,7 +602,7 @@ class GroupCallCenterAddInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
      * @param string $agentUserId
      * @return $this
      */
-    public function addAgentUserId($agentUserId)
+    public function addAgentUserId(string $agentUserId)
     {
         $this->agentUserId []= $agentUserId;
         return $this;

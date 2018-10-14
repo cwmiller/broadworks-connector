@@ -102,7 +102,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null $protocolWebDAV
      * @return $this
      */
-    public function setProtocolWebDAV($protocolWebDAV)
+    public function setProtocolWebDAV(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20 $protocolWebDAV)
     {
         $this->protocolWebDAV = $protocolWebDAV;
         return $this;
@@ -126,7 +126,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null $protocolFTP
      * @return $this
      */
-    public function setProtocolFTP($protocolFTP)
+    public function setProtocolFTP(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16 $protocolFTP)
     {
         $this->protocolFTP = $protocolFTP;
         return $this;

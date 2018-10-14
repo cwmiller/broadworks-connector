@@ -94,7 +94,7 @@ class CallCenterReportScheduleTime
      * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $scheduleTime
      * @return $this
      */
-    public function setScheduleTime($scheduleTime)
+    public function setScheduleTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $scheduleTime)
     {
         $this->scheduleTime = $scheduleTime;
         return $this;

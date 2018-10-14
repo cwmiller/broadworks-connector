@@ -389,7 +389,7 @@ class SystemSystemVoicePortalAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $voicePortalGreetingFile
      * @return $this
      */
-    public function setVoicePortalGreetingFile($voicePortalGreetingFile)
+    public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voicePortalGreetingFile)
     {
         $this->voicePortalGreetingFile = $voicePortalGreetingFile;
         return $this;
@@ -437,7 +437,7 @@ class SystemSystemVoicePortalAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $voiceMessagingGreetingFile
      * @return $this
      */
-    public function setVoiceMessagingGreetingFile($voiceMessagingGreetingFile)
+    public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voiceMessagingGreetingFile)
     {
         $this->voiceMessagingGreetingFile = $voiceMessagingGreetingFile;
         return $this;

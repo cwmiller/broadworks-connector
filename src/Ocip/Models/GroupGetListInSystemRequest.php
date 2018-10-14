@@ -112,7 +112,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
-    public function setSearchCriteriaGroupId($searchCriteriaGroupId)
+    public function setSearchCriteriaGroupId(array $searchCriteriaGroupId)
     {
         $this->searchCriteriaGroupId = $searchCriteriaGroupId;
         return $this;
@@ -149,7 +149,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[] $searchCriteriaGroupName
      * @return $this
      */
-    public function setSearchCriteriaGroupName($searchCriteriaGroupName)
+    public function setSearchCriteriaGroupName(array $searchCriteriaGroupName)
     {
         $this->searchCriteriaGroupName = $searchCriteriaGroupName;
         return $this;
@@ -186,7 +186,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null $searchCriteriaExactServiceProvider
      * @return $this
      */
-    public function setSearchCriteriaExactServiceProvider($searchCriteriaExactServiceProvider)
+    public function setSearchCriteriaExactServiceProvider(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider $searchCriteriaExactServiceProvider)
     {
         $this->searchCriteriaExactServiceProvider = $searchCriteriaExactServiceProvider;
         return $this;
@@ -210,7 +210,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
-    public function setSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
+    public function setSearchCriteriaServiceProviderId(array $searchCriteriaServiceProviderId)
     {
         $this->searchCriteriaServiceProviderId = $searchCriteriaServiceProviderId;
         return $this;
@@ -247,7 +247,7 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
-    public function setSearchCriteriaResellerId($searchCriteriaResellerId)
+    public function setSearchCriteriaResellerId(array $searchCriteriaResellerId)
     {
         $this->searchCriteriaResellerId = $searchCriteriaResellerId;
         return $this;

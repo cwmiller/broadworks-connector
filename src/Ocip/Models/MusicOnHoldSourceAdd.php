@@ -12,25 +12,25 @@ class MusicOnHoldSourceAdd
 
     /**
      * @ElementName audioFilePreferredCodec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
 
     /**
      * @ElementName messageSourceSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd\CustomSource|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddCustomSource|null
      */
     private $customSource = null;
 
     /**
      * @ElementName externalSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd\ExternalSource|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddExternalSource|null
      */
     private $externalSource = null;
 
@@ -38,7 +38,7 @@ class MusicOnHoldSourceAdd
      * Getter for audioFilePreferredCodec
      *
      * @ElementName audioFilePreferredCodec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     public function getAudioFilePreferredCodec()
     {
@@ -49,10 +49,10 @@ class MusicOnHoldSourceAdd
      * Setter for audioFilePreferredCodec
      *
      * @ElementName audioFilePreferredCodec
-     * @param string|null $audioFilePreferredCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null $audioFilePreferredCodec
      * @return $this
      */
-    public function setAudioFilePreferredCodec($audioFilePreferredCodec)
+    public function setAudioFilePreferredCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $audioFilePreferredCodec)
     {
         $this->audioFilePreferredCodec = $audioFilePreferredCodec;
         return $this;
@@ -62,7 +62,7 @@ class MusicOnHoldSourceAdd
      * Getter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     public function getMessageSourceSelection()
     {
@@ -73,10 +73,10 @@ class MusicOnHoldSourceAdd
      * Setter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @param string|null $messageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null $messageSourceSelection
      * @return $this
      */
-    public function setMessageSourceSelection($messageSourceSelection)
+    public function setMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection $messageSourceSelection)
     {
         $this->messageSourceSelection = $messageSourceSelection;
         return $this;
@@ -86,7 +86,7 @@ class MusicOnHoldSourceAdd
      * Getter for customSource
      *
      * @ElementName customSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd\CustomSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddCustomSource|null
      */
     public function getCustomSource()
     {
@@ -97,10 +97,10 @@ class MusicOnHoldSourceAdd
      * Setter for customSource
      *
      * @ElementName customSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd\CustomSource|null $customSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddCustomSource|null $customSource
      * @return $this
      */
-    public function setCustomSource($customSource)
+    public function setCustomSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddCustomSource $customSource)
     {
         $this->customSource = $customSource;
         return $this;
@@ -110,7 +110,7 @@ class MusicOnHoldSourceAdd
      * Getter for externalSource
      *
      * @ElementName externalSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd\ExternalSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddExternalSource|null
      */
     public function getExternalSource()
     {
@@ -121,10 +121,10 @@ class MusicOnHoldSourceAdd
      * Setter for externalSource
      *
      * @ElementName externalSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd\ExternalSource|null $externalSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddExternalSource|null $externalSource
      * @return $this
      */
-    public function setExternalSource($externalSource)
+    public function setExternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAddExternalSource $externalSource)
     {
         $this->externalSource = $externalSource;
         return $this;

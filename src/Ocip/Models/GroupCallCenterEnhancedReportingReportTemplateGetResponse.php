@@ -38,7 +38,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
 
     /**
      * @ElementName scope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     private $scope = null;
 
@@ -56,37 +56,37 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
 
     /**
      * @ElementName callCompletionThresholdParam
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $callCompletionThresholdParam = null;
 
     /**
      * @ElementName shortDurationThresholdParam
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $shortDurationThresholdParam = null;
 
     /**
      * @ElementName serviceLevelThresholdParam
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $serviceLevelThresholdParam = null;
 
     /**
      * @ElementName serviceLevelInclusionsParam
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $serviceLevelInclusionsParam = null;
 
     /**
      * @ElementName serviceLevelObjectiveThresholdParam
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $serviceLevelObjectiveThresholdParam = null;
 
     /**
      * @ElementName abandonedCallThresholdParam
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $abandonedCallThresholdParam = null;
 
@@ -210,7 +210,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for scope
      *
      * @ElementName scope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     public function getScope()
     {
@@ -221,10 +221,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for scope
      *
      * @ElementName scope
-     * @param string|null $scope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null $scope
      * @return $this
      */
-    public function setScope($scope)
+    public function setScope(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption $scope)
     {
         $this->scope = $scope;
         return $this;
@@ -282,7 +282,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for callCompletionThresholdParam
      *
      * @ElementName callCompletionThresholdParam
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     public function getCallCompletionThresholdParam()
     {
@@ -293,10 +293,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for callCompletionThresholdParam
      *
      * @ElementName callCompletionThresholdParam
-     * @param string|null $callCompletionThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $callCompletionThresholdParam
      * @return $this
      */
-    public function setCallCompletionThresholdParam($callCompletionThresholdParam)
+    public function setCallCompletionThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $callCompletionThresholdParam)
     {
         $this->callCompletionThresholdParam = $callCompletionThresholdParam;
         return $this;
@@ -306,7 +306,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for shortDurationThresholdParam
      *
      * @ElementName shortDurationThresholdParam
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     public function getShortDurationThresholdParam()
     {
@@ -317,10 +317,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for shortDurationThresholdParam
      *
      * @ElementName shortDurationThresholdParam
-     * @param string|null $shortDurationThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $shortDurationThresholdParam
      * @return $this
      */
-    public function setShortDurationThresholdParam($shortDurationThresholdParam)
+    public function setShortDurationThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $shortDurationThresholdParam)
     {
         $this->shortDurationThresholdParam = $shortDurationThresholdParam;
         return $this;
@@ -330,7 +330,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for serviceLevelThresholdParam
      *
      * @ElementName serviceLevelThresholdParam
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     public function getServiceLevelThresholdParam()
     {
@@ -341,10 +341,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for serviceLevelThresholdParam
      *
      * @ElementName serviceLevelThresholdParam
-     * @param string|null $serviceLevelThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $serviceLevelThresholdParam
      * @return $this
      */
-    public function setServiceLevelThresholdParam($serviceLevelThresholdParam)
+    public function setServiceLevelThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelThresholdParam)
     {
         $this->serviceLevelThresholdParam = $serviceLevelThresholdParam;
         return $this;
@@ -354,7 +354,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for serviceLevelInclusionsParam
      *
      * @ElementName serviceLevelInclusionsParam
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     public function getServiceLevelInclusionsParam()
     {
@@ -365,10 +365,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for serviceLevelInclusionsParam
      *
      * @ElementName serviceLevelInclusionsParam
-     * @param string|null $serviceLevelInclusionsParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $serviceLevelInclusionsParam
      * @return $this
      */
-    public function setServiceLevelInclusionsParam($serviceLevelInclusionsParam)
+    public function setServiceLevelInclusionsParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelInclusionsParam)
     {
         $this->serviceLevelInclusionsParam = $serviceLevelInclusionsParam;
         return $this;
@@ -378,7 +378,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for serviceLevelObjectiveThresholdParam
      *
      * @ElementName serviceLevelObjectiveThresholdParam
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     public function getServiceLevelObjectiveThresholdParam()
     {
@@ -389,10 +389,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for serviceLevelObjectiveThresholdParam
      *
      * @ElementName serviceLevelObjectiveThresholdParam
-     * @param string|null $serviceLevelObjectiveThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $serviceLevelObjectiveThresholdParam
      * @return $this
      */
-    public function setServiceLevelObjectiveThresholdParam($serviceLevelObjectiveThresholdParam)
+    public function setServiceLevelObjectiveThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelObjectiveThresholdParam)
     {
         $this->serviceLevelObjectiveThresholdParam = $serviceLevelObjectiveThresholdParam;
         return $this;
@@ -402,7 +402,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Getter for abandonedCallThresholdParam
      *
      * @ElementName abandonedCallThresholdParam
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     public function getAbandonedCallThresholdParam()
     {
@@ -413,10 +413,10 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * Setter for abandonedCallThresholdParam
      *
      * @ElementName abandonedCallThresholdParam
-     * @param string|null $abandonedCallThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $abandonedCallThresholdParam
      * @return $this
      */
-    public function setAbandonedCallThresholdParam($abandonedCallThresholdParam)
+    public function setAbandonedCallThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $abandonedCallThresholdParam)
     {
         $this->abandonedCallThresholdParam = $abandonedCallThresholdParam;
         return $this;
@@ -488,7 +488,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * @param string[] $filterValue
      * @return $this
      */
-    public function setFilterValue($filterValue)
+    public function setFilterValue(array $filterValue)
     {
         $this->filterValue = $filterValue;
         return $this;
@@ -501,7 +501,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetResponse extends \CWM\Bro
      * @param string $filterValue
      * @return $this
      */
-    public function addFilterValue($filterValue)
+    public function addFilterValue(string $filterValue)
     {
         $this->filterValue []= $filterValue;
         return $this;

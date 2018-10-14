@@ -69,7 +69,7 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $domainTable
      * @return $this
      */
-    public function setDomainTable($domainTable)
+    public function setDomainTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $domainTable)
     {
         $this->domainTable = $domainTable;
         return $this;

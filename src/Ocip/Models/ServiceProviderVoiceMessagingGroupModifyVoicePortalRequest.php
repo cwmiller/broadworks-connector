@@ -22,7 +22,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
 
     /**
      * @ElementName voicePortalScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
     private $voicePortalScope = null;
 
@@ -54,7 +54,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
      * Getter for voicePortalScope
      *
      * @ElementName voicePortalScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
     public function getVoicePortalScope()
     {
@@ -65,10 +65,10 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\Br
      * Setter for voicePortalScope
      *
      * @ElementName voicePortalScope
-     * @param string|null $voicePortalScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null $voicePortalScope
      * @return $this
      */
-    public function setVoicePortalScope($voicePortalScope)
+    public function setVoicePortalScope(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope $voicePortalScope)
     {
         $this->voicePortalScope = $voicePortalScope;
         return $this;

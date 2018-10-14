@@ -46,7 +46,7 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param string[] $netAddress
      * @return $this
      */
-    public function setNetAddress($netAddress)
+    public function setNetAddress(array $netAddress)
     {
         $this->netAddress = $netAddress;
         return $this;
@@ -59,7 +59,7 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param string $netAddress
      * @return $this
      */
-    public function addNetAddress($netAddress)
+    public function addNetAddress(string $netAddress)
     {
         $this->netAddress []= $netAddress;
         return $this;
@@ -83,7 +83,7 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[] $netAddressRange
      * @return $this
      */
-    public function setNetAddressRange($netAddressRange)
+    public function setNetAddressRange(array $netAddressRange)
     {
         $this->netAddressRange = $netAddressRange;
         return $this;

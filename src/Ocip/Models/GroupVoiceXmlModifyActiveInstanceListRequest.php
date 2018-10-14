@@ -40,7 +40,7 @@ class GroupVoiceXmlModifyActiveInstanceListRequest extends \CWM\BroadWorksConnec
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[] $serviceActivation
      * @return $this
      */
-    public function setServiceActivation($serviceActivation)
+    public function setServiceActivation(array $serviceActivation)
     {
         $this->serviceActivation = $serviceActivation;
         return $this;

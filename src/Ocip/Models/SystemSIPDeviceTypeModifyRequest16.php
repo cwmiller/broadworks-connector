@@ -114,7 +114,7 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName earlyMediaSupport
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     private $earlyMediaSupport = null;
 
@@ -132,7 +132,7 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName authenticationMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
      */
     private $authenticationMode = null;
 
@@ -520,7 +520,7 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions16|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions($cpeDeviceOptions)
+    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions16 $cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -530,7 +530,7 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     public function getEarlyMediaSupport()
     {
@@ -541,10 +541,10 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @param string|null $earlyMediaSupport
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null $earlyMediaSupport
      * @return $this
      */
-    public function setEarlyMediaSupport($earlyMediaSupport)
+    public function setEarlyMediaSupport(\CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport)
     {
         $this->earlyMediaSupport = $earlyMediaSupport;
         return $this;
@@ -602,7 +602,7 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
      */
     public function getAuthenticationMode()
     {
@@ -613,10 +613,10 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @param string|null $authenticationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null $authenticationMode
      * @return $this
      */
-    public function setAuthenticationMode($authenticationMode)
+    public function setAuthenticationMode(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode $authenticationMode)
     {
         $this->authenticationMode = $authenticationMode;
         return $this;

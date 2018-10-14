@@ -48,7 +48,7 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry[] $groupServiceEntry
      * @return $this
      */
-    public function setGroupServiceEntry($groupServiceEntry)
+    public function setGroupServiceEntry(array $groupServiceEntry)
     {
         $this->groupServiceEntry = $groupServiceEntry;
         return $this;
@@ -85,7 +85,7 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry[] $userServiceEntry
      * @return $this
      */
-    public function setUserServiceEntry($userServiceEntry)
+    public function setUserServiceEntry(array $userServiceEntry)
     {
         $this->userServiceEntry = $userServiceEntry;
         return $this;

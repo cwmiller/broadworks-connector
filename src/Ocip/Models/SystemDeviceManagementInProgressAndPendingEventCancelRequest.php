@@ -25,7 +25,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
 
     /**
      * @ElementName cancelMultipleEvents
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequest\CancelMultipleEvents|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null
      */
     private $cancelMultipleEvents = null;
 
@@ -65,7 +65,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * Getter for cancelMultipleEvents
      *
      * @ElementName cancelMultipleEvents
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequest\CancelMultipleEvents|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null
      */
     public function getCancelMultipleEvents()
     {
@@ -76,10 +76,10 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * Setter for cancelMultipleEvents
      *
      * @ElementName cancelMultipleEvents
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequest\CancelMultipleEvents|null $cancelMultipleEvents
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null $cancelMultipleEvents
      * @return $this
      */
-    public function setCancelMultipleEvents($cancelMultipleEvents)
+    public function setCancelMultipleEvents(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents $cancelMultipleEvents)
     {
         $this->cancelMultipleEvents = $cancelMultipleEvents;
         return $this;
@@ -103,7 +103,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * @param int[] $eventId
      * @return $this
      */
-    public function setEventId($eventId)
+    public function setEventId(array $eventId)
     {
         $this->eventId = $eventId;
         return $this;
@@ -116,7 +116,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * @param int $eventId
      * @return $this
      */
-    public function addEventId($eventId)
+    public function addEventId(int $eventId)
     {
         $this->eventId []= $eventId;
         return $this;

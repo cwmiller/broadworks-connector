@@ -24,7 +24,7 @@ class AlternateNumberEntry21
 
     /**
      * @ElementName ringPattern
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $ringPattern = null;
 
@@ -86,7 +86,7 @@ class AlternateNumberEntry21
      * Getter for ringPattern
      *
      * @ElementName ringPattern
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     public function getRingPattern()
     {
@@ -97,10 +97,10 @@ class AlternateNumberEntry21
      * Setter for ringPattern
      *
      * @ElementName ringPattern
-     * @param string|null $ringPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $ringPattern
      * @return $this
      */
-    public function setRingPattern($ringPattern)
+    public function setRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $ringPattern)
     {
         $this->ringPattern = $ringPattern;
         return $this;

@@ -34,7 +34,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
 
     /**
      * @ElementName type
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
 
@@ -114,7 +114,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
      * Getter for type
      *
      * @ElementName type
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     public function getType()
     {
@@ -125,10 +125,10 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
      * Setter for type
      *
      * @ElementName type
-     * @param string|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null $type
      * @return $this
      */
-    public function setType($type)
+    public function setType(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type)
     {
         $this->type = $type;
         return $this;

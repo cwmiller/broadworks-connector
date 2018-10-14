@@ -38,7 +38,7 @@ class ReplacementOCICallControlApplicationIdList
      * @param string[] $applicationId
      * @return $this
      */
-    public function setApplicationId($applicationId)
+    public function setApplicationId(array $applicationId)
     {
         $this->applicationId = $applicationId;
         return $this;
@@ -51,7 +51,7 @@ class ReplacementOCICallControlApplicationIdList
      * @param string $applicationId
      * @return $this
      */
-    public function addApplicationId($applicationId)
+    public function addApplicationId(string $applicationId)
     {
         $this->applicationId []= $applicationId;
         return $this;

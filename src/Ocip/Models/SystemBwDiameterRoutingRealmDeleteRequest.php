@@ -16,7 +16,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName instance
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
 
@@ -28,7 +28,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName applicationId
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
 
@@ -36,7 +36,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * Getter for instance
      *
      * @ElementName instance
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     public function getInstance()
     {
@@ -47,10 +47,10 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * Setter for instance
      *
      * @ElementName instance
-     * @param string|null $instance
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null $instance
      * @return $this
      */
-    public function setInstance($instance)
+    public function setInstance(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance)
     {
         $this->instance = $instance;
         return $this;
@@ -84,7 +84,7 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * Getter for applicationId
      *
      * @ElementName applicationId
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     public function getApplicationId()
     {
@@ -95,10 +95,10 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
      * Setter for applicationId
      *
      * @ElementName applicationId
-     * @param string|null $applicationId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null $applicationId
      * @return $this
      */
-    public function setApplicationId($applicationId)
+    public function setApplicationId(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId $applicationId)
     {
         $this->applicationId = $applicationId;
         return $this;

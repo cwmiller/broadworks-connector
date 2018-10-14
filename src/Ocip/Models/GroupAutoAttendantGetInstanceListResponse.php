@@ -45,7 +45,7 @@ class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $autoAttendantTable
      * @return $this
      */
-    public function setAutoAttendantTable($autoAttendantTable)
+    public function setAutoAttendantTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $autoAttendantTable)
     {
         $this->autoAttendantTable = $autoAttendantTable;
         return $this;

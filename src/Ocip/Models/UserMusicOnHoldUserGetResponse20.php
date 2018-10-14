@@ -78,7 +78,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null $source
      * @return $this
      */
-    public function setSource($source)
+    public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20 $source)
     {
         $this->source = $source;
         return $this;
@@ -126,7 +126,7 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null $internalSource
      * @return $this
      */
-    public function setInternalSource($internalSource)
+    public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20 $internalSource)
     {
         $this->internalSource = $internalSource;
         return $this;

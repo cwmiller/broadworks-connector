@@ -46,7 +46,7 @@ class OutgoingCallingPlanDepartmentTransferNumbers
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
      * @return $this
      */
-    public function setDepartmentKey($departmentKey)
+    public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
         return $this;
@@ -94,7 +94,7 @@ class OutgoingCallingPlanDepartmentTransferNumbers
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null $transferNumbers
      * @return $this
      */
-    public function setTransferNumbers($transferNumbers)
+    public function setTransferNumbers(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers $transferNumbers)
     {
         $this->transferNumbers = $transferNumbers;
         return $this;

@@ -22,7 +22,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
 
     /**
      * @ElementName voicePortalGreetingSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
 
@@ -34,7 +34,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
 
     /**
      * @ElementName voiceMessagingGreetingSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
 
@@ -72,7 +72,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
      * Getter for voicePortalGreetingSelection
      *
      * @ElementName voicePortalGreetingSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     public function getVoicePortalGreetingSelection()
     {
@@ -83,10 +83,10 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
      * Setter for voicePortalGreetingSelection
      *
      * @ElementName voicePortalGreetingSelection
-     * @param string|null $voicePortalGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voicePortalGreetingSelection
      * @return $this
      */
-    public function setVoicePortalGreetingSelection($voicePortalGreetingSelection)
+    public function setVoicePortalGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection)
     {
         $this->voicePortalGreetingSelection = $voicePortalGreetingSelection;
         return $this;
@@ -110,7 +110,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $voicePortalGreetingFile
      * @return $this
      */
-    public function setVoicePortalGreetingFile($voicePortalGreetingFile)
+    public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voicePortalGreetingFile)
     {
         $this->voicePortalGreetingFile = $voicePortalGreetingFile;
         return $this;
@@ -120,7 +120,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
      * Getter for voiceMessagingGreetingSelection
      *
      * @ElementName voiceMessagingGreetingSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     public function getVoiceMessagingGreetingSelection()
     {
@@ -131,10 +131,10 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
      * Setter for voiceMessagingGreetingSelection
      *
      * @ElementName voiceMessagingGreetingSelection
-     * @param string|null $voiceMessagingGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voiceMessagingGreetingSelection
      * @return $this
      */
-    public function setVoiceMessagingGreetingSelection($voiceMessagingGreetingSelection)
+    public function setVoiceMessagingGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection)
     {
         $this->voiceMessagingGreetingSelection = $voiceMessagingGreetingSelection;
         return $this;
@@ -158,7 +158,7 @@ class ServiceProviderVoiceMessagingGroupModifyVoicePortalBrandingRequest16 exten
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $voiceMessagingGreetingFile
      * @return $this
      */
-    public function setVoiceMessagingGreetingFile($voiceMessagingGreetingFile)
+    public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voiceMessagingGreetingFile)
     {
         $this->voiceMessagingGreetingFile = $voiceMessagingGreetingFile;
         return $this;

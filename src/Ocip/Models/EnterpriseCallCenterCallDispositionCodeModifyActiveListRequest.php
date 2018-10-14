@@ -70,7 +70,7 @@ class EnterpriseCallCenterCallDispositionCodeModifyActiveListRequest extends \CW
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[] $callDispositionCodeActivation
      * @return $this
      */
-    public function setCallDispositionCodeActivation($callDispositionCodeActivation)
+    public function setCallDispositionCodeActivation(array $callDispositionCodeActivation)
     {
         $this->callDispositionCodeActivation = $callDispositionCodeActivation;
         return $this;

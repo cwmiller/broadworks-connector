@@ -38,7 +38,7 @@ class SystemFileRepositoryDeviceUserGetListResponse extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $fileRepositoryUserTable
      * @return $this
      */
-    public function setFileRepositoryUserTable($fileRepositoryUserTable)
+    public function setFileRepositoryUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileRepositoryUserTable)
     {
         $this->fileRepositoryUserTable = $fileRepositoryUserTable;
         return $this;

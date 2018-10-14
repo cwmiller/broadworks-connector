@@ -41,7 +41,7 @@ class SystemDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnSummaryTable
      * @return $this
      */
-    public function setDnSummaryTable($dnSummaryTable)
+    public function setDnSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnSummaryTable)
     {
         $this->dnSummaryTable = $dnSummaryTable;
         return $this;

@@ -242,7 +242,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
      * @return $this
      */
-    public function setMatchCallType($matchCallType)
+    public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType)
     {
         $this->matchCallType = $matchCallType;
         return $this;
@@ -266,7 +266,7 @@ class ServiceProviderDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
      * @return $this
      */
-    public function setMatchAlternateCallIndicator($matchAlternateCallIndicator)
+    public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator)
     {
         $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
         return $this;

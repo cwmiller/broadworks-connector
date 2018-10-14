@@ -161,7 +161,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[] $searchCriteriaDeviceName
      * @return $this
      */
-    public function setSearchCriteriaDeviceName($searchCriteriaDeviceName)
+    public function setSearchCriteriaDeviceName(array $searchCriteriaDeviceName)
     {
         $this->searchCriteriaDeviceName = $searchCriteriaDeviceName;
         return $this;
@@ -198,7 +198,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[] $searchCriteriaDeviceMACAddress
      * @return $this
      */
-    public function setSearchCriteriaDeviceMACAddress($searchCriteriaDeviceMACAddress)
+    public function setSearchCriteriaDeviceMACAddress(array $searchCriteriaDeviceMACAddress)
     {
         $this->searchCriteriaDeviceMACAddress = $searchCriteriaDeviceMACAddress;
         return $this;
@@ -235,7 +235,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[] $searchCriteriaDeviceNetAddress
      * @return $this
      */
-    public function setSearchCriteriaDeviceNetAddress($searchCriteriaDeviceNetAddress)
+    public function setSearchCriteriaDeviceNetAddress(array $searchCriteriaDeviceNetAddress)
     {
         $this->searchCriteriaDeviceNetAddress = $searchCriteriaDeviceNetAddress;
         return $this;
@@ -272,7 +272,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null $searchCriteriaExactDeviceType
      * @return $this
      */
-    public function setSearchCriteriaExactDeviceType($searchCriteriaExactDeviceType)
+    public function setSearchCriteriaExactDeviceType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType $searchCriteriaExactDeviceType)
     {
         $this->searchCriteriaExactDeviceType = $searchCriteriaExactDeviceType;
         return $this;
@@ -296,7 +296,7 @@ class GroupAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceVersion[] $searchCriteriaAccessDeviceVersion
      * @return $this
      */
-    public function setSearchCriteriaAccessDeviceVersion($searchCriteriaAccessDeviceVersion)
+    public function setSearchCriteriaAccessDeviceVersion(array $searchCriteriaAccessDeviceVersion)
     {
         $this->searchCriteriaAccessDeviceVersion = $searchCriteriaAccessDeviceVersion;
         return $this;

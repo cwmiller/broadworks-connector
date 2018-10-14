@@ -23,7 +23,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName chargeIndicator
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     private $chargeIndicator = null;
 
@@ -101,7 +101,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName internalReleaseCause
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause|null
      */
     private $internalReleaseCause = null;
 
@@ -145,7 +145,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for chargeIndicator
      *
      * @ElementName chargeIndicator
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     public function getChargeIndicator()
     {
@@ -156,10 +156,10 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for chargeIndicator
      *
      * @ElementName chargeIndicator
-     * @param string|null $chargeIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null $chargeIndicator
      * @return $this
      */
-    public function setChargeIndicator($chargeIndicator)
+    public function setChargeIndicator(\CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator $chargeIndicator)
     {
         $this->chargeIndicator = $chargeIndicator;
         return $this;
@@ -457,7 +457,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * Getter for internalReleaseCause
      *
      * @ElementName internalReleaseCause
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause|null
      */
     public function getInternalReleaseCause()
     {
@@ -468,10 +468,10 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
      * Setter for internalReleaseCause
      *
      * @ElementName internalReleaseCause
-     * @param string|null $internalReleaseCause
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause|null $internalReleaseCause
      * @return $this
      */
-    public function setInternalReleaseCause($internalReleaseCause)
+    public function setInternalReleaseCause(\CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause $internalReleaseCause)
     {
         $this->internalReleaseCause = $internalReleaseCause;
         return $this;

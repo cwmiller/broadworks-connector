@@ -15,7 +15,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName useMailServerSetting
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
      */
     private $useMailServerSetting = null;
 
@@ -45,7 +45,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName mailServerProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $mailServerProtocol = null;
 
@@ -57,7 +57,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName maxMailboxLengthMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $maxMailboxLengthMinutes = null;
 
@@ -69,7 +69,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName holdPeriodDays
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     private $holdPeriodDays = null;
 
@@ -77,7 +77,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for useMailServerSetting
      *
      * @ElementName useMailServerSetting
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
      */
     public function getUseMailServerSetting()
     {
@@ -88,10 +88,10 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for useMailServerSetting
      *
      * @ElementName useMailServerSetting
-     * @param string|null $useMailServerSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null $useMailServerSetting
      * @return $this
      */
-    public function setUseMailServerSetting($useMailServerSetting)
+    public function setUseMailServerSetting(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices $useMailServerSetting)
     {
         $this->useMailServerSetting = $useMailServerSetting;
         return $this;
@@ -197,7 +197,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for mailServerProtocol
      *
      * @ElementName mailServerProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     public function getMailServerProtocol()
     {
@@ -208,10 +208,10 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for mailServerProtocol
      *
      * @ElementName mailServerProtocol
-     * @param string|null $mailServerProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null $mailServerProtocol
      * @return $this
      */
-    public function setMailServerProtocol($mailServerProtocol)
+    public function setMailServerProtocol(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $mailServerProtocol)
     {
         $this->mailServerProtocol = $mailServerProtocol;
         return $this;
@@ -245,7 +245,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for maxMailboxLengthMinutes
      *
      * @ElementName maxMailboxLengthMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     public function getMaxMailboxLengthMinutes()
     {
@@ -256,10 +256,10 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for maxMailboxLengthMinutes
      *
      * @ElementName maxMailboxLengthMinutes
-     * @param int|null $maxMailboxLengthMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null $maxMailboxLengthMinutes
      * @return $this
      */
-    public function setMaxMailboxLengthMinutes($maxMailboxLengthMinutes)
+    public function setMaxMailboxLengthMinutes(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $maxMailboxLengthMinutes)
     {
         $this->maxMailboxLengthMinutes = $maxMailboxLengthMinutes;
         return $this;
@@ -293,7 +293,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for holdPeriodDays
      *
      * @ElementName holdPeriodDays
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     public function getHoldPeriodDays()
     {
@@ -304,10 +304,10 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for holdPeriodDays
      *
      * @ElementName holdPeriodDays
-     * @param int|null $holdPeriodDays
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null $holdPeriodDays
      * @return $this
      */
-    public function setHoldPeriodDays($holdPeriodDays)
+    public function setHoldPeriodDays(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays $holdPeriodDays)
     {
         $this->holdPeriodDays = $holdPeriodDays;
         return $this;

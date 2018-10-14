@@ -15,7 +15,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
 
     /**
      * @ElementName voicePortalGreetingSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
 
@@ -27,13 +27,13 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
 
     /**
      * @ElementName voicePortalGreetingMediaFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $voicePortalGreetingMediaFileType = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
 
@@ -45,7 +45,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
 
     /**
      * @ElementName voiceMessagingGreetingMediaFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $voiceMessagingGreetingMediaFileType = null;
 
@@ -53,7 +53,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Getter for voicePortalGreetingSelection
      *
      * @ElementName voicePortalGreetingSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     public function getVoicePortalGreetingSelection()
     {
@@ -64,10 +64,10 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Setter for voicePortalGreetingSelection
      *
      * @ElementName voicePortalGreetingSelection
-     * @param string|null $voicePortalGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voicePortalGreetingSelection
      * @return $this
      */
-    public function setVoicePortalGreetingSelection($voicePortalGreetingSelection)
+    public function setVoicePortalGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection)
     {
         $this->voicePortalGreetingSelection = $voicePortalGreetingSelection;
         return $this;
@@ -101,7 +101,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Getter for voicePortalGreetingMediaFileType
      *
      * @ElementName voicePortalGreetingMediaFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVoicePortalGreetingMediaFileType()
     {
@@ -112,10 +112,10 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Setter for voicePortalGreetingMediaFileType
      *
      * @ElementName voicePortalGreetingMediaFileType
-     * @param string|null $voicePortalGreetingMediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $voicePortalGreetingMediaFileType
      * @return $this
      */
-    public function setVoicePortalGreetingMediaFileType($voicePortalGreetingMediaFileType)
+    public function setVoicePortalGreetingMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voicePortalGreetingMediaFileType)
     {
         $this->voicePortalGreetingMediaFileType = $voicePortalGreetingMediaFileType;
         return $this;
@@ -125,7 +125,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Getter for voiceMessagingGreetingSelection
      *
      * @ElementName voiceMessagingGreetingSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     public function getVoiceMessagingGreetingSelection()
     {
@@ -136,10 +136,10 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Setter for voiceMessagingGreetingSelection
      *
      * @ElementName voiceMessagingGreetingSelection
-     * @param string|null $voiceMessagingGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voiceMessagingGreetingSelection
      * @return $this
      */
-    public function setVoiceMessagingGreetingSelection($voiceMessagingGreetingSelection)
+    public function setVoiceMessagingGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection)
     {
         $this->voiceMessagingGreetingSelection = $voiceMessagingGreetingSelection;
         return $this;
@@ -173,7 +173,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Getter for voiceMessagingGreetingMediaFileType
      *
      * @ElementName voiceMessagingGreetingMediaFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVoiceMessagingGreetingMediaFileType()
     {
@@ -184,10 +184,10 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16 extends
      * Setter for voiceMessagingGreetingMediaFileType
      *
      * @ElementName voiceMessagingGreetingMediaFileType
-     * @param string|null $voiceMessagingGreetingMediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $voiceMessagingGreetingMediaFileType
      * @return $this
      */
-    public function setVoiceMessagingGreetingMediaFileType($voiceMessagingGreetingMediaFileType)
+    public function setVoiceMessagingGreetingMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voiceMessagingGreetingMediaFileType)
     {
         $this->voiceMessagingGreetingMediaFileType = $voiceMessagingGreetingMediaFileType;
         return $this;

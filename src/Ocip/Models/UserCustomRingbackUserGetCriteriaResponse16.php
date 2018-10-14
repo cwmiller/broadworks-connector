@@ -41,7 +41,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName audioSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
@@ -53,7 +53,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName audioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
@@ -65,7 +65,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName videoSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
@@ -77,7 +77,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName videoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
@@ -89,7 +89,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName callWaitingAudioSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $callWaitingAudioSelection = null;
 
@@ -101,7 +101,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName callWaitingAudioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $callWaitingAudioMediaType = null;
 
@@ -113,7 +113,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName callWaitingVideoSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $callWaitingVideoSelection = null;
 
@@ -125,7 +125,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName callWaitingVideoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $callWaitingVideoMediaType = null;
 
@@ -153,7 +153,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -177,7 +177,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;
@@ -225,7 +225,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null $fromDnCriteria
      * @return $this
      */
-    public function setFromDnCriteria($fromDnCriteria)
+    public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
         return $this;
@@ -235,7 +235,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for audioSelection
      *
      * @ElementName audioSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioSelection()
     {
@@ -246,10 +246,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for audioSelection
      *
      * @ElementName audioSelection
-     * @param string|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
      * @return $this
      */
-    public function setAudioSelection($audioSelection)
+    public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
     {
         $this->audioSelection = $audioSelection;
         return $this;
@@ -283,7 +283,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioMediaType()
     {
@@ -294,10 +294,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @param string|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
      * @return $this
      */
-    public function setAudioMediaType($audioMediaType)
+    public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
     {
         $this->audioMediaType = $audioMediaType;
         return $this;
@@ -331,7 +331,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for videoSelection
      *
      * @ElementName videoSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoSelection()
     {
@@ -342,10 +342,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for videoSelection
      *
      * @ElementName videoSelection
-     * @param string|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
      * @return $this
      */
-    public function setVideoSelection($videoSelection)
+    public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
     {
         $this->videoSelection = $videoSelection;
         return $this;
@@ -379,7 +379,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVideoMediaType()
     {
@@ -390,10 +390,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @param string|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
      * @return $this
      */
-    public function setVideoMediaType($videoMediaType)
+    public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
         return $this;
@@ -427,7 +427,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for callWaitingAudioSelection
      *
      * @ElementName callWaitingAudioSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getCallWaitingAudioSelection()
     {
@@ -438,10 +438,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for callWaitingAudioSelection
      *
      * @ElementName callWaitingAudioSelection
-     * @param string|null $callWaitingAudioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $callWaitingAudioSelection
      * @return $this
      */
-    public function setCallWaitingAudioSelection($callWaitingAudioSelection)
+    public function setCallWaitingAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $callWaitingAudioSelection)
     {
         $this->callWaitingAudioSelection = $callWaitingAudioSelection;
         return $this;
@@ -475,7 +475,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for callWaitingAudioMediaType
      *
      * @ElementName callWaitingAudioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getCallWaitingAudioMediaType()
     {
@@ -486,10 +486,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for callWaitingAudioMediaType
      *
      * @ElementName callWaitingAudioMediaType
-     * @param string|null $callWaitingAudioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $callWaitingAudioMediaType
      * @return $this
      */
-    public function setCallWaitingAudioMediaType($callWaitingAudioMediaType)
+    public function setCallWaitingAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $callWaitingAudioMediaType)
     {
         $this->callWaitingAudioMediaType = $callWaitingAudioMediaType;
         return $this;
@@ -523,7 +523,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for callWaitingVideoSelection
      *
      * @ElementName callWaitingVideoSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getCallWaitingVideoSelection()
     {
@@ -534,10 +534,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for callWaitingVideoSelection
      *
      * @ElementName callWaitingVideoSelection
-     * @param string|null $callWaitingVideoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $callWaitingVideoSelection
      * @return $this
      */
-    public function setCallWaitingVideoSelection($callWaitingVideoSelection)
+    public function setCallWaitingVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $callWaitingVideoSelection)
     {
         $this->callWaitingVideoSelection = $callWaitingVideoSelection;
         return $this;
@@ -571,7 +571,7 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Getter for callWaitingVideoMediaType
      *
      * @ElementName callWaitingVideoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getCallWaitingVideoMediaType()
     {
@@ -582,10 +582,10 @@ class UserCustomRingbackUserGetCriteriaResponse16 extends \CWM\BroadWorksConnect
      * Setter for callWaitingVideoMediaType
      *
      * @ElementName callWaitingVideoMediaType
-     * @param string|null $callWaitingVideoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $callWaitingVideoMediaType
      * @return $this
      */
-    public function setCallWaitingVideoMediaType($callWaitingVideoMediaType)
+    public function setCallWaitingVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $callWaitingVideoMediaType)
     {
         $this->callWaitingVideoMediaType = $callWaitingVideoMediaType;
         return $this;

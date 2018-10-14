@@ -39,7 +39,7 @@ class SystemRoutePointExternalSystemGetListResponse extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $externalSystemTable
      * @return $this
      */
-    public function setExternalSystemTable($externalSystemTable)
+    public function setExternalSystemTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $externalSystemTable)
     {
         $this->externalSystemTable = $externalSystemTable;
         return $this;

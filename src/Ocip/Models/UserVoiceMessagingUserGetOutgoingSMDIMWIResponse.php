@@ -68,7 +68,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @param string[] $outgoingSMDIMWIPhoneNumber
      * @return $this
      */
-    public function setOutgoingSMDIMWIPhoneNumber($outgoingSMDIMWIPhoneNumber)
+    public function setOutgoingSMDIMWIPhoneNumber(array $outgoingSMDIMWIPhoneNumber)
     {
         $this->outgoingSMDIMWIPhoneNumber = $outgoingSMDIMWIPhoneNumber;
         return $this;
@@ -81,7 +81,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIResponse extends \CWM\BroadWorksCo
      * @param string $outgoingSMDIMWIPhoneNumber
      * @return $this
      */
-    public function addOutgoingSMDIMWIPhoneNumber($outgoingSMDIMWIPhoneNumber)
+    public function addOutgoingSMDIMWIPhoneNumber(string $outgoingSMDIMWIPhoneNumber)
     {
         $this->outgoingSMDIMWIPhoneNumber []= $outgoingSMDIMWIPhoneNumber;
         return $this;

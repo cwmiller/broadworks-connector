@@ -36,7 +36,7 @@ class CommPilotExpressSRRedirectionWithRingList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRing[] $numberEntry
      * @return $this
      */
-    public function setNumberEntry($numberEntry)
+    public function setNumberEntry(array $numberEntry)
     {
         $this->numberEntry = $numberEntry;
         return $this;

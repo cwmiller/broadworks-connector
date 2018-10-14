@@ -68,7 +68,7 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $serviceUserIdList
      * @return $this
      */
-    public function setServiceUserIdList($serviceUserIdList)
+    public function setServiceUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $serviceUserIdList)
     {
         $this->serviceUserIdList = $serviceUserIdList;
         return $this;

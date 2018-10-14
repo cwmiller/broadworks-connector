@@ -39,7 +39,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName attendeeNotification
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     private $attendeeNotification = null;
 
@@ -137,7 +137,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     public function getAttendeeNotification()
     {
@@ -148,10 +148,10 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @param string|null $attendeeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null $attendeeNotification
      * @return $this
      */
-    public function setAttendeeNotification($attendeeNotification)
+    public function setAttendeeNotification(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification $attendeeNotification)
     {
         $this->attendeeNotification = $attendeeNotification;
         return $this;
@@ -223,7 +223,7 @@ class UserCollaborateRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null $roomSchedule
      * @return $this
      */
-    public function setRoomSchedule($roomSchedule)
+    public function setRoomSchedule(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule $roomSchedule)
     {
         $this->roomSchedule = $roomSchedule;
         return $this;

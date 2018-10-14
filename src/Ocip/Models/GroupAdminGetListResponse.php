@@ -42,7 +42,7 @@ class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupAdminTable
      * @return $this
      */
-    public function setGroupAdminTable($groupAdminTable)
+    public function setGroupAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupAdminTable)
     {
         $this->groupAdminTable = $groupAdminTable;
         return $this;

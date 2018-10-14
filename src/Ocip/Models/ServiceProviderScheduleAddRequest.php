@@ -28,7 +28,7 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName scheduleType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;
 
@@ -84,7 +84,7 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for scheduleType
      *
      * @ElementName scheduleType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     public function getScheduleType()
     {
@@ -95,10 +95,10 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for scheduleType
      *
      * @ElementName scheduleType
-     * @param string|null $scheduleType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null $scheduleType
      * @return $this
      */
-    public function setScheduleType($scheduleType)
+    public function setScheduleType(\CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType)
     {
         $this->scheduleType = $scheduleType;
         return $this;

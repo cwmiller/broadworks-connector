@@ -42,7 +42,7 @@ class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry[] $autoRebuildConfigEntry
      * @return $this
      */
-    public function setAutoRebuildConfigEntry($autoRebuildConfigEntry)
+    public function setAutoRebuildConfigEntry(array $autoRebuildConfigEntry)
     {
         $this->autoRebuildConfigEntry = $autoRebuildConfigEntry;
         return $this;

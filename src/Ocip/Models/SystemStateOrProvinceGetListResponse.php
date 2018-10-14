@@ -36,7 +36,7 @@ class SystemStateOrProvinceGetListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $stateOrProvinceTable
      * @return $this
      */
-    public function setStateOrProvinceTable($stateOrProvinceTable)
+    public function setStateOrProvinceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $stateOrProvinceTable)
     {
         $this->stateOrProvinceTable = $stateOrProvinceTable;
         return $this;

@@ -20,7 +20,7 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName statisticsSamplingPeriodMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;
 
@@ -52,7 +52,7 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for statisticsSamplingPeriodMinutes
      *
      * @ElementName statisticsSamplingPeriodMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     public function getStatisticsSamplingPeriodMinutes()
     {
@@ -63,10 +63,10 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for statisticsSamplingPeriodMinutes
      *
      * @ElementName statisticsSamplingPeriodMinutes
-     * @param int|null $statisticsSamplingPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null $statisticsSamplingPeriodMinutes
      * @return $this
      */
-    public function setStatisticsSamplingPeriodMinutes($statisticsSamplingPeriodMinutes)
+    public function setStatisticsSamplingPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes $statisticsSamplingPeriodMinutes)
     {
         $this->statisticsSamplingPeriodMinutes = $statisticsSamplingPeriodMinutes;
         return $this;

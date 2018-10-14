@@ -15,7 +15,7 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName presence
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     private $presence = null;
 
@@ -53,7 +53,7 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for presence
      *
      * @ElementName presence
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     public function getPresence()
     {
@@ -64,10 +64,10 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for presence
      *
      * @ElementName presence
-     * @param string|null $presence
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null $presence
      * @return $this
      */
-    public function setPresence($presence)
+    public function setPresence(\CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence $presence)
     {
         $this->presence = $presence;
         return $this;

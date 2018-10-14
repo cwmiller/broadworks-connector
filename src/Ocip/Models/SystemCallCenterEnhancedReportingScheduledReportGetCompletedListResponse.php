@@ -50,7 +50,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetCompletedListResponse e
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $scheduledReportTable
      * @return $this
      */
-    public function setScheduledReportTable($scheduledReportTable)
+    public function setScheduledReportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $scheduledReportTable)
     {
         $this->scheduledReportTable = $scheduledReportTable;
         return $this;

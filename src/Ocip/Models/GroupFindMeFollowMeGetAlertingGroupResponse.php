@@ -192,7 +192,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @param string[] $phoneNumber
      * @return $this
      */
-    public function setPhoneNumber($phoneNumber)
+    public function setPhoneNumber(array $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -205,7 +205,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @param string $phoneNumber
      * @return $this
      */
-    public function addPhoneNumber($phoneNumber)
+    public function addPhoneNumber(string $phoneNumber)
     {
         $this->phoneNumber []= $phoneNumber;
         return $this;
@@ -229,7 +229,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
      * @return $this
      */
-    public function setUserTable($userTable)
+    public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
         return $this;
@@ -253,7 +253,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

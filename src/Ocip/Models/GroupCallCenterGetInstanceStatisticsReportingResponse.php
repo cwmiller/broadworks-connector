@@ -18,7 +18,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWo
 
     /**
      * @ElementName collectionPeriodMinutes
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
 
@@ -62,7 +62,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWo
      * Getter for collectionPeriodMinutes
      *
      * @ElementName collectionPeriodMinutes
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     public function getCollectionPeriodMinutes()
     {
@@ -73,10 +73,10 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse extends \CWM\BroadWo
      * Setter for collectionPeriodMinutes
      *
      * @ElementName collectionPeriodMinutes
-     * @param int|null $collectionPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null $collectionPeriodMinutes
      * @return $this
      */
-    public function setCollectionPeriodMinutes($collectionPeriodMinutes)
+    public function setCollectionPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes)
     {
         $this->collectionPeriodMinutes = $collectionPeriodMinutes;
         return $this;

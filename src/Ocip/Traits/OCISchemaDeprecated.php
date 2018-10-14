@@ -314,7 +314,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse14;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp1V1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp1V1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp4;
@@ -772,9 +772,9 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementTagAddRequest21sp2
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListRequest14sp3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp3;
-use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse14sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetRequest14sp3;
@@ -3217,7 +3217,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupHuntGroupGetInstanceRequest17sp1V1 $request
-     * @return GroupHuntGroupGetInstanceResponse17sp1V1
+     * @return GroupHuntGroupGetInstanceResponse17sp1
      * @throws ErrorResponseException
      */
     public function groupHuntGroupGetInstanceRequest17sp1V1(\CWM\BroadWorksConnector\Ocip\Models\GroupHuntGroupGetInstanceRequest17sp1V1 $request)

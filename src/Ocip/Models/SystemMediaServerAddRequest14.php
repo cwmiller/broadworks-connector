@@ -28,7 +28,7 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName transportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
@@ -90,7 +90,7 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getTransportProtocol()
     {
@@ -101,10 +101,10 @@ class SystemMediaServerAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param string|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol($transportProtocol)
+    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;

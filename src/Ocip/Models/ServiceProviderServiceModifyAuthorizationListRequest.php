@@ -79,7 +79,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[] $groupServiceAuthorization
      * @return $this
      */
-    public function setGroupServiceAuthorization($groupServiceAuthorization)
+    public function setGroupServiceAuthorization(array $groupServiceAuthorization)
     {
         $this->groupServiceAuthorization = $groupServiceAuthorization;
         return $this;
@@ -116,7 +116,7 @@ class ServiceProviderServiceModifyAuthorizationListRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[] $userServiceAuthorization
      * @return $this
      */
-    public function setUserServiceAuthorization($userServiceAuthorization)
+    public function setUserServiceAuthorization(array $userServiceAuthorization)
     {
         $this->userServiceAuthorization = $userServiceAuthorization;
         return $this;

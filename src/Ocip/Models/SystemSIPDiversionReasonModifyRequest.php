@@ -16,7 +16,7 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName diversionReason
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null
      */
     private $diversionReason = null;
 
@@ -30,7 +30,7 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for diversionReason
      *
      * @ElementName diversionReason
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null
      */
     public function getDiversionReason()
     {
@@ -41,10 +41,10 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for diversionReason
      *
      * @ElementName diversionReason
-     * @param string|null $diversionReason
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null $diversionReason
      * @return $this
      */
-    public function setDiversionReason($diversionReason)
+    public function setDiversionReason(\CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason $diversionReason)
     {
         $this->diversionReason = $diversionReason;
         return $this;

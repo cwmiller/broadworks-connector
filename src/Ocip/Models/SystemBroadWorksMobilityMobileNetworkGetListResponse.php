@@ -38,7 +38,7 @@ class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileNetworkTable
      * @return $this
      */
-    public function setMobileNetworkTable($mobileNetworkTable)
+    public function setMobileNetworkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileNetworkTable)
     {
         $this->mobileNetworkTable = $mobileNetworkTable;
         return $this;

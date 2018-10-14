@@ -30,13 +30,13 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
 
     /**
      * @ElementName deviceAccessProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
 
     /**
      * @ElementName tagMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
 
@@ -146,7 +146,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
      * Getter for deviceAccessProtocol
      *
      * @ElementName deviceAccessProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     public function getDeviceAccessProtocol()
     {
@@ -157,10 +157,10 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
      * Setter for deviceAccessProtocol
      *
      * @ElementName deviceAccessProtocol
-     * @param string|null $deviceAccessProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null $deviceAccessProtocol
      * @return $this
      */
-    public function setDeviceAccessProtocol($deviceAccessProtocol)
+    public function setDeviceAccessProtocol(\CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16 $deviceAccessProtocol)
     {
         $this->deviceAccessProtocol = $deviceAccessProtocol;
         return $this;
@@ -170,7 +170,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
      * Getter for tagMode
      *
      * @ElementName tagMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     public function getTagMode()
     {
@@ -181,10 +181,10 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
      * Setter for tagMode
      *
      * @ElementName tagMode
-     * @param string|null $tagMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null $tagMode
      * @return $this
      */
-    public function setTagMode($tagMode)
+    public function setTagMode(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode $tagMode)
     {
         $this->tagMode = $tagMode;
         return $this;

@@ -40,7 +40,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName announcementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
@@ -58,7 +58,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName inboundCallMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     private $inboundCallMode = null;
 
@@ -112,7 +112,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName outboundCallMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     private $outboundCallMode = null;
 
@@ -210,7 +210,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getAnnouncementSelection()
     {
@@ -221,10 +221,10 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for announcementSelection
      *
      * @ElementName announcementSelection
-     * @param string|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
      * @return $this
      */
-    public function setAnnouncementSelection($announcementSelection)
+    public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
     {
         $this->announcementSelection = $announcementSelection;
         return $this;
@@ -248,7 +248,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
      * @return $this
      */
-    public function setAudioFile($audioFile)
+    public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
         return $this;
@@ -272,7 +272,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
      * @return $this
      */
-    public function setVideoFile($videoFile)
+    public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
         return $this;
@@ -282,7 +282,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for inboundCallMode
      *
      * @ElementName inboundCallMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     public function getInboundCallMode()
     {
@@ -293,10 +293,10 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for inboundCallMode
      *
      * @ElementName inboundCallMode
-     * @param string|null $inboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null $inboundCallMode
      * @return $this
      */
-    public function setInboundCallMode($inboundCallMode)
+    public function setInboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode)
     {
         $this->inboundCallMode = $inboundCallMode;
         return $this;
@@ -498,7 +498,7 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for outboundCallMode
      *
      * @ElementName outboundCallMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     public function getOutboundCallMode()
     {
@@ -509,10 +509,10 @@ class GroupInterceptGroupModifyRequest21sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for outboundCallMode
      *
      * @ElementName outboundCallMode
-     * @param string|null $outboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null $outboundCallMode
      * @return $this
      */
-    public function setOutboundCallMode($outboundCallMode)
+    public function setOutboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall $outboundCallMode)
     {
         $this->outboundCallMode = $outboundCallMode;
         return $this;

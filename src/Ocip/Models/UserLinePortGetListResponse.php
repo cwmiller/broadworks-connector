@@ -42,7 +42,7 @@ class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $linePortTable
      * @return $this
      */
-    public function setLinePortTable($linePortTable)
+    public function setLinePortTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $linePortTable)
     {
         $this->linePortTable = $linePortTable;
         return $this;

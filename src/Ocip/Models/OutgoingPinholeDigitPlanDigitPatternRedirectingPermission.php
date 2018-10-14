@@ -19,7 +19,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
 
     /**
      * @ElementName permission
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission|null
      */
     private $permission = null;
 
@@ -51,7 +51,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
      * Getter for permission
      *
      * @ElementName permission
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission|null
      */
     public function getPermission()
     {
@@ -62,10 +62,10 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
      * Setter for permission
      *
      * @ElementName permission
-     * @param string|null $permission
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission|null $permission
      * @return $this
      */
-    public function setPermission($permission)
+    public function setPermission(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission $permission)
     {
         $this->permission = $permission;
         return $this;

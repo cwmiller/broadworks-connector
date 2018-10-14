@@ -38,7 +38,7 @@ class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $resellerTable
      * @return $this
      */
-    public function setResellerTable($resellerTable)
+    public function setResellerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resellerTable)
     {
         $this->resellerTable = $resellerTable;
         return $this;

@@ -86,7 +86,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName mediaPolicySelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
 
@@ -98,7 +98,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName networkUsageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
 
@@ -200,13 +200,13 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName clidPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null
      */
     private $clidPolicy = null;
 
     /**
      * @ElementName emergencyClidPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null
      */
     private $emergencyClidPolicy = null;
 
@@ -236,19 +236,19 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName enterpriseCallsCLIDPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     private $enterpriseCallsCLIDPolicy = null;
 
     /**
      * @ElementName enterpriseGroupCallsCLIDPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     private $enterpriseGroupCallsCLIDPolicy = null;
 
     /**
      * @ElementName serviceProviderGroupCallsCLIDPolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy|null
      */
     private $serviceProviderGroupCallsCLIDPolicy = null;
 
@@ -502,7 +502,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     public function getMediaPolicySelection()
     {
@@ -513,10 +513,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for mediaPolicySelection
      *
      * @ElementName mediaPolicySelection
-     * @param string|null $mediaPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null $mediaPolicySelection
      * @return $this
      */
-    public function setMediaPolicySelection($mediaPolicySelection)
+    public function setMediaPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection)
     {
         $this->mediaPolicySelection = $mediaPolicySelection;
         return $this;
@@ -550,7 +550,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for networkUsageSelection
      *
      * @ElementName networkUsageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     public function getNetworkUsageSelection()
     {
@@ -561,10 +561,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for networkUsageSelection
      *
      * @ElementName networkUsageSelection
-     * @param string|null $networkUsageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null $networkUsageSelection
      * @return $this
      */
-    public function setNetworkUsageSelection($networkUsageSelection)
+    public function setNetworkUsageSelection(\CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection $networkUsageSelection)
     {
         $this->networkUsageSelection = $networkUsageSelection;
         return $this;
@@ -958,7 +958,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for clidPolicy
      *
      * @ElementName clidPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null
      */
     public function getClidPolicy()
     {
@@ -969,10 +969,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for clidPolicy
      *
      * @ElementName clidPolicy
-     * @param string|null $clidPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null $clidPolicy
      * @return $this
      */
-    public function setClidPolicy($clidPolicy)
+    public function setClidPolicy(\CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy $clidPolicy)
     {
         $this->clidPolicy = $clidPolicy;
         return $this;
@@ -982,7 +982,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for emergencyClidPolicy
      *
      * @ElementName emergencyClidPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null
      */
     public function getEmergencyClidPolicy()
     {
@@ -993,10 +993,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for emergencyClidPolicy
      *
      * @ElementName emergencyClidPolicy
-     * @param string|null $emergencyClidPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy|null $emergencyClidPolicy
      * @return $this
      */
-    public function setEmergencyClidPolicy($emergencyClidPolicy)
+    public function setEmergencyClidPolicy(\CWM\BroadWorksConnector\Ocip\Models\CLIDPolicy $emergencyClidPolicy)
     {
         $this->emergencyClidPolicy = $emergencyClidPolicy;
         return $this;
@@ -1102,7 +1102,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for enterpriseCallsCLIDPolicy
      *
      * @ElementName enterpriseCallsCLIDPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     public function getEnterpriseCallsCLIDPolicy()
     {
@@ -1113,10 +1113,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for enterpriseCallsCLIDPolicy
      *
      * @ElementName enterpriseCallsCLIDPolicy
-     * @param string|null $enterpriseCallsCLIDPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null $enterpriseCallsCLIDPolicy
      * @return $this
      */
-    public function setEnterpriseCallsCLIDPolicy($enterpriseCallsCLIDPolicy)
+    public function setEnterpriseCallsCLIDPolicy(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy $enterpriseCallsCLIDPolicy)
     {
         $this->enterpriseCallsCLIDPolicy = $enterpriseCallsCLIDPolicy;
         return $this;
@@ -1126,7 +1126,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for enterpriseGroupCallsCLIDPolicy
      *
      * @ElementName enterpriseGroupCallsCLIDPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     public function getEnterpriseGroupCallsCLIDPolicy()
     {
@@ -1137,10 +1137,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for enterpriseGroupCallsCLIDPolicy
      *
      * @ElementName enterpriseGroupCallsCLIDPolicy
-     * @param string|null $enterpriseGroupCallsCLIDPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null $enterpriseGroupCallsCLIDPolicy
      * @return $this
      */
-    public function setEnterpriseGroupCallsCLIDPolicy($enterpriseGroupCallsCLIDPolicy)
+    public function setEnterpriseGroupCallsCLIDPolicy(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy $enterpriseGroupCallsCLIDPolicy)
     {
         $this->enterpriseGroupCallsCLIDPolicy = $enterpriseGroupCallsCLIDPolicy;
         return $this;
@@ -1150,7 +1150,7 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for serviceProviderGroupCallsCLIDPolicy
      *
      * @ElementName serviceProviderGroupCallsCLIDPolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy|null
      */
     public function getServiceProviderGroupCallsCLIDPolicy()
     {
@@ -1161,10 +1161,10 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for serviceProviderGroupCallsCLIDPolicy
      *
      * @ElementName serviceProviderGroupCallsCLIDPolicy
-     * @param string|null $serviceProviderGroupCallsCLIDPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy|null $serviceProviderGroupCallsCLIDPolicy
      * @return $this
      */
-    public function setServiceProviderGroupCallsCLIDPolicy($serviceProviderGroupCallsCLIDPolicy)
+    public function setServiceProviderGroupCallsCLIDPolicy(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy $serviceProviderGroupCallsCLIDPolicy)
     {
         $this->serviceProviderGroupCallsCLIDPolicy = $serviceProviderGroupCallsCLIDPolicy;
         return $this;

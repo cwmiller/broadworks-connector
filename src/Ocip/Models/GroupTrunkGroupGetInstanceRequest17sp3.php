@@ -45,7 +45,7 @@ class GroupTrunkGroupGetInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $trunkGroupKey
      * @return $this
      */
-    public function setTrunkGroupKey($trunkGroupKey)
+    public function setTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey)
     {
         $this->trunkGroupKey = $trunkGroupKey;
         return $this;

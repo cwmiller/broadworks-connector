@@ -27,7 +27,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName mailServerSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     private $mailServerSelection = null;
 
@@ -57,7 +57,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName groupMailServerFullMailboxLimit
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $groupMailServerFullMailboxLimit = null;
 
@@ -69,7 +69,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName personalMailServerProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $personalMailServerProtocol = null;
 
@@ -107,7 +107,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName busyAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
@@ -125,7 +125,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName noAnswerAnnouncementSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
@@ -185,7 +185,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName noAnswerNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
@@ -197,7 +197,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName disableMessageDepositAction
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     private $disableMessageDepositAction = null;
 
@@ -227,7 +227,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName processing
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     private $processing = null;
 
@@ -355,7 +355,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for mailServerSelection
      *
      * @ElementName mailServerSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     public function getMailServerSelection()
     {
@@ -366,10 +366,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for mailServerSelection
      *
      * @ElementName mailServerSelection
-     * @param string|null $mailServerSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null $mailServerSelection
      * @return $this
      */
-    public function setMailServerSelection($mailServerSelection)
+    public function setMailServerSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection $mailServerSelection)
     {
         $this->mailServerSelection = $mailServerSelection;
         return $this;
@@ -475,7 +475,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for groupMailServerFullMailboxLimit
      *
      * @ElementName groupMailServerFullMailboxLimit
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     public function getGroupMailServerFullMailboxLimit()
     {
@@ -486,10 +486,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for groupMailServerFullMailboxLimit
      *
      * @ElementName groupMailServerFullMailboxLimit
-     * @param int|null $groupMailServerFullMailboxLimit
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null $groupMailServerFullMailboxLimit
      * @return $this
      */
-    public function setGroupMailServerFullMailboxLimit($groupMailServerFullMailboxLimit)
+    public function setGroupMailServerFullMailboxLimit(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $groupMailServerFullMailboxLimit)
     {
         $this->groupMailServerFullMailboxLimit = $groupMailServerFullMailboxLimit;
         return $this;
@@ -523,7 +523,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for personalMailServerProtocol
      *
      * @ElementName personalMailServerProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     public function getPersonalMailServerProtocol()
     {
@@ -534,10 +534,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for personalMailServerProtocol
      *
      * @ElementName personalMailServerProtocol
-     * @param string|null $personalMailServerProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null $personalMailServerProtocol
      * @return $this
      */
-    public function setPersonalMailServerProtocol($personalMailServerProtocol)
+    public function setPersonalMailServerProtocol(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $personalMailServerProtocol)
     {
         $this->personalMailServerProtocol = $personalMailServerProtocol;
         return $this;
@@ -657,7 +657,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDistributionListModify[] $voiceMessagingDistributionList
      * @return $this
      */
-    public function setVoiceMessagingDistributionList($voiceMessagingDistributionList)
+    public function setVoiceMessagingDistributionList(array $voiceMessagingDistributionList)
     {
         $this->voiceMessagingDistributionList = $voiceMessagingDistributionList;
         return $this;
@@ -680,7 +680,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     public function getBusyAnnouncementSelection()
     {
@@ -691,10 +691,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for busyAnnouncementSelection
      *
      * @ElementName busyAnnouncementSelection
-     * @param string|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
      * @return $this
      */
-    public function setBusyAnnouncementSelection($busyAnnouncementSelection)
+    public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
     {
         $this->busyAnnouncementSelection = $busyAnnouncementSelection;
         return $this;
@@ -718,7 +718,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalAudioFile
      * @return $this
      */
-    public function setBusyPersonalAudioFile($busyPersonalAudioFile)
+    public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile)
     {
         $this->busyPersonalAudioFile = $busyPersonalAudioFile;
         return $this;
@@ -742,7 +742,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalVideoFile
      * @return $this
      */
-    public function setBusyPersonalVideoFile($busyPersonalVideoFile)
+    public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile)
     {
         $this->busyPersonalVideoFile = $busyPersonalVideoFile;
         return $this;
@@ -752,7 +752,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     public function getNoAnswerAnnouncementSelection()
     {
@@ -763,10 +763,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for noAnswerAnnouncementSelection
      *
      * @ElementName noAnswerAnnouncementSelection
-     * @param string|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
      * @return $this
      */
-    public function setNoAnswerAnnouncementSelection($noAnswerAnnouncementSelection)
+    public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
     {
         $this->noAnswerAnnouncementSelection = $noAnswerAnnouncementSelection;
         return $this;
@@ -790,7 +790,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalAudioFile
      * @return $this
      */
-    public function setNoAnswerPersonalAudioFile($noAnswerPersonalAudioFile)
+    public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile)
     {
         $this->noAnswerPersonalAudioFile = $noAnswerPersonalAudioFile;
         return $this;
@@ -814,7 +814,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalVideoFile
      * @return $this
      */
-    public function setNoAnswerPersonalVideoFile($noAnswerPersonalVideoFile)
+    public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile)
     {
         $this->noAnswerPersonalVideoFile = $noAnswerPersonalVideoFile;
         return $this;
@@ -838,7 +838,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null $noAnswerAlternateGreeting01
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting01($noAnswerAlternateGreeting01)
+    public function setNoAnswerAlternateGreeting01(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20 $noAnswerAlternateGreeting01)
     {
         $this->noAnswerAlternateGreeting01 = $noAnswerAlternateGreeting01;
         return $this;
@@ -862,7 +862,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null $noAnswerAlternateGreeting02
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting02($noAnswerAlternateGreeting02)
+    public function setNoAnswerAlternateGreeting02(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20 $noAnswerAlternateGreeting02)
     {
         $this->noAnswerAlternateGreeting02 = $noAnswerAlternateGreeting02;
         return $this;
@@ -886,7 +886,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20|null $noAnswerAlternateGreeting03
      * @return $this
      */
-    public function setNoAnswerAlternateGreeting03($noAnswerAlternateGreeting03)
+    public function setNoAnswerAlternateGreeting03(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify20 $noAnswerAlternateGreeting03)
     {
         $this->noAnswerAlternateGreeting03 = $noAnswerAlternateGreeting03;
         return $this;
@@ -958,7 +958,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayAudioFile
      * @return $this
      */
-    public function setExtendedAwayAudioFile($extendedAwayAudioFile)
+    public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile)
     {
         $this->extendedAwayAudioFile = $extendedAwayAudioFile;
         return $this;
@@ -982,7 +982,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayVideoFile
      * @return $this
      */
-    public function setExtendedAwayVideoFile($extendedAwayVideoFile)
+    public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile)
     {
         $this->extendedAwayVideoFile = $extendedAwayVideoFile;
         return $this;
@@ -992,7 +992,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     public function getNoAnswerNumberOfRings()
     {
@@ -1003,10 +1003,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for noAnswerNumberOfRings
      *
      * @ElementName noAnswerNumberOfRings
-     * @param int|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
      * @return $this
      */
-    public function setNoAnswerNumberOfRings($noAnswerNumberOfRings)
+    public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
     {
         $this->noAnswerNumberOfRings = $noAnswerNumberOfRings;
         return $this;
@@ -1040,7 +1040,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for disableMessageDepositAction
      *
      * @ElementName disableMessageDepositAction
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     public function getDisableMessageDepositAction()
     {
@@ -1051,10 +1051,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for disableMessageDepositAction
      *
      * @ElementName disableMessageDepositAction
-     * @param string|null $disableMessageDepositAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null $disableMessageDepositAction
      * @return $this
      */
-    public function setDisableMessageDepositAction($disableMessageDepositAction)
+    public function setDisableMessageDepositAction(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction)
     {
         $this->disableMessageDepositAction = $disableMessageDepositAction;
         return $this;
@@ -1126,7 +1126,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null $outgoingSMDIMWIPhoneNumberList
      * @return $this
      */
-    public function setOutgoingSMDIMWIPhoneNumberList($outgoingSMDIMWIPhoneNumberList)
+    public function setOutgoingSMDIMWIPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList $outgoingSMDIMWIPhoneNumberList)
     {
         $this->outgoingSMDIMWIPhoneNumberList = $outgoingSMDIMWIPhoneNumberList;
         return $this;
@@ -1160,7 +1160,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for processing
      *
      * @ElementName processing
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     public function getProcessing()
     {
@@ -1171,10 +1171,10 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for processing
      *
      * @ElementName processing
-     * @param string|null $processing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null $processing
      * @return $this
      */
-    public function setProcessing($processing)
+    public function setProcessing(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing $processing)
     {
         $this->processing = $processing;
         return $this;
@@ -1534,7 +1534,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $personalizedNameAudioFile
      * @return $this
      */
-    public function setPersonalizedNameAudioFile($personalizedNameAudioFile)
+    public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $personalizedNameAudioFile)
     {
         $this->personalizedNameAudioFile = $personalizedNameAudioFile;
         return $this;
@@ -1558,7 +1558,7 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasListModify|null $userMessagingAliasList
      * @return $this
      */
-    public function setUserMessagingAliasList($userMessagingAliasList)
+    public function setUserMessagingAliasList(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAliasListModify $userMessagingAliasList)
     {
         $this->userMessagingAliasList = $userMessagingAliasList;
         return $this;

@@ -20,7 +20,7 @@ class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName fileCategory
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
 
@@ -32,7 +32,7 @@ class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName fileSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
@@ -100,7 +100,7 @@ class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\O
      * Getter for fileCategory
      *
      * @ElementName fileCategory
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     public function getFileCategory()
     {
@@ -111,10 +111,10 @@ class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\O
      * Setter for fileCategory
      *
      * @ElementName fileCategory
-     * @param string|null $fileCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null $fileCategory
      * @return $this
      */
-    public function setFileCategory($fileCategory)
+    public function setFileCategory(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory)
     {
         $this->fileCategory = $fileCategory;
         return $this;
@@ -148,7 +148,7 @@ class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\O
      * Getter for fileSource
      *
      * @ElementName fileSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     public function getFileSource()
     {
@@ -159,10 +159,10 @@ class SystemSIPDeviceTypeFileGetResponse14sp8 extends \CWM\BroadWorksConnector\O
      * Setter for fileSource
      *
      * @ElementName fileSource
-     * @param string|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null $fileSource
      * @return $this
      */
-    public function setFileSource($fileSource)
+    public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource)
     {
         $this->fileSource = $fileSource;
         return $this;

@@ -38,7 +38,7 @@ class SystemExternalAuthenticationGetACLListResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $aclTable
      * @return $this
      */
-    public function setAclTable($aclTable)
+    public function setAclTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $aclTable)
     {
         $this->aclTable = $aclTable;
         return $this;

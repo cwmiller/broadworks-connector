@@ -44,7 +44,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName voicePortalExternalRoutingScope
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     private $voicePortalExternalRoutingScope = null;
 
@@ -108,7 +108,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -190,7 +190,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * Getter for voicePortalExternalRoutingScope
      *
      * @ElementName voicePortalExternalRoutingScope
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     public function getVoicePortalExternalRoutingScope()
     {
@@ -201,10 +201,10 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse15 extends \CWM\BroadWorksCo
      * Setter for voicePortalExternalRoutingScope
      *
      * @ElementName voicePortalExternalRoutingScope
-     * @param string|null $voicePortalExternalRoutingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null $voicePortalExternalRoutingScope
      * @return $this
      */
-    public function setVoicePortalExternalRoutingScope($voicePortalExternalRoutingScope)
+    public function setVoicePortalExternalRoutingScope(\CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope $voicePortalExternalRoutingScope)
     {
         $this->voicePortalExternalRoutingScope = $voicePortalExternalRoutingScope;
         return $this;

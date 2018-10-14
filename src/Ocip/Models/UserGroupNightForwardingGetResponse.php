@@ -16,13 +16,13 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName nightForwarding
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
     private $nightForwarding = null;
 
     /**
      * @ElementName groupNightForwarding
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     private $groupNightForwarding = null;
 
@@ -42,7 +42,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for nightForwarding
      *
      * @ElementName nightForwarding
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null
      */
     public function getNightForwarding()
     {
@@ -53,10 +53,10 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for nightForwarding
      *
      * @ElementName nightForwarding
-     * @param string|null $nightForwarding
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode|null $nightForwarding
      * @return $this
      */
-    public function setNightForwarding($nightForwarding)
+    public function setNightForwarding(\CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingUserServiceActivationMode $nightForwarding)
     {
         $this->nightForwarding = $nightForwarding;
         return $this;
@@ -66,7 +66,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Getter for groupNightForwarding
      *
      * @ElementName groupNightForwarding
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     public function getGroupNightForwarding()
     {
@@ -77,10 +77,10 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * Setter for groupNightForwarding
      *
      * @ElementName groupNightForwarding
-     * @param string|null $groupNightForwarding
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null $groupNightForwarding
      * @return $this
      */
-    public function setGroupNightForwarding($groupNightForwarding)
+    public function setGroupNightForwarding(\CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode $groupNightForwarding)
     {
         $this->groupNightForwarding = $groupNightForwarding;
         return $this;
@@ -104,7 +104,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
-    public function setBusinessHours($businessHours)
+    public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
     {
         $this->businessHours = $businessHours;
         return $this;
@@ -128,7 +128,7 @@ class UserGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;

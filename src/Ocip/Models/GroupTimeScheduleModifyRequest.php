@@ -272,7 +272,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval01
      * @return $this
      */
-    public function setTimeInterval01($timeInterval01)
+    public function setTimeInterval01(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval01)
     {
         $this->timeInterval01 = $timeInterval01;
         return $this;
@@ -296,7 +296,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval02
      * @return $this
      */
-    public function setTimeInterval02($timeInterval02)
+    public function setTimeInterval02(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval02)
     {
         $this->timeInterval02 = $timeInterval02;
         return $this;
@@ -320,7 +320,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval03
      * @return $this
      */
-    public function setTimeInterval03($timeInterval03)
+    public function setTimeInterval03(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval03)
     {
         $this->timeInterval03 = $timeInterval03;
         return $this;
@@ -344,7 +344,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval04
      * @return $this
      */
-    public function setTimeInterval04($timeInterval04)
+    public function setTimeInterval04(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval04)
     {
         $this->timeInterval04 = $timeInterval04;
         return $this;
@@ -368,7 +368,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval05
      * @return $this
      */
-    public function setTimeInterval05($timeInterval05)
+    public function setTimeInterval05(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval05)
     {
         $this->timeInterval05 = $timeInterval05;
         return $this;
@@ -392,7 +392,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval06
      * @return $this
      */
-    public function setTimeInterval06($timeInterval06)
+    public function setTimeInterval06(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval06)
     {
         $this->timeInterval06 = $timeInterval06;
         return $this;
@@ -416,7 +416,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval07
      * @return $this
      */
-    public function setTimeInterval07($timeInterval07)
+    public function setTimeInterval07(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval07)
     {
         $this->timeInterval07 = $timeInterval07;
         return $this;
@@ -440,7 +440,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval08
      * @return $this
      */
-    public function setTimeInterval08($timeInterval08)
+    public function setTimeInterval08(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval08)
     {
         $this->timeInterval08 = $timeInterval08;
         return $this;
@@ -464,7 +464,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval09
      * @return $this
      */
-    public function setTimeInterval09($timeInterval09)
+    public function setTimeInterval09(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval09)
     {
         $this->timeInterval09 = $timeInterval09;
         return $this;
@@ -488,7 +488,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval10
      * @return $this
      */
-    public function setTimeInterval10($timeInterval10)
+    public function setTimeInterval10(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval10)
     {
         $this->timeInterval10 = $timeInterval10;
         return $this;
@@ -512,7 +512,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval11
      * @return $this
      */
-    public function setTimeInterval11($timeInterval11)
+    public function setTimeInterval11(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval11)
     {
         $this->timeInterval11 = $timeInterval11;
         return $this;
@@ -536,7 +536,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval12
      * @return $this
      */
-    public function setTimeInterval12($timeInterval12)
+    public function setTimeInterval12(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval12)
     {
         $this->timeInterval12 = $timeInterval12;
         return $this;
@@ -560,7 +560,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval13
      * @return $this
      */
-    public function setTimeInterval13($timeInterval13)
+    public function setTimeInterval13(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval13)
     {
         $this->timeInterval13 = $timeInterval13;
         return $this;
@@ -584,7 +584,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval14
      * @return $this
      */
-    public function setTimeInterval14($timeInterval14)
+    public function setTimeInterval14(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval14)
     {
         $this->timeInterval14 = $timeInterval14;
         return $this;
@@ -608,7 +608,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval15
      * @return $this
      */
-    public function setTimeInterval15($timeInterval15)
+    public function setTimeInterval15(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval15)
     {
         $this->timeInterval15 = $timeInterval15;
         return $this;
@@ -632,7 +632,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval16
      * @return $this
      */
-    public function setTimeInterval16($timeInterval16)
+    public function setTimeInterval16(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval16)
     {
         $this->timeInterval16 = $timeInterval16;
         return $this;
@@ -656,7 +656,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval17
      * @return $this
      */
-    public function setTimeInterval17($timeInterval17)
+    public function setTimeInterval17(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval17)
     {
         $this->timeInterval17 = $timeInterval17;
         return $this;
@@ -680,7 +680,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval18
      * @return $this
      */
-    public function setTimeInterval18($timeInterval18)
+    public function setTimeInterval18(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval18)
     {
         $this->timeInterval18 = $timeInterval18;
         return $this;
@@ -704,7 +704,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval19
      * @return $this
      */
-    public function setTimeInterval19($timeInterval19)
+    public function setTimeInterval19(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval19)
     {
         $this->timeInterval19 = $timeInterval19;
         return $this;
@@ -728,7 +728,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null $timeInterval20
      * @return $this
      */
-    public function setTimeInterval20($timeInterval20)
+    public function setTimeInterval20(\CWM\BroadWorksConnector\Ocip\Models\TimeInterval $timeInterval20)
     {
         $this->timeInterval20 = $timeInterval20;
         return $this;

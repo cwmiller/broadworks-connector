@@ -70,7 +70,7 @@ class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\O
      * @param string[] $targetUserId
      * @return $this
      */
-    public function setTargetUserId($targetUserId)
+    public function setTargetUserId(array $targetUserId)
     {
         $this->targetUserId = $targetUserId;
         return $this;
@@ -83,7 +83,7 @@ class GroupGroupPagingDeleteTargetListRequest extends \CWM\BroadWorksConnector\O
      * @param string $targetUserId
      * @return $this
      */
-    public function addTargetUserId($targetUserId)
+    public function addTargetUserId(string $targetUserId)
     {
         $this->targetUserId []= $targetUserId;
         return $this;

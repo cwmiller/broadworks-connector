@@ -12,13 +12,13 @@ class MusicOnHoldUserSourceModify20
 
     /**
      * @ElementName messageSourceSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null
      */
     private $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20\CustomSource|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20CustomSource|null
      */
     private $customSource = null;
 
@@ -26,7 +26,7 @@ class MusicOnHoldUserSourceModify20
      * Getter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null
      */
     public function getMessageSourceSelection()
     {
@@ -37,10 +37,10 @@ class MusicOnHoldUserSourceModify20
      * Setter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @param string|null $messageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null $messageSourceSelection
      * @return $this
      */
-    public function setMessageSourceSelection($messageSourceSelection)
+    public function setMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection $messageSourceSelection)
     {
         $this->messageSourceSelection = $messageSourceSelection;
         return $this;
@@ -50,7 +50,7 @@ class MusicOnHoldUserSourceModify20
      * Getter for customSource
      *
      * @ElementName customSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20\CustomSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20CustomSource|null
      */
     public function getCustomSource()
     {
@@ -61,10 +61,10 @@ class MusicOnHoldUserSourceModify20
      * Setter for customSource
      *
      * @ElementName customSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20\CustomSource|null $customSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20CustomSource|null $customSource
      * @return $this
      */
-    public function setCustomSource($customSource)
+    public function setCustomSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20CustomSource $customSource)
     {
         $this->customSource = $customSource;
         return $this;

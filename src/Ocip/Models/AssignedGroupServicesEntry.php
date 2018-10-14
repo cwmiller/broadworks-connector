@@ -13,7 +13,7 @@ class AssignedGroupServicesEntry
 
     /**
      * @ElementName serviceName
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $serviceName = null;
 
@@ -27,7 +27,7 @@ class AssignedGroupServicesEntry
      * Getter for serviceName
      *
      * @ElementName serviceName
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     public function getServiceName()
     {
@@ -38,10 +38,10 @@ class AssignedGroupServicesEntry
      * Setter for serviceName
      *
      * @ElementName serviceName
-     * @param string|null $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService|null $serviceName
      * @return $this
      */
-    public function setServiceName($serviceName)
+    public function setServiceName(\CWM\BroadWorksConnector\Ocip\Models\GroupService $serviceName)
     {
         $this->serviceName = $serviceName;
         return $this;

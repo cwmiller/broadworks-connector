@@ -130,7 +130,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @param string[] $digitPattern
      * @return $this
      */
-    public function setDigitPattern($digitPattern)
+    public function setDigitPattern(array $digitPattern)
     {
         $this->digitPattern = $digitPattern;
         return $this;
@@ -143,7 +143,7 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
      * @param string $digitPattern
      * @return $this
      */
-    public function addDigitPattern($digitPattern)
+    public function addDigitPattern(string $digitPattern)
     {
         $this->digitPattern []= $digitPattern;
         return $this;

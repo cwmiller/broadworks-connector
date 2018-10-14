@@ -24,7 +24,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName baseLocationNumberOfRings
-     * @var int|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $baseLocationNumberOfRings = null;
 
@@ -104,7 +104,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for baseLocationNumberOfRings
      *
      * @ElementName baseLocationNumberOfRings
-     * @return int|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     public function getBaseLocationNumberOfRings()
     {
@@ -115,10 +115,10 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for baseLocationNumberOfRings
      *
      * @ElementName baseLocationNumberOfRings
-     * @param int|null $baseLocationNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null $baseLocationNumberOfRings
      * @return $this
      */
-    public function setBaseLocationNumberOfRings($baseLocationNumberOfRings)
+    public function setBaseLocationNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $baseLocationNumberOfRings)
     {
         $this->baseLocationNumberOfRings = $baseLocationNumberOfRings;
         return $this;
@@ -190,7 +190,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null $Location01
      * @return $this
      */
-    public function setLocation01($Location01)
+    public function setLocation01(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation $Location01)
     {
         $this->Location01 = $Location01;
         return $this;
@@ -214,7 +214,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null $Location02
      * @return $this
      */
-    public function setLocation02($Location02)
+    public function setLocation02(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation $Location02)
     {
         $this->Location02 = $Location02;
         return $this;
@@ -238,7 +238,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null $Location03
      * @return $this
      */
-    public function setLocation03($Location03)
+    public function setLocation03(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation $Location03)
     {
         $this->Location03 = $Location03;
         return $this;
@@ -262,7 +262,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null $Location04
      * @return $this
      */
-    public function setLocation04($Location04)
+    public function setLocation04(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation $Location04)
     {
         $this->Location04 = $Location04;
         return $this;
@@ -286,7 +286,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation|null $Location05
      * @return $this
      */
-    public function setLocation05($Location05)
+    public function setLocation05(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocation $Location05)
     {
         $this->Location05 = $Location05;
         return $this;
@@ -310,7 +310,7 @@ class UserSequentialRingGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
      * @return $this
      */
-    public function setCriteriaTable($criteriaTable)
+    public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
         return $this;

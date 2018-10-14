@@ -70,7 +70,7 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
      * @param string[] $code
      * @return $this
      */
-    public function setCode($code)
+    public function setCode(array $code)
     {
         $this->code = $code;
         return $this;
@@ -83,7 +83,7 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
      * @param string $code
      * @return $this
      */
-    public function addCode($code)
+    public function addCode(string $code)
     {
         $this->code []= $code;
         return $this;

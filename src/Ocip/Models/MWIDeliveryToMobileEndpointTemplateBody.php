@@ -36,7 +36,7 @@ class MWIDeliveryToMobileEndpointTemplateBody
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[] $line
      * @return $this
      */
-    public function setLine($line)
+    public function setLine(array $line)
     {
         $this->line = $line;
         return $this;

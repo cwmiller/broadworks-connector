@@ -105,7 +105,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $maxActiveCalls
      * @return $this
      */
-    public function setMaxActiveCalls($maxActiveCalls)
+    public function setMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxActiveCalls)
     {
         $this->maxActiveCalls = $maxActiveCalls;
         return $this;
@@ -129,7 +129,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $burstingMaxActiveCalls
      * @return $this
      */
-    public function setBurstingMaxActiveCalls($burstingMaxActiveCalls)
+    public function setBurstingMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxActiveCalls)
     {
         $this->burstingMaxActiveCalls = $burstingMaxActiveCalls;
         return $this;

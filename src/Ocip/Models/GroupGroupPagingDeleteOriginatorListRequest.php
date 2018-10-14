@@ -70,7 +70,7 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
      * @param string[] $originatorUserId
      * @return $this
      */
-    public function setOriginatorUserId($originatorUserId)
+    public function setOriginatorUserId(array $originatorUserId)
     {
         $this->originatorUserId = $originatorUserId;
         return $this;
@@ -83,7 +83,7 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
      * @param string $originatorUserId
      * @return $this
      */
-    public function addOriginatorUserId($originatorUserId)
+    public function addOriginatorUserId(string $originatorUserId)
     {
         $this->originatorUserId []= $originatorUserId;
         return $this;

@@ -92,7 +92,7 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName attendeeNotification
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     private $attendeeNotification = null;
 
@@ -144,7 +144,7 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null $conferenceKey
      * @return $this
      */
-    public function setConferenceKey($conferenceKey)
+    public function setConferenceKey(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey)
     {
         $this->conferenceKey = $conferenceKey;
         return $this;
@@ -394,7 +394,7 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * Getter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     public function getAttendeeNotification()
     {
@@ -405,10 +405,10 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * Setter for attendeeNotification
      *
      * @ElementName attendeeNotification
-     * @param string|null $attendeeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null $attendeeNotification
      * @return $this
      */
-    public function setAttendeeNotification($attendeeNotification)
+    public function setAttendeeNotification(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification $attendeeNotification)
     {
         $this->attendeeNotification = $attendeeNotification;
         return $this;
@@ -432,7 +432,7 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null $conferenceSchedule
      * @return $this
      */
-    public function setConferenceSchedule($conferenceSchedule)
+    public function setConferenceSchedule(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule $conferenceSchedule)
     {
         $this->conferenceSchedule = $conferenceSchedule;
         return $this;

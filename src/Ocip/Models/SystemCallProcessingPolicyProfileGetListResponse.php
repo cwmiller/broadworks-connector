@@ -38,7 +38,7 @@ class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callProcessingPolicyProfilesTable
      * @return $this
      */
-    public function setCallProcessingPolicyProfilesTable($callProcessingPolicyProfilesTable)
+    public function setCallProcessingPolicyProfilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callProcessingPolicyProfilesTable)
     {
         $this->callProcessingPolicyProfilesTable = $callProcessingPolicyProfilesTable;
         return $this;

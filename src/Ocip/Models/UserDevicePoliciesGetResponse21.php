@@ -37,7 +37,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName lineMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     private $lineMode = null;
 
@@ -111,7 +111,7 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for lineMode
      *
      * @ElementName lineMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     public function getLineMode()
     {
@@ -122,10 +122,10 @@ class UserDevicePoliciesGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for lineMode
      *
      * @ElementName lineMode
-     * @param string|null $lineMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null $lineMode
      * @return $this
      */
-    public function setLineMode($lineMode)
+    public function setLineMode(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode $lineMode)
     {
         $this->lineMode = $lineMode;
         return $this;

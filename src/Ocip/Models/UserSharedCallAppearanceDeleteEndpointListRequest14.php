@@ -70,7 +70,7 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey[] $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(array $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;

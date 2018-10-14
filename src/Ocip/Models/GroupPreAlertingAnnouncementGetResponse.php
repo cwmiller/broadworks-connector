@@ -20,7 +20,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName announcementInterruption
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
     private $announcementInterruption = null;
 
@@ -32,7 +32,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName audioSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
@@ -44,7 +44,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName audioMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
@@ -56,7 +56,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName videoSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
@@ -68,7 +68,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName videoMediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
@@ -82,7 +82,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for announcementInterruption
      *
      * @ElementName announcementInterruption
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
     public function getAnnouncementInterruption()
     {
@@ -93,10 +93,10 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for announcementInterruption
      *
      * @ElementName announcementInterruption
-     * @param string|null $announcementInterruption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null $announcementInterruption
      * @return $this
      */
-    public function setAnnouncementInterruption($announcementInterruption)
+    public function setAnnouncementInterruption(\CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt $announcementInterruption)
     {
         $this->announcementInterruption = $announcementInterruption;
         return $this;
@@ -130,7 +130,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for audioSelection
      *
      * @ElementName audioSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioSelection()
     {
@@ -141,10 +141,10 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for audioSelection
      *
      * @ElementName audioSelection
-     * @param string|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
      * @return $this
      */
-    public function setAudioSelection($audioSelection)
+    public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
     {
         $this->audioSelection = $audioSelection;
         return $this;
@@ -178,7 +178,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getAudioMediaType()
     {
@@ -189,10 +189,10 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for audioMediaType
      *
      * @ElementName audioMediaType
-     * @param string|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
      * @return $this
      */
-    public function setAudioMediaType($audioMediaType)
+    public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
     {
         $this->audioMediaType = $audioMediaType;
         return $this;
@@ -226,7 +226,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for videoSelection
      *
      * @ElementName videoSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoSelection()
     {
@@ -237,10 +237,10 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for videoSelection
      *
      * @ElementName videoSelection
-     * @param string|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
      * @return $this
      */
-    public function setVideoSelection($videoSelection)
+    public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
     {
         $this->videoSelection = $videoSelection;
         return $this;
@@ -274,7 +274,7 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Getter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getVideoMediaType()
     {
@@ -285,10 +285,10 @@ class GroupPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\O
      * Setter for videoMediaType
      *
      * @ElementName videoMediaType
-     * @param string|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
      * @return $this
      */
-    public function setVideoMediaType($videoMediaType)
+    public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
         return $this;

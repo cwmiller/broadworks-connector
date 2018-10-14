@@ -26,7 +26,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName queryProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null
      */
     private $queryProtocol = null;
 
@@ -50,7 +50,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName sipExternalDatabaseTransport
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $sipExternalDatabaseTransport = null;
 
@@ -62,7 +62,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName callingNameSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null
      */
     private $callingNameSource = null;
 
@@ -142,7 +142,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * Getter for queryProtocol
      *
      * @ElementName queryProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null
      */
     public function getQueryProtocol()
     {
@@ -153,10 +153,10 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * Setter for queryProtocol
      *
      * @ElementName queryProtocol
-     * @param string|null $queryProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null $queryProtocol
      * @return $this
      */
-    public function setQueryProtocol($queryProtocol)
+    public function setQueryProtocol(\CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol $queryProtocol)
     {
         $this->queryProtocol = $queryProtocol;
         return $this;
@@ -238,7 +238,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * Getter for sipExternalDatabaseTransport
      *
      * @ElementName sipExternalDatabaseTransport
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getSipExternalDatabaseTransport()
     {
@@ -249,10 +249,10 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * Setter for sipExternalDatabaseTransport
      *
      * @ElementName sipExternalDatabaseTransport
-     * @param string|null $sipExternalDatabaseTransport
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $sipExternalDatabaseTransport
      * @return $this
      */
-    public function setSipExternalDatabaseTransport($sipExternalDatabaseTransport)
+    public function setSipExternalDatabaseTransport(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $sipExternalDatabaseTransport)
     {
         $this->sipExternalDatabaseTransport = $sipExternalDatabaseTransport;
         return $this;
@@ -286,7 +286,7 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * Getter for callingNameSource
      *
      * @ElementName callingNameSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null
      */
     public function getCallingNameSource()
     {
@@ -297,10 +297,10 @@ class SystemCallingNameRetrievalGetResponse20 extends \CWM\BroadWorksConnector\O
      * Setter for callingNameSource
      *
      * @ElementName callingNameSource
-     * @param string|null $callingNameSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null $callingNameSource
      * @return $this
      */
-    public function setCallingNameSource($callingNameSource)
+    public function setCallingNameSource(\CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity $callingNameSource)
     {
         $this->callingNameSource = $callingNameSource;
         return $this;

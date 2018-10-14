@@ -38,7 +38,7 @@ class ReplacementCommunicationBarringIncomingRuleList19sp1
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule19sp1[] $rule
      * @return $this
      */
-    public function setRule($rule)
+    public function setRule(array $rule)
     {
         $this->rule = $rule;
         return $this;

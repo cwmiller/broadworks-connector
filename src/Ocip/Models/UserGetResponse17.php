@@ -496,7 +496,7 @@ class UserGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -640,7 +640,7 @@ class UserGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @param string[] $alias
      * @return $this
      */
-    public function setAlias($alias)
+    public function setAlias(array $alias)
     {
         $this->alias = $alias;
         return $this;
@@ -653,7 +653,7 @@ class UserGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @param string $alias
      * @return $this
      */
-    public function addAlias($alias)
+    public function addAlias(string $alias)
     {
         $this->alias []= $alias;
         return $this;
@@ -677,7 +677,7 @@ class UserGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;
@@ -701,7 +701,7 @@ class UserGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingRead|null $trunkAddressing
      * @return $this
      */
-    public function setTrunkAddressing($trunkAddressing)
+    public function setTrunkAddressing(\CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingRead $trunkAddressing)
     {
         $this->trunkAddressing = $trunkAddressing;
         return $this;
@@ -869,7 +869,7 @@ class UserGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;

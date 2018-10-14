@@ -66,7 +66,7 @@ class CallCenterScheduledReportCallCenterSelection
      * @param string[] $serviceUserId
      * @return $this
      */
-    public function setServiceUserId($serviceUserId)
+    public function setServiceUserId(array $serviceUserId)
     {
         $this->serviceUserId = $serviceUserId;
         return $this;
@@ -79,7 +79,7 @@ class CallCenterScheduledReportCallCenterSelection
      * @param string $serviceUserId
      * @return $this
      */
-    public function addServiceUserId($serviceUserId)
+    public function addServiceUserId(string $serviceUserId)
     {
         $this->serviceUserId []= $serviceUserId;
         return $this;

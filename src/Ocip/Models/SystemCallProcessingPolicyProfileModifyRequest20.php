@@ -128,7 +128,7 @@ class SystemCallProcessingPolicyProfileModifyRequest20 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList20|null $assignedSubscriberTypeList
      * @return $this
      */
-    public function setAssignedSubscriberTypeList($assignedSubscriberTypeList)
+    public function setAssignedSubscriberTypeList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList20 $assignedSubscriberTypeList)
     {
         $this->assignedSubscriberTypeList = $assignedSubscriberTypeList;
         return $this;

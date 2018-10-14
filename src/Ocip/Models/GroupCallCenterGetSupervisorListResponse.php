@@ -71,7 +71,7 @@ class GroupCallCenterGetSupervisorListResponse extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $supervisorTable
      * @return $this
      */
-    public function setSupervisorTable($supervisorTable)
+    public function setSupervisorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $supervisorTable)
     {
         $this->supervisorTable = $supervisorTable;
         return $this;

@@ -98,7 +98,7 @@ class GroupMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
      * @return $this
      */
-    public function setAllocatedPorts($allocatedPorts)
+    public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
     {
         $this->allocatedPorts = $allocatedPorts;
         return $this;

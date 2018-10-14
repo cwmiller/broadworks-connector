@@ -20,7 +20,7 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName callBlockingService
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService|null
      */
     private $callBlockingService = null;
 
@@ -34,7 +34,7 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest extends \CWM\BroadW
      * Getter for callBlockingService
      *
      * @ElementName callBlockingService
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService|null
      */
     public function getCallBlockingService()
     {
@@ -45,10 +45,10 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest extends \CWM\BroadW
      * Setter for callBlockingService
      *
      * @ElementName callBlockingService
-     * @param string|null $callBlockingService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService|null $callBlockingService
      * @return $this
      */
-    public function setCallBlockingService($callBlockingService)
+    public function setCallBlockingService(\CWM\BroadWorksConnector\Ocip\Models\CallBlockingService $callBlockingService)
     {
         $this->callBlockingService = $callBlockingService;
         return $this;

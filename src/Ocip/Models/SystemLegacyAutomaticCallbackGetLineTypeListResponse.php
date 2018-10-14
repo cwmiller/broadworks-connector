@@ -40,7 +40,7 @@ class SystemLegacyAutomaticCallbackGetLineTypeListResponse extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $lineTypeTable
      * @return $this
      */
-    public function setLineTypeTable($lineTypeTable)
+    public function setLineTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $lineTypeTable)
     {
         $this->lineTypeTable = $lineTypeTable;
         return $this;

@@ -70,7 +70,7 @@ class ReceptionistContactUserAndNote
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null $vonUser
      * @return $this
      */
-    public function setVonUser($vonUser)
+    public function setVonUser(\CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey $vonUser)
     {
         $this->vonUser = $vonUser;
         return $this;

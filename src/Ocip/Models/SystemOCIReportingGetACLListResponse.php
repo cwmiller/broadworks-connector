@@ -39,7 +39,7 @@ class SystemOCIReportingGetACLListResponse extends \CWM\BroadWorksConnector\Ocip
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $ociReportingACLTable
      * @return $this
      */
-    public function setOciReportingACLTable($ociReportingACLTable)
+    public function setOciReportingACLTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $ociReportingACLTable)
     {
         $this->ociReportingACLTable = $ociReportingACLTable;
         return $this;

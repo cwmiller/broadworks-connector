@@ -100,7 +100,7 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null $profileName
      * @return $this
      */
-    public function setProfileName($profileName)
+    public function setProfileName(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList $profileName)
     {
         $this->profileName = $profileName;
         return $this;

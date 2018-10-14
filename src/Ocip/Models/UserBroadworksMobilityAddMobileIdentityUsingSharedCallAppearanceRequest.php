@@ -97,7 +97,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
 
     /**
      * @ElementName useSettingLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     private $useSettingLevel = null;
 
@@ -115,7 +115,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
 
     /**
      * @ElementName devicesToRing
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $devicesToRing = null;
 
@@ -217,7 +217,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null $accessDeviceEndpoint
      * @return $this
      */
-    public function setAccessDeviceEndpoint($accessDeviceEndpoint)
+    public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
         return $this;
@@ -491,7 +491,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * Getter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     public function getUseSettingLevel()
     {
@@ -502,10 +502,10 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * Setter for useSettingLevel
      *
      * @ElementName useSettingLevel
-     * @param string|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null $useSettingLevel
      * @return $this
      */
-    public function setUseSettingLevel($useSettingLevel)
+    public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel $useSettingLevel)
     {
         $this->useSettingLevel = $useSettingLevel;
         return $this;
@@ -563,7 +563,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * Getter for devicesToRing
      *
      * @ElementName devicesToRing
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     public function getDevicesToRing()
     {
@@ -574,10 +574,10 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * Setter for devicesToRing
      *
      * @ElementName devicesToRing
-     * @param string|null $devicesToRing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null $devicesToRing
      * @return $this
      */
-    public function setDevicesToRing($devicesToRing)
+    public function setDevicesToRing(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $devicesToRing)
     {
         $this->devicesToRing = $devicesToRing;
         return $this;
@@ -673,7 +673,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * @param string[] $mobileNumberAlerted
      * @return $this
      */
-    public function setMobileNumberAlerted($mobileNumberAlerted)
+    public function setMobileNumberAlerted(array $mobileNumberAlerted)
     {
         $this->mobileNumberAlerted = $mobileNumberAlerted;
         return $this;
@@ -686,7 +686,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * @param string $mobileNumberAlerted
      * @return $this
      */
-    public function addMobileNumberAlerted($mobileNumberAlerted)
+    public function addMobileNumberAlerted(string $mobileNumberAlerted)
     {
         $this->mobileNumberAlerted []= $mobileNumberAlerted;
         return $this;
@@ -734,7 +734,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -758,7 +758,7 @@ class UserBroadworksMobilityAddMobileIdentityUsingSharedCallAppearanceRequest ex
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $holidaySchedule
      * @return $this
      */
-    public function setHolidaySchedule($holidaySchedule)
+    public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $holidaySchedule)
     {
         $this->holidaySchedule = $holidaySchedule;
         return $this;

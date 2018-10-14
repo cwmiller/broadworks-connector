@@ -71,7 +71,7 @@ class SystemTwoStageDialingGetDnListRequest extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[] $searchCriteriaSystemServiceDn
      * @return $this
      */
-    public function setSearchCriteriaSystemServiceDn($searchCriteriaSystemServiceDn)
+    public function setSearchCriteriaSystemServiceDn(array $searchCriteriaSystemServiceDn)
     {
         $this->searchCriteriaSystemServiceDn = $searchCriteriaSystemServiceDn;
         return $this;

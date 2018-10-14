@@ -56,7 +56,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @param string[] $intraLataCarrier
      * @return $this
      */
-    public function setIntraLataCarrier($intraLataCarrier)
+    public function setIntraLataCarrier(array $intraLataCarrier)
     {
         $this->intraLataCarrier = $intraLataCarrier;
         return $this;
@@ -69,7 +69,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @param string $intraLataCarrier
      * @return $this
      */
-    public function addIntraLataCarrier($intraLataCarrier)
+    public function addIntraLataCarrier(string $intraLataCarrier)
     {
         $this->intraLataCarrier []= $intraLataCarrier;
         return $this;
@@ -93,7 +93,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @param string[] $interLataCarrier
      * @return $this
      */
-    public function setInterLataCarrier($interLataCarrier)
+    public function setInterLataCarrier(array $interLataCarrier)
     {
         $this->interLataCarrier = $interLataCarrier;
         return $this;
@@ -106,7 +106,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @param string $interLataCarrier
      * @return $this
      */
-    public function addInterLataCarrier($interLataCarrier)
+    public function addInterLataCarrier(string $interLataCarrier)
     {
         $this->interLataCarrier []= $interLataCarrier;
         return $this;
@@ -130,7 +130,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @param string[] $internationalCarrier
      * @return $this
      */
-    public function setInternationalCarrier($internationalCarrier)
+    public function setInternationalCarrier(array $internationalCarrier)
     {
         $this->internationalCarrier = $internationalCarrier;
         return $this;
@@ -143,7 +143,7 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @param string $internationalCarrier
      * @return $this
      */
-    public function addInternationalCarrier($internationalCarrier)
+    public function addInternationalCarrier(string $internationalCarrier)
     {
         $this->internationalCarrier []= $internationalCarrier;
         return $this;

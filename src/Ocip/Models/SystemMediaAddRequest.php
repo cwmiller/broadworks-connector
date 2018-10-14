@@ -28,13 +28,13 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
 
     /**
      * @ElementName mediaType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaType|null
      */
     private $mediaType = null;
 
     /**
      * @ElementName bandwidthEnforcementType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     private $bandwidthEnforcementType = null;
 
@@ -96,7 +96,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Getter for mediaType
      *
      * @ElementName mediaType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaType|null
      */
     public function getMediaType()
     {
@@ -107,10 +107,10 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Setter for mediaType
      *
      * @ElementName mediaType
-     * @param string|null $mediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaType|null $mediaType
      * @return $this
      */
-    public function setMediaType($mediaType)
+    public function setMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaType $mediaType)
     {
         $this->mediaType = $mediaType;
         return $this;
@@ -120,7 +120,7 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Getter for bandwidthEnforcementType
      *
      * @ElementName bandwidthEnforcementType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null
      */
     public function getBandwidthEnforcementType()
     {
@@ -131,10 +131,10 @@ class SystemMediaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Setter for bandwidthEnforcementType
      *
      * @ElementName bandwidthEnforcementType
-     * @param string|null $bandwidthEnforcementType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType|null $bandwidthEnforcementType
      * @return $this
      */
-    public function setBandwidthEnforcementType($bandwidthEnforcementType)
+    public function setBandwidthEnforcementType(\CWM\BroadWorksConnector\Ocip\Models\MediaBandwidthEnforcementType $bandwidthEnforcementType)
     {
         $this->bandwidthEnforcementType = $bandwidthEnforcementType;
         return $this;

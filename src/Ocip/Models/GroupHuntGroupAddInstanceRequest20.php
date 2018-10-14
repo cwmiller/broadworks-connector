@@ -44,7 +44,7 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName policy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
@@ -236,7 +236,7 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -246,7 +246,7 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for policy
      *
      * @ElementName policy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     public function getPolicy()
     {
@@ -257,10 +257,10 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for policy
      *
      * @ElementName policy
-     * @param string|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
      * @return $this
      */
-    public function setPolicy($policy)
+    public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
     {
         $this->policy = $policy;
         return $this;
@@ -404,7 +404,7 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @param string[] $agentUserId
      * @return $this
      */
-    public function setAgentUserId($agentUserId)
+    public function setAgentUserId(array $agentUserId)
     {
         $this->agentUserId = $agentUserId;
         return $this;
@@ -417,7 +417,7 @@ class GroupHuntGroupAddInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
      * @param string $agentUserId
      * @return $this
      */
-    public function addAgentUserId($agentUserId)
+    public function addAgentUserId(string $agentUserId)
     {
         $this->agentUserId []= $agentUserId;
         return $this;

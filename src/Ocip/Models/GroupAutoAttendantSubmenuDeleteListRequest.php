@@ -71,7 +71,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @param string[] $submenuId
      * @return $this
      */
-    public function setSubmenuId($submenuId)
+    public function setSubmenuId(array $submenuId)
     {
         $this->submenuId = $submenuId;
         return $this;
@@ -84,7 +84,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @param string $submenuId
      * @return $this
      */
-    public function addSubmenuId($submenuId)
+    public function addSubmenuId(string $submenuId)
     {
         $this->submenuId []= $submenuId;
         return $this;

@@ -130,7 +130,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile0
      * @return $this
      */
-    public function setCommunicationBarringProfile0($communicationBarringProfile0)
+    public function setCommunicationBarringProfile0(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile0)
     {
         $this->communicationBarringProfile0 = $communicationBarringProfile0;
         return $this;
@@ -154,7 +154,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile1
      * @return $this
      */
-    public function setCommunicationBarringProfile1($communicationBarringProfile1)
+    public function setCommunicationBarringProfile1(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile1)
     {
         $this->communicationBarringProfile1 = $communicationBarringProfile1;
         return $this;
@@ -178,7 +178,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile2
      * @return $this
      */
-    public function setCommunicationBarringProfile2($communicationBarringProfile2)
+    public function setCommunicationBarringProfile2(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile2)
     {
         $this->communicationBarringProfile2 = $communicationBarringProfile2;
         return $this;
@@ -202,7 +202,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile3
      * @return $this
      */
-    public function setCommunicationBarringProfile3($communicationBarringProfile3)
+    public function setCommunicationBarringProfile3(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile3)
     {
         $this->communicationBarringProfile3 = $communicationBarringProfile3;
         return $this;
@@ -226,7 +226,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile4
      * @return $this
      */
-    public function setCommunicationBarringProfile4($communicationBarringProfile4)
+    public function setCommunicationBarringProfile4(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile4)
     {
         $this->communicationBarringProfile4 = $communicationBarringProfile4;
         return $this;
@@ -250,7 +250,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile5
      * @return $this
      */
-    public function setCommunicationBarringProfile5($communicationBarringProfile5)
+    public function setCommunicationBarringProfile5(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile5)
     {
         $this->communicationBarringProfile5 = $communicationBarringProfile5;
         return $this;
@@ -274,7 +274,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile6
      * @return $this
      */
-    public function setCommunicationBarringProfile6($communicationBarringProfile6)
+    public function setCommunicationBarringProfile6(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile6)
     {
         $this->communicationBarringProfile6 = $communicationBarringProfile6;
         return $this;
@@ -298,7 +298,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile7
      * @return $this
      */
-    public function setCommunicationBarringProfile7($communicationBarringProfile7)
+    public function setCommunicationBarringProfile7(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile7)
     {
         $this->communicationBarringProfile7 = $communicationBarringProfile7;
         return $this;
@@ -322,7 +322,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile8
      * @return $this
      */
-    public function setCommunicationBarringProfile8($communicationBarringProfile8)
+    public function setCommunicationBarringProfile8(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile8)
     {
         $this->communicationBarringProfile8 = $communicationBarringProfile8;
         return $this;
@@ -346,7 +346,7 @@ class SystemNetworkClassOfServiceGetResponse17 extends \CWM\BroadWorksConnector\
      * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile9
      * @return $this
      */
-    public function setCommunicationBarringProfile9($communicationBarringProfile9)
+    public function setCommunicationBarringProfile9(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile9)
     {
         $this->communicationBarringProfile9 = $communicationBarringProfile9;
         return $this;

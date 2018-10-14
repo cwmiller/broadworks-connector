@@ -20,7 +20,7 @@ class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName status
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthenticationStatus|null
      */
     private $status = null;
 
@@ -110,7 +110,7 @@ class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName fileCategory
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
 
@@ -130,7 +130,7 @@ class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConne
      * Getter for status
      *
      * @ElementName status
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthenticationStatus|null
      */
     public function getStatus()
     {
@@ -141,10 +141,10 @@ class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConne
      * Setter for status
      *
      * @ElementName status
-     * @param string|null $status
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthenticationStatus|null $status
      * @return $this
      */
-    public function setStatus($status)
+    public function setStatus(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileAuthenticationStatus $status)
     {
         $this->status = $status;
         return $this;
@@ -490,7 +490,7 @@ class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConne
      * Getter for fileCategory
      *
      * @ElementName fileCategory
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     public function getFileCategory()
     {
@@ -501,10 +501,10 @@ class DeviceManagementFileAuthLocationGetResponse21 extends \CWM\BroadWorksConne
      * Setter for fileCategory
      *
      * @ElementName fileCategory
-     * @param string|null $fileCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null $fileCategory
      * @return $this
      */
-    public function setFileCategory($fileCategory)
+    public function setFileCategory(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory)
     {
         $this->fileCategory = $fileCategory;
         return $this;

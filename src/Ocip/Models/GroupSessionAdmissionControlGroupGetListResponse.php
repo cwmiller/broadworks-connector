@@ -40,7 +40,7 @@ class GroupSessionAdmissionControlGroupGetListResponse extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $sessionAdmissionControlGroupTable
      * @return $this
      */
-    public function setSessionAdmissionControlGroupTable($sessionAdmissionControlGroupTable)
+    public function setSessionAdmissionControlGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $sessionAdmissionControlGroupTable)
     {
         $this->sessionAdmissionControlGroupTable = $sessionAdmissionControlGroupTable;
         return $this;

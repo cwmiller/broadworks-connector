@@ -43,7 +43,7 @@ class GroupUserCallingPlanSettingsGetListResponse extends \CWM\BroadWorksConnect
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userCallingPlanTable
      * @return $this
      */
-    public function setUserCallingPlanTable($userCallingPlanTable)
+    public function setUserCallingPlanTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallingPlanTable)
     {
         $this->userCallingPlanTable = $userCallingPlanTable;
         return $this;

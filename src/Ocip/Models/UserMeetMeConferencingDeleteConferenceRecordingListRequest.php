@@ -70,7 +70,7 @@ class UserMeetMeConferencingDeleteConferenceRecordingListRequest extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceRecordingKey[] $recordingKey
      * @return $this
      */
-    public function setRecordingKey($recordingKey)
+    public function setRecordingKey(array $recordingKey)
     {
         $this->recordingKey = $recordingKey;
         return $this;

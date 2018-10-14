@@ -38,7 +38,7 @@ class ReplacementNumberPortabilityStatusList
      * @param string[] $status
      * @return $this
      */
-    public function setStatus($status)
+    public function setStatus(array $status)
     {
         $this->status = $status;
         return $this;
@@ -51,7 +51,7 @@ class ReplacementNumberPortabilityStatusList
      * @param string $status
      * @return $this
      */
-    public function addStatus($status)
+    public function addStatus(string $status)
     {
         $this->status []= $status;
         return $this;

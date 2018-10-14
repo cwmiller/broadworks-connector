@@ -40,7 +40,7 @@ class UserCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Broa
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[] $code
      * @return $this
      */
-    public function setCode($code)
+    public function setCode(array $code)
     {
         $this->code = $code;
         return $this;

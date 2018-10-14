@@ -61,7 +61,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName version
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
 
@@ -243,7 +243,7 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for version
      *
      * @ElementName version
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     public function getVersion()
     {
@@ -254,10 +254,10 @@ class SystemSMPPGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for version
      *
      * @ElementName version
-     * @param string|null $version
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null $version
      * @return $this
      */
-    public function setVersion($version)
+    public function setVersion(\CWM\BroadWorksConnector\Ocip\Models\SMPPVersion $version)
     {
         $this->version = $version;
         return $this;

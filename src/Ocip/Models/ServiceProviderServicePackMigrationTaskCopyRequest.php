@@ -74,7 +74,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @param string[] $taskName
      * @return $this
      */
-    public function setTaskName($taskName)
+    public function setTaskName(array $taskName)
     {
         $this->taskName = $taskName;
         return $this;
@@ -87,7 +87,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @param string $taskName
      * @return $this
      */
-    public function addTaskName($taskName)
+    public function addTaskName(string $taskName)
     {
         $this->taskName []= $taskName;
         return $this;

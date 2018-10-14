@@ -38,7 +38,7 @@ class ReplacementCommunicationBarringIncomingRuleList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule[] $rule
      * @return $this
      */
-    public function setRule($rule)
+    public function setRule(array $rule)
     {
         $this->rule = $rule;
         return $this;

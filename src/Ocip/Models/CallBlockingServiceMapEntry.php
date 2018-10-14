@@ -12,7 +12,7 @@ class CallBlockingServiceMapEntry
 
     /**
      * @ElementName callBlockingService
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null
      */
     private $callBlockingService = null;
 
@@ -26,7 +26,7 @@ class CallBlockingServiceMapEntry
      * Getter for callBlockingService
      *
      * @ElementName callBlockingService
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null
      */
     public function getCallBlockingService()
     {
@@ -37,10 +37,10 @@ class CallBlockingServiceMapEntry
      * Setter for callBlockingService
      *
      * @ElementName callBlockingService
-     * @param string|null $callBlockingService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null $callBlockingService
      * @return $this
      */
-    public function setCallBlockingService($callBlockingService)
+    public function setCallBlockingService(\CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22 $callBlockingService)
     {
         $this->callBlockingService = $callBlockingService;
         return $this;

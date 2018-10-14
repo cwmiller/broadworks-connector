@@ -37,7 +37,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serverTransportProtocol
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $serverTransportProtocol = null;
 
@@ -117,7 +117,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for serverTransportProtocol
      *
      * @ElementName serverTransportProtocol
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     public function getServerTransportProtocol()
     {
@@ -128,10 +128,10 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for serverTransportProtocol
      *
      * @ElementName serverTransportProtocol
-     * @param string|null $serverTransportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $serverTransportProtocol
      * @return $this
      */
-    public function setServerTransportProtocol($serverTransportProtocol)
+    public function setServerTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $serverTransportProtocol)
     {
         $this->serverTransportProtocol = $serverTransportProtocol;
         return $this;

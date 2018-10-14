@@ -133,7 +133,7 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $assignedNumberRangeTable
      * @return $this
      */
-    public function setAssignedNumberRangeTable($assignedNumberRangeTable)
+    public function setAssignedNumberRangeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assignedNumberRangeTable)
     {
         $this->assignedNumberRangeTable = $assignedNumberRangeTable;
         return $this;

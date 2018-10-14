@@ -20,7 +20,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName forwardToNumberSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection|null
      */
     private $forwardToNumberSelection = null;
 
@@ -54,7 +54,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
-    public function setTimeSchedule($timeSchedule)
+    public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
         $this->timeSchedule = $timeSchedule;
         return $this;
@@ -64,7 +64,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * Getter for forwardToNumberSelection
      *
      * @ElementName forwardToNumberSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection|null
      */
     public function getForwardToNumberSelection()
     {
@@ -75,10 +75,10 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * Setter for forwardToNumberSelection
      *
      * @ElementName forwardToNumberSelection
-     * @param string|null $forwardToNumberSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection|null $forwardToNumberSelection
      * @return $this
      */
-    public function setForwardToNumberSelection($forwardToNumberSelection)
+    public function setForwardToNumberSelection(\CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection $forwardToNumberSelection)
     {
         $this->forwardToNumberSelection = $forwardToNumberSelection;
         return $this;
@@ -126,7 +126,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse extends \CWM\BroadWorksConn
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null $fromDnCriteria
      * @return $this
      */
-    public function setFromDnCriteria($fromDnCriteria)
+    public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
         return $this;

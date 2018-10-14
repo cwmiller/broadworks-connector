@@ -38,7 +38,7 @@ class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo[] $info
      * @return $this
      */
-    public function setInfo($info)
+    public function setInfo(array $info)
     {
         $this->info = $info;
         return $this;

@@ -59,7 +59,7 @@ class EnterprisePhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $directoryTable
      * @return $this
      */
-    public function setDirectoryTable($directoryTable)
+    public function setDirectoryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $directoryTable)
     {
         $this->directoryTable = $directoryTable;
         return $this;

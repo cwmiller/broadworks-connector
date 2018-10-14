@@ -38,7 +38,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extend
      * @param string[] $deviceType
      * @return $this
      */
-    public function setDeviceType($deviceType)
+    public function setDeviceType(array $deviceType)
     {
         $this->deviceType = $deviceType;
         return $this;
@@ -51,7 +51,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse extend
      * @param string $deviceType
      * @return $this
      */
-    public function addDeviceType($deviceType)
+    public function addDeviceType(string $deviceType)
     {
         $this->deviceType []= $deviceType;
         return $this;

@@ -51,7 +51,7 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $parentDepartmentKey
      * @return $this
      */
-    public function setParentDepartmentKey($parentDepartmentKey)
+    public function setParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $parentDepartmentKey)
     {
         $this->parentDepartmentKey = $parentDepartmentKey;
         return $this;

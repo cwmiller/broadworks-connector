@@ -41,7 +41,7 @@ class ExtendedMediaFileLevelResource20
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file
      * @return $this
      */
-    public function setFile($file)
+    public function setFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file)
     {
         $this->file = $file;
         return $this;

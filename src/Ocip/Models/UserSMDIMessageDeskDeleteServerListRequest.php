@@ -70,7 +70,7 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
      * @param string[] $deviceName
      * @return $this
      */
-    public function setDeviceName($deviceName)
+    public function setDeviceName(array $deviceName)
     {
         $this->deviceName = $deviceName;
         return $this;
@@ -83,7 +83,7 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
      * @param string $deviceName
      * @return $this
      */
-    public function addDeviceName($deviceName)
+    public function addDeviceName(string $deviceName)
     {
         $this->deviceName []= $deviceName;
         return $this;

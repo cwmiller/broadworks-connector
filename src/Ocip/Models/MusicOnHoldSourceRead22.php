@@ -18,31 +18,31 @@ class MusicOnHoldSourceRead22
 
     /**
      * @ElementName audioFilePreferredCodec
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     private $audioFilePreferredCodec = null;
 
     /**
      * @ElementName messageSourceSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSourceSelection = null;
 
     /**
      * @ElementName labeledCustomSourceMediaFiles
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\LabeledCustomSourceMediaFiles|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22LabeledCustomSourceMediaFiles|null
      */
     private $labeledCustomSourceMediaFiles = null;
 
     /**
      * @ElementName announcementCustomSourceMediaFiles
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\AnnouncementCustomSourceMediaFiles|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22AnnouncementCustomSourceMediaFiles|null
      */
     private $announcementCustomSourceMediaFiles = null;
 
     /**
      * @ElementName externalSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\ExternalSource|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22ExternalSource|null
      */
     private $externalSource = null;
 
@@ -50,7 +50,7 @@ class MusicOnHoldSourceRead22
      * Getter for audioFilePreferredCodec
      *
      * @ElementName audioFilePreferredCodec
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null
      */
     public function getAudioFilePreferredCodec()
     {
@@ -61,10 +61,10 @@ class MusicOnHoldSourceRead22
      * Setter for audioFilePreferredCodec
      *
      * @ElementName audioFilePreferredCodec
-     * @param string|null $audioFilePreferredCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22|null $audioFilePreferredCodec
      * @return $this
      */
-    public function setAudioFilePreferredCodec($audioFilePreferredCodec)
+    public function setAudioFilePreferredCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec22 $audioFilePreferredCodec)
     {
         $this->audioFilePreferredCodec = $audioFilePreferredCodec;
         return $this;
@@ -74,7 +74,7 @@ class MusicOnHoldSourceRead22
      * Getter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     public function getMessageSourceSelection()
     {
@@ -85,10 +85,10 @@ class MusicOnHoldSourceRead22
      * Setter for messageSourceSelection
      *
      * @ElementName messageSourceSelection
-     * @param string|null $messageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null $messageSourceSelection
      * @return $this
      */
-    public function setMessageSourceSelection($messageSourceSelection)
+    public function setMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection $messageSourceSelection)
     {
         $this->messageSourceSelection = $messageSourceSelection;
         return $this;
@@ -98,7 +98,7 @@ class MusicOnHoldSourceRead22
      * Getter for labeledCustomSourceMediaFiles
      *
      * @ElementName labeledCustomSourceMediaFiles
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\LabeledCustomSourceMediaFiles|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22LabeledCustomSourceMediaFiles|null
      */
     public function getLabeledCustomSourceMediaFiles()
     {
@@ -109,10 +109,10 @@ class MusicOnHoldSourceRead22
      * Setter for labeledCustomSourceMediaFiles
      *
      * @ElementName labeledCustomSourceMediaFiles
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\LabeledCustomSourceMediaFiles|null $labeledCustomSourceMediaFiles
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22LabeledCustomSourceMediaFiles|null $labeledCustomSourceMediaFiles
      * @return $this
      */
-    public function setLabeledCustomSourceMediaFiles($labeledCustomSourceMediaFiles)
+    public function setLabeledCustomSourceMediaFiles(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22LabeledCustomSourceMediaFiles $labeledCustomSourceMediaFiles)
     {
         $this->labeledCustomSourceMediaFiles = $labeledCustomSourceMediaFiles;
         return $this;
@@ -122,7 +122,7 @@ class MusicOnHoldSourceRead22
      * Getter for announcementCustomSourceMediaFiles
      *
      * @ElementName announcementCustomSourceMediaFiles
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\AnnouncementCustomSourceMediaFiles|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22AnnouncementCustomSourceMediaFiles|null
      */
     public function getAnnouncementCustomSourceMediaFiles()
     {
@@ -133,10 +133,10 @@ class MusicOnHoldSourceRead22
      * Setter for announcementCustomSourceMediaFiles
      *
      * @ElementName announcementCustomSourceMediaFiles
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\AnnouncementCustomSourceMediaFiles|null $announcementCustomSourceMediaFiles
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22AnnouncementCustomSourceMediaFiles|null $announcementCustomSourceMediaFiles
      * @return $this
      */
-    public function setAnnouncementCustomSourceMediaFiles($announcementCustomSourceMediaFiles)
+    public function setAnnouncementCustomSourceMediaFiles(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22AnnouncementCustomSourceMediaFiles $announcementCustomSourceMediaFiles)
     {
         $this->announcementCustomSourceMediaFiles = $announcementCustomSourceMediaFiles;
         return $this;
@@ -146,7 +146,7 @@ class MusicOnHoldSourceRead22
      * Getter for externalSource
      *
      * @ElementName externalSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\ExternalSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22ExternalSource|null
      */
     public function getExternalSource()
     {
@@ -157,10 +157,10 @@ class MusicOnHoldSourceRead22
      * Setter for externalSource
      *
      * @ElementName externalSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22\ExternalSource|null $externalSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22ExternalSource|null $externalSource
      * @return $this
      */
-    public function setExternalSource($externalSource)
+    public function setExternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead22ExternalSource $externalSource)
     {
         $this->externalSource = $externalSource;
         return $this;

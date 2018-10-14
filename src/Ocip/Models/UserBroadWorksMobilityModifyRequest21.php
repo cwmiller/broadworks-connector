@@ -58,7 +58,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName profileIdentityDevicesToRing
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $profileIdentityDevicesToRing = null;
 
@@ -200,7 +200,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry[] $mobileIdentity
      * @return $this
      */
-    public function setMobileIdentity($mobileIdentity)
+    public function setMobileIdentity(array $mobileIdentity)
     {
         $this->mobileIdentity = $mobileIdentity;
         return $this;
@@ -223,7 +223,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * Getter for profileIdentityDevicesToRing
      *
      * @ElementName profileIdentityDevicesToRing
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     public function getProfileIdentityDevicesToRing()
     {
@@ -234,10 +234,10 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * Setter for profileIdentityDevicesToRing
      *
      * @ElementName profileIdentityDevicesToRing
-     * @param string|null $profileIdentityDevicesToRing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null $profileIdentityDevicesToRing
      * @return $this
      */
-    public function setProfileIdentityDevicesToRing($profileIdentityDevicesToRing)
+    public function setProfileIdentityDevicesToRing(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $profileIdentityDevicesToRing)
     {
         $this->profileIdentityDevicesToRing = $profileIdentityDevicesToRing;
         return $this;
@@ -333,7 +333,7 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null $profileIdentityMobilityNumbersAlerted
      * @return $this
      */
-    public function setProfileIdentityMobilityNumbersAlerted($profileIdentityMobilityNumbersAlerted)
+    public function setProfileIdentityMobilityNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $profileIdentityMobilityNumbersAlerted)
     {
         $this->profileIdentityMobilityNumbersAlerted = $profileIdentityMobilityNumbersAlerted;
         return $this;

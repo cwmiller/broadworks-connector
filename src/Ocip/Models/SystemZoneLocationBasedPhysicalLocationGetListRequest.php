@@ -101,7 +101,7 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[] $searchCriteriaPhysicalLocation
      * @return $this
      */
-    public function setSearchCriteriaPhysicalLocation($searchCriteriaPhysicalLocation)
+    public function setSearchCriteriaPhysicalLocation(array $searchCriteriaPhysicalLocation)
     {
         $this->searchCriteriaPhysicalLocation = $searchCriteriaPhysicalLocation;
         return $this;

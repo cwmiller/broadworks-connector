@@ -39,7 +39,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedListResponse extends \CWM\B
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $networkClassOfServiceTable
      * @return $this
      */
-    public function setNetworkClassOfServiceTable($networkClassOfServiceTable)
+    public function setNetworkClassOfServiceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkClassOfServiceTable)
     {
         $this->networkClassOfServiceTable = $networkClassOfServiceTable;
         return $this;

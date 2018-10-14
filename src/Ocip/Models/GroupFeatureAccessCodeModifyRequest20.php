@@ -36,7 +36,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName useFeatureAccessCodeLevel
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
 
@@ -106,7 +106,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Getter for useFeatureAccessCodeLevel
      *
      * @ElementName useFeatureAccessCodeLevel
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     public function getUseFeatureAccessCodeLevel()
     {
@@ -117,10 +117,10 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Setter for useFeatureAccessCodeLevel
      *
      * @ElementName useFeatureAccessCodeLevel
-     * @param string|null $useFeatureAccessCodeLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null $useFeatureAccessCodeLevel
      * @return $this
      */
-    public function setUseFeatureAccessCodeLevel($useFeatureAccessCodeLevel)
+    public function setUseFeatureAccessCodeLevel(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel $useFeatureAccessCodeLevel)
     {
         $this->useFeatureAccessCodeLevel = $useFeatureAccessCodeLevel;
         return $this;
@@ -168,7 +168,7 @@ class GroupFeatureAccessCodeModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[] $featureAccessCode
      * @return $this
      */
-    public function setFeatureAccessCode($featureAccessCode)
+    public function setFeatureAccessCode(array $featureAccessCode)
     {
         $this->featureAccessCode = $featureAccessCode;
         return $this;

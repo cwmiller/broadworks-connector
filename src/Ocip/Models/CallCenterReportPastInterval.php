@@ -19,7 +19,7 @@ class CallCenterReportPastInterval
 
     /**
      * @ElementName timeUnit
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null
      */
     private $timeUnit = null;
 
@@ -51,7 +51,7 @@ class CallCenterReportPastInterval
      * Getter for timeUnit
      *
      * @ElementName timeUnit
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null
      */
     public function getTimeUnit()
     {
@@ -62,10 +62,10 @@ class CallCenterReportPastInterval
      * Setter for timeUnit
      *
      * @ElementName timeUnit
-     * @param string|null $timeUnit
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null $timeUnit
      * @return $this
      */
-    public function setTimeUnit($timeUnit)
+    public function setTimeUnit(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit $timeUnit)
     {
         $this->timeUnit = $timeUnit;
         return $this;

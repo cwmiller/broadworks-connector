@@ -208,7 +208,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -232,7 +232,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null $maximumBridgeParticipants
      * @return $this
      */
-    public function setMaximumBridgeParticipants($maximumBridgeParticipants)
+    public function setMaximumBridgeParticipants(\CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants)
     {
         $this->maximumBridgeParticipants = $maximumBridgeParticipants;
         return $this;
@@ -328,7 +328,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @param string[] $collaborateOwnerUserId
      * @return $this
      */
-    public function setCollaborateOwnerUserId($collaborateOwnerUserId)
+    public function setCollaborateOwnerUserId(array $collaborateOwnerUserId)
     {
         $this->collaborateOwnerUserId = $collaborateOwnerUserId;
         return $this;
@@ -341,7 +341,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @param string $collaborateOwnerUserId
      * @return $this
      */
-    public function addCollaborateOwnerUserId($collaborateOwnerUserId)
+    public function addCollaborateOwnerUserId(string $collaborateOwnerUserId)
     {
         $this->collaborateOwnerUserId []= $collaborateOwnerUserId;
         return $this;
@@ -365,7 +365,7 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[] $service
      * @return $this
      */
-    public function setService($service)
+    public function setService(array $service)
     {
         $this->service = $service;
         return $this;

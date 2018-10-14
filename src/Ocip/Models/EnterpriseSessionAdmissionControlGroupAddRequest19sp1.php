@@ -361,7 +361,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWo
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[] $devices
      * @return $this
      */
-    public function setDevices($devices)
+    public function setDevices(array $devices)
     {
         $this->devices = $devices;
         return $this;

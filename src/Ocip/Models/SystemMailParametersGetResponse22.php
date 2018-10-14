@@ -45,7 +45,7 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName secureMode
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
      */
     private $secureMode = null;
 
@@ -179,7 +179,7 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for secureMode
      *
      * @ElementName secureMode
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
      */
     public function getSecureMode()
     {
@@ -190,10 +190,10 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for secureMode
      *
      * @ElementName secureMode
-     * @param string|null $secureMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null $secureMode
      * @return $this
      */
-    public function setSecureMode($secureMode)
+    public function setSecureMode(\CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode $secureMode)
     {
         $this->secureMode = $secureMode;
         return $this;

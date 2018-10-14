@@ -22,7 +22,7 @@ class UserCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName category
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallingPartyCategorySelection|null
      */
     private $category = null;
 
@@ -54,7 +54,7 @@ class UserCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for category
      *
      * @ElementName category
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingPartyCategorySelection|null
      */
     public function getCategory()
     {
@@ -65,10 +65,10 @@ class UserCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for category
      *
      * @ElementName category
-     * @param string|null $category
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingPartyCategorySelection|null $category
      * @return $this
      */
-    public function setCategory($category)
+    public function setCategory(\CWM\BroadWorksConnector\Ocip\Models\CallingPartyCategorySelection $category)
     {
         $this->category = $category;
         return $this;

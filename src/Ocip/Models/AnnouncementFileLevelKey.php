@@ -20,13 +20,13 @@ class AnnouncementFileLevelKey
 
     /**
      * @ElementName mediaFileType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaFileType = null;
 
     /**
      * @ElementName level
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType|null
      */
     private $level = null;
 
@@ -58,7 +58,7 @@ class AnnouncementFileLevelKey
      * Getter for mediaFileType
      *
      * @ElementName mediaFileType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     public function getMediaFileType()
     {
@@ -69,10 +69,10 @@ class AnnouncementFileLevelKey
      * Setter for mediaFileType
      *
      * @ElementName mediaFileType
-     * @param string|null $mediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaFileType
      * @return $this
      */
-    public function setMediaFileType($mediaFileType)
+    public function setMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaFileType)
     {
         $this->mediaFileType = $mediaFileType;
         return $this;
@@ -82,7 +82,7 @@ class AnnouncementFileLevelKey
      * Getter for level
      *
      * @ElementName level
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType|null
      */
     public function getLevel()
     {
@@ -93,10 +93,10 @@ class AnnouncementFileLevelKey
      * Setter for level
      *
      * @ElementName level
-     * @param string|null $level
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType|null $level
      * @return $this
      */
-    public function setLevel($level)
+    public function setLevel(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementRepositoryType $level)
     {
         $this->level = $level;
         return $this;

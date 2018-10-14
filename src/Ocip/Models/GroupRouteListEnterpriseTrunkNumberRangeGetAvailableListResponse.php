@@ -40,7 +40,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableNumberRangeTable
      * @return $this
      */
-    public function setAvailableNumberRangeTable($availableNumberRangeTable)
+    public function setAvailableNumberRangeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableNumberRangeTable)
     {
         $this->availableNumberRangeTable = $availableNumberRangeTable;
         return $this;

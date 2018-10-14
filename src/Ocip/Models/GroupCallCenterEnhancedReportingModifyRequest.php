@@ -31,13 +31,13 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName reportingServer
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
     private $reportingServer = null;
 
     /**
      * @ElementName webStatisticSource
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
     private $webStatisticSource = null;
 
@@ -93,7 +93,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * Getter for reportingServer
      *
      * @ElementName reportingServer
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null
      */
     public function getReportingServer()
     {
@@ -104,10 +104,10 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * Setter for reportingServer
      *
      * @ElementName reportingServer
-     * @param string|null $reportingServer
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice|null $reportingServer
      * @return $this
      */
-    public function setReportingServer($reportingServer)
+    public function setReportingServer(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice $reportingServer)
     {
         $this->reportingServer = $reportingServer;
         return $this;
@@ -117,7 +117,7 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * Getter for webStatisticSource
      *
      * @ElementName webStatisticSource
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null
      */
     public function getWebStatisticSource()
     {
@@ -128,10 +128,10 @@ class GroupCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConne
      * Setter for webStatisticSource
      *
      * @ElementName webStatisticSource
-     * @param string|null $webStatisticSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource|null $webStatisticSource
      * @return $this
      */
-    public function setWebStatisticSource($webStatisticSource)
+    public function setWebStatisticSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportWebStatisticsSource $webStatisticSource)
     {
         $this->webStatisticSource = $webStatisticSource;
         return $this;

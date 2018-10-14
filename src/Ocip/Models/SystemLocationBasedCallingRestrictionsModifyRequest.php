@@ -16,7 +16,7 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName physicalLocationIndicator
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     private $physicalLocationIndicator = null;
 
@@ -42,7 +42,7 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * Getter for physicalLocationIndicator
      *
      * @ElementName physicalLocationIndicator
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     public function getPhysicalLocationIndicator()
     {
@@ -53,10 +53,10 @@ class SystemLocationBasedCallingRestrictionsModifyRequest extends \CWM\BroadWork
      * Setter for physicalLocationIndicator
      *
      * @ElementName physicalLocationIndicator
-     * @param string|null $physicalLocationIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null $physicalLocationIndicator
      * @return $this
      */
-    public function setPhysicalLocationIndicator($physicalLocationIndicator)
+    public function setPhysicalLocationIndicator(\CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator $physicalLocationIndicator)
     {
         $this->physicalLocationIndicator = $physicalLocationIndicator;
         return $this;

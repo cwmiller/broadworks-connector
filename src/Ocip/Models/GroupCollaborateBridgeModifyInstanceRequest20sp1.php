@@ -102,7 +102,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
      * @return $this
      */
-    public function setServiceInstanceProfile($serviceInstanceProfile)
+    public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
     {
         $this->serviceInstanceProfile = $serviceInstanceProfile;
         return $this;
@@ -126,7 +126,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null $maximumBridgeParticipants
      * @return $this
      */
-    public function setMaximumBridgeParticipants($maximumBridgeParticipants)
+    public function setMaximumBridgeParticipants(\CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants)
     {
         $this->maximumBridgeParticipants = $maximumBridgeParticipants;
         return $this;
@@ -222,7 +222,7 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $collaborateOwnerUserIdList
      * @return $this
      */
-    public function setCollaborateOwnerUserIdList($collaborateOwnerUserIdList)
+    public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList)
     {
         $this->collaborateOwnerUserIdList = $collaborateOwnerUserIdList;
         return $this;

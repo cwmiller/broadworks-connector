@@ -39,7 +39,7 @@ class GroupCommonPhoneListGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[] $entry
      * @return $this
      */
-    public function setEntry($entry)
+    public function setEntry(array $entry)
     {
         $this->entry = $entry;
         return $this;

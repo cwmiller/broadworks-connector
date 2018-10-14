@@ -148,7 +148,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $servicePackQuantity
      * @return $this
      */
-    public function setServicePackQuantity($servicePackQuantity)
+    public function setServicePackQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $servicePackQuantity)
     {
         $this->servicePackQuantity = $servicePackQuantity;
         return $this;
@@ -172,7 +172,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $assignedQuantity
      * @return $this
      */
-    public function setAssignedQuantity($assignedQuantity)
+    public function setAssignedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $assignedQuantity)
     {
         $this->assignedQuantity = $assignedQuantity;
         return $this;
@@ -196,7 +196,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $allowedQuantity
      * @return $this
      */
-    public function setAllowedQuantity($allowedQuantity)
+    public function setAllowedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $allowedQuantity)
     {
         $this->allowedQuantity = $allowedQuantity;
         return $this;
@@ -220,7 +220,7 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServiceTable
      * @return $this
      */
-    public function setUserServiceTable($userServiceTable)
+    public function setUserServiceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServiceTable)
     {
         $this->userServiceTable = $userServiceTable;
         return $this;

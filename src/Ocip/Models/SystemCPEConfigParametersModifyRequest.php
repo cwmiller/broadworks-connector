@@ -61,13 +61,13 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName fileRebuildDaily
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest\FileRebuildDaily|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily|null
      */
     private $fileRebuildDaily = null;
 
     /**
      * @ElementName fileRebuildHourly
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest\FileRebuildHourly|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly|null
      */
     private $fileRebuildHourly = null;
 
@@ -243,7 +243,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for fileRebuildDaily
      *
      * @ElementName fileRebuildDaily
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest\FileRebuildDaily|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily|null
      */
     public function getFileRebuildDaily()
     {
@@ -254,10 +254,10 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for fileRebuildDaily
      *
      * @ElementName fileRebuildDaily
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest\FileRebuildDaily|null $fileRebuildDaily
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily|null $fileRebuildDaily
      * @return $this
      */
-    public function setFileRebuildDaily($fileRebuildDaily)
+    public function setFileRebuildDaily(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildDaily $fileRebuildDaily)
     {
         $this->fileRebuildDaily = $fileRebuildDaily;
         return $this;
@@ -267,7 +267,7 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for fileRebuildHourly
      *
      * @ElementName fileRebuildHourly
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest\FileRebuildHourly|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly|null
      */
     public function getFileRebuildHourly()
     {
@@ -278,10 +278,10 @@ class SystemCPEConfigParametersModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for fileRebuildHourly
      *
      * @ElementName fileRebuildHourly
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequest\FileRebuildHourly|null $fileRebuildHourly
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly|null $fileRebuildHourly
      * @return $this
      */
-    public function setFileRebuildHourly($fileRebuildHourly)
+    public function setFileRebuildHourly(\CWM\BroadWorksConnector\Ocip\Models\SystemCPEConfigParametersModifyRequestFileRebuildHourly $fileRebuildHourly)
     {
         $this->fileRebuildHourly = $fileRebuildHourly;
         return $this;

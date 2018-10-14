@@ -43,7 +43,7 @@ class GroupDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnector\O
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupDeviceTypeFilesTable
      * @return $this
      */
-    public function setGroupDeviceTypeFilesTable($groupDeviceTypeFilesTable)
+    public function setGroupDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeFilesTable)
     {
         $this->groupDeviceTypeFilesTable = $groupDeviceTypeFilesTable;
         return $this;

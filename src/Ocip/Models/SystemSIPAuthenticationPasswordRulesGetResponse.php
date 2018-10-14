@@ -99,7 +99,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName endpointAuthenticationLockoutType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $endpointAuthenticationLockoutType = null;
 
@@ -111,13 +111,13 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName endpointWaitAlgorithm
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $endpointWaitAlgorithm = null;
 
     /**
      * @ElementName endpointLockoutFixedMinutes
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $endpointLockoutFixedMinutes = null;
 
@@ -129,7 +129,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName trunkGroupAuthenticationLockoutType
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $trunkGroupAuthenticationLockoutType = null;
 
@@ -141,13 +141,13 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName trunkGroupWaitAlgorithm
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $trunkGroupWaitAlgorithm = null;
 
     /**
      * @ElementName trunkGroupLockoutFixedMinutes
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $trunkGroupLockoutFixedMinutes = null;
 
@@ -497,7 +497,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Getter for endpointAuthenticationLockoutType
      *
      * @ElementName endpointAuthenticationLockoutType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     public function getEndpointAuthenticationLockoutType()
     {
@@ -508,10 +508,10 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Setter for endpointAuthenticationLockoutType
      *
      * @ElementName endpointAuthenticationLockoutType
-     * @param string|null $endpointAuthenticationLockoutType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null $endpointAuthenticationLockoutType
      * @return $this
      */
-    public function setEndpointAuthenticationLockoutType($endpointAuthenticationLockoutType)
+    public function setEndpointAuthenticationLockoutType(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $endpointAuthenticationLockoutType)
     {
         $this->endpointAuthenticationLockoutType = $endpointAuthenticationLockoutType;
         return $this;
@@ -545,7 +545,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Getter for endpointWaitAlgorithm
      *
      * @ElementName endpointWaitAlgorithm
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     public function getEndpointWaitAlgorithm()
     {
@@ -556,10 +556,10 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Setter for endpointWaitAlgorithm
      *
      * @ElementName endpointWaitAlgorithm
-     * @param string|null $endpointWaitAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null $endpointWaitAlgorithm
      * @return $this
      */
-    public function setEndpointWaitAlgorithm($endpointWaitAlgorithm)
+    public function setEndpointWaitAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $endpointWaitAlgorithm)
     {
         $this->endpointWaitAlgorithm = $endpointWaitAlgorithm;
         return $this;
@@ -569,7 +569,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Getter for endpointLockoutFixedMinutes
      *
      * @ElementName endpointLockoutFixedMinutes
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     public function getEndpointLockoutFixedMinutes()
     {
@@ -580,10 +580,10 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Setter for endpointLockoutFixedMinutes
      *
      * @ElementName endpointLockoutFixedMinutes
-     * @param string|null $endpointLockoutFixedMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null $endpointLockoutFixedMinutes
      * @return $this
      */
-    public function setEndpointLockoutFixedMinutes($endpointLockoutFixedMinutes)
+    public function setEndpointLockoutFixedMinutes(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $endpointLockoutFixedMinutes)
     {
         $this->endpointLockoutFixedMinutes = $endpointLockoutFixedMinutes;
         return $this;
@@ -617,7 +617,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Getter for trunkGroupAuthenticationLockoutType
      *
      * @ElementName trunkGroupAuthenticationLockoutType
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     public function getTrunkGroupAuthenticationLockoutType()
     {
@@ -628,10 +628,10 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Setter for trunkGroupAuthenticationLockoutType
      *
      * @ElementName trunkGroupAuthenticationLockoutType
-     * @param string|null $trunkGroupAuthenticationLockoutType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null $trunkGroupAuthenticationLockoutType
      * @return $this
      */
-    public function setTrunkGroupAuthenticationLockoutType($trunkGroupAuthenticationLockoutType)
+    public function setTrunkGroupAuthenticationLockoutType(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $trunkGroupAuthenticationLockoutType)
     {
         $this->trunkGroupAuthenticationLockoutType = $trunkGroupAuthenticationLockoutType;
         return $this;
@@ -665,7 +665,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Getter for trunkGroupWaitAlgorithm
      *
      * @ElementName trunkGroupWaitAlgorithm
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     public function getTrunkGroupWaitAlgorithm()
     {
@@ -676,10 +676,10 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Setter for trunkGroupWaitAlgorithm
      *
      * @ElementName trunkGroupWaitAlgorithm
-     * @param string|null $trunkGroupWaitAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null $trunkGroupWaitAlgorithm
      * @return $this
      */
-    public function setTrunkGroupWaitAlgorithm($trunkGroupWaitAlgorithm)
+    public function setTrunkGroupWaitAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $trunkGroupWaitAlgorithm)
     {
         $this->trunkGroupWaitAlgorithm = $trunkGroupWaitAlgorithm;
         return $this;
@@ -689,7 +689,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Getter for trunkGroupLockoutFixedMinutes
      *
      * @ElementName trunkGroupLockoutFixedMinutes
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     public function getTrunkGroupLockoutFixedMinutes()
     {
@@ -700,10 +700,10 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
      * Setter for trunkGroupLockoutFixedMinutes
      *
      * @ElementName trunkGroupLockoutFixedMinutes
-     * @param string|null $trunkGroupLockoutFixedMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null $trunkGroupLockoutFixedMinutes
      * @return $this
      */
-    public function setTrunkGroupLockoutFixedMinutes($trunkGroupLockoutFixedMinutes)
+    public function setTrunkGroupLockoutFixedMinutes(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $trunkGroupLockoutFixedMinutes)
     {
         $this->trunkGroupLockoutFixedMinutes = $trunkGroupLockoutFixedMinutes;
         return $this;

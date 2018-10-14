@@ -45,7 +45,7 @@ class GroupCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
      * @return $this
      */
-    public function setAgentUserTable($agentUserTable)
+    public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
     {
         $this->agentUserTable = $agentUserTable;
         return $this;
@@ -69,7 +69,7 @@ class GroupCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadWorksC
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deletedAgentUserTable
      * @return $this
      */
-    public function setDeletedAgentUserTable($deletedAgentUserTable)
+    public function setDeletedAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deletedAgentUserTable)
     {
         $this->deletedAgentUserTable = $deletedAgentUserTable;
         return $this;

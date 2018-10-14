@@ -42,7 +42,7 @@ class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnecto
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceInstanceTable
      * @return $this
      */
-    public function setServiceInstanceTable($serviceInstanceTable)
+    public function setServiceInstanceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceInstanceTable)
     {
         $this->serviceInstanceTable = $serviceInstanceTable;
         return $this;

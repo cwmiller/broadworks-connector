@@ -46,7 +46,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
 
     /**
      * @ElementName audioMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
@@ -64,7 +64,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
 
     /**
      * @ElementName videoMessageSelection
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
@@ -204,7 +204,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * Getter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getAudioMessageSelection()
     {
@@ -215,10 +215,10 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * Setter for audioMessageSelection
      *
      * @ElementName audioMessageSelection
-     * @param string|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
      * @return $this
      */
-    public function setAudioMessageSelection($audioMessageSelection)
+    public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
     {
         $this->audioMessageSelection = $audioMessageSelection;
         return $this;
@@ -242,7 +242,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $audioUrlList
      * @return $this
      */
-    public function setAudioUrlList($audioUrlList)
+    public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList)
     {
         $this->audioUrlList = $audioUrlList;
         return $this;
@@ -266,7 +266,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $audioFileList
      * @return $this
      */
-    public function setAudioFileList($audioFileList)
+    public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $audioFileList)
     {
         $this->audioFileList = $audioFileList;
         return $this;
@@ -276,7 +276,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * Getter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     public function getVideoMessageSelection()
     {
@@ -287,10 +287,10 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * Setter for videoMessageSelection
      *
      * @ElementName videoMessageSelection
-     * @param string|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
      * @return $this
      */
-    public function setVideoMessageSelection($videoMessageSelection)
+    public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
     {
         $this->videoMessageSelection = $videoMessageSelection;
         return $this;
@@ -314,7 +314,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $videoUrlList
      * @return $this
      */
-    public function setVideoUrlList($videoUrlList)
+    public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList)
     {
         $this->videoUrlList = $videoUrlList;
         return $this;
@@ -338,7 +338,7 @@ class GroupCallCenterComfortMessageBypassModifyRequest20 extends \CWM\BroadWorks
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $videoFileList
      * @return $this
      */
-    public function setVideoFileList($videoFileList)
+    public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $videoFileList)
     {
         $this->videoFileList = $videoFileList;
         return $this;

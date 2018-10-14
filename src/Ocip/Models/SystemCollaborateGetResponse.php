@@ -261,7 +261,7 @@ class SystemCollaborateGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
      * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null $collaborateGracePeriod
      * @return $this
      */
-    public function setCollaborateGracePeriod($collaborateGracePeriod)
+    public function setCollaborateGracePeriod(\CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration $collaborateGracePeriod)
     {
         $this->collaborateGracePeriod = $collaborateGracePeriod;
         return $this;

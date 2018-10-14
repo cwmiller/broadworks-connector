@@ -30,7 +30,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName incomingCalls
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
 
@@ -92,7 +92,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * Getter for incomingCalls
      *
      * @ElementName incomingCalls
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     public function getIncomingCalls()
     {
@@ -103,10 +103,10 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * Setter for incomingCalls
      *
      * @ElementName incomingCalls
-     * @param string|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null $incomingCalls
      * @return $this
      */
-    public function setIncomingCalls($incomingCalls)
+    public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls)
     {
         $this->incomingCalls = $incomingCalls;
         return $this;
@@ -130,7 +130,7 @@ class UserSimultaneousRingPersonalModifyRequest extends \CWM\BroadWorksConnector
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $simRingPhoneNumberList
      * @return $this
      */
-    public function setSimRingPhoneNumberList($simRingPhoneNumberList)
+    public function setSimRingPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $simRingPhoneNumberList)
     {
         $this->simRingPhoneNumberList = $simRingPhoneNumberList;
         return $this;

@@ -136,7 +136,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null $searchCriteriaExactUserGroup
      * @return $this
      */
-    public function setSearchCriteriaExactUserGroup($searchCriteriaExactUserGroup)
+    public function setSearchCriteriaExactUserGroup(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup $searchCriteriaExactUserGroup)
     {
         $this->searchCriteriaExactUserGroup = $searchCriteriaExactUserGroup;
         return $this;
@@ -160,7 +160,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null $searchCriteriaCallCenterName
      * @return $this
      */
-    public function setSearchCriteriaCallCenterName($searchCriteriaCallCenterName)
+    public function setSearchCriteriaCallCenterName(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName $searchCriteriaCallCenterName)
     {
         $this->searchCriteriaCallCenterName = $searchCriteriaCallCenterName;
         return $this;

@@ -34,7 +34,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName nsScreeningFailurePolicy
-     * @var string|null
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     private $nsScreeningFailurePolicy = null;
 
@@ -122,7 +122,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for nsScreeningFailurePolicy
      *
      * @ElementName nsScreeningFailurePolicy
-     * @return string|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     public function getNsScreeningFailurePolicy()
     {
@@ -133,10 +133,10 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for nsScreeningFailurePolicy
      *
      * @ElementName nsScreeningFailurePolicy
-     * @param string|null $nsScreeningFailurePolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null $nsScreeningFailurePolicy
      * @return $this
      */
-    public function setNsScreeningFailurePolicy($nsScreeningFailurePolicy)
+    public function setNsScreeningFailurePolicy(\CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy $nsScreeningFailurePolicy)
     {
         $this->nsScreeningFailurePolicy = $nsScreeningFailurePolicy;
         return $this;
@@ -160,7 +160,7 @@ class GroupDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[] $criteriaPriorityOrder
      * @return $this
      */
-    public function setCriteriaPriorityOrder($criteriaPriorityOrder)
+    public function setCriteriaPriorityOrder(array $criteriaPriorityOrder)
     {
         $this->criteriaPriorityOrder = $criteriaPriorityOrder;
         return $this;

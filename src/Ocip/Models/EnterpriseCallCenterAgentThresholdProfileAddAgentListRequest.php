@@ -102,7 +102,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
      * @param string[] $agentUserId
      * @return $this
      */
-    public function setAgentUserId($agentUserId)
+    public function setAgentUserId(array $agentUserId)
     {
         $this->agentUserId = $agentUserId;
         return $this;
@@ -115,7 +115,7 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
      * @param string $agentUserId
      * @return $this
      */
-    public function addAgentUserId($agentUserId)
+    public function addAgentUserId(string $agentUserId)
     {
         $this->agentUserId []= $agentUserId;
         return $this;

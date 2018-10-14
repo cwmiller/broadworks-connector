@@ -42,7 +42,7 @@ class CallCenterReportSchedule
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleTime|null $scheduleTime
      * @return $this
      */
-    public function setScheduleTime($scheduleTime)
+    public function setScheduleTime(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleTime $scheduleTime)
     {
         $this->scheduleTime = $scheduleTime;
         return $this;
@@ -66,7 +66,7 @@ class CallCenterReportSchedule
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleRecurrence|null $recurrence
      * @return $this
      */
-    public function setRecurrence($recurrence)
+    public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleRecurrence $recurrence)
     {
         $this->recurrence = $recurrence;
         return $this;

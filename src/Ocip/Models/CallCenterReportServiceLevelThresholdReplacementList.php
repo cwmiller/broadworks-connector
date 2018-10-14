@@ -37,7 +37,7 @@ class CallCenterReportServiceLevelThresholdReplacementList
      * @param int[] $serviceLevelThresholdSeconds
      * @return $this
      */
-    public function setServiceLevelThresholdSeconds($serviceLevelThresholdSeconds)
+    public function setServiceLevelThresholdSeconds(array $serviceLevelThresholdSeconds)
     {
         $this->serviceLevelThresholdSeconds = $serviceLevelThresholdSeconds;
         return $this;
@@ -50,7 +50,7 @@ class CallCenterReportServiceLevelThresholdReplacementList
      * @param int $serviceLevelThresholdSeconds
      * @return $this
      */
-    public function addServiceLevelThresholdSeconds($serviceLevelThresholdSeconds)
+    public function addServiceLevelThresholdSeconds(int $serviceLevelThresholdSeconds)
     {
         $this->serviceLevelThresholdSeconds []= $serviceLevelThresholdSeconds;
         return $this;

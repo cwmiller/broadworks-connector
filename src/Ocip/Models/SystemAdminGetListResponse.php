@@ -38,7 +38,7 @@ class SystemAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemAdminTable
      * @return $this
      */
-    public function setSystemAdminTable($systemAdminTable)
+    public function setSystemAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemAdminTable)
     {
         $this->systemAdminTable = $systemAdminTable;
         return $this;

@@ -39,7 +39,7 @@ class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $diversionReasonTable
      * @return $this
      */
-    public function setDiversionReasonTable($diversionReasonTable)
+    public function setDiversionReasonTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $diversionReasonTable)
     {
         $this->diversionReasonTable = $diversionReasonTable;
         return $this;

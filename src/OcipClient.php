@@ -323,6 +323,10 @@ class OcipClient
             throw new \InvalidArgumentException('Unable to parse URL.');
         }
 
+        if (!isset($parsedUrl['scheme'])) {
+            throw new \InvalidArgumentException('URL should include a schema.');
+        }
+
         switch ($parsedUrl['scheme']) {
             case 'http':
             case 'https':
@@ -332,7 +336,7 @@ class OcipClient
                 $this->transport = new TcpTransport($parsedUrl['host'], isset($parsedUrl['port']) ? $parsedUrl['port'] : 2208);
                 break;
             default:
-                throw new \InvalidArgumentException('Unsupported protocol ' . $parsedUrl['scheme']);
+                throw new \InvalidArgumentException('Unsupported scheme ' . $parsedUrl['scheme']);
         }
     }
 

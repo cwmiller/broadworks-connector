@@ -14,6 +14,11 @@
             "CWM\\BroadWorksConnector\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "CWM\\BroadWorksConnector\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": ">=5.4.0",
         "ext-soap": "*",
@@ -22,6 +27,7 @@
         "myclabs/php-enum": "^1.6"
     },
     "require-dev": {
-        "cwm/broadworks-xsd-converter": "2.0"
+        "cwm/broadworks-xsd-converter": "2.0",
+        "phpunit/phpunit": "^4.8|^5.7|^6.5"
     }
 }

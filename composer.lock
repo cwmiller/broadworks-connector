@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "563976b0279127bc9f5e274f5e03a9cf",
-    "content-hash": "2d960daf575f08a62e9bb87ae28dc09e",
+    "hash": "c0c67538d191b84bd76c532ec8b34c00",
+    "content-hash": "67eedffc51b16fce9d52716444aee283",
     "packages": [
         {
             "name": "myclabs/php-enum",
@@ -55,22 +55,26 @@
     "packages-dev": [
         {
             "name": "cwm/broadworks-xsd-converter",
-            "version": "2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cwmiller/broadworks-xsd-converter.git",
-                "reference": "277ac161bc7b17490688bd176827d8b78a0b94a2"
+                "reference": "c8fba50406690eda09fe47c52fa8f025007e48b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/277ac161bc7b17490688bd176827d8b78a0b94a2",
-                "reference": "277ac161bc7b17490688bd176827d8b78a0b94a2",
+                "url": "https://api.github.com/repos/cwmiller/broadworks-xsd-converter/zipball/c8fba50406690eda09fe47c52fa8f025007e48b8",
+                "reference": "c8fba50406690eda09fe47c52fa8f025007e48b8",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
                 "ext-xml": "*",
                 "php": ">=5.4.0",
                 "zendframework/zend-code": "^3.1"
+            },
+            "require-dev": {
+                "myclabs/php-enum": "^1.6"
             },
             "type": "project",
             "autoload": {
@@ -89,7 +93,7 @@
                 }
             ],
             "description": "Converts XSD files for BroadWorks APIs into PHP classes.",
-            "time": "2018-07-22 18:31:26"
+            "time": "2018-10-13 22:25:51"
         },
         {
             "name": "doctrine/instantiator",
@@ -1385,7 +1389,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cwm/broadworks-xsd-converter": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

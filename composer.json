@@ -27,7 +27,6 @@
         "myclabs/php-enum": "^1.6"
     },
     "require-dev": {
-        "cwm/broadworks-xsd-converter": "dev-master",
-        "phpunit/phpunit": "^4.8|^5.7|^6.5"
+        "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
     }
 }

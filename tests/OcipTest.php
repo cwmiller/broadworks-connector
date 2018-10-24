@@ -33,14 +33,24 @@ class OcipTest extends \PHPUnit\Framework\TestCase
 
     public function testUnhandledScheme()
     {
-        $this->setExpectedException('InvalidArgumentException');
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('InvalidArgumentException');
+        } else {
+            $this->setExpectedException('InvalidArgumentException');
+        }
 
         new OcipClient('ftp://test.com', 'username', 'password');
     }
 
     public function testUnspecifiedScheme()
     {
-        $this->setExpectedException('InvalidArgumentException');
+        // setExpectedException is gone from phpunit 5
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('InvalidArgumentException');
+        } else {
+            $this->setExpectedException('InvalidArgumentException');
+        }
 
         new OcipClient('test.com', 'username', 'password');
     }

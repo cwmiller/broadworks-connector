@@ -394,30 +394,25 @@ class OcipClient
             $authRequest = (new AuthenticationRequest())
                 ->setUserId($this->username);
 
-            /** @var AuthenticationResponse|ErrorResponse $authResponse */
-            $authResponse = $this->executeCommands([$authRequest])[0];
+            try {
+                /** @var AuthenticationResponse $authResponse */
+                $authResponse = $this->executeCommands([$authRequest])[0];
 
-            if ($authResponse instanceof ErrorResponse) {
-                throw new LoginException($authResponse->getSummary());
-            }
+                $signedPassword = null;
 
-            $signedPassword = null;
+                if ($authResponse->getPasswordAlgorithm() === null || $authResponse->getPasswordAlgorithm()->getValue() === DigitalSignatureAlgorithm::MD5) {
+                    $signedPassword = md5($authResponse->getNonce() . ':' . sha1($this->password));
+                } else {
+                    throw new LoginException('Only MD5 supported for signing');
+                }
 
-            if ($authResponse->getPasswordAlgorithm() === null || $authResponse->getPasswordAlgorithm()->getValue() === DigitalSignatureAlgorithm::MD5) {
-                $signedPassword = md5($authResponse->getNonce() . ':' . sha1($this->password));
-            } else {
-                throw new LoginException('Only MD5 supported for signing');
-            }
+                $loginRequest = (new LoginRequest14sp4())
+                        ->setUserId($this->username)
+                        ->setSignedPassword($signedPassword);
 
-            $loginRequest = (new LoginRequest14sp4())
-                ->setUserId($this->username)
-                ->setSignedPassword($signedPassword);
-
-            /** @var LoginResponse14sp4|ErrorResponse $authResponse */
-            $loginResponse = $this->executeCommands([$loginRequest])[0];
-
-            if ($loginResponse instanceof ErrorResponse) {
-                throw new LoginException($loginResponse->getSummary());
+                $this->executeCommands([$loginRequest]);
+            } catch(ErrorResponseException $e) {
+                throw new LoginException($e->getMessage(), $e);
             }
 
             $this->loggedIn = true;

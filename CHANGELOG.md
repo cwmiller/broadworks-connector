@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.3] - 2018-11-03
+### Fixed
+- ErrorResponseException was being thrown during login failure instead of LoginException.
+
 ## [2.0.2] - 2018-10-07
 ### Fixed
 - Fixed object serialization so it casts values to the their appropriate type. 
@@ -20,6 +24,7 @@
 ### Added
 - OcipClient now exposes helper methods for every request object.
 
+[2.0.3]: https://github.com/cwmiller/broadworks-connector/compare/2.0.2...2.0.3
 [2.0.2]: https://github.com/cwmiller/broadworks-connector/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/cwmiller/broadworks-connector/compare/2.0...2.0.1
 [2.0.0]: https://github.com/cwmiller/broadworks-connector/compare/1.1...2.0

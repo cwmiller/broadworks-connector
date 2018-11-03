@@ -387,22 +387,17 @@ class OcipClient
             $authRequest = (new AuthenticationRequest())
                 ->setUserId($this->username);
 
-            /** @var AuthenticationResponse|ErrorResponse $authResponse */
-            $authResponse = $this->executeCommands([$authRequest])[0];
+            try {
+                /** @var AuthenticationResponse $authResponse */
+                $authResponse = $this->executeCommands([$authRequest])[0];
 
-            if ($authResponse instanceof ErrorResponse) {
-                throw new LoginException($authResponse->getSummary());
-            }
+                $loginRequest = (new LoginRequest14sp4())
+                    ->setUserId($this->username)
+                    ->setSignedPassword(md5($authResponse->getNonce() . ':' . sha1($this->password)));
 
-            $loginRequest = (new LoginRequest14sp4())
-                ->setUserId($this->username)
-                ->setSignedPassword(md5($authResponse->getNonce() . ':' . sha1($this->password)));
-
-            /** @var LoginResponse14sp4|ErrorResponse $authResponse */
-            $loginResponse = $this->executeCommands([$loginRequest])[0];
-
-            if ($loginResponse instanceof ErrorResponse) {
-                throw new LoginException($loginResponse->getSummary());
+                $this->executeCommands([$loginRequest]);
+            } catch(ErrorResponseException $e) {
+                throw new LoginException($e->getMessage(), $e);
             }
 
             $this->loggedIn = true;

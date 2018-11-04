@@ -62,7 +62,7 @@ use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetResponse21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityAddRequest21sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityDeleteRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityModifyRequest21;
 use CWM\BroadWorksConnector\Ocip\ErrorResponseException;
@@ -483,7 +483,7 @@ trait OCISchemaServiceBroadWorksMobility
 
     /**
      * @param UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request
-     * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1
+     * @return UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2
      * @throws ErrorResponseException
      */
     public function userBroadWorksMobilityMobileIdentityGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 $request)

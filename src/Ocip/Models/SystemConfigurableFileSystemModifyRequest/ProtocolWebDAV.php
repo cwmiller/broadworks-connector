@@ -16,13 +16,15 @@ class ProtocolWebDAV
 
     /**
      * @ElementName userName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userName = null;
 
     /**
      * @ElementName password
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
 
@@ -60,7 +62,8 @@ class ProtocolWebDAV
      * Getter for userName
      *
      * @ElementName userName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserName()
     {
@@ -71,7 +74,8 @@ class ProtocolWebDAV
      * Setter for userName
      *
      * @ElementName userName
-     * @param string|null $userName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -84,7 +88,8 @@ class ProtocolWebDAV
      * Getter for password
      *
      * @ElementName password
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPassword()
     {
@@ -95,7 +100,8 @@ class ProtocolWebDAV
      * Setter for password
      *
      * @ElementName password
-     * @param string|null $password
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $password
      * @return $this
      */
     public function setPassword($password)

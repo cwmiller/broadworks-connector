@@ -80,7 +80,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfi
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetResponse19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyDefaultRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCPEConfigRebuildConfigFileRequest;
@@ -157,7 +157,7 @@ use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetDefaultResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionGetRequest;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\ServiceProviderHPBXAlternateCarrierSelectionModifyRequest;
@@ -804,7 +804,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 $request
-     * @return ServiceProviderCommunicationBarringProfileGetResponse19sp1
+     * @return ServiceProviderCommunicationBarringProfileGetResponse19sp1V2
      * @throws ErrorResponseException
      */
     public function serviceProviderCommunicationBarringProfileGetRequest19sp1V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 $request)
@@ -1364,7 +1364,7 @@ trait OCISchemaServiceProvider
 
     /**
      * @param ServiceProviderGetRequest22V2 $request
-     * @return ServiceProviderGetResponse22
+     * @return ServiceProviderGetResponse22V2
      * @throws ErrorResponseException
      */
     public function serviceProviderGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderGetRequest22V2 $request)

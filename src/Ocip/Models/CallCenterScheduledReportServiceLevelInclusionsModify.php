@@ -31,7 +31,8 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
 
     /**
      * @ElementName abandonedCallIntervalSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $abandonedCallIntervalSeconds = null;
 
@@ -111,7 +112,8 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
      * Getter for abandonedCallIntervalSeconds
      *
      * @ElementName abandonedCallIntervalSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAbandonedCallIntervalSeconds()
     {
@@ -122,7 +124,8 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
      * Setter for abandonedCallIntervalSeconds
      *
      * @ElementName abandonedCallIntervalSeconds
-     * @param int|null $abandonedCallIntervalSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $abandonedCallIntervalSeconds
      * @return $this
      */
     public function setAbandonedCallIntervalSeconds($abandonedCallIntervalSeconds)

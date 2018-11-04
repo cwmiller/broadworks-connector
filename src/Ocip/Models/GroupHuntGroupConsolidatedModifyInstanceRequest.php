@@ -92,19 +92,22 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName forwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
 
     /**
      * @ElementName agentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
 
     /**
      * @ElementName agentWeightList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentWeightList = null;
 
@@ -134,7 +137,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName notReachableForwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notReachableForwardToPhoneNumber = null;
 
@@ -170,7 +174,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName serviceList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceList = null;
 
@@ -182,7 +187,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName directoryNumberHuntingAgentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $directoryNumberHuntingAgentUserIdList = null;
 
@@ -418,7 +424,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardToPhoneNumber()
     {
@@ -429,7 +436,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
@@ -442,7 +450,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUserIdList()
     {
@@ -453,7 +462,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList($agentUserIdList)
@@ -466,7 +476,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for agentWeightList
      *
      * @ElementName agentWeightList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentWeightList()
     {
@@ -477,7 +488,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for agentWeightList
      *
      * @ElementName agentWeightList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null $agentWeightList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementAgentWeightList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentWeightList
      * @return $this
      */
     public function setAgentWeightList($agentWeightList)
@@ -586,7 +598,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for notReachableForwardToPhoneNumber
      *
      * @ElementName notReachableForwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNotReachableForwardToPhoneNumber()
     {
@@ -597,7 +610,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for notReachableForwardToPhoneNumber
      *
      * @ElementName notReachableForwardToPhoneNumber
-     * @param string|null $notReachableForwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $notReachableForwardToPhoneNumber
      * @return $this
      */
     public function setNotReachableForwardToPhoneNumber($notReachableForwardToPhoneNumber)
@@ -730,7 +744,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for serviceList
      *
      * @ElementName serviceList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceList()
     {
@@ -741,7 +756,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for serviceList
      *
      * @ElementName serviceList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceList
      * @return $this
      */
     public function setServiceList($serviceList)
@@ -778,7 +794,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Getter for directoryNumberHuntingAgentUserIdList
      *
      * @ElementName directoryNumberHuntingAgentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDirectoryNumberHuntingAgentUserIdList()
     {
@@ -789,7 +806,8 @@ class GroupHuntGroupConsolidatedModifyInstanceRequest extends \CWM\BroadWorksCon
      * Setter for directoryNumberHuntingAgentUserIdList
      *
      * @ElementName directoryNumberHuntingAgentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $directoryNumberHuntingAgentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $directoryNumberHuntingAgentUserIdList
      * @return $this
      */
     public function setDirectoryNumberHuntingAgentUserIdList($directoryNumberHuntingAgentUserIdList)

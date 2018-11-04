@@ -36,7 +36,8 @@ class UserCustomRingbackUserModifyCriteriaRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
@@ -170,7 +171,8 @@ class UserCustomRingbackUserModifyCriteriaRequest extends \CWM\BroadWorksConnect
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -181,7 +183,8 @@ class UserCustomRingbackUserModifyCriteriaRequest extends \CWM\BroadWorksConnect
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)

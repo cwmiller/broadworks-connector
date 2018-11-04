@@ -28,7 +28,8 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName accessDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
 
@@ -90,7 +91,8 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * Getter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceEndpoint()
     {
@@ -101,7 +103,8 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
      * Setter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null $accessDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint($accessDeviceEndpoint)

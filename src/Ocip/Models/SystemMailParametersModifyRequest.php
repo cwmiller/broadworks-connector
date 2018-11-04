@@ -16,13 +16,15 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName primaryServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $primaryServerNetAddress = null;
 
     /**
      * @ElementName secondaryServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $secondaryServerNetAddress = null;
 
@@ -34,7 +36,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName defaultSubject
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultSubject = null;
 
@@ -52,7 +55,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName port
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
 
@@ -60,7 +64,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for primaryServerNetAddress
      *
      * @ElementName primaryServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrimaryServerNetAddress()
     {
@@ -71,7 +76,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for primaryServerNetAddress
      *
      * @ElementName primaryServerNetAddress
-     * @param string|null $primaryServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $primaryServerNetAddress
      * @return $this
      */
     public function setPrimaryServerNetAddress($primaryServerNetAddress)
@@ -84,7 +90,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for secondaryServerNetAddress
      *
      * @ElementName secondaryServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSecondaryServerNetAddress()
     {
@@ -95,7 +102,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for secondaryServerNetAddress
      *
      * @ElementName secondaryServerNetAddress
-     * @param string|null $secondaryServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $secondaryServerNetAddress
      * @return $this
      */
     public function setSecondaryServerNetAddress($secondaryServerNetAddress)
@@ -132,7 +140,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for defaultSubject
      *
      * @ElementName defaultSubject
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultSubject()
     {
@@ -143,7 +152,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for defaultSubject
      *
      * @ElementName defaultSubject
-     * @param string|null $defaultSubject
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultSubject
      * @return $this
      */
     public function setDefaultSubject($defaultSubject)
@@ -204,7 +214,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for port
      *
      * @ElementName port
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPort()
     {
@@ -215,7 +226,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for port
      *
      * @ElementName port
-     * @param int|null $port
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
      * @return $this
      */
     public function setPort($port)

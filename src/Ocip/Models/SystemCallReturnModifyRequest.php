@@ -34,7 +34,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName confirmationKey
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmationKey = null;
 
@@ -126,7 +127,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for confirmationKey
      *
      * @ElementName confirmationKey
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConfirmationKey()
     {
@@ -137,7 +139,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for confirmationKey
      *
      * @ElementName confirmationKey
-     * @param string|null $confirmationKey
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $confirmationKey
      * @return $this
      */
     public function setConfirmationKey($confirmationKey)

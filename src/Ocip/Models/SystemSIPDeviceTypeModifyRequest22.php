@@ -116,7 +116,8 @@ class SystemSIPDeviceTypeModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName webBasedConfigURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webBasedConfigURL = null;
 
@@ -200,7 +201,8 @@ class SystemSIPDeviceTypeModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName resetEvent
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
 
@@ -562,7 +564,8 @@ class SystemSIPDeviceTypeModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebBasedConfigURL()
     {
@@ -573,7 +576,8 @@ class SystemSIPDeviceTypeModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @param string|null $webBasedConfigURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webBasedConfigURL
      * @return $this
      */
     public function setWebBasedConfigURL($webBasedConfigURL)
@@ -898,7 +902,8 @@ class SystemSIPDeviceTypeModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getResetEvent()
     {
@@ -909,7 +914,8 @@ class SystemSIPDeviceTypeModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param string|null $resetEvent
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resetEvent
      * @return $this
      */
     public function setResetEvent($resetEvent)

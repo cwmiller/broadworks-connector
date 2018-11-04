@@ -76,7 +76,8 @@ class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorks
 
     /**
      * @ElementName supportedMediaSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
 
@@ -130,7 +131,8 @@ class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorks
 
     /**
      * @ElementName conferenceURI
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceURI = null;
 
@@ -438,7 +440,8 @@ class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorks
      * Getter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupportedMediaSetName()
     {
@@ -449,7 +452,8 @@ class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorks
      * Setter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @param string|null $supportedMediaSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportedMediaSetName
      * @return $this
      */
     public function setSupportedMediaSetName($supportedMediaSetName)
@@ -654,7 +658,8 @@ class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorks
      * Getter for conferenceURI
      *
      * @ElementName conferenceURI
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConferenceURI()
     {
@@ -665,7 +670,8 @@ class ServiceProviderCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorks
      * Setter for conferenceURI
      *
      * @ElementName conferenceURI
-     * @param string|null $conferenceURI
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $conferenceURI
      * @return $this
      */
     public function setConferenceURI($conferenceURI)

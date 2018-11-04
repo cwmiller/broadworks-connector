@@ -59,7 +59,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
 
     /**
      * @ElementName reportDeliveryEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportDeliveryEmailAddress = null;
 
@@ -71,7 +72,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
 
     /**
      * @ElementName abortErrorThreshold
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $abortErrorThreshold = null;
 
@@ -259,7 +261,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * Getter for reportDeliveryEmailAddress
      *
      * @ElementName reportDeliveryEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReportDeliveryEmailAddress()
     {
@@ -270,7 +273,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * Setter for reportDeliveryEmailAddress
      *
      * @ElementName reportDeliveryEmailAddress
-     * @param string|null $reportDeliveryEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportDeliveryEmailAddress
      * @return $this
      */
     public function setReportDeliveryEmailAddress($reportDeliveryEmailAddress)
@@ -307,7 +311,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * Getter for abortErrorThreshold
      *
      * @ElementName abortErrorThreshold
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAbortErrorThreshold()
     {
@@ -318,7 +323,8 @@ class ServiceProviderServicePackMigrationTaskModifyRequest extends \CWM\BroadWor
      * Setter for abortErrorThreshold
      *
      * @ElementName abortErrorThreshold
-     * @param int|null $abortErrorThreshold
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $abortErrorThreshold
      * @return $this
      */
     public function setAbortErrorThreshold($abortErrorThreshold)

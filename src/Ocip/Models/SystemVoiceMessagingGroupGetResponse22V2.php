@@ -39,7 +39,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            storageSelection, value "Mail Server" is returned in AS and XS data
  * mode
  *
- * @see SystemVoiceMessagingGroupGetRequest22
+ * @see SystemVoiceMessagingGroupGetRequest22V2
  */
 class SystemVoiceMessagingGroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

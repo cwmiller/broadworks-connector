@@ -22,7 +22,8 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceUserIdList = null;
 
@@ -54,7 +55,8 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
      * Getter for serviceUserIdList
      *
      * @ElementName serviceUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceUserIdList()
     {
@@ -65,7 +67,8 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
      * Setter for serviceUserIdList
      *
      * @ElementName serviceUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $serviceUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceUserIdList
      * @return $this
      */
     public function setServiceUserIdList($serviceUserIdList)

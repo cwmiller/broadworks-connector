@@ -22,7 +22,8 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
 
     /**
      * @ElementName monitoredUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $monitoredUserIdList = null;
 
@@ -54,7 +55,8 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
      * Getter for monitoredUserIdList
      *
      * @ElementName monitoredUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMonitoredUserIdList()
     {
@@ -65,7 +67,8 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
      * Setter for monitoredUserIdList
      *
      * @ElementName monitoredUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $monitoredUserIdList
      * @return $this
      */
     public function setMonitoredUserIdList($monitoredUserIdList)

@@ -41,7 +41,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -53,25 +54,29 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName originatingDefaultTreatmentId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultTreatmentId = null;
 
     /**
      * @ElementName originatingDefaultTransferNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultTransferNumber = null;
 
     /**
      * @ElementName originatingDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultCallTimeout = null;
 
     /**
      * @ElementName originatingRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingRule = null;
 
@@ -83,13 +88,15 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName redirectingDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingDefaultCallTimeout = null;
 
     /**
      * @ElementName redirectingRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingRule = null;
 
@@ -101,13 +108,15 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName callMeNowDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callMeNowDefaultCallTimeout = null;
 
     /**
      * @ElementName callMeNowRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callMeNowRule = null;
 
@@ -119,13 +128,15 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName incomingDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $incomingDefaultCallTimeout = null;
 
     /**
      * @ElementName incomingRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $incomingRule = null;
 
@@ -217,7 +228,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -228,7 +240,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -265,7 +278,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for originatingDefaultTreatmentId
      *
      * @ElementName originatingDefaultTreatmentId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingDefaultTreatmentId()
     {
@@ -276,7 +290,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for originatingDefaultTreatmentId
      *
      * @ElementName originatingDefaultTreatmentId
-     * @param string|null $originatingDefaultTreatmentId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultTreatmentId
      * @return $this
      */
     public function setOriginatingDefaultTreatmentId($originatingDefaultTreatmentId)
@@ -289,7 +304,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for originatingDefaultTransferNumber
      *
      * @ElementName originatingDefaultTransferNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingDefaultTransferNumber()
     {
@@ -300,7 +316,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for originatingDefaultTransferNumber
      *
      * @ElementName originatingDefaultTransferNumber
-     * @param string|null $originatingDefaultTransferNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultTransferNumber
      * @return $this
      */
     public function setOriginatingDefaultTransferNumber($originatingDefaultTransferNumber)
@@ -313,7 +330,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for originatingDefaultCallTimeout
      *
      * @ElementName originatingDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingDefaultCallTimeout()
     {
@@ -324,7 +342,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for originatingDefaultCallTimeout
      *
      * @ElementName originatingDefaultCallTimeout
-     * @param int|null $originatingDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultCallTimeout
      * @return $this
      */
     public function setOriginatingDefaultCallTimeout($originatingDefaultCallTimeout)
@@ -337,7 +356,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for originatingRule
      *
      * @ElementName originatingRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingRule()
     {
@@ -348,7 +368,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for originatingRule
      *
      * @ElementName originatingRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null $originatingRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingRule
      * @return $this
      */
     public function setOriginatingRule($originatingRule)
@@ -385,7 +406,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for redirectingDefaultCallTimeout
      *
      * @ElementName redirectingDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRedirectingDefaultCallTimeout()
     {
@@ -396,7 +418,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for redirectingDefaultCallTimeout
      *
      * @ElementName redirectingDefaultCallTimeout
-     * @param int|null $redirectingDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingDefaultCallTimeout
      * @return $this
      */
     public function setRedirectingDefaultCallTimeout($redirectingDefaultCallTimeout)
@@ -409,7 +432,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for redirectingRule
      *
      * @ElementName redirectingRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRedirectingRule()
     {
@@ -420,7 +444,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for redirectingRule
      *
      * @ElementName redirectingRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null $redirectingRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingRule
      * @return $this
      */
     public function setRedirectingRule($redirectingRule)
@@ -457,7 +482,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for callMeNowDefaultCallTimeout
      *
      * @ElementName callMeNowDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallMeNowDefaultCallTimeout()
     {
@@ -468,7 +494,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for callMeNowDefaultCallTimeout
      *
      * @ElementName callMeNowDefaultCallTimeout
-     * @param int|null $callMeNowDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $callMeNowDefaultCallTimeout
      * @return $this
      */
     public function setCallMeNowDefaultCallTimeout($callMeNowDefaultCallTimeout)
@@ -481,7 +508,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for callMeNowRule
      *
      * @ElementName callMeNowRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallMeNowRule()
     {
@@ -492,7 +520,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for callMeNowRule
      *
      * @ElementName callMeNowRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null $callMeNowRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $callMeNowRule
      * @return $this
      */
     public function setCallMeNowRule($callMeNowRule)
@@ -529,7 +558,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for incomingDefaultCallTimeout
      *
      * @ElementName incomingDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIncomingDefaultCallTimeout()
     {
@@ -540,7 +570,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for incomingDefaultCallTimeout
      *
      * @ElementName incomingDefaultCallTimeout
-     * @param int|null $incomingDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $incomingDefaultCallTimeout
      * @return $this
      */
     public function setIncomingDefaultCallTimeout($incomingDefaultCallTimeout)
@@ -553,7 +584,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Getter for incomingRule
      *
      * @ElementName incomingRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIncomingRule()
     {
@@ -564,7 +596,8 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
      * Setter for incomingRule
      *
      * @ElementName incomingRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null $incomingRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil $incomingRule
      * @return $this
      */
     public function setIncomingRule($incomingRule)

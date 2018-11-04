@@ -52,19 +52,22 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName publicUserIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $publicUserIdentity = null;
 
     /**
      * @ElementName networkVoicePortalNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkVoicePortalNumber = null;
 
@@ -264,7 +267,8 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -275,7 +279,8 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -288,7 +293,8 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for publicUserIdentity
      *
      * @ElementName publicUserIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPublicUserIdentity()
     {
@@ -299,7 +305,8 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for publicUserIdentity
      *
      * @ElementName publicUserIdentity
-     * @param string|null $publicUserIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $publicUserIdentity
      * @return $this
      */
     public function setPublicUserIdentity($publicUserIdentity)
@@ -312,7 +319,8 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for networkVoicePortalNumber
      *
      * @ElementName networkVoicePortalNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkVoicePortalNumber()
     {
@@ -323,7 +331,8 @@ class SystemSystemVoicePortalModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for networkVoicePortalNumber
      *
      * @ElementName networkVoicePortalNumber
-     * @param string|null $networkVoicePortalNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkVoicePortalNumber
      * @return $this
      */
     public function setNetworkVoicePortalNumber($networkVoicePortalNumber)

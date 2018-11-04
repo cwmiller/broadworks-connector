@@ -18,8 +18,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * logs are stored on DBS
  *         The logs are sorted by date/time of the call.
  *
- * @see UserEnhancedCallLogsGetListRequest21sp1
- * @see UserEnhancedCallLogsGetListRequest21sp1
+ * @see UserEnhancedCallLogsGetListRequest21sp1V2
+ * @see UserEnhancedCallLogsGetListRequest21sp1V2
  */
 class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

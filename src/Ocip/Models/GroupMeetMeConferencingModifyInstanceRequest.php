@@ -52,13 +52,15 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName operatorNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $operatorNumber = null;
 
     /**
      * @ElementName conferenceHostUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceHostUserIdList = null;
 
@@ -240,7 +242,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * Getter for operatorNumber
      *
      * @ElementName operatorNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOperatorNumber()
     {
@@ -251,7 +254,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * Setter for operatorNumber
      *
      * @ElementName operatorNumber
-     * @param string|null $operatorNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $operatorNumber
      * @return $this
      */
     public function setOperatorNumber($operatorNumber)
@@ -264,7 +268,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * Getter for conferenceHostUserIdList
      *
      * @ElementName conferenceHostUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConferenceHostUserIdList()
     {
@@ -275,7 +280,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * Setter for conferenceHostUserIdList
      *
      * @ElementName conferenceHostUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $conferenceHostUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $conferenceHostUserIdList
      * @return $this
      */
     public function setConferenceHostUserIdList($conferenceHostUserIdList)

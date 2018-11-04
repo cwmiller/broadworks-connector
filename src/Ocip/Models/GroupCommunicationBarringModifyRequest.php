@@ -34,7 +34,8 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profile = null;
 
@@ -114,7 +115,8 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProfile()
     {
@@ -125,7 +127,8 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profile
      * @return $this
      */
     public function setProfile($profile)

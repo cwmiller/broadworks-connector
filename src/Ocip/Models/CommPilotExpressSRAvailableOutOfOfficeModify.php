@@ -13,7 +13,8 @@ class CommPilotExpressSRAvailableOutOfOfficeModify
 
     /**
      * @ElementName remotePhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $remotePhoneNumber = null;
 
@@ -33,7 +34,8 @@ class CommPilotExpressSRAvailableOutOfOfficeModify
      * Getter for remotePhoneNumber
      *
      * @ElementName remotePhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRemotePhoneNumber()
     {
@@ -44,7 +46,8 @@ class CommPilotExpressSRAvailableOutOfOfficeModify
      * Setter for remotePhoneNumber
      *
      * @ElementName remotePhoneNumber
-     * @param string|null $remotePhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $remotePhoneNumber
      * @return $this
      */
     public function setRemotePhoneNumber($remotePhoneNumber)

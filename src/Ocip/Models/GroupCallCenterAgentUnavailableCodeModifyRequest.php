@@ -40,7 +40,8 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -144,7 +145,8 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -155,7 +157,8 @@ class GroupCallCenterAgentUnavailableCodeModifyRequest extends \CWM\BroadWorksCo
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)

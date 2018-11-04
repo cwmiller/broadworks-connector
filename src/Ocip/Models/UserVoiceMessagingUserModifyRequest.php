@@ -113,13 +113,15 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName busyPersonalAudioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $busyPersonalAudioFile = null;
 
     /**
      * @ElementName busyPersonalVideoFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $busyPersonalVideoFile = null;
 
@@ -131,13 +133,15 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName noAnswerPersonalAudioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noAnswerPersonalAudioFile = null;
 
     /**
      * @ElementName noAnswerPersonalVideoFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noAnswerPersonalVideoFile = null;
 
@@ -173,13 +177,15 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName extendedAwayAudioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extendedAwayAudioFile = null;
 
     /**
      * @ElementName extendedAwayVideoFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extendedAwayVideoFile = null;
 
@@ -203,7 +209,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName greetingOnlyForwardDestination
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardDestination = null;
 
@@ -215,7 +222,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outgoingSMDIMWIPhoneNumberList = null;
 
@@ -233,7 +241,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName voiceMessageDeliveryEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageDeliveryEmailAddress = null;
 
@@ -251,7 +260,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName voiceMessageNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageNotifyEmailAddress = null;
 
@@ -263,7 +273,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageCarbonCopyEmailAddress = null;
 
@@ -275,7 +286,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -317,7 +329,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName personalizedNameAudioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedNameAudioFile = null;
 
@@ -704,7 +717,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for busyPersonalAudioFile
      *
      * @ElementName busyPersonalAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBusyPersonalAudioFile()
     {
@@ -715,7 +729,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for busyPersonalAudioFile
      *
      * @ElementName busyPersonalAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalAudioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $busyPersonalAudioFile
      * @return $this
      */
     public function setBusyPersonalAudioFile($busyPersonalAudioFile)
@@ -728,7 +743,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for busyPersonalVideoFile
      *
      * @ElementName busyPersonalVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBusyPersonalVideoFile()
     {
@@ -739,7 +755,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for busyPersonalVideoFile
      *
      * @ElementName busyPersonalVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalVideoFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $busyPersonalVideoFile
      * @return $this
      */
     public function setBusyPersonalVideoFile($busyPersonalVideoFile)
@@ -776,7 +793,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for noAnswerPersonalAudioFile
      *
      * @ElementName noAnswerPersonalAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNoAnswerPersonalAudioFile()
     {
@@ -787,7 +805,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for noAnswerPersonalAudioFile
      *
      * @ElementName noAnswerPersonalAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalAudioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $noAnswerPersonalAudioFile
      * @return $this
      */
     public function setNoAnswerPersonalAudioFile($noAnswerPersonalAudioFile)
@@ -800,7 +819,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for noAnswerPersonalVideoFile
      *
      * @ElementName noAnswerPersonalVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNoAnswerPersonalVideoFile()
     {
@@ -811,7 +831,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for noAnswerPersonalVideoFile
      *
      * @ElementName noAnswerPersonalVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalVideoFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $noAnswerPersonalVideoFile
      * @return $this
      */
     public function setNoAnswerPersonalVideoFile($noAnswerPersonalVideoFile)
@@ -944,7 +965,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for extendedAwayAudioFile
      *
      * @ElementName extendedAwayAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtendedAwayAudioFile()
     {
@@ -955,7 +977,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for extendedAwayAudioFile
      *
      * @ElementName extendedAwayAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayAudioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $extendedAwayAudioFile
      * @return $this
      */
     public function setExtendedAwayAudioFile($extendedAwayAudioFile)
@@ -968,7 +991,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for extendedAwayVideoFile
      *
      * @ElementName extendedAwayVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtendedAwayVideoFile()
     {
@@ -979,7 +1003,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for extendedAwayVideoFile
      *
      * @ElementName extendedAwayVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayVideoFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $extendedAwayVideoFile
      * @return $this
      */
     public function setExtendedAwayVideoFile($extendedAwayVideoFile)
@@ -1064,7 +1089,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for greetingOnlyForwardDestination
      *
      * @ElementName greetingOnlyForwardDestination
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGreetingOnlyForwardDestination()
     {
@@ -1075,7 +1101,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for greetingOnlyForwardDestination
      *
      * @ElementName greetingOnlyForwardDestination
-     * @param string|null $greetingOnlyForwardDestination
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetingOnlyForwardDestination
      * @return $this
      */
     public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination)
@@ -1112,7 +1139,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for outgoingSMDIMWIPhoneNumberList
      *
      * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutgoingSMDIMWIPhoneNumberList()
     {
@@ -1123,7 +1151,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for outgoingSMDIMWIPhoneNumberList
      *
      * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null $outgoingSMDIMWIPhoneNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil $outgoingSMDIMWIPhoneNumberList
      * @return $this
      */
     public function setOutgoingSMDIMWIPhoneNumberList($outgoingSMDIMWIPhoneNumberList)
@@ -1184,7 +1213,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for voiceMessageDeliveryEmailAddress
      *
      * @ElementName voiceMessageDeliveryEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessageDeliveryEmailAddress()
     {
@@ -1195,7 +1225,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for voiceMessageDeliveryEmailAddress
      *
      * @ElementName voiceMessageDeliveryEmailAddress
-     * @param string|null $voiceMessageDeliveryEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessageDeliveryEmailAddress
      * @return $this
      */
     public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress)
@@ -1256,7 +1287,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for voiceMessageNotifyEmailAddress
      *
      * @ElementName voiceMessageNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessageNotifyEmailAddress()
     {
@@ -1267,7 +1299,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for voiceMessageNotifyEmailAddress
      *
      * @ElementName voiceMessageNotifyEmailAddress
-     * @param string|null $voiceMessageNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessageNotifyEmailAddress
      * @return $this
      */
     public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress)
@@ -1304,7 +1337,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for voiceMessageCarbonCopyEmailAddress
      *
      * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessageCarbonCopyEmailAddress()
     {
@@ -1315,7 +1349,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for voiceMessageCarbonCopyEmailAddress
      *
      * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @param string|null $voiceMessageCarbonCopyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessageCarbonCopyEmailAddress
      * @return $this
      */
     public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress)
@@ -1352,7 +1387,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -1363,7 +1399,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
@@ -1520,7 +1557,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for personalizedNameAudioFile
      *
      * @ElementName personalizedNameAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedNameAudioFile()
     {
@@ -1531,7 +1569,8 @@ class UserVoiceMessagingUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for personalizedNameAudioFile
      *
      * @ElementName personalizedNameAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $personalizedNameAudioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedNameAudioFile
      * @return $this
      */
     public function setPersonalizedNameAudioFile($personalizedNameAudioFile)

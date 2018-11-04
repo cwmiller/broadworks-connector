@@ -13,8 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     
  *         Replaced by: GroupTrunkGroupGetInstanceResponse19V2
  *
- * @see GroupTrunkGroupGetInstanceRequest17sp4
- * @see GroupTrunkGroupGetInstanceResponse19
+ * @see GroupTrunkGroupGetInstanceRequest17sp4V2
+ * @see GroupTrunkGroupGetInstanceResponse19V2
  */
 class GroupTrunkGroupGetInstanceResponse17sp4V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

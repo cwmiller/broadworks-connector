@@ -40,13 +40,15 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -58,7 +60,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName forwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
 
@@ -70,7 +73,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName callToNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;
 
@@ -150,7 +154,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -161,7 +166,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -174,7 +180,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -185,7 +192,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -222,7 +230,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Getter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardToPhoneNumber()
     {
@@ -233,7 +242,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Setter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
@@ -270,7 +280,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Getter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallToNumberList()
     {
@@ -281,7 +292,8 @@ class UserCallForwardingSelectiveModifyCriteriaRequest extends \CWM\BroadWorksCo
      * Setter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
      * @return $this
      */
     public function setCallToNumberList($callToNumberList)

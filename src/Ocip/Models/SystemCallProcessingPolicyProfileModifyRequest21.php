@@ -28,13 +28,15 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName assignedSubscriberTypeList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $assignedSubscriberTypeList = null;
 
@@ -90,7 +92,8 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -101,7 +104,8 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -114,7 +118,8 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
      * Getter for assignedSubscriberTypeList
      *
      * @ElementName assignedSubscriberTypeList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAssignedSubscriberTypeList()
     {
@@ -125,7 +130,8 @@ class SystemCallProcessingPolicyProfileModifyRequest21 extends \CWM\BroadWorksCo
      * Setter for assignedSubscriberTypeList
      *
      * @ElementName assignedSubscriberTypeList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null $assignedSubscriberTypeList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList21|null|\CWM\BroadWorksConnector\Ocip\Nil $assignedSubscriberTypeList
      * @return $this
      */
     public function setAssignedSubscriberTypeList($assignedSubscriberTypeList)

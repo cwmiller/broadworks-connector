@@ -61,7 +61,8 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName forwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
 
@@ -115,7 +116,8 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName agentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
 
@@ -315,7 +317,8 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardToPhoneNumber()
     {
@@ -326,7 +329,8 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
@@ -531,7 +535,8 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUserIdList()
     {
@@ -542,7 +547,8 @@ class GroupCallCenterModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList($agentUserIdList)

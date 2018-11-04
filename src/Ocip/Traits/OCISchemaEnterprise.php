@@ -50,7 +50,7 @@ use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupDe
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseUserCallForwardingSettingsGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\EnterpriseUserCallForwardingSettingsGetListResponse;
@@ -430,7 +430,7 @@ trait OCISchemaEnterprise
 
     /**
      * @param EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 $request
-     * @return EnterpriseSessionAdmissionControlGroupGetResponse21sp1
+     * @return EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2
      * @throws ErrorResponseException
      */
     public function enterpriseSessionAdmissionControlGroupGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2 $request)

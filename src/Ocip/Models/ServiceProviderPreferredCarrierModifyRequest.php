@@ -38,19 +38,22 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName intraLataCarrier
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $internationalCarrier = null;
 
@@ -106,7 +109,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * Getter for intraLataCarrier
      *
      * @ElementName intraLataCarrier
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIntraLataCarrier()
     {
@@ -117,7 +121,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * Setter for intraLataCarrier
      *
      * @ElementName intraLataCarrier
-     * @param string|null $intraLataCarrier
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $intraLataCarrier
      * @return $this
      */
     public function setIntraLataCarrier($intraLataCarrier)
@@ -130,7 +135,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * Getter for interLataCarrier
      *
      * @ElementName interLataCarrier
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getInterLataCarrier()
     {
@@ -141,7 +147,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * Setter for interLataCarrier
      *
      * @ElementName interLataCarrier
-     * @param string|null $interLataCarrier
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $interLataCarrier
      * @return $this
      */
     public function setInterLataCarrier($interLataCarrier)
@@ -154,7 +161,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * Getter for internationalCarrier
      *
      * @ElementName internationalCarrier
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getInternationalCarrier()
     {
@@ -165,7 +173,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * Setter for internationalCarrier
      *
      * @ElementName internationalCarrier
-     * @param string|null $internationalCarrier
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $internationalCarrier
      * @return $this
      */
     public function setInternationalCarrier($internationalCarrier)

@@ -24,19 +24,22 @@ class CommunicationBarringOriginatingRule
 
     /**
      * @ElementName treatmentId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentId = null;
 
     /**
      * @ElementName transferNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferNumber = null;
 
     /**
      * @ElementName callTimeoutSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callTimeoutSeconds = null;
 
@@ -92,7 +95,8 @@ class CommunicationBarringOriginatingRule
      * Getter for treatmentId
      *
      * @ElementName treatmentId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTreatmentId()
     {
@@ -103,7 +107,8 @@ class CommunicationBarringOriginatingRule
      * Setter for treatmentId
      *
      * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
@@ -116,7 +121,8 @@ class CommunicationBarringOriginatingRule
      * Getter for transferNumber
      *
      * @ElementName transferNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferNumber()
     {
@@ -127,7 +133,8 @@ class CommunicationBarringOriginatingRule
      * Setter for transferNumber
      *
      * @ElementName transferNumber
-     * @param string|null $transferNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferNumber
      * @return $this
      */
     public function setTransferNumber($transferNumber)
@@ -140,7 +147,8 @@ class CommunicationBarringOriginatingRule
      * Getter for callTimeoutSeconds
      *
      * @ElementName callTimeoutSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallTimeoutSeconds()
     {
@@ -151,7 +159,8 @@ class CommunicationBarringOriginatingRule
      * Setter for callTimeoutSeconds
      *
      * @ElementName callTimeoutSeconds
-     * @param int|null $callTimeoutSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $callTimeoutSeconds
      * @return $this
      */
     public function setCallTimeoutSeconds($callTimeoutSeconds)

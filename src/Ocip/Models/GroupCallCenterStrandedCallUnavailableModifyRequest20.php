@@ -28,13 +28,15 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
 
     /**
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $numberOfAgentsWithSpecifiedUnavailableCode = null;
 
     /**
      * @ElementName agentsUnavailableCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentsUnavailableCode = null;
 
@@ -46,7 +48,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -138,7 +141,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * Getter for numberOfAgentsWithSpecifiedUnavailableCode
      *
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNumberOfAgentsWithSpecifiedUnavailableCode()
     {
@@ -149,7 +153,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * Setter for numberOfAgentsWithSpecifiedUnavailableCode
      *
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
-     * @param int|null $numberOfAgentsWithSpecifiedUnavailableCode
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $numberOfAgentsWithSpecifiedUnavailableCode
      * @return $this
      */
     public function setNumberOfAgentsWithSpecifiedUnavailableCode($numberOfAgentsWithSpecifiedUnavailableCode)
@@ -162,7 +167,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * Getter for agentsUnavailableCode
      *
      * @ElementName agentsUnavailableCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentsUnavailableCode()
     {
@@ -173,7 +179,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * Setter for agentsUnavailableCode
      *
      * @ElementName agentsUnavailableCode
-     * @param string|null $agentsUnavailableCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $agentsUnavailableCode
      * @return $this
      */
     public function setAgentsUnavailableCode($agentsUnavailableCode)
@@ -210,7 +217,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -221,7 +229,8 @@ class GroupCallCenterStrandedCallUnavailableModifyRequest20 extends \CWM\BroadWo
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

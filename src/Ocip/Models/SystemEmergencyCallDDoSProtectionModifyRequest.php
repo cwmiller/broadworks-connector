@@ -28,7 +28,8 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName protectionRate
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $protectionRate = null;
 
@@ -90,7 +91,8 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * Getter for protectionRate
      *
      * @ElementName protectionRate
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProtectionRate()
     {
@@ -101,7 +103,8 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
      * Setter for protectionRate
      *
      * @ElementName protectionRate
-     * @param int|null $protectionRate
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $protectionRate
      * @return $this
      */
     public function setProtectionRate($protectionRate)

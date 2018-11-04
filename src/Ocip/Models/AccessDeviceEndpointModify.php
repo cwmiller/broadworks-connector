@@ -25,7 +25,8 @@ class AccessDeviceEndpointModify
 
     /**
      * @ElementName contact
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contact = null;
 
@@ -87,7 +88,8 @@ class AccessDeviceEndpointModify
      * Getter for contact
      *
      * @ElementName contact
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContact()
     {
@@ -98,7 +100,8 @@ class AccessDeviceEndpointModify
      * Setter for contact
      *
      * @ElementName contact
-     * @param string|null $contact
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contact
      * @return $this
      */
     public function setContact($contact)

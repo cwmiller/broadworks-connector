@@ -28,13 +28,15 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
 
     /**
      * @ElementName preselectedLocalCarrier
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preselectedLocalCarrier = null;
 
     /**
      * @ElementName preselectedDistantCarrier
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preselectedDistantCarrier = null;
 
@@ -90,7 +92,8 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * Getter for preselectedLocalCarrier
      *
      * @ElementName preselectedLocalCarrier
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPreselectedLocalCarrier()
     {
@@ -101,7 +104,8 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * Setter for preselectedLocalCarrier
      *
      * @ElementName preselectedLocalCarrier
-     * @param string|null $preselectedLocalCarrier
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preselectedLocalCarrier
      * @return $this
      */
     public function setPreselectedLocalCarrier($preselectedLocalCarrier)
@@ -114,7 +118,8 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * Getter for preselectedDistantCarrier
      *
      * @ElementName preselectedDistantCarrier
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPreselectedDistantCarrier()
     {
@@ -125,7 +130,8 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
      * Setter for preselectedDistantCarrier
      *
      * @ElementName preselectedDistantCarrier
-     * @param string|null $preselectedDistantCarrier
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preselectedDistantCarrier
      * @return $this
      */
     public function setPreselectedDistantCarrier($preselectedDistantCarrier)

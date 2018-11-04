@@ -64,7 +64,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName mailServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mailServerNetAddress = null;
 
@@ -124,7 +125,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName defaultExternalRoutingAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultExternalRoutingAddress = null;
 
@@ -324,7 +326,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for mailServerNetAddress
      *
      * @ElementName mailServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMailServerNetAddress()
     {
@@ -335,7 +338,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for mailServerNetAddress
      *
      * @ElementName mailServerNetAddress
-     * @param string|null $mailServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mailServerNetAddress
      * @return $this
      */
     public function setMailServerNetAddress($mailServerNetAddress)
@@ -564,7 +568,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for defaultExternalRoutingAddress
      *
      * @ElementName defaultExternalRoutingAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultExternalRoutingAddress()
     {
@@ -575,7 +580,8 @@ class SystemVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for defaultExternalRoutingAddress
      *
      * @ElementName defaultExternalRoutingAddress
-     * @param string|null $defaultExternalRoutingAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultExternalRoutingAddress
      * @return $this
      */
     public function setDefaultExternalRoutingAddress($defaultExternalRoutingAddress)

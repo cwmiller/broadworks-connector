@@ -52,7 +52,8 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName mailServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mailServerNetAddress = null;
 
@@ -234,7 +235,8 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for mailServerNetAddress
      *
      * @ElementName mailServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMailServerNetAddress()
     {
@@ -245,7 +247,8 @@ class GroupVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for mailServerNetAddress
      *
      * @ElementName mailServerNetAddress
-     * @param string|null $mailServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mailServerNetAddress
      * @return $this
      */
     public function setMailServerNetAddress($mailServerNetAddress)

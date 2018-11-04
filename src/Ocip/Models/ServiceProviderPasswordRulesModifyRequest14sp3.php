@@ -130,7 +130,8 @@ class ServiceProviderPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;
 
@@ -588,7 +589,8 @@ class ServiceProviderPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConn
      * Getter for loginDisabledNotifyEmailAddress
      *
      * @ElementName loginDisabledNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLoginDisabledNotifyEmailAddress()
     {
@@ -599,7 +601,8 @@ class ServiceProviderPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConn
      * Setter for loginDisabledNotifyEmailAddress
      *
      * @ElementName loginDisabledNotifyEmailAddress
-     * @param string|null $loginDisabledNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $loginDisabledNotifyEmailAddress
      * @return $this
      */
     public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress)

@@ -40,121 +40,141 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday01
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday01 = null;
 
     /**
      * @ElementName holiday02
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday02 = null;
 
     /**
      * @ElementName holiday03
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday03 = null;
 
     /**
      * @ElementName holiday04
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday04 = null;
 
     /**
      * @ElementName holiday05
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday05 = null;
 
     /**
      * @ElementName holiday06
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday06 = null;
 
     /**
      * @ElementName holiday07
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday07 = null;
 
     /**
      * @ElementName holiday08
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday08 = null;
 
     /**
      * @ElementName holiday09
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday09 = null;
 
     /**
      * @ElementName holiday10
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday10 = null;
 
     /**
      * @ElementName holiday11
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday11 = null;
 
     /**
      * @ElementName holiday12
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday12 = null;
 
     /**
      * @ElementName holiday13
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday13 = null;
 
     /**
      * @ElementName holiday14
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday14 = null;
 
     /**
      * @ElementName holiday15
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday15 = null;
 
     /**
      * @ElementName holiday16
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday16 = null;
 
     /**
      * @ElementName holiday17
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday17 = null;
 
     /**
      * @ElementName holiday18
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday18 = null;
 
     /**
      * @ElementName holiday19
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday19 = null;
 
     /**
      * @ElementName holiday20
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holiday20 = null;
 
@@ -258,7 +278,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday01
      *
      * @ElementName holiday01
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday01()
     {
@@ -269,7 +290,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday01
      *
      * @ElementName holiday01
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday01
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday01
      * @return $this
      */
     public function setHoliday01($holiday01)
@@ -282,7 +304,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday02
      *
      * @ElementName holiday02
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday02()
     {
@@ -293,7 +316,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday02
      *
      * @ElementName holiday02
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday02
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday02
      * @return $this
      */
     public function setHoliday02($holiday02)
@@ -306,7 +330,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday03
      *
      * @ElementName holiday03
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday03()
     {
@@ -317,7 +342,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday03
      *
      * @ElementName holiday03
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday03
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday03
      * @return $this
      */
     public function setHoliday03($holiday03)
@@ -330,7 +356,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday04
      *
      * @ElementName holiday04
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday04()
     {
@@ -341,7 +368,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday04
      *
      * @ElementName holiday04
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday04
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday04
      * @return $this
      */
     public function setHoliday04($holiday04)
@@ -354,7 +382,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday05
      *
      * @ElementName holiday05
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday05()
     {
@@ -365,7 +394,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday05
      *
      * @ElementName holiday05
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday05
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday05
      * @return $this
      */
     public function setHoliday05($holiday05)
@@ -378,7 +408,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday06
      *
      * @ElementName holiday06
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday06()
     {
@@ -389,7 +420,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday06
      *
      * @ElementName holiday06
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday06
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday06
      * @return $this
      */
     public function setHoliday06($holiday06)
@@ -402,7 +434,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday07
      *
      * @ElementName holiday07
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday07()
     {
@@ -413,7 +446,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday07
      *
      * @ElementName holiday07
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday07
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday07
      * @return $this
      */
     public function setHoliday07($holiday07)
@@ -426,7 +460,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday08
      *
      * @ElementName holiday08
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday08()
     {
@@ -437,7 +472,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday08
      *
      * @ElementName holiday08
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday08
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday08
      * @return $this
      */
     public function setHoliday08($holiday08)
@@ -450,7 +486,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday09
      *
      * @ElementName holiday09
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday09()
     {
@@ -461,7 +498,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday09
      *
      * @ElementName holiday09
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday09
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday09
      * @return $this
      */
     public function setHoliday09($holiday09)
@@ -474,7 +512,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday10
      *
      * @ElementName holiday10
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday10()
     {
@@ -485,7 +524,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday10
      *
      * @ElementName holiday10
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday10
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday10
      * @return $this
      */
     public function setHoliday10($holiday10)
@@ -498,7 +538,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday11
      *
      * @ElementName holiday11
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday11()
     {
@@ -509,7 +550,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday11
      *
      * @ElementName holiday11
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday11
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday11
      * @return $this
      */
     public function setHoliday11($holiday11)
@@ -522,7 +564,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday12
      *
      * @ElementName holiday12
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday12()
     {
@@ -533,7 +576,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday12
      *
      * @ElementName holiday12
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday12
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday12
      * @return $this
      */
     public function setHoliday12($holiday12)
@@ -546,7 +590,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday13
      *
      * @ElementName holiday13
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday13()
     {
@@ -557,7 +602,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday13
      *
      * @ElementName holiday13
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday13
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday13
      * @return $this
      */
     public function setHoliday13($holiday13)
@@ -570,7 +616,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday14
      *
      * @ElementName holiday14
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday14()
     {
@@ -581,7 +628,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday14
      *
      * @ElementName holiday14
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday14
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday14
      * @return $this
      */
     public function setHoliday14($holiday14)
@@ -594,7 +642,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday15
      *
      * @ElementName holiday15
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday15()
     {
@@ -605,7 +654,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday15
      *
      * @ElementName holiday15
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday15
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday15
      * @return $this
      */
     public function setHoliday15($holiday15)
@@ -618,7 +668,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday16
      *
      * @ElementName holiday16
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday16()
     {
@@ -629,7 +680,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday16
      *
      * @ElementName holiday16
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday16
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday16
      * @return $this
      */
     public function setHoliday16($holiday16)
@@ -642,7 +694,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday17
      *
      * @ElementName holiday17
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday17()
     {
@@ -653,7 +706,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday17
      *
      * @ElementName holiday17
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday17
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday17
      * @return $this
      */
     public function setHoliday17($holiday17)
@@ -666,7 +720,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday18
      *
      * @ElementName holiday18
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday18()
     {
@@ -677,7 +732,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday18
      *
      * @ElementName holiday18
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday18
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday18
      * @return $this
      */
     public function setHoliday18($holiday18)
@@ -690,7 +746,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday19
      *
      * @ElementName holiday19
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday19()
     {
@@ -701,7 +758,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday19
      *
      * @ElementName holiday19
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday19
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday19
      * @return $this
      */
     public function setHoliday19($holiday19)
@@ -714,7 +772,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for holiday20
      *
      * @ElementName holiday20
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoliday20()
     {
@@ -725,7 +784,8 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for holiday20
      *
      * @ElementName holiday20
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday20
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday20
      * @return $this
      */
     public function setHoliday20($holiday20)

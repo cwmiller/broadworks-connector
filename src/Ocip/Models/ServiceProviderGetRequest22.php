@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetResponse22
  * @see ErrorResponse
- * @see ServiceProviderGetRequest22
+ * @see ServiceProviderGetRequest22V2
  */
 class ServiceProviderGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

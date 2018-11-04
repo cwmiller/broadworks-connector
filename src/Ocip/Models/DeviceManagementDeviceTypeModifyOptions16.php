@@ -24,7 +24,8 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName tagSet
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSet = null;
 
@@ -54,37 +55,43 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName deviceAccessNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessNetAddress = null;
 
     /**
      * @ElementName deviceAccessPort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessPort = null;
 
     /**
      * @ElementName deviceAccessContext
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessContext = null;
 
     /**
      * @ElementName defaultDeviceLanguage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultDeviceLanguage = null;
 
     /**
      * @ElementName defaultDeviceEncoding
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultDeviceEncoding = null;
 
     /**
      * @ElementName accessDeviceCredentials
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;
 
@@ -120,7 +127,8 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName macFormatInNonRequestURI
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macFormatInNonRequestURI = null;
 
@@ -176,7 +184,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for tagSet
      *
      * @ElementName tagSet
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTagSet()
     {
@@ -187,7 +196,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for tagSet
      *
      * @ElementName tagSet
-     * @param string|null $tagSet
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagSet
      * @return $this
      */
     public function setTagSet($tagSet)
@@ -296,7 +306,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for deviceAccessNetAddress
      *
      * @ElementName deviceAccessNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeviceAccessNetAddress()
     {
@@ -307,7 +318,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for deviceAccessNetAddress
      *
      * @ElementName deviceAccessNetAddress
-     * @param string|null $deviceAccessNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessNetAddress
      * @return $this
      */
     public function setDeviceAccessNetAddress($deviceAccessNetAddress)
@@ -320,7 +332,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for deviceAccessPort
      *
      * @ElementName deviceAccessPort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeviceAccessPort()
     {
@@ -331,7 +344,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for deviceAccessPort
      *
      * @ElementName deviceAccessPort
-     * @param int|null $deviceAccessPort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessPort
      * @return $this
      */
     public function setDeviceAccessPort($deviceAccessPort)
@@ -344,7 +358,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for deviceAccessContext
      *
      * @ElementName deviceAccessContext
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeviceAccessContext()
     {
@@ -355,7 +370,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for deviceAccessContext
      *
      * @ElementName deviceAccessContext
-     * @param string|null $deviceAccessContext
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessContext
      * @return $this
      */
     public function setDeviceAccessContext($deviceAccessContext)
@@ -368,7 +384,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for defaultDeviceLanguage
      *
      * @ElementName defaultDeviceLanguage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultDeviceLanguage()
     {
@@ -379,7 +396,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for defaultDeviceLanguage
      *
      * @ElementName defaultDeviceLanguage
-     * @param string|null $defaultDeviceLanguage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultDeviceLanguage
      * @return $this
      */
     public function setDefaultDeviceLanguage($defaultDeviceLanguage)
@@ -392,7 +410,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for defaultDeviceEncoding
      *
      * @ElementName defaultDeviceEncoding
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultDeviceEncoding()
     {
@@ -403,7 +422,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for defaultDeviceEncoding
      *
      * @ElementName defaultDeviceEncoding
-     * @param string|null $defaultDeviceEncoding
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultDeviceEncoding
      * @return $this
      */
     public function setDefaultDeviceEncoding($defaultDeviceEncoding)
@@ -416,7 +436,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for accessDeviceCredentials
      *
      * @ElementName accessDeviceCredentials
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceCredentials()
     {
@@ -427,7 +448,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for accessDeviceCredentials
      *
      * @ElementName accessDeviceCredentials
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceCredentials
      * @return $this
      */
     public function setAccessDeviceCredentials($accessDeviceCredentials)
@@ -560,7 +582,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Getter for macFormatInNonRequestURI
      *
      * @ElementName macFormatInNonRequestURI
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMacFormatInNonRequestURI()
     {
@@ -571,7 +594,8 @@ class DeviceManagementDeviceTypeModifyOptions16
      * Setter for macFormatInNonRequestURI
      *
      * @ElementName macFormatInNonRequestURI
-     * @param string|null $macFormatInNonRequestURI
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $macFormatInNonRequestURI
      * @return $this
      */
     public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)

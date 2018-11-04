@@ -12,43 +12,50 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
 
     /**
      * @ElementName sendToPerson
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToPerson = null;
 
     /**
      * @ElementName sendToAllGroupMembers
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToAllGroupMembers = null;
 
     /**
      * @ElementName sendToDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToDistributionList = null;
 
     /**
      * @ElementName changeCurrentIntroductionOrMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName listenToCurrentIntroductionOrMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
 
@@ -60,7 +67,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -68,7 +76,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for sendToPerson
      *
      * @ElementName sendToPerson
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSendToPerson()
     {
@@ -79,7 +88,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for sendToPerson
      *
      * @ElementName sendToPerson
-     * @param string|null $sendToPerson
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToPerson
      * @return $this
      */
     public function setSendToPerson($sendToPerson)
@@ -92,7 +102,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for sendToAllGroupMembers
      *
      * @ElementName sendToAllGroupMembers
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSendToAllGroupMembers()
     {
@@ -103,7 +114,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for sendToAllGroupMembers
      *
      * @ElementName sendToAllGroupMembers
-     * @param string|null $sendToAllGroupMembers
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToAllGroupMembers
      * @return $this
      */
     public function setSendToAllGroupMembers($sendToAllGroupMembers)
@@ -116,7 +128,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for sendToDistributionList
      *
      * @ElementName sendToDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSendToDistributionList()
     {
@@ -127,7 +140,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for sendToDistributionList
      *
      * @ElementName sendToDistributionList
-     * @param string|null $sendToDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToDistributionList
      * @return $this
      */
     public function setSendToDistributionList($sendToDistributionList)
@@ -140,7 +154,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for changeCurrentIntroductionOrMessage
      *
      * @ElementName changeCurrentIntroductionOrMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeCurrentIntroductionOrMessage()
     {
@@ -151,7 +166,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for changeCurrentIntroductionOrMessage
      *
      * @ElementName changeCurrentIntroductionOrMessage
-     * @param string|null $changeCurrentIntroductionOrMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCurrentIntroductionOrMessage
      * @return $this
      */
     public function setChangeCurrentIntroductionOrMessage($changeCurrentIntroductionOrMessage)
@@ -164,7 +180,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for listenToCurrentIntroductionOrMessage
      *
      * @ElementName listenToCurrentIntroductionOrMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentIntroductionOrMessage()
     {
@@ -175,7 +192,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for listenToCurrentIntroductionOrMessage
      *
      * @ElementName listenToCurrentIntroductionOrMessage
-     * @param string|null $listenToCurrentIntroductionOrMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentIntroductionOrMessage
      * @return $this
      */
     public function setListenToCurrentIntroductionOrMessage($listenToCurrentIntroductionOrMessage)
@@ -188,7 +206,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearUrgentIndicator()
     {
@@ -199,7 +218,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @param string|null $setOrClearUrgentIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
@@ -212,7 +232,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearConfidentialIndicator()
     {
@@ -223,7 +244,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @param string|null $setOrClearConfidentialIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
@@ -260,7 +282,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -271,7 +294,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

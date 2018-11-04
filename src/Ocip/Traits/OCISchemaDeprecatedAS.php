@@ -184,8 +184,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserCallProcessingGetPolicyResponse21sp2
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21sp1V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\UserHotelingGuestModifyRequest;
@@ -1344,7 +1345,7 @@ trait OCISchemaDeprecatedAS
 
     /**
      * @param UserEnhancedCallLogsGetListRequest21sp1V2 $request
-     * @return UserEnhancedCallLogsGetListResponse21sp1
+     * @return UserEnhancedCallLogsGetListResponse21sp1V2
      * @throws ErrorResponseException
      */
     public function userEnhancedCallLogsGetListRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest21sp1V2 $request)

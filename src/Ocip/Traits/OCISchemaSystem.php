@@ -214,7 +214,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetInco
 use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest19sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetResponse19sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse;
@@ -706,7 +706,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeFileModifyRequest16sp
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V4;
-use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22V4;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeLanguageMappingGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeLanguageMappingGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeLanguageMappingModifyRequest;
@@ -2365,7 +2365,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemCommunicationBarringProfileGetRequest19sp1V2 $request
-     * @return SystemCommunicationBarringProfileGetResponse19sp1
+     * @return SystemCommunicationBarringProfileGetResponse19sp1V2
      * @throws ErrorResponseException
      */
     public function systemCommunicationBarringProfileGetRequest19sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemCommunicationBarringProfileGetRequest19sp1V2 $request)
@@ -5935,7 +5935,7 @@ trait OCISchemaSystem
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22V4 $request
-     * @return SystemSIPDeviceTypeGetResponse22
+     * @return SystemSIPDeviceTypeGetResponse22V4
      * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22V4(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V4 $request)

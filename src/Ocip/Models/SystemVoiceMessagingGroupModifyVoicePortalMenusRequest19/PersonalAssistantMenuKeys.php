@@ -10,61 +10,71 @@ class PersonalAssistantMenuKeys
 
     /**
      * @ElementName setPresenceToNone
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToNone = null;
 
     /**
      * @ElementName setPresenceToBusinessTrip
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToBusinessTrip = null;
 
     /**
      * @ElementName setPresenceToGoneForTheDay
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToGoneForTheDay = null;
 
     /**
      * @ElementName setPresenceToLunch
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToLunch = null;
 
     /**
      * @ElementName setPresenceToMeeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToMeeting = null;
 
     /**
      * @ElementName setPresenceToOutOfOffice
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToOutOfOffice = null;
 
     /**
      * @ElementName setPresenceToTemporarilyOut
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToTemporarilyOut = null;
 
     /**
      * @ElementName setPresenceToTraining
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToTraining = null;
 
     /**
      * @ElementName setPresenceToUnavailable
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToUnavailable = null;
 
     /**
      * @ElementName setPresenceToVacation
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setPresenceToVacation = null;
 
@@ -76,7 +86,8 @@ class PersonalAssistantMenuKeys
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -84,7 +95,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToNone
      *
      * @ElementName setPresenceToNone
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToNone()
     {
@@ -95,7 +107,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToNone
      *
      * @ElementName setPresenceToNone
-     * @param string|null $setPresenceToNone
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToNone
      * @return $this
      */
     public function setSetPresenceToNone($setPresenceToNone)
@@ -108,7 +121,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToBusinessTrip
      *
      * @ElementName setPresenceToBusinessTrip
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToBusinessTrip()
     {
@@ -119,7 +133,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToBusinessTrip
      *
      * @ElementName setPresenceToBusinessTrip
-     * @param string|null $setPresenceToBusinessTrip
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToBusinessTrip
      * @return $this
      */
     public function setSetPresenceToBusinessTrip($setPresenceToBusinessTrip)
@@ -132,7 +147,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToGoneForTheDay
      *
      * @ElementName setPresenceToGoneForTheDay
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToGoneForTheDay()
     {
@@ -143,7 +159,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToGoneForTheDay
      *
      * @ElementName setPresenceToGoneForTheDay
-     * @param string|null $setPresenceToGoneForTheDay
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToGoneForTheDay
      * @return $this
      */
     public function setSetPresenceToGoneForTheDay($setPresenceToGoneForTheDay)
@@ -156,7 +173,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToLunch
      *
      * @ElementName setPresenceToLunch
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToLunch()
     {
@@ -167,7 +185,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToLunch
      *
      * @ElementName setPresenceToLunch
-     * @param string|null $setPresenceToLunch
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToLunch
      * @return $this
      */
     public function setSetPresenceToLunch($setPresenceToLunch)
@@ -180,7 +199,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToMeeting
      *
      * @ElementName setPresenceToMeeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToMeeting()
     {
@@ -191,7 +211,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToMeeting
      *
      * @ElementName setPresenceToMeeting
-     * @param string|null $setPresenceToMeeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToMeeting
      * @return $this
      */
     public function setSetPresenceToMeeting($setPresenceToMeeting)
@@ -204,7 +225,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToOutOfOffice
      *
      * @ElementName setPresenceToOutOfOffice
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToOutOfOffice()
     {
@@ -215,7 +237,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToOutOfOffice
      *
      * @ElementName setPresenceToOutOfOffice
-     * @param string|null $setPresenceToOutOfOffice
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToOutOfOffice
      * @return $this
      */
     public function setSetPresenceToOutOfOffice($setPresenceToOutOfOffice)
@@ -228,7 +251,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToTemporarilyOut
      *
      * @ElementName setPresenceToTemporarilyOut
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToTemporarilyOut()
     {
@@ -239,7 +263,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToTemporarilyOut
      *
      * @ElementName setPresenceToTemporarilyOut
-     * @param string|null $setPresenceToTemporarilyOut
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToTemporarilyOut
      * @return $this
      */
     public function setSetPresenceToTemporarilyOut($setPresenceToTemporarilyOut)
@@ -252,7 +277,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToTraining
      *
      * @ElementName setPresenceToTraining
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToTraining()
     {
@@ -263,7 +289,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToTraining
      *
      * @ElementName setPresenceToTraining
-     * @param string|null $setPresenceToTraining
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToTraining
      * @return $this
      */
     public function setSetPresenceToTraining($setPresenceToTraining)
@@ -276,7 +303,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToUnavailable
      *
      * @ElementName setPresenceToUnavailable
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToUnavailable()
     {
@@ -287,7 +315,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToUnavailable
      *
      * @ElementName setPresenceToUnavailable
-     * @param string|null $setPresenceToUnavailable
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToUnavailable
      * @return $this
      */
     public function setSetPresenceToUnavailable($setPresenceToUnavailable)
@@ -300,7 +329,8 @@ class PersonalAssistantMenuKeys
      * Getter for setPresenceToVacation
      *
      * @ElementName setPresenceToVacation
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetPresenceToVacation()
     {
@@ -311,7 +341,8 @@ class PersonalAssistantMenuKeys
      * Setter for setPresenceToVacation
      *
      * @ElementName setPresenceToVacation
-     * @param string|null $setPresenceToVacation
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToVacation
      * @return $this
      */
     public function setSetPresenceToVacation($setPresenceToVacation)
@@ -348,7 +379,8 @@ class PersonalAssistantMenuKeys
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -359,7 +391,8 @@ class PersonalAssistantMenuKeys
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

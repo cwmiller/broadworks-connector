@@ -28,7 +28,8 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName treatmentFileName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentFileName = null;
 
@@ -84,7 +85,8 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * Getter for treatmentFileName
      *
      * @ElementName treatmentFileName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTreatmentFileName()
     {
@@ -95,7 +97,8 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
      * Setter for treatmentFileName
      *
      * @ElementName treatmentFileName
-     * @param string|null $treatmentFileName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentFileName
      * @return $this
      */
     public function setTreatmentFileName($treatmentFileName)

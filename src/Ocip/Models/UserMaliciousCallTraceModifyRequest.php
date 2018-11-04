@@ -40,7 +40,8 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName traceTimePeriod
-     * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $traceTimePeriod = null;
 
@@ -144,7 +145,8 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for traceTimePeriod
      *
      * @ElementName traceTimePeriod
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTraceTimePeriod()
     {
@@ -155,7 +157,8 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for traceTimePeriod
      *
      * @ElementName traceTimePeriod
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null $traceTimePeriod
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil $traceTimePeriod
      * @return $this
      */
     public function setTraceTimePeriod($traceTimePeriod)

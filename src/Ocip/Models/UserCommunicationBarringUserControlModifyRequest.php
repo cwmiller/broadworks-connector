@@ -28,7 +28,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName enableProfile
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableProfile = null;
 
@@ -78,7 +79,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * Getter for enableProfile
      *
      * @ElementName enableProfile
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEnableProfile()
     {
@@ -89,7 +91,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * Setter for enableProfile
      *
      * @ElementName enableProfile
-     * @param int|null $enableProfile
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $enableProfile
      * @return $this
      */
     public function setEnableProfile($enableProfile)

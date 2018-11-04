@@ -29,13 +29,15 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName cpeFileDirectory
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cpeFileDirectory = null;
 
     /**
      * @ElementName extendedCaptureFileRepositoryName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extendedCaptureFileRepositoryName = null;
 
@@ -91,7 +93,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * Getter for cpeFileDirectory
      *
      * @ElementName cpeFileDirectory
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCpeFileDirectory()
     {
@@ -102,7 +105,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * Setter for cpeFileDirectory
      *
      * @ElementName cpeFileDirectory
-     * @param string|null $cpeFileDirectory
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $cpeFileDirectory
      * @return $this
      */
     public function setCpeFileDirectory($cpeFileDirectory)
@@ -115,7 +119,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * Getter for extendedCaptureFileRepositoryName
      *
      * @ElementName extendedCaptureFileRepositoryName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtendedCaptureFileRepositoryName()
     {
@@ -126,7 +131,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * Setter for extendedCaptureFileRepositoryName
      *
      * @ElementName extendedCaptureFileRepositoryName
-     * @param string|null $extendedCaptureFileRepositoryName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extendedCaptureFileRepositoryName
      * @return $this
      */
     public function setExtendedCaptureFileRepositoryName($extendedCaptureFileRepositoryName)

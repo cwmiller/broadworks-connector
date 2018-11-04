@@ -43,7 +43,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
@@ -55,7 +56,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -67,7 +69,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
 
     /**
      * @ElementName callToNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;
 
@@ -171,7 +174,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -182,7 +186,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -219,7 +224,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -230,7 +236,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -267,7 +274,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * Getter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallToNumberList()
     {
@@ -278,7 +286,8 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
      * Setter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
      * @return $this
      */
     public function setCallToNumberList($callToNumberList)

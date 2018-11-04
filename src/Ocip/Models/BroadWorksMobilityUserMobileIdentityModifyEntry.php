@@ -18,7 +18,8 @@ class BroadWorksMobilityUserMobileIdentityModifyEntry
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -62,7 +63,8 @@ class BroadWorksMobilityUserMobileIdentityModifyEntry
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -73,7 +75,8 @@ class BroadWorksMobilityUserMobileIdentityModifyEntry
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)

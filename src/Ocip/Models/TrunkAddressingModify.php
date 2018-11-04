@@ -12,19 +12,22 @@ class TrunkAddressingModify
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
 
     /**
      * @ElementName enterpriseTrunkName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName alternateTrunkIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;
 
@@ -32,7 +35,8 @@ class TrunkAddressingModify
      * Getter for trunkGroupDeviceEndpoint
      *
      * @ElementName trunkGroupDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTrunkGroupDeviceEndpoint()
     {
@@ -43,7 +47,8 @@ class TrunkAddressingModify
      * Setter for trunkGroupDeviceEndpoint
      *
      * @ElementName trunkGroupDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null $trunkGroupDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint($trunkGroupDeviceEndpoint)
@@ -56,7 +61,8 @@ class TrunkAddressingModify
      * Getter for enterpriseTrunkName
      *
      * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEnterpriseTrunkName()
     {
@@ -67,7 +73,8 @@ class TrunkAddressingModify
      * Setter for enterpriseTrunkName
      *
      * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -80,7 +87,8 @@ class TrunkAddressingModify
      * Getter for alternateTrunkIdentity
      *
      * @ElementName alternateTrunkIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlternateTrunkIdentity()
     {
@@ -91,7 +99,8 @@ class TrunkAddressingModify
      * Setter for alternateTrunkIdentity
      *
      * @ElementName alternateTrunkIdentity
-     * @param string|null $alternateTrunkIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateTrunkIdentity
      * @return $this
      */
     public function setAlternateTrunkIdentity($alternateTrunkIdentity)

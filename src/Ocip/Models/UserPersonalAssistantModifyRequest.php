@@ -34,7 +34,8 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName attendantNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $attendantNumber = null;
 
@@ -52,7 +53,8 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName expirationTime
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $expirationTime = null;
 
@@ -132,7 +134,8 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for attendantNumber
      *
      * @ElementName attendantNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAttendantNumber()
     {
@@ -143,7 +146,8 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for attendantNumber
      *
      * @ElementName attendantNumber
-     * @param string|null $attendantNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $attendantNumber
      * @return $this
      */
     public function setAttendantNumber($attendantNumber)
@@ -204,7 +208,8 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for expirationTime
      *
      * @ElementName expirationTime
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExpirationTime()
     {
@@ -215,7 +220,8 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for expirationTime
      *
      * @ElementName expirationTime
-     * @param string|null $expirationTime
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $expirationTime
      * @return $this
      */
     public function setExpirationTime($expirationTime)

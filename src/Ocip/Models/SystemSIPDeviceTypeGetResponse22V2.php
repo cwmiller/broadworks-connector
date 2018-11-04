@@ -25,8 +25,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           supportCauseParameter - value false is returned in XS data mode
  *         Deprecated by SystemSIPDeviceTypeGetResponse22V3.
  *
- * @see SystemSIPDeviceTypeGetRequest22
- * @see SystemSIPDeviceTypeGetResponse22
+ * @see SystemSIPDeviceTypeGetRequest22V2
+ * @see SystemSIPDeviceTypeGetResponse22V3
  */
 class SystemSIPDeviceTypeGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

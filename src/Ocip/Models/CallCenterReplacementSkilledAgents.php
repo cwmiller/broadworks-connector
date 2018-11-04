@@ -18,7 +18,8 @@ class CallCenterReplacementSkilledAgents
 
     /**
      * @ElementName agents
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agents = null;
 
@@ -50,7 +51,8 @@ class CallCenterReplacementSkilledAgents
      * Getter for agents
      *
      * @ElementName agents
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgents()
     {
@@ -61,7 +63,8 @@ class CallCenterReplacementSkilledAgents
      * Setter for agents
      *
      * @ElementName agents
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agents
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agents
      * @return $this
      */
     public function setAgents($agents)

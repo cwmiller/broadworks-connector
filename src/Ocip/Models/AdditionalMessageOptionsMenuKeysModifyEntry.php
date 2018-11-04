@@ -12,55 +12,64 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
 
     /**
      * @ElementName saveMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteMessage = null;
 
     /**
      * @ElementName playEnvelope
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playEnvelope = null;
 
     /**
      * @ElementName callbackCaller
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
 
     /**
      * @ElementName replyMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardMessage = null;
 
     /**
      * @ElementName personalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
 
     /**
      * @ElementName passcode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
 
@@ -72,7 +81,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -80,7 +90,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for saveMessage
      *
      * @ElementName saveMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSaveMessage()
     {
@@ -91,7 +102,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for saveMessage
      *
      * @ElementName saveMessage
-     * @param string|null $saveMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $saveMessage
      * @return $this
      */
     public function setSaveMessage($saveMessage)
@@ -104,7 +116,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for deleteMessage
      *
      * @ElementName deleteMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeleteMessage()
     {
@@ -115,7 +128,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for deleteMessage
      *
      * @ElementName deleteMessage
-     * @param string|null $deleteMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deleteMessage
      * @return $this
      */
     public function setDeleteMessage($deleteMessage)
@@ -128,7 +142,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for playEnvelope
      *
      * @ElementName playEnvelope
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPlayEnvelope()
     {
@@ -139,7 +154,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for playEnvelope
      *
      * @ElementName playEnvelope
-     * @param string|null $playEnvelope
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playEnvelope
      * @return $this
      */
     public function setPlayEnvelope($playEnvelope)
@@ -152,7 +168,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for callbackCaller
      *
      * @ElementName callbackCaller
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallbackCaller()
     {
@@ -163,7 +180,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for callbackCaller
      *
      * @ElementName callbackCaller
-     * @param string|null $callbackCaller
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callbackCaller
      * @return $this
      */
     public function setCallbackCaller($callbackCaller)
@@ -176,7 +194,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for composeMessage
      *
      * @ElementName composeMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getComposeMessage()
     {
@@ -187,7 +206,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for composeMessage
      *
      * @ElementName composeMessage
-     * @param string|null $composeMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
@@ -200,7 +220,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for replyMessage
      *
      * @ElementName replyMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReplyMessage()
     {
@@ -211,7 +232,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for replyMessage
      *
      * @ElementName replyMessage
-     * @param string|null $replyMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $replyMessage
      * @return $this
      */
     public function setReplyMessage($replyMessage)
@@ -224,7 +246,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for forwardMessage
      *
      * @ElementName forwardMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardMessage()
     {
@@ -235,7 +258,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for forwardMessage
      *
      * @ElementName forwardMessage
-     * @param string|null $forwardMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardMessage
      * @return $this
      */
     public function setForwardMessage($forwardMessage)
@@ -248,7 +272,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for personalizedName
      *
      * @ElementName personalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedName()
     {
@@ -259,7 +284,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for personalizedName
      *
      * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -272,7 +298,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for passcode
      *
      * @ElementName passcode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPasscode()
     {
@@ -283,7 +310,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for passcode
      *
      * @ElementName passcode
-     * @param string|null $passcode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -320,7 +348,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -331,7 +360,8 @@ class AdditionalMessageOptionsMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

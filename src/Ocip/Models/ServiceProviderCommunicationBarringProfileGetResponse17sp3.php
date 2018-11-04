@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetResponse19sp1V2 in AS data mode
  *
  * @see ServiceProviderCommunicationBarringProfileGetRequest17sp3
- * @see ServiceProviderCommunicationBarringProfileGetResponse19sp1
+ * @see ServiceProviderCommunicationBarringProfileGetResponse19sp1V2
  */
 class ServiceProviderCommunicationBarringProfileGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

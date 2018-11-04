@@ -46,7 +46,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName recallAlternateUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recallAlternateUserId = null;
 
@@ -192,7 +193,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for recallAlternateUserId
      *
      * @ElementName recallAlternateUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecallAlternateUserId()
     {
@@ -203,7 +205,8 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for recallAlternateUserId
      *
      * @ElementName recallAlternateUserId
-     * @param string|null $recallAlternateUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recallAlternateUserId
      * @return $this
      */
     public function setRecallAlternateUserId($recallAlternateUserId)

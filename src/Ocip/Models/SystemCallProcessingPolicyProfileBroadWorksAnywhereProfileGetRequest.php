@@ -8,15 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to get the configuration for a call processing policy profile BroadWorks
  * Anywhere subscriber type profile.
  *         The response is either a
- * SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse or
- * an
+ * SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse or an
  *         ErrorResponse.
  *         
  *         Replaced by:
  * SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22
  *
- * @see
- * SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse
+ * @see SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileBroadWorksAnywhereProfileGetRequest22
  */

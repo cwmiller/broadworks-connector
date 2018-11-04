@@ -42,13 +42,15 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
 
     /**
      * @ElementName privateIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateIdentity = null;
 
     /**
      * @ElementName contact
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contact = null;
 
@@ -188,7 +190,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * Getter for privateIdentity
      *
      * @ElementName privateIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrivateIdentity()
     {
@@ -199,7 +202,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * Setter for privateIdentity
      *
      * @ElementName privateIdentity
-     * @param string|null $privateIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateIdentity
      * @return $this
      */
     public function setPrivateIdentity($privateIdentity)
@@ -212,7 +216,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * Getter for contact
      *
      * @ElementName contact
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContact()
     {
@@ -223,7 +228,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * Setter for contact
      *
      * @ElementName contact
-     * @param string|null $contact
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contact
      * @return $this
      */
     public function setContact($contact)

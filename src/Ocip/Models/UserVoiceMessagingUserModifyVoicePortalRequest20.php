@@ -35,7 +35,8 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName personalizedNameAudioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedNameAudioFile = null;
 
@@ -115,7 +116,8 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
      * Getter for personalizedNameAudioFile
      *
      * @ElementName personalizedNameAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedNameAudioFile()
     {
@@ -126,7 +128,8 @@ class UserVoiceMessagingUserModifyVoicePortalRequest20 extends \CWM\BroadWorksCo
      * Setter for personalizedNameAudioFile
      *
      * @ElementName personalizedNameAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $personalizedNameAudioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedNameAudioFile
      * @return $this
      */
     public function setPersonalizedNameAudioFile($personalizedNameAudioFile)

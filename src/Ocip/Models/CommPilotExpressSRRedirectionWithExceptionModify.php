@@ -19,25 +19,29 @@ class CommPilotExpressSRRedirectionWithExceptionModify
 
     /**
      * @ElementName excludedPhoneNumber01
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber01 = null;
 
     /**
      * @ElementName excludedPhoneNumber02
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber02 = null;
 
     /**
      * @ElementName excludedPhoneNumber03
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber03 = null;
 
     /**
      * @ElementName forwardExcludedNumbersTo
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardExcludedNumbersTo = null;
 
@@ -69,7 +73,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Getter for excludedPhoneNumber01
      *
      * @ElementName excludedPhoneNumber01
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExcludedPhoneNumber01()
     {
@@ -80,7 +85,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Setter for excludedPhoneNumber01
      *
      * @ElementName excludedPhoneNumber01
-     * @param string|null $excludedPhoneNumber01
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $excludedPhoneNumber01
      * @return $this
      */
     public function setExcludedPhoneNumber01($excludedPhoneNumber01)
@@ -93,7 +99,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Getter for excludedPhoneNumber02
      *
      * @ElementName excludedPhoneNumber02
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExcludedPhoneNumber02()
     {
@@ -104,7 +111,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Setter for excludedPhoneNumber02
      *
      * @ElementName excludedPhoneNumber02
-     * @param string|null $excludedPhoneNumber02
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $excludedPhoneNumber02
      * @return $this
      */
     public function setExcludedPhoneNumber02($excludedPhoneNumber02)
@@ -117,7 +125,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Getter for excludedPhoneNumber03
      *
      * @ElementName excludedPhoneNumber03
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExcludedPhoneNumber03()
     {
@@ -128,7 +137,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Setter for excludedPhoneNumber03
      *
      * @ElementName excludedPhoneNumber03
-     * @param string|null $excludedPhoneNumber03
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $excludedPhoneNumber03
      * @return $this
      */
     public function setExcludedPhoneNumber03($excludedPhoneNumber03)
@@ -141,7 +151,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Getter for forwardExcludedNumbersTo
      *
      * @ElementName forwardExcludedNumbersTo
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardExcludedNumbersTo()
     {
@@ -152,7 +163,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * Setter for forwardExcludedNumbersTo
      *
      * @ElementName forwardExcludedNumbersTo
-     * @param string|null $forwardExcludedNumbersTo
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardExcludedNumbersTo
      * @return $this
      */
     public function setForwardExcludedNumbersTo($forwardExcludedNumbersTo)

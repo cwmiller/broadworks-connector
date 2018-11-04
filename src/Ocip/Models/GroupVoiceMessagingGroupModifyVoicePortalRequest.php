@@ -77,13 +77,15 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName externalRoutingAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalRoutingAddress = null;
 
     /**
      * @ElementName homeZoneName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $homeZoneName = null;
 
@@ -319,7 +321,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * Getter for externalRoutingAddress
      *
      * @ElementName externalRoutingAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalRoutingAddress()
     {
@@ -330,7 +333,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * Setter for externalRoutingAddress
      *
      * @ElementName externalRoutingAddress
-     * @param string|null $externalRoutingAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalRoutingAddress
      * @return $this
      */
     public function setExternalRoutingAddress($externalRoutingAddress)
@@ -343,7 +347,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * Getter for homeZoneName
      *
      * @ElementName homeZoneName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHomeZoneName()
     {
@@ -354,7 +359,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalRequest extends \CWM\BroadWorksCo
      * Setter for homeZoneName
      *
      * @ElementName homeZoneName
-     * @param string|null $homeZoneName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $homeZoneName
      * @return $this
      */
     public function setHomeZoneName($homeZoneName)

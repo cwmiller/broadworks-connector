@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            allowMembersToControlGroupBusy
  *            enableGroupBusy
  *
- * @see GroupHuntGroupGetInstanceRequest17sp1
+ * @see GroupHuntGroupGetInstanceRequest17sp1V1
  */
 class GroupHuntGroupGetInstanceResponse17sp1V1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -34,7 +34,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName sourceAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sourceAddress = null;
 
@@ -114,7 +115,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for sourceAddress
      *
      * @ElementName sourceAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSourceAddress()
     {
@@ -125,7 +127,8 @@ class SystemASRParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for sourceAddress
      *
      * @ElementName sourceAddress
-     * @param string|null $sourceAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sourceAddress
      * @return $this
      */
     public function setSourceAddress($sourceAddress)

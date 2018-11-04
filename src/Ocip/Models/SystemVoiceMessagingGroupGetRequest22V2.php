@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemVoiceMessagingGroupGetResponse22V2 or an
  * ErrorResponse.
  *
- * @see SystemVoiceMessagingGroupGetResponse22
+ * @see SystemVoiceMessagingGroupGetResponse22V2
  * @see ErrorResponse
  */
 class SystemVoiceMessagingGroupGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

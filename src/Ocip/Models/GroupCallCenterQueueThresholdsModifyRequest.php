@@ -28,61 +28,71 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName thresholdCurrentCallsInQueueYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallsInQueueYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallsInQueueRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallsInQueueRed = null;
 
     /**
      * @ElementName thresholdCurrentLongestWaitingCallYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentLongestWaitingCallYellow = null;
 
     /**
      * @ElementName thresholdCurrentLongestWaitingCallRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentLongestWaitingCallRed = null;
 
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageEstimatedWaitTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageEstimatedWaitTimeRed = null;
 
     /**
      * @ElementName thresholdAverageHandlingTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageHandlingTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageHandlingTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageHandlingTimeRed = null;
 
     /**
      * @ElementName thresholdAverageSpeedOfAnswerYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageSpeedOfAnswerYellow = null;
 
     /**
      * @ElementName thresholdAverageSpeedOfAnswerRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageSpeedOfAnswerRed = null;
 
@@ -94,7 +104,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName notificationEmailAddressList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notificationEmailAddressList = null;
 
@@ -150,7 +161,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdCurrentCallsInQueueYellow
      *
      * @ElementName thresholdCurrentCallsInQueueYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentCallsInQueueYellow()
     {
@@ -161,7 +173,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdCurrentCallsInQueueYellow
      *
      * @ElementName thresholdCurrentCallsInQueueYellow
-     * @param int|null $thresholdCurrentCallsInQueueYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallsInQueueYellow
      * @return $this
      */
     public function setThresholdCurrentCallsInQueueYellow($thresholdCurrentCallsInQueueYellow)
@@ -174,7 +187,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdCurrentCallsInQueueRed
      *
      * @ElementName thresholdCurrentCallsInQueueRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentCallsInQueueRed()
     {
@@ -185,7 +199,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdCurrentCallsInQueueRed
      *
      * @ElementName thresholdCurrentCallsInQueueRed
-     * @param int|null $thresholdCurrentCallsInQueueRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallsInQueueRed
      * @return $this
      */
     public function setThresholdCurrentCallsInQueueRed($thresholdCurrentCallsInQueueRed)
@@ -198,7 +213,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdCurrentLongestWaitingCallYellow
      *
      * @ElementName thresholdCurrentLongestWaitingCallYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentLongestWaitingCallYellow()
     {
@@ -209,7 +225,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdCurrentLongestWaitingCallYellow
      *
      * @ElementName thresholdCurrentLongestWaitingCallYellow
-     * @param int|null $thresholdCurrentLongestWaitingCallYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentLongestWaitingCallYellow
      * @return $this
      */
     public function setThresholdCurrentLongestWaitingCallYellow($thresholdCurrentLongestWaitingCallYellow)
@@ -222,7 +239,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdCurrentLongestWaitingCallRed
      *
      * @ElementName thresholdCurrentLongestWaitingCallRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentLongestWaitingCallRed()
     {
@@ -233,7 +251,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdCurrentLongestWaitingCallRed
      *
      * @ElementName thresholdCurrentLongestWaitingCallRed
-     * @param int|null $thresholdCurrentLongestWaitingCallRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentLongestWaitingCallRed
      * @return $this
      */
     public function setThresholdCurrentLongestWaitingCallRed($thresholdCurrentLongestWaitingCallRed)
@@ -246,7 +265,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdAverageEstimatedWaitTimeYellow
      *
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageEstimatedWaitTimeYellow()
     {
@@ -257,7 +277,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdAverageEstimatedWaitTimeYellow
      *
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
-     * @param int|null $thresholdAverageEstimatedWaitTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageEstimatedWaitTimeYellow
      * @return $this
      */
     public function setThresholdAverageEstimatedWaitTimeYellow($thresholdAverageEstimatedWaitTimeYellow)
@@ -270,7 +291,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdAverageEstimatedWaitTimeRed
      *
      * @ElementName thresholdAverageEstimatedWaitTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageEstimatedWaitTimeRed()
     {
@@ -281,7 +303,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdAverageEstimatedWaitTimeRed
      *
      * @ElementName thresholdAverageEstimatedWaitTimeRed
-     * @param int|null $thresholdAverageEstimatedWaitTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageEstimatedWaitTimeRed
      * @return $this
      */
     public function setThresholdAverageEstimatedWaitTimeRed($thresholdAverageEstimatedWaitTimeRed)
@@ -294,7 +317,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdAverageHandlingTimeYellow
      *
      * @ElementName thresholdAverageHandlingTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageHandlingTimeYellow()
     {
@@ -305,7 +329,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdAverageHandlingTimeYellow
      *
      * @ElementName thresholdAverageHandlingTimeYellow
-     * @param int|null $thresholdAverageHandlingTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageHandlingTimeYellow
      * @return $this
      */
     public function setThresholdAverageHandlingTimeYellow($thresholdAverageHandlingTimeYellow)
@@ -318,7 +343,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdAverageHandlingTimeRed
      *
      * @ElementName thresholdAverageHandlingTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageHandlingTimeRed()
     {
@@ -329,7 +355,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdAverageHandlingTimeRed
      *
      * @ElementName thresholdAverageHandlingTimeRed
-     * @param int|null $thresholdAverageHandlingTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageHandlingTimeRed
      * @return $this
      */
     public function setThresholdAverageHandlingTimeRed($thresholdAverageHandlingTimeRed)
@@ -342,7 +369,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdAverageSpeedOfAnswerYellow
      *
      * @ElementName thresholdAverageSpeedOfAnswerYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageSpeedOfAnswerYellow()
     {
@@ -353,7 +381,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdAverageSpeedOfAnswerYellow
      *
      * @ElementName thresholdAverageSpeedOfAnswerYellow
-     * @param int|null $thresholdAverageSpeedOfAnswerYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageSpeedOfAnswerYellow
      * @return $this
      */
     public function setThresholdAverageSpeedOfAnswerYellow($thresholdAverageSpeedOfAnswerYellow)
@@ -366,7 +395,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for thresholdAverageSpeedOfAnswerRed
      *
      * @ElementName thresholdAverageSpeedOfAnswerRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageSpeedOfAnswerRed()
     {
@@ -377,7 +407,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for thresholdAverageSpeedOfAnswerRed
      *
      * @ElementName thresholdAverageSpeedOfAnswerRed
-     * @param int|null $thresholdAverageSpeedOfAnswerRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageSpeedOfAnswerRed
      * @return $this
      */
     public function setThresholdAverageSpeedOfAnswerRed($thresholdAverageSpeedOfAnswerRed)
@@ -414,7 +445,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Getter for notificationEmailAddressList
      *
      * @ElementName notificationEmailAddressList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNotificationEmailAddressList()
     {
@@ -425,7 +457,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * Setter for notificationEmailAddressList
      *
      * @ElementName notificationEmailAddressList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null $notificationEmailAddressList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil $notificationEmailAddressList
      * @return $this
      */
     public function setNotificationEmailAddressList($notificationEmailAddressList)

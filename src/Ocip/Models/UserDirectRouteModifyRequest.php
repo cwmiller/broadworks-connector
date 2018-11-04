@@ -35,7 +35,8 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName directRouteIdentityList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $directRouteIdentityList = null;
 
@@ -115,7 +116,8 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for directRouteIdentityList
      *
      * @ElementName directRouteIdentityList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDirectRouteIdentityList()
     {
@@ -126,7 +128,8 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for directRouteIdentityList
      *
      * @ElementName directRouteIdentityList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null $directRouteIdentityList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil $directRouteIdentityList
      * @return $this
      */
     public function setDirectRouteIdentityList($directRouteIdentityList)

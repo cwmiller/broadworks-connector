@@ -34,13 +34,15 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
 
     /**
      * @ElementName reportingEmailAddress1
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingEmailAddress1 = null;
 
     /**
      * @ElementName reportingEmailAddress2
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingEmailAddress2 = null;
 
@@ -126,7 +128,8 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * Getter for reportingEmailAddress1
      *
      * @ElementName reportingEmailAddress1
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReportingEmailAddress1()
     {
@@ -137,7 +140,8 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * Setter for reportingEmailAddress1
      *
      * @ElementName reportingEmailAddress1
-     * @param string|null $reportingEmailAddress1
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportingEmailAddress1
      * @return $this
      */
     public function setReportingEmailAddress1($reportingEmailAddress1)
@@ -150,7 +154,8 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * Getter for reportingEmailAddress2
      *
      * @ElementName reportingEmailAddress2
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReportingEmailAddress2()
     {
@@ -161,7 +166,8 @@ class GroupCallCenterModifyInstanceStatisticsReportingRequest17sp1 extends \CWM\
      * Setter for reportingEmailAddress2
      *
      * @ElementName reportingEmailAddress2
-     * @param string|null $reportingEmailAddress2
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportingEmailAddress2
      * @return $this
      */
     public function setReportingEmailAddress2($reportingEmailAddress2)

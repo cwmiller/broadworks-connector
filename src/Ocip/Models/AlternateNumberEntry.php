@@ -12,19 +12,22 @@ class AlternateNumberEntry
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
 
     /**
      * @ElementName ringPattern
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $ringPattern = null;
 
@@ -32,7 +35,8 @@ class AlternateNumberEntry
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -43,7 +47,8 @@ class AlternateNumberEntry
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -56,7 +61,8 @@ class AlternateNumberEntry
      * Getter for extension
      *
      * @ElementName extension
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtension()
     {
@@ -67,7 +73,8 @@ class AlternateNumberEntry
      * Setter for extension
      *
      * @ElementName extension
-     * @param string|null $extension
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -80,7 +87,8 @@ class AlternateNumberEntry
      * Getter for ringPattern
      *
      * @ElementName ringPattern
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRingPattern()
     {
@@ -91,7 +99,8 @@ class AlternateNumberEntry
      * Setter for ringPattern
      *
      * @ElementName ringPattern
-     * @param string|null $ringPattern
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $ringPattern
      * @return $this
      */
     public function setRingPattern($ringPattern)

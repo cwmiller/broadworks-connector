@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupMusicOnHoldGetInstanceResponse14
  * @see ErrorResponse
- * @see GroupMusicOnHoldGetInstanceRequest14
+ * @see GroupMusicOnHoldGetInstanceRequest14Sp4
  */
 class GroupMusicOnHoldGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

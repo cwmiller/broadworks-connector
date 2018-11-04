@@ -36,7 +36,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by UserGetResponse22V2 in AS data mode.
  *
  * @see UserGetRequest22
- * @see UserGetResponse22
+ * @see UserGetResponse22V2
  */
 class UserGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

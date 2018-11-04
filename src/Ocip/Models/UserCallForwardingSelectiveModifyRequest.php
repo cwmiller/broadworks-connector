@@ -28,7 +28,8 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName defaultForwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultForwardToPhoneNumber = null;
 
@@ -98,7 +99,8 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for defaultForwardToPhoneNumber
      *
      * @ElementName defaultForwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultForwardToPhoneNumber()
     {
@@ -109,7 +111,8 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for defaultForwardToPhoneNumber
      *
      * @ElementName defaultForwardToPhoneNumber
-     * @param string|null $defaultForwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultForwardToPhoneNumber
      * @return $this
      */
     public function setDefaultForwardToPhoneNumber($defaultForwardToPhoneNumber)

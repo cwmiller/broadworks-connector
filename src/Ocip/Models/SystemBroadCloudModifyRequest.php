@@ -16,19 +16,22 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName provisioningUrl
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
 
     /**
      * @ElementName provisioningPassword
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
 
@@ -42,7 +45,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for provisioningUrl
      *
      * @ElementName provisioningUrl
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningUrl()
     {
@@ -53,7 +57,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for provisioningUrl
      *
      * @ElementName provisioningUrl
-     * @param string|null $provisioningUrl
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningUrl
      * @return $this
      */
     public function setProvisioningUrl($provisioningUrl)
@@ -66,7 +71,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for provisioningUserId
      *
      * @ElementName provisioningUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningUserId()
     {
@@ -77,7 +83,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for provisioningUserId
      *
      * @ElementName provisioningUserId
-     * @param string|null $provisioningUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningUserId
      * @return $this
      */
     public function setProvisioningUserId($provisioningUserId)
@@ -90,7 +97,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for provisioningPassword
      *
      * @ElementName provisioningPassword
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningPassword()
     {
@@ -101,7 +109,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for provisioningPassword
      *
      * @ElementName provisioningPassword
-     * @param string|null $provisioningPassword
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningPassword
      * @return $this
      */
     public function setProvisioningPassword($provisioningPassword)

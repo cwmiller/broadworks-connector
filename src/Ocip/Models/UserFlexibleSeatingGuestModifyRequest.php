@@ -48,19 +48,22 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName unlockPhonePINCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unlockPhonePINCode = null;
 
     /**
      * @ElementName accessDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName hostUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostUserId = null;
 
@@ -164,7 +167,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for unlockPhonePINCode
      *
      * @ElementName unlockPhonePINCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUnlockPhonePINCode()
     {
@@ -175,7 +179,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for unlockPhonePINCode
      *
      * @ElementName unlockPhonePINCode
-     * @param string|null $unlockPhonePINCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $unlockPhonePINCode
      * @return $this
      */
     public function setUnlockPhonePINCode($unlockPhonePINCode)
@@ -188,7 +193,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceEndpoint()
     {
@@ -199,7 +205,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null $accessDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint($accessDeviceEndpoint)
@@ -212,7 +219,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for hostUserId
      *
      * @ElementName hostUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHostUserId()
     {
@@ -223,7 +231,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for hostUserId
      *
      * @ElementName hostUserId
-     * @param string|null $hostUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hostUserId
      * @return $this
      */
     public function setHostUserId($hostUserId)

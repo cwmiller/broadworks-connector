@@ -34,19 +34,22 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName accessCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessCode = null;
 
     /**
      * @ElementName publicDigitMap
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;
 
@@ -126,7 +129,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for accessCode
      *
      * @ElementName accessCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessCode()
     {
@@ -137,7 +141,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for accessCode
      *
      * @ElementName accessCode
-     * @param string|null $accessCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessCode
      * @return $this
      */
     public function setAccessCode($accessCode)
@@ -150,7 +155,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for publicDigitMap
      *
      * @ElementName publicDigitMap
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPublicDigitMap()
     {
@@ -161,7 +167,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for publicDigitMap
      *
      * @ElementName publicDigitMap
-     * @param string|null $publicDigitMap
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $publicDigitMap
      * @return $this
      */
     public function setPublicDigitMap($publicDigitMap)
@@ -174,7 +181,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for privateDigitMap
      *
      * @ElementName privateDigitMap
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrivateDigitMap()
     {
@@ -185,7 +193,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for privateDigitMap
      *
      * @ElementName privateDigitMap
-     * @param string|null $privateDigitMap
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)

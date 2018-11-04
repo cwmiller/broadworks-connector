@@ -52,7 +52,8 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName recordingWebAppURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordingWebAppURL = null;
 
@@ -252,7 +253,8 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for recordingWebAppURL
      *
      * @ElementName recordingWebAppURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordingWebAppURL()
     {
@@ -263,7 +265,8 @@ class SystemMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for recordingWebAppURL
      *
      * @ElementName recordingWebAppURL
-     * @param string|null $recordingWebAppURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordingWebAppURL
      * @return $this
      */
     public function setRecordingWebAppURL($recordingWebAppURL)

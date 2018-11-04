@@ -28,19 +28,22 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName maxSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxSessions = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserTerminatingSessions = null;
 
@@ -102,7 +105,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * Getter for maxSessions
      *
      * @ElementName maxSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxSessions()
     {
@@ -113,7 +117,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * Setter for maxSessions
      *
      * @ElementName maxSessions
-     * @param int|null $maxSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxSessions
      * @return $this
      */
     public function setMaxSessions($maxSessions)
@@ -126,7 +131,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * Getter for maxUserOriginatingSessions
      *
      * @ElementName maxUserOriginatingSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxUserOriginatingSessions()
     {
@@ -137,7 +143,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * Setter for maxUserOriginatingSessions
      *
      * @ElementName maxUserOriginatingSessions
-     * @param int|null $maxUserOriginatingSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxUserOriginatingSessions
      * @return $this
      */
     public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
@@ -150,7 +157,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * Getter for maxUserTerminatingSessions
      *
      * @ElementName maxUserTerminatingSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxUserTerminatingSessions()
     {
@@ -161,7 +169,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * Setter for maxUserTerminatingSessions
      *
      * @ElementName maxUserTerminatingSessions
-     * @param int|null $maxUserTerminatingSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxUserTerminatingSessions
      * @return $this
      */
     public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)

@@ -41,7 +41,8 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
 
     /**
      * @ElementName defaultCallDispositionCode
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultCallDispositionCode = null;
 
@@ -153,7 +154,8 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * Getter for defaultCallDispositionCode
      *
      * @ElementName defaultCallDispositionCode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultCallDispositionCode()
     {
@@ -164,7 +166,8 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
      * Setter for defaultCallDispositionCode
      *
      * @ElementName defaultCallDispositionCode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null $defaultCallDispositionCode
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultCallDispositionCode
      * @return $this
      */
     public function setDefaultCallDispositionCode($defaultCallDispositionCode)

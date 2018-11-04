@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallTransferGetResponse
  * @see ErrorResponse
- * @see UserCallTransferGetRequest14
+ * @see UserCallTransferGetRequest14Sp4
  */
 class UserCallTransferGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

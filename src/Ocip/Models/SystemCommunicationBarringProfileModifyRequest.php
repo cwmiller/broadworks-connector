@@ -40,7 +40,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -52,25 +53,29 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName originatingDefaultTreatmentId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultTreatmentId = null;
 
     /**
      * @ElementName originatingDefaultTransferNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultTransferNumber = null;
 
     /**
      * @ElementName originatingDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingDefaultCallTimeout = null;
 
     /**
      * @ElementName originatingRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingRule = null;
 
@@ -82,13 +87,15 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName redirectingDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingDefaultCallTimeout = null;
 
     /**
      * @ElementName redirectingRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingRule = null;
 
@@ -100,13 +107,15 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName incomingDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $incomingDefaultCallTimeout = null;
 
     /**
      * @ElementName incomingRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $incomingRule = null;
 
@@ -118,13 +127,15 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName callMeNowDefaultCallTimeout
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callMeNowDefaultCallTimeout = null;
 
     /**
      * @ElementName callMeNowRule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callMeNowRule = null;
 
@@ -186,7 +197,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -197,7 +209,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -234,7 +247,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for originatingDefaultTreatmentId
      *
      * @ElementName originatingDefaultTreatmentId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingDefaultTreatmentId()
     {
@@ -245,7 +259,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for originatingDefaultTreatmentId
      *
      * @ElementName originatingDefaultTreatmentId
-     * @param string|null $originatingDefaultTreatmentId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultTreatmentId
      * @return $this
      */
     public function setOriginatingDefaultTreatmentId($originatingDefaultTreatmentId)
@@ -258,7 +273,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for originatingDefaultTransferNumber
      *
      * @ElementName originatingDefaultTransferNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingDefaultTransferNumber()
     {
@@ -269,7 +285,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for originatingDefaultTransferNumber
      *
      * @ElementName originatingDefaultTransferNumber
-     * @param string|null $originatingDefaultTransferNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultTransferNumber
      * @return $this
      */
     public function setOriginatingDefaultTransferNumber($originatingDefaultTransferNumber)
@@ -282,7 +299,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for originatingDefaultCallTimeout
      *
      * @ElementName originatingDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingDefaultCallTimeout()
     {
@@ -293,7 +311,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for originatingDefaultCallTimeout
      *
      * @ElementName originatingDefaultCallTimeout
-     * @param int|null $originatingDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultCallTimeout
      * @return $this
      */
     public function setOriginatingDefaultCallTimeout($originatingDefaultCallTimeout)
@@ -306,7 +325,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for originatingRule
      *
      * @ElementName originatingRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingRule()
     {
@@ -317,7 +337,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for originatingRule
      *
      * @ElementName originatingRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null $originatingRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingRule
      * @return $this
      */
     public function setOriginatingRule($originatingRule)
@@ -354,7 +375,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for redirectingDefaultCallTimeout
      *
      * @ElementName redirectingDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRedirectingDefaultCallTimeout()
     {
@@ -365,7 +387,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for redirectingDefaultCallTimeout
      *
      * @ElementName redirectingDefaultCallTimeout
-     * @param int|null $redirectingDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingDefaultCallTimeout
      * @return $this
      */
     public function setRedirectingDefaultCallTimeout($redirectingDefaultCallTimeout)
@@ -378,7 +401,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for redirectingRule
      *
      * @ElementName redirectingRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRedirectingRule()
     {
@@ -389,7 +413,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for redirectingRule
      *
      * @ElementName redirectingRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null $redirectingRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingRule
      * @return $this
      */
     public function setRedirectingRule($redirectingRule)
@@ -426,7 +451,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for incomingDefaultCallTimeout
      *
      * @ElementName incomingDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIncomingDefaultCallTimeout()
     {
@@ -437,7 +463,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for incomingDefaultCallTimeout
      *
      * @ElementName incomingDefaultCallTimeout
-     * @param int|null $incomingDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $incomingDefaultCallTimeout
      * @return $this
      */
     public function setIncomingDefaultCallTimeout($incomingDefaultCallTimeout)
@@ -450,7 +477,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for incomingRule
      *
      * @ElementName incomingRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIncomingRule()
     {
@@ -461,7 +489,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for incomingRule
      *
      * @ElementName incomingRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null $incomingRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil $incomingRule
      * @return $this
      */
     public function setIncomingRule($incomingRule)
@@ -498,7 +527,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for callMeNowDefaultCallTimeout
      *
      * @ElementName callMeNowDefaultCallTimeout
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallMeNowDefaultCallTimeout()
     {
@@ -509,7 +539,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for callMeNowDefaultCallTimeout
      *
      * @ElementName callMeNowDefaultCallTimeout
-     * @param int|null $callMeNowDefaultCallTimeout
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $callMeNowDefaultCallTimeout
      * @return $this
      */
     public function setCallMeNowDefaultCallTimeout($callMeNowDefaultCallTimeout)
@@ -522,7 +553,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Getter for callMeNowRule
      *
      * @ElementName callMeNowRule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallMeNowRule()
     {
@@ -533,7 +565,8 @@ class SystemCommunicationBarringProfileModifyRequest extends \CWM\BroadWorksConn
      * Setter for callMeNowRule
      *
      * @ElementName callMeNowRule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null $callMeNowRule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $callMeNowRule
      * @return $this
      */
     public function setCallMeNowRule($callMeNowRule)

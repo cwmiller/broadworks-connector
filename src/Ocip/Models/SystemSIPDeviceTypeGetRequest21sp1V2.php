@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemSIPDeviceTypeGetRequest22 in AS data mode.
  *
  * @see SystemDeviceTypeGetRequest
- * @see SystemSIPDeviceTypeGetResponse21sp1
+ * @see SystemSIPDeviceTypeGetResponse21sp1V2
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeGetRequest22
  */

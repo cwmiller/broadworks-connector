@@ -34,7 +34,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
@@ -46,13 +47,15 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName blacklisted
-     * @var bool|null
+     * @Nillable
+     * @var bool|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $blacklisted = null;
 
@@ -132,7 +135,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -143,7 +147,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -180,7 +185,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -191,7 +197,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -204,7 +211,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * Getter for blacklisted
      *
      * @ElementName blacklisted
-     * @return bool|null
+     * @Nillable
+     * @return bool|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBlacklisted()
     {
@@ -215,7 +223,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
      * Setter for blacklisted
      *
      * @ElementName blacklisted
-     * @param bool|null $blacklisted
+     * @Nillable
+     * @param bool|null|\CWM\BroadWorksConnector\Ocip\Nil $blacklisted
      * @return $this
      */
     public function setBlacklisted($blacklisted)

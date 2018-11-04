@@ -28,7 +28,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName divertToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $divertToPhoneNumber = null;
 
@@ -92,7 +93,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for divertToPhoneNumber
      *
      * @ElementName divertToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDivertToPhoneNumber()
     {
@@ -103,7 +105,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for divertToPhoneNumber
      *
      * @ElementName divertToPhoneNumber
-     * @param string|null $divertToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $divertToPhoneNumber
      * @return $this
      */
     public function setDivertToPhoneNumber($divertToPhoneNumber)

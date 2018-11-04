@@ -28,13 +28,15 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName networkClassOfService
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkClassOfService = null;
 
@@ -90,7 +92,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -101,7 +104,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -114,7 +118,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * Getter for networkClassOfService
      *
      * @ElementName networkClassOfService
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkClassOfService()
     {
@@ -125,7 +130,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * Setter for networkClassOfService
      *
      * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)

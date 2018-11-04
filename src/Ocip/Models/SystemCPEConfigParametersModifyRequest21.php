@@ -40,7 +40,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName deviceAccessAppServerClusterName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessAppServerClusterName = null;
 
@@ -180,7 +181,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * Getter for deviceAccessAppServerClusterName
      *
      * @ElementName deviceAccessAppServerClusterName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeviceAccessAppServerClusterName()
     {
@@ -191,7 +193,8 @@ class SystemCPEConfigParametersModifyRequest21 extends \CWM\BroadWorksConnector\
      * Setter for deviceAccessAppServerClusterName
      *
      * @ElementName deviceAccessAppServerClusterName
-     * @param string|null $deviceAccessAppServerClusterName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessAppServerClusterName
      * @return $this
      */
     public function setDeviceAccessAppServerClusterName($deviceAccessAppServerClusterName)

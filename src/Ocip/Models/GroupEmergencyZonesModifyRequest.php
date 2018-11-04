@@ -46,7 +46,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName emergencyCallNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emergencyCallNotifyEmailAddress = null;
 
@@ -174,7 +175,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for emergencyCallNotifyEmailAddress
      *
      * @ElementName emergencyCallNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEmergencyCallNotifyEmailAddress()
     {
@@ -185,7 +187,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for emergencyCallNotifyEmailAddress
      *
      * @ElementName emergencyCallNotifyEmailAddress
-     * @param string|null $emergencyCallNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $emergencyCallNotifyEmailAddress
      * @return $this
      */
     public function setEmergencyCallNotifyEmailAddress($emergencyCallNotifyEmailAddress)

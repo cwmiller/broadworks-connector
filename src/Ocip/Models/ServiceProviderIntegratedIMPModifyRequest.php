@@ -40,13 +40,15 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceDomain
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
 
     /**
      * @ElementName servicePort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
 
@@ -58,25 +60,29 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName provisioningUrl
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
 
     /**
      * @ElementName provisioningPassword
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
 
     /**
      * @ElementName boshURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;
 
@@ -132,7 +138,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Getter for serviceDomain
      *
      * @ElementName serviceDomain
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceDomain()
     {
@@ -143,7 +150,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Setter for serviceDomain
      *
      * @ElementName serviceDomain
-     * @param string|null $serviceDomain
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)
@@ -156,7 +164,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Getter for servicePort
      *
      * @ElementName servicePort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServicePort()
     {
@@ -167,7 +176,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Setter for servicePort
      *
      * @ElementName servicePort
-     * @param int|null $servicePort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
@@ -204,7 +214,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Getter for provisioningUrl
      *
      * @ElementName provisioningUrl
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningUrl()
     {
@@ -215,7 +226,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Setter for provisioningUrl
      *
      * @ElementName provisioningUrl
-     * @param string|null $provisioningUrl
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningUrl
      * @return $this
      */
     public function setProvisioningUrl($provisioningUrl)
@@ -228,7 +240,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Getter for provisioningUserId
      *
      * @ElementName provisioningUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningUserId()
     {
@@ -239,7 +252,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Setter for provisioningUserId
      *
      * @ElementName provisioningUserId
-     * @param string|null $provisioningUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningUserId
      * @return $this
      */
     public function setProvisioningUserId($provisioningUserId)
@@ -252,7 +266,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Getter for provisioningPassword
      *
      * @ElementName provisioningPassword
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningPassword()
     {
@@ -263,7 +278,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Setter for provisioningPassword
      *
      * @ElementName provisioningPassword
-     * @param string|null $provisioningPassword
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningPassword
      * @return $this
      */
     public function setProvisioningPassword($provisioningPassword)
@@ -276,7 +292,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Getter for boshURL
      *
      * @ElementName boshURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBoshURL()
     {
@@ -287,7 +304,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * Setter for boshURL
      *
      * @ElementName boshURL
-     * @param string|null $boshURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)

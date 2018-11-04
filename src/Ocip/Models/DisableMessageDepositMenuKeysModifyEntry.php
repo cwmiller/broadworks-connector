@@ -12,19 +12,22 @@ class DisableMessageDepositMenuKeysModifyEntry
 
     /**
      * @ElementName disconnectAfterGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disconnectAfterGreeting = null;
 
     /**
      * @ElementName forwardAfterGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardAfterGreeting = null;
 
     /**
      * @ElementName changeForwardingDestination
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeForwardingDestination = null;
 
@@ -36,7 +39,8 @@ class DisableMessageDepositMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -44,7 +48,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Getter for disconnectAfterGreeting
      *
      * @ElementName disconnectAfterGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDisconnectAfterGreeting()
     {
@@ -55,7 +60,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Setter for disconnectAfterGreeting
      *
      * @ElementName disconnectAfterGreeting
-     * @param string|null $disconnectAfterGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disconnectAfterGreeting
      * @return $this
      */
     public function setDisconnectAfterGreeting($disconnectAfterGreeting)
@@ -68,7 +74,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Getter for forwardAfterGreeting
      *
      * @ElementName forwardAfterGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardAfterGreeting()
     {
@@ -79,7 +86,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Setter for forwardAfterGreeting
      *
      * @ElementName forwardAfterGreeting
-     * @param string|null $forwardAfterGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardAfterGreeting
      * @return $this
      */
     public function setForwardAfterGreeting($forwardAfterGreeting)
@@ -92,7 +100,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Getter for changeForwardingDestination
      *
      * @ElementName changeForwardingDestination
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeForwardingDestination()
     {
@@ -103,7 +112,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Setter for changeForwardingDestination
      *
      * @ElementName changeForwardingDestination
-     * @param string|null $changeForwardingDestination
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeForwardingDestination
      * @return $this
      */
     public function setChangeForwardingDestination($changeForwardingDestination)
@@ -140,7 +150,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -151,7 +162,8 @@ class DisableMessageDepositMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

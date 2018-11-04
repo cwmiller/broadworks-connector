@@ -22,7 +22,8 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName classmark
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $classmark = null;
 
@@ -54,7 +55,8 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for classmark
      *
      * @ElementName classmark
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getClassmark()
     {
@@ -65,7 +67,8 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for classmark
      *
      * @ElementName classmark
-     * @param string|null $classmark
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $classmark
      * @return $this
      */
     public function setClassmark($classmark)

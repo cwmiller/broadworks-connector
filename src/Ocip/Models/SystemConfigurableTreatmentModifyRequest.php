@@ -28,73 +28,85 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName accessSIPStatusCode
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessSIPStatusCode = null;
 
     /**
      * @ElementName accessSIPStatusMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessSIPStatusMessage = null;
 
     /**
      * @ElementName networkSIPStatusCode
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkSIPStatusCode = null;
 
     /**
      * @ElementName networkSIPStatusMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkSIPStatusMessage = null;
 
     /**
      * @ElementName q850CauseValue
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $q850CauseValue = null;
 
     /**
      * @ElementName q850Text
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $q850Text = null;
 
     /**
      * @ElementName accessTreatmentAudioFile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessTreatmentAudioFile = null;
 
     /**
      * @ElementName accessTreatmentVideoFile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessTreatmentVideoFile = null;
 
     /**
      * @ElementName networkTreatmentAudioFile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTreatmentAudioFile = null;
 
     /**
      * @ElementName networkTreatmentVideoFile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTreatmentVideoFile = null;
 
     /**
      * @ElementName cdrTerminationCause
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cdrTerminationCause = null;
 
@@ -106,7 +118,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName internalReleaseCause
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $internalReleaseCause = null;
 
@@ -174,7 +187,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -185,7 +199,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -198,7 +213,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for accessSIPStatusCode
      *
      * @ElementName accessSIPStatusCode
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessSIPStatusCode()
     {
@@ -209,7 +225,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for accessSIPStatusCode
      *
      * @ElementName accessSIPStatusCode
-     * @param int|null $accessSIPStatusCode
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $accessSIPStatusCode
      * @return $this
      */
     public function setAccessSIPStatusCode($accessSIPStatusCode)
@@ -222,7 +239,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for accessSIPStatusMessage
      *
      * @ElementName accessSIPStatusMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessSIPStatusMessage()
     {
@@ -233,7 +251,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for accessSIPStatusMessage
      *
      * @ElementName accessSIPStatusMessage
-     * @param string|null $accessSIPStatusMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessSIPStatusMessage
      * @return $this
      */
     public function setAccessSIPStatusMessage($accessSIPStatusMessage)
@@ -246,7 +265,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for networkSIPStatusCode
      *
      * @ElementName networkSIPStatusCode
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkSIPStatusCode()
     {
@@ -257,7 +277,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for networkSIPStatusCode
      *
      * @ElementName networkSIPStatusCode
-     * @param int|null $networkSIPStatusCode
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $networkSIPStatusCode
      * @return $this
      */
     public function setNetworkSIPStatusCode($networkSIPStatusCode)
@@ -270,7 +291,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for networkSIPStatusMessage
      *
      * @ElementName networkSIPStatusMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkSIPStatusMessage()
     {
@@ -281,7 +303,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for networkSIPStatusMessage
      *
      * @ElementName networkSIPStatusMessage
-     * @param string|null $networkSIPStatusMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkSIPStatusMessage
      * @return $this
      */
     public function setNetworkSIPStatusMessage($networkSIPStatusMessage)
@@ -294,7 +317,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for q850CauseValue
      *
      * @ElementName q850CauseValue
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getQ850CauseValue()
     {
@@ -305,7 +329,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for q850CauseValue
      *
      * @ElementName q850CauseValue
-     * @param int|null $q850CauseValue
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $q850CauseValue
      * @return $this
      */
     public function setQ850CauseValue($q850CauseValue)
@@ -318,7 +343,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for q850Text
      *
      * @ElementName q850Text
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getQ850Text()
     {
@@ -329,7 +355,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for q850Text
      *
      * @ElementName q850Text
-     * @param string|null $q850Text
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $q850Text
      * @return $this
      */
     public function setQ850Text($q850Text)
@@ -342,7 +369,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for accessTreatmentAudioFile
      *
      * @ElementName accessTreatmentAudioFile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessTreatmentAudioFile()
     {
@@ -353,7 +381,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for accessTreatmentAudioFile
      *
      * @ElementName accessTreatmentAudioFile
-     * @param string|null $accessTreatmentAudioFile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessTreatmentAudioFile
      * @return $this
      */
     public function setAccessTreatmentAudioFile($accessTreatmentAudioFile)
@@ -366,7 +395,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for accessTreatmentVideoFile
      *
      * @ElementName accessTreatmentVideoFile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessTreatmentVideoFile()
     {
@@ -377,7 +407,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for accessTreatmentVideoFile
      *
      * @ElementName accessTreatmentVideoFile
-     * @param string|null $accessTreatmentVideoFile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessTreatmentVideoFile
      * @return $this
      */
     public function setAccessTreatmentVideoFile($accessTreatmentVideoFile)
@@ -390,7 +421,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for networkTreatmentAudioFile
      *
      * @ElementName networkTreatmentAudioFile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkTreatmentAudioFile()
     {
@@ -401,7 +433,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for networkTreatmentAudioFile
      *
      * @ElementName networkTreatmentAudioFile
-     * @param string|null $networkTreatmentAudioFile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkTreatmentAudioFile
      * @return $this
      */
     public function setNetworkTreatmentAudioFile($networkTreatmentAudioFile)
@@ -414,7 +447,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for networkTreatmentVideoFile
      *
      * @ElementName networkTreatmentVideoFile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkTreatmentVideoFile()
     {
@@ -425,7 +459,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for networkTreatmentVideoFile
      *
      * @ElementName networkTreatmentVideoFile
-     * @param string|null $networkTreatmentVideoFile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkTreatmentVideoFile
      * @return $this
      */
     public function setNetworkTreatmentVideoFile($networkTreatmentVideoFile)
@@ -438,7 +473,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for cdrTerminationCause
      *
      * @ElementName cdrTerminationCause
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCdrTerminationCause()
     {
@@ -449,7 +485,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for cdrTerminationCause
      *
      * @ElementName cdrTerminationCause
-     * @param string|null $cdrTerminationCause
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $cdrTerminationCause
      * @return $this
      */
     public function setCdrTerminationCause($cdrTerminationCause)
@@ -486,7 +523,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for internalReleaseCause
      *
      * @ElementName internalReleaseCause
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getInternalReleaseCause()
     {
@@ -497,7 +535,8 @@ class SystemConfigurableTreatmentModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for internalReleaseCause
      *
      * @ElementName internalReleaseCause
-     * @param string|null $internalReleaseCause
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $internalReleaseCause
      * @return $this
      */
     public function setInternalReleaseCause($internalReleaseCause)

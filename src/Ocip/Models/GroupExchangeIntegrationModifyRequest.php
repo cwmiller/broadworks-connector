@@ -34,13 +34,15 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName exchangeURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exchangeURL = null;
 
     /**
      * @ElementName exchangeCredentials
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exchangeCredentials = null;
 
@@ -120,7 +122,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for exchangeURL
      *
      * @ElementName exchangeURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExchangeURL()
     {
@@ -131,7 +134,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for exchangeURL
      *
      * @ElementName exchangeURL
-     * @param string|null $exchangeURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $exchangeURL
      * @return $this
      */
     public function setExchangeURL($exchangeURL)
@@ -144,7 +148,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for exchangeCredentials
      *
      * @ElementName exchangeCredentials
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExchangeCredentials()
     {
@@ -155,7 +160,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for exchangeCredentials
      *
      * @ElementName exchangeCredentials
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null $exchangeCredentials
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil $exchangeCredentials
      * @return $this
      */
     public function setExchangeCredentials($exchangeCredentials)

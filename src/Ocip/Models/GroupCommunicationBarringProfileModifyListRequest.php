@@ -30,7 +30,8 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName profileName
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileName = null;
 
@@ -86,7 +87,8 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
      * Getter for profileName
      *
      * @ElementName profileName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProfileName()
     {
@@ -97,7 +99,8 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
      * Setter for profileName
      *
      * @ElementName profileName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null $profileName
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil $profileName
      * @return $this
      */
     public function setProfileName($profileName)

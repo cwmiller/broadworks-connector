@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a SystemCollaborateGetResponse20sp1V2 or an
  * ErrorResponse.
  *
- * @see SystemCollaborateGetResponse20sp1
+ * @see SystemCollaborateGetResponse20sp1V2
  * @see ErrorResponse
  */
 class SystemCollaborateGetRequest20sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

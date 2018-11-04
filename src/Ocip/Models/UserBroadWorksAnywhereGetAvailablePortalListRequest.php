@@ -7,8 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of all the available BroadWorks Anywhere portal instances for a
  * specific user
- *         The response is either UserBroadWorksAnywhereGetAvailablePortalListResponse or
- * ErrorResponse.
+ *         The response is either
+ * UserBroadWorksAnywhereGetAvailablePortalListResponse or ErrorResponse.
  *         Replaced by UserBroadWorksAnywhereGetAvailablePortalListRequest21sp1
  *
  * @see UserBroadWorksAnywhereGetAvailablePortalListResponse

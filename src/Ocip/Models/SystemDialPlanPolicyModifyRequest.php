@@ -40,7 +40,8 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName privateDigitMap
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;
 
@@ -144,7 +145,8 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for privateDigitMap
      *
      * @ElementName privateDigitMap
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrivateDigitMap()
     {
@@ -155,7 +157,8 @@ class SystemDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for privateDigitMap
      *
      * @ElementName privateDigitMap
-     * @param string|null $privateDigitMap
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)

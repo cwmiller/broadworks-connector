@@ -34,7 +34,8 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
 
     /**
      * @ElementName entranceGreetingFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $entranceGreetingFile = null;
 
@@ -114,7 +115,8 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * Getter for entranceGreetingFile
      *
      * @ElementName entranceGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEntranceGreetingFile()
     {
@@ -125,7 +127,8 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest20 extends \CWM\Broad
      * Setter for entranceGreetingFile
      *
      * @ElementName entranceGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $entranceGreetingFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $entranceGreetingFile
      * @return $this
      */
     public function setEntranceGreetingFile($entranceGreetingFile)

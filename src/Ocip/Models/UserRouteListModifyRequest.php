@@ -41,13 +41,15 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName assignedNumberRangeStartList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $assignedNumberRangeStartList = null;
 
     /**
      * @ElementName assignedNumberPrefixList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $assignedNumberPrefixList = null;
 
@@ -151,7 +153,8 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for assignedNumberRangeStartList
      *
      * @ElementName assignedNumberRangeStartList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAssignedNumberRangeStartList()
     {
@@ -162,7 +165,8 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for assignedNumberRangeStartList
      *
      * @ElementName assignedNumberRangeStartList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null $assignedNumberRangeStartList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil $assignedNumberRangeStartList
      * @return $this
      */
     public function setAssignedNumberRangeStartList($assignedNumberRangeStartList)
@@ -175,7 +179,8 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for assignedNumberPrefixList
      *
      * @ElementName assignedNumberPrefixList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAssignedNumberPrefixList()
     {
@@ -186,7 +191,8 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for assignedNumberPrefixList
      *
      * @ElementName assignedNumberPrefixList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null $assignedNumberPrefixList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil $assignedNumberPrefixList
      * @return $this
      */
     public function setAssignedNumberPrefixList($assignedNumberPrefixList)

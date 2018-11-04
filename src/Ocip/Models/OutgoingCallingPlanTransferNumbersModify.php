@@ -12,19 +12,22 @@ class OutgoingCallingPlanTransferNumbersModify
 
     /**
      * @ElementName phoneNumber01
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber01 = null;
 
     /**
      * @ElementName phoneNumber02
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber02 = null;
 
     /**
      * @ElementName phoneNumber03
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber03 = null;
 
@@ -32,7 +35,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * Getter for phoneNumber01
      *
      * @ElementName phoneNumber01
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber01()
     {
@@ -43,7 +47,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * Setter for phoneNumber01
      *
      * @ElementName phoneNumber01
-     * @param string|null $phoneNumber01
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber01
      * @return $this
      */
     public function setPhoneNumber01($phoneNumber01)
@@ -56,7 +61,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * Getter for phoneNumber02
      *
      * @ElementName phoneNumber02
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber02()
     {
@@ -67,7 +73,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * Setter for phoneNumber02
      *
      * @ElementName phoneNumber02
-     * @param string|null $phoneNumber02
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber02
      * @return $this
      */
     public function setPhoneNumber02($phoneNumber02)
@@ -80,7 +87,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * Getter for phoneNumber03
      *
      * @ElementName phoneNumber03
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber03()
     {
@@ -91,7 +99,8 @@ class OutgoingCallingPlanTransferNumbersModify
      * Setter for phoneNumber03
      *
      * @ElementName phoneNumber03
-     * @param string|null $phoneNumber03
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber03
      * @return $this
      */
     public function setPhoneNumber03($phoneNumber03)

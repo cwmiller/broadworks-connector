@@ -28,7 +28,8 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName messageDeskNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $messageDeskNumber = null;
 
@@ -84,7 +85,8 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for messageDeskNumber
      *
      * @ElementName messageDeskNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMessageDeskNumber()
     {
@@ -95,7 +97,8 @@ class UserSMDIMessageDeskModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for messageDeskNumber
      *
      * @ElementName messageDeskNumber
-     * @param string|null $messageDeskNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $messageDeskNumber
      * @return $this
      */
     public function setMessageDeskNumber($messageDeskNumber)

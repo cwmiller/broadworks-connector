@@ -2,6 +2,7 @@
 
 namespace CWM\BroadWorksConnector;
 
+use CWM\BroadWorksConnector\Ocip\Nil;
 use DOMDocument;
 use DOMElement;
 use ReflectionClass;
@@ -13,6 +14,7 @@ class XmlUtils
      * @param string $className
      * @param string $baseNamespace
      * @return object
+     * @throws \ReflectionException
      */
     public static function fromXml(DOMElement $element, $className, $baseNamespace)
     {
@@ -81,6 +83,7 @@ class XmlUtils
      * @param object $obj
      * @param DOMElement $element
      * @param DOMDocument $document
+     * @throws \ReflectionException
      */
     public static function toXml($obj, DOMElement $element, DOMDocument $document)
     {
@@ -93,10 +96,10 @@ class XmlUtils
         foreach ($ref->getMethods() as $method) {
             $methodName = $method->getName();
             if (strpos($methodName, 'get') === 0) {
-                $docblock = $method->getDocComment();
-                preg_match('/@ElementName (.*)/', $docblock, $matches);
-                if (isset($matches[1])) {
-                    $propertyName = trim($matches[1]);
+                $annotations = self::getAnnotations( $method->getDocComment());
+
+                if (array_key_exists('ElementName', $annotations)) {
+                    $propertyName = $annotations['ElementName'];
                     $value = $method->invoke($obj);
 
                     // Omit null values from the XML
@@ -110,7 +113,9 @@ class XmlUtils
                         foreach ($values as $value) {
                             $child = $document->createElement($propertyName);
 
-                            if (is_object($value)) {
+                            if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
+                                $child->setAttribute('xsi:nil', 'true');
+                            } else if (is_object($value)) {
                                 self::toXml($value, $child, $document);
                             } else {
                                 if (is_bool($value)) {
@@ -146,6 +151,22 @@ class XmlUtils
         }
 
         return rtrim($baseNamespace . $namespace, '\\') . '\\' . ucwords($name);
+    }
+
+    private static function getAnnotations($docblock)
+    {
+        $annotations = [];
+
+        preg_match_all('/@([a-z]+)( .*)*/i', $docblock, $matches);
+
+        if (isset($matches[1])) {
+            foreach ($matches[1] as $idx => $tag) {
+                $value = trim($matches[2][$idx]);
+                $annotations[$tag] = $value;
+            }
+        }
+
+        return $annotations;
     }
 
     /**

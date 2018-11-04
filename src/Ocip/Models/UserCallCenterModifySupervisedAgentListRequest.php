@@ -28,7 +28,8 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName agentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
 
@@ -84,7 +85,8 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
      * Getter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUserIdList()
     {
@@ -95,7 +97,8 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
      * Setter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList($agentUserIdList)

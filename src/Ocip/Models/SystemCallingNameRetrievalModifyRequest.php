@@ -25,13 +25,15 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serverNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverNetAddress = null;
 
     /**
      * @ElementName serverPort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverPort = null;
 
@@ -69,7 +71,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for serverNetAddress
      *
      * @ElementName serverNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServerNetAddress()
     {
@@ -80,7 +83,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for serverNetAddress
      *
      * @ElementName serverNetAddress
-     * @param string|null $serverNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serverNetAddress
      * @return $this
      */
     public function setServerNetAddress($serverNetAddress)
@@ -93,7 +97,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for serverPort
      *
      * @ElementName serverPort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServerPort()
     {
@@ -104,7 +109,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for serverPort
      *
      * @ElementName serverPort
-     * @param int|null $serverPort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $serverPort
      * @return $this
      */
     public function setServerPort($serverPort)

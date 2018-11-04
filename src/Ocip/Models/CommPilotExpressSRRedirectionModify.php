@@ -19,7 +19,8 @@ class CommPilotExpressSRRedirectionModify
 
     /**
      * @ElementName forwardingPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardingPhoneNumber = null;
 
@@ -51,7 +52,8 @@ class CommPilotExpressSRRedirectionModify
      * Getter for forwardingPhoneNumber
      *
      * @ElementName forwardingPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardingPhoneNumber()
     {
@@ -62,7 +64,8 @@ class CommPilotExpressSRRedirectionModify
      * Setter for forwardingPhoneNumber
      *
      * @ElementName forwardingPhoneNumber
-     * @param string|null $forwardingPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardingPhoneNumber
      * @return $this
      */
     public function setForwardingPhoneNumber($forwardingPhoneNumber)

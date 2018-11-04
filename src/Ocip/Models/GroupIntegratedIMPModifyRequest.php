@@ -34,7 +34,8 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serviceDomain
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
 
@@ -114,7 +115,8 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for serviceDomain
      *
      * @ElementName serviceDomain
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceDomain()
     {
@@ -125,7 +127,8 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for serviceDomain
      *
      * @ElementName serviceDomain
-     * @param string|null $serviceDomain
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)

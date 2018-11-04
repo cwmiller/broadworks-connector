@@ -22,7 +22,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName configurationServerURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configurationServerURL = null;
 
@@ -54,7 +55,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * Getter for configurationServerURL
      *
      * @ElementName configurationServerURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConfigurationServerURL()
     {
@@ -65,7 +67,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * Setter for configurationServerURL
      *
      * @ElementName configurationServerURL
-     * @param string|null $configurationServerURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $configurationServerURL
      * @return $this
      */
     public function setConfigurationServerURL($configurationServerURL)

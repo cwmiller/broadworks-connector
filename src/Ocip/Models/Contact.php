@@ -12,19 +12,22 @@ class Contact
 
     /**
      * @ElementName contactName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactName = null;
 
     /**
      * @ElementName contactNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactNumber = null;
 
     /**
      * @ElementName contactEmail
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactEmail = null;
 
@@ -32,7 +35,8 @@ class Contact
      * Getter for contactName
      *
      * @ElementName contactName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContactName()
     {
@@ -43,7 +47,8 @@ class Contact
      * Setter for contactName
      *
      * @ElementName contactName
-     * @param string|null $contactName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contactName
      * @return $this
      */
     public function setContactName($contactName)
@@ -56,7 +61,8 @@ class Contact
      * Getter for contactNumber
      *
      * @ElementName contactNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContactNumber()
     {
@@ -67,7 +73,8 @@ class Contact
      * Setter for contactNumber
      *
      * @ElementName contactNumber
-     * @param string|null $contactNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contactNumber
      * @return $this
      */
     public function setContactNumber($contactNumber)
@@ -80,7 +87,8 @@ class Contact
      * Getter for contactEmail
      *
      * @ElementName contactEmail
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContactEmail()
     {
@@ -91,7 +99,8 @@ class Contact
      * Setter for contactEmail
      *
      * @ElementName contactEmail
-     * @param string|null $contactEmail
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contactEmail
      * @return $this
      */
     public function setContactEmail($contactEmail)

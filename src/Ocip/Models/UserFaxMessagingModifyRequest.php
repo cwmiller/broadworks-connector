@@ -28,19 +28,22 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
 
     /**
      * @ElementName sipAliasList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;
 
@@ -96,7 +99,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -107,7 +111,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -120,7 +125,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for extension
      *
      * @ElementName extension
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtension()
     {
@@ -131,7 +137,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for extension
      *
      * @ElementName extension
-     * @param string|null $extension
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -144,7 +151,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for sipAliasList
      *
      * @ElementName sipAliasList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipAliasList()
     {
@@ -155,7 +163,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for sipAliasList
      *
      * @ElementName sipAliasList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAliasList
      * @return $this
      */
     public function setSipAliasList($sipAliasList)

@@ -22,7 +22,8 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -54,7 +55,8 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -65,7 +67,8 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)

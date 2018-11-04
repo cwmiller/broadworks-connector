@@ -40,13 +40,15 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName serviceProviderName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceProviderName = null;
 
     /**
      * @ElementName supportEmail
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportEmail = null;
 
@@ -70,31 +72,36 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName servicePolicy
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preferredDataCenter = null;
 
@@ -150,7 +157,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for serviceProviderName
      *
      * @ElementName serviceProviderName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceProviderName()
     {
@@ -161,7 +169,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for serviceProviderName
      *
      * @ElementName serviceProviderName
-     * @param string|null $serviceProviderName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceProviderName
      * @return $this
      */
     public function setServiceProviderName($serviceProviderName)
@@ -174,7 +183,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for supportEmail
      *
      * @ElementName supportEmail
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupportEmail()
     {
@@ -185,7 +195,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for supportEmail
      *
      * @ElementName supportEmail
-     * @param string|null $supportEmail
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportEmail
      * @return $this
      */
     public function setSupportEmail($supportEmail)
@@ -270,7 +281,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for servicePolicy
      *
      * @ElementName servicePolicy
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServicePolicy()
     {
@@ -281,7 +293,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for servicePolicy
      *
      * @ElementName servicePolicy
-     * @param string|null $servicePolicy
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePolicy
      * @return $this
      */
     public function setServicePolicy($servicePolicy)
@@ -294,7 +307,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for callProcessingSliceId
      *
      * @ElementName callProcessingSliceId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallProcessingSliceId()
     {
@@ -305,7 +319,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for callProcessingSliceId
      *
      * @ElementName callProcessingSliceId
-     * @param string|null $callProcessingSliceId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callProcessingSliceId
      * @return $this
      */
     public function setCallProcessingSliceId($callProcessingSliceId)
@@ -318,7 +333,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for provisioningSliceId
      *
      * @ElementName provisioningSliceId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningSliceId()
     {
@@ -329,7 +345,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for provisioningSliceId
      *
      * @ElementName provisioningSliceId
-     * @param string|null $provisioningSliceId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningSliceId
      * @return $this
      */
     public function setProvisioningSliceId($provisioningSliceId)
@@ -342,7 +359,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for subscriberPartition
      *
      * @ElementName subscriberPartition
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSubscriberPartition()
     {
@@ -353,7 +371,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for subscriberPartition
      *
      * @ElementName subscriberPartition
-     * @param string|null $subscriberPartition
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $subscriberPartition
      * @return $this
      */
     public function setSubscriberPartition($subscriberPartition)
@@ -366,7 +385,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for preferredDataCenter
      *
      * @ElementName preferredDataCenter
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPreferredDataCenter()
     {
@@ -377,7 +397,8 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for preferredDataCenter
      *
      * @ElementName preferredDataCenter
-     * @param string|null $preferredDataCenter
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preferredDataCenter
      * @return $this
      */
     public function setPreferredDataCenter($preferredDataCenter)

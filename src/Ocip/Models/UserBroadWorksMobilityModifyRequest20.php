@@ -41,7 +41,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName mobilePhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilePhoneNumber = null;
 
@@ -169,7 +170,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Getter for mobilePhoneNumber
      *
      * @ElementName mobilePhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobilePhoneNumber()
     {
@@ -180,7 +182,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * Setter for mobilePhoneNumber
      *
      * @ElementName mobilePhoneNumber
-     * @param string|null $mobilePhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)

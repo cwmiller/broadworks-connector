@@ -29,7 +29,8 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outgoingSMDIMWIPhoneNumberList = null;
 
@@ -85,7 +86,8 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * Getter for outgoingSMDIMWIPhoneNumberList
      *
      * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutgoingSMDIMWIPhoneNumberList()
     {
@@ -96,7 +98,8 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
      * Setter for outgoingSMDIMWIPhoneNumberList
      *
      * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null $outgoingSMDIMWIPhoneNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil $outgoingSMDIMWIPhoneNumberList
      * @return $this
      */
     public function setOutgoingSMDIMWIPhoneNumberList($outgoingSMDIMWIPhoneNumberList)

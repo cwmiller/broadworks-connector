@@ -94,7 +94,8 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName permanentLockoutNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $permanentLockoutNotifyEmailAddress = null;
 
@@ -474,7 +475,8 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * Getter for permanentLockoutNotifyEmailAddress
      *
      * @ElementName permanentLockoutNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPermanentLockoutNotifyEmailAddress()
     {
@@ -485,7 +487,8 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
      * Setter for permanentLockoutNotifyEmailAddress
      *
      * @ElementName permanentLockoutNotifyEmailAddress
-     * @param string|null $permanentLockoutNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $permanentLockoutNotifyEmailAddress
      * @return $this
      */
     public function setPermanentLockoutNotifyEmailAddress($permanentLockoutNotifyEmailAddress)

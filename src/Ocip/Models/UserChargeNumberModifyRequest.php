@@ -22,7 +22,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
@@ -66,7 +67,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -77,7 +79,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)

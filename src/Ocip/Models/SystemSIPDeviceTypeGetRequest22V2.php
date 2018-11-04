@@ -13,9 +13,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Deprecated by SystemSIPDeviceTypeGetRequest22V3.
  *
  * @see SystemDeviceTypeGetRequest
- * @see SystemSIPDeviceTypeGetResponse22
+ * @see SystemSIPDeviceTypeGetResponse22V2
  * @see ErrorResponse
- * @see SystemSIPDeviceTypeGetRequest22
+ * @see SystemSIPDeviceTypeGetRequest22V3
  */
 class SystemSIPDeviceTypeGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

@@ -60,7 +60,8 @@ class EstimatedWaitMessageOptionsModify
 
     /**
      * @ElementName timeBetweenEWMUpdatesSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeBetweenEWMUpdatesSeconds = null;
 
@@ -260,7 +261,8 @@ class EstimatedWaitMessageOptionsModify
      * Getter for timeBetweenEWMUpdatesSeconds
      *
      * @ElementName timeBetweenEWMUpdatesSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeBetweenEWMUpdatesSeconds()
     {
@@ -271,7 +273,8 @@ class EstimatedWaitMessageOptionsModify
      * Setter for timeBetweenEWMUpdatesSeconds
      *
      * @ElementName timeBetweenEWMUpdatesSeconds
-     * @param int|null $timeBetweenEWMUpdatesSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $timeBetweenEWMUpdatesSeconds
      * @return $this
      */
     public function setTimeBetweenEWMUpdatesSeconds($timeBetweenEWMUpdatesSeconds)

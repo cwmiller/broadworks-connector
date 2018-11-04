@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetResponse22
  * @see ErrorResponse
- * @see GroupGetRequest22
+ * @see GroupGetRequest22V2
  */
 class GroupGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

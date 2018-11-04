@@ -306,7 +306,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName thirdPartyVoiceMailServerUserServer
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thirdPartyVoiceMailServerUserServer = null;
 
@@ -318,7 +319,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName thirdPartyVoiceMailMailboxURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thirdPartyVoiceMailMailboxURL = null;
 
@@ -1261,7 +1263,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for thirdPartyVoiceMailServerUserServer
      *
      * @ElementName thirdPartyVoiceMailServerUserServer
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThirdPartyVoiceMailServerUserServer()
     {
@@ -1272,7 +1275,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for thirdPartyVoiceMailServerUserServer
      *
      * @ElementName thirdPartyVoiceMailServerUserServer
-     * @param string|null $thirdPartyVoiceMailServerUserServer
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $thirdPartyVoiceMailServerUserServer
      * @return $this
      */
     public function setThirdPartyVoiceMailServerUserServer($thirdPartyVoiceMailServerUserServer)
@@ -1309,7 +1313,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for thirdPartyVoiceMailMailboxURL
      *
      * @ElementName thirdPartyVoiceMailMailboxURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThirdPartyVoiceMailMailboxURL()
     {
@@ -1320,7 +1325,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for thirdPartyVoiceMailMailboxURL
      *
      * @ElementName thirdPartyVoiceMailMailboxURL
-     * @param string|null $thirdPartyVoiceMailMailboxURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $thirdPartyVoiceMailMailboxURL
      * @return $this
      */
     public function setThirdPartyVoiceMailMailboxURL($thirdPartyVoiceMailMailboxURL)

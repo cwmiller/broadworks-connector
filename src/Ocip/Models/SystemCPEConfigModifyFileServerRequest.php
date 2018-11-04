@@ -42,7 +42,8 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName cpeFileDirectory
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cpeFileDirectory = null;
 
@@ -152,7 +153,8 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for cpeFileDirectory
      *
      * @ElementName cpeFileDirectory
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCpeFileDirectory()
     {
@@ -163,7 +165,8 @@ class SystemCPEConfigModifyFileServerRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for cpeFileDirectory
      *
      * @ElementName cpeFileDirectory
-     * @param string|null $cpeFileDirectory
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $cpeFileDirectory
      * @return $this
      */
     public function setCpeFileDirectory($cpeFileDirectory)

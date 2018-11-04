@@ -65,13 +65,15 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName alertingCustomCallingLineIdName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alertingCustomCallingLineIdName = null;
 
     /**
      * @ElementName unicodeAlertingCustomCallingLineIdName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unicodeAlertingCustomCallingLineIdName = null;
 
@@ -83,7 +85,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName alertingCustomCallingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alertingCustomCallingLineIdPhoneNumber = null;
 
@@ -107,7 +110,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName rolloverWaitTimeSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rolloverWaitTimeSeconds = null;
 
@@ -119,7 +123,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName rolloverForwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rolloverForwardToPhoneNumber = null;
 
@@ -319,7 +324,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Getter for alertingCustomCallingLineIdName
      *
      * @ElementName alertingCustomCallingLineIdName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlertingCustomCallingLineIdName()
     {
@@ -330,7 +336,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Setter for alertingCustomCallingLineIdName
      *
      * @ElementName alertingCustomCallingLineIdName
-     * @param string|null $alertingCustomCallingLineIdName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alertingCustomCallingLineIdName
      * @return $this
      */
     public function setAlertingCustomCallingLineIdName($alertingCustomCallingLineIdName)
@@ -343,7 +350,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Getter for unicodeAlertingCustomCallingLineIdName
      *
      * @ElementName unicodeAlertingCustomCallingLineIdName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUnicodeAlertingCustomCallingLineIdName()
     {
@@ -354,7 +362,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Setter for unicodeAlertingCustomCallingLineIdName
      *
      * @ElementName unicodeAlertingCustomCallingLineIdName
-     * @param string|null $unicodeAlertingCustomCallingLineIdName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $unicodeAlertingCustomCallingLineIdName
      * @return $this
      */
     public function setUnicodeAlertingCustomCallingLineIdName($unicodeAlertingCustomCallingLineIdName)
@@ -391,7 +400,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Getter for alertingCustomCallingLineIdPhoneNumber
      *
      * @ElementName alertingCustomCallingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlertingCustomCallingLineIdPhoneNumber()
     {
@@ -402,7 +412,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Setter for alertingCustomCallingLineIdPhoneNumber
      *
      * @ElementName alertingCustomCallingLineIdPhoneNumber
-     * @param string|null $alertingCustomCallingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alertingCustomCallingLineIdPhoneNumber
      * @return $this
      */
     public function setAlertingCustomCallingLineIdPhoneNumber($alertingCustomCallingLineIdPhoneNumber)
@@ -487,7 +498,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Getter for rolloverWaitTimeSeconds
      *
      * @ElementName rolloverWaitTimeSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRolloverWaitTimeSeconds()
     {
@@ -498,7 +510,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Setter for rolloverWaitTimeSeconds
      *
      * @ElementName rolloverWaitTimeSeconds
-     * @param int|null $rolloverWaitTimeSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $rolloverWaitTimeSeconds
      * @return $this
      */
     public function setRolloverWaitTimeSeconds($rolloverWaitTimeSeconds)
@@ -535,7 +548,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Getter for rolloverForwardToPhoneNumber
      *
      * @ElementName rolloverForwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRolloverForwardToPhoneNumber()
     {
@@ -546,7 +560,8 @@ class UserExecutiveModifyScreeningAlertingRequest extends \CWM\BroadWorksConnect
      * Setter for rolloverForwardToPhoneNumber
      *
      * @ElementName rolloverForwardToPhoneNumber
-     * @param string|null $rolloverForwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $rolloverForwardToPhoneNumber
      * @return $this
      */
     public function setRolloverForwardToPhoneNumber($rolloverForwardToPhoneNumber)

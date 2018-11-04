@@ -42,13 +42,15 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;
 
     /**
      * @ElementName recallAlternateUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recallAlternateUserId = null;
 
@@ -158,7 +160,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for userIdList
      *
      * @ElementName userIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserIdList()
     {
@@ -169,7 +172,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for userIdList
      *
      * @ElementName userIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $userIdList
      * @return $this
      */
     public function setUserIdList($userIdList)
@@ -182,7 +186,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for recallAlternateUserId
      *
      * @ElementName recallAlternateUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecallAlternateUserId()
     {
@@ -193,7 +198,8 @@ class GroupCallParkModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for recallAlternateUserId
      *
      * @ElementName recallAlternateUserId
-     * @param string|null $recallAlternateUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recallAlternateUserId
      * @return $this
      */
     public function setRecallAlternateUserId($recallAlternateUserId)

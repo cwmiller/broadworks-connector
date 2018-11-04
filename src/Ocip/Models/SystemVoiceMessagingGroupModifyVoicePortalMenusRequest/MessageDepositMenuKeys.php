@@ -10,19 +10,22 @@ class MessageDepositMenuKeys
 
     /**
      * @ElementName enableMessageDeposit
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDeposit
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disableMessageDeposit = null;
 
     /**
      * @ElementName listenToMessageDepositStatus
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToMessageDepositStatus = null;
 
@@ -34,7 +37,8 @@ class MessageDepositMenuKeys
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -42,7 +46,8 @@ class MessageDepositMenuKeys
      * Getter for enableMessageDeposit
      *
      * @ElementName enableMessageDeposit
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEnableMessageDeposit()
     {
@@ -53,7 +58,8 @@ class MessageDepositMenuKeys
      * Setter for enableMessageDeposit
      *
      * @ElementName enableMessageDeposit
-     * @param string|null $enableMessageDeposit
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enableMessageDeposit
      * @return $this
      */
     public function setEnableMessageDeposit($enableMessageDeposit)
@@ -66,7 +72,8 @@ class MessageDepositMenuKeys
      * Getter for disableMessageDeposit
      *
      * @ElementName disableMessageDeposit
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDisableMessageDeposit()
     {
@@ -77,7 +84,8 @@ class MessageDepositMenuKeys
      * Setter for disableMessageDeposit
      *
      * @ElementName disableMessageDeposit
-     * @param string|null $disableMessageDeposit
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disableMessageDeposit
      * @return $this
      */
     public function setDisableMessageDeposit($disableMessageDeposit)
@@ -90,7 +98,8 @@ class MessageDepositMenuKeys
      * Getter for listenToMessageDepositStatus
      *
      * @ElementName listenToMessageDepositStatus
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToMessageDepositStatus()
     {
@@ -101,7 +110,8 @@ class MessageDepositMenuKeys
      * Setter for listenToMessageDepositStatus
      *
      * @ElementName listenToMessageDepositStatus
-     * @param string|null $listenToMessageDepositStatus
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToMessageDepositStatus
      * @return $this
      */
     public function setListenToMessageDepositStatus($listenToMessageDepositStatus)
@@ -138,7 +148,8 @@ class MessageDepositMenuKeys
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -149,7 +160,8 @@ class MessageDepositMenuKeys
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

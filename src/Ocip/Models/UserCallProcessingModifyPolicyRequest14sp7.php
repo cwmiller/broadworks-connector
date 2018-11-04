@@ -162,7 +162,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName supportedMediaSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
 
@@ -288,13 +289,15 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName routeOverrideDomain
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routeOverrideDomain = null;
 
     /**
      * @ElementName routeOverridePrefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routeOverridePrefix = null;
 
@@ -662,7 +665,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * Getter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupportedMediaSetName()
     {
@@ -673,7 +677,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * Setter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @param string|null $supportedMediaSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportedMediaSetName
      * @return $this
      */
     public function setSupportedMediaSetName($supportedMediaSetName)
@@ -1166,7 +1171,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * Getter for routeOverrideDomain
      *
      * @ElementName routeOverrideDomain
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRouteOverrideDomain()
     {
@@ -1177,7 +1183,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * Setter for routeOverrideDomain
      *
      * @ElementName routeOverrideDomain
-     * @param string|null $routeOverrideDomain
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routeOverrideDomain
      * @return $this
      */
     public function setRouteOverrideDomain($routeOverrideDomain)
@@ -1190,7 +1197,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * Getter for routeOverridePrefix
      *
      * @ElementName routeOverridePrefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRouteOverridePrefix()
     {
@@ -1201,7 +1209,8 @@ class UserCallProcessingModifyPolicyRequest14sp7 extends \CWM\BroadWorksConnecto
      * Setter for routeOverridePrefix
      *
      * @ElementName routeOverridePrefix
-     * @param string|null $routeOverridePrefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routeOverridePrefix
      * @return $this
      */
     public function setRouteOverridePrefix($routeOverridePrefix)

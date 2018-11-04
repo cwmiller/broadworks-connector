@@ -31,79 +31,92 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName communicationBarringProfile0
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile0 = null;
 
     /**
      * @ElementName communicationBarringProfile1
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile1 = null;
 
     /**
      * @ElementName communicationBarringProfile2
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile2 = null;
 
     /**
      * @ElementName communicationBarringProfile3
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile3 = null;
 
     /**
      * @ElementName communicationBarringProfile4
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile4 = null;
 
     /**
      * @ElementName communicationBarringProfile5
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile5 = null;
 
     /**
      * @ElementName communicationBarringProfile6
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile6 = null;
 
     /**
      * @ElementName communicationBarringProfile7
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile7 = null;
 
     /**
      * @ElementName communicationBarringProfile8
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile8 = null;
 
     /**
      * @ElementName communicationBarringProfile9
-     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile9 = null;
 
     /**
      * @ElementName networkTranslationIndex
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTranslationIndex = null;
 
     /**
      * @ElementName callProcessingPolicyProfileName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callProcessingPolicyProfileName = null;
 
@@ -159,7 +172,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -170,7 +184,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -183,7 +198,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile0
      *
      * @ElementName communicationBarringProfile0
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile0()
     {
@@ -194,7 +210,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile0
      *
      * @ElementName communicationBarringProfile0
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile0
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile0
      * @return $this
      */
     public function setCommunicationBarringProfile0($communicationBarringProfile0)
@@ -207,7 +224,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile1
      *
      * @ElementName communicationBarringProfile1
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile1()
     {
@@ -218,7 +236,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile1
      *
      * @ElementName communicationBarringProfile1
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile1
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile1
      * @return $this
      */
     public function setCommunicationBarringProfile1($communicationBarringProfile1)
@@ -231,7 +250,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile2
      *
      * @ElementName communicationBarringProfile2
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile2()
     {
@@ -242,7 +262,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile2
      *
      * @ElementName communicationBarringProfile2
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile2
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile2
      * @return $this
      */
     public function setCommunicationBarringProfile2($communicationBarringProfile2)
@@ -255,7 +276,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile3
      *
      * @ElementName communicationBarringProfile3
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile3()
     {
@@ -266,7 +288,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile3
      *
      * @ElementName communicationBarringProfile3
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile3
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile3
      * @return $this
      */
     public function setCommunicationBarringProfile3($communicationBarringProfile3)
@@ -279,7 +302,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile4
      *
      * @ElementName communicationBarringProfile4
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile4()
     {
@@ -290,7 +314,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile4
      *
      * @ElementName communicationBarringProfile4
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile4
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile4
      * @return $this
      */
     public function setCommunicationBarringProfile4($communicationBarringProfile4)
@@ -303,7 +328,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile5
      *
      * @ElementName communicationBarringProfile5
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile5()
     {
@@ -314,7 +340,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile5
      *
      * @ElementName communicationBarringProfile5
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile5
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile5
      * @return $this
      */
     public function setCommunicationBarringProfile5($communicationBarringProfile5)
@@ -327,7 +354,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile6
      *
      * @ElementName communicationBarringProfile6
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile6()
     {
@@ -338,7 +366,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile6
      *
      * @ElementName communicationBarringProfile6
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile6
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile6
      * @return $this
      */
     public function setCommunicationBarringProfile6($communicationBarringProfile6)
@@ -351,7 +380,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile7
      *
      * @ElementName communicationBarringProfile7
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile7()
     {
@@ -362,7 +392,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile7
      *
      * @ElementName communicationBarringProfile7
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile7
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile7
      * @return $this
      */
     public function setCommunicationBarringProfile7($communicationBarringProfile7)
@@ -375,7 +406,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile8
      *
      * @ElementName communicationBarringProfile8
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile8()
     {
@@ -386,7 +418,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile8
      *
      * @ElementName communicationBarringProfile8
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile8
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile8
      * @return $this
      */
     public function setCommunicationBarringProfile8($communicationBarringProfile8)
@@ -399,7 +432,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for communicationBarringProfile9
      *
      * @ElementName communicationBarringProfile9
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommunicationBarringProfile9()
     {
@@ -410,7 +444,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for communicationBarringProfile9
      *
      * @ElementName communicationBarringProfile9
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile9
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile9
      * @return $this
      */
     public function setCommunicationBarringProfile9($communicationBarringProfile9)
@@ -423,7 +458,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for networkTranslationIndex
      *
      * @ElementName networkTranslationIndex
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkTranslationIndex()
     {
@@ -434,7 +470,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for networkTranslationIndex
      *
      * @ElementName networkTranslationIndex
-     * @param string|null $networkTranslationIndex
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkTranslationIndex
      * @return $this
      */
     public function setNetworkTranslationIndex($networkTranslationIndex)
@@ -447,7 +484,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for callProcessingPolicyProfileName
      *
      * @ElementName callProcessingPolicyProfileName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallProcessingPolicyProfileName()
     {
@@ -458,7 +496,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for callProcessingPolicyProfileName
      *
      * @ElementName callProcessingPolicyProfileName
-     * @param string|null $callProcessingPolicyProfileName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callProcessingPolicyProfileName
      * @return $this
      */
     public function setCallProcessingPolicyProfileName($callProcessingPolicyProfileName)

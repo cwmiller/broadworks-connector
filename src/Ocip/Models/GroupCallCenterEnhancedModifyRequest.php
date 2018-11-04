@@ -32,7 +32,8 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName wrapUpSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;
 
@@ -88,7 +89,8 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for wrapUpSeconds
      *
      * @ElementName wrapUpSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWrapUpSeconds()
     {
@@ -99,7 +101,8 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for wrapUpSeconds
      *
      * @ElementName wrapUpSeconds
-     * @param int|null $wrapUpSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)

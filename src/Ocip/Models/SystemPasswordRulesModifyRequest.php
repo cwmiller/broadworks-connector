@@ -123,7 +123,8 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;
 
@@ -545,7 +546,8 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for loginDisabledNotifyEmailAddress
      *
      * @ElementName loginDisabledNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLoginDisabledNotifyEmailAddress()
     {
@@ -556,7 +558,8 @@ class SystemPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for loginDisabledNotifyEmailAddress
      *
      * @ElementName loginDisabledNotifyEmailAddress
-     * @param string|null $loginDisabledNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $loginDisabledNotifyEmailAddress
      * @return $this
      */
     public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress)

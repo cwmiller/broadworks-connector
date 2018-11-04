@@ -57,19 +57,22 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
 
     /**
      * @ElementName groupName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupName = null;
 
     /**
      * @ElementName callingLineIdName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
 
@@ -81,7 +84,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
 
     /**
      * @ElementName locationDialingCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $locationDialingCode = null;
 
@@ -99,37 +103,43 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
 
     /**
      * @ElementName servicePolicy
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preferredDataCenter = null;
 
     /**
      * @ElementName defaultUserCallingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultUserCallingLineIdPhoneNumber = null;
 
@@ -233,7 +243,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for groupName
      *
      * @ElementName groupName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGroupName()
     {
@@ -244,7 +255,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for groupName
      *
      * @ElementName groupName
-     * @param string|null $groupName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $groupName
      * @return $this
      */
     public function setGroupName($groupName)
@@ -257,7 +269,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for callingLineIdName
      *
      * @ElementName callingLineIdName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdName()
     {
@@ -268,7 +281,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for callingLineIdName
      *
      * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
@@ -281,7 +295,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdPhoneNumber()
     {
@@ -292,7 +307,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -329,7 +345,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for locationDialingCode
      *
      * @ElementName locationDialingCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLocationDialingCode()
     {
@@ -340,7 +357,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for locationDialingCode
      *
      * @ElementName locationDialingCode
-     * @param string|null $locationDialingCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $locationDialingCode
      * @return $this
      */
     public function setLocationDialingCode($locationDialingCode)
@@ -401,7 +419,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for servicePolicy
      *
      * @ElementName servicePolicy
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServicePolicy()
     {
@@ -412,7 +431,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for servicePolicy
      *
      * @ElementName servicePolicy
-     * @param string|null $servicePolicy
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePolicy
      * @return $this
      */
     public function setServicePolicy($servicePolicy)
@@ -425,7 +445,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for callProcessingSliceId
      *
      * @ElementName callProcessingSliceId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallProcessingSliceId()
     {
@@ -436,7 +457,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for callProcessingSliceId
      *
      * @ElementName callProcessingSliceId
-     * @param string|null $callProcessingSliceId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callProcessingSliceId
      * @return $this
      */
     public function setCallProcessingSliceId($callProcessingSliceId)
@@ -449,7 +471,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for provisioningSliceId
      *
      * @ElementName provisioningSliceId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProvisioningSliceId()
     {
@@ -460,7 +483,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for provisioningSliceId
      *
      * @ElementName provisioningSliceId
-     * @param string|null $provisioningSliceId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningSliceId
      * @return $this
      */
     public function setProvisioningSliceId($provisioningSliceId)
@@ -473,7 +497,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for subscriberPartition
      *
      * @ElementName subscriberPartition
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSubscriberPartition()
     {
@@ -484,7 +509,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for subscriberPartition
      *
      * @ElementName subscriberPartition
-     * @param string|null $subscriberPartition
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $subscriberPartition
      * @return $this
      */
     public function setSubscriberPartition($subscriberPartition)
@@ -497,7 +523,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for preferredDataCenter
      *
      * @ElementName preferredDataCenter
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPreferredDataCenter()
     {
@@ -508,7 +535,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for preferredDataCenter
      *
      * @ElementName preferredDataCenter
-     * @param string|null $preferredDataCenter
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preferredDataCenter
      * @return $this
      */
     public function setPreferredDataCenter($preferredDataCenter)
@@ -521,7 +549,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Getter for defaultUserCallingLineIdPhoneNumber
      *
      * @ElementName defaultUserCallingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultUserCallingLineIdPhoneNumber()
     {
@@ -532,7 +561,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * Setter for defaultUserCallingLineIdPhoneNumber
      *
      * @ElementName defaultUserCallingLineIdPhoneNumber
-     * @param string|null $defaultUserCallingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultUserCallingLineIdPhoneNumber
      * @return $this
      */
     public function setDefaultUserCallingLineIdPhoneNumber($defaultUserCallingLineIdPhoneNumber)

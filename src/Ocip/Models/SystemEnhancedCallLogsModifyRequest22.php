@@ -22,13 +22,15 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName eclQueryApplicationURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryApplicationURL = null;
 
     /**
      * @ElementName eclQueryDataRepositoryURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryDataRepositoryURL = null;
 
@@ -60,7 +62,8 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * Getter for eclQueryApplicationURL
      *
      * @ElementName eclQueryApplicationURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEclQueryApplicationURL()
     {
@@ -71,7 +74,8 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * Setter for eclQueryApplicationURL
      *
      * @ElementName eclQueryApplicationURL
-     * @param string|null $eclQueryApplicationURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $eclQueryApplicationURL
      * @return $this
      */
     public function setEclQueryApplicationURL($eclQueryApplicationURL)
@@ -84,7 +88,8 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * Getter for eclQueryDataRepositoryURL
      *
      * @ElementName eclQueryDataRepositoryURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEclQueryDataRepositoryURL()
     {
@@ -95,7 +100,8 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
      * Setter for eclQueryDataRepositoryURL
      *
      * @ElementName eclQueryDataRepositoryURL
-     * @param string|null $eclQueryDataRepositoryURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $eclQueryDataRepositoryURL
      * @return $this
      */
     public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL)

@@ -25,13 +25,15 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName firstName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
 
@@ -75,7 +77,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Getter for firstName
      *
      * @ElementName firstName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFirstName()
     {
@@ -86,7 +89,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Setter for firstName
      *
      * @ElementName firstName
-     * @param string|null $firstName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -99,7 +103,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Getter for lastName
      *
      * @ElementName lastName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLastName()
     {
@@ -110,7 +115,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Setter for lastName
      *
      * @ElementName lastName
-     * @param string|null $lastName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $lastName
      * @return $this
      */
     public function setLastName($lastName)

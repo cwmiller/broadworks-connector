@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Extension", "Department", "Email Address".
  *         Replaced by: GroupTrunkGroupGetInstanceResponse20sp1
  *
- * @see GroupTrunkGroupGetInstanceRequest19sp1
+ * @see GroupTrunkGroupGetInstanceRequest19sp1V2
  * @see GroupTrunkGroupGetInstanceResponse20sp1
  */
 class GroupTrunkGroupGetInstanceResponse19sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse

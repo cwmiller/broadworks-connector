@@ -28,7 +28,8 @@ class AccessDeviceMultipleContactEndpointModify
 
     /**
      * @ElementName contactList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;
 
@@ -90,7 +91,8 @@ class AccessDeviceMultipleContactEndpointModify
      * Getter for contactList
      *
      * @ElementName contactList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContactList()
     {
@@ -101,7 +103,8 @@ class AccessDeviceMultipleContactEndpointModify
      * Setter for contactList
      *
      * @ElementName contactList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null $contactList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil $contactList
      * @return $this
      */
     public function setContactList($contactList)

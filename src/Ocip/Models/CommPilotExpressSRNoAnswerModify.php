@@ -18,7 +18,8 @@ class CommPilotExpressSRNoAnswerModify
 
     /**
      * @ElementName forwardingNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardingNumberList = null;
 
@@ -56,7 +57,8 @@ class CommPilotExpressSRNoAnswerModify
      * Getter for forwardingNumberList
      *
      * @ElementName forwardingNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardingNumberList()
     {
@@ -67,7 +69,8 @@ class CommPilotExpressSRNoAnswerModify
      * Setter for forwardingNumberList
      *
      * @ElementName forwardingNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null $forwardingNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardingNumberList
      * @return $this
      */
     public function setForwardingNumberList($forwardingNumberList)

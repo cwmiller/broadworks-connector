@@ -16,31 +16,36 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName scfApiNetAddress1
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfApiNetAddress1 = null;
 
     /**
      * @ElementName scfApiNetAddress2
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfApiNetAddress2 = null;
 
     /**
      * @ElementName userName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userName = null;
 
     /**
      * @ElementName password
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
 
     /**
      * @ElementName emailFromAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailFromAddress = null;
 
@@ -52,13 +57,15 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName signalingIPAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $signalingIPAddress = null;
 
     /**
      * @ElementName signalingPort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $signalingPort = null;
 
@@ -66,7 +73,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for scfApiNetAddress1
      *
      * @ElementName scfApiNetAddress1
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getScfApiNetAddress1()
     {
@@ -77,7 +85,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for scfApiNetAddress1
      *
      * @ElementName scfApiNetAddress1
-     * @param string|null $scfApiNetAddress1
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $scfApiNetAddress1
      * @return $this
      */
     public function setScfApiNetAddress1($scfApiNetAddress1)
@@ -90,7 +99,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for scfApiNetAddress2
      *
      * @ElementName scfApiNetAddress2
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getScfApiNetAddress2()
     {
@@ -101,7 +111,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for scfApiNetAddress2
      *
      * @ElementName scfApiNetAddress2
-     * @param string|null $scfApiNetAddress2
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $scfApiNetAddress2
      * @return $this
      */
     public function setScfApiNetAddress2($scfApiNetAddress2)
@@ -114,7 +125,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for userName
      *
      * @ElementName userName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserName()
     {
@@ -125,7 +137,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for userName
      *
      * @ElementName userName
-     * @param string|null $userName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -138,7 +151,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for password
      *
      * @ElementName password
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPassword()
     {
@@ -149,7 +163,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for password
      *
      * @ElementName password
-     * @param string|null $password
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $password
      * @return $this
      */
     public function setPassword($password)
@@ -162,7 +177,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for emailFromAddress
      *
      * @ElementName emailFromAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEmailFromAddress()
     {
@@ -173,7 +189,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for emailFromAddress
      *
      * @ElementName emailFromAddress
-     * @param string|null $emailFromAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $emailFromAddress
      * @return $this
      */
     public function setEmailFromAddress($emailFromAddress)
@@ -210,7 +227,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for signalingIPAddress
      *
      * @ElementName signalingIPAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSignalingIPAddress()
     {
@@ -221,7 +239,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for signalingIPAddress
      *
      * @ElementName signalingIPAddress
-     * @param string|null $signalingIPAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $signalingIPAddress
      * @return $this
      */
     public function setSignalingIPAddress($signalingIPAddress)
@@ -234,7 +253,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for signalingPort
      *
      * @ElementName signalingPort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSignalingPort()
     {
@@ -245,7 +265,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for signalingPort
      *
      * @ElementName signalingPort
-     * @param int|null $signalingPort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $signalingPort
      * @return $this
      */
     public function setSignalingPort($signalingPort)

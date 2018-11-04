@@ -23,7 +23,8 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName profile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profile = null;
 
@@ -79,7 +80,8 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for profile
      *
      * @ElementName profile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProfile()
     {
@@ -90,7 +92,8 @@ class UserCommPilotExpressModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for profile
      *
      * @ElementName profile
-     * @param string|null $profile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profile
      * @return $this
      */
     public function setProfile($profile)

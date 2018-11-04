@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by: SystemSIPDeviceTypeGetResponse22V2 in AS data mode
  *
  * @see SystemSIPDeviceTypeGetRequest22
- * @see SystemSIPDeviceTypeGetResponse22
+ * @see SystemSIPDeviceTypeGetResponse22V2
  */
 class SystemSIPDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

@@ -22,7 +22,8 @@ class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName routingProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routingProfile = null;
 
@@ -54,7 +55,8 @@ class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for routingProfile
      *
      * @ElementName routingProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRoutingProfile()
     {
@@ -65,7 +67,8 @@ class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for routingProfile
      *
      * @ElementName routingProfile
-     * @param string|null $routingProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routingProfile
      * @return $this
      */
     public function setRoutingProfile($routingProfile)

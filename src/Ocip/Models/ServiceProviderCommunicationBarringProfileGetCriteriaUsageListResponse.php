@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse
  *
- * Response to ServiceProviderCommunicationBarring
- * ProfileGetCriteriaUsageListRequest.  Contains a table of profiles that have the
- * Communication Barring Criteria assigned. The column headings are: "Name" and
- * "Description".
+ * Response to
+ * ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest.  Contains
+ * a table of profiles that have the Communication Barring Criteria assigned. The
+ * column headings are: "Name" and "Description".
  *
- * @see ProfileGetCriteriaUsageListRequest
+ * @see ServiceProviderCommunicationBarringProfileGetCriteriaUsageListRequest
  */
 class ServiceProviderCommunicationBarringProfileGetCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

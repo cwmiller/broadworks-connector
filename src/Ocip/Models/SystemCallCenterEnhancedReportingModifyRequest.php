@@ -22,13 +22,15 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName reportApplicationURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportApplicationURL = null;
 
     /**
      * @ElementName repositoryApplicationURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repositoryApplicationURL = null;
 
@@ -60,7 +62,8 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * Getter for reportApplicationURL
      *
      * @ElementName reportApplicationURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReportApplicationURL()
     {
@@ -71,7 +74,8 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * Setter for reportApplicationURL
      *
      * @ElementName reportApplicationURL
-     * @param string|null $reportApplicationURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportApplicationURL
      * @return $this
      */
     public function setReportApplicationURL($reportApplicationURL)
@@ -84,7 +88,8 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * Getter for repositoryApplicationURL
      *
      * @ElementName repositoryApplicationURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepositoryApplicationURL()
     {
@@ -95,7 +100,8 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
      * Setter for repositoryApplicationURL
      *
      * @ElementName repositoryApplicationURL
-     * @param string|null $repositoryApplicationURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repositoryApplicationURL
      * @return $this
      */
     public function setRepositoryApplicationURL($repositoryApplicationURL)

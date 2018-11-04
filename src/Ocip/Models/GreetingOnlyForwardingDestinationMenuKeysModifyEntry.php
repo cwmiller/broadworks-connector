@@ -12,7 +12,8 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
 
     /**
      * @ElementName greetingOnlyForwardingDestination
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardingDestination = null;
 
@@ -20,7 +21,8 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
      * Getter for greetingOnlyForwardingDestination
      *
      * @ElementName greetingOnlyForwardingDestination
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGreetingOnlyForwardingDestination()
     {
@@ -31,7 +33,8 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
      * Setter for greetingOnlyForwardingDestination
      *
      * @ElementName greetingOnlyForwardingDestination
-     * @param string|null $greetingOnlyForwardingDestination
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetingOnlyForwardingDestination
      * @return $this
      */
     public function setGreetingOnlyForwardingDestination($greetingOnlyForwardingDestination)

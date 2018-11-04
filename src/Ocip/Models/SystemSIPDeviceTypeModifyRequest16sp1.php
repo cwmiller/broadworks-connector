@@ -76,7 +76,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName webBasedConfigURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webBasedConfigURL = null;
 
@@ -166,7 +167,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName resetEvent
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
 
@@ -396,7 +398,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebBasedConfigURL()
     {
@@ -407,7 +410,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @param string|null $webBasedConfigURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webBasedConfigURL
      * @return $this
      */
     public function setWebBasedConfigURL($webBasedConfigURL)
@@ -756,7 +760,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getResetEvent()
     {
@@ -767,7 +772,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param string|null $resetEvent
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resetEvent
      * @return $this
      */
     public function setResetEvent($resetEvent)

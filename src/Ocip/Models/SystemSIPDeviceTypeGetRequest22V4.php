@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ErrorResponse.
  *
  * @see SystemDeviceTypeGetRequest
- * @see SystemSIPDeviceTypeGetResponse22
+ * @see SystemSIPDeviceTypeGetResponse22V4
  * @see ErrorResponse
  */
 class SystemSIPDeviceTypeGetRequest22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

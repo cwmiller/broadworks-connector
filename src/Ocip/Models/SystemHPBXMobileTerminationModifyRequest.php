@@ -16,7 +16,8 @@ class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName routingPrefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routingPrefix = null;
 
@@ -24,7 +25,8 @@ class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for routingPrefix
      *
      * @ElementName routingPrefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRoutingPrefix()
     {
@@ -35,7 +37,8 @@ class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for routingPrefix
      *
      * @ElementName routingPrefix
-     * @param string|null $routingPrefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routingPrefix
      * @return $this
      */
     public function setRoutingPrefix($routingPrefix)

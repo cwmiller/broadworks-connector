@@ -35,19 +35,22 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName pilotUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pilotUserId = null;
 
     /**
      * @ElementName department
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
 
     /**
      * @ElementName accessDevice
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDevice = null;
 
@@ -59,13 +62,15 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName maxIncomingCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxIncomingCalls = null;
 
     /**
      * @ElementName maxOutgoingCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxOutgoingCalls = null;
 
@@ -77,37 +82,43 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName burstingMaxActiveCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $burstingMaxActiveCalls = null;
 
     /**
      * @ElementName burstingMaxIncomingCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $burstingMaxIncomingCalls = null;
 
     /**
      * @ElementName burstingMaxOutgoingCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $burstingMaxOutgoingCalls = null;
 
     /**
      * @ElementName capacityExceededAction
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededAction = null;
 
     /**
      * @ElementName capacityExceededForwardAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededForwardAddress = null;
 
     /**
      * @ElementName capacityExceededRerouteTrunkGroupKey
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededRerouteTrunkGroupKey = null;
 
@@ -125,19 +136,22 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName unreachableDestinationAction
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unreachableDestinationAction = null;
 
     /**
      * @ElementName unreachableDestinationForwardAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unreachableDestinationForwardAddress = null;
 
     /**
      * @ElementName unreachableDestinationRerouteTrunkGroupKey
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unreachableDestinationRerouteTrunkGroupKey = null;
 
@@ -155,31 +169,36 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName sipAuthenticationUserName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAuthenticationPassword = null;
 
     /**
      * @ElementName hostedUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostedUserIdList = null;
 
     /**
      * @ElementName trunkGroupIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupIdentity = null;
 
     /**
      * @ElementName otgDtgIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $otgDtgIdentity = null;
 
@@ -251,25 +270,29 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName callForwardingAlwaysAction
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingAlwaysAction = null;
 
     /**
      * @ElementName callForwardingAlwaysForwardAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingAlwaysForwardAddress = null;
 
     /**
      * @ElementName callForwardingAlwaysRerouteTrunkGroupKey
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingAlwaysRerouteTrunkGroupKey = null;
 
     /**
      * @ElementName peeringDomain
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $peeringDomain = null;
 
@@ -287,7 +310,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName prefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefix = null;
 
@@ -409,7 +433,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for pilotUserId
      *
      * @ElementName pilotUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPilotUserId()
     {
@@ -420,7 +445,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for pilotUserId
      *
      * @ElementName pilotUserId
-     * @param string|null $pilotUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $pilotUserId
      * @return $this
      */
     public function setPilotUserId($pilotUserId)
@@ -433,7 +459,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for department
      *
      * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDepartment()
     {
@@ -444,7 +471,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for department
      *
      * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $department
      * @return $this
      */
     public function setDepartment($department)
@@ -457,7 +485,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for accessDevice
      *
      * @ElementName accessDevice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDevice()
     {
@@ -468,7 +497,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for accessDevice
      *
      * @ElementName accessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDevice
      * @return $this
      */
     public function setAccessDevice($accessDevice)
@@ -505,7 +535,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for maxIncomingCalls
      *
      * @ElementName maxIncomingCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxIncomingCalls()
     {
@@ -516,7 +547,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for maxIncomingCalls
      *
      * @ElementName maxIncomingCalls
-     * @param int|null $maxIncomingCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxIncomingCalls
      * @return $this
      */
     public function setMaxIncomingCalls($maxIncomingCalls)
@@ -529,7 +561,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for maxOutgoingCalls
      *
      * @ElementName maxOutgoingCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxOutgoingCalls()
     {
@@ -540,7 +573,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for maxOutgoingCalls
      *
      * @ElementName maxOutgoingCalls
-     * @param int|null $maxOutgoingCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxOutgoingCalls
      * @return $this
      */
     public function setMaxOutgoingCalls($maxOutgoingCalls)
@@ -577,7 +611,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for burstingMaxActiveCalls
      *
      * @ElementName burstingMaxActiveCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBurstingMaxActiveCalls()
     {
@@ -588,7 +623,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for burstingMaxActiveCalls
      *
      * @ElementName burstingMaxActiveCalls
-     * @param int|null $burstingMaxActiveCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $burstingMaxActiveCalls
      * @return $this
      */
     public function setBurstingMaxActiveCalls($burstingMaxActiveCalls)
@@ -601,7 +637,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for burstingMaxIncomingCalls
      *
      * @ElementName burstingMaxIncomingCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBurstingMaxIncomingCalls()
     {
@@ -612,7 +649,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for burstingMaxIncomingCalls
      *
      * @ElementName burstingMaxIncomingCalls
-     * @param int|null $burstingMaxIncomingCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $burstingMaxIncomingCalls
      * @return $this
      */
     public function setBurstingMaxIncomingCalls($burstingMaxIncomingCalls)
@@ -625,7 +663,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for burstingMaxOutgoingCalls
      *
      * @ElementName burstingMaxOutgoingCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBurstingMaxOutgoingCalls()
     {
@@ -636,7 +675,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for burstingMaxOutgoingCalls
      *
      * @ElementName burstingMaxOutgoingCalls
-     * @param int|null $burstingMaxOutgoingCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $burstingMaxOutgoingCalls
      * @return $this
      */
     public function setBurstingMaxOutgoingCalls($burstingMaxOutgoingCalls)
@@ -649,7 +689,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCapacityExceededAction()
     {
@@ -660,7 +701,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for capacityExceededAction
      *
      * @ElementName capacityExceededAction
-     * @param string|null $capacityExceededAction
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededAction
      * @return $this
      */
     public function setCapacityExceededAction($capacityExceededAction)
@@ -673,7 +715,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for capacityExceededForwardAddress
      *
      * @ElementName capacityExceededForwardAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCapacityExceededForwardAddress()
     {
@@ -684,7 +727,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for capacityExceededForwardAddress
      *
      * @ElementName capacityExceededForwardAddress
-     * @param string|null $capacityExceededForwardAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededForwardAddress
      * @return $this
      */
     public function setCapacityExceededForwardAddress($capacityExceededForwardAddress)
@@ -697,7 +741,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for capacityExceededRerouteTrunkGroupKey
      *
      * @ElementName capacityExceededRerouteTrunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCapacityExceededRerouteTrunkGroupKey()
     {
@@ -708,7 +753,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for capacityExceededRerouteTrunkGroupKey
      *
      * @ElementName capacityExceededRerouteTrunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $capacityExceededRerouteTrunkGroupKey
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededRerouteTrunkGroupKey
      * @return $this
      */
     public function setCapacityExceededRerouteTrunkGroupKey($capacityExceededRerouteTrunkGroupKey)
@@ -769,7 +815,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUnreachableDestinationAction()
     {
@@ -780,7 +827,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for unreachableDestinationAction
      *
      * @ElementName unreachableDestinationAction
-     * @param string|null $unreachableDestinationAction
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $unreachableDestinationAction
      * @return $this
      */
     public function setUnreachableDestinationAction($unreachableDestinationAction)
@@ -793,7 +841,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for unreachableDestinationForwardAddress
      *
      * @ElementName unreachableDestinationForwardAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUnreachableDestinationForwardAddress()
     {
@@ -804,7 +853,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for unreachableDestinationForwardAddress
      *
      * @ElementName unreachableDestinationForwardAddress
-     * @param string|null $unreachableDestinationForwardAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $unreachableDestinationForwardAddress
      * @return $this
      */
     public function setUnreachableDestinationForwardAddress($unreachableDestinationForwardAddress)
@@ -817,7 +867,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for unreachableDestinationRerouteTrunkGroupKey
      *
      * @ElementName unreachableDestinationRerouteTrunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUnreachableDestinationRerouteTrunkGroupKey()
     {
@@ -828,7 +879,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for unreachableDestinationRerouteTrunkGroupKey
      *
      * @ElementName unreachableDestinationRerouteTrunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $unreachableDestinationRerouteTrunkGroupKey
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil $unreachableDestinationRerouteTrunkGroupKey
      * @return $this
      */
     public function setUnreachableDestinationRerouteTrunkGroupKey($unreachableDestinationRerouteTrunkGroupKey)
@@ -889,7 +941,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for sipAuthenticationUserName
      *
      * @ElementName sipAuthenticationUserName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipAuthenticationUserName()
     {
@@ -900,7 +953,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for sipAuthenticationUserName
      *
      * @ElementName sipAuthenticationUserName
-     * @param string|null $sipAuthenticationUserName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAuthenticationUserName
      * @return $this
      */
     public function setSipAuthenticationUserName($sipAuthenticationUserName)
@@ -913,7 +967,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for sipAuthenticationPassword
      *
      * @ElementName sipAuthenticationPassword
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipAuthenticationPassword()
     {
@@ -924,7 +979,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for sipAuthenticationPassword
      *
      * @ElementName sipAuthenticationPassword
-     * @param string|null $sipAuthenticationPassword
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAuthenticationPassword
      * @return $this
      */
     public function setSipAuthenticationPassword($sipAuthenticationPassword)
@@ -937,7 +993,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for hostedUserIdList
      *
      * @ElementName hostedUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHostedUserIdList()
     {
@@ -948,7 +1005,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for hostedUserIdList
      *
      * @ElementName hostedUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $hostedUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $hostedUserIdList
      * @return $this
      */
     public function setHostedUserIdList($hostedUserIdList)
@@ -961,7 +1019,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for trunkGroupIdentity
      *
      * @ElementName trunkGroupIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTrunkGroupIdentity()
     {
@@ -972,7 +1031,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for trunkGroupIdentity
      *
      * @ElementName trunkGroupIdentity
-     * @param string|null $trunkGroupIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $trunkGroupIdentity
      * @return $this
      */
     public function setTrunkGroupIdentity($trunkGroupIdentity)
@@ -985,7 +1045,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for otgDtgIdentity
      *
      * @ElementName otgDtgIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOtgDtgIdentity()
     {
@@ -996,7 +1057,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for otgDtgIdentity
      *
      * @ElementName otgDtgIdentity
-     * @param string|null $otgDtgIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $otgDtgIdentity
      * @return $this
      */
     public function setOtgDtgIdentity($otgDtgIdentity)
@@ -1273,7 +1335,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for callForwardingAlwaysAction
      *
      * @ElementName callForwardingAlwaysAction
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallForwardingAlwaysAction()
     {
@@ -1284,7 +1347,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for callForwardingAlwaysAction
      *
      * @ElementName callForwardingAlwaysAction
-     * @param string|null $callForwardingAlwaysAction
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callForwardingAlwaysAction
      * @return $this
      */
     public function setCallForwardingAlwaysAction($callForwardingAlwaysAction)
@@ -1297,7 +1361,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for callForwardingAlwaysForwardAddress
      *
      * @ElementName callForwardingAlwaysForwardAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallForwardingAlwaysForwardAddress()
     {
@@ -1308,7 +1373,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for callForwardingAlwaysForwardAddress
      *
      * @ElementName callForwardingAlwaysForwardAddress
-     * @param string|null $callForwardingAlwaysForwardAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callForwardingAlwaysForwardAddress
      * @return $this
      */
     public function setCallForwardingAlwaysForwardAddress($callForwardingAlwaysForwardAddress)
@@ -1321,7 +1387,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for callForwardingAlwaysRerouteTrunkGroupKey
      *
      * @ElementName callForwardingAlwaysRerouteTrunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallForwardingAlwaysRerouteTrunkGroupKey()
     {
@@ -1332,7 +1399,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for callForwardingAlwaysRerouteTrunkGroupKey
      *
      * @ElementName callForwardingAlwaysRerouteTrunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $callForwardingAlwaysRerouteTrunkGroupKey
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null|\CWM\BroadWorksConnector\Ocip\Nil $callForwardingAlwaysRerouteTrunkGroupKey
      * @return $this
      */
     public function setCallForwardingAlwaysRerouteTrunkGroupKey($callForwardingAlwaysRerouteTrunkGroupKey)
@@ -1345,7 +1413,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for peeringDomain
      *
      * @ElementName peeringDomain
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPeeringDomain()
     {
@@ -1356,7 +1425,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for peeringDomain
      *
      * @ElementName peeringDomain
-     * @param string|null $peeringDomain
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $peeringDomain
      * @return $this
      */
     public function setPeeringDomain($peeringDomain)
@@ -1417,7 +1487,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Getter for prefix
      *
      * @ElementName prefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrefix()
     {
@@ -1428,7 +1499,8 @@ class GroupTrunkGroupModifyInstanceRequest15 extends \CWM\BroadWorksConnector\Oc
      * Setter for prefix
      *
      * @ElementName prefix
-     * @param string|null $prefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $prefix
      * @return $this
      */
     public function setPrefix($prefix)

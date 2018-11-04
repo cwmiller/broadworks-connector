@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		Replaced by: SystemSIPDeviceTypeGetResponse21sp1V2.
  *
  * @see SystemSIPDeviceTypeGetRequest20sp1
- * @see SystemSIPDeviceTypeGetResponse21sp1
+ * @see SystemSIPDeviceTypeGetResponse21sp1V2
  */
 class SystemSIPDeviceTypeGetResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

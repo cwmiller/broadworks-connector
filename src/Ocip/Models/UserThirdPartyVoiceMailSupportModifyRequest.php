@@ -46,7 +46,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userServer
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userServer = null;
 
@@ -58,7 +59,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName mailboxURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mailboxURL = null;
 
@@ -204,7 +206,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * Getter for userServer
      *
      * @ElementName userServer
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserServer()
     {
@@ -215,7 +218,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * Setter for userServer
      *
      * @ElementName userServer
-     * @param string|null $userServer
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $userServer
      * @return $this
      */
     public function setUserServer($userServer)
@@ -252,7 +256,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * Getter for mailboxURL
      *
      * @ElementName mailboxURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMailboxURL()
     {
@@ -263,7 +268,8 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
      * Setter for mailboxURL
      *
      * @ElementName mailboxURL
-     * @param string|null $mailboxURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mailboxURL
      * @return $this
      */
     public function setMailboxURL($mailboxURL)

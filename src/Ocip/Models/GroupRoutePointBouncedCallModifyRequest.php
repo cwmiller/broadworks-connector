@@ -40,7 +40,8 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -150,7 +151,8 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -161,7 +163,8 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

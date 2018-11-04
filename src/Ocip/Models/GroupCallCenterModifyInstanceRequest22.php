@@ -106,7 +106,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName wrapUpSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;
 
@@ -118,7 +119,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName forceDeliveryWaitTimeSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forceDeliveryWaitTimeSeconds = null;
 
@@ -136,7 +138,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName agentUnavailableCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;
 
@@ -528,7 +531,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for wrapUpSeconds
      *
      * @ElementName wrapUpSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWrapUpSeconds()
     {
@@ -539,7 +543,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for wrapUpSeconds
      *
      * @ElementName wrapUpSeconds
-     * @param int|null $wrapUpSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)
@@ -576,7 +581,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for forceDeliveryWaitTimeSeconds
      *
      * @ElementName forceDeliveryWaitTimeSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForceDeliveryWaitTimeSeconds()
     {
@@ -587,7 +593,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for forceDeliveryWaitTimeSeconds
      *
      * @ElementName forceDeliveryWaitTimeSeconds
-     * @param int|null $forceDeliveryWaitTimeSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $forceDeliveryWaitTimeSeconds
      * @return $this
      */
     public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
@@ -648,7 +655,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Getter for agentUnavailableCode
      *
      * @ElementName agentUnavailableCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUnavailableCode()
     {
@@ -659,7 +667,8 @@ class GroupCallCenterModifyInstanceRequest22 extends \CWM\BroadWorksConnector\Oc
      * Setter for agentUnavailableCode
      *
      * @ElementName agentUnavailableCode
-     * @param string|null $agentUnavailableCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUnavailableCode
      * @return $this
      */
     public function setAgentUnavailableCode($agentUnavailableCode)

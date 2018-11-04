@@ -10,73 +10,85 @@ class VoicePortalMainMenuKeys
 
     /**
      * @ElementName voiceMessaging
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessaging = null;
 
     /**
      * @ElementName commPilotExpressProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $commPilotExpressProfile = null;
 
     /**
      * @ElementName greetings
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetings = null;
 
     /**
      * @ElementName callForwardingOptions
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingOptions = null;
 
     /**
      * @ElementName voicePortalCalling
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalCalling = null;
 
     /**
      * @ElementName hoteling
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hoteling = null;
 
     /**
      * @ElementName passcode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
 
     /**
      * @ElementName exitVoicePortal
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exitVoicePortal = null;
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
     /**
      * @ElementName externalRouting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalRouting = null;
 
     /**
      * @ElementName announcementMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $announcementMenu = null;
 
     /**
      * @ElementName personalAssistant
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalAssistant = null;
 
@@ -84,7 +96,8 @@ class VoicePortalMainMenuKeys
      * Getter for voiceMessaging
      *
      * @ElementName voiceMessaging
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessaging()
     {
@@ -95,7 +108,8 @@ class VoicePortalMainMenuKeys
      * Setter for voiceMessaging
      *
      * @ElementName voiceMessaging
-     * @param string|null $voiceMessaging
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessaging
      * @return $this
      */
     public function setVoiceMessaging($voiceMessaging)
@@ -108,7 +122,8 @@ class VoicePortalMainMenuKeys
      * Getter for commPilotExpressProfile
      *
      * @ElementName commPilotExpressProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommPilotExpressProfile()
     {
@@ -119,7 +134,8 @@ class VoicePortalMainMenuKeys
      * Setter for commPilotExpressProfile
      *
      * @ElementName commPilotExpressProfile
-     * @param string|null $commPilotExpressProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $commPilotExpressProfile
      * @return $this
      */
     public function setCommPilotExpressProfile($commPilotExpressProfile)
@@ -132,7 +148,8 @@ class VoicePortalMainMenuKeys
      * Getter for greetings
      *
      * @ElementName greetings
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGreetings()
     {
@@ -143,7 +160,8 @@ class VoicePortalMainMenuKeys
      * Setter for greetings
      *
      * @ElementName greetings
-     * @param string|null $greetings
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetings
      * @return $this
      */
     public function setGreetings($greetings)
@@ -156,7 +174,8 @@ class VoicePortalMainMenuKeys
      * Getter for callForwardingOptions
      *
      * @ElementName callForwardingOptions
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallForwardingOptions()
     {
@@ -167,7 +186,8 @@ class VoicePortalMainMenuKeys
      * Setter for callForwardingOptions
      *
      * @ElementName callForwardingOptions
-     * @param string|null $callForwardingOptions
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callForwardingOptions
      * @return $this
      */
     public function setCallForwardingOptions($callForwardingOptions)
@@ -180,7 +200,8 @@ class VoicePortalMainMenuKeys
      * Getter for voicePortalCalling
      *
      * @ElementName voicePortalCalling
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoicePortalCalling()
     {
@@ -191,7 +212,8 @@ class VoicePortalMainMenuKeys
      * Setter for voicePortalCalling
      *
      * @ElementName voicePortalCalling
-     * @param string|null $voicePortalCalling
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalCalling
      * @return $this
      */
     public function setVoicePortalCalling($voicePortalCalling)
@@ -204,7 +226,8 @@ class VoicePortalMainMenuKeys
      * Getter for hoteling
      *
      * @ElementName hoteling
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoteling()
     {
@@ -215,7 +238,8 @@ class VoicePortalMainMenuKeys
      * Setter for hoteling
      *
      * @ElementName hoteling
-     * @param string|null $hoteling
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hoteling
      * @return $this
      */
     public function setHoteling($hoteling)
@@ -228,7 +252,8 @@ class VoicePortalMainMenuKeys
      * Getter for passcode
      *
      * @ElementName passcode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPasscode()
     {
@@ -239,7 +264,8 @@ class VoicePortalMainMenuKeys
      * Setter for passcode
      *
      * @ElementName passcode
-     * @param string|null $passcode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -252,7 +278,8 @@ class VoicePortalMainMenuKeys
      * Getter for exitVoicePortal
      *
      * @ElementName exitVoicePortal
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExitVoicePortal()
     {
@@ -263,7 +290,8 @@ class VoicePortalMainMenuKeys
      * Setter for exitVoicePortal
      *
      * @ElementName exitVoicePortal
-     * @param string|null $exitVoicePortal
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $exitVoicePortal
      * @return $this
      */
     public function setExitVoicePortal($exitVoicePortal)
@@ -276,7 +304,8 @@ class VoicePortalMainMenuKeys
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -287,7 +316,8 @@ class VoicePortalMainMenuKeys
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
@@ -300,7 +330,8 @@ class VoicePortalMainMenuKeys
      * Getter for externalRouting
      *
      * @ElementName externalRouting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalRouting()
     {
@@ -311,7 +342,8 @@ class VoicePortalMainMenuKeys
      * Setter for externalRouting
      *
      * @ElementName externalRouting
-     * @param string|null $externalRouting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalRouting
      * @return $this
      */
     public function setExternalRouting($externalRouting)
@@ -324,7 +356,8 @@ class VoicePortalMainMenuKeys
      * Getter for announcementMenu
      *
      * @ElementName announcementMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAnnouncementMenu()
     {
@@ -335,7 +368,8 @@ class VoicePortalMainMenuKeys
      * Setter for announcementMenu
      *
      * @ElementName announcementMenu
-     * @param string|null $announcementMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $announcementMenu
      * @return $this
      */
     public function setAnnouncementMenu($announcementMenu)
@@ -348,7 +382,8 @@ class VoicePortalMainMenuKeys
      * Getter for personalAssistant
      *
      * @ElementName personalAssistant
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalAssistant()
     {
@@ -359,7 +394,8 @@ class VoicePortalMainMenuKeys
      * Setter for personalAssistant
      *
      * @ElementName personalAssistant
-     * @param string|null $personalAssistant
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalAssistant
      * @return $this
      */
     public function setPersonalAssistant($personalAssistant)

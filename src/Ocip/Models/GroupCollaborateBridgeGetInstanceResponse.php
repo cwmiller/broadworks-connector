@@ -63,7 +63,8 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName collaborateOwnerUserTable
-     * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserTable = null;
 
@@ -215,7 +216,8 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * Getter for collaborateOwnerUserTable
      *
      * @ElementName collaborateOwnerUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCollaborateOwnerUserTable()
     {
@@ -226,7 +228,8 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * Setter for collaborateOwnerUserTable
      *
      * @ElementName collaborateOwnerUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $collaborateOwnerUserTable
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil $collaborateOwnerUserTable
      * @return $this
      */
     public function setCollaborateOwnerUserTable($collaborateOwnerUserTable)

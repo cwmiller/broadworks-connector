@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserEnhancedCallLogsGetListRequest17sp4
  * @see UserEnhancedCallLogsGetListRequest17sp4
- * @see UserEnhancedCallLogsGetListResponse17sp4
+ * @see UserEnhancedCallLogsGetListResponse17sp4V2
  */
 class UserEnhancedCallLogsGetListResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

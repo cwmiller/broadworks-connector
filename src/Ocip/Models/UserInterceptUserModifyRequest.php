@@ -54,7 +54,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName newPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newPhoneNumber = null;
 
@@ -66,7 +67,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -218,7 +220,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for newPhoneNumber
      *
      * @ElementName newPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNewPhoneNumber()
     {
@@ -229,7 +232,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for newPhoneNumber
      *
      * @ElementName newPhoneNumber
-     * @param string|null $newPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $newPhoneNumber
      * @return $this
      */
     public function setNewPhoneNumber($newPhoneNumber)
@@ -266,7 +270,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -277,7 +282,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

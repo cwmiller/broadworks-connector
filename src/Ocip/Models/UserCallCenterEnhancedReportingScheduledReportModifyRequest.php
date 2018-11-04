@@ -37,7 +37,8 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -133,7 +134,8 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
 
     /**
      * @ElementName serviceLevelObjectivePercentage
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceLevelObjectivePercentage = null;
 
@@ -225,7 +227,8 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -236,7 +239,8 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -609,7 +613,8 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
      * Getter for serviceLevelObjectivePercentage
      *
      * @ElementName serviceLevelObjectivePercentage
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceLevelObjectivePercentage()
     {
@@ -620,7 +625,8 @@ class UserCallCenterEnhancedReportingScheduledReportModifyRequest extends \CWM\B
      * Setter for serviceLevelObjectivePercentage
      *
      * @ElementName serviceLevelObjectivePercentage
-     * @param int|null $serviceLevelObjectivePercentage
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceLevelObjectivePercentage
      * @return $this
      */
     public function setServiceLevelObjectivePercentage($serviceLevelObjectivePercentage)

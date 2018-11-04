@@ -93,13 +93,15 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName externalRoutingAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalRoutingAddress = null;
 
     /**
      * @ElementName homeZoneName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $homeZoneName = null;
 
@@ -117,7 +119,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName voicePortalGreetingFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalGreetingFile = null;
 
@@ -129,7 +132,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName voiceMessagingGreetingFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessagingGreetingFile = null;
 
@@ -401,7 +405,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Getter for externalRoutingAddress
      *
      * @ElementName externalRoutingAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalRoutingAddress()
     {
@@ -412,7 +417,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Setter for externalRoutingAddress
      *
      * @ElementName externalRoutingAddress
-     * @param string|null $externalRoutingAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalRoutingAddress
      * @return $this
      */
     public function setExternalRoutingAddress($externalRoutingAddress)
@@ -425,7 +431,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Getter for homeZoneName
      *
      * @ElementName homeZoneName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHomeZoneName()
     {
@@ -436,7 +443,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Setter for homeZoneName
      *
      * @ElementName homeZoneName
-     * @param string|null $homeZoneName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $homeZoneName
      * @return $this
      */
     public function setHomeZoneName($homeZoneName)
@@ -497,7 +505,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Getter for voicePortalGreetingFile
      *
      * @ElementName voicePortalGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoicePortalGreetingFile()
     {
@@ -508,7 +517,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Setter for voicePortalGreetingFile
      *
      * @ElementName voicePortalGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voicePortalGreetingFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalGreetingFile
      * @return $this
      */
     public function setVoicePortalGreetingFile($voicePortalGreetingFile)
@@ -545,7 +555,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Getter for voiceMessagingGreetingFile
      *
      * @ElementName voiceMessagingGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessagingGreetingFile()
     {
@@ -556,7 +567,8 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
      * Setter for voiceMessagingGreetingFile
      *
      * @ElementName voiceMessagingGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voiceMessagingGreetingFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessagingGreetingFile
      * @return $this
      */
     public function setVoiceMessagingGreetingFile($voiceMessagingGreetingFile)

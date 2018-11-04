@@ -28,25 +28,29 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName prefixDigits
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefixDigits = null;
 
     /**
      * @ElementName matchCallType
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchCallType = null;
 
     /**
      * @ElementName matchAlternateCallIndicator
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchAlternateCallIndicator = null;
 
@@ -150,7 +154,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -161,7 +166,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -174,7 +180,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Getter for prefixDigits
      *
      * @ElementName prefixDigits
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrefixDigits()
     {
@@ -185,7 +192,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Setter for prefixDigits
      *
      * @ElementName prefixDigits
-     * @param string|null $prefixDigits
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $prefixDigits
      * @return $this
      */
     public function setPrefixDigits($prefixDigits)
@@ -198,7 +206,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Getter for matchCallType
      *
      * @ElementName matchCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMatchCallType()
     {
@@ -209,7 +218,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Setter for matchCallType
      *
      * @ElementName matchCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchCallType
      * @return $this
      */
     public function setMatchCallType($matchCallType)
@@ -222,7 +232,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Getter for matchAlternateCallIndicator
      *
      * @ElementName matchAlternateCallIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMatchAlternateCallIndicator()
     {
@@ -233,7 +244,8 @@ class SystemDialableCallerIDCriteriaModifyRequest extends \CWM\BroadWorksConnect
      * Setter for matchAlternateCallIndicator
      *
      * @ElementName matchAlternateCallIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchAlternateCallIndicator
      * @return $this
      */
     public function setMatchAlternateCallIndicator($matchAlternateCallIndicator)

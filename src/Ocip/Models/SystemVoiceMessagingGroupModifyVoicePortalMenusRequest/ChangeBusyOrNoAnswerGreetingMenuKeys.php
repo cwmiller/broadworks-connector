@@ -10,19 +10,22 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
 
     /**
      * @ElementName recordNewGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentGreeting = null;
 
     /**
      * @ElementName revertToSystemDefaultGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $revertToSystemDefaultGreeting = null;
 
@@ -34,7 +37,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -42,7 +46,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Getter for recordNewGreeting
      *
      * @ElementName recordNewGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordNewGreeting()
     {
@@ -53,7 +58,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Setter for recordNewGreeting
      *
      * @ElementName recordNewGreeting
-     * @param string|null $recordNewGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewGreeting
      * @return $this
      */
     public function setRecordNewGreeting($recordNewGreeting)
@@ -66,7 +72,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Getter for listenToCurrentGreeting
      *
      * @ElementName listenToCurrentGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentGreeting()
     {
@@ -77,7 +84,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Setter for listenToCurrentGreeting
      *
      * @ElementName listenToCurrentGreeting
-     * @param string|null $listenToCurrentGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentGreeting
      * @return $this
      */
     public function setListenToCurrentGreeting($listenToCurrentGreeting)
@@ -90,7 +98,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Getter for revertToSystemDefaultGreeting
      *
      * @ElementName revertToSystemDefaultGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRevertToSystemDefaultGreeting()
     {
@@ -101,7 +110,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Setter for revertToSystemDefaultGreeting
      *
      * @ElementName revertToSystemDefaultGreeting
-     * @param string|null $revertToSystemDefaultGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $revertToSystemDefaultGreeting
      * @return $this
      */
     public function setRevertToSystemDefaultGreeting($revertToSystemDefaultGreeting)
@@ -138,7 +148,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -149,7 +160,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeys
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

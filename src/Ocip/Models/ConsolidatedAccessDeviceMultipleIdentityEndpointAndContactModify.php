@@ -47,13 +47,15 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
 
     /**
      * @ElementName privateIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateIdentity = null;
 
     /**
      * @ElementName contactList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;
 
@@ -193,7 +195,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * Getter for privateIdentity
      *
      * @ElementName privateIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrivateIdentity()
     {
@@ -204,7 +207,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * Setter for privateIdentity
      *
      * @ElementName privateIdentity
-     * @param string|null $privateIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateIdentity
      * @return $this
      */
     public function setPrivateIdentity($privateIdentity)
@@ -217,7 +221,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * Getter for contactList
      *
      * @ElementName contactList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getContactList()
     {
@@ -228,7 +233,8 @@ class ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactModify
      * Setter for contactList
      *
      * @ElementName contactList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null $contactList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil $contactList
      * @return $this
      */
     public function setContactList($contactList)

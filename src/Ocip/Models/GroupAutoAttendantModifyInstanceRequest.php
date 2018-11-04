@@ -36,13 +36,15 @@ class GroupAutoAttendantModifyInstanceRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName businessHours
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
 
     /**
      * @ElementName holidayScheduleName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidayScheduleName = null;
 
@@ -152,7 +154,8 @@ class GroupAutoAttendantModifyInstanceRequest extends \CWM\BroadWorksConnector\O
      * Getter for businessHours
      *
      * @ElementName businessHours
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBusinessHours()
     {
@@ -163,7 +166,8 @@ class GroupAutoAttendantModifyInstanceRequest extends \CWM\BroadWorksConnector\O
      * Setter for businessHours
      *
      * @ElementName businessHours
-     * @param string|null $businessHours
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $businessHours
      * @return $this
      */
     public function setBusinessHours($businessHours)
@@ -176,7 +180,8 @@ class GroupAutoAttendantModifyInstanceRequest extends \CWM\BroadWorksConnector\O
      * Getter for holidayScheduleName
      *
      * @ElementName holidayScheduleName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidayScheduleName()
     {
@@ -187,7 +192,8 @@ class GroupAutoAttendantModifyInstanceRequest extends \CWM\BroadWorksConnector\O
      * Setter for holidayScheduleName
      *
      * @ElementName holidayScheduleName
-     * @param string|null $holidayScheduleName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $holidayScheduleName
      * @return $this
      */
     public function setHolidayScheduleName($holidayScheduleName)

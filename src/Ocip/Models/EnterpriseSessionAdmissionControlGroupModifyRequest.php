@@ -43,13 +43,15 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName maxUserOriginatingSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserTerminatingSessions = null;
 
@@ -61,13 +63,15 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName reservedUserOriginatingSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reservedUserOriginatingSessions = null;
 
     /**
      * @ElementName reservedUserTerminatingSessions
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reservedUserTerminatingSessions = null;
 
@@ -85,7 +89,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName deviceList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceList = null;
 
@@ -97,13 +102,15 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName mediaGroupName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mediaGroupName = null;
 
     /**
      * @ElementName accessInfoPattern
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessInfoPattern = null;
 
@@ -207,7 +214,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for maxUserOriginatingSessions
      *
      * @ElementName maxUserOriginatingSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxUserOriginatingSessions()
     {
@@ -218,7 +226,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for maxUserOriginatingSessions
      *
      * @ElementName maxUserOriginatingSessions
-     * @param int|null $maxUserOriginatingSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxUserOriginatingSessions
      * @return $this
      */
     public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
@@ -231,7 +240,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for maxUserTerminatingSessions
      *
      * @ElementName maxUserTerminatingSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxUserTerminatingSessions()
     {
@@ -242,7 +252,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for maxUserTerminatingSessions
      *
      * @ElementName maxUserTerminatingSessions
-     * @param int|null $maxUserTerminatingSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxUserTerminatingSessions
      * @return $this
      */
     public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)
@@ -279,7 +290,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for reservedUserOriginatingSessions
      *
      * @ElementName reservedUserOriginatingSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReservedUserOriginatingSessions()
     {
@@ -290,7 +302,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for reservedUserOriginatingSessions
      *
      * @ElementName reservedUserOriginatingSessions
-     * @param int|null $reservedUserOriginatingSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $reservedUserOriginatingSessions
      * @return $this
      */
     public function setReservedUserOriginatingSessions($reservedUserOriginatingSessions)
@@ -303,7 +316,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for reservedUserTerminatingSessions
      *
      * @ElementName reservedUserTerminatingSessions
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReservedUserTerminatingSessions()
     {
@@ -314,7 +328,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for reservedUserTerminatingSessions
      *
      * @ElementName reservedUserTerminatingSessions
-     * @param int|null $reservedUserTerminatingSessions
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $reservedUserTerminatingSessions
      * @return $this
      */
     public function setReservedUserTerminatingSessions($reservedUserTerminatingSessions)
@@ -375,7 +390,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for deviceList
      *
      * @ElementName deviceList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeviceList()
     {
@@ -386,7 +402,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for deviceList
      *
      * @ElementName deviceList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null $deviceList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementEnterpriseDeviceList|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceList
      * @return $this
      */
     public function setDeviceList($deviceList)
@@ -423,7 +440,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for mediaGroupName
      *
      * @ElementName mediaGroupName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMediaGroupName()
     {
@@ -434,7 +452,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for mediaGroupName
      *
      * @ElementName mediaGroupName
-     * @param string|null $mediaGroupName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mediaGroupName
      * @return $this
      */
     public function setMediaGroupName($mediaGroupName)
@@ -447,7 +466,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Getter for accessInfoPattern
      *
      * @ElementName accessInfoPattern
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessInfoPattern()
     {
@@ -458,7 +478,8 @@ class EnterpriseSessionAdmissionControlGroupModifyRequest extends \CWM\BroadWork
      * Setter for accessInfoPattern
      *
      * @ElementName accessInfoPattern
-     * @param string|null $accessInfoPattern
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessInfoPattern
      * @return $this
      */
     public function setAccessInfoPattern($accessInfoPattern)

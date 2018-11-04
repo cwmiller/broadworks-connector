@@ -34,7 +34,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName alertingGroupDescription
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alertingGroupDescription = null;
 
@@ -58,7 +59,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName phoneNumberOrUserList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberOrUserList = null;
 
@@ -146,7 +148,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * Getter for alertingGroupDescription
      *
      * @ElementName alertingGroupDescription
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlertingGroupDescription()
     {
@@ -157,7 +160,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * Setter for alertingGroupDescription
      *
      * @ElementName alertingGroupDescription
-     * @param string|null $alertingGroupDescription
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alertingGroupDescription
      * @return $this
      */
     public function setAlertingGroupDescription($alertingGroupDescription)
@@ -242,7 +246,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * Getter for phoneNumberOrUserList
      *
      * @ElementName phoneNumberOrUserList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumberOrUserList()
     {
@@ -253,7 +258,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
      * Setter for phoneNumberOrUserList
      *
      * @ElementName phoneNumberOrUserList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null $phoneNumberOrUserList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumberOrUserList
      * @return $this
      */
     public function setPhoneNumberOrUserList($phoneNumberOrUserList)

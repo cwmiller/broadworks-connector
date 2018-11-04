@@ -18,7 +18,8 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
 
     /**
      * @ElementName value
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $value = null;
 
@@ -50,7 +51,8 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
      * Getter for value
      *
      * @ElementName value
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getValue()
     {
@@ -61,7 +63,8 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
      * Setter for value
      *
      * @ElementName value
-     * @param string|null $value
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $value
      * @return $this
      */
     public function setValue($value)

@@ -28,13 +28,15 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName externalSystem
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalSystem = null;
 
     /**
      * @ElementName failoverPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $failoverPhoneNumber = null;
 
@@ -58,7 +60,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName perCallFailoverPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $perCallFailoverPhoneNumber = null;
 
@@ -114,7 +117,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * Getter for externalSystem
      *
      * @ElementName externalSystem
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalSystem()
     {
@@ -125,7 +129,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * Setter for externalSystem
      *
      * @ElementName externalSystem
-     * @param string|null $externalSystem
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalSystem
      * @return $this
      */
     public function setExternalSystem($externalSystem)
@@ -138,7 +143,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * Getter for failoverPhoneNumber
      *
      * @ElementName failoverPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFailoverPhoneNumber()
     {
@@ -149,7 +155,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * Setter for failoverPhoneNumber
      *
      * @ElementName failoverPhoneNumber
-     * @param string|null $failoverPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $failoverPhoneNumber
      * @return $this
      */
     public function setFailoverPhoneNumber($failoverPhoneNumber)
@@ -234,7 +241,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * Getter for perCallFailoverPhoneNumber
      *
      * @ElementName perCallFailoverPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPerCallFailoverPhoneNumber()
     {
@@ -245,7 +253,8 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
      * Setter for perCallFailoverPhoneNumber
      *
      * @ElementName perCallFailoverPhoneNumber
-     * @param string|null $perCallFailoverPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $perCallFailoverPhoneNumber
      * @return $this
      */
     public function setPerCallFailoverPhoneNumber($perCallFailoverPhoneNumber)

@@ -18,31 +18,36 @@ class TrunkAddressingMultipleContactModify
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
 
     /**
      * @ElementName enterpriseTrunkName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName alternateTrunkIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;
 
     /**
      * @ElementName alternateTrunkIdentityDomain
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentityDomain = null;
 
     /**
      * @ElementName physicalLocation
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;
 
@@ -50,7 +55,8 @@ class TrunkAddressingMultipleContactModify
      * Getter for trunkGroupDeviceEndpoint
      *
      * @ElementName trunkGroupDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTrunkGroupDeviceEndpoint()
     {
@@ -61,7 +67,8 @@ class TrunkAddressingMultipleContactModify
      * Setter for trunkGroupDeviceEndpoint
      *
      * @ElementName trunkGroupDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null $trunkGroupDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint($trunkGroupDeviceEndpoint)
@@ -74,7 +81,8 @@ class TrunkAddressingMultipleContactModify
      * Getter for enterpriseTrunkName
      *
      * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEnterpriseTrunkName()
     {
@@ -85,7 +93,8 @@ class TrunkAddressingMultipleContactModify
      * Setter for enterpriseTrunkName
      *
      * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -98,7 +107,8 @@ class TrunkAddressingMultipleContactModify
      * Getter for alternateTrunkIdentity
      *
      * @ElementName alternateTrunkIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlternateTrunkIdentity()
     {
@@ -109,7 +119,8 @@ class TrunkAddressingMultipleContactModify
      * Setter for alternateTrunkIdentity
      *
      * @ElementName alternateTrunkIdentity
-     * @param string|null $alternateTrunkIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateTrunkIdentity
      * @return $this
      */
     public function setAlternateTrunkIdentity($alternateTrunkIdentity)
@@ -122,7 +133,8 @@ class TrunkAddressingMultipleContactModify
      * Getter for alternateTrunkIdentityDomain
      *
      * @ElementName alternateTrunkIdentityDomain
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlternateTrunkIdentityDomain()
     {
@@ -133,7 +145,8 @@ class TrunkAddressingMultipleContactModify
      * Setter for alternateTrunkIdentityDomain
      *
      * @ElementName alternateTrunkIdentityDomain
-     * @param string|null $alternateTrunkIdentityDomain
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateTrunkIdentityDomain
      * @return $this
      */
     public function setAlternateTrunkIdentityDomain($alternateTrunkIdentityDomain)
@@ -146,7 +159,8 @@ class TrunkAddressingMultipleContactModify
      * Getter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhysicalLocation()
     {
@@ -157,7 +171,8 @@ class TrunkAddressingMultipleContactModify
      * Setter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)

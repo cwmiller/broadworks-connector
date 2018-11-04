@@ -16,7 +16,8 @@ class ScheduleReservationless
 
     /**
      * @ElementName endTime
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $endTime = null;
 
@@ -48,7 +49,8 @@ class ScheduleReservationless
      * Getter for endTime
      *
      * @ElementName endTime
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEndTime()
     {
@@ -59,7 +61,8 @@ class ScheduleReservationless
      * Setter for endTime
      *
      * @ElementName endTime
-     * @param string|null $endTime
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $endTime
      * @return $this
      */
     public function setEndTime($endTime)

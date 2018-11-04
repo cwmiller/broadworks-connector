@@ -40,13 +40,15 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName sipExternalDatabaseNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabaseNetAddress = null;
 
     /**
      * @ElementName sipExternalDatabasePort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabasePort = null;
 
@@ -58,7 +60,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName soapExternalDatabaseNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $soapExternalDatabaseNetAddress = null;
 
@@ -192,7 +195,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * Getter for sipExternalDatabaseNetAddress
      *
      * @ElementName sipExternalDatabaseNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipExternalDatabaseNetAddress()
     {
@@ -203,7 +207,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * Setter for sipExternalDatabaseNetAddress
      *
      * @ElementName sipExternalDatabaseNetAddress
-     * @param string|null $sipExternalDatabaseNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sipExternalDatabaseNetAddress
      * @return $this
      */
     public function setSipExternalDatabaseNetAddress($sipExternalDatabaseNetAddress)
@@ -216,7 +221,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * Getter for sipExternalDatabasePort
      *
      * @ElementName sipExternalDatabasePort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipExternalDatabasePort()
     {
@@ -227,7 +233,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * Setter for sipExternalDatabasePort
      *
      * @ElementName sipExternalDatabasePort
-     * @param int|null $sipExternalDatabasePort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $sipExternalDatabasePort
      * @return $this
      */
     public function setSipExternalDatabasePort($sipExternalDatabasePort)
@@ -264,7 +271,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * Getter for soapExternalDatabaseNetAddress
      *
      * @ElementName soapExternalDatabaseNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSoapExternalDatabaseNetAddress()
     {
@@ -275,7 +283,8 @@ class SystemCallingNameRetrievalModifyRequest20 extends \CWM\BroadWorksConnector
      * Setter for soapExternalDatabaseNetAddress
      *
      * @ElementName soapExternalDatabaseNetAddress
-     * @param string|null $soapExternalDatabaseNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $soapExternalDatabaseNetAddress
      * @return $this
      */
     public function setSoapExternalDatabaseNetAddress($soapExternalDatabaseNetAddress)

@@ -30,13 +30,15 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
 
     /**
      * @ElementName userServiceNameList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userServiceNameList = null;
 
     /**
      * @ElementName servicePackNameList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePackNameList = null;
 
@@ -92,7 +94,8 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
      * Getter for userServiceNameList
      *
      * @ElementName userServiceNameList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserServiceNameList()
     {
@@ -103,7 +106,8 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
      * Setter for userServiceNameList
      *
      * @ElementName userServiceNameList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null $userServiceNameList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil $userServiceNameList
      * @return $this
      */
     public function setUserServiceNameList($userServiceNameList)
@@ -116,7 +120,8 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
      * Getter for servicePackNameList
      *
      * @ElementName servicePackNameList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServicePackNameList()
     {
@@ -127,7 +132,8 @@ class ServiceProviderServicePackMigrationTaskModifyAssignmentListRequest extends
      * Setter for servicePackNameList
      *
      * @ElementName servicePackNameList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null $servicePackNameList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePackNameList
      * @return $this
      */
     public function setServicePackNameList($servicePackNameList)

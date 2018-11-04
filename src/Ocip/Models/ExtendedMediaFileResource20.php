@@ -13,13 +13,15 @@ class ExtendedMediaFileResource20
 
     /**
      * @ElementName file
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file = null;
 
     /**
      * @ElementName url
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $url = null;
 
@@ -27,7 +29,8 @@ class ExtendedMediaFileResource20
      * Getter for file
      *
      * @ElementName file
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFile()
     {
@@ -38,7 +41,8 @@ class ExtendedMediaFileResource20
      * Setter for file
      *
      * @ElementName file
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $file
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $file
      * @return $this
      */
     public function setFile($file)
@@ -51,7 +55,8 @@ class ExtendedMediaFileResource20
      * Getter for url
      *
      * @ElementName url
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUrl()
     {
@@ -62,7 +67,8 @@ class ExtendedMediaFileResource20
      * Setter for url
      *
      * @ElementName url
-     * @param string|null $url
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url
      * @return $this
      */
     public function setUrl($url)

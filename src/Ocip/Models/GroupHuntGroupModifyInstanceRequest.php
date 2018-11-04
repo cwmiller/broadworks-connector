@@ -63,13 +63,15 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName forwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
 
     /**
      * @ElementName agentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
 
@@ -99,7 +101,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName notReachableForwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notReachableForwardToPhoneNumber = null;
 
@@ -305,7 +308,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardToPhoneNumber()
     {
@@ -316,7 +320,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
@@ -329,7 +334,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUserIdList()
     {
@@ -340,7 +346,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList($agentUserIdList)
@@ -449,7 +456,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for notReachableForwardToPhoneNumber
      *
      * @ElementName notReachableForwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNotReachableForwardToPhoneNumber()
     {
@@ -460,7 +468,8 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for notReachableForwardToPhoneNumber
      *
      * @ElementName notReachableForwardToPhoneNumber
-     * @param string|null $notReachableForwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $notReachableForwardToPhoneNumber
      * @return $this
      */
     public function setNotReachableForwardToPhoneNumber($notReachableForwardToPhoneNumber)

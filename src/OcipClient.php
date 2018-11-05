@@ -11,9 +11,9 @@ use CWM\BroadWorksConnector\Ocip\Models\C\OCICommand;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\BadResponseException;
 use CWM\BroadWorksConnector\Ocip\LoginException;
+use CWM\BroadWorksConnector\Ocip\Options;
 use CWM\BroadWorksConnector\Ocip\SoapTransport;
 use CWM\BroadWorksConnector\Ocip\TcpTransport;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaASDeprecatedSpecialExceptions;
@@ -308,13 +308,18 @@ class OcipClient
      * @param string $url
      * @param string $username
      * @param string $password
+     * @param Options|null $options
      * @throws \InvalidArgumentException
      */
-    public function __construct($url, $username, $password)
+    public function __construct($url, $username, $password, Options $options = null)
     {
         $this->username = $username;
         $this->password = $password;
         $this->sessionId = hash('sha256', mt_rand());
+
+        if ($options === null) {
+            $options = new Options();
+        }
 
         $parsedUrl = parse_url($url);
 
@@ -325,7 +330,7 @@ class OcipClient
         switch ($parsedUrl['scheme']) {
             case 'http':
             case 'https':
-                $this->transport = new SoapTransport($url);
+                $this->transport = new SoapTransport($url, $options->getSoapClientOptions());
                 break;
             case 'tcp':
                 $this->transport = new TcpTransport($parsedUrl['host'], isset($parsedUrl['port']) ? $parsedUrl['port'] : 2208);

@@ -11,10 +11,11 @@ class SoapTransport implements ITransport
 
     /**
      * @param string $wsdlUrl
+     * @param array $soapClientOptions
      */
-    public function __construct($wsdlUrl)
+    public function __construct($wsdlUrl, array $soapClientOptions)
     {
-        $this->client = new SoapClient($wsdlUrl);
+        $this->client = new SoapClient($wsdlUrl, $soapClientOptions);
     }
 
     /**

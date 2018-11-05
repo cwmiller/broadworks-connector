@@ -17,10 +17,8 @@
     "require": {
         "php": ">=5.4.0",
         "ext-soap": "*",
+        "ext-socket": "*",
         "ext-xml": "*",
         "ext-dom": "*"
-    },
-    "require-dev": {
-        "cwm/broadworks-xsd-converter": "2.0"
     }
 }

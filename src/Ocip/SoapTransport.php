@@ -21,7 +21,7 @@ class SoapTransport implements ITransport
     /**
      * @param string $request
      * @return string
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
+     * @throws BadResponseException
      */
     public function send($request)
     {

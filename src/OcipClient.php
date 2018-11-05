@@ -351,8 +351,8 @@ class OcipClient
     /**
      * @param OCICommand $command
      * @return OCIResponse
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
-     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
+     * @throws BadResponseException
+     * @throws ErrorResponseException
      */
     public function call(OCICommand $command)
     {
@@ -366,8 +366,8 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
-     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
+     * @throws BadResponseException
+     * @throws ErrorResponseException
      */
     public function callAll(array $commands)
     {
@@ -461,9 +461,9 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
-     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
-     * @throws \ReflectionException
+     * @throws BadResponseException
+     * @throws ErrorResponseException
+     * @throws XmlException
      */
     private function executeCommands(array $commands)
     {
@@ -506,7 +506,7 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return DOMDocument
-     * @throws \ReflectionException
+     * @throws XmlException
      */
     private function buildCommandXml(array $commands)
     {

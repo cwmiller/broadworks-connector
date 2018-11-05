@@ -14,124 +14,131 @@ class XmlUtils
      * @param string $className
      * @param string $baseNamespace
      * @return object
-     * @throws \ReflectionException
+     * @throws XmlException
      */
     public static function fromXml(DOMElement $element, $className, $baseNamespace)
     {
-        $refClass = new ReflectionClass($className);
-        $class = null;
-
-        if ($refClass->isAbstract()) {
-            // If abstract, the XML should have a type attribute denoted the concrete type
-            $className = self::qualifiedClassForType($element, $baseNamespace);
+        try {
             $refClass = new ReflectionClass($className);
-        }
+            $class = null;
 
-        $class = new $className();
-
-        $childElements = $element->childNodes;
-        for ($i = 0; $i < $childElements->length; $i++) {
-            $childElement = $childElements->item($i);
-
-            // First try to set the element by seeing if there's an add function (in case it's an array)
-            // If not, try set
-            $setterName = 'add' . ucwords($childElement->localName);
-
-            if (!$refClass->hasMethod($setterName)) {
-                $setterName = 'set' . ucwords($childElement->localName);
+            if ($refClass->isAbstract()) {
+                // If abstract, the XML should have a type attribute denoted the concrete type
+                $className = self::qualifiedClassForType($element, $baseNamespace);
+                $refClass = new ReflectionClass($className);
             }
 
-            if ($refClass->hasMethod($setterName)) {
-                $setter = $refClass->getMethod($setterName);
-                $docblock = $setter->getDocComment();
-                preg_match('/@param (.*) \$/', $docblock, $matches);
-                if (isset($matches[1])) {
-                    $types = array_filter(explode('|', $matches[1]), function ($type) {
-                        return $type !== 'null';
-                    });
+            $class = new $className();
 
-                    if (count($types) > 0) {
-                        $type = array_pop($types);
-                        if (self::isScalar($type)) {
-                            switch ($type) {
-                                case 'int':
-                                    $nodeValue = (int)$childElement->nodeValue;
-                                    break;
-                                case 'bool':
-                                    $nodeValue = $childElement->nodeValue === 'true';
-                                    break;
-                                case 'float':
-                                    $nodeValue = (float)$childElement->nodeValue;
-                                    break;
-                                default:
-                                    $nodeValue = (string)$childElement->nodeValue;
+            $childElements = $element->childNodes;
+            for ($i = 0; $i < $childElements->length; $i++) {
+                $childElement = $childElements->item($i);
+
+                // First try to set the element by seeing if there's an add function (in case it's an array)
+                // If not, try set
+                $setterName = 'add' . ucwords($childElement->localName);
+
+                if (!$refClass->hasMethod($setterName)) {
+                    $setterName = 'set' . ucwords($childElement->localName);
+                }
+
+                if ($refClass->hasMethod($setterName)) {
+                    $setter = $refClass->getMethod($setterName);
+                    $docblock = $setter->getDocComment();
+                    preg_match('/@param (.*) \$/', $docblock, $matches);
+                    if (isset($matches[1])) {
+                        $types = array_filter(explode('|', $matches[1]), function ($type) {
+                            return $type !== 'null';
+                        });
+
+                        if (count($types) > 0) {
+                            $type = array_pop($types);
+                            if (self::isScalar($type)) {
+                                switch ($type) {
+                                    case 'int':
+                                        $nodeValue = (int)$childElement->nodeValue;
+                                        break;
+                                    case 'bool':
+                                        $nodeValue = $childElement->nodeValue === 'true';
+                                        break;
+                                    case 'float':
+                                        $nodeValue = (float)$childElement->nodeValue;
+                                        break;
+                                    default:
+                                        $nodeValue = (string)$childElement->nodeValue;
+                                }
+
+                                $setter->invoke($class, $nodeValue);
+                            } else {
+                                $setter->invoke($class, self::fromXml($childElement, $type, $baseNamespace));
                             }
-
-                            $setter->invoke($class, $nodeValue);
-                        } else {
-                            $setter->invoke($class, self::fromXml($childElement, $type, $baseNamespace));
                         }
                     }
                 }
             }
-        }
 
-        return $class;
+            return $class;
+        } catch(\ReflectionException $e) {
+            throw new XmlException('Unable to serialize XML element', $e);
+        }
     }
 
     /**
      * @param object $obj
      * @param DOMElement $element
      * @param DOMDocument $document
-     * @throws \ReflectionException
      */
     public static function toXml($obj, DOMElement $element, DOMDocument $document)
     {
-        $ref = new ReflectionClass($obj);
+        try {
+            $ref = new ReflectionClass($obj);
 
-        if (self::extendsAbstract($ref)) {
-            $element->setAttribute('xsi:type', $ref->getShortName());
-        }
+            if (self::extendsAbstract($ref)) {
+                $element->setAttribute('xsi:type', $ref->getShortName());
+            }
 
-        foreach ($ref->getMethods() as $method) {
-            $methodName = $method->getName();
-            if (strpos($methodName, 'get') === 0) {
-                $annotations = self::getAnnotations( $method->getDocComment());
+            foreach ($ref->getMethods() as $method) {
+                $methodName = $method->getName();
+                if (strpos($methodName, 'get') === 0) {
+                    $annotations = self::getAnnotations($method->getDocComment());
 
-                if (array_key_exists('ElementName', $annotations)) {
-                    $propertyName = $annotations['ElementName'];
-                    $value = $method->invoke($obj);
+                    if (array_key_exists('ElementName', $annotations)) {
+                        $propertyName = $annotations['ElementName'];
+                        $value = $method->invoke($obj);
 
-                    // Omit null values from the XML
-                    if ($value !== null) {
-                        if (!is_array($value)) {
-                            $values = array($value);
-                        } else {
-                            $values = $value;
-                        }
-
-                        foreach ($values as $value) {
-                            $child = $document->createElement($propertyName);
-
-                            if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
-                                $child->setAttribute('xsi:nil', 'true');
-                            } else if (is_object($value)) {
-                                self::toXml($value, $child, $document);
+                        // Omit null values from the XML
+                        if ($value !== null) {
+                            if (!is_array($value)) {
+                                $values = array($value);
                             } else {
-                                if (is_bool($value)) {
-                                    $value = $value === true ? 'true' : 'false';
-                                } else {
-                                    $value = (string)$value;
-                                }
-
-                                $child->appendChild($document->createTextNode($value));
+                                $values = $value;
                             }
 
-                            $element->appendChild($child);
+                            foreach ($values as $value) {
+                                $child = $document->createElement($propertyName);
+
+                                if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
+                                    $child->setAttribute('xsi:nil', 'true');
+                                } else if (is_object($value)) {
+                                    self::toXml($value, $child, $document);
+                                } else {
+                                    if (is_bool($value)) {
+                                        $value = $value === true ? 'true' : 'false';
+                                    } else {
+                                        $value = (string)$value;
+                                    }
+
+                                    $child->appendChild($document->createTextNode($value));
+                                }
+
+                                $element->appendChild($child);
+                            }
                         }
                     }
                 }
             }
+        } catch(\ReflectionException $e) {
+            throw new XmlException('Unable to convert to XML', $e);
         }
     }
 

@@ -121,7 +121,7 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName endpoint
      * @Nillable
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9\Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $endpoint = null;
 
@@ -496,7 +496,7 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $department
      * @return $this
      */
-    public function setDepartment($department)
+    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
         $this->department = $department;
         return $this;
@@ -570,7 +570,7 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAliasList
      * @return $this
      */
-    public function setSipAliasList($sipAliasList)
+    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
     {
         $this->sipAliasList = $sipAliasList;
         return $this;
@@ -581,7 +581,7 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      *
      * @ElementName endpoint
      * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9\Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEndpoint()
     {
@@ -593,10 +593,10 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      *
      * @ElementName endpoint
      * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9\Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil $endpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil $endpoint
      * @return $this
      */
-    public function setEndpoint($endpoint)
+    public function setEndpoint(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint $endpoint)
     {
         $this->endpoint = $endpoint;
         return $this;
@@ -776,7 +776,7 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress($address)
+    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
         return $this;

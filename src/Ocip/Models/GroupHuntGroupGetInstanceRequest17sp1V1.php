@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupHuntGroupGetInstanceResponse17sp1V1 or
  * ErrorResponse.
  *
- * @see GroupHuntGroupGetInstanceResponse17sp1
+ * @see GroupHuntGroupGetInstanceResponse17sp1V1
  * @see ErrorResponse
  */
 class GroupHuntGroupGetInstanceRequest17sp1V1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

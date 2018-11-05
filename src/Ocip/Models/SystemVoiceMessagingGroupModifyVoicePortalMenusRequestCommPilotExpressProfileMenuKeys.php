@@ -10,31 +10,36 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
 
     /**
      * @ElementName activateAvailableInOfficeProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableInOfficeProfile = null;
 
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableOutOfOfficeProfile = null;
 
     /**
      * @ElementName activateBusyProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateBusyProfile = null;
 
     /**
      * @ElementName activateUnavailableProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateUnavailableProfile = null;
 
     /**
      * @ElementName noProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noProfile = null;
 
@@ -46,7 +51,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -54,7 +60,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Getter for activateAvailableInOfficeProfile
      *
      * @ElementName activateAvailableInOfficeProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateAvailableInOfficeProfile()
     {
@@ -65,7 +72,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Setter for activateAvailableInOfficeProfile
      *
      * @ElementName activateAvailableInOfficeProfile
-     * @param string|null $activateAvailableInOfficeProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateAvailableInOfficeProfile
      * @return $this
      */
     public function setActivateAvailableInOfficeProfile($activateAvailableInOfficeProfile)
@@ -78,7 +86,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Getter for activateAvailableOutOfOfficeProfile
      *
      * @ElementName activateAvailableOutOfOfficeProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateAvailableOutOfOfficeProfile()
     {
@@ -89,7 +98,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Setter for activateAvailableOutOfOfficeProfile
      *
      * @ElementName activateAvailableOutOfOfficeProfile
-     * @param string|null $activateAvailableOutOfOfficeProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateAvailableOutOfOfficeProfile
      * @return $this
      */
     public function setActivateAvailableOutOfOfficeProfile($activateAvailableOutOfOfficeProfile)
@@ -102,7 +112,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Getter for activateBusyProfile
      *
      * @ElementName activateBusyProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateBusyProfile()
     {
@@ -113,7 +124,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Setter for activateBusyProfile
      *
      * @ElementName activateBusyProfile
-     * @param string|null $activateBusyProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateBusyProfile
      * @return $this
      */
     public function setActivateBusyProfile($activateBusyProfile)
@@ -126,7 +138,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Getter for activateUnavailableProfile
      *
      * @ElementName activateUnavailableProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateUnavailableProfile()
     {
@@ -137,7 +150,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Setter for activateUnavailableProfile
      *
      * @ElementName activateUnavailableProfile
-     * @param string|null $activateUnavailableProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateUnavailableProfile
      * @return $this
      */
     public function setActivateUnavailableProfile($activateUnavailableProfile)
@@ -150,7 +164,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Getter for noProfile
      *
      * @ElementName noProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNoProfile()
     {
@@ -161,7 +176,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Setter for noProfile
      *
      * @ElementName noProfile
-     * @param string|null $noProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $noProfile
      * @return $this
      */
     public function setNoProfile($noProfile)
@@ -198,7 +214,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -209,7 +226,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

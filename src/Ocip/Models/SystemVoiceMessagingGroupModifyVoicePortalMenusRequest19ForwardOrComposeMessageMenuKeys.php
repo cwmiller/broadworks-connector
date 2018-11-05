@@ -10,43 +10,50 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
 
     /**
      * @ElementName sendToPerson
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToPerson = null;
 
     /**
      * @ElementName sendToAllGroupMembers
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToAllGroupMembers = null;
 
     /**
      * @ElementName sendToDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToDistributionList = null;
 
     /**
      * @ElementName changeCurrentIntroductionOrMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName listenToCurrentIntroductionOrMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
 
@@ -58,7 +65,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -66,7 +74,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for sendToPerson
      *
      * @ElementName sendToPerson
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSendToPerson()
     {
@@ -77,7 +86,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for sendToPerson
      *
      * @ElementName sendToPerson
-     * @param string|null $sendToPerson
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToPerson
      * @return $this
      */
     public function setSendToPerson($sendToPerson)
@@ -90,7 +100,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for sendToAllGroupMembers
      *
      * @ElementName sendToAllGroupMembers
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSendToAllGroupMembers()
     {
@@ -101,7 +112,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for sendToAllGroupMembers
      *
      * @ElementName sendToAllGroupMembers
-     * @param string|null $sendToAllGroupMembers
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToAllGroupMembers
      * @return $this
      */
     public function setSendToAllGroupMembers($sendToAllGroupMembers)
@@ -114,7 +126,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for sendToDistributionList
      *
      * @ElementName sendToDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSendToDistributionList()
     {
@@ -125,7 +138,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for sendToDistributionList
      *
      * @ElementName sendToDistributionList
-     * @param string|null $sendToDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToDistributionList
      * @return $this
      */
     public function setSendToDistributionList($sendToDistributionList)
@@ -138,7 +152,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for changeCurrentIntroductionOrMessage
      *
      * @ElementName changeCurrentIntroductionOrMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeCurrentIntroductionOrMessage()
     {
@@ -149,7 +164,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for changeCurrentIntroductionOrMessage
      *
      * @ElementName changeCurrentIntroductionOrMessage
-     * @param string|null $changeCurrentIntroductionOrMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCurrentIntroductionOrMessage
      * @return $this
      */
     public function setChangeCurrentIntroductionOrMessage($changeCurrentIntroductionOrMessage)
@@ -162,7 +178,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for listenToCurrentIntroductionOrMessage
      *
      * @ElementName listenToCurrentIntroductionOrMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentIntroductionOrMessage()
     {
@@ -173,7 +190,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for listenToCurrentIntroductionOrMessage
      *
      * @ElementName listenToCurrentIntroductionOrMessage
-     * @param string|null $listenToCurrentIntroductionOrMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentIntroductionOrMessage
      * @return $this
      */
     public function setListenToCurrentIntroductionOrMessage($listenToCurrentIntroductionOrMessage)
@@ -186,7 +204,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearUrgentIndicator()
     {
@@ -197,7 +216,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @param string|null $setOrClearUrgentIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
@@ -210,7 +230,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearConfidentialIndicator()
     {
@@ -221,7 +242,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @param string|null $setOrClearConfidentialIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
@@ -258,7 +280,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -269,7 +292,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ForwardOrComposeMe
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

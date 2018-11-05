@@ -16,13 +16,15 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
 
     /**
      * @ElementName selectDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectDistributionList = null;
 
     /**
      * @ElementName reviewSelectedDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reviewSelectedDistributionList = null;
 
@@ -34,7 +36,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -66,7 +69,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * Getter for selectDistributionList
      *
      * @ElementName selectDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSelectDistributionList()
     {
@@ -77,7 +81,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * Setter for selectDistributionList
      *
      * @ElementName selectDistributionList
-     * @param string|null $selectDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $selectDistributionList
      * @return $this
      */
     public function setSelectDistributionList($selectDistributionList)
@@ -90,7 +95,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * Getter for reviewSelectedDistributionList
      *
      * @ElementName reviewSelectedDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReviewSelectedDistributionList()
     {
@@ -101,7 +107,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * Setter for reviewSelectedDistributionList
      *
      * @ElementName reviewSelectedDistributionList
-     * @param string|null $reviewSelectedDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reviewSelectedDistributionList
      * @return $this
      */
     public function setReviewSelectedDistributionList($reviewSelectedDistributionList)
@@ -138,7 +145,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -149,7 +157,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

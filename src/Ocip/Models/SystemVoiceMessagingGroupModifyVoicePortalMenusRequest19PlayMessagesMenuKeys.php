@@ -10,79 +10,92 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
 
     /**
      * @ElementName saveMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteMessage = null;
 
     /**
      * @ElementName playMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playMessage = null;
 
     /**
      * @ElementName previousMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $previousMessage = null;
 
     /**
      * @ElementName playEnvelope
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playEnvelope = null;
 
     /**
      * @ElementName nextMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nextMessage = null;
 
     /**
      * @ElementName callbackCaller
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
 
     /**
      * @ElementName replyMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardMessage = null;
 
     /**
      * @ElementName additionalMessageOptions
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $additionalMessageOptions = null;
 
     /**
      * @ElementName personalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
 
     /**
      * @ElementName passcode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
 
@@ -94,7 +107,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -102,7 +116,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for saveMessage
      *
      * @ElementName saveMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSaveMessage()
     {
@@ -113,7 +128,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for saveMessage
      *
      * @ElementName saveMessage
-     * @param string|null $saveMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $saveMessage
      * @return $this
      */
     public function setSaveMessage($saveMessage)
@@ -126,7 +142,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for deleteMessage
      *
      * @ElementName deleteMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeleteMessage()
     {
@@ -137,7 +154,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for deleteMessage
      *
      * @ElementName deleteMessage
-     * @param string|null $deleteMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deleteMessage
      * @return $this
      */
     public function setDeleteMessage($deleteMessage)
@@ -150,7 +168,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for playMessage
      *
      * @ElementName playMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPlayMessage()
     {
@@ -161,7 +180,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for playMessage
      *
      * @ElementName playMessage
-     * @param string|null $playMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playMessage
      * @return $this
      */
     public function setPlayMessage($playMessage)
@@ -174,7 +194,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for previousMessage
      *
      * @ElementName previousMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPreviousMessage()
     {
@@ -185,7 +206,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for previousMessage
      *
      * @ElementName previousMessage
-     * @param string|null $previousMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $previousMessage
      * @return $this
      */
     public function setPreviousMessage($previousMessage)
@@ -198,7 +220,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for playEnvelope
      *
      * @ElementName playEnvelope
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPlayEnvelope()
     {
@@ -209,7 +232,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for playEnvelope
      *
      * @ElementName playEnvelope
-     * @param string|null $playEnvelope
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playEnvelope
      * @return $this
      */
     public function setPlayEnvelope($playEnvelope)
@@ -222,7 +246,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for nextMessage
      *
      * @ElementName nextMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNextMessage()
     {
@@ -233,7 +258,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for nextMessage
      *
      * @ElementName nextMessage
-     * @param string|null $nextMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $nextMessage
      * @return $this
      */
     public function setNextMessage($nextMessage)
@@ -246,7 +272,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for callbackCaller
      *
      * @ElementName callbackCaller
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallbackCaller()
     {
@@ -257,7 +284,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for callbackCaller
      *
      * @ElementName callbackCaller
-     * @param string|null $callbackCaller
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callbackCaller
      * @return $this
      */
     public function setCallbackCaller($callbackCaller)
@@ -270,7 +298,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for composeMessage
      *
      * @ElementName composeMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getComposeMessage()
     {
@@ -281,7 +310,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for composeMessage
      *
      * @ElementName composeMessage
-     * @param string|null $composeMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
@@ -294,7 +324,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for replyMessage
      *
      * @ElementName replyMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReplyMessage()
     {
@@ -305,7 +336,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for replyMessage
      *
      * @ElementName replyMessage
-     * @param string|null $replyMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $replyMessage
      * @return $this
      */
     public function setReplyMessage($replyMessage)
@@ -318,7 +350,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for forwardMessage
      *
      * @ElementName forwardMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardMessage()
     {
@@ -329,7 +362,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for forwardMessage
      *
      * @ElementName forwardMessage
-     * @param string|null $forwardMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardMessage
      * @return $this
      */
     public function setForwardMessage($forwardMessage)
@@ -342,7 +376,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for additionalMessageOptions
      *
      * @ElementName additionalMessageOptions
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAdditionalMessageOptions()
     {
@@ -353,7 +388,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for additionalMessageOptions
      *
      * @ElementName additionalMessageOptions
-     * @param string|null $additionalMessageOptions
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $additionalMessageOptions
      * @return $this
      */
     public function setAdditionalMessageOptions($additionalMessageOptions)
@@ -366,7 +402,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for personalizedName
      *
      * @ElementName personalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedName()
     {
@@ -377,7 +414,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for personalizedName
      *
      * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -390,7 +428,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for passcode
      *
      * @ElementName passcode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPasscode()
     {
@@ -401,7 +440,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for passcode
      *
      * @ElementName passcode
-     * @param string|null $passcode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -438,7 +478,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -449,7 +490,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessagesMenuKe
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

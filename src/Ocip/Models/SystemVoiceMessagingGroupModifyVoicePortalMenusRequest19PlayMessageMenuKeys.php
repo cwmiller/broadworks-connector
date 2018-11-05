@@ -10,31 +10,36 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
 
     /**
      * @ElementName skipBackward
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipBackward = null;
 
     /**
      * @ElementName pauseOrResume
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pauseOrResume = null;
 
     /**
      * @ElementName skipForward
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipForward = null;
 
     /**
      * @ElementName jumpToBegin
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToBegin = null;
 
     /**
      * @ElementName jumpToEnd
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToEnd = null;
 
@@ -42,7 +47,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Getter for skipBackward
      *
      * @ElementName skipBackward
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSkipBackward()
     {
@@ -53,7 +59,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Setter for skipBackward
      *
      * @ElementName skipBackward
-     * @param string|null $skipBackward
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $skipBackward
      * @return $this
      */
     public function setSkipBackward($skipBackward)
@@ -66,7 +73,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Getter for pauseOrResume
      *
      * @ElementName pauseOrResume
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPauseOrResume()
     {
@@ -77,7 +85,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Setter for pauseOrResume
      *
      * @ElementName pauseOrResume
-     * @param string|null $pauseOrResume
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $pauseOrResume
      * @return $this
      */
     public function setPauseOrResume($pauseOrResume)
@@ -90,7 +99,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Getter for skipForward
      *
      * @ElementName skipForward
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSkipForward()
     {
@@ -101,7 +111,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Setter for skipForward
      *
      * @ElementName skipForward
-     * @param string|null $skipForward
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $skipForward
      * @return $this
      */
     public function setSkipForward($skipForward)
@@ -114,7 +125,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Getter for jumpToBegin
      *
      * @ElementName jumpToBegin
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getJumpToBegin()
     {
@@ -125,7 +137,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Setter for jumpToBegin
      *
      * @ElementName jumpToBegin
-     * @param string|null $jumpToBegin
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $jumpToBegin
      * @return $this
      */
     public function setJumpToBegin($jumpToBegin)
@@ -138,7 +151,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Getter for jumpToEnd
      *
      * @ElementName jumpToEnd
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getJumpToEnd()
     {
@@ -149,7 +163,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PlayMessageMenuKey
      * Setter for jumpToEnd
      *
      * @ElementName jumpToEnd
-     * @param string|null $jumpToEnd
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $jumpToEnd
      * @return $this
      */
     public function setJumpToEnd($jumpToEnd)

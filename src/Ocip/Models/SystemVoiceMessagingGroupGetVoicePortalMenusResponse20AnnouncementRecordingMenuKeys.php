@@ -28,8 +28,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
 
     /**
      * @ElementName repeatMenu
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $repeatMenu = null;
 
@@ -115,8 +114,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
@@ -127,8 +125,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20AnnouncementRecordin
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

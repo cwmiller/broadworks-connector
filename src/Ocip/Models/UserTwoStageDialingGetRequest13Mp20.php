@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           The response is either a UserTwoStageDialingGetResponse13Mp20 or an
  * ErrorResponse.
  *
- * @see UserTwoStageDialingGetResponse13
+ * @see UserTwoStageDialingGetResponse13Mp20
  * @see ErrorResponse
  */
 class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

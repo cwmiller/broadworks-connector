@@ -10,25 +10,29 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
 
     /**
      * @ElementName activateConfGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateConfGreeting = null;
 
     /**
      * @ElementName deactivateConfGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateConfGreeting = null;
 
     /**
      * @ElementName recordNewConfGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewConfGreeting = null;
 
     /**
      * @ElementName listenToCurrentConfGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentConfGreeting = null;
 
@@ -40,7 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -48,7 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Getter for activateConfGreeting
      *
      * @ElementName activateConfGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateConfGreeting()
     {
@@ -59,7 +65,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Setter for activateConfGreeting
      *
      * @ElementName activateConfGreeting
-     * @param string|null $activateConfGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateConfGreeting
      * @return $this
      */
     public function setActivateConfGreeting($activateConfGreeting)
@@ -72,7 +79,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Getter for deactivateConfGreeting
      *
      * @ElementName deactivateConfGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeactivateConfGreeting()
     {
@@ -83,7 +91,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Setter for deactivateConfGreeting
      *
      * @ElementName deactivateConfGreeting
-     * @param string|null $deactivateConfGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deactivateConfGreeting
      * @return $this
      */
     public function setDeactivateConfGreeting($deactivateConfGreeting)
@@ -96,7 +105,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Getter for recordNewConfGreeting
      *
      * @ElementName recordNewConfGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordNewConfGreeting()
     {
@@ -107,7 +117,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Setter for recordNewConfGreeting
      *
      * @ElementName recordNewConfGreeting
-     * @param string|null $recordNewConfGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewConfGreeting
      * @return $this
      */
     public function setRecordNewConfGreeting($recordNewConfGreeting)
@@ -120,7 +131,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Getter for listenToCurrentConfGreeting
      *
      * @ElementName listenToCurrentConfGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentConfGreeting()
     {
@@ -131,7 +143,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Setter for listenToCurrentConfGreeting
      *
      * @ElementName listenToCurrentConfGreeting
-     * @param string|null $listenToCurrentConfGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentConfGreeting
      * @return $this
      */
     public function setListenToCurrentConfGreeting($listenToCurrentConfGreeting)
@@ -168,7 +181,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -179,7 +193,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ConferenceGreeting
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

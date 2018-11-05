@@ -37,7 +37,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * @ElementName groupIdList
      * @Nillable
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequest\GroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupIdList = null;
 
@@ -118,7 +118,7 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      *
      * @ElementName groupIdList
      * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequest\GroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGroupIdList()
     {
@@ -130,10 +130,10 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
      *
      * @ElementName groupIdList
      * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequest\GroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $groupIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $groupIdList
      * @return $this
      */
-    public function setGroupIdList($groupIdList)
+    public function setGroupIdList(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList $groupIdList)
     {
         $this->groupIdList = $groupIdList;
         return $this;

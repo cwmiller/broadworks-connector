@@ -10,71 +10,61 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
 
     /**
      * @ElementName setPresenceToNone
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToNone = null;
 
     /**
      * @ElementName setPresenceToBusinessTrip
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToBusinessTrip = null;
 
     /**
      * @ElementName setPresenceToGoneForTheDay
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToGoneForTheDay = null;
 
     /**
      * @ElementName setPresenceToLunch
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToLunch = null;
 
     /**
      * @ElementName setPresenceToMeeting
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToMeeting = null;
 
     /**
      * @ElementName setPresenceToOutOfOffice
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToOutOfOffice = null;
 
     /**
      * @ElementName setPresenceToTemporarilyOut
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToTemporarilyOut = null;
 
     /**
      * @ElementName setPresenceToTraining
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToTraining = null;
 
     /**
      * @ElementName setPresenceToUnavailable
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToUnavailable = null;
 
     /**
      * @ElementName setPresenceToVacation
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $setPresenceToVacation = null;
 
@@ -86,8 +76,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
 
     /**
      * @ElementName repeatMenu
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $repeatMenu = null;
 
@@ -95,8 +84,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToNone
      *
      * @ElementName setPresenceToNone
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToNone()
     {
@@ -107,8 +95,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToNone
      *
      * @ElementName setPresenceToNone
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToNone
+     * @param string|null $setPresenceToNone
      * @return $this
      */
     public function setSetPresenceToNone($setPresenceToNone)
@@ -121,8 +108,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToBusinessTrip
      *
      * @ElementName setPresenceToBusinessTrip
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToBusinessTrip()
     {
@@ -133,8 +119,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToBusinessTrip
      *
      * @ElementName setPresenceToBusinessTrip
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToBusinessTrip
+     * @param string|null $setPresenceToBusinessTrip
      * @return $this
      */
     public function setSetPresenceToBusinessTrip($setPresenceToBusinessTrip)
@@ -147,8 +132,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToGoneForTheDay
      *
      * @ElementName setPresenceToGoneForTheDay
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToGoneForTheDay()
     {
@@ -159,8 +143,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToGoneForTheDay
      *
      * @ElementName setPresenceToGoneForTheDay
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToGoneForTheDay
+     * @param string|null $setPresenceToGoneForTheDay
      * @return $this
      */
     public function setSetPresenceToGoneForTheDay($setPresenceToGoneForTheDay)
@@ -173,8 +156,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToLunch
      *
      * @ElementName setPresenceToLunch
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToLunch()
     {
@@ -185,8 +167,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToLunch
      *
      * @ElementName setPresenceToLunch
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToLunch
+     * @param string|null $setPresenceToLunch
      * @return $this
      */
     public function setSetPresenceToLunch($setPresenceToLunch)
@@ -199,8 +180,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToMeeting
      *
      * @ElementName setPresenceToMeeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToMeeting()
     {
@@ -211,8 +191,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToMeeting
      *
      * @ElementName setPresenceToMeeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToMeeting
+     * @param string|null $setPresenceToMeeting
      * @return $this
      */
     public function setSetPresenceToMeeting($setPresenceToMeeting)
@@ -225,8 +204,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToOutOfOffice
      *
      * @ElementName setPresenceToOutOfOffice
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToOutOfOffice()
     {
@@ -237,8 +215,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToOutOfOffice
      *
      * @ElementName setPresenceToOutOfOffice
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToOutOfOffice
+     * @param string|null $setPresenceToOutOfOffice
      * @return $this
      */
     public function setSetPresenceToOutOfOffice($setPresenceToOutOfOffice)
@@ -251,8 +228,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToTemporarilyOut
      *
      * @ElementName setPresenceToTemporarilyOut
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToTemporarilyOut()
     {
@@ -263,8 +239,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToTemporarilyOut
      *
      * @ElementName setPresenceToTemporarilyOut
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToTemporarilyOut
+     * @param string|null $setPresenceToTemporarilyOut
      * @return $this
      */
     public function setSetPresenceToTemporarilyOut($setPresenceToTemporarilyOut)
@@ -277,8 +252,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToTraining
      *
      * @ElementName setPresenceToTraining
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToTraining()
     {
@@ -289,8 +263,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToTraining
      *
      * @ElementName setPresenceToTraining
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToTraining
+     * @param string|null $setPresenceToTraining
      * @return $this
      */
     public function setSetPresenceToTraining($setPresenceToTraining)
@@ -303,8 +276,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToUnavailable
      *
      * @ElementName setPresenceToUnavailable
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToUnavailable()
     {
@@ -315,8 +287,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToUnavailable
      *
      * @ElementName setPresenceToUnavailable
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToUnavailable
+     * @param string|null $setPresenceToUnavailable
      * @return $this
      */
     public function setSetPresenceToUnavailable($setPresenceToUnavailable)
@@ -329,8 +300,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for setPresenceToVacation
      *
      * @ElementName setPresenceToVacation
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToVacation()
     {
@@ -341,8 +311,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for setPresenceToVacation
      *
      * @ElementName setPresenceToVacation
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToVacation
+     * @param string|null $setPresenceToVacation
      * @return $this
      */
     public function setSetPresenceToVacation($setPresenceToVacation)
@@ -379,8 +348,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
@@ -391,8 +359,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

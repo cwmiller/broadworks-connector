@@ -10,19 +10,22 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
 
     /**
      * @ElementName recordNewPersonalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewPersonalizedName = null;
 
     /**
      * @ElementName listenToCurrentPersonalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentPersonalizedName = null;
 
     /**
      * @ElementName deletePersonalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deletePersonalizedName = null;
 
@@ -34,7 +37,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -42,7 +46,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Getter for recordNewPersonalizedName
      *
      * @ElementName recordNewPersonalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordNewPersonalizedName()
     {
@@ -53,7 +58,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Setter for recordNewPersonalizedName
      *
      * @ElementName recordNewPersonalizedName
-     * @param string|null $recordNewPersonalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewPersonalizedName
      * @return $this
      */
     public function setRecordNewPersonalizedName($recordNewPersonalizedName)
@@ -66,7 +72,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Getter for listenToCurrentPersonalizedName
      *
      * @ElementName listenToCurrentPersonalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentPersonalizedName()
     {
@@ -77,7 +84,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Setter for listenToCurrentPersonalizedName
      *
      * @ElementName listenToCurrentPersonalizedName
-     * @param string|null $listenToCurrentPersonalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentPersonalizedName
      * @return $this
      */
     public function setListenToCurrentPersonalizedName($listenToCurrentPersonalizedName)
@@ -90,7 +98,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Getter for deletePersonalizedName
      *
      * @ElementName deletePersonalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeletePersonalizedName()
     {
@@ -101,7 +110,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Setter for deletePersonalizedName
      *
      * @ElementName deletePersonalizedName
-     * @param string|null $deletePersonalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deletePersonalizedName
      * @return $this
      */
     public function setDeletePersonalizedName($deletePersonalizedName)
@@ -138,7 +148,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -149,7 +160,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

@@ -10,7 +10,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelec
 
     /**
      * @ElementName confirmSendingToDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmSendingToDistributionList = null;
 
@@ -24,7 +25,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelec
      * Getter for confirmSendingToDistributionList
      *
      * @ElementName confirmSendingToDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConfirmSendingToDistributionList()
     {
@@ -35,7 +37,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendMessageToSelec
      * Setter for confirmSendingToDistributionList
      *
      * @ElementName confirmSendingToDistributionList
-     * @param string|null $confirmSendingToDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $confirmSendingToDistributionList
      * @return $this
      */
     public function setConfirmSendingToDistributionList($confirmSendingToDistributionList)

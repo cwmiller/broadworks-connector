@@ -69,10 +69,10 @@ class XmlUtils
                     $setter = $refClass->getMethod($setterName);
                     $annotations = self::getAnnotations($setter->getDocComment());
 
-                    var_dump($annotations);
-
                     if (array_key_exists('param', $annotations)) {
-                        $types = array_filter(explode('|', $annotations['param']), function ($type) {
+                        $types = explode(' ', $annotations['param'], 2)[0];
+
+                        $types = array_filter(explode('|', $types), function ($type) {
                             return $type !== 'null';
                         });
 
@@ -93,14 +93,14 @@ class XmlUtils
                                         $nodeValue = (string)$childElement->nodeValue;
                                 }
 
-                            $setter->invoke($instance, $nodeValue);
-                        } else {
-                            $setter->invoke($instance, self::fromXml($childElement, $type, $baseNamespace));
+                                $setter->invoke($instance, $nodeValue);
+                            } else {
+                                $setter->invoke($instance, self::fromXml($childElement, $type, $baseNamespace));
+                            }
                         }
                     }
                 }
             }
-        }
 
             return $instance;
         } catch(\ReflectionException $e) {

@@ -16,25 +16,29 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
 
     /**
      * @ElementName changeCurrentReply
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentReply = null;
 
     /**
      * @ElementName listenToCurrentReply
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentReply = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
 
@@ -46,7 +50,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -78,7 +83,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Getter for changeCurrentReply
      *
      * @ElementName changeCurrentReply
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeCurrentReply()
     {
@@ -89,7 +95,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Setter for changeCurrentReply
      *
      * @ElementName changeCurrentReply
-     * @param string|null $changeCurrentReply
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCurrentReply
      * @return $this
      */
     public function setChangeCurrentReply($changeCurrentReply)
@@ -102,7 +109,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Getter for listenToCurrentReply
      *
      * @ElementName listenToCurrentReply
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentReply()
     {
@@ -113,7 +121,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Setter for listenToCurrentReply
      *
      * @ElementName listenToCurrentReply
-     * @param string|null $listenToCurrentReply
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentReply
      * @return $this
      */
     public function setListenToCurrentReply($listenToCurrentReply)
@@ -126,7 +135,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Getter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearUrgentIndicator()
     {
@@ -137,7 +147,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Setter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @param string|null $setOrClearUrgentIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
@@ -150,7 +161,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Getter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearConfidentialIndicator()
     {
@@ -161,7 +173,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Setter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @param string|null $setOrClearConfidentialIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
@@ -198,7 +211,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -209,7 +223,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

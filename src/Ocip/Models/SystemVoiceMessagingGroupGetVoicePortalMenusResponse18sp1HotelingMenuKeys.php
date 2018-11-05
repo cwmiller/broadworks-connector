@@ -10,22 +10,19 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
 
     /**
      * @ElementName checkHostStatus
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $checkHostStatus = null;
 
     /**
      * @ElementName associateWithHost
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $associateWithHost = null;
 
     /**
      * @ElementName disassociateFromHost
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $disassociateFromHost = null;
 
@@ -37,8 +34,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
 
     /**
      * @ElementName repeatMenu
-     * @Nillable
-     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @var string|null
      */
     private $repeatMenu = null;
 
@@ -46,8 +42,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Getter for checkHostStatus
      *
      * @ElementName checkHostStatus
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCheckHostStatus()
     {
@@ -58,8 +53,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Setter for checkHostStatus
      *
      * @ElementName checkHostStatus
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $checkHostStatus
+     * @param string|null $checkHostStatus
      * @return $this
      */
     public function setCheckHostStatus($checkHostStatus)
@@ -72,8 +66,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Getter for associateWithHost
      *
      * @ElementName associateWithHost
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAssociateWithHost()
     {
@@ -84,8 +77,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Setter for associateWithHost
      *
      * @ElementName associateWithHost
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $associateWithHost
+     * @param string|null $associateWithHost
      * @return $this
      */
     public function setAssociateWithHost($associateWithHost)
@@ -98,8 +90,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Getter for disassociateFromHost
      *
      * @ElementName disassociateFromHost
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDisassociateFromHost()
     {
@@ -110,8 +101,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Setter for disassociateFromHost
      *
      * @ElementName disassociateFromHost
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disassociateFromHost
+     * @param string|null $disassociateFromHost
      * @return $this
      */
     public function setDisassociateFromHost($disassociateFromHost)
@@ -148,8 +138,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
@@ -160,8 +149,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1HotelingMenuKeys
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

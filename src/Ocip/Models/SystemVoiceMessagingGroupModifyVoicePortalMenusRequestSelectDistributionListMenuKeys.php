@@ -16,7 +16,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSelectDistributionLi
 
     /**
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenuOrFinishEnteringDistributionListNumber = null;
 
@@ -48,7 +49,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSelectDistributionLi
      * Getter for repeatMenuOrFinishEnteringDistributionListNumber
      *
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenuOrFinishEnteringDistributionListNumber()
     {
@@ -59,7 +61,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSelectDistributionLi
      * Setter for repeatMenuOrFinishEnteringDistributionListNumber
      *
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
-     * @param string|null $repeatMenuOrFinishEnteringDistributionListNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenuOrFinishEnteringDistributionListNumber
      * @return $this
      */
     public function setRepeatMenuOrFinishEnteringDistributionListNumber($repeatMenuOrFinishEnteringDistributionListNumber)

@@ -10,19 +10,22 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
 
     /**
      * @ElementName disconnectAfterGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disconnectAfterGreeting = null;
 
     /**
      * @ElementName forwardAfterGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardAfterGreeting = null;
 
     /**
      * @ElementName changeForwardingDestination
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeForwardingDestination = null;
 
@@ -34,7 +37,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -42,7 +46,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Getter for disconnectAfterGreeting
      *
      * @ElementName disconnectAfterGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDisconnectAfterGreeting()
     {
@@ -53,7 +58,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Setter for disconnectAfterGreeting
      *
      * @ElementName disconnectAfterGreeting
-     * @param string|null $disconnectAfterGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disconnectAfterGreeting
      * @return $this
      */
     public function setDisconnectAfterGreeting($disconnectAfterGreeting)
@@ -66,7 +72,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Getter for forwardAfterGreeting
      *
      * @ElementName forwardAfterGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardAfterGreeting()
     {
@@ -77,7 +84,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Setter for forwardAfterGreeting
      *
      * @ElementName forwardAfterGreeting
-     * @param string|null $forwardAfterGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardAfterGreeting
      * @return $this
      */
     public function setForwardAfterGreeting($forwardAfterGreeting)
@@ -90,7 +98,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Getter for changeForwardingDestination
      *
      * @ElementName changeForwardingDestination
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeForwardingDestination()
     {
@@ -101,7 +110,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Setter for changeForwardingDestination
      *
      * @ElementName changeForwardingDestination
-     * @param string|null $changeForwardingDestination
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeForwardingDestination
      * @return $this
      */
     public function setChangeForwardingDestination($changeForwardingDestination)
@@ -138,7 +148,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -149,7 +160,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19DisableMessageDepo
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

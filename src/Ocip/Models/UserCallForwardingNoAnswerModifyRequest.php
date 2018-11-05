@@ -29,7 +29,8 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName forwardToPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;
 
@@ -91,7 +92,8 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardToPhoneNumber()
     {
@@ -102,7 +104,8 @@ class UserCallForwardingNoAnswerModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for forwardToPhoneNumber
      *
      * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)

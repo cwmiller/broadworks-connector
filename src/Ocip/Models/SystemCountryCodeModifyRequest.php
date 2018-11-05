@@ -45,7 +45,8 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName nationalPrefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nationalPrefix = null;
 
@@ -173,7 +174,8 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for nationalPrefix
      *
      * @ElementName nationalPrefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNationalPrefix()
     {
@@ -184,7 +186,8 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for nationalPrefix
      *
      * @ElementName nationalPrefix
-     * @param string|null $nationalPrefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $nationalPrefix
      * @return $this
      */
     public function setNationalPrefix($nationalPrefix)

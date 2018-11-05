@@ -34,7 +34,8 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName accessDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
 
@@ -114,7 +115,8 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceEndpoint()
     {
@@ -125,7 +127,8 @@ class UserVideoAddOnModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint)

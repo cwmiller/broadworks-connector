@@ -16,13 +16,15 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
 
     /**
      * @ElementName serviceURI
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceURI = null;
 
     /**
      * @ElementName defaultEmergencyNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultEmergencyNumber = null;
 
@@ -48,7 +50,8 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * Getter for serviceURI
      *
      * @ElementName serviceURI
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceURI()
     {
@@ -59,7 +62,8 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * Setter for serviceURI
      *
      * @ElementName serviceURI
-     * @param string|null $serviceURI
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceURI
      * @return $this
      */
     public function setServiceURI($serviceURI)
@@ -72,7 +76,8 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * Getter for defaultEmergencyNumber
      *
      * @ElementName defaultEmergencyNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultEmergencyNumber()
     {
@@ -83,7 +88,8 @@ class SystemExternalEmergencyRoutingParametersModifyRequest13mp13 extends \CWM\B
      * Setter for defaultEmergencyNumber
      *
      * @ElementName defaultEmergencyNumber
-     * @param string|null $defaultEmergencyNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultEmergencyNumber
      * @return $this
      */
     public function setDefaultEmergencyNumber($defaultEmergencyNumber)

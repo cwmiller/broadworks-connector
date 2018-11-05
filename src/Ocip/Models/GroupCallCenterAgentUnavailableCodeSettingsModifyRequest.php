@@ -35,25 +35,29 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnDND
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnDND = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnPersonalCalls = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
 
     /**
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnNotReachable = null;
 
@@ -65,7 +69,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
 
     /**
      * @ElementName defaultAgentUnavailableCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCode = null;
 
@@ -153,7 +158,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Getter for defaultAgentUnavailableCodeOnDND
      *
      * @ElementName defaultAgentUnavailableCodeOnDND
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultAgentUnavailableCodeOnDND()
     {
@@ -164,7 +170,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Setter for defaultAgentUnavailableCodeOnDND
      *
      * @ElementName defaultAgentUnavailableCodeOnDND
-     * @param string|null $defaultAgentUnavailableCodeOnDND
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultAgentUnavailableCodeOnDND
      * @return $this
      */
     public function setDefaultAgentUnavailableCodeOnDND($defaultAgentUnavailableCodeOnDND)
@@ -177,7 +184,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Getter for defaultAgentUnavailableCodeOnPersonalCalls
      *
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultAgentUnavailableCodeOnPersonalCalls()
     {
@@ -188,7 +196,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Setter for defaultAgentUnavailableCodeOnPersonalCalls
      *
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
-     * @param string|null $defaultAgentUnavailableCodeOnPersonalCalls
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultAgentUnavailableCodeOnPersonalCalls
      * @return $this
      */
     public function setDefaultAgentUnavailableCodeOnPersonalCalls($defaultAgentUnavailableCodeOnPersonalCalls)
@@ -201,7 +210,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Getter for defaultAgentUnavailableCodeOnConsecutiveBounces
      *
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultAgentUnavailableCodeOnConsecutiveBounces()
     {
@@ -212,7 +222,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Setter for defaultAgentUnavailableCodeOnConsecutiveBounces
      *
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
-     * @param string|null $defaultAgentUnavailableCodeOnConsecutiveBounces
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultAgentUnavailableCodeOnConsecutiveBounces
      * @return $this
      */
     public function setDefaultAgentUnavailableCodeOnConsecutiveBounces($defaultAgentUnavailableCodeOnConsecutiveBounces)
@@ -225,7 +236,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Getter for defaultAgentUnavailableCodeOnNotReachable
      *
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultAgentUnavailableCodeOnNotReachable()
     {
@@ -236,7 +248,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Setter for defaultAgentUnavailableCodeOnNotReachable
      *
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
-     * @param string|null $defaultAgentUnavailableCodeOnNotReachable
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultAgentUnavailableCodeOnNotReachable
      * @return $this
      */
     public function setDefaultAgentUnavailableCodeOnNotReachable($defaultAgentUnavailableCodeOnNotReachable)
@@ -273,7 +286,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Getter for defaultAgentUnavailableCode
      *
      * @ElementName defaultAgentUnavailableCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultAgentUnavailableCode()
     {
@@ -284,7 +298,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\Broa
      * Setter for defaultAgentUnavailableCode
      *
      * @ElementName defaultAgentUnavailableCode
-     * @param string|null $defaultAgentUnavailableCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultAgentUnavailableCode
      * @return $this
      */
     public function setDefaultAgentUnavailableCode($defaultAgentUnavailableCode)

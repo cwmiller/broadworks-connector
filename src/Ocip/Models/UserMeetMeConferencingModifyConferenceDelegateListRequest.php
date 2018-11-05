@@ -28,7 +28,8 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
 
     /**
      * @ElementName conferenceDelegateUserList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceDelegateUserList = null;
 
@@ -84,7 +85,8 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
      * Getter for conferenceDelegateUserList
      *
      * @ElementName conferenceDelegateUserList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConferenceDelegateUserList()
     {
@@ -95,7 +97,8 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
      * Setter for conferenceDelegateUserList
      *
      * @ElementName conferenceDelegateUserList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $conferenceDelegateUserList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $conferenceDelegateUserList
      * @return $this
      */
     public function setConferenceDelegateUserList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceDelegateUserList)

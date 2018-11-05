@@ -16,7 +16,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
 
     /**
      * @ElementName name
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;
 
@@ -36,7 +37,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * Getter for name
      *
      * @ElementName name
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getName()
     {
@@ -47,7 +49,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * Setter for name
      *
      * @ElementName name
-     * @param string|null $name
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $name
      * @return $this
      */
     public function setName($name)

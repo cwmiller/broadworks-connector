@@ -78,13 +78,15 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
 
     /**
      * @ElementName businessHours
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -132,7 +134,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceList = null;
 
@@ -290,7 +293,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for businessHours
      *
      * @ElementName businessHours
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBusinessHours()
     {
@@ -301,7 +305,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for businessHours
      *
      * @ElementName businessHours
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $businessHours
      * @return $this
      */
     public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
@@ -314,7 +319,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -325,7 +331,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
@@ -506,7 +513,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Getter for serviceList
      *
      * @ElementName serviceList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceList()
     {
@@ -517,7 +525,8 @@ class GroupAutoAttendantConsolidatedModifyInstanceRequest extends \CWM\BroadWork
      * Setter for serviceList
      *
      * @ElementName serviceList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceList
      * @return $this
      */
     public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)

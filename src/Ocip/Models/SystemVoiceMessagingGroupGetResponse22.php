@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *             Replaced by: SystemVoiceMessagingGroupGetResponse22V2.
  *
  * @see SystemVoiceMessagingGroupGetResponse22
- * @see SystemVoiceMessagingGroupGetResponse22
+ * @see SystemVoiceMessagingGroupGetResponse22V2
  */
 class SystemVoiceMessagingGroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

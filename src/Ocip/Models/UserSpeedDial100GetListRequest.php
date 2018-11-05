@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSpeedDial100GetListResponse
  * @see ErrorResponse
- * @see UserSpeedDial100GetListRequest17
+ * @see UserSpeedDial100GetListRequest17Sp1
  */
 class UserSpeedDial100GetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

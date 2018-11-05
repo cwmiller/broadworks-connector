@@ -7,7 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserTwoStageDialingGetRequest13Mp20.
  *
- * @see UserTwoStageDialingGetRequest13
+ * @see UserTwoStageDialingGetRequest13Mp20
  */
 class UserTwoStageDialingGetResponse13Mp20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

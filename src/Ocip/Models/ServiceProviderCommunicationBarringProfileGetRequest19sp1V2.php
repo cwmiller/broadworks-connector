@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetResponse19sp1V2
  *         or an ErrorResponse.
  *
- * @see ServiceProviderCommunicationBarringProfileGetResponse19sp1
+ * @see ServiceProviderCommunicationBarringProfileGetResponse19sp1V2
  * @see ErrorResponse
  */
 class ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

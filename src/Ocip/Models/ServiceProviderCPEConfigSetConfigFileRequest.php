@@ -33,7 +33,8 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName configFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configFile = null;
 
@@ -89,7 +90,8 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * Getter for configFile
      *
      * @ElementName configFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConfigFile()
     {
@@ -100,7 +102,8 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * Setter for configFile
      *
      * @ElementName configFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $configFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $configFile
      * @return $this
      */
     public function setConfigFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $configFile)

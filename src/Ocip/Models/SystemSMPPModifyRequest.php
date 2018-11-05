@@ -17,7 +17,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName primarySMPPServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $primarySMPPServerNetAddress = null;
 
@@ -29,7 +30,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName secondarySMPPServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $secondarySMPPServerNetAddress = null;
 
@@ -41,13 +43,15 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName systemId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $systemId = null;
 
     /**
      * @ElementName password
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
 
@@ -59,7 +63,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName systemType
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $systemType = null;
 
@@ -91,7 +96,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for primarySMPPServerNetAddress
      *
      * @ElementName primarySMPPServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrimarySMPPServerNetAddress()
     {
@@ -102,7 +108,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for primarySMPPServerNetAddress
      *
      * @ElementName primarySMPPServerNetAddress
-     * @param string|null $primarySMPPServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $primarySMPPServerNetAddress
      * @return $this
      */
     public function setPrimarySMPPServerNetAddress($primarySMPPServerNetAddress)
@@ -139,7 +146,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for secondarySMPPServerNetAddress
      *
      * @ElementName secondarySMPPServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSecondarySMPPServerNetAddress()
     {
@@ -150,7 +158,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for secondarySMPPServerNetAddress
      *
      * @ElementName secondarySMPPServerNetAddress
-     * @param string|null $secondarySMPPServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $secondarySMPPServerNetAddress
      * @return $this
      */
     public function setSecondarySMPPServerNetAddress($secondarySMPPServerNetAddress)
@@ -187,7 +196,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for systemId
      *
      * @ElementName systemId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSystemId()
     {
@@ -198,7 +208,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for systemId
      *
      * @ElementName systemId
-     * @param string|null $systemId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $systemId
      * @return $this
      */
     public function setSystemId($systemId)
@@ -211,7 +222,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for password
      *
      * @ElementName password
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPassword()
     {
@@ -222,7 +234,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for password
      *
      * @ElementName password
-     * @param string|null $password
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $password
      * @return $this
      */
     public function setPassword($password)
@@ -259,7 +272,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for systemType
      *
      * @ElementName systemType
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSystemType()
     {
@@ -270,7 +284,8 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for systemType
      *
      * @ElementName systemType
-     * @param string|null $systemType
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $systemType
      * @return $this
      */
     public function setSystemType($systemType)

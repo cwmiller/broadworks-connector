@@ -44,7 +44,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName sipRequestURI
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipRequestURI = null;
 
@@ -124,7 +125,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for sipRequestURI
      *
      * @ElementName sipRequestURI
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipRequestURI()
     {
@@ -135,7 +137,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for sipRequestURI
      *
      * @ElementName sipRequestURI
-     * @param string|null $sipRequestURI
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sipRequestURI
      * @return $this
      */
     public function setSipRequestURI($sipRequestURI)

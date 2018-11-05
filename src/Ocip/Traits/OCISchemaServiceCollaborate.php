@@ -15,7 +15,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceRequest
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeGetInstanceResponse20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupCollaborateBridgeModifyInstanceRequest20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest20sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetResponse20sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetResponse20sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateModifyRequest20sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateBridgeGetRequest20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\UserCollaborateBridgeGetResponse20sp1;
@@ -140,7 +140,7 @@ trait OCISchemaServiceCollaborate
 
     /**
      * @param SystemCollaborateGetRequest20sp1V2 $request
-     * @return SystemCollaborateGetResponse20sp1
+     * @return SystemCollaborateGetResponse20sp1V2
      * @throws ErrorResponseException
      */
     public function systemCollaborateGetRequest20sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemCollaborateGetRequest20sp1V2 $request)

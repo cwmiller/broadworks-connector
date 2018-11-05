@@ -28,7 +28,8 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName webDisplayKey
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webDisplayKey = null;
 
@@ -84,7 +85,8 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for webDisplayKey
      *
      * @ElementName webDisplayKey
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebDisplayKey()
     {
@@ -95,7 +97,8 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for webDisplayKey
      *
      * @ElementName webDisplayKey
-     * @param string|null $webDisplayKey
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webDisplayKey
      * @return $this
      */
     public function setWebDisplayKey($webDisplayKey)

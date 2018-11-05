@@ -44,19 +44,22 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName newParentDepartmentKey
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newParentDepartmentKey = null;
 
     /**
      * @ElementName callingLineIdName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
 
@@ -160,7 +163,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for newParentDepartmentKey
      *
      * @ElementName newParentDepartmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNewParentDepartmentKey()
     {
@@ -171,7 +175,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for newParentDepartmentKey
      *
      * @ElementName newParentDepartmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $newParentDepartmentKey
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $newParentDepartmentKey
      * @return $this
      */
     public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $newParentDepartmentKey)
@@ -184,7 +189,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for callingLineIdName
      *
      * @ElementName callingLineIdName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdName()
     {
@@ -195,7 +201,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for callingLineIdName
      *
      * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
@@ -208,7 +215,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdPhoneNumber()
     {
@@ -219,7 +227,8 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)

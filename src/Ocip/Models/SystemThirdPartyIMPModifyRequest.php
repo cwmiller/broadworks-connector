@@ -16,19 +16,22 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceNetAddress = null;
 
     /**
      * @ElementName servicePort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
 
     /**
      * @ElementName boshURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;
 
@@ -36,7 +39,8 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serviceNetAddress
      *
      * @ElementName serviceNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceNetAddress()
     {
@@ -47,7 +51,8 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serviceNetAddress
      *
      * @ElementName serviceNetAddress
-     * @param string|null $serviceNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceNetAddress
      * @return $this
      */
     public function setServiceNetAddress($serviceNetAddress)
@@ -60,7 +65,8 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for servicePort
      *
      * @ElementName servicePort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServicePort()
     {
@@ -71,7 +77,8 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for servicePort
      *
      * @ElementName servicePort
-     * @param int|null $servicePort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
@@ -84,7 +91,8 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for boshURL
      *
      * @ElementName boshURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBoshURL()
     {
@@ -95,7 +103,8 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for boshURL
      *
      * @ElementName boshURL
-     * @param string|null $boshURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)

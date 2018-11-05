@@ -22,7 +22,8 @@ class SystemAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName tagSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSetName = null;
 
@@ -54,7 +55,8 @@ class SystemAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for tagSetName
      *
      * @ElementName tagSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTagSetName()
     {
@@ -65,7 +67,8 @@ class SystemAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for tagSetName
      *
      * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)

@@ -34,7 +34,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName simultaneousRingNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $simultaneousRingNumberList = null;
 
@@ -122,7 +123,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * Getter for simultaneousRingNumberList
      *
      * @ElementName simultaneousRingNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSimultaneousRingNumberList()
     {
@@ -133,7 +135,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * Setter for simultaneousRingNumberList
      *
      * @ElementName simultaneousRingNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null $simultaneousRingNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $simultaneousRingNumberList
      * @return $this
      */
     public function setSimultaneousRingNumberList(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList $simultaneousRingNumberList)

@@ -76,7 +76,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName webBasedConfigURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webBasedConfigURL = null;
 
@@ -112,7 +113,7 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName earlyMediaSupport
-     * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
+     * @var string|null
      */
     private $earlyMediaSupport = null;
 
@@ -130,7 +131,7 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName authenticationMode
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
+     * @var string|null
      */
     private $authenticationMode = null;
 
@@ -166,7 +167,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName resetEvent
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
 
@@ -396,7 +398,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebBasedConfigURL()
     {
@@ -407,7 +410,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @param string|null $webBasedConfigURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webBasedConfigURL
      * @return $this
      */
     public function setWebBasedConfigURL($webBasedConfigURL)
@@ -530,7 +534,7 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions16sp1|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions16sp1 $cpeDeviceOptions)
+    public function setCpeDeviceOptions($cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -540,7 +544,7 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
+     * @return string|null
      */
     public function getEarlyMediaSupport()
     {
@@ -551,10 +555,10 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null $earlyMediaSupport
+     * @param string|null $earlyMediaSupport
      * @return $this
      */
-    public function setEarlyMediaSupport(\CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport)
+    public function setEarlyMediaSupport($earlyMediaSupport)
     {
         $this->earlyMediaSupport = $earlyMediaSupport;
         return $this;
@@ -612,7 +616,7 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
+     * @return string|null
      */
     public function getAuthenticationMode()
     {
@@ -623,10 +627,10 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null $authenticationMode
+     * @param string|null $authenticationMode
      * @return $this
      */
-    public function setAuthenticationMode(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode $authenticationMode)
+    public function setAuthenticationMode($authenticationMode)
     {
         $this->authenticationMode = $authenticationMode;
         return $this;
@@ -756,7 +760,8 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getResetEvent()
     {
@@ -767,10 +772,11 @@ class SystemSIPDeviceTypeModifyRequest16sp1 extends \CWM\BroadWorksConnector\Oci
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null $resetEvent
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resetEvent
      * @return $this
      */
-    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent $resetEvent)
+    public function setResetEvent($resetEvent)
     {
         $this->resetEvent = $resetEvent;
         return $this;

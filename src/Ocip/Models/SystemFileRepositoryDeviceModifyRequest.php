@@ -22,7 +22,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName rootDirectory
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $rootDirectory = null;
 
@@ -52,7 +53,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName port
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
 
@@ -90,7 +92,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for rootDirectory
      *
      * @ElementName rootDirectory
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRootDirectory()
     {
@@ -101,7 +104,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for rootDirectory
      *
      * @ElementName rootDirectory
-     * @param string|null $rootDirectory
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $rootDirectory
      * @return $this
      */
     public function setRootDirectory($rootDirectory)
@@ -210,7 +214,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for port
      *
      * @ElementName port
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPort()
     {
@@ -221,7 +226,8 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for port
      *
      * @ElementName port
-     * @param int|null $port
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
      * @return $this
      */
     public function setPort($port)

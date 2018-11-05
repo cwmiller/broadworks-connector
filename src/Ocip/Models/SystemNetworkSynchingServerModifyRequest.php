@@ -28,13 +28,15 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName port
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -78,7 +80,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for port
      *
      * @ElementName port
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPort()
     {
@@ -89,7 +92,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for port
      *
      * @ElementName port
-     * @param int|null $port
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
      * @return $this
      */
     public function setPort($port)
@@ -102,7 +106,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -113,7 +118,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)

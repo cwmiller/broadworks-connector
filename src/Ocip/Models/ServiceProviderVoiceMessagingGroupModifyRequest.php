@@ -22,19 +22,22 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName deliveryFromAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deliveryFromAddress = null;
 
     /**
      * @ElementName notificationFromAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notificationFromAddress = null;
 
     /**
      * @ElementName voicePortalLockoutFromAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalLockoutFromAddress = null;
 
@@ -84,7 +87,8 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * Getter for deliveryFromAddress
      *
      * @ElementName deliveryFromAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeliveryFromAddress()
     {
@@ -95,7 +99,8 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * Setter for deliveryFromAddress
      *
      * @ElementName deliveryFromAddress
-     * @param string|null $deliveryFromAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deliveryFromAddress
      * @return $this
      */
     public function setDeliveryFromAddress($deliveryFromAddress)
@@ -108,7 +113,8 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * Getter for notificationFromAddress
      *
      * @ElementName notificationFromAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNotificationFromAddress()
     {
@@ -119,7 +125,8 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * Setter for notificationFromAddress
      *
      * @ElementName notificationFromAddress
-     * @param string|null $notificationFromAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $notificationFromAddress
      * @return $this
      */
     public function setNotificationFromAddress($notificationFromAddress)
@@ -132,7 +139,8 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * Getter for voicePortalLockoutFromAddress
      *
      * @ElementName voicePortalLockoutFromAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoicePortalLockoutFromAddress()
     {
@@ -143,7 +151,8 @@ class ServiceProviderVoiceMessagingGroupModifyRequest extends \CWM\BroadWorksCon
      * Setter for voicePortalLockoutFromAddress
      *
      * @ElementName voicePortalLockoutFromAddress
-     * @param string|null $voicePortalLockoutFromAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalLockoutFromAddress
      * @return $this
      */
     public function setVoicePortalLockoutFromAddress($voicePortalLockoutFromAddress)

@@ -19,7 +19,8 @@ class ExtendedMediaFileResource
 
     /**
      * @ElementName url
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $url = null;
 
@@ -51,7 +52,8 @@ class ExtendedMediaFileResource
      * Getter for url
      *
      * @ElementName url
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUrl()
     {
@@ -62,7 +64,8 @@ class ExtendedMediaFileResource
      * Setter for url
      *
      * @ElementName url
-     * @param string|null $url
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url
      * @return $this
      */
     public function setUrl($url)

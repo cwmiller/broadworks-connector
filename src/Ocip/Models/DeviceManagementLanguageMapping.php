@@ -18,7 +18,8 @@ class DeviceManagementLanguageMapping
 
     /**
      * @ElementName deviceLanguage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceLanguage = null;
 
@@ -50,7 +51,8 @@ class DeviceManagementLanguageMapping
      * Getter for deviceLanguage
      *
      * @ElementName deviceLanguage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeviceLanguage()
     {
@@ -61,7 +63,8 @@ class DeviceManagementLanguageMapping
      * Setter for deviceLanguage
      *
      * @ElementName deviceLanguage
-     * @param string|null $deviceLanguage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceLanguage
      * @return $this
      */
     public function setDeviceLanguage($deviceLanguage)

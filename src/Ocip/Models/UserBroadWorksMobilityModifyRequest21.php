@@ -82,7 +82,8 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName profileIdentityMobilityNumbersAlerted
-     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileIdentityMobilityNumbersAlerted = null;
 
@@ -319,7 +320,8 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * Getter for profileIdentityMobilityNumbersAlerted
      *
      * @ElementName profileIdentityMobilityNumbersAlerted
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProfileIdentityMobilityNumbersAlerted()
     {
@@ -330,7 +332,8 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * Setter for profileIdentityMobilityNumbersAlerted
      *
      * @ElementName profileIdentityMobilityNumbersAlerted
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null $profileIdentityMobilityNumbersAlerted
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil $profileIdentityMobilityNumbersAlerted
      * @return $this
      */
     public function setProfileIdentityMobilityNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $profileIdentityMobilityNumbersAlerted)

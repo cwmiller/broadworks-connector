@@ -458,14 +458,17 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse17;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse17sp3;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp4;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp4V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse17sp4;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp4V2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse17sp4V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse19sp1;
-use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse19;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse19sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1V2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse19sp1V2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19V2;
+use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse19V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceResponse20sp1;
 use CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceUserListRequest;
@@ -984,8 +987,9 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1;
-use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest14sp2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeModifyRequest15;
@@ -1171,8 +1175,9 @@ use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse14sp4
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest16;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse16;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest17sp4;
-use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest17sp4V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4;
+use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest17sp4V2;
+use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse17sp4V2;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest20;
 use CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse20;
 use CWM\BroadWorksConnector\Ocip\Models\UserExecutiveGetFilteringSelectiveCriteriaRequest;
@@ -4137,7 +4142,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupTrunkGroupGetInstanceRequest17sp4V2 $request
-     * @return GroupTrunkGroupGetInstanceResponse17sp4
+     * @return GroupTrunkGroupGetInstanceResponse17sp4V2
      * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetInstanceRequest17sp4V2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest17sp4V2 $request)
@@ -4167,7 +4172,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupTrunkGroupGetInstanceRequest19sp1V2 $request
-     * @return GroupTrunkGroupGetInstanceResponse19sp1
+     * @return GroupTrunkGroupGetInstanceResponse19sp1V2
      * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetInstanceRequest19sp1V2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19sp1V2 $request)
@@ -4177,7 +4182,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param GroupTrunkGroupGetInstanceRequest19V2 $request
-     * @return GroupTrunkGroupGetInstanceResponse19
+     * @return GroupTrunkGroupGetInstanceResponse19V2
      * @throws ErrorResponseException
      */
     public function groupTrunkGroupGetInstanceRequest19V2(\CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetInstanceRequest19V2 $request)
@@ -7387,7 +7392,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param SystemSIPDeviceTypeGetRequest21sp1V2 $request
-     * @return SystemSIPDeviceTypeGetResponse21sp1
+     * @return SystemSIPDeviceTypeGetResponse21sp1V2
      * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest21sp1V2 $request)
@@ -8527,7 +8532,7 @@ trait OCISchemaDeprecated
 
     /**
      * @param UserEnhancedCallLogsGetListRequest17sp4V2 $request
-     * @return UserEnhancedCallLogsGetListResponse17sp4
+     * @return UserEnhancedCallLogsGetListResponse17sp4V2
      * @throws ErrorResponseException
      */
     public function userEnhancedCallLogsGetListRequest17sp4V2(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListRequest17sp4V2 $request)

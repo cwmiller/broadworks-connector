@@ -90,7 +90,8 @@ class GroupCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName supportedMediaSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
 
@@ -464,7 +465,8 @@ class GroupCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector\
      * Getter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupportedMediaSetName()
     {
@@ -475,7 +477,8 @@ class GroupCallProcessingModifyPolicyRequest14 extends \CWM\BroadWorksConnector\
      * Setter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @param string|null $supportedMediaSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportedMediaSetName
      * @return $this
      */
     public function setSupportedMediaSetName($supportedMediaSetName)

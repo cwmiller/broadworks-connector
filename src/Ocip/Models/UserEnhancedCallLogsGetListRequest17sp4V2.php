@@ -26,8 +26,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * XS data mode:
  *           callAuthorizationCodeFilter
  *
- * @see maxNonPagedResponse
- * @see UserEnhancedCallLogsGetListResponse17sp4
+ * @see maxNonPagedResponseS
+ * @see UserEnhancedCallLogsGetListResponse17sp4V2
  * @see ErrorResponse
  */
 class UserEnhancedCallLogsGetListRequest17sp4V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

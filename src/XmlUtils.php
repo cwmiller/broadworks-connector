@@ -2,6 +2,7 @@
 
 namespace CWM\BroadWorksConnector;
 
+use CWM\BroadWorksConnector\Ocip\Nil;
 use DOMDocument;
 use DOMElement;
 use MyCLabs\Enum\Enum;
@@ -17,7 +18,7 @@ class XmlUtils
      * @param string $className
      * @param string $baseNamespace
      * @return object
-     * @throws \InvalidArgumentException
+     * @throws XmlException
      */
     public static function fromXml(DOMElement $element, $className, $baseNamespace)
     {
@@ -26,77 +27,71 @@ class XmlUtils
 
         try {
             $refClass = new ReflectionClass($className);
-        } catch(\ReflectionException $e) {
-            throw new \InvalidArgumentException('Class ' . $className . ' cannot be found.', $e);
-        }
 
-        if ($refClass->isAbstract()) {
-            // If abstract, the XML should have a type attribute denoting the concrete type
-            $className = self::qualifiedClassForType($element, $baseNamespace);
-
-            try {
+            if ($refClass->isAbstract()) {
+                // If abstract, the XML should have a type attribute denoting the concrete type
+                $className = self::qualifiedClassForType($element, $baseNamespace);
                 $refClass = new ReflectionClass($className);
-            } catch (\ReflectionException $e) {
-                throw new \InvalidArgumentException('Class ' . $className . ' cannot be found.', $e);
-            }
-        }
-
-        if (self::isEnum($refClass)) {
-            $docblock = $refClass->getDocComment();
-            preg_match('/@ValueType (.*)/', $docblock, $matches);
-            if (!isset($matches[1])) {
-                throw new RuntimeException('No @ValueType attribute found on enum ' . $refClass->getName());
             }
 
-            $valueType = trim($matches[1]);
-            $nodeValue = $element->nodeValue;
+            if (self::isEnum($refClass)) {
+                $annotations = self::getAnnotations($refClass->getDocComment());
 
-            if ($valueType === 'int') {
-                $nodeValue = (int)$nodeValue;
+                if (!array_key_exists('ValueType', $annotations)) {
+                    throw new RuntimeException('No @ValueType attribute found on enum ' . $refClass->getName());
+                }
+
+                $valueType = $annotations['ValueType'];
+                $nodeValue = $element->nodeValue;
+
+                if ($valueType === 'int') {
+                    $nodeValue = (int)$nodeValue;
+                }
+
+                $instance = new $className($nodeValue);
+            } else {
+                $instance = new $className();
             }
 
-            $instance = new $className($nodeValue);
-        } else {
-            $instance = new $className();
-        }
+            $childElements = $element->childNodes;
+            for ($i = 0; $i < $childElements->length; $i++) {
+                $childElement = $childElements->item($i);
 
-        $childElements = $element->childNodes;
-        for ($i = 0; $i < $childElements->length; $i++) {
-            $childElement = $childElements->item($i);
+                // First try to set the element by seeing if there's an add function (in case it's an array)
+                // If not, try set
+                $setterName = 'add' . ucwords($childElement->localName);
 
-            // First try to set the element by seeing if there's an add function (in case it's an array)
-            // If not, try set
-            $setterName = 'add' . ucwords($childElement->localName);
+                if (!$refClass->hasMethod($setterName)) {
+                    $setterName = 'set' . ucwords($childElement->localName);
+                }
 
-            if (!$refClass->hasMethod($setterName)) {
-                $setterName = 'set' . ucwords($childElement->localName);
-            }
+                if ($refClass->hasMethod($setterName)) {
+                    $setter = $refClass->getMethod($setterName);
+                    $annotations = self::getAnnotations($setter->getDocComment());
 
-            if ($refClass->hasMethod($setterName)) {
-                $setter = $refClass->getMethod($setterName);
-                $docblock = $setter->getDocComment();
-                preg_match('/@param (.*) \$/', $docblock, $matches);
-                if (isset($matches[1])) {
-                    $types = array_filter(explode('|', $matches[1]), function ($type) {
-                        return $type !== 'null';
-                    });
+                    var_dump($annotations);
 
-                    if (count($types) > 0) {
-                        $type = array_pop($types);
-                        if (self::isScalar($type)) {
-                            switch ($type) {
-                                case 'int':
-                                    $nodeValue = (int)$childElement->nodeValue;
-                                    break;
-                                case 'bool':
-                                    $nodeValue = $childElement->nodeValue === 'true';
-                                    break;
-                                case 'float':
-                                    $nodeValue = (float)$childElement->nodeValue;
-                                    break;
-                                default:
-                                    $nodeValue = (string)$childElement->nodeValue;
-                            }
+                    if (array_key_exists('param', $annotations)) {
+                        $types = array_filter(explode('|', $annotations['param']), function ($type) {
+                            return $type !== 'null';
+                        });
+
+                        if (count($types) > 0) {
+                            $type = array_pop($types);
+                            if (self::isScalar($type)) {
+                                switch ($type) {
+                                    case 'int':
+                                        $nodeValue = (int)$childElement->nodeValue;
+                                        break;
+                                    case 'bool':
+                                        $nodeValue = $childElement->nodeValue === 'true';
+                                        break;
+                                    case 'float':
+                                        $nodeValue = (float)$childElement->nodeValue;
+                                        break;
+                                    default:
+                                        $nodeValue = (string)$childElement->nodeValue;
+                                }
 
                             $setter->invoke($instance, $nodeValue);
                         } else {
@@ -107,7 +102,10 @@ class XmlUtils
             }
         }
 
-        return $instance;
+            return $instance;
+        } catch(\ReflectionException $e) {
+            throw new XmlException('Unable to serialize XML element', $e);
+        }
     }
 
     /**
@@ -117,64 +115,57 @@ class XmlUtils
      */
     public static function toXml($obj, DOMElement $element, DOMDocument $document)
     {
-        $refClass = null;
-
         try {
-            $refClass = new ReflectionClass($obj);
-        } catch (\ReflectionException $e) {
-            throw new \RuntimeException('Object ' . get_class($obj) . ' cannot be reflected.', $e);
-        }
+            $ref = new ReflectionClass($obj);
 
-        // If the object is a descendant of an abstract class, then a type attribute must be included
-        if (self::extendsAbstract($refClass)) {
-            $element->setAttribute('xsi:type', $refClass->getShortName());
-        }
+            if (self::extendsAbstract($ref)) {
+                $element->setAttribute('xsi:type', $ref->getShortName());
+            }
 
-        // Each getter method corresponds to an XML element
-        foreach ($refClass->getMethods() as $method) {
-            $methodName = $method->getName();
-            if (strpos($methodName, 'get') === 0) {
-                // The name of the XML element is determined by the @ElementName annotation
-                $docblock = $method->getDocComment();
-                preg_match('/@ElementName (.*)/', $docblock, $matches);
-                if (isset($matches[1])) {
-                    $propertyName = trim($matches[1]);
-                    $value = $method->invoke($obj);
+            foreach ($ref->getMethods() as $method) {
+                $methodName = $method->getName();
+                if (strpos($methodName, 'get') === 0) {
+                    $annotations = self::getAnnotations($method->getDocComment());
 
-                    // Omit null values from the XML
-                    if ($value !== null) {
-                        if (!is_array($value)) {
-                            $values = array($value);
-                        } else {
-                            $values = $value;
-                        }
+                    if (array_key_exists('ElementName', $annotations)) {
+                        $propertyName = $annotations['ElementName'];
+                        $value = $method->invoke($obj);
 
-                        foreach ($values as $value) {
-                            $child = $document->createElement($propertyName);
-
-                            // The value can either be a primitive or an Enum, in which case we just set the text element.
-                            // If the value is neither of those, then it's an object that needs serialized.
-                            if (is_object($value)) {
-                                if ($value instanceof Enum) {
-                                    $child->appendChild($document->createTextNode($value->getValue()));
-                                } else {
-                                    self::toXml($value, $child, $document);
-                                }
+                        // Omit null values from the XML
+                        if ($value !== null) {
+                            if (!is_array($value)) {
+                                $values = array($value);
                             } else {
-                                if (is_bool($value)) {
-                                    $value = $value === true ? 'true' : 'false';
-                                } else {
-                                    $value = (string)$value;
-                                }
-
-                                $child->appendChild($document->createTextNode($value));
+                                $values = $value;
                             }
 
-                            $element->appendChild($child);
+                            foreach ($values as $value) {
+                                $child = $document->createElement($propertyName);
+
+                                if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
+                                    $child->setAttribute('xsi:nil', 'true');
+                                } else if ($value instanceof Enum) {
+                                    $child->appendChild($document->createTextNode($value->getValue()));
+                                } else if (is_object($value)) {
+                                    self::toXml($value, $child, $document);
+                                } else {
+                                    if (is_bool($value)) {
+                                        $value = $value === true ? 'true' : 'false';
+                                    } else {
+                                        $value = (string)$value;
+                                    }
+
+                                    $child->appendChild($document->createTextNode($value));
+                                }
+
+                                $element->appendChild($child);
+                            }
                         }
                     }
                 }
             }
+        } catch(\ReflectionException $e) {
+            throw new XmlException('Unable to convert to XML', $e);
         }
     }
 
@@ -194,6 +185,26 @@ class XmlUtils
         }
 
         return rtrim($baseNamespace . $namespace, '\\') . '\\' . ucwords($name);
+    }
+
+    /**
+     * @param string $docblock
+     * @return array
+     */
+    private static function getAnnotations($docblock)
+    {
+        $annotations = [];
+
+        preg_match_all('/@([a-z]+)( .*)*/i', $docblock, $matches);
+
+        if (isset($matches[1])) {
+            foreach ($matches[1] as $idx => $tag) {
+                $value = trim($matches[2][$idx]);
+                $annotations[$tag] = $value;
+            }
+        }
+
+        return $annotations;
     }
 
     /**

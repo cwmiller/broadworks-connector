@@ -70,7 +70,8 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName collaborateFromAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateFromAddress = null;
 
@@ -294,7 +295,8 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * Getter for collaborateFromAddress
      *
      * @ElementName collaborateFromAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCollaborateFromAddress()
     {
@@ -305,7 +307,8 @@ class SystemCollaborateModifyRequest20sp1V2 extends \CWM\BroadWorksConnector\Oci
      * Setter for collaborateFromAddress
      *
      * @ElementName collaborateFromAddress
-     * @param string|null $collaborateFromAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $collaborateFromAddress
      * @return $this
      */
     public function setCollaborateFromAddress($collaborateFromAddress)

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         
  *         Replaced by LoginRequest22V2 in AS data mode.
  *
- * @see LoginRequest22
+ * @see LoginRequest22V2
  */
 class LoginRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

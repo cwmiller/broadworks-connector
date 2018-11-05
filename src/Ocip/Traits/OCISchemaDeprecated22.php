@@ -28,9 +28,11 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemGetRegistrationContactListResponse
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest22;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeAddRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22;
-use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V3;
+use CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetResponse22V3;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemTrunkGroupGetResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\UserBroadWorksMobilityGetRequest21;
@@ -212,7 +214,7 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22V2 $request
-     * @return SystemSIPDeviceTypeGetResponse22
+     * @return SystemSIPDeviceTypeGetResponse22V2
      * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V2 $request)
@@ -222,7 +224,7 @@ trait OCISchemaDeprecated22
 
     /**
      * @param SystemSIPDeviceTypeGetRequest22V3 $request
-     * @return SystemSIPDeviceTypeGetResponse22
+     * @return SystemSIPDeviceTypeGetResponse22V3
      * @throws ErrorResponseException
      */
     public function systemSIPDeviceTypeGetRequest22V3(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPDeviceTypeGetRequest22V3 $request)

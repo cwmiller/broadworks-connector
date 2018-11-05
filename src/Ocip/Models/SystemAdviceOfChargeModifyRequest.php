@@ -31,7 +31,8 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName costInformationSource
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $costInformationSource = null;
 
@@ -87,7 +88,8 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for costInformationSource
      *
      * @ElementName costInformationSource
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCostInformationSource()
     {
@@ -98,7 +100,8 @@ class SystemAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for costInformationSource
      *
      * @ElementName costInformationSource
-     * @param string|null $costInformationSource
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $costInformationSource
      * @return $this
      */
     public function setCostInformationSource($costInformationSource)

@@ -216,7 +216,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInServiceProviderResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInSystemRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetListInSystemResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\GroupGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\GroupGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetUserServiceAssignedUserListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupGetUserServiceAssignedUserListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupIMRNAssignListRequest;
@@ -301,7 +301,7 @@ use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupDeleteL
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetListRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetListResponse;
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequest21sp1V2;
-use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetResponse21sp1;
+use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetResponse21sp1V2;
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\C\SuccessResponse;
@@ -1824,7 +1824,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupGetRequest22V2 $request
-     * @return GroupGetResponse22
+     * @return GroupGetResponse22V2
      * @throws ErrorResponseException
      */
     public function groupGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\GroupGetRequest22V2 $request)
@@ -2404,7 +2404,7 @@ trait OCISchemaGroup
 
     /**
      * @param GroupSessionAdmissionControlGroupGetRequest21sp1V2 $request
-     * @return GroupSessionAdmissionControlGroupGetResponse21sp1
+     * @return GroupSessionAdmissionControlGroupGetResponse21sp1V2
      * @throws ErrorResponseException
      */
     public function groupSessionAdmissionControlGroupGetRequest21sp1V2(\CWM\BroadWorksConnector\Ocip\Models\GroupSessionAdmissionControlGroupGetRequest21sp1V2 $request)

@@ -28,13 +28,15 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName holidaySchedule
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -120,7 +122,8 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -131,7 +134,8 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param string|null $holidaySchedule
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -144,7 +148,8 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -155,7 +160,8 @@ class GroupCallCenterHolidayServiceModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

@@ -47,13 +47,15 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName maxIncomingActiveCallsAllowed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxIncomingActiveCallsAllowed = null;
 
     /**
      * @ElementName maxOutgoingActiveCallsAllowed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxOutgoingActiveCallsAllowed = null;
 
@@ -65,7 +67,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName userIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;
 
@@ -193,7 +196,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * Getter for maxIncomingActiveCallsAllowed
      *
      * @ElementName maxIncomingActiveCallsAllowed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxIncomingActiveCallsAllowed()
     {
@@ -204,7 +208,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * Setter for maxIncomingActiveCallsAllowed
      *
      * @ElementName maxIncomingActiveCallsAllowed
-     * @param int|null $maxIncomingActiveCallsAllowed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxIncomingActiveCallsAllowed
      * @return $this
      */
     public function setMaxIncomingActiveCallsAllowed($maxIncomingActiveCallsAllowed)
@@ -217,7 +222,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * Getter for maxOutgoingActiveCallsAllowed
      *
      * @ElementName maxOutgoingActiveCallsAllowed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxOutgoingActiveCallsAllowed()
     {
@@ -228,7 +234,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * Setter for maxOutgoingActiveCallsAllowed
      *
      * @ElementName maxOutgoingActiveCallsAllowed
-     * @param int|null $maxOutgoingActiveCallsAllowed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxOutgoingActiveCallsAllowed
      * @return $this
      */
     public function setMaxOutgoingActiveCallsAllowed($maxOutgoingActiveCallsAllowed)
@@ -265,7 +272,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * Getter for userIdList
      *
      * @ElementName userIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserIdList()
     {
@@ -276,7 +284,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * Setter for userIdList
      *
      * @ElementName userIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $userIdList
      * @return $this
      */
     public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)

@@ -22,6 +22,7 @@
     "require": {
         "php": ">=5.4.0",
         "ext-soap": "*",
+        "ext-socket": "*",
         "ext-xml": "*",
         "ext-dom": "*",
         "myclabs/php-enum": "^1.6"

@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following element values are only applicable in AS data mode:
  *           holdNormalization=useRfc3264Hold
  *
- * @see SystemSIPDeviceTypeGetRequest18sp1
+ * @see SystemSIPDeviceTypeGetRequest18sp1V2
  */
 class SystemSIPDeviceTypeGetResponse18sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

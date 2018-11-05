@@ -13,19 +13,22 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
 
     /**
      * @ElementName name
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;
 
     /**
      * @ElementName audioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $videoFile = null;
 
@@ -33,7 +36,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * Getter for name
      *
      * @ElementName name
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getName()
     {
@@ -44,7 +48,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * Setter for name
      *
      * @ElementName name
-     * @param string|null $name
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $name
      * @return $this
      */
     public function setName($name)
@@ -57,7 +62,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * Getter for audioFile
      *
      * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAudioFile()
     {
@@ -68,7 +74,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * Setter for audioFile
      *
      * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $audioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $audioFile)
@@ -81,7 +88,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * Getter for videoFile
      *
      * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVideoFile()
     {
@@ -92,7 +100,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify20
      * Setter for videoFile
      *
      * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $videoFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $videoFile)

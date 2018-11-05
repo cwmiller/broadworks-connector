@@ -28,7 +28,8 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName businessHours
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
 
@@ -40,7 +41,8 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -180,7 +182,8 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for businessHours
      *
      * @ElementName businessHours
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBusinessHours()
     {
@@ -191,7 +194,8 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for businessHours
      *
      * @ElementName businessHours
-     * @param string|null $businessHours
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $businessHours
      * @return $this
      */
     public function setBusinessHours($businessHours)
@@ -228,7 +232,8 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -239,7 +244,8 @@ class GroupRoutePointNightServiceModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

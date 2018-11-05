@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Deprecated by SystemSIPDeviceTypeGetRequet22V4 in AS data mode.
  *
  * @see SystemDeviceTypeGetRequest
- * @see SystemSIPDeviceTypeGetResponse22
+ * @see SystemSIPDeviceTypeGetResponse22V3
  * @see ErrorResponse
  */
 class SystemSIPDeviceTypeGetRequest22V3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

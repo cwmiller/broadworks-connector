@@ -22,7 +22,8 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName homeZoneName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $homeZoneName = null;
 
@@ -54,7 +55,8 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for homeZoneName
      *
      * @ElementName homeZoneName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHomeZoneName()
     {
@@ -65,7 +67,8 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for homeZoneName
      *
      * @ElementName homeZoneName
-     * @param string|null $homeZoneName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $homeZoneName
      * @return $this
      */
     public function setHomeZoneName($homeZoneName)

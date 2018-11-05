@@ -10,9 +10,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     
  *     Replaced by UserGetRequest22V3
  *
- * @see UserGetResponse22
+ * @see UserGetResponse22V2
  * @see ErrorResponse
- * @see UserGetRequest22
+ * @see UserGetRequest22V3
  */
 class UserGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

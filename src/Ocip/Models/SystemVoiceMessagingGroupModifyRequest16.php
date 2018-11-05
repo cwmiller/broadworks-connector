@@ -87,7 +87,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName mailServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mailServerNetAddress = null;
 
@@ -147,7 +148,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName defaultExternalRoutingAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultExternalRoutingAddress = null;
 
@@ -183,7 +185,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName vmBucketName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $vmBucketName = null;
 
@@ -359,7 +362,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for mailServerNetAddress
      *
      * @ElementName mailServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMailServerNetAddress()
     {
@@ -370,7 +374,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for mailServerNetAddress
      *
      * @ElementName mailServerNetAddress
-     * @param string|null $mailServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mailServerNetAddress
      * @return $this
      */
     public function setMailServerNetAddress($mailServerNetAddress)
@@ -599,7 +604,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for defaultExternalRoutingAddress
      *
      * @ElementName defaultExternalRoutingAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDefaultExternalRoutingAddress()
     {
@@ -610,7 +616,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for defaultExternalRoutingAddress
      *
      * @ElementName defaultExternalRoutingAddress
-     * @param string|null $defaultExternalRoutingAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultExternalRoutingAddress
      * @return $this
      */
     public function setDefaultExternalRoutingAddress($defaultExternalRoutingAddress)
@@ -743,7 +750,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Getter for vmBucketName
      *
      * @ElementName vmBucketName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVmBucketName()
     {
@@ -754,7 +762,8 @@ class SystemVoiceMessagingGroupModifyRequest16 extends \CWM\BroadWorksConnector\
      * Setter for vmBucketName
      *
      * @ElementName vmBucketName
-     * @param string|null $vmBucketName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $vmBucketName
      * @return $this
      */
     public function setVmBucketName($vmBucketName)

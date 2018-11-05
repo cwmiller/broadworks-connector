@@ -24,19 +24,22 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName firstName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
 
     /**
      * @ElementName password
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
 
@@ -74,7 +77,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for firstName
      *
      * @ElementName firstName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFirstName()
     {
@@ -85,7 +89,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for firstName
      *
      * @ElementName firstName
-     * @param string|null $firstName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -98,7 +103,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for lastName
      *
      * @ElementName lastName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLastName()
     {
@@ -109,7 +115,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for lastName
      *
      * @ElementName lastName
-     * @param string|null $lastName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -122,7 +129,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Getter for password
      *
      * @ElementName password
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPassword()
     {
@@ -133,7 +141,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * Setter for password
      *
      * @ElementName password
-     * @param string|null $password
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $password
      * @return $this
      */
     public function setPassword($password)

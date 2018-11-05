@@ -22,7 +22,8 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -34,25 +35,29 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName audioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $videoFile = null;
 
     /**
      * @ElementName submenuId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $submenuId = null;
 
@@ -60,7 +65,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -71,7 +77,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -108,7 +115,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -119,7 +127,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -132,7 +141,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Getter for audioFile
      *
      * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAudioFile()
     {
@@ -143,7 +153,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Setter for audioFile
      *
      * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
@@ -156,7 +167,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Getter for videoFile
      *
      * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVideoFile()
     {
@@ -167,7 +179,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Setter for videoFile
      *
      * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
@@ -180,7 +193,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Getter for submenuId
      *
      * @ElementName submenuId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSubmenuId()
     {
@@ -191,7 +205,8 @@ class AutoAttendantKeyConfigurationModifyEntry
      * Setter for submenuId
      *
      * @ElementName submenuId
-     * @param string|null $submenuId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $submenuId
      * @return $this
      */
     public function setSubmenuId($submenuId)

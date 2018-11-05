@@ -40,7 +40,8 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName entryList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $entryList = null;
 
@@ -144,7 +145,8 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
      * Getter for entryList
      *
      * @ElementName entryList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEntryList()
     {
@@ -155,7 +157,8 @@ class GroupCustomContactDirectoryModifyRequest17 extends \CWM\BroadWorksConnecto
      * Setter for entryList
      *
      * @ElementName entryList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null $entryList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList|null|\CWM\BroadWorksConnector\Ocip\Nil $entryList
      * @return $this
      */
     public function setEntryList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCustomContactDirectoryEntryList $entryList)

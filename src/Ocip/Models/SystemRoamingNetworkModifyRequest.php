@@ -22,7 +22,8 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName networkTranslationIndex
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTranslationIndex = null;
 
@@ -54,7 +55,8 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for networkTranslationIndex
      *
      * @ElementName networkTranslationIndex
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkTranslationIndex()
     {
@@ -65,7 +67,8 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for networkTranslationIndex
      *
      * @ElementName networkTranslationIndex
-     * @param string|null $networkTranslationIndex
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkTranslationIndex
      * @return $this
      */
     public function setNetworkTranslationIndex($networkTranslationIndex)

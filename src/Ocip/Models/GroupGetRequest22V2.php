@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get the profile for a group.
  *         The response is either a GroupGetResponse22V2 or an ErrorResponse.
  *
- * @see GroupGetResponse22
+ * @see GroupGetResponse22V2
  * @see ErrorResponse
  */
 class GroupGetRequest22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

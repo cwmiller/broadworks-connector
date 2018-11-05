@@ -28,7 +28,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName destinationPhoneNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $destinationPhoneNumberList = null;
 
@@ -40,7 +41,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName answerTimeoutMinutes
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $answerTimeoutMinutes = null;
 
@@ -102,7 +104,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * Getter for destinationPhoneNumberList
      *
      * @ElementName destinationPhoneNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDestinationPhoneNumberList()
     {
@@ -113,7 +116,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * Setter for destinationPhoneNumberList
      *
      * @ElementName destinationPhoneNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $destinationPhoneNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil $destinationPhoneNumberList
      * @return $this
      */
     public function setDestinationPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $destinationPhoneNumberList)
@@ -150,7 +154,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * Getter for answerTimeoutMinutes
      *
      * @ElementName answerTimeoutMinutes
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAnswerTimeoutMinutes()
     {
@@ -161,7 +166,8 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
      * Setter for answerTimeoutMinutes
      *
      * @ElementName answerTimeoutMinutes
-     * @param int|null $answerTimeoutMinutes
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $answerTimeoutMinutes
      * @return $this
      */
     public function setAnswerTimeoutMinutes($answerTimeoutMinutes)

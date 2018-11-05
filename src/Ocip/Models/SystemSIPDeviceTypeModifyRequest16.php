@@ -78,7 +78,8 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName webBasedConfigURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webBasedConfigURL = null;
 
@@ -386,7 +387,8 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebBasedConfigURL()
     {
@@ -397,7 +399,8 @@ class SystemSIPDeviceTypeModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @param string|null $webBasedConfigURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webBasedConfigURL
      * @return $this
      */
     public function setWebBasedConfigURL($webBasedConfigURL)

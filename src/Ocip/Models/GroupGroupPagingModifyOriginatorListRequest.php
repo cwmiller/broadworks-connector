@@ -22,7 +22,8 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName originatorUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatorUserIdList = null;
 
@@ -54,7 +55,8 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
      * Getter for originatorUserIdList
      *
      * @ElementName originatorUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatorUserIdList()
     {
@@ -65,7 +67,8 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
      * Setter for originatorUserIdList
      *
      * @ElementName originatorUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $originatorUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $originatorUserIdList
      * @return $this
      */
     public function setOriginatorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $originatorUserIdList)

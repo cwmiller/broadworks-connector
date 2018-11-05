@@ -28,10 +28,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           
  *         Replaced by: UserEnhancedCallLogsGetListRequest21Sp1V2 in AS data mode
  *
- * @see maxNonPagedResponse
+ * @see maxNonPagedResponseS
  * @see UserEnhancedCallLogsGetListResponse21sp1
  * @see ErrorResponse
- * @see UserEnhancedCallLogsGetListRequest21
+ * @see UserEnhancedCallLogsGetListRequest21Sp1V2
  */
 class UserEnhancedCallLogsGetListRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

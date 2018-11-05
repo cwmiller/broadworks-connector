@@ -25,7 +25,8 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
 
     /**
      * @ElementName name
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;
 
@@ -57,7 +58,8 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
      * Getter for name
      *
      * @ElementName name
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getName()
     {
@@ -68,7 +70,8 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
      * Setter for name
      *
      * @ElementName name
-     * @param string|null $name
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $name
      * @return $this
      */
     public function setName($name)

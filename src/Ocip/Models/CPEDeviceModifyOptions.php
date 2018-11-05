@@ -22,7 +22,8 @@ class CPEDeviceModifyOptions
 
     /**
      * @ElementName resetEvent
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
 
@@ -60,7 +61,8 @@ class CPEDeviceModifyOptions
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getResetEvent()
     {
@@ -71,10 +73,11 @@ class CPEDeviceModifyOptions
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null $resetEvent
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resetEvent
      * @return $this
      */
-    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent)
+    public function setResetEvent($resetEvent)
     {
         $this->resetEvent = $resetEvent;
         return $this;
@@ -98,7 +101,7 @@ class CPEDeviceModifyOptions
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions|null $deviceManagementDeviceTypeOptions
      * @return $this
      */
-    public function setDeviceManagementDeviceTypeOptions(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions $deviceManagementDeviceTypeOptions)
+    public function setDeviceManagementDeviceTypeOptions($deviceManagementDeviceTypeOptions)
     {
         $this->deviceManagementDeviceTypeOptions = $deviceManagementDeviceTypeOptions;
         return $this;

@@ -12,25 +12,29 @@ class CallCenterAnnouncementURLListModify
 
     /**
      * @ElementName url1
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $url1 = null;
 
     /**
      * @ElementName url2
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $url2 = null;
 
     /**
      * @ElementName url3
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $url3 = null;
 
     /**
      * @ElementName url4
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $url4 = null;
 
@@ -38,7 +42,8 @@ class CallCenterAnnouncementURLListModify
      * Getter for url1
      *
      * @ElementName url1
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUrl1()
     {
@@ -49,7 +54,8 @@ class CallCenterAnnouncementURLListModify
      * Setter for url1
      *
      * @ElementName url1
-     * @param string|null $url1
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url1
      * @return $this
      */
     public function setUrl1($url1)
@@ -62,7 +68,8 @@ class CallCenterAnnouncementURLListModify
      * Getter for url2
      *
      * @ElementName url2
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUrl2()
     {
@@ -73,7 +80,8 @@ class CallCenterAnnouncementURLListModify
      * Setter for url2
      *
      * @ElementName url2
-     * @param string|null $url2
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url2
      * @return $this
      */
     public function setUrl2($url2)
@@ -86,7 +94,8 @@ class CallCenterAnnouncementURLListModify
      * Getter for url3
      *
      * @ElementName url3
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUrl3()
     {
@@ -97,7 +106,8 @@ class CallCenterAnnouncementURLListModify
      * Setter for url3
      *
      * @ElementName url3
-     * @param string|null $url3
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url3
      * @return $this
      */
     public function setUrl3($url3)
@@ -110,7 +120,8 @@ class CallCenterAnnouncementURLListModify
      * Getter for url4
      *
      * @ElementName url4
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUrl4()
     {
@@ -121,7 +132,8 @@ class CallCenterAnnouncementURLListModify
      * Setter for url4
      *
      * @ElementName url4
-     * @param string|null $url4
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url4
      * @return $this
      */
     public function setUrl4($url4)

@@ -34,7 +34,8 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName groupServer
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupServer = null;
 
@@ -114,7 +115,8 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
      * Getter for groupServer
      *
      * @ElementName groupServer
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGroupServer()
     {
@@ -125,7 +127,8 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
      * Setter for groupServer
      *
      * @ElementName groupServer
-     * @param string|null $groupServer
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $groupServer
      * @return $this
      */
     public function setGroupServer($groupServer)

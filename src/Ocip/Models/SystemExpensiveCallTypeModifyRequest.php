@@ -23,7 +23,8 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName treatmentAudioFile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentAudioFile = null;
 
@@ -55,7 +56,8 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for treatmentAudioFile
      *
      * @ElementName treatmentAudioFile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTreatmentAudioFile()
     {
@@ -66,7 +68,8 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for treatmentAudioFile
      *
      * @ElementName treatmentAudioFile
-     * @param string|null $treatmentAudioFile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentAudioFile
      * @return $this
      */
     public function setTreatmentAudioFile($treatmentAudioFile)

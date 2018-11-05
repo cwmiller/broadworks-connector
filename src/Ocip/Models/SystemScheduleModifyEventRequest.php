@@ -68,7 +68,8 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName recurrence
-     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recurrence = null;
 
@@ -268,7 +269,8 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for recurrence
      *
      * @ElementName recurrence
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecurrence()
     {
@@ -279,7 +281,8 @@ class SystemScheduleModifyEventRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for recurrence
      *
      * @ElementName recurrence
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null $recurrence
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil $recurrence
      * @return $this
      */
     public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence)

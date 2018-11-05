@@ -22,7 +22,8 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName agentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
 
@@ -66,7 +67,8 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUserIdList()
     {
@@ -77,7 +79,8 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)

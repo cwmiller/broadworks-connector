@@ -37,7 +37,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName server1NetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $server1NetAddress = null;
 
@@ -55,7 +56,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName server2NetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $server2NetAddress = null;
 
@@ -73,7 +75,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName sharedSecret
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sharedSecret = null;
 
@@ -109,13 +112,15 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName eclQueryApplicationURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryApplicationURL = null;
 
     /**
      * @ElementName eclQueryDataRepositoryURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $eclQueryDataRepositoryURL = null;
 
@@ -147,7 +152,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for server1NetAddress
      *
      * @ElementName server1NetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServer1NetAddress()
     {
@@ -158,7 +164,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for server1NetAddress
      *
      * @ElementName server1NetAddress
-     * @param string|null $server1NetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $server1NetAddress
      * @return $this
      */
     public function setServer1NetAddress($server1NetAddress)
@@ -219,7 +226,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for server2NetAddress
      *
      * @ElementName server2NetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServer2NetAddress()
     {
@@ -230,7 +238,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for server2NetAddress
      *
      * @ElementName server2NetAddress
-     * @param string|null $server2NetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $server2NetAddress
      * @return $this
      */
     public function setServer2NetAddress($server2NetAddress)
@@ -291,7 +300,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for sharedSecret
      *
      * @ElementName sharedSecret
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSharedSecret()
     {
@@ -302,7 +312,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for sharedSecret
      *
      * @ElementName sharedSecret
-     * @param string|null $sharedSecret
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sharedSecret
      * @return $this
      */
     public function setSharedSecret($sharedSecret)
@@ -435,7 +446,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for eclQueryApplicationURL
      *
      * @ElementName eclQueryApplicationURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEclQueryApplicationURL()
     {
@@ -446,7 +458,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for eclQueryApplicationURL
      *
      * @ElementName eclQueryApplicationURL
-     * @param string|null $eclQueryApplicationURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $eclQueryApplicationURL
      * @return $this
      */
     public function setEclQueryApplicationURL($eclQueryApplicationURL)
@@ -459,7 +472,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Getter for eclQueryDataRepositoryURL
      *
      * @ElementName eclQueryDataRepositoryURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEclQueryDataRepositoryURL()
     {
@@ -470,7 +484,8 @@ class SystemEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * Setter for eclQueryDataRepositoryURL
      *
      * @ElementName eclQueryDataRepositoryURL
-     * @param string|null $eclQueryDataRepositoryURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $eclQueryDataRepositoryURL
      * @return $this
      */
     public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL)

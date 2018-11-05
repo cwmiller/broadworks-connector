@@ -28,7 +28,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -58,13 +59,15 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
 
     /**
      * @ElementName filterNumber
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterNumber = null;
 
     /**
      * @ElementName filterValue
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterValue = null;
 
@@ -120,7 +123,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -131,7 +135,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -240,7 +245,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * Getter for filterNumber
      *
      * @ElementName filterNumber
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFilterNumber()
     {
@@ -251,7 +257,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * Setter for filterNumber
      *
      * @ElementName filterNumber
-     * @param int|null $filterNumber
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $filterNumber
      * @return $this
      */
     public function setFilterNumber($filterNumber)
@@ -264,7 +271,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * Getter for filterValue
      *
      * @ElementName filterValue
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFilterValue()
     {
@@ -275,7 +283,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * Setter for filterValue
      *
      * @ElementName filterValue
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null $filterValue
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil $filterValue
      * @return $this
      */
     public function setFilterValue(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList $filterValue)

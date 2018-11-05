@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * GroupSessionAdmissionControlGroupGetResponse21sp1V2 or an ErrorResponse.
  *
- * @see GroupSessionAdmissionControlGroupGetResponse21sp1
+ * @see GroupSessionAdmissionControlGroupGetResponse21sp1V2
  * @see ErrorResponse
  */
 class GroupSessionAdmissionControlGroupGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

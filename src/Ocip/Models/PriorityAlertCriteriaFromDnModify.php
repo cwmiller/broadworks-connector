@@ -30,7 +30,8 @@ class PriorityAlertCriteriaFromDnModify
 
     /**
      * @ElementName phoneNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberList = null;
 
@@ -110,7 +111,8 @@ class PriorityAlertCriteriaFromDnModify
      * Getter for phoneNumberList
      *
      * @ElementName phoneNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumberList()
     {
@@ -121,7 +123,8 @@ class PriorityAlertCriteriaFromDnModify
      * Setter for phoneNumberList
      *
      * @ElementName phoneNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null $phoneNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumberList
      * @return $this
      */
     public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList $phoneNumberList)

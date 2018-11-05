@@ -18,7 +18,8 @@ class AutoAttendantKeyModifyConfiguration20
 
     /**
      * @ElementName entry
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $entry = null;
 
@@ -50,7 +51,8 @@ class AutoAttendantKeyModifyConfiguration20
      * Getter for entry
      *
      * @ElementName entry
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEntry()
     {
@@ -61,7 +63,8 @@ class AutoAttendantKeyModifyConfiguration20
      * Setter for entry
      *
      * @ElementName entry
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20|null $entry
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20|null|\CWM\BroadWorksConnector\Ocip\Nil $entry
      * @return $this
      */
     public function setEntry(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry20 $entry)

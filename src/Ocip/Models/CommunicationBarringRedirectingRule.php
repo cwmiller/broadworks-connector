@@ -24,7 +24,8 @@ class CommunicationBarringRedirectingRule
 
     /**
      * @ElementName callTimeoutSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callTimeoutSeconds = null;
 
@@ -80,7 +81,8 @@ class CommunicationBarringRedirectingRule
      * Getter for callTimeoutSeconds
      *
      * @ElementName callTimeoutSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallTimeoutSeconds()
     {
@@ -91,7 +93,8 @@ class CommunicationBarringRedirectingRule
      * Setter for callTimeoutSeconds
      *
      * @ElementName callTimeoutSeconds
-     * @param int|null $callTimeoutSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $callTimeoutSeconds
      * @return $this
      */
     public function setCallTimeoutSeconds($callTimeoutSeconds)

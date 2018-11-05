@@ -28,7 +28,8 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName ipAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $ipAddress = null;
 
@@ -96,7 +97,8 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for ipAddress
      *
      * @ElementName ipAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIpAddress()
     {
@@ -107,7 +109,8 @@ class SystemBwDiameterPeerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for ipAddress
      *
      * @ElementName ipAddress
-     * @param string|null $ipAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $ipAddress
      * @return $this
      */
     public function setIpAddress($ipAddress)

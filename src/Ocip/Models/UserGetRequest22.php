@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserGetResponse22
  * @see ErrorResponse
- * @see UserGetRequest22
+ * @see UserGetRequest22V2
  */
 class UserGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

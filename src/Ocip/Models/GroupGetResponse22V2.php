@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following data elements are only used in AS data mode:
  *           resellerId
  *
- * @see GroupGetRequest22
+ * @see GroupGetRequest22V2
  */
 class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

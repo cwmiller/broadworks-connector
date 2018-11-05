@@ -24,13 +24,15 @@ class CommunicationBarringOriginatingRule15sp2
 
     /**
      * @ElementName treatmentId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentId = null;
 
     /**
      * @ElementName transferNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferNumber = null;
 
@@ -86,7 +88,8 @@ class CommunicationBarringOriginatingRule15sp2
      * Getter for treatmentId
      *
      * @ElementName treatmentId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTreatmentId()
     {
@@ -97,7 +100,8 @@ class CommunicationBarringOriginatingRule15sp2
      * Setter for treatmentId
      *
      * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
@@ -110,7 +114,8 @@ class CommunicationBarringOriginatingRule15sp2
      * Getter for transferNumber
      *
      * @ElementName transferNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferNumber()
     {
@@ -121,7 +126,8 @@ class CommunicationBarringOriginatingRule15sp2
      * Setter for transferNumber
      *
      * @ElementName transferNumber
-     * @param string|null $transferNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferNumber
      * @return $this
      */
     public function setTransferNumber($transferNumber)

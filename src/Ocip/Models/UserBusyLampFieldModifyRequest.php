@@ -22,13 +22,15 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName listURI
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listURI = null;
 
     /**
      * @ElementName monitoredUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $monitoredUserIdList = null;
 
@@ -66,7 +68,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for listURI
      *
      * @ElementName listURI
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListURI()
     {
@@ -77,7 +80,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for listURI
      *
      * @ElementName listURI
-     * @param string|null $listURI
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listURI
      * @return $this
      */
     public function setListURI($listURI)
@@ -90,7 +94,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for monitoredUserIdList
      *
      * @ElementName monitoredUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMonitoredUserIdList()
     {
@@ -101,7 +106,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for monitoredUserIdList
      *
      * @ElementName monitoredUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $monitoredUserIdList
      * @return $this
      */
     public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList)

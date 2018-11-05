@@ -28,25 +28,29 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName timeSchedule
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName matchNumberPortabilityStatus
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchNumberPortabilityStatus = null;
 
@@ -102,7 +106,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -113,7 +118,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -126,7 +132,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -137,7 +144,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param string|null $timeSchedule
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -150,7 +158,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -161,7 +170,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param string|null $holidaySchedule
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -174,7 +184,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Getter for matchNumberPortabilityStatus
      *
      * @ElementName matchNumberPortabilityStatus
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMatchNumberPortabilityStatus()
     {
@@ -185,7 +196,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * Setter for matchNumberPortabilityStatus
      *
      * @ElementName matchNumberPortabilityStatus
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null $matchNumberPortabilityStatus
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchNumberPortabilityStatus
      * @return $this
      */
     public function setMatchNumberPortabilityStatus(\CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList $matchNumberPortabilityStatus)

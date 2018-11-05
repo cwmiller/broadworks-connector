@@ -82,7 +82,8 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName webBasedConfigURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webBasedConfigURL = null;
 
@@ -112,7 +113,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName earlyMediaSupport
-     * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
+     * @var string|null
      */
     private $earlyMediaSupport = null;
 
@@ -130,7 +131,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName authenticationMode
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
+     * @var string|null
      */
     private $authenticationMode = null;
 
@@ -166,7 +167,8 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName resetEvent
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resetEvent = null;
 
@@ -178,7 +180,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName trunkMode
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null
+     * @var string|null
      */
     private $trunkMode = null;
 
@@ -196,7 +198,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName unscreenedPresentationIdentityPolicy
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null
+     * @var string|null
      */
     private $unscreenedPresentationIdentityPolicy = null;
 
@@ -432,7 +434,8 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebBasedConfigURL()
     {
@@ -443,7 +446,8 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for webBasedConfigURL
      *
      * @ElementName webBasedConfigURL
-     * @param string|null $webBasedConfigURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webBasedConfigURL
      * @return $this
      */
     public function setWebBasedConfigURL($webBasedConfigURL)
@@ -542,7 +546,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions16sp1|null $cpeDeviceOptions
      * @return $this
      */
-    public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceModifyOptions16sp1 $cpeDeviceOptions)
+    public function setCpeDeviceOptions($cpeDeviceOptions)
     {
         $this->cpeDeviceOptions = $cpeDeviceOptions;
         return $this;
@@ -552,7 +556,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
+     * @return string|null
      */
     public function getEarlyMediaSupport()
     {
@@ -563,10 +567,10 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for earlyMediaSupport
      *
      * @ElementName earlyMediaSupport
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null $earlyMediaSupport
+     * @param string|null $earlyMediaSupport
      * @return $this
      */
-    public function setEarlyMediaSupport(\CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport)
+    public function setEarlyMediaSupport($earlyMediaSupport)
     {
         $this->earlyMediaSupport = $earlyMediaSupport;
         return $this;
@@ -624,7 +628,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
+     * @return string|null
      */
     public function getAuthenticationMode()
     {
@@ -635,10 +639,10 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for authenticationMode
      *
      * @ElementName authenticationMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null $authenticationMode
+     * @param string|null $authenticationMode
      * @return $this
      */
-    public function setAuthenticationMode(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode $authenticationMode)
+    public function setAuthenticationMode($authenticationMode)
     {
         $this->authenticationMode = $authenticationMode;
         return $this;
@@ -768,7 +772,8 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for resetEvent
      *
      * @ElementName resetEvent
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getResetEvent()
     {
@@ -779,10 +784,11 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for resetEvent
      *
      * @ElementName resetEvent
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent|null $resetEvent
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resetEvent
      * @return $this
      */
-    public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceResetEvent $resetEvent)
+    public function setResetEvent($resetEvent)
     {
         $this->resetEvent = $resetEvent;
         return $this;
@@ -816,7 +822,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for trunkMode
      *
      * @ElementName trunkMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null
+     * @return string|null
      */
     public function getTrunkMode()
     {
@@ -827,10 +833,10 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for trunkMode
      *
      * @ElementName trunkMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkMode|null $trunkMode
+     * @param string|null $trunkMode
      * @return $this
      */
-    public function setTrunkMode(\CWM\BroadWorksConnector\Ocip\Models\TrunkMode $trunkMode)
+    public function setTrunkMode($trunkMode)
     {
         $this->trunkMode = $trunkMode;
         return $this;
@@ -888,7 +894,7 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for unscreenedPresentationIdentityPolicy
      *
      * @ElementName unscreenedPresentationIdentityPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null
+     * @return string|null
      */
     public function getUnscreenedPresentationIdentityPolicy()
     {
@@ -899,10 +905,10 @@ class SystemSIPDeviceTypeModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for unscreenedPresentationIdentityPolicy
      *
      * @ElementName unscreenedPresentationIdentityPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy|null $unscreenedPresentationIdentityPolicy
+     * @param string|null $unscreenedPresentationIdentityPolicy
      * @return $this
      */
-    public function setUnscreenedPresentationIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\UnscreenedPresentationIdentityPolicy $unscreenedPresentationIdentityPolicy)
+    public function setUnscreenedPresentationIdentityPolicy($unscreenedPresentationIdentityPolicy)
     {
         $this->unscreenedPresentationIdentityPolicy = $unscreenedPresentationIdentityPolicy;
         return $this;

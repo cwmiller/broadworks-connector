@@ -12,79 +12,92 @@ class PlayMessagesMenuKeysModifyEntry
 
     /**
      * @ElementName saveMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteMessage = null;
 
     /**
      * @ElementName playMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playMessage = null;
 
     /**
      * @ElementName previousMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $previousMessage = null;
 
     /**
      * @ElementName playEnvelope
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playEnvelope = null;
 
     /**
      * @ElementName nextMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nextMessage = null;
 
     /**
      * @ElementName callbackCaller
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
 
     /**
      * @ElementName replyMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardMessage = null;
 
     /**
      * @ElementName additionalMessageOptions
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $additionalMessageOptions = null;
 
     /**
      * @ElementName personalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
 
     /**
      * @ElementName passcode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
 
@@ -96,7 +109,8 @@ class PlayMessagesMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -104,7 +118,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for saveMessage
      *
      * @ElementName saveMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSaveMessage()
     {
@@ -115,7 +130,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for saveMessage
      *
      * @ElementName saveMessage
-     * @param string|null $saveMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $saveMessage
      * @return $this
      */
     public function setSaveMessage($saveMessage)
@@ -128,7 +144,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for deleteMessage
      *
      * @ElementName deleteMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeleteMessage()
     {
@@ -139,7 +156,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for deleteMessage
      *
      * @ElementName deleteMessage
-     * @param string|null $deleteMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deleteMessage
      * @return $this
      */
     public function setDeleteMessage($deleteMessage)
@@ -152,7 +170,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for playMessage
      *
      * @ElementName playMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPlayMessage()
     {
@@ -163,7 +182,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for playMessage
      *
      * @ElementName playMessage
-     * @param string|null $playMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playMessage
      * @return $this
      */
     public function setPlayMessage($playMessage)
@@ -176,7 +196,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for previousMessage
      *
      * @ElementName previousMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPreviousMessage()
     {
@@ -187,7 +208,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for previousMessage
      *
      * @ElementName previousMessage
-     * @param string|null $previousMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $previousMessage
      * @return $this
      */
     public function setPreviousMessage($previousMessage)
@@ -200,7 +222,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for playEnvelope
      *
      * @ElementName playEnvelope
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPlayEnvelope()
     {
@@ -211,7 +234,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for playEnvelope
      *
      * @ElementName playEnvelope
-     * @param string|null $playEnvelope
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playEnvelope
      * @return $this
      */
     public function setPlayEnvelope($playEnvelope)
@@ -224,7 +248,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for nextMessage
      *
      * @ElementName nextMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNextMessage()
     {
@@ -235,7 +260,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for nextMessage
      *
      * @ElementName nextMessage
-     * @param string|null $nextMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $nextMessage
      * @return $this
      */
     public function setNextMessage($nextMessage)
@@ -248,7 +274,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for callbackCaller
      *
      * @ElementName callbackCaller
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallbackCaller()
     {
@@ -259,7 +286,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for callbackCaller
      *
      * @ElementName callbackCaller
-     * @param string|null $callbackCaller
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callbackCaller
      * @return $this
      */
     public function setCallbackCaller($callbackCaller)
@@ -272,7 +300,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for composeMessage
      *
      * @ElementName composeMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getComposeMessage()
     {
@@ -283,7 +312,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for composeMessage
      *
      * @ElementName composeMessage
-     * @param string|null $composeMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
@@ -296,7 +326,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for replyMessage
      *
      * @ElementName replyMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReplyMessage()
     {
@@ -307,7 +338,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for replyMessage
      *
      * @ElementName replyMessage
-     * @param string|null $replyMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $replyMessage
      * @return $this
      */
     public function setReplyMessage($replyMessage)
@@ -320,7 +352,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for forwardMessage
      *
      * @ElementName forwardMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForwardMessage()
     {
@@ -331,7 +364,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for forwardMessage
      *
      * @ElementName forwardMessage
-     * @param string|null $forwardMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardMessage
      * @return $this
      */
     public function setForwardMessage($forwardMessage)
@@ -344,7 +378,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for additionalMessageOptions
      *
      * @ElementName additionalMessageOptions
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAdditionalMessageOptions()
     {
@@ -355,7 +390,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for additionalMessageOptions
      *
      * @ElementName additionalMessageOptions
-     * @param string|null $additionalMessageOptions
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $additionalMessageOptions
      * @return $this
      */
     public function setAdditionalMessageOptions($additionalMessageOptions)
@@ -368,7 +404,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for personalizedName
      *
      * @ElementName personalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedName()
     {
@@ -379,7 +416,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for personalizedName
      *
      * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -392,7 +430,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for passcode
      *
      * @ElementName passcode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPasscode()
     {
@@ -403,7 +442,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for passcode
      *
      * @ElementName passcode
-     * @param string|null $passcode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -440,7 +480,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -451,7 +492,8 @@ class PlayMessagesMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

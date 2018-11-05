@@ -25,19 +25,22 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName firstName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
 
     /**
      * @ElementName password
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
 
@@ -75,7 +78,8 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for firstName
      *
      * @ElementName firstName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFirstName()
     {
@@ -86,7 +90,8 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for firstName
      *
      * @ElementName firstName
-     * @param string|null $firstName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -99,7 +104,8 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for lastName
      *
      * @ElementName lastName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLastName()
     {
@@ -110,7 +116,8 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for lastName
      *
      * @ElementName lastName
-     * @param string|null $lastName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -123,7 +130,8 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Getter for password
      *
      * @ElementName password
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPassword()
     {
@@ -134,7 +142,8 @@ class GroupAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
      * Setter for password
      *
      * @ElementName password
-     * @param string|null $password
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $password
      * @return $this
      */
     public function setPassword($password)

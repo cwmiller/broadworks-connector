@@ -34,49 +34,57 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName netAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $netAddress = null;
 
     /**
      * @ElementName port
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macAddress = null;
 
     /**
      * @ElementName serialNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serialNumber = null;
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName physicalLocation
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;
 
@@ -106,13 +114,15 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilityManagerDefaultOriginatingServiceKey = null;
 
     /**
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilityManagerDefaultTerminatingServiceKey = null;
 
@@ -124,7 +134,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName accessDeviceCredentials
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;
 
@@ -204,7 +215,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for netAddress
      *
      * @ElementName netAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetAddress()
     {
@@ -215,7 +227,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for netAddress
      *
      * @ElementName netAddress
-     * @param string|null $netAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -228,7 +241,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for port
      *
      * @ElementName port
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPort()
     {
@@ -239,7 +253,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for port
      *
      * @ElementName port
-     * @param int|null $port
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
      * @return $this
      */
     public function setPort($port)
@@ -252,7 +267,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for outboundProxyServerNetAddress
      *
      * @ElementName outboundProxyServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutboundProxyServerNetAddress()
     {
@@ -263,7 +279,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for outboundProxyServerNetAddress
      *
      * @ElementName outboundProxyServerNetAddress
-     * @param string|null $outboundProxyServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $outboundProxyServerNetAddress
      * @return $this
      */
     public function setOutboundProxyServerNetAddress($outboundProxyServerNetAddress)
@@ -276,7 +293,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for stunServerNetAddress
      *
      * @ElementName stunServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getStunServerNetAddress()
     {
@@ -287,7 +305,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for stunServerNetAddress
      *
      * @ElementName stunServerNetAddress
-     * @param string|null $stunServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $stunServerNetAddress
      * @return $this
      */
     public function setStunServerNetAddress($stunServerNetAddress)
@@ -300,7 +319,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for macAddress
      *
      * @ElementName macAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMacAddress()
     {
@@ -311,7 +331,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for macAddress
      *
      * @ElementName macAddress
-     * @param string|null $macAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $macAddress
      * @return $this
      */
     public function setMacAddress($macAddress)
@@ -324,7 +345,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for serialNumber
      *
      * @ElementName serialNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSerialNumber()
     {
@@ -335,7 +357,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for serialNumber
      *
      * @ElementName serialNumber
-     * @param string|null $serialNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serialNumber
      * @return $this
      */
     public function setSerialNumber($serialNumber)
@@ -348,7 +371,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -359,7 +383,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -372,7 +397,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhysicalLocation()
     {
@@ -383,7 +409,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
@@ -492,7 +519,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for mobilityManagerDefaultOriginatingServiceKey
      *
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobilityManagerDefaultOriginatingServiceKey()
     {
@@ -503,7 +531,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for mobilityManagerDefaultOriginatingServiceKey
      *
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @param int|null $mobilityManagerDefaultOriginatingServiceKey
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilityManagerDefaultOriginatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultOriginatingServiceKey($mobilityManagerDefaultOriginatingServiceKey)
@@ -516,7 +545,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for mobilityManagerDefaultTerminatingServiceKey
      *
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobilityManagerDefaultTerminatingServiceKey()
     {
@@ -527,7 +557,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for mobilityManagerDefaultTerminatingServiceKey
      *
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @param int|null $mobilityManagerDefaultTerminatingServiceKey
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilityManagerDefaultTerminatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultTerminatingServiceKey($mobilityManagerDefaultTerminatingServiceKey)
@@ -564,7 +595,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Getter for accessDeviceCredentials
      *
      * @ElementName accessDeviceCredentials
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceCredentials()
     {
@@ -575,7 +607,8 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
      * Setter for accessDeviceCredentials
      *
      * @ElementName accessDeviceCredentials
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceCredentials
      * @return $this
      */
     public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)

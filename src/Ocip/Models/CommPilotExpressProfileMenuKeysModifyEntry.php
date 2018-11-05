@@ -12,31 +12,36 @@ class CommPilotExpressProfileMenuKeysModifyEntry
 
     /**
      * @ElementName activateAvailableInOfficeProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableInOfficeProfile = null;
 
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableOutOfOfficeProfile = null;
 
     /**
      * @ElementName activateBusyProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateBusyProfile = null;
 
     /**
      * @ElementName activateUnavailableProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateUnavailableProfile = null;
 
     /**
      * @ElementName noProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noProfile = null;
 
@@ -48,7 +53,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -56,7 +62,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Getter for activateAvailableInOfficeProfile
      *
      * @ElementName activateAvailableInOfficeProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateAvailableInOfficeProfile()
     {
@@ -67,7 +74,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Setter for activateAvailableInOfficeProfile
      *
      * @ElementName activateAvailableInOfficeProfile
-     * @param string|null $activateAvailableInOfficeProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateAvailableInOfficeProfile
      * @return $this
      */
     public function setActivateAvailableInOfficeProfile($activateAvailableInOfficeProfile)
@@ -80,7 +88,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Getter for activateAvailableOutOfOfficeProfile
      *
      * @ElementName activateAvailableOutOfOfficeProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateAvailableOutOfOfficeProfile()
     {
@@ -91,7 +100,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Setter for activateAvailableOutOfOfficeProfile
      *
      * @ElementName activateAvailableOutOfOfficeProfile
-     * @param string|null $activateAvailableOutOfOfficeProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateAvailableOutOfOfficeProfile
      * @return $this
      */
     public function setActivateAvailableOutOfOfficeProfile($activateAvailableOutOfOfficeProfile)
@@ -104,7 +114,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Getter for activateBusyProfile
      *
      * @ElementName activateBusyProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateBusyProfile()
     {
@@ -115,7 +126,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Setter for activateBusyProfile
      *
      * @ElementName activateBusyProfile
-     * @param string|null $activateBusyProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateBusyProfile
      * @return $this
      */
     public function setActivateBusyProfile($activateBusyProfile)
@@ -128,7 +140,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Getter for activateUnavailableProfile
      *
      * @ElementName activateUnavailableProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateUnavailableProfile()
     {
@@ -139,7 +152,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Setter for activateUnavailableProfile
      *
      * @ElementName activateUnavailableProfile
-     * @param string|null $activateUnavailableProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateUnavailableProfile
      * @return $this
      */
     public function setActivateUnavailableProfile($activateUnavailableProfile)
@@ -152,7 +166,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Getter for noProfile
      *
      * @ElementName noProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNoProfile()
     {
@@ -163,7 +178,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Setter for noProfile
      *
      * @ElementName noProfile
-     * @param string|null $noProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $noProfile
      * @return $this
      */
     public function setNoProfile($noProfile)
@@ -200,7 +216,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -211,7 +228,8 @@ class CommPilotExpressProfileMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

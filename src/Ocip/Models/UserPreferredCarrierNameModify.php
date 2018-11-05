@@ -21,7 +21,8 @@ class UserPreferredCarrierNameModify
 
     /**
      * @ElementName carrier
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $carrier = null;
 
@@ -53,7 +54,8 @@ class UserPreferredCarrierNameModify
      * Getter for carrier
      *
      * @ElementName carrier
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCarrier()
     {
@@ -64,7 +66,8 @@ class UserPreferredCarrierNameModify
      * Setter for carrier
      *
      * @ElementName carrier
-     * @param string|null $carrier
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $carrier
      * @return $this
      */
     public function setCarrier($carrier)

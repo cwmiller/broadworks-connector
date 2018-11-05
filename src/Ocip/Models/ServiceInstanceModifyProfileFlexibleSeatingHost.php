@@ -42,13 +42,15 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
 
@@ -60,7 +62,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
 
     /**
      * @ElementName department
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
 
@@ -78,7 +81,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
 
     /**
      * @ElementName callingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
 
@@ -206,7 +210,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -217,7 +222,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -230,7 +236,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Getter for extension
      *
      * @ElementName extension
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtension()
     {
@@ -241,7 +248,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Setter for extension
      *
      * @ElementName extension
-     * @param string|null $extension
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -278,7 +286,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Getter for department
      *
      * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDepartment()
     {
@@ -289,7 +298,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Setter for department
      *
      * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
@@ -350,7 +360,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Getter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdPhoneNumber()
     {
@@ -361,7 +372,8 @@ class ServiceInstanceModifyProfileFlexibleSeatingHost
      * Setter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)

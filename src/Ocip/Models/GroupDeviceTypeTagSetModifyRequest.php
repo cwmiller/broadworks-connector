@@ -34,7 +34,8 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName tagSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSetName = null;
 
@@ -114,7 +115,8 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for tagSetName
      *
      * @ElementName tagSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTagSetName()
     {
@@ -125,7 +127,8 @@ class GroupDeviceTypeTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for tagSetName
      *
      * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)

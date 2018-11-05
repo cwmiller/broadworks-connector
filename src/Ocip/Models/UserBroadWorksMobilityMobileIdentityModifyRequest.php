@@ -43,7 +43,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
@@ -145,7 +146,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName mobileNumbersAlerted
-     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobileNumbersAlerted = null;
 
@@ -157,25 +159,29 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName accessDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName outboundAlternateNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outboundAlternateNumber = null;
 
@@ -243,7 +249,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -254,7 +261,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -651,7 +659,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Getter for mobileNumbersAlerted
      *
      * @ElementName mobileNumbersAlerted
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobileNumbersAlerted()
     {
@@ -662,7 +671,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Setter for mobileNumbersAlerted
      *
      * @ElementName mobileNumbersAlerted
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null $mobileNumbersAlerted
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil $mobileNumbersAlerted
      * @return $this
      */
     public function setMobileNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $mobileNumbersAlerted)
@@ -699,7 +709,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -710,7 +721,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $timeSchedule)
@@ -723,7 +735,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -734,7 +747,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $holidaySchedule)
@@ -747,7 +761,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Getter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceEndpoint()
     {
@@ -758,7 +773,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Setter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint)
@@ -771,7 +787,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Getter for outboundAlternateNumber
      *
      * @ElementName outboundAlternateNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutboundAlternateNumber()
     {
@@ -782,7 +799,8 @@ class UserBroadWorksMobilityMobileIdentityModifyRequest extends \CWM\BroadWorksC
      * Setter for outboundAlternateNumber
      *
      * @ElementName outboundAlternateNumber
-     * @param string|null $outboundAlternateNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $outboundAlternateNumber
      * @return $this
      */
     public function setOutboundAlternateNumber($outboundAlternateNumber)

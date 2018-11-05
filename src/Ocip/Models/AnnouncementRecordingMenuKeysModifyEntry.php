@@ -30,7 +30,8 @@ class AnnouncementRecordingMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -116,7 +117,8 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -127,7 +129,8 @@ class AnnouncementRecordingMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

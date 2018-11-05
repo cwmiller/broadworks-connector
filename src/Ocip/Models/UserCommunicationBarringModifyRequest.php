@@ -32,7 +32,8 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName profileName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileName = null;
 
@@ -88,7 +89,8 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for profileName
      *
      * @ElementName profileName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProfileName()
     {
@@ -99,7 +101,8 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for profileName
      *
      * @ElementName profileName
-     * @param string|null $profileName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profileName
      * @return $this
      */
     public function setProfileName($profileName)

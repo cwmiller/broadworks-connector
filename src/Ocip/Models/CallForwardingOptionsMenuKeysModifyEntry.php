@@ -12,25 +12,29 @@ class CallForwardingOptionsMenuKeysModifyEntry
 
     /**
      * @ElementName activateCallForwarding
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateCallForwarding = null;
 
     /**
      * @ElementName deactivateCallForwarding
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateCallForwarding = null;
 
     /**
      * @ElementName changeCallForwardingDestination
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCallForwardingDestination = null;
 
     /**
      * @ElementName listenToCallForwardingStatus
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCallForwardingStatus = null;
 
@@ -42,7 +46,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -50,7 +55,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Getter for activateCallForwarding
      *
      * @ElementName activateCallForwarding
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateCallForwarding()
     {
@@ -61,7 +67,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Setter for activateCallForwarding
      *
      * @ElementName activateCallForwarding
-     * @param string|null $activateCallForwarding
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateCallForwarding
      * @return $this
      */
     public function setActivateCallForwarding($activateCallForwarding)
@@ -74,7 +81,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Getter for deactivateCallForwarding
      *
      * @ElementName deactivateCallForwarding
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeactivateCallForwarding()
     {
@@ -85,7 +93,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Setter for deactivateCallForwarding
      *
      * @ElementName deactivateCallForwarding
-     * @param string|null $deactivateCallForwarding
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deactivateCallForwarding
      * @return $this
      */
     public function setDeactivateCallForwarding($deactivateCallForwarding)
@@ -98,7 +107,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Getter for changeCallForwardingDestination
      *
      * @ElementName changeCallForwardingDestination
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeCallForwardingDestination()
     {
@@ -109,7 +119,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Setter for changeCallForwardingDestination
      *
      * @ElementName changeCallForwardingDestination
-     * @param string|null $changeCallForwardingDestination
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCallForwardingDestination
      * @return $this
      */
     public function setChangeCallForwardingDestination($changeCallForwardingDestination)
@@ -122,7 +133,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Getter for listenToCallForwardingStatus
      *
      * @ElementName listenToCallForwardingStatus
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCallForwardingStatus()
     {
@@ -133,7 +145,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Setter for listenToCallForwardingStatus
      *
      * @ElementName listenToCallForwardingStatus
-     * @param string|null $listenToCallForwardingStatus
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCallForwardingStatus
      * @return $this
      */
     public function setListenToCallForwardingStatus($listenToCallForwardingStatus)
@@ -170,7 +183,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -181,7 +195,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

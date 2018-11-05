@@ -28,7 +28,8 @@ class GroupApplicationServerSetModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName applicationServerSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerSetName = null;
 
@@ -84,7 +85,8 @@ class GroupApplicationServerSetModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for applicationServerSetName
      *
      * @ElementName applicationServerSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationServerSetName()
     {
@@ -95,7 +97,8 @@ class GroupApplicationServerSetModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for applicationServerSetName
      *
      * @ElementName applicationServerSetName
-     * @param string|null $applicationServerSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerSetName
      * @return $this
      */
     public function setApplicationServerSetName($applicationServerSetName)

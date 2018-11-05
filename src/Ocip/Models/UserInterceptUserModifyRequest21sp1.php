@@ -88,7 +88,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName newPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newPhoneNumber = null;
 
@@ -100,7 +101,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -124,7 +126,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName outboundReroutePhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outboundReroutePhoneNumber = null;
 
@@ -396,7 +399,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for newPhoneNumber
      *
      * @ElementName newPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNewPhoneNumber()
     {
@@ -407,7 +411,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for newPhoneNumber
      *
      * @ElementName newPhoneNumber
-     * @param string|null $newPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $newPhoneNumber
      * @return $this
      */
     public function setNewPhoneNumber($newPhoneNumber)
@@ -444,7 +449,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -455,7 +461,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
@@ -540,7 +547,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for outboundReroutePhoneNumber
      *
      * @ElementName outboundReroutePhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutboundReroutePhoneNumber()
     {
@@ -551,7 +559,8 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for outboundReroutePhoneNumber
      *
      * @ElementName outboundReroutePhoneNumber
-     * @param string|null $outboundReroutePhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $outboundReroutePhoneNumber
      * @return $this
      */
     public function setOutboundReroutePhoneNumber($outboundReroutePhoneNumber)

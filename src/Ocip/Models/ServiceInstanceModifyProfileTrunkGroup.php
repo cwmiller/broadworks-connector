@@ -43,13 +43,15 @@ class ServiceInstanceModifyProfileTrunkGroup
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
 
@@ -61,7 +63,8 @@ class ServiceInstanceModifyProfileTrunkGroup
 
     /**
      * @ElementName department
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
 
@@ -79,7 +82,8 @@ class ServiceInstanceModifyProfileTrunkGroup
 
     /**
      * @ElementName sipAliasList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;
 
@@ -207,7 +211,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -218,7 +223,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -231,7 +237,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Getter for extension
      *
      * @ElementName extension
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtension()
     {
@@ -242,7 +249,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Setter for extension
      *
      * @ElementName extension
-     * @param string|null $extension
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -279,7 +287,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Getter for department
      *
      * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDepartment()
     {
@@ -290,7 +299,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Setter for department
      *
      * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
@@ -351,7 +361,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Getter for sipAliasList
      *
      * @ElementName sipAliasList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipAliasList()
     {
@@ -362,7 +373,8 @@ class ServiceInstanceModifyProfileTrunkGroup
      * Setter for sipAliasList
      *
      * @ElementName sipAliasList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAliasList
      * @return $this
      */
     public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)

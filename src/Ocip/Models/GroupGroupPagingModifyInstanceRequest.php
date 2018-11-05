@@ -40,7 +40,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName originatorCLIDPrefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatorCLIDPrefix = null;
 
@@ -150,7 +151,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for originatorCLIDPrefix
      *
      * @ElementName originatorCLIDPrefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatorCLIDPrefix()
     {
@@ -161,7 +163,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for originatorCLIDPrefix
      *
      * @ElementName originatorCLIDPrefix
-     * @param string|null $originatorCLIDPrefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatorCLIDPrefix
      * @return $this
      */
     public function setOriginatorCLIDPrefix($originatorCLIDPrefix)

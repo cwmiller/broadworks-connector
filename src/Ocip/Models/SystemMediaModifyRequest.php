@@ -34,7 +34,8 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName mediaBandwidth
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mediaBandwidth = null;
 
@@ -114,7 +115,8 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Getter for mediaBandwidth
      *
      * @ElementName mediaBandwidth
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMediaBandwidth()
     {
@@ -125,7 +127,8 @@ class SystemMediaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * Setter for mediaBandwidth
      *
      * @ElementName mediaBandwidth
-     * @param int|null $mediaBandwidth
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mediaBandwidth
      * @return $this
      */
     public function setMediaBandwidth($mediaBandwidth)

@@ -18,7 +18,8 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName hssRealm
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hssRealm = null;
 
@@ -32,7 +33,8 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * Getter for hssRealm
      *
      * @ElementName hssRealm
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHssRealm()
     {
@@ -43,7 +45,8 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * Setter for hssRealm
      *
      * @ElementName hssRealm
-     * @param string|null $hssRealm
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hssRealm
      * @return $this
      */
     public function setHssRealm($hssRealm)

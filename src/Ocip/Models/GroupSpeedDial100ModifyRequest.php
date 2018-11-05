@@ -28,7 +28,8 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName prefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefix = null;
 
@@ -84,7 +85,8 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for prefix
      *
      * @ElementName prefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrefix()
     {
@@ -95,7 +97,8 @@ class GroupSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for prefix
      *
      * @ElementName prefix
-     * @param string|null $prefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $prefix
      * @return $this
      */
     public function setPrefix($prefix)

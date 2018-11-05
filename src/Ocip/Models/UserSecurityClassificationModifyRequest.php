@@ -22,7 +22,8 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName securityClassification
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $securityClassification = null;
 
@@ -54,7 +55,8 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for securityClassification
      *
      * @ElementName securityClassification
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSecurityClassification()
     {
@@ -65,7 +67,8 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for securityClassification
      *
      * @ElementName securityClassification
-     * @param string|null $securityClassification
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $securityClassification
      * @return $this
      */
     public function setSecurityClassification($securityClassification)

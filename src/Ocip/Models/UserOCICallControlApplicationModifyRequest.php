@@ -22,7 +22,8 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName applicationIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationIdList = null;
 
@@ -54,7 +55,8 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
      * Getter for applicationIdList
      *
      * @ElementName applicationIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationIdList()
     {
@@ -65,7 +67,8 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
      * Setter for applicationIdList
      *
      * @ElementName applicationIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null $applicationIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationIdList
      * @return $this
      */
     public function setApplicationIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList $applicationIdList)

@@ -34,7 +34,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName voiceMessageDeliveryEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageDeliveryEmailAddress = null;
 
@@ -52,7 +53,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName voiceMessageNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageNotifyEmailAddress = null;
 
@@ -64,7 +66,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessageCarbonCopyEmailAddress = null;
 
@@ -76,7 +79,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -180,7 +184,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Getter for voiceMessageDeliveryEmailAddress
      *
      * @ElementName voiceMessageDeliveryEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessageDeliveryEmailAddress()
     {
@@ -191,7 +196,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Setter for voiceMessageDeliveryEmailAddress
      *
      * @ElementName voiceMessageDeliveryEmailAddress
-     * @param string|null $voiceMessageDeliveryEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessageDeliveryEmailAddress
      * @return $this
      */
     public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress)
@@ -252,7 +258,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Getter for voiceMessageNotifyEmailAddress
      *
      * @ElementName voiceMessageNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessageNotifyEmailAddress()
     {
@@ -263,7 +270,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Setter for voiceMessageNotifyEmailAddress
      *
      * @ElementName voiceMessageNotifyEmailAddress
-     * @param string|null $voiceMessageNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessageNotifyEmailAddress
      * @return $this
      */
     public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress)
@@ -300,7 +308,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Getter for voiceMessageCarbonCopyEmailAddress
      *
      * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessageCarbonCopyEmailAddress()
     {
@@ -311,7 +320,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Setter for voiceMessageCarbonCopyEmailAddress
      *
      * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @param string|null $voiceMessageCarbonCopyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessageCarbonCopyEmailAddress
      * @return $this
      */
     public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress)
@@ -348,7 +358,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -359,7 +370,8 @@ class UserVoiceMessagingUserModifyVoiceManagementRequest extends \CWM\BroadWorks
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

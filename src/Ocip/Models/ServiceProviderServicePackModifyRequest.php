@@ -34,7 +34,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName servicePackDescription
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePackDescription = null;
 
@@ -126,7 +127,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for servicePackDescription
      *
      * @ElementName servicePackDescription
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServicePackDescription()
     {
@@ -137,7 +139,8 @@ class ServiceProviderServicePackModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for servicePackDescription
      *
      * @ElementName servicePackDescription
-     * @param string|null $servicePackDescription
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePackDescription
      * @return $this
      */
     public function setServicePackDescription($servicePackDescription)

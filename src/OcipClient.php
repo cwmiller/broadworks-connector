@@ -12,9 +12,13 @@ use CWM\BroadWorksConnector\Ocip\Models\C\OCIMessage;
 use CWM\BroadWorksConnector\Ocip\Models\C\OCIResponse;
 use CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest14sp4;
-use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\BadResponseException;
 use CWM\BroadWorksConnector\Ocip\LoginException;
+use CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V2;
+use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
+use CWM\BroadWorksConnector\Ocip\Models\LoginResponse22V2;
+use CWM\BroadWorksConnector\Ocip\Models\LogoutRequest;
+use CWM\BroadWorksConnector\Ocip\Options;
 use CWM\BroadWorksConnector\Ocip\SoapTransport;
 use CWM\BroadWorksConnector\Ocip\TcpTransport;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaASDeprecatedSpecialExceptions;
@@ -147,6 +151,7 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaServiceZoneCallingRestrictions;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaSystem;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaUser;
 use CWM\BroadWorksConnector\Ocip\Traits\XSOCI;
+use CWM\BroadWorksConnector\Ocip\UserDetails;
 use DOMDocument;
 use DOMElement;
 use ReflectionClass;
@@ -299,23 +304,31 @@ class OcipClient
     /** @var string */
     private $password;
 
+    /** @var Options */
+    private $options;
+
     /** @var ITransport */
     private $transport;
 
-    /** @var bool */
-    private $loggedIn = false;
+    /** @var UserDetails|null */
+    private $userDetails = null;
 
     /**
      * @param string $url
      * @param string $username
      * @param string $password
+     * @param Options|null $options
      * @throws \InvalidArgumentException
      */
-    public function __construct($url, $username, $password)
+    public function __construct($url, $username, $password, Options $options = null)
     {
         $this->username = $username;
         $this->password = $password;
         $this->sessionId = hash('sha256', mt_rand());
+        $this->options =
+            $options === null
+            ? new Options()
+            : $options;
 
         $parsedUrl = parse_url($url);
 
@@ -330,7 +343,7 @@ class OcipClient
         switch ($parsedUrl['scheme']) {
             case 'http':
             case 'https':
-                $this->transport = new SoapTransport($url);
+                $this->transport = new SoapTransport($url, $this->options->getSoapClientOptions());
                 break;
             case 'tcp':
                 $this->transport = new TcpTransport($parsedUrl['host'], isset($parsedUrl['port']) ? $parsedUrl['port'] : 2208);
@@ -343,13 +356,13 @@ class OcipClient
     /**
      * @param OCICommand $command
      * @return OCIResponse
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
-     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
-     * @throws \InvalidArgumentException
+     * @throws BadResponseException
+     * @throws ErrorResponseException
+     * @throws XmlException
      */
     public function call(OCICommand $command)
     {
-        if (!$this->loggedIn) {
+        if ($this->userDetails === null) {
             $this->login();
         }
 
@@ -359,13 +372,13 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
-     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
-     * @throws \InvalidArgumentException
+     * @throws BadResponseException
+     * @throws ErrorResponseException
+     * @throws XmlException
      */
     public function callAll(array $commands)
     {
-        if (!$this->loggedIn) {
+        if ($this->userDetails === null) {
             $this->login();
         }
 
@@ -377,7 +390,7 @@ class OcipClient
      */
     public function isLoggedIn()
     {
-        return $this->loggedIn;
+        return $this->userDetails !== null;
     }
 
     /**
@@ -388,9 +401,14 @@ class OcipClient
         return $this->transport;
     }
 
+    /**
+     * @return UserDetails
+     * @throws LoginException
+     * @throws XmlException
+     */
     public function login()
     {
-        if (!$this->loggedIn) {
+        if ($this->userDetails === null) {
             $authRequest = (new AuthenticationRequest())
                 ->setUserId($this->username);
 
@@ -406,25 +424,62 @@ class OcipClient
                     throw new LoginException('Only MD5 supported for signing');
                 }
 
-                $loginRequest = (new LoginRequest14sp4())
-                        ->setUserId($this->username)
-                        ->setSignedPassword($signedPassword);
+                switch ($this->options->getServerVersion()) {
+                    case Options::VERSION_14SP4:
+                        $loginRequest = (new LoginRequest14sp4())
+                            ->setUserId($this->username)
+                            ->setSignedPassword($signedPassword);
+                        break;
+                    case Options::VERSION_22:
+                        $loginRequest = (new LoginRequest22V2())
+                            ->setUserId($this->username)
+                            ->setPassword($signedPassword);
+                        break;
+                    default:
+                        throw new LoginException('Unhandled server version: ' . $this->options->getServerVersion());
+                }
 
-                $this->executeCommands([$loginRequest]);
+                /** @var LoginResponse14sp4|LoginResponse22V2 $loginResponse */
+                $loginResponse = $this->executeCommands([$loginRequest])[0];
+
+                $userDetails = (new UserDetails())
+                    ->setLoginType($loginResponse->getLoginType())
+                    ->setLocale($loginResponse->getLocale())
+                    ->setEncoding($loginResponse->getEncoding())
+                    ->setGroupId($loginResponse->getGroupId())
+                    ->setServiceProviderId($loginResponse->getServiceProviderId())
+                    ->setIsEnterprise($loginResponse->getIsEnterprise())
+                    ->setPasswordExpiresDays($loginResponse->getPasswordExpiresDays())
+                    ->setUserDomain($loginResponse->getUserDomain());
+
+                if ($loginResponse instanceof LoginResponse22V2) {
+                    $userDetails->setResellerId($loginResponse->getResellerId());
+                }
+
+                $this->userDetails = $userDetails;
+
             } catch(ErrorResponseException $e) {
                 throw new LoginException($e->getMessage(), $e);
             }
-
-            $this->loggedIn = true;
         }
+
+        return $this->userDetails;
+    }
+
+    /**
+     * @return UserDetails|null
+     */
+    public function getUserDetails()
+    {
+        return $this->userDetails;
     }
 
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
-     * @throws \CWM\BroadWorksConnector\Ocip\ErrorResponseException
-     * @throws \InvalidArgumentException
+     * @throws BadResponseException
+     * @throws ErrorResponseException
+     * @throws XmlException
      */
     private function executeCommands(array $commands)
     {
@@ -467,6 +522,7 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return DOMDocument
+     * @throws XmlException
      */
     private function buildCommandXml(array $commands)
     {

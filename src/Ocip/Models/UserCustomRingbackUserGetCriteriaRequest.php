@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCustomRingbackUserGetCriteriaResponse
  * @see ErrorResponse
- * @see UserCustomRingbackUserGetCriteriaRequest15
+ * @see UserCustomRingbackUserGetCriteriaRequest15Sp2
  */
 class UserCustomRingbackUserGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

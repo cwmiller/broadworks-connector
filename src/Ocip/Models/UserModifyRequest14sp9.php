@@ -60,19 +60,22 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
 
     /**
      * @ElementName phoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
 
@@ -84,13 +87,15 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
 
     /**
      * @ElementName newPassword
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newPassword = null;
 
     /**
      * @ElementName department
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $department = null;
 
@@ -108,49 +113,57 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
 
     /**
      * @ElementName sipAliasList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;
 
     /**
      * @ElementName endpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9\Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $endpoint = null;
 
     /**
      * @ElementName title
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $title = null;
 
     /**
      * @ElementName pagerPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pagerPhoneNumber = null;
 
     /**
      * @ElementName mobilePhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilePhoneNumber = null;
 
     /**
      * @ElementName emailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailAddress = null;
 
     /**
      * @ElementName yahooId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $yahooId = null;
 
     /**
      * @ElementName addressLocation
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLocation = null;
 
@@ -162,7 +175,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
 
     /**
      * @ElementName networkClassOfService
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkClassOfService = null;
 
@@ -338,7 +352,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhoneNumber()
     {
@@ -349,7 +364,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for phoneNumber
      *
      * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -362,7 +378,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for extension
      *
      * @ElementName extension
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtension()
     {
@@ -373,7 +390,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for extension
      *
      * @ElementName extension
-     * @param string|null $extension
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -386,7 +404,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdPhoneNumber()
     {
@@ -397,7 +416,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -434,7 +454,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for newPassword
      *
      * @ElementName newPassword
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNewPassword()
     {
@@ -445,7 +466,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for newPassword
      *
      * @ElementName newPassword
-     * @param string|null $newPassword
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $newPassword
      * @return $this
      */
     public function setNewPassword($newPassword)
@@ -458,7 +480,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for department
      *
      * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDepartment()
     {
@@ -469,10 +492,11 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for department
      *
      * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $department
      * @return $this
      */
-    public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
+    public function setDepartment($department)
     {
         $this->department = $department;
         return $this;
@@ -530,7 +554,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for sipAliasList
      *
      * @ElementName sipAliasList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSipAliasList()
     {
@@ -541,10 +566,11 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for sipAliasList
      *
      * @ElementName sipAliasList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAliasList
      * @return $this
      */
-    public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
+    public function setSipAliasList($sipAliasList)
     {
         $this->sipAliasList = $sipAliasList;
         return $this;
@@ -554,7 +580,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for endpoint
      *
      * @ElementName endpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9\Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEndpoint()
     {
@@ -565,10 +592,11 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for endpoint
      *
      * @ElementName endpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint|null $endpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9\Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil $endpoint
      * @return $this
      */
-    public function setEndpoint(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14sp9Endpoint $endpoint)
+    public function setEndpoint($endpoint)
     {
         $this->endpoint = $endpoint;
         return $this;
@@ -578,7 +606,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for title
      *
      * @ElementName title
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTitle()
     {
@@ -589,7 +618,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for title
      *
      * @ElementName title
-     * @param string|null $title
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $title
      * @return $this
      */
     public function setTitle($title)
@@ -602,7 +632,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for pagerPhoneNumber
      *
      * @ElementName pagerPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPagerPhoneNumber()
     {
@@ -613,7 +644,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for pagerPhoneNumber
      *
      * @ElementName pagerPhoneNumber
-     * @param string|null $pagerPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $pagerPhoneNumber
      * @return $this
      */
     public function setPagerPhoneNumber($pagerPhoneNumber)
@@ -626,7 +658,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for mobilePhoneNumber
      *
      * @ElementName mobilePhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobilePhoneNumber()
     {
@@ -637,7 +670,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for mobilePhoneNumber
      *
      * @ElementName mobilePhoneNumber
-     * @param string|null $mobilePhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)
@@ -650,7 +684,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for emailAddress
      *
      * @ElementName emailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEmailAddress()
     {
@@ -661,7 +696,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for emailAddress
      *
      * @ElementName emailAddress
-     * @param string|null $emailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)
@@ -674,7 +710,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for yahooId
      *
      * @ElementName yahooId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getYahooId()
     {
@@ -685,7 +722,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for yahooId
      *
      * @ElementName yahooId
-     * @param string|null $yahooId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $yahooId
      * @return $this
      */
     public function setYahooId($yahooId)
@@ -698,7 +736,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for addressLocation
      *
      * @ElementName addressLocation
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAddressLocation()
     {
@@ -709,7 +748,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for addressLocation
      *
      * @ElementName addressLocation
-     * @param string|null $addressLocation
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $addressLocation
      * @return $this
      */
     public function setAddressLocation($addressLocation)
@@ -736,7 +776,7 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
      * @return $this
      */
-    public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
+    public function setAddress($address)
     {
         $this->address = $address;
         return $this;
@@ -746,7 +786,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Getter for networkClassOfService
      *
      * @ElementName networkClassOfService
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetworkClassOfService()
     {
@@ -757,7 +798,8 @@ class UserModifyRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * Setter for networkClassOfService
      *
      * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)

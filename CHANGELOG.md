@@ -1,8 +1,17 @@
 # Changelog
 
+## [2.1.0] - 2018-11-04
+### Added
+- `Nil` class added. Fields that are nillable can have their value set as an instance of `Nil`.
+- `Options` class added as the 4th argument for `OcipClient`'s constructor. This `Options` class has two setters:
+  - `setServerVersion` sets the BroadWorks server version. Options are `Options::VERSION_14SP4` (default) or `Options::VERSION_22`. This impacts the information set on the `UserDetails` object (see below).
+  - `setSoapClientOptions` sets the `$options` argument of `SoapClient` if using SOAP.
+- `OcipClient::login` now returns a `UserDetails` object containing information about the logged in user. `OcipClient::getUserDetails` returns the same object. If using BW release 22, make sure you set `Options::setServerVersion` to `Options::VERSION_22` to include reseller details.
+- `XmlException` exception that can be thrown during serialization or deserialization of XML.
+
 ## [2.0.3] - 2018-11-03
 ### Fixed
-- ErrorResponseException was being thrown during login failure instead of LoginException.
+- `ErrorResponseException` was being thrown during login failure instead of `LoginException`.
 
 ## [2.0.2] - 2018-10-07
 ### Fixed
@@ -15,15 +24,16 @@
 
 ## [2.0.0] - 2018-07-22
 ### Changed
-- Instances of ErrorResponse are no longer returned by request calls. If the server returns an ErrorResponse, an instance of ErrorResponseException is now thrown.
+- Instances of `ErrorResponse` are no longer returned by request calls. If the server returns an `ErrorResponse`, an instance of `ErrorResponseException` is now thrown.
 
 ## [1.1.0] - 2018-07-03
 ### Fixed
 - Fixed mistakes in comments and phpdoc annotations caused by errors in source XSD files.
 
 ### Added
-- OcipClient now exposes helper methods for every request object.
+- `OcipClient` now exposes helper methods for every request object.
 
+[2.1.0]: https://github.com/cwmiller/broadworks-connector/compare/2.0.3...2.1.0
 [2.0.3]: https://github.com/cwmiller/broadworks-connector/compare/2.0.2...2.0.3
 [2.0.2]: https://github.com/cwmiller/broadworks-connector/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/cwmiller/broadworks-connector/compare/2.0...2.0.1

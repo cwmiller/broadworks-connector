@@ -100,7 +100,8 @@ class SystemCallProcessingPolicyProfileUserProfileModifyRequest extends \CWM\Bro
 
     /**
      * @ElementName supportedMediaSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
 
@@ -648,7 +649,8 @@ class SystemCallProcessingPolicyProfileUserProfileModifyRequest extends \CWM\Bro
      * Getter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupportedMediaSetName()
     {
@@ -659,7 +661,8 @@ class SystemCallProcessingPolicyProfileUserProfileModifyRequest extends \CWM\Bro
      * Setter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @param string|null $supportedMediaSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportedMediaSetName
      * @return $this
      */
     public function setSupportedMediaSetName($supportedMediaSetName)

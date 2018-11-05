@@ -25,7 +25,8 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName callToNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;
 
@@ -57,7 +58,8 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * Getter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallToNumberList()
     {
@@ -68,7 +70,8 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * Setter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
      * @return $this
      */
     public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)

@@ -25,7 +25,8 @@ class FeatureAccessCodeModifyEntry
 
     /**
      * @ElementName alternateCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateCode = null;
 
@@ -87,7 +88,8 @@ class FeatureAccessCodeModifyEntry
      * Getter for alternateCode
      *
      * @ElementName alternateCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAlternateCode()
     {
@@ -98,7 +100,8 @@ class FeatureAccessCodeModifyEntry
      * Setter for alternateCode
      *
      * @ElementName alternateCode
-     * @param string|null $alternateCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateCode
      * @return $this
      */
     public function setAlternateCode($alternateCode)

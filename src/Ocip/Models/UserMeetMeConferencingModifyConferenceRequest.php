@@ -38,7 +38,8 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName estimatedParticipants
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $estimatedParticipants = null;
 
@@ -56,7 +57,8 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName accountCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accountCode = null;
 
@@ -178,7 +180,8 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * Getter for estimatedParticipants
      *
      * @ElementName estimatedParticipants
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEstimatedParticipants()
     {
@@ -189,7 +192,8 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * Setter for estimatedParticipants
      *
      * @ElementName estimatedParticipants
-     * @param int|null $estimatedParticipants
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $estimatedParticipants
      * @return $this
      */
     public function setEstimatedParticipants($estimatedParticipants)
@@ -250,7 +254,8 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * Getter for accountCode
      *
      * @ElementName accountCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccountCode()
     {
@@ -261,7 +266,8 @@ class UserMeetMeConferencingModifyConferenceRequest extends \CWM\BroadWorksConne
      * Setter for accountCode
      *
      * @ElementName accountCode
-     * @param string|null $accountCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accountCode
      * @return $this
      */
     public function setAccountCode($accountCode)

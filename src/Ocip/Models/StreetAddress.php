@@ -12,25 +12,29 @@ class StreetAddress
 
     /**
      * @ElementName addressLine1
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLine1 = null;
 
     /**
      * @ElementName addressLine2
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLine2 = null;
 
     /**
      * @ElementName city
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $city = null;
 
     /**
      * @ElementName stateOrProvince
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $stateOrProvince = null;
 
@@ -42,13 +46,15 @@ class StreetAddress
 
     /**
      * @ElementName zipOrPostalCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $zipOrPostalCode = null;
 
     /**
      * @ElementName country
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $country = null;
 
@@ -56,7 +62,8 @@ class StreetAddress
      * Getter for addressLine1
      *
      * @ElementName addressLine1
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAddressLine1()
     {
@@ -67,7 +74,8 @@ class StreetAddress
      * Setter for addressLine1
      *
      * @ElementName addressLine1
-     * @param string|null $addressLine1
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $addressLine1
      * @return $this
      */
     public function setAddressLine1($addressLine1)
@@ -80,7 +88,8 @@ class StreetAddress
      * Getter for addressLine2
      *
      * @ElementName addressLine2
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAddressLine2()
     {
@@ -91,7 +100,8 @@ class StreetAddress
      * Setter for addressLine2
      *
      * @ElementName addressLine2
-     * @param string|null $addressLine2
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $addressLine2
      * @return $this
      */
     public function setAddressLine2($addressLine2)
@@ -104,7 +114,8 @@ class StreetAddress
      * Getter for city
      *
      * @ElementName city
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCity()
     {
@@ -115,7 +126,8 @@ class StreetAddress
      * Setter for city
      *
      * @ElementName city
-     * @param string|null $city
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $city
      * @return $this
      */
     public function setCity($city)
@@ -128,7 +140,8 @@ class StreetAddress
      * Getter for stateOrProvince
      *
      * @ElementName stateOrProvince
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getStateOrProvince()
     {
@@ -139,7 +152,8 @@ class StreetAddress
      * Setter for stateOrProvince
      *
      * @ElementName stateOrProvince
-     * @param string|null $stateOrProvince
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $stateOrProvince
      * @return $this
      */
     public function setStateOrProvince($stateOrProvince)
@@ -176,7 +190,8 @@ class StreetAddress
      * Getter for zipOrPostalCode
      *
      * @ElementName zipOrPostalCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getZipOrPostalCode()
     {
@@ -187,7 +202,8 @@ class StreetAddress
      * Setter for zipOrPostalCode
      *
      * @ElementName zipOrPostalCode
-     * @param string|null $zipOrPostalCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $zipOrPostalCode
      * @return $this
      */
     public function setZipOrPostalCode($zipOrPostalCode)
@@ -200,7 +216,8 @@ class StreetAddress
      * Getter for country
      *
      * @ElementName country
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCountry()
     {
@@ -211,7 +228,8 @@ class StreetAddress
      * Setter for country
      *
      * @ElementName country
-     * @param string|null $country
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $country
      * @return $this
      */
     public function setCountry($country)

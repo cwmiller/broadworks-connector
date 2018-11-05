@@ -46,7 +46,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName routeExhaustionForwardAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routeExhaustionForwardAddress = null;
 
@@ -70,19 +71,22 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName maxActiveCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxActiveCalls = null;
 
     /**
      * @ElementName capacityExceededTrapInitialCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapInitialCalls = null;
 
     /**
      * @ElementName capacityExceededTrapOffsetCalls
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapOffsetCalls = null;
 
@@ -210,7 +214,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for routeExhaustionForwardAddress
      *
      * @ElementName routeExhaustionForwardAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRouteExhaustionForwardAddress()
     {
@@ -221,7 +226,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for routeExhaustionForwardAddress
      *
      * @ElementName routeExhaustionForwardAddress
-     * @param string|null $routeExhaustionForwardAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routeExhaustionForwardAddress
      * @return $this
      */
     public function setRouteExhaustionForwardAddress($routeExhaustionForwardAddress)
@@ -306,7 +312,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for maxActiveCalls
      *
      * @ElementName maxActiveCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMaxActiveCalls()
     {
@@ -317,7 +324,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for maxActiveCalls
      *
      * @ElementName maxActiveCalls
-     * @param int|null $maxActiveCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxActiveCalls
      * @return $this
      */
     public function setMaxActiveCalls($maxActiveCalls)
@@ -330,7 +338,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for capacityExceededTrapInitialCalls
      *
      * @ElementName capacityExceededTrapInitialCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCapacityExceededTrapInitialCalls()
     {
@@ -341,7 +350,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for capacityExceededTrapInitialCalls
      *
      * @ElementName capacityExceededTrapInitialCalls
-     * @param int|null $capacityExceededTrapInitialCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededTrapInitialCalls
      * @return $this
      */
     public function setCapacityExceededTrapInitialCalls($capacityExceededTrapInitialCalls)
@@ -354,7 +364,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for capacityExceededTrapOffsetCalls
      *
      * @ElementName capacityExceededTrapOffsetCalls
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCapacityExceededTrapOffsetCalls()
     {
@@ -365,7 +376,8 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for capacityExceededTrapOffsetCalls
      *
      * @ElementName capacityExceededTrapOffsetCalls
-     * @param int|null $capacityExceededTrapOffsetCalls
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededTrapOffsetCalls
      * @return $this
      */
     public function setCapacityExceededTrapOffsetCalls($capacityExceededTrapOffsetCalls)

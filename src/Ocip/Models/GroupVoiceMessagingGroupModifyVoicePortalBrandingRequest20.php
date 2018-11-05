@@ -34,7 +34,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
 
     /**
      * @ElementName voicePortalGreetingFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalGreetingFile = null;
 
@@ -46,7 +47,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
 
     /**
      * @ElementName voiceMessagingGreetingFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessagingGreetingFile = null;
 
@@ -126,7 +128,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * Getter for voicePortalGreetingFile
      *
      * @ElementName voicePortalGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoicePortalGreetingFile()
     {
@@ -137,7 +140,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * Setter for voicePortalGreetingFile
      *
      * @ElementName voicePortalGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voicePortalGreetingFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalGreetingFile
      * @return $this
      */
     public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voicePortalGreetingFile)
@@ -174,7 +178,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * Getter for voiceMessagingGreetingFile
      *
      * @ElementName voiceMessagingGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessagingGreetingFile()
     {
@@ -185,7 +190,8 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest20 extends \CWM\Br
      * Setter for voiceMessagingGreetingFile
      *
      * @ElementName voiceMessagingGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voiceMessagingGreetingFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessagingGreetingFile
      * @return $this
      */
     public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voiceMessagingGreetingFile)

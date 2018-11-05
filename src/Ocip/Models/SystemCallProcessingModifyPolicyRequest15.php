@@ -92,7 +92,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName supportedMediaSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supportedMediaSetName = null;
 
@@ -146,7 +147,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName conferenceURI
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceURI = null;
 
@@ -296,13 +298,15 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName routeOverrideDomain
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routeOverrideDomain = null;
 
     /**
      * @ElementName routeOverridePrefix
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routeOverridePrefix = null;
 
@@ -526,7 +530,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupportedMediaSetName()
     {
@@ -537,7 +542,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for supportedMediaSetName
      *
      * @ElementName supportedMediaSetName
-     * @param string|null $supportedMediaSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportedMediaSetName
      * @return $this
      */
     public function setSupportedMediaSetName($supportedMediaSetName)
@@ -742,7 +748,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for conferenceURI
      *
      * @ElementName conferenceURI
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConferenceURI()
     {
@@ -753,7 +760,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for conferenceURI
      *
      * @ElementName conferenceURI
-     * @param string|null $conferenceURI
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $conferenceURI
      * @return $this
      */
     public function setConferenceURI($conferenceURI)
@@ -1342,7 +1350,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for routeOverrideDomain
      *
      * @ElementName routeOverrideDomain
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRouteOverrideDomain()
     {
@@ -1353,7 +1362,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for routeOverrideDomain
      *
      * @ElementName routeOverrideDomain
-     * @param string|null $routeOverrideDomain
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routeOverrideDomain
      * @return $this
      */
     public function setRouteOverrideDomain($routeOverrideDomain)
@@ -1366,7 +1376,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Getter for routeOverridePrefix
      *
      * @ElementName routeOverridePrefix
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRouteOverridePrefix()
     {
@@ -1377,7 +1388,8 @@ class SystemCallProcessingModifyPolicyRequest15 extends \CWM\BroadWorksConnector
      * Setter for routeOverridePrefix
      *
      * @ElementName routeOverridePrefix
-     * @param string|null $routeOverridePrefix
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routeOverridePrefix
      * @return $this
      */
     public function setRouteOverridePrefix($routeOverridePrefix)

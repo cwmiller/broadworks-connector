@@ -25,7 +25,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           allowTerminationBasedOnICSI, value "false" is returned in AS data mode
  *           roamingMode, value "None" is returned in AS data mode
  *
- * @see SystemSIPDeviceTypeGetRequest22
+ * @see SystemSIPDeviceTypeGetRequest22V4
  */
 class SystemSIPDeviceTypeGetResponse22V4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

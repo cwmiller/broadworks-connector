@@ -10,37 +10,43 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
 
     /**
      * @ElementName activateExtendedAwayGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateExtendedAwayGreeting = null;
 
     /**
      * @ElementName deactivateExtendedAwayGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateExtendedAwayGreeting = null;
 
     /**
      * @ElementName recordNewGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentGreeting = null;
 
     /**
      * @ElementName enableMessageDeposit
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDeposit
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disableMessageDeposit = null;
 
@@ -52,7 +58,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -60,7 +67,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for activateExtendedAwayGreeting
      *
      * @ElementName activateExtendedAwayGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getActivateExtendedAwayGreeting()
     {
@@ -71,7 +79,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for activateExtendedAwayGreeting
      *
      * @ElementName activateExtendedAwayGreeting
-     * @param string|null $activateExtendedAwayGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateExtendedAwayGreeting
      * @return $this
      */
     public function setActivateExtendedAwayGreeting($activateExtendedAwayGreeting)
@@ -84,7 +93,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for deactivateExtendedAwayGreeting
      *
      * @ElementName deactivateExtendedAwayGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeactivateExtendedAwayGreeting()
     {
@@ -95,7 +105,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for deactivateExtendedAwayGreeting
      *
      * @ElementName deactivateExtendedAwayGreeting
-     * @param string|null $deactivateExtendedAwayGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deactivateExtendedAwayGreeting
      * @return $this
      */
     public function setDeactivateExtendedAwayGreeting($deactivateExtendedAwayGreeting)
@@ -108,7 +119,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for recordNewGreeting
      *
      * @ElementName recordNewGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordNewGreeting()
     {
@@ -119,7 +131,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for recordNewGreeting
      *
      * @ElementName recordNewGreeting
-     * @param string|null $recordNewGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewGreeting
      * @return $this
      */
     public function setRecordNewGreeting($recordNewGreeting)
@@ -132,7 +145,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for listenToCurrentGreeting
      *
      * @ElementName listenToCurrentGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentGreeting()
     {
@@ -143,7 +157,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for listenToCurrentGreeting
      *
      * @ElementName listenToCurrentGreeting
-     * @param string|null $listenToCurrentGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentGreeting
      * @return $this
      */
     public function setListenToCurrentGreeting($listenToCurrentGreeting)
@@ -156,7 +171,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for enableMessageDeposit
      *
      * @ElementName enableMessageDeposit
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEnableMessageDeposit()
     {
@@ -167,7 +183,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for enableMessageDeposit
      *
      * @ElementName enableMessageDeposit
-     * @param string|null $enableMessageDeposit
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enableMessageDeposit
      * @return $this
      */
     public function setEnableMessageDeposit($enableMessageDeposit)
@@ -180,7 +197,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for disableMessageDeposit
      *
      * @ElementName disableMessageDeposit
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDisableMessageDeposit()
     {
@@ -191,7 +209,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for disableMessageDeposit
      *
      * @ElementName disableMessageDeposit
-     * @param string|null $disableMessageDeposit
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disableMessageDeposit
      * @return $this
      */
     public function setDisableMessageDeposit($disableMessageDeposit)
@@ -228,7 +247,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -239,7 +259,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGr
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

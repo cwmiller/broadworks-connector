@@ -18,25 +18,29 @@ class ReplyMessageMenuKeysModifyEntry
 
     /**
      * @ElementName changeCurrentReply
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentReply = null;
 
     /**
      * @ElementName listenToCurrentReply
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentReply = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
 
@@ -48,7 +52,8 @@ class ReplyMessageMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -80,7 +85,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Getter for changeCurrentReply
      *
      * @ElementName changeCurrentReply
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeCurrentReply()
     {
@@ -91,7 +97,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Setter for changeCurrentReply
      *
      * @ElementName changeCurrentReply
-     * @param string|null $changeCurrentReply
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCurrentReply
      * @return $this
      */
     public function setChangeCurrentReply($changeCurrentReply)
@@ -104,7 +111,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Getter for listenToCurrentReply
      *
      * @ElementName listenToCurrentReply
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getListenToCurrentReply()
     {
@@ -115,7 +123,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Setter for listenToCurrentReply
      *
      * @ElementName listenToCurrentReply
-     * @param string|null $listenToCurrentReply
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentReply
      * @return $this
      */
     public function setListenToCurrentReply($listenToCurrentReply)
@@ -128,7 +137,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Getter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearUrgentIndicator()
     {
@@ -139,7 +149,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Setter for setOrClearUrgentIndicator
      *
      * @ElementName setOrClearUrgentIndicator
-     * @param string|null $setOrClearUrgentIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
@@ -152,7 +163,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Getter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSetOrClearConfidentialIndicator()
     {
@@ -163,7 +175,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Setter for setOrClearConfidentialIndicator
      *
      * @ElementName setOrClearConfidentialIndicator
-     * @param string|null $setOrClearConfidentialIndicator
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
@@ -200,7 +213,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -211,7 +225,8 @@ class ReplyMessageMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

@@ -10,61 +10,71 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
 
     /**
      * @ElementName voiceMessaging
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessaging = null;
 
     /**
      * @ElementName commPilotExpressProfile
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $commPilotExpressProfile = null;
 
     /**
      * @ElementName personalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
 
     /**
      * @ElementName callForwardingOptions
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingOptions = null;
 
     /**
      * @ElementName voicePortalCalling
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalCalling = null;
 
     /**
      * @ElementName hoteling
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hoteling = null;
 
     /**
      * @ElementName passcode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
 
     /**
      * @ElementName exitVoicePortal
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exitVoicePortal = null;
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
     /**
      * @ElementName externalRouting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalRouting = null;
 
@@ -72,7 +82,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for voiceMessaging
      *
      * @ElementName voiceMessaging
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoiceMessaging()
     {
@@ -83,7 +94,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for voiceMessaging
      *
      * @ElementName voiceMessaging
-     * @param string|null $voiceMessaging
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessaging
      * @return $this
      */
     public function setVoiceMessaging($voiceMessaging)
@@ -96,7 +108,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for commPilotExpressProfile
      *
      * @ElementName commPilotExpressProfile
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCommPilotExpressProfile()
     {
@@ -107,7 +120,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for commPilotExpressProfile
      *
      * @ElementName commPilotExpressProfile
-     * @param string|null $commPilotExpressProfile
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $commPilotExpressProfile
      * @return $this
      */
     public function setCommPilotExpressProfile($commPilotExpressProfile)
@@ -120,7 +134,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for personalizedName
      *
      * @ElementName personalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedName()
     {
@@ -131,7 +146,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for personalizedName
      *
      * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -144,7 +160,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for callForwardingOptions
      *
      * @ElementName callForwardingOptions
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallForwardingOptions()
     {
@@ -155,7 +172,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for callForwardingOptions
      *
      * @ElementName callForwardingOptions
-     * @param string|null $callForwardingOptions
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callForwardingOptions
      * @return $this
      */
     public function setCallForwardingOptions($callForwardingOptions)
@@ -168,7 +186,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for voicePortalCalling
      *
      * @ElementName voicePortalCalling
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVoicePortalCalling()
     {
@@ -179,7 +198,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for voicePortalCalling
      *
      * @ElementName voicePortalCalling
-     * @param string|null $voicePortalCalling
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalCalling
      * @return $this
      */
     public function setVoicePortalCalling($voicePortalCalling)
@@ -192,7 +212,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for hoteling
      *
      * @ElementName hoteling
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHoteling()
     {
@@ -203,7 +224,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for hoteling
      *
      * @ElementName hoteling
-     * @param string|null $hoteling
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hoteling
      * @return $this
      */
     public function setHoteling($hoteling)
@@ -216,7 +238,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for passcode
      *
      * @ElementName passcode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPasscode()
     {
@@ -227,7 +250,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for passcode
      *
      * @ElementName passcode
-     * @param string|null $passcode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -240,7 +264,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for exitVoicePortal
      *
      * @ElementName exitVoicePortal
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExitVoicePortal()
     {
@@ -251,7 +276,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for exitVoicePortal
      *
      * @ElementName exitVoicePortal
-     * @param string|null $exitVoicePortal
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $exitVoicePortal
      * @return $this
      */
     public function setExitVoicePortal($exitVoicePortal)
@@ -264,7 +290,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -275,7 +302,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
@@ -288,7 +316,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Getter for externalRouting
      *
      * @ElementName externalRouting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalRouting()
     {
@@ -299,7 +328,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalMainMe
      * Setter for externalRouting
      *
      * @ElementName externalRouting
-     * @param string|null $externalRouting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalRouting
      * @return $this
      */
     public function setExternalRouting($externalRouting)

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCollaborateGetResponse20sp1
  * @see ErrorResponse
- * @see SystemCollaborateGetRequest20sp1
+ * @see SystemCollaborateGetRequest20sp1V2
  */
 class SystemCollaborateGetRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

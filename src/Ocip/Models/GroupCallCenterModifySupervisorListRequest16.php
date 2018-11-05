@@ -22,7 +22,8 @@ class GroupCallCenterModifySupervisorListRequest16 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName supervisorUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supervisorUserIdList = null;
 
@@ -54,7 +55,8 @@ class GroupCallCenterModifySupervisorListRequest16 extends \CWM\BroadWorksConnec
      * Getter for supervisorUserIdList
      *
      * @ElementName supervisorUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupervisorUserIdList()
     {
@@ -65,7 +67,8 @@ class GroupCallCenterModifySupervisorListRequest16 extends \CWM\BroadWorksConnec
      * Setter for supervisorUserIdList
      *
      * @ElementName supervisorUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $supervisorUserIdList
      * @return $this
      */
     public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)

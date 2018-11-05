@@ -28,7 +28,8 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -126,7 +127,8 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -137,7 +139,8 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

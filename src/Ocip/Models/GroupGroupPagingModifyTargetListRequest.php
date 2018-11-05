@@ -22,7 +22,8 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName targetUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $targetUserIdList = null;
 
@@ -54,7 +55,8 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
      * Getter for targetUserIdList
      *
      * @ElementName targetUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTargetUserIdList()
     {
@@ -65,7 +67,8 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
      * Setter for targetUserIdList
      *
      * @ElementName targetUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $targetUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $targetUserIdList
      * @return $this
      */
     public function setTargetUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $targetUserIdList)

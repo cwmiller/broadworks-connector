@@ -37,8 +37,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     
  *     Replaced by UserGetResponse22V3
  *
- * @see UserGetRequest22
- * @see UserGetResponse22
+ * @see UserGetRequest22V2
+ * @see UserGetResponse22V3
  */
 class UserGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

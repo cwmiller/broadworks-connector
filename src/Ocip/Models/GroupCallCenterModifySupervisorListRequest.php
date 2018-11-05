@@ -26,13 +26,15 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName reportingServerURL
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingServerURL = null;
 
     /**
      * @ElementName supervisorUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supervisorUserIdList = null;
 
@@ -64,7 +66,8 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * Getter for reportingServerURL
      *
      * @ElementName reportingServerURL
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReportingServerURL()
     {
@@ -75,7 +78,8 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * Setter for reportingServerURL
      *
      * @ElementName reportingServerURL
-     * @param string|null $reportingServerURL
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportingServerURL
      * @return $this
      */
     public function setReportingServerURL($reportingServerURL)
@@ -88,7 +92,8 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * Getter for supervisorUserIdList
      *
      * @ElementName supervisorUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSupervisorUserIdList()
     {
@@ -99,7 +104,8 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
      * Setter for supervisorUserIdList
      *
      * @ElementName supervisorUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $supervisorUserIdList
      * @return $this
      */
     public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)

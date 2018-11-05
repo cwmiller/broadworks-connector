@@ -26,7 +26,8 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName physicalLocation
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;
 
@@ -58,7 +59,8 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
      * Getter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhysicalLocation()
     {
@@ -69,7 +71,8 @@ class SystemZoneCallingRestrictionsZoneModifyRequest extends \CWM\BroadWorksConn
      * Setter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)

@@ -43,13 +43,15 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName tagValue
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
 
     /**
      * @ElementName tagValueToEncrypt
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;
 
@@ -129,7 +131,8 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * Getter for tagValue
      *
      * @ElementName tagValue
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTagValue()
     {
@@ -140,7 +143,8 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * Setter for tagValue
      *
      * @ElementName tagValue
-     * @param string|null $tagValue
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagValue
      * @return $this
      */
     public function setTagValue($tagValue)
@@ -153,7 +157,8 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * Getter for tagValueToEncrypt
      *
      * @ElementName tagValueToEncrypt
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTagValueToEncrypt()
     {
@@ -164,7 +169,8 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * Setter for tagValueToEncrypt
      *
      * @ElementName tagValueToEncrypt
-     * @param string|null $tagValueToEncrypt
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagValueToEncrypt
      * @return $this
      */
     public function setTagValueToEncrypt($tagValueToEncrypt)

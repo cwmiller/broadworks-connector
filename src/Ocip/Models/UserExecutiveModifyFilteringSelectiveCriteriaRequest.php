@@ -38,13 +38,15 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -62,7 +64,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
 
     /**
      * @ElementName callToNumberList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;
 
@@ -142,7 +145,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -153,7 +157,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
@@ -166,7 +171,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -177,7 +183,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
@@ -238,7 +245,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * Getter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallToNumberList()
     {
@@ -249,7 +257,8 @@ class UserExecutiveModifyFilteringSelectiveCriteriaRequest extends \CWM\BroadWor
      * Setter for callToNumberList
      *
      * @ElementName callToNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
      * @return $this
      */
     public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)

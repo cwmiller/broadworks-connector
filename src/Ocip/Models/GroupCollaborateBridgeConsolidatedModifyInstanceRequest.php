@@ -86,13 +86,15 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
 
     /**
      * @ElementName collaborateOwnerUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserIdList = null;
 
     /**
      * @ElementName serviceList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceList = null;
 
@@ -292,7 +294,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * Getter for collaborateOwnerUserIdList
      *
      * @ElementName collaborateOwnerUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCollaborateOwnerUserIdList()
     {
@@ -303,7 +306,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * Setter for collaborateOwnerUserIdList
      *
      * @ElementName collaborateOwnerUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $collaborateOwnerUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $collaborateOwnerUserIdList
      * @return $this
      */
     public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList)
@@ -316,7 +320,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * Getter for serviceList
      *
      * @ElementName serviceList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getServiceList()
     {
@@ -327,7 +332,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * Setter for serviceList
      *
      * @ElementName serviceList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null $serviceList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceList
      * @return $this
      */
     public function setServiceList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList $serviceList)

@@ -22,13 +22,15 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName originatingServiceKey
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatingServiceKey = null;
 
     /**
      * @ElementName terminatingServiceKey
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingServiceKey = null;
 
@@ -60,7 +62,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for originatingServiceKey
      *
      * @ElementName originatingServiceKey
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOriginatingServiceKey()
     {
@@ -71,7 +74,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for originatingServiceKey
      *
      * @ElementName originatingServiceKey
-     * @param int|null $originatingServiceKey
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingServiceKey
      * @return $this
      */
     public function setOriginatingServiceKey($originatingServiceKey)
@@ -84,7 +88,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Getter for terminatingServiceKey
      *
      * @ElementName terminatingServiceKey
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTerminatingServiceKey()
     {
@@ -95,7 +100,8 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * Setter for terminatingServiceKey
      *
      * @ElementName terminatingServiceKey
-     * @param int|null $terminatingServiceKey
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $terminatingServiceKey
      * @return $this
      */
     public function setTerminatingServiceKey($terminatingServiceKey)

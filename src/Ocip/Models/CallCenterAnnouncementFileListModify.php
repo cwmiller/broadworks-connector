@@ -12,25 +12,29 @@ class CallCenterAnnouncementFileListModify
 
     /**
      * @ElementName file1
-     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file1 = null;
 
     /**
      * @ElementName file2
-     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file2 = null;
 
     /**
      * @ElementName file3
-     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file3 = null;
 
     /**
      * @ElementName file4
-     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $file4 = null;
 
@@ -38,7 +42,8 @@ class CallCenterAnnouncementFileListModify
      * Getter for file1
      *
      * @ElementName file1
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFile1()
     {
@@ -49,7 +54,8 @@ class CallCenterAnnouncementFileListModify
      * Setter for file1
      *
      * @ElementName file1
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $file1
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $file1
      * @return $this
      */
     public function setFile1(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $file1)
@@ -62,7 +68,8 @@ class CallCenterAnnouncementFileListModify
      * Getter for file2
      *
      * @ElementName file2
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFile2()
     {
@@ -73,7 +80,8 @@ class CallCenterAnnouncementFileListModify
      * Setter for file2
      *
      * @ElementName file2
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $file2
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $file2
      * @return $this
      */
     public function setFile2(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $file2)
@@ -86,7 +94,8 @@ class CallCenterAnnouncementFileListModify
      * Getter for file3
      *
      * @ElementName file3
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFile3()
     {
@@ -97,7 +106,8 @@ class CallCenterAnnouncementFileListModify
      * Setter for file3
      *
      * @ElementName file3
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $file3
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $file3
      * @return $this
      */
     public function setFile3(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $file3)
@@ -110,7 +120,8 @@ class CallCenterAnnouncementFileListModify
      * Getter for file4
      *
      * @ElementName file4
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getFile4()
     {
@@ -121,7 +132,8 @@ class CallCenterAnnouncementFileListModify
      * Setter for file4
      *
      * @ElementName file4
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $file4
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $file4
      * @return $this
      */
     public function setFile4(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $file4)

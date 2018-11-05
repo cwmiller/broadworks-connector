@@ -56,7 +56,8 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName collaborateOwnerUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserIdList = null;
 
@@ -208,7 +209,8 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * Getter for collaborateOwnerUserIdList
      *
      * @ElementName collaborateOwnerUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCollaborateOwnerUserIdList()
     {
@@ -219,7 +221,8 @@ class GroupCollaborateBridgeModifyInstanceRequest20sp1 extends \CWM\BroadWorksCo
      * Setter for collaborateOwnerUserIdList
      *
      * @ElementName collaborateOwnerUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $collaborateOwnerUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $collaborateOwnerUserIdList
      * @return $this
      */
     public function setCollaborateOwnerUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $collaborateOwnerUserIdList)

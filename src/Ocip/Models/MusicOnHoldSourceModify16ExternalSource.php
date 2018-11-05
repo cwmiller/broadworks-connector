@@ -10,7 +10,8 @@ class MusicOnHoldSourceModify16ExternalSource
 
     /**
      * @ElementName accessDeviceEndpoint
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
 
@@ -18,7 +19,8 @@ class MusicOnHoldSourceModify16ExternalSource
      * Getter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceEndpoint()
     {
@@ -29,7 +31,8 @@ class MusicOnHoldSourceModify16ExternalSource
      * Setter for accessDeviceEndpoint
      *
      * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $accessDeviceEndpoint
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $accessDeviceEndpoint)

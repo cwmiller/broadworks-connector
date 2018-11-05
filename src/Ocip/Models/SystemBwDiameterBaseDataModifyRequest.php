@@ -16,7 +16,8 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName xsRealm
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $xsRealm = null;
 
@@ -28,7 +29,8 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName psRealm
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $psRealm = null;
 
@@ -102,7 +104,8 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for xsRealm
      *
      * @ElementName xsRealm
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getXsRealm()
     {
@@ -113,7 +116,8 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for xsRealm
      *
      * @ElementName xsRealm
-     * @param string|null $xsRealm
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $xsRealm
      * @return $this
      */
     public function setXsRealm($xsRealm)
@@ -150,7 +154,8 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for psRealm
      *
      * @ElementName psRealm
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPsRealm()
     {
@@ -161,7 +166,8 @@ class SystemBwDiameterBaseDataModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for psRealm
      *
      * @ElementName psRealm
-     * @param string|null $psRealm
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $psRealm
      * @return $this
      */
     public function setPsRealm($psRealm)

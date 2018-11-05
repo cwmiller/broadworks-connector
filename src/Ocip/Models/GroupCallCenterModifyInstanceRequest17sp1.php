@@ -61,7 +61,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName reportingServerName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reportingServerName = null;
 
@@ -109,7 +110,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName wrapUpSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $wrapUpSeconds = null;
 
@@ -121,7 +123,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName forceDeliveryWaitTimeSeconds
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forceDeliveryWaitTimeSeconds = null;
 
@@ -139,7 +142,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName agentUnavailableCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;
 
@@ -333,7 +337,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Getter for reportingServerName
      *
      * @ElementName reportingServerName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReportingServerName()
     {
@@ -344,7 +349,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Setter for reportingServerName
      *
      * @ElementName reportingServerName
-     * @param string|null $reportingServerName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportingServerName
      * @return $this
      */
     public function setReportingServerName($reportingServerName)
@@ -525,7 +531,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Getter for wrapUpSeconds
      *
      * @ElementName wrapUpSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWrapUpSeconds()
     {
@@ -536,7 +543,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Setter for wrapUpSeconds
      *
      * @ElementName wrapUpSeconds
-     * @param int|null $wrapUpSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)
@@ -573,7 +581,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Getter for forceDeliveryWaitTimeSeconds
      *
      * @ElementName forceDeliveryWaitTimeSeconds
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getForceDeliveryWaitTimeSeconds()
     {
@@ -584,7 +593,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Setter for forceDeliveryWaitTimeSeconds
      *
      * @ElementName forceDeliveryWaitTimeSeconds
-     * @param int|null $forceDeliveryWaitTimeSeconds
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $forceDeliveryWaitTimeSeconds
      * @return $this
      */
     public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
@@ -645,7 +655,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Getter for agentUnavailableCode
      *
      * @ElementName agentUnavailableCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUnavailableCode()
     {
@@ -656,7 +667,8 @@ class GroupCallCenterModifyInstanceRequest17sp1 extends \CWM\BroadWorksConnector
      * Setter for agentUnavailableCode
      *
      * @ElementName agentUnavailableCode
-     * @param string|null $agentUnavailableCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUnavailableCode
      * @return $this
      */
     public function setAgentUnavailableCode($agentUnavailableCode)

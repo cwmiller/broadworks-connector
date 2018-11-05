@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *            callMeNowRule
  *        applyToAttendedCallTransfers
  *
- * @see SystemCommunicationBarringProfileGetRequest19sp1
+ * @see SystemCommunicationBarringProfileGetRequest19sp1V2
  */
 class SystemCommunicationBarringProfileGetResponse19sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

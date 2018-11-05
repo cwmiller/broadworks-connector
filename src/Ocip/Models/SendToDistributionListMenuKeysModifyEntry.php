@@ -18,13 +18,15 @@ class SendToDistributionListMenuKeysModifyEntry
 
     /**
      * @ElementName selectDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $selectDistributionList = null;
 
     /**
      * @ElementName reviewSelectedDistributionList
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $reviewSelectedDistributionList = null;
 
@@ -36,7 +38,8 @@ class SendToDistributionListMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -68,7 +71,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * Getter for selectDistributionList
      *
      * @ElementName selectDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSelectDistributionList()
     {
@@ -79,7 +83,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * Setter for selectDistributionList
      *
      * @ElementName selectDistributionList
-     * @param string|null $selectDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $selectDistributionList
      * @return $this
      */
     public function setSelectDistributionList($selectDistributionList)
@@ -92,7 +97,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * Getter for reviewSelectedDistributionList
      *
      * @ElementName reviewSelectedDistributionList
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getReviewSelectedDistributionList()
     {
@@ -103,7 +109,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * Setter for reviewSelectedDistributionList
      *
      * @ElementName reviewSelectedDistributionList
-     * @param string|null $reviewSelectedDistributionList
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reviewSelectedDistributionList
      * @return $this
      */
     public function setReviewSelectedDistributionList($reviewSelectedDistributionList)
@@ -140,7 +147,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -151,7 +159,8 @@ class SendToDistributionListMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

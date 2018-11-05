@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
- * @see SystemCollaborateModifyRequest20sp1
+ * @see SystemCollaborateModifyRequest20sp1V2
  */
 class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -73,7 +73,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName collaborateFromAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateFromAddress = null;
 
@@ -297,7 +298,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Getter for collaborateFromAddress
      *
      * @ElementName collaborateFromAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCollaborateFromAddress()
     {
@@ -308,7 +310,8 @@ class SystemCollaborateModifyRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\
      * Setter for collaborateFromAddress
      *
      * @ElementName collaborateFromAddress
-     * @param string|null $collaborateFromAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $collaborateFromAddress
      * @return $this
      */
     public function setCollaborateFromAddress($collaborateFromAddress)

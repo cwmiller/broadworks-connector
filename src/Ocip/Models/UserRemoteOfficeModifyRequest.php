@@ -28,7 +28,8 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName remoteOfficePhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $remoteOfficePhoneNumber = null;
 
@@ -84,7 +85,8 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Getter for remoteOfficePhoneNumber
      *
      * @ElementName remoteOfficePhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRemoteOfficePhoneNumber()
     {
@@ -95,7 +97,8 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * Setter for remoteOfficePhoneNumber
      *
      * @ElementName remoteOfficePhoneNumber
-     * @param string|null $remoteOfficePhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $remoteOfficePhoneNumber
      * @return $this
      */
     public function setRemoteOfficePhoneNumber($remoteOfficePhoneNumber)

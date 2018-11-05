@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           Replaced by AuthenticationVerificationResponse22V2 in AS data mode.
  *
  * @see AuthenticationVerificationRequest
- * @see AuthenticationVerificationResponse22
+ * @see AuthenticationVerificationResponse22V2
  */
 class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

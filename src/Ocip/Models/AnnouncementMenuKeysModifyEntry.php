@@ -12,13 +12,15 @@ class AnnouncementMenuKeysModifyEntry
 
     /**
      * @ElementName recordAudio
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordAudio = null;
 
     /**
      * @ElementName recordAudioVideo
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordAudioVideo = null;
 
@@ -30,7 +32,8 @@ class AnnouncementMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -38,7 +41,8 @@ class AnnouncementMenuKeysModifyEntry
      * Getter for recordAudio
      *
      * @ElementName recordAudio
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordAudio()
     {
@@ -49,7 +53,8 @@ class AnnouncementMenuKeysModifyEntry
      * Setter for recordAudio
      *
      * @ElementName recordAudio
-     * @param string|null $recordAudio
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordAudio
      * @return $this
      */
     public function setRecordAudio($recordAudio)
@@ -62,7 +67,8 @@ class AnnouncementMenuKeysModifyEntry
      * Getter for recordAudioVideo
      *
      * @ElementName recordAudioVideo
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRecordAudioVideo()
     {
@@ -73,7 +79,8 @@ class AnnouncementMenuKeysModifyEntry
      * Setter for recordAudioVideo
      *
      * @ElementName recordAudioVideo
-     * @param string|null $recordAudioVideo
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordAudioVideo
      * @return $this
      */
     public function setRecordAudioVideo($recordAudioVideo)
@@ -110,7 +117,8 @@ class AnnouncementMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -121,7 +129,8 @@ class AnnouncementMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

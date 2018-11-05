@@ -40,7 +40,8 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName groupCustomContactDirectory
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupCustomContactDirectory = null;
 
@@ -144,7 +145,8 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Getter for groupCustomContactDirectory
      *
      * @ElementName groupCustomContactDirectory
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGroupCustomContactDirectory()
     {
@@ -155,7 +157,8 @@ class GroupPolycomPhoneServicesModifyRequest extends \CWM\BroadWorksConnector\Oc
      * Setter for groupCustomContactDirectory
      *
      * @ElementName groupCustomContactDirectory
-     * @param string|null $groupCustomContactDirectory
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $groupCustomContactDirectory
      * @return $this
      */
     public function setGroupCustomContactDirectory($groupCustomContactDirectory)

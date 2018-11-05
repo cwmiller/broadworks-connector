@@ -47,13 +47,15 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName businessHours
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -199,7 +201,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
      * Getter for businessHours
      *
      * @ElementName businessHours
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getBusinessHours()
     {
@@ -210,7 +213,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
      * Setter for businessHours
      *
      * @ElementName businessHours
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $businessHours
      * @return $this
      */
     public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
@@ -223,7 +227,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -234,7 +239,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)

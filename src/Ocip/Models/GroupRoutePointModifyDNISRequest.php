@@ -28,13 +28,15 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName dnisPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $dnisPhoneNumber = null;
 
     /**
      * @ElementName extension
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
 
@@ -46,19 +48,22 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName callingLineIdPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdLastName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdFirstName = null;
 
@@ -126,7 +131,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for dnisPhoneNumber
      *
      * @ElementName dnisPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDnisPhoneNumber()
     {
@@ -137,7 +143,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for dnisPhoneNumber
      *
      * @ElementName dnisPhoneNumber
-     * @param string|null $dnisPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $dnisPhoneNumber
      * @return $this
      */
     public function setDnisPhoneNumber($dnisPhoneNumber)
@@ -150,7 +157,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for extension
      *
      * @ElementName extension
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExtension()
     {
@@ -161,7 +169,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for extension
      *
      * @ElementName extension
-     * @param string|null $extension
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -198,7 +207,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdPhoneNumber()
     {
@@ -209,7 +219,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for callingLineIdPhoneNumber
      *
      * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -222,7 +233,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for callingLineIdLastName
      *
      * @ElementName callingLineIdLastName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdLastName()
     {
@@ -233,7 +245,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for callingLineIdLastName
      *
      * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -246,7 +259,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for callingLineIdFirstName
      *
      * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCallingLineIdFirstName()
     {
@@ -257,7 +271,8 @@ class GroupRoutePointModifyDNISRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for callingLineIdFirstName
      *
      * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)

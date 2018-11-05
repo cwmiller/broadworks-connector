@@ -25,7 +25,7 @@ use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetReques
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateGetResponse;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessageSummaryUpdateModifyRequest;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest22V2;
-use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetResponse22;
+use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetResponse22V2;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusRequest21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21;
 use CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyRequest16;
@@ -211,7 +211,7 @@ trait OCISchemaServiceVoiceMessaging
 
     /**
      * @param SystemVoiceMessagingGroupGetRequest22V2 $request
-     * @return SystemVoiceMessagingGroupGetResponse22
+     * @return SystemVoiceMessagingGroupGetResponse22V2
      * @throws ErrorResponseException
      */
     public function systemVoiceMessagingGroupGetRequest22V2(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetRequest22V2 $request)

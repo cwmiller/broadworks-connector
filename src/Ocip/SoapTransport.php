@@ -12,23 +12,28 @@ class SoapTransport implements ITransport
     /** @var string */
     private $wsdlUrl;
 
+    /** @var array */
+    private $options;
+
     /**
      * @param string $wsdlUrl
+     * @param array $soapClientOptions
      */
-    public function __construct($wsdlUrl)
+    public function __construct($wsdlUrl, array $soapClientOptions)
     {
         $this->wsdlUrl = $wsdlUrl;
+        $this->options = $soapClientOptions;
     }
 
     /**
      * @param string $request
      * @return string
-     * @throws \CWM\BroadWorksConnector\Ocip\BadResponseException
+     * @throws BadResponseException
      */
     public function send($request)
     {
         if ($this->client === null) {
-            $this->client = new SoapClient($this->wsdlUrl);
+            $this->client = new SoapClient($this->wsdlUrl, $this->options);
         }
 
         $response = $this->client->processOCIMessage(['in0' => $request]);

@@ -40,25 +40,29 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName matchCallType
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchCallType = null;
 
     /**
      * @ElementName matchAlternateCallIndicator
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchAlternateCallIndicator = null;
 
     /**
      * @ElementName matchVirtualOnNetCallType
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchVirtualOnNetCallType = null;
 
@@ -256,13 +260,15 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName timeSchedule
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -324,7 +330,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -335,7 +342,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -348,7 +356,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for matchCallType
      *
      * @ElementName matchCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMatchCallType()
     {
@@ -359,7 +368,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for matchCallType
      *
      * @ElementName matchCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchCallType
      * @return $this
      */
     public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType)
@@ -372,7 +382,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for matchAlternateCallIndicator
      *
      * @ElementName matchAlternateCallIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMatchAlternateCallIndicator()
     {
@@ -383,7 +394,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for matchAlternateCallIndicator
      *
      * @ElementName matchAlternateCallIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchAlternateCallIndicator
      * @return $this
      */
     public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator)
@@ -396,7 +408,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for matchVirtualOnNetCallType
      *
      * @ElementName matchVirtualOnNetCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMatchVirtualOnNetCallType()
     {
@@ -407,7 +420,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for matchVirtualOnNetCallType
      *
      * @ElementName matchVirtualOnNetCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null $matchVirtualOnNetCallType
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchVirtualOnNetCallType
      * @return $this
      */
     public function setMatchVirtualOnNetCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList $matchVirtualOnNetCallType)
@@ -1188,7 +1202,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -1199,7 +1214,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param string|null $timeSchedule
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -1212,7 +1228,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -1223,7 +1240,8 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param string|null $holidaySchedule
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)

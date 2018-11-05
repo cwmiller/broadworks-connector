@@ -16,31 +16,36 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName webServerClusterPublicFQDN
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webServerClusterPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterPrimaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterSecondaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterPrimaryPrivateFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterSecondaryPrivateFQDN = null;
 
@@ -48,7 +53,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for webServerClusterPublicFQDN
      *
      * @ElementName webServerClusterPublicFQDN
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebServerClusterPublicFQDN()
     {
@@ -59,7 +65,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for webServerClusterPublicFQDN
      *
      * @ElementName webServerClusterPublicFQDN
-     * @param string|null $webServerClusterPublicFQDN
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webServerClusterPublicFQDN
      * @return $this
      */
     public function setWebServerClusterPublicFQDN($webServerClusterPublicFQDN)
@@ -72,7 +79,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for applicationServerClusterPrimaryPublicFQDN
      *
      * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationServerClusterPrimaryPublicFQDN()
     {
@@ -83,7 +91,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for applicationServerClusterPrimaryPublicFQDN
      *
      * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @param string|null $applicationServerClusterPrimaryPublicFQDN
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterPrimaryPublicFQDN
      * @return $this
      */
     public function setApplicationServerClusterPrimaryPublicFQDN($applicationServerClusterPrimaryPublicFQDN)
@@ -96,7 +105,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for applicationServerClusterSecondaryPublicFQDN
      *
      * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationServerClusterSecondaryPublicFQDN()
     {
@@ -107,7 +117,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for applicationServerClusterSecondaryPublicFQDN
      *
      * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @param string|null $applicationServerClusterSecondaryPublicFQDN
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterSecondaryPublicFQDN
      * @return $this
      */
     public function setApplicationServerClusterSecondaryPublicFQDN($applicationServerClusterSecondaryPublicFQDN)
@@ -120,7 +131,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for applicationServerClusterPrimaryPrivateFQDN
      *
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationServerClusterPrimaryPrivateFQDN()
     {
@@ -131,7 +143,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for applicationServerClusterPrimaryPrivateFQDN
      *
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @param string|null $applicationServerClusterPrimaryPrivateFQDN
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterPrimaryPrivateFQDN
      * @return $this
      */
     public function setApplicationServerClusterPrimaryPrivateFQDN($applicationServerClusterPrimaryPrivateFQDN)
@@ -144,7 +157,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for applicationServerClusterSecondaryPrivateFQDN
      *
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationServerClusterSecondaryPrivateFQDN()
     {
@@ -155,7 +169,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for applicationServerClusterSecondaryPrivateFQDN
      *
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @param string|null $applicationServerClusterSecondaryPrivateFQDN
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterSecondaryPrivateFQDN
      * @return $this
      */
     public function setApplicationServerClusterSecondaryPrivateFQDN($applicationServerClusterSecondaryPrivateFQDN)

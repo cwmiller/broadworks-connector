@@ -55,13 +55,15 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName scfSignalingIPAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfSignalingIPAddress = null;
 
     /**
      * @ElementName scfSignalingPort
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfSignalingPort = null;
 
@@ -213,7 +215,8 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for scfSignalingIPAddress
      *
      * @ElementName scfSignalingIPAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getScfSignalingIPAddress()
     {
@@ -224,7 +227,8 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for scfSignalingIPAddress
      *
      * @ElementName scfSignalingIPAddress
-     * @param string|null $scfSignalingIPAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $scfSignalingIPAddress
      * @return $this
      */
     public function setScfSignalingIPAddress($scfSignalingIPAddress)
@@ -237,7 +241,8 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Getter for scfSignalingPort
      *
      * @ElementName scfSignalingPort
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getScfSignalingPort()
     {
@@ -248,7 +253,8 @@ class SystemBroadWorksMobilityModifyRequest extends \CWM\BroadWorksConnector\Oci
      * Setter for scfSignalingPort
      *
      * @ElementName scfSignalingPort
-     * @param int|null $scfSignalingPort
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $scfSignalingPort
      * @return $this
      */
     public function setScfSignalingPort($scfSignalingPort)

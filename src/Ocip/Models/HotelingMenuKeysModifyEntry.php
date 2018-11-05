@@ -12,25 +12,29 @@ class HotelingMenuKeysModifyEntry
 
     /**
      * @ElementName checkHostStatus
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $checkHostStatus = null;
 
     /**
      * @ElementName associateWithHost
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $associateWithHost = null;
 
     /**
      * @ElementName disassociateFromHost
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromHost = null;
 
     /**
      * @ElementName disassociateFromRemoteHost
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromRemoteHost = null;
 
@@ -42,7 +46,8 @@ class HotelingMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -50,7 +55,8 @@ class HotelingMenuKeysModifyEntry
      * Getter for checkHostStatus
      *
      * @ElementName checkHostStatus
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCheckHostStatus()
     {
@@ -61,7 +67,8 @@ class HotelingMenuKeysModifyEntry
      * Setter for checkHostStatus
      *
      * @ElementName checkHostStatus
-     * @param string|null $checkHostStatus
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $checkHostStatus
      * @return $this
      */
     public function setCheckHostStatus($checkHostStatus)
@@ -74,7 +81,8 @@ class HotelingMenuKeysModifyEntry
      * Getter for associateWithHost
      *
      * @ElementName associateWithHost
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAssociateWithHost()
     {
@@ -85,7 +93,8 @@ class HotelingMenuKeysModifyEntry
      * Setter for associateWithHost
      *
      * @ElementName associateWithHost
-     * @param string|null $associateWithHost
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $associateWithHost
      * @return $this
      */
     public function setAssociateWithHost($associateWithHost)
@@ -98,7 +107,8 @@ class HotelingMenuKeysModifyEntry
      * Getter for disassociateFromHost
      *
      * @ElementName disassociateFromHost
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDisassociateFromHost()
     {
@@ -109,7 +119,8 @@ class HotelingMenuKeysModifyEntry
      * Setter for disassociateFromHost
      *
      * @ElementName disassociateFromHost
-     * @param string|null $disassociateFromHost
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disassociateFromHost
      * @return $this
      */
     public function setDisassociateFromHost($disassociateFromHost)
@@ -122,7 +133,8 @@ class HotelingMenuKeysModifyEntry
      * Getter for disassociateFromRemoteHost
      *
      * @ElementName disassociateFromRemoteHost
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDisassociateFromRemoteHost()
     {
@@ -133,7 +145,8 @@ class HotelingMenuKeysModifyEntry
      * Setter for disassociateFromRemoteHost
      *
      * @ElementName disassociateFromRemoteHost
-     * @param string|null $disassociateFromRemoteHost
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disassociateFromRemoteHost
      * @return $this
      */
     public function setDisassociateFromRemoteHost($disassociateFromRemoteHost)
@@ -170,7 +183,8 @@ class HotelingMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -181,7 +195,8 @@ class HotelingMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

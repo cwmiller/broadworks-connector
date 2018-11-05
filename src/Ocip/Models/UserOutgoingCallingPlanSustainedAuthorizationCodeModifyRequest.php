@@ -23,7 +23,8 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
 
     /**
      * @ElementName code
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $code = null;
 
@@ -55,7 +56,8 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * Getter for code
      *
      * @ElementName code
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCode()
     {
@@ -66,7 +68,8 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
      * Setter for code
      *
      * @ElementName code
-     * @param string|null $code
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $code
      * @return $this
      */
     public function setCode($code)

@@ -22,19 +22,22 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName terminatingAccessCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingAccessCode = null;
 
     /**
      * @ElementName redirectingAccessCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $redirectingAccessCode = null;
 
     /**
      * @ElementName clickToDialAccessCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $clickToDialAccessCode = null;
 
@@ -66,7 +69,8 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * Getter for terminatingAccessCode
      *
      * @ElementName terminatingAccessCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTerminatingAccessCode()
     {
@@ -77,7 +81,8 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * Setter for terminatingAccessCode
      *
      * @ElementName terminatingAccessCode
-     * @param string|null $terminatingAccessCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $terminatingAccessCode
      * @return $this
      */
     public function setTerminatingAccessCode($terminatingAccessCode)
@@ -90,7 +95,8 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * Getter for redirectingAccessCode
      *
      * @ElementName redirectingAccessCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRedirectingAccessCode()
     {
@@ -101,7 +107,8 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * Setter for redirectingAccessCode
      *
      * @ElementName redirectingAccessCode
-     * @param string|null $redirectingAccessCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingAccessCode
      * @return $this
      */
     public function setRedirectingAccessCode($redirectingAccessCode)
@@ -114,7 +121,8 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * Getter for clickToDialAccessCode
      *
      * @ElementName clickToDialAccessCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getClickToDialAccessCode()
     {
@@ -125,7 +133,8 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
      * Setter for clickToDialAccessCode
      *
      * @ElementName clickToDialAccessCode
-     * @param string|null $clickToDialAccessCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $clickToDialAccessCode
      * @return $this
      */
     public function setClickToDialAccessCode($clickToDialAccessCode)

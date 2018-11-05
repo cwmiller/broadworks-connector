@@ -10,7 +10,8 @@ class GroupEnterpriseTrunkModifyRequestOrderedRouting
 
     /**
      * @ElementName trunkGroupList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupList = null;
 
@@ -24,7 +25,8 @@ class GroupEnterpriseTrunkModifyRequestOrderedRouting
      * Getter for trunkGroupList
      *
      * @ElementName trunkGroupList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTrunkGroupList()
     {
@@ -35,7 +37,8 @@ class GroupEnterpriseTrunkModifyRequestOrderedRouting
      * Setter for trunkGroupList
      *
      * @ElementName trunkGroupList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList|null $trunkGroupList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil $trunkGroupList
      * @return $this
      */
     public function setTrunkGroupList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkTrunkGroupList $trunkGroupList)

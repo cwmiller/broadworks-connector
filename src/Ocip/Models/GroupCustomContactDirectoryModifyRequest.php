@@ -42,7 +42,8 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName userIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;
 
@@ -146,7 +147,8 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * Getter for userIdList
      *
      * @ElementName userIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getUserIdList()
     {
@@ -157,7 +159,8 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * Setter for userIdList
      *
      * @ElementName userIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $userIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $userIdList
      * @return $this
      */
     public function setUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $userIdList)

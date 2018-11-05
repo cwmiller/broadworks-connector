@@ -16,7 +16,8 @@ class GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
 
     /**
      * @ElementName priorityWeightedTrunkGroupList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $priorityWeightedTrunkGroupList = null;
 
@@ -48,7 +49,8 @@ class GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * Getter for priorityWeightedTrunkGroupList
      *
      * @ElementName priorityWeightedTrunkGroupList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPriorityWeightedTrunkGroupList()
     {
@@ -59,7 +61,8 @@ class GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * Setter for priorityWeightedTrunkGroupList
      *
      * @ElementName priorityWeightedTrunkGroupList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null $priorityWeightedTrunkGroupList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList|null|\CWM\BroadWorksConnector\Ocip\Nil $priorityWeightedTrunkGroupList
      * @return $this
      */
     public function setPriorityWeightedTrunkGroupList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementGroupEnterpriseTrunkPriorityWeightedTrunkGroupList $priorityWeightedTrunkGroupList)

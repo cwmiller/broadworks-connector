@@ -22,19 +22,22 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName cpcValue
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cpcValue = null;
 
     /**
      * @ElementName isupOliValue
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $isupOliValue = null;
 
     /**
      * @ElementName gtdOliValue
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $gtdOliValue = null;
 
@@ -70,7 +73,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName webDisplayKey
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webDisplayKey = null;
 
@@ -102,7 +106,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for cpcValue
      *
      * @ElementName cpcValue
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getCpcValue()
     {
@@ -113,7 +118,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for cpcValue
      *
      * @ElementName cpcValue
-     * @param string|null $cpcValue
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $cpcValue
      * @return $this
      */
     public function setCpcValue($cpcValue)
@@ -126,7 +132,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for isupOliValue
      *
      * @ElementName isupOliValue
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getIsupOliValue()
     {
@@ -137,7 +144,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for isupOliValue
      *
      * @ElementName isupOliValue
-     * @param int|null $isupOliValue
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $isupOliValue
      * @return $this
      */
     public function setIsupOliValue($isupOliValue)
@@ -150,7 +158,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for gtdOliValue
      *
      * @ElementName gtdOliValue
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGtdOliValue()
     {
@@ -161,7 +170,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for gtdOliValue
      *
      * @ElementName gtdOliValue
-     * @param string|null $gtdOliValue
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $gtdOliValue
      * @return $this
      */
     public function setGtdOliValue($gtdOliValue)
@@ -294,7 +304,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Getter for webDisplayKey
      *
      * @ElementName webDisplayKey
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getWebDisplayKey()
     {
@@ -305,7 +316,8 @@ class SystemCallingPartyCategoryModifyRequest extends \CWM\BroadWorksConnector\O
      * Setter for webDisplayKey
      *
      * @ElementName webDisplayKey
-     * @param string|null $webDisplayKey
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webDisplayKey
      * @return $this
      */
     public function setWebDisplayKey($webDisplayKey)

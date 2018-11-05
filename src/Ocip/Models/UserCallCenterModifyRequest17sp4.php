@@ -43,7 +43,8 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName agentUnavailableCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUnavailableCode = null;
 
@@ -109,7 +110,8 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName outgoingCallDNIS
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outgoingCallDNIS = null;
 
@@ -197,7 +199,8 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for agentUnavailableCode
      *
      * @ElementName agentUnavailableCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUnavailableCode()
     {
@@ -208,7 +211,8 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for agentUnavailableCode
      *
      * @ElementName agentUnavailableCode
-     * @param string|null $agentUnavailableCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUnavailableCode
      * @return $this
      */
     public function setAgentUnavailableCode($agentUnavailableCode)
@@ -461,7 +465,8 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for outgoingCallDNIS
      *
      * @ElementName outgoingCallDNIS
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutgoingCallDNIS()
     {
@@ -472,7 +477,8 @@ class UserCallCenterModifyRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for outgoingCallDNIS
      *
      * @ElementName outgoingCallDNIS
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $outgoingCallDNIS
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null|\CWM\BroadWorksConnector\Ocip\Nil $outgoingCallDNIS
      * @return $this
      */
     public function setOutgoingCallDNIS(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $outgoingCallDNIS)

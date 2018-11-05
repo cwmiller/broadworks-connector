@@ -18,7 +18,8 @@ class CommPilotExpressSREmailNotifyModify
 
     /**
      * @ElementName emailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailAddress = null;
 
@@ -50,7 +51,8 @@ class CommPilotExpressSREmailNotifyModify
      * Getter for emailAddress
      *
      * @ElementName emailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getEmailAddress()
     {
@@ -61,7 +63,8 @@ class CommPilotExpressSREmailNotifyModify
      * Setter for emailAddress
      *
      * @ElementName emailAddress
-     * @param string|null $emailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)

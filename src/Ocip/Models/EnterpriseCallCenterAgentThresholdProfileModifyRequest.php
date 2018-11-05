@@ -34,79 +34,92 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName profileDescription
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileDescription = null;
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallStateIdleTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallStateIdleTimeRed = null;
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallStateOnCallTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallStateOnCallTimeRed = null;
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentAgentStateUnavailableTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentAgentStateUnavailableTimeRed = null;
 
     /**
      * @ElementName thresholdAverageBusyInTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageBusyInTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageBusyInTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageBusyInTimeRed = null;
 
     /**
      * @ElementName thresholdAverageBusyOutTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageBusyOutTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageBusyOutTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageBusyOutTimeRed = null;
 
     /**
      * @ElementName thresholdAverageWrapUpTimeYellow
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageWrapUpTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageWrapUpTimeRed
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageWrapUpTimeRed = null;
 
@@ -118,13 +131,15 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName notificationEmailAddressList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notificationEmailAddressList = null;
 
     /**
      * @ElementName agentUserIdList
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $agentUserIdList = null;
 
@@ -204,7 +219,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for profileDescription
      *
      * @ElementName profileDescription
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getProfileDescription()
     {
@@ -215,7 +231,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for profileDescription
      *
      * @ElementName profileDescription
-     * @param string|null $profileDescription
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profileDescription
      * @return $this
      */
     public function setProfileDescription($profileDescription)
@@ -228,7 +245,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdCurrentCallStateIdleTimeYellow
      *
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentCallStateIdleTimeYellow()
     {
@@ -239,7 +257,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdCurrentCallStateIdleTimeYellow
      *
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @param int|null $thresholdCurrentCallStateIdleTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateIdleTimeYellow
      * @return $this
      */
     public function setThresholdCurrentCallStateIdleTimeYellow($thresholdCurrentCallStateIdleTimeYellow)
@@ -252,7 +271,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdCurrentCallStateIdleTimeRed
      *
      * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentCallStateIdleTimeRed()
     {
@@ -263,7 +283,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdCurrentCallStateIdleTimeRed
      *
      * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @param int|null $thresholdCurrentCallStateIdleTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateIdleTimeRed
      * @return $this
      */
     public function setThresholdCurrentCallStateIdleTimeRed($thresholdCurrentCallStateIdleTimeRed)
@@ -276,7 +297,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdCurrentCallStateOnCallTimeYellow
      *
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentCallStateOnCallTimeYellow()
     {
@@ -287,7 +309,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdCurrentCallStateOnCallTimeYellow
      *
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @param int|null $thresholdCurrentCallStateOnCallTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateOnCallTimeYellow
      * @return $this
      */
     public function setThresholdCurrentCallStateOnCallTimeYellow($thresholdCurrentCallStateOnCallTimeYellow)
@@ -300,7 +323,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdCurrentCallStateOnCallTimeRed
      *
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentCallStateOnCallTimeRed()
     {
@@ -311,7 +335,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdCurrentCallStateOnCallTimeRed
      *
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @param int|null $thresholdCurrentCallStateOnCallTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateOnCallTimeRed
      * @return $this
      */
     public function setThresholdCurrentCallStateOnCallTimeRed($thresholdCurrentCallStateOnCallTimeRed)
@@ -324,7 +349,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdCurrentAgentStateUnavailableTimeYellow
      *
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentAgentStateUnavailableTimeYellow()
     {
@@ -335,7 +361,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdCurrentAgentStateUnavailableTimeYellow
      *
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @param int|null $thresholdCurrentAgentStateUnavailableTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentAgentStateUnavailableTimeYellow
      * @return $this
      */
     public function setThresholdCurrentAgentStateUnavailableTimeYellow($thresholdCurrentAgentStateUnavailableTimeYellow)
@@ -348,7 +375,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdCurrentAgentStateUnavailableTimeRed
      *
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdCurrentAgentStateUnavailableTimeRed()
     {
@@ -359,7 +387,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdCurrentAgentStateUnavailableTimeRed
      *
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @param int|null $thresholdCurrentAgentStateUnavailableTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentAgentStateUnavailableTimeRed
      * @return $this
      */
     public function setThresholdCurrentAgentStateUnavailableTimeRed($thresholdCurrentAgentStateUnavailableTimeRed)
@@ -372,7 +401,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdAverageBusyInTimeYellow
      *
      * @ElementName thresholdAverageBusyInTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageBusyInTimeYellow()
     {
@@ -383,7 +413,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdAverageBusyInTimeYellow
      *
      * @ElementName thresholdAverageBusyInTimeYellow
-     * @param int|null $thresholdAverageBusyInTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyInTimeYellow
      * @return $this
      */
     public function setThresholdAverageBusyInTimeYellow($thresholdAverageBusyInTimeYellow)
@@ -396,7 +427,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdAverageBusyInTimeRed
      *
      * @ElementName thresholdAverageBusyInTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageBusyInTimeRed()
     {
@@ -407,7 +439,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdAverageBusyInTimeRed
      *
      * @ElementName thresholdAverageBusyInTimeRed
-     * @param int|null $thresholdAverageBusyInTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyInTimeRed
      * @return $this
      */
     public function setThresholdAverageBusyInTimeRed($thresholdAverageBusyInTimeRed)
@@ -420,7 +453,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdAverageBusyOutTimeYellow
      *
      * @ElementName thresholdAverageBusyOutTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageBusyOutTimeYellow()
     {
@@ -431,7 +465,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdAverageBusyOutTimeYellow
      *
      * @ElementName thresholdAverageBusyOutTimeYellow
-     * @param int|null $thresholdAverageBusyOutTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyOutTimeYellow
      * @return $this
      */
     public function setThresholdAverageBusyOutTimeYellow($thresholdAverageBusyOutTimeYellow)
@@ -444,7 +479,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdAverageBusyOutTimeRed
      *
      * @ElementName thresholdAverageBusyOutTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageBusyOutTimeRed()
     {
@@ -455,7 +491,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdAverageBusyOutTimeRed
      *
      * @ElementName thresholdAverageBusyOutTimeRed
-     * @param int|null $thresholdAverageBusyOutTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyOutTimeRed
      * @return $this
      */
     public function setThresholdAverageBusyOutTimeRed($thresholdAverageBusyOutTimeRed)
@@ -468,7 +505,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdAverageWrapUpTimeYellow
      *
      * @ElementName thresholdAverageWrapUpTimeYellow
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageWrapUpTimeYellow()
     {
@@ -479,7 +517,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdAverageWrapUpTimeYellow
      *
      * @ElementName thresholdAverageWrapUpTimeYellow
-     * @param int|null $thresholdAverageWrapUpTimeYellow
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageWrapUpTimeYellow
      * @return $this
      */
     public function setThresholdAverageWrapUpTimeYellow($thresholdAverageWrapUpTimeYellow)
@@ -492,7 +531,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for thresholdAverageWrapUpTimeRed
      *
      * @ElementName thresholdAverageWrapUpTimeRed
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getThresholdAverageWrapUpTimeRed()
     {
@@ -503,7 +543,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for thresholdAverageWrapUpTimeRed
      *
      * @ElementName thresholdAverageWrapUpTimeRed
-     * @param int|null $thresholdAverageWrapUpTimeRed
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageWrapUpTimeRed
      * @return $this
      */
     public function setThresholdAverageWrapUpTimeRed($thresholdAverageWrapUpTimeRed)
@@ -540,7 +581,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for notificationEmailAddressList
      *
      * @ElementName notificationEmailAddressList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNotificationEmailAddressList()
     {
@@ -551,7 +593,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for notificationEmailAddressList
      *
      * @ElementName notificationEmailAddressList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null $notificationEmailAddressList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil $notificationEmailAddressList
      * @return $this
      */
     public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList $notificationEmailAddressList)
@@ -564,7 +607,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Getter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAgentUserIdList()
     {
@@ -575,7 +619,8 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
      * Setter for agentUserIdList
      *
      * @ElementName agentUserIdList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)

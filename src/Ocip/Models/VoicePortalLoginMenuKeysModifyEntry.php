@@ -12,7 +12,8 @@ class VoicePortalLoginMenuKeysModifyEntry
 
     /**
      * @ElementName accessUsingOtherMailboxId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessUsingOtherMailboxId = null;
 
@@ -20,7 +21,8 @@ class VoicePortalLoginMenuKeysModifyEntry
      * Getter for accessUsingOtherMailboxId
      *
      * @ElementName accessUsingOtherMailboxId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessUsingOtherMailboxId()
     {
@@ -31,7 +33,8 @@ class VoicePortalLoginMenuKeysModifyEntry
      * Setter for accessUsingOtherMailboxId
      *
      * @ElementName accessUsingOtherMailboxId
-     * @param string|null $accessUsingOtherMailboxId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessUsingOtherMailboxId
      * @return $this
      */
     public function setAccessUsingOtherMailboxId($accessUsingOtherMailboxId)

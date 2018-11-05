@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Replaced by GroupGetResponse22V2 in AS data mode.
  *
  * @see GroupGetRequest22
- * @see GroupGetResponse22
+ * @see GroupGetResponse22V2
  */
 class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

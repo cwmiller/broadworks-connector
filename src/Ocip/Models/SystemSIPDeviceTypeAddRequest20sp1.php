@@ -30,7 +30,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see macInNonRequest
- * @see SystemSIPDeviceTypeAddRequest21sp1
+ * @see SystemSIPDeviceTypeAddRequest21sp1V2
  */
 class SystemSIPDeviceTypeAddRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

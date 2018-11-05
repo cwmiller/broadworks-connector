@@ -22,7 +22,8 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
 
     /**
      * @ElementName resellerName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $resellerName = null;
 
@@ -54,7 +55,8 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Getter for resellerName
      *
      * @ElementName resellerName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getResellerName()
     {
@@ -65,7 +67,8 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      * Setter for resellerName
      *
      * @ElementName resellerName
-     * @param string|null $resellerName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resellerName
      * @return $this
      */
     public function setResellerName($resellerName)

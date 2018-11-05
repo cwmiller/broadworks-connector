@@ -124,7 +124,8 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;
 
@@ -558,7 +559,8 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Getter for loginDisabledNotifyEmailAddress
      *
      * @ElementName loginDisabledNotifyEmailAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getLoginDisabledNotifyEmailAddress()
     {
@@ -569,7 +571,8 @@ class GroupPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * Setter for loginDisabledNotifyEmailAddress
      *
      * @ElementName loginDisabledNotifyEmailAddress
-     * @param string|null $loginDisabledNotifyEmailAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $loginDisabledNotifyEmailAddress
      * @return $this
      */
     public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress)

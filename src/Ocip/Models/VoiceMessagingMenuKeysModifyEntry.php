@@ -12,55 +12,64 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName playMessages
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playMessages = null;
 
     /**
      * @ElementName changeBusyGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeBusyGreeting = null;
 
     /**
      * @ElementName changeNoAnswerGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeNoAnswerGreeting = null;
 
     /**
      * @ElementName changeExtendedAwayGreeting
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeExtendedAwayGreeting = null;
 
     /**
      * @ElementName composeMessage
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
 
     /**
      * @ElementName deleteAllMessages
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteAllMessages = null;
 
     /**
      * @ElementName passcode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
 
     /**
      * @ElementName personalizedName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
 
     /**
      * @ElementName messageDeposit
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $messageDeposit = null;
 
@@ -72,7 +81,8 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName repeatMenu
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
 
@@ -80,7 +90,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for playMessages
      *
      * @ElementName playMessages
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPlayMessages()
     {
@@ -91,7 +102,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for playMessages
      *
      * @ElementName playMessages
-     * @param string|null $playMessages
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playMessages
      * @return $this
      */
     public function setPlayMessages($playMessages)
@@ -104,7 +116,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for changeBusyGreeting
      *
      * @ElementName changeBusyGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeBusyGreeting()
     {
@@ -115,7 +128,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for changeBusyGreeting
      *
      * @ElementName changeBusyGreeting
-     * @param string|null $changeBusyGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeBusyGreeting
      * @return $this
      */
     public function setChangeBusyGreeting($changeBusyGreeting)
@@ -128,7 +142,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for changeNoAnswerGreeting
      *
      * @ElementName changeNoAnswerGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeNoAnswerGreeting()
     {
@@ -139,7 +154,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for changeNoAnswerGreeting
      *
      * @ElementName changeNoAnswerGreeting
-     * @param string|null $changeNoAnswerGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeNoAnswerGreeting
      * @return $this
      */
     public function setChangeNoAnswerGreeting($changeNoAnswerGreeting)
@@ -152,7 +168,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for changeExtendedAwayGreeting
      *
      * @ElementName changeExtendedAwayGreeting
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getChangeExtendedAwayGreeting()
     {
@@ -163,7 +180,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for changeExtendedAwayGreeting
      *
      * @ElementName changeExtendedAwayGreeting
-     * @param string|null $changeExtendedAwayGreeting
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeExtendedAwayGreeting
      * @return $this
      */
     public function setChangeExtendedAwayGreeting($changeExtendedAwayGreeting)
@@ -176,7 +194,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for composeMessage
      *
      * @ElementName composeMessage
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getComposeMessage()
     {
@@ -187,7 +206,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for composeMessage
      *
      * @ElementName composeMessage
-     * @param string|null $composeMessage
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
@@ -200,7 +220,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for deleteAllMessages
      *
      * @ElementName deleteAllMessages
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDeleteAllMessages()
     {
@@ -211,7 +232,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for deleteAllMessages
      *
      * @ElementName deleteAllMessages
-     * @param string|null $deleteAllMessages
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deleteAllMessages
      * @return $this
      */
     public function setDeleteAllMessages($deleteAllMessages)
@@ -224,7 +246,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for passcode
      *
      * @ElementName passcode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPasscode()
     {
@@ -235,7 +258,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for passcode
      *
      * @ElementName passcode
-     * @param string|null $passcode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -248,7 +272,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for personalizedName
      *
      * @ElementName personalizedName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPersonalizedName()
     {
@@ -259,7 +284,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for personalizedName
      *
      * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -272,7 +298,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for messageDeposit
      *
      * @ElementName messageDeposit
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMessageDeposit()
     {
@@ -283,7 +310,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for messageDeposit
      *
      * @ElementName messageDeposit
-     * @param string|null $messageDeposit
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $messageDeposit
      * @return $this
      */
     public function setMessageDeposit($messageDeposit)
@@ -320,7 +348,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Getter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getRepeatMenu()
     {
@@ -331,7 +360,8 @@ class VoiceMessagingMenuKeysModifyEntry
      * Setter for repeatMenu
      *
      * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)

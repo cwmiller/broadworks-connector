@@ -24,7 +24,8 @@ class ReceptionistContactUserAndNote
 
     /**
      * @ElementName note
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $note = null;
 
@@ -80,7 +81,8 @@ class ReceptionistContactUserAndNote
      * Getter for note
      *
      * @ElementName note
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNote()
     {
@@ -91,7 +93,8 @@ class ReceptionistContactUserAndNote
      * Setter for note
      *
      * @ElementName note
-     * @param string|null $note
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $note
      * @return $this
      */
     public function setNote($note)

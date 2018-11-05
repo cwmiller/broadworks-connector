@@ -37,13 +37,15 @@ class UserCustomRingbackUserModifyCriteriaRequest16 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName timeSchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
-     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
 
@@ -183,7 +185,8 @@ class UserCustomRingbackUserModifyCriteriaRequest16 extends \CWM\BroadWorksConne
      * Getter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTimeSchedule()
     {
@@ -194,7 +197,8 @@ class UserCustomRingbackUserModifyCriteriaRequest16 extends \CWM\BroadWorksConne
      * Setter for timeSchedule
      *
      * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
@@ -207,7 +211,8 @@ class UserCustomRingbackUserModifyCriteriaRequest16 extends \CWM\BroadWorksConne
      * Getter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHolidaySchedule()
     {
@@ -218,7 +223,8 @@ class UserCustomRingbackUserModifyCriteriaRequest16 extends \CWM\BroadWorksConne
      * Setter for holidaySchedule
      *
      * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)

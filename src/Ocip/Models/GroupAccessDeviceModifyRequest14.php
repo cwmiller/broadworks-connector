@@ -40,49 +40,57 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName netAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $netAddress = null;
 
     /**
      * @ElementName port
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $macAddress = null;
 
     /**
      * @ElementName serialNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serialNumber = null;
 
     /**
      * @ElementName description
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
 
     /**
      * @ElementName configurationMode
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configurationMode = null;
 
@@ -94,13 +102,14 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName physicalLocation
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
-     * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @var string|null
      */
     private $transportProtocol = null;
 
@@ -124,13 +133,15 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilityManagerDefaultOriginatingServiceKey = null;
 
     /**
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @var int|null
+     * @Nillable
+     * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilityManagerDefaultTerminatingServiceKey = null;
 
@@ -142,7 +153,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName accessDeviceCredentials
-     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceCredentials = null;
 
@@ -246,7 +258,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for netAddress
      *
      * @ElementName netAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNetAddress()
     {
@@ -257,7 +270,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for netAddress
      *
      * @ElementName netAddress
-     * @param string|null $netAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -270,7 +284,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for port
      *
      * @ElementName port
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPort()
     {
@@ -281,7 +296,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for port
      *
      * @ElementName port
-     * @param int|null $port
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
      * @return $this
      */
     public function setPort($port)
@@ -294,7 +310,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for outboundProxyServerNetAddress
      *
      * @ElementName outboundProxyServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getOutboundProxyServerNetAddress()
     {
@@ -305,7 +322,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for outboundProxyServerNetAddress
      *
      * @ElementName outboundProxyServerNetAddress
-     * @param string|null $outboundProxyServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $outboundProxyServerNetAddress
      * @return $this
      */
     public function setOutboundProxyServerNetAddress($outboundProxyServerNetAddress)
@@ -318,7 +336,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for stunServerNetAddress
      *
      * @ElementName stunServerNetAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getStunServerNetAddress()
     {
@@ -329,7 +348,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for stunServerNetAddress
      *
      * @ElementName stunServerNetAddress
-     * @param string|null $stunServerNetAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $stunServerNetAddress
      * @return $this
      */
     public function setStunServerNetAddress($stunServerNetAddress)
@@ -342,7 +362,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for macAddress
      *
      * @ElementName macAddress
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMacAddress()
     {
@@ -353,7 +374,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for macAddress
      *
      * @ElementName macAddress
-     * @param string|null $macAddress
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $macAddress
      * @return $this
      */
     public function setMacAddress($macAddress)
@@ -366,7 +388,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for serialNumber
      *
      * @ElementName serialNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSerialNumber()
     {
@@ -377,7 +400,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for serialNumber
      *
      * @ElementName serialNumber
-     * @param string|null $serialNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serialNumber
      * @return $this
      */
     public function setSerialNumber($serialNumber)
@@ -390,7 +414,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for description
      *
      * @ElementName description
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getDescription()
     {
@@ -401,7 +426,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for description
      *
      * @ElementName description
-     * @param string|null $description
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
      * @return $this
      */
     public function setDescription($description)
@@ -414,7 +440,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for configurationMode
      *
      * @ElementName configurationMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getConfigurationMode()
     {
@@ -425,10 +452,11 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for configurationMode
      *
      * @ElementName configurationMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null $configurationMode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $configurationMode
      * @return $this
      */
-    public function setConfigurationMode(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $configurationMode)
+    public function setConfigurationMode($configurationMode)
     {
         $this->configurationMode = $configurationMode;
         return $this;
@@ -452,7 +480,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $configurationFile
      * @return $this
      */
-    public function setConfigurationFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $configurationFile)
+    public function setConfigurationFile($configurationFile)
     {
         $this->configurationFile = $configurationFile;
         return $this;
@@ -462,7 +490,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPhysicalLocation()
     {
@@ -473,7 +502,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for physicalLocation
      *
      * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
@@ -486,7 +516,7 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @return string|null
      */
     public function getTransportProtocol()
     {
@@ -497,10 +527,10 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for transportProtocol
      *
      * @ElementName transportProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
+     * @param string|null $transportProtocol
      * @return $this
      */
-    public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
+    public function setTransportProtocol($transportProtocol)
     {
         $this->transportProtocol = $transportProtocol;
         return $this;
@@ -582,7 +612,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for mobilityManagerDefaultOriginatingServiceKey
      *
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobilityManagerDefaultOriginatingServiceKey()
     {
@@ -593,7 +624,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for mobilityManagerDefaultOriginatingServiceKey
      *
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @param int|null $mobilityManagerDefaultOriginatingServiceKey
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilityManagerDefaultOriginatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultOriginatingServiceKey($mobilityManagerDefaultOriginatingServiceKey)
@@ -606,7 +638,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for mobilityManagerDefaultTerminatingServiceKey
      *
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @return int|null
+     * @Nillable
+     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getMobilityManagerDefaultTerminatingServiceKey()
     {
@@ -617,7 +650,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for mobilityManagerDefaultTerminatingServiceKey
      *
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @param int|null $mobilityManagerDefaultTerminatingServiceKey
+     * @Nillable
+     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilityManagerDefaultTerminatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultTerminatingServiceKey($mobilityManagerDefaultTerminatingServiceKey)
@@ -654,7 +688,8 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for accessDeviceCredentials
      *
      * @ElementName accessDeviceCredentials
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessDeviceCredentials()
     {
@@ -665,10 +700,11 @@ class GroupAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for accessDeviceCredentials
      *
      * @ElementName accessDeviceCredentials
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceCredentials
      * @return $this
      */
-    public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)
+    public function setAccessDeviceCredentials($accessDeviceCredentials)
     {
         $this->accessDeviceCredentials = $accessDeviceCredentials;
         return $this;

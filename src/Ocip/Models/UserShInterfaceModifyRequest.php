@@ -23,7 +23,8 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName SCSCFName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $SCSCFName = null;
 
@@ -61,7 +62,8 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Getter for SCSCFName
      *
      * @ElementName SCSCFName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getSCSCFName()
     {
@@ -72,7 +74,8 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * Setter for SCSCFName
      *
      * @ElementName SCSCFName
-     * @param string|null $SCSCFName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $SCSCFName
      * @return $this
      */
     public function setSCSCFName($SCSCFName)

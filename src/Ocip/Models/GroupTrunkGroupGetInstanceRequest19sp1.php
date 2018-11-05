@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupTrunkGroupGetInstanceResponse19sp1
  * @see ErrorResponse
- * @see GroupTrunkGroupGetInstanceRequest19sp1
+ * @see GroupTrunkGroupGetInstanceRequest19sp1V2
  */
 class GroupTrunkGroupGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

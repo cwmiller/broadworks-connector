@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           Replaced by: SystemSIPDeviceTypeFileGetResponse20Sp1
  *
  * @see SystemSIPDeviceTypeFileGetRequest20
- * @see SystemSIPDeviceTypeFileGetResponse20
+ * @see SystemSIPDeviceTypeFileGetResponse20Sp1
  */
 class SystemSIPDeviceTypeFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {

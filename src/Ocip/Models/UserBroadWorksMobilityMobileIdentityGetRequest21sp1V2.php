@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a
  * UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2 or an ErrorResponse.
  *
- * @see UserBroadWorksMobilityMobileIdentityGetResponse21sp1
+ * @see UserBroadWorksMobilityMobileIdentityGetResponse21sp1V2
  * @see ErrorResponse
  */
 class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest

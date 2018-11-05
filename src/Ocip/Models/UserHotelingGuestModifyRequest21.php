@@ -42,7 +42,8 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName hostUserId
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostUserId = null;
 
@@ -146,7 +147,8 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Getter for hostUserId
      *
      * @ElementName hostUserId
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getHostUserId()
     {
@@ -157,7 +159,8 @@ class UserHotelingGuestModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
      * Setter for hostUserId
      *
      * @ElementName hostUserId
-     * @param string|null $hostUserId
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hostUserId
      * @return $this
      */
     public function setHostUserId($hostUserId)

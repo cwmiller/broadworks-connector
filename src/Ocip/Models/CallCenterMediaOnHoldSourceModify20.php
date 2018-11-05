@@ -30,7 +30,8 @@ class CallCenterMediaOnHoldSourceModify20
 
     /**
      * @ElementName externalAudioSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalAudioSource = null;
 
@@ -54,7 +55,8 @@ class CallCenterMediaOnHoldSourceModify20
 
     /**
      * @ElementName externalVideoSource
-     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalVideoSource = null;
 
@@ -134,7 +136,8 @@ class CallCenterMediaOnHoldSourceModify20
      * Getter for externalAudioSource
      *
      * @ElementName externalAudioSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalAudioSource()
     {
@@ -145,7 +148,8 @@ class CallCenterMediaOnHoldSourceModify20
      * Setter for externalAudioSource
      *
      * @ElementName externalAudioSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $externalAudioSource
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $externalAudioSource
      * @return $this
      */
     public function setExternalAudioSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalAudioSource)
@@ -230,7 +234,8 @@ class CallCenterMediaOnHoldSourceModify20
      * Getter for externalVideoSource
      *
      * @ElementName externalVideoSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getExternalVideoSource()
     {
@@ -241,7 +246,8 @@ class CallCenterMediaOnHoldSourceModify20
      * Setter for externalVideoSource
      *
      * @ElementName externalVideoSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null $externalVideoSource
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $externalVideoSource
      * @return $this
      */
     public function setExternalVideoSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify $externalVideoSource)

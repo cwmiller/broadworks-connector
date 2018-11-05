@@ -22,7 +22,8 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName terminatingTrunkIdentity
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingTrunkIdentity = null;
 
@@ -54,7 +55,8 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * Getter for terminatingTrunkIdentity
      *
      * @ElementName terminatingTrunkIdentity
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTerminatingTrunkIdentity()
     {
@@ -65,7 +67,8 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * Setter for terminatingTrunkIdentity
      *
      * @ElementName terminatingTrunkIdentity
-     * @param string|null $terminatingTrunkIdentity
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $terminatingTrunkIdentity
      * @return $this
      */
     public function setTerminatingTrunkIdentity($terminatingTrunkIdentity)

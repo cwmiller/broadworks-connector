@@ -102,7 +102,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
 
     /**
      * @ElementName greetingOnlyForwardDestination
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardDestination = null;
 
@@ -446,7 +447,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
      * Getter for greetingOnlyForwardDestination
      *
      * @ElementName greetingOnlyForwardDestination
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getGreetingOnlyForwardDestination()
     {
@@ -457,7 +459,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
      * Setter for greetingOnlyForwardDestination
      *
      * @ElementName greetingOnlyForwardDestination
-     * @param string|null $greetingOnlyForwardDestination
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetingOnlyForwardDestination
      * @return $this
      */
     public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination)

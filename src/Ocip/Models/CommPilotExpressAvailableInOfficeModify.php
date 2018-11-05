@@ -12,7 +12,8 @@ class CommPilotExpressAvailableInOfficeModify
 
     /**
      * @ElementName additionalPhoneNumberToRing
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $additionalPhoneNumberToRing = null;
 
@@ -32,7 +33,8 @@ class CommPilotExpressAvailableInOfficeModify
      * Getter for additionalPhoneNumberToRing
      *
      * @ElementName additionalPhoneNumberToRing
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAdditionalPhoneNumberToRing()
     {
@@ -43,7 +45,8 @@ class CommPilotExpressAvailableInOfficeModify
      * Setter for additionalPhoneNumberToRing
      *
      * @ElementName additionalPhoneNumberToRing
-     * @param string|null $additionalPhoneNumberToRing
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $additionalPhoneNumberToRing
      * @return $this
      */
     public function setAdditionalPhoneNumberToRing($additionalPhoneNumberToRing)

@@ -34,7 +34,8 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName newParentDepartmentKey
-     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newParentDepartmentKey = null;
 
@@ -114,7 +115,8 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Getter for newParentDepartmentKey
      *
      * @ElementName newParentDepartmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getNewParentDepartmentKey()
     {
@@ -125,7 +127,8 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * Setter for newParentDepartmentKey
      *
      * @ElementName newParentDepartmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null $newParentDepartmentKey
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $newParentDepartmentKey
      * @return $this
      */
     public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey $newParentDepartmentKey)

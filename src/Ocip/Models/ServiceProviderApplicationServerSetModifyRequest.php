@@ -23,7 +23,8 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName applicationServerSetName
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerSetName = null;
 
@@ -55,7 +56,8 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
      * Getter for applicationServerSetName
      *
      * @ElementName applicationServerSetName
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getApplicationServerSetName()
     {
@@ -66,7 +68,8 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
      * Setter for applicationServerSetName
      *
      * @ElementName applicationServerSetName
-     * @param string|null $applicationServerSetName
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerSetName
      * @return $this
      */
     public function setApplicationServerSetName($applicationServerSetName)

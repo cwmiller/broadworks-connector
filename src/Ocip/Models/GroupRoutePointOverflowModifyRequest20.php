@@ -28,7 +28,8 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName transferPhoneNumber
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
 
@@ -138,7 +139,8 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * Getter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getTransferPhoneNumber()
     {
@@ -149,7 +151,8 @@ class GroupRoutePointOverflowModifyRequest20 extends \CWM\BroadWorksConnector\Oc
      * Setter for transferPhoneNumber
      *
      * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)

@@ -16,7 +16,8 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName accessCode
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessCode = null;
 
@@ -28,7 +29,8 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName privateDigitMap
-     * @var string|null
+     * @Nillable
+     * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;
 
@@ -36,7 +38,8 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for accessCode
      *
      * @ElementName accessCode
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAccessCode()
     {
@@ -47,7 +50,8 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for accessCode
      *
      * @ElementName accessCode
-     * @param string|null $accessCode
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessCode
      * @return $this
      */
     public function setAccessCode($accessCode)
@@ -84,7 +88,8 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Getter for privateDigitMap
      *
      * @ElementName privateDigitMap
-     * @return string|null
+     * @Nillable
+     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getPrivateDigitMap()
     {
@@ -95,7 +100,8 @@ class SystemDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * Setter for privateDigitMap
      *
      * @ElementName privateDigitMap
-     * @param string|null $privateDigitMap
+     * @Nillable
+     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)

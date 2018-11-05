@@ -40,7 +40,8 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName audioFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $audioFile = null;
 
@@ -52,7 +53,8 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName videoFile
-     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
+     * @Nillable
+     * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $videoFile = null;
 
@@ -156,7 +158,8 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
      * Getter for audioFile
      *
      * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getAudioFile()
     {
@@ -167,7 +170,8 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
      * Setter for audioFile
      *
      * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null $audioFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null|\CWM\BroadWorksConnector\Ocip\Nil $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $audioFile)
@@ -204,7 +208,8 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
      * Getter for videoFile
      *
      * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
+     * @Nillable
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     public function getVideoFile()
     {
@@ -215,7 +220,8 @@ class GroupCustomRingbackGroupModifyRequest20 extends \CWM\BroadWorksConnector\O
      * Setter for videoFile
      *
      * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null $videoFile
+     * @Nillable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null|\CWM\BroadWorksConnector\Ocip\Nil $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $videoFile)

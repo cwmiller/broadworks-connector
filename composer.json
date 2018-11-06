@@ -21,13 +21,15 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "ext-soap": "*",
-        "ext-socket": "*",
         "ext-xml": "*",
         "ext-dom": "*",
         "myclabs/php-enum": "^1.6"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
+    },
+    "suggest": {
+        "ext-soap": "Needed if using SOAP to make OCI-P calls.",
+        "ext-socket": "Needed if using TCP to make OCI-P calls."
     }
 }

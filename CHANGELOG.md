@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.1.1] - 2018-11-12
+### Changed
+- composer.json now suggest soap & socket extensions instead of requiring them. You need at least one.
+
 ## [2.1.0] - 2018-11-04
 ### Added
 - `Nil` class added. Fields that are nillable can have their value set as an instance of `Nil`.
@@ -33,6 +37,7 @@
 ### Added
 - `OcipClient` now exposes helper methods for every request object.
 
+[2.1.1]: https://github.com/cwmiller/broadworks-connector/compare/2.1.0...2.1.1
 [2.1.0]: https://github.com/cwmiller/broadworks-connector/compare/2.0.3...2.1.0
 [2.0.3]: https://github.com/cwmiller/broadworks-connector/compare/2.0.2...2.0.3
 [2.0.2]: https://github.com/cwmiller/broadworks-connector/compare/2.0.1...2.0.2
